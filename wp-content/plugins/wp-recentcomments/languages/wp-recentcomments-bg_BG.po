@@ -1,0 +1,157 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP-RecentComments 1.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-12-23 21:41+0800\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Emil Minev <emil.minev@dir.bg>\n"
+"Language-Team: NeoEase <http://www.neoease.com/plugins/>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Bulgarian\n"
+"X-Poedit-Country: BULGARIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: core.php:43
+#: core.php:189
+msgid "Loading"
+msgstr "Зарежда се"
+
+#: core.php:100
+msgid "Anonymous"
+msgstr "Анонимен"
+
+#: core.php:119
+msgid "Pingback:"
+msgstr ""
+
+#: core.php:121
+msgid "Trackback:"
+msgstr ""
+
+#: core.php:123
+msgid "on"
+msgstr "на"
+
+#: core.php:142
+msgid "&laquo; Newest"
+msgstr "&laquo; Най-нови"
+
+#: core.php:155
+msgid "&laquo; Newer"
+msgstr "&laquo; По-нови"
+
+#: core.php:161
+msgid "Older &raquo;"
+msgstr "По-стари &raquo;"
+
+#: core.php:214
+msgid "Y/m/d"
+msgstr "d/m/Y"
+
+#: core.php:215
+msgid "H:i"
+msgstr ""
+
+#: core.php:216
+#, php-format
+msgid "%1$s - %2$s"
+msgstr ""
+
+#: core.php:229
+msgid "&laquo; Back"
+msgstr "&laquo; Обратно"
+
+#: core.php:327
+msgid "&raquo;"
+msgstr ""
+
+#: wp-recentcomments.php:49
+msgid "Recent Comments"
+msgstr "Последни коментари"
+
+#: wp-recentcomments.php:160
+msgid "Title: "
+msgstr "Заглавие:"
+
+#: wp-recentcomments.php:167
+msgid "Number of comments to show: "
+msgstr "Колко коментара да показва:"
+
+#: wp-recentcomments.php:171
+msgid "(at most 20)"
+msgstr "(не повече от 20)"
+
+#: wp-recentcomments.php:176
+msgid "Length of each comment: "
+msgstr "Дължина на всеки коментар:"
+
+#: wp-recentcomments.php:184
+msgid "Show post titles."
+msgstr "Показвай заглавията на статиите."
+
+#: wp-recentcomments.php:191
+msgid "Show pingback comments."
+msgstr ""
+
+#: wp-recentcomments.php:198
+msgid "Show trackback comments."
+msgstr ""
+
+#: wp-recentcomments.php:205
+msgid "Show author avatars."
+msgstr "Показвай аватари."
+
+#: wp-recentcomments.php:211
+msgid "The size of avatars: "
+msgstr "Размер на аватарите:"
+
+#: wp-recentcomments.php:215
+msgid "(8 - 96)"
+msgstr ""
+
+#: wp-recentcomments.php:220
+msgid "The position of avatars: "
+msgstr "Позиция на аватарите:"
+
+#: wp-recentcomments.php:222
+msgid "Left"
+msgstr "Ляво"
+
+#: wp-recentcomments.php:223
+msgid "Right"
+msgstr "Дясно"
+
+#: wp-recentcomments.php:230
+msgid "The default avatar: "
+msgstr "Аватар по подразбиране:"
+
+#: wp-recentcomments.php:234
+msgid "(Filename from '/wp-recentcomments/avatars/' directory or Internet address)"
+msgstr ""
+
+#: wp-recentcomments.php:240
+msgid "Show navigator buttons."
+msgstr "Показвай бутони за навигиране."
+
+#: wp-recentcomments.php:247
+msgid "Show the comments from administrators."
+msgstr "Показвай коментарите от администратори."
+
+#: wp-recentcomments.php:254
+msgid "Convert emoticons like <code>:-)</code> and <code>:-P</code> to graphics on display."
+msgstr "Преобразувай имотикони като <code>:-)</code> и <code>:-P</code> да се показват като картинка."
+
+#: wp-recentcomments.php:270
+msgid "The most recent comments"
+msgstr "Най-новите коментари"
+
+#: wp-recentcomments.php:271
+#: wp-recentcomments.php:272
+msgid "WP-RecentComments"
+msgstr ""
+

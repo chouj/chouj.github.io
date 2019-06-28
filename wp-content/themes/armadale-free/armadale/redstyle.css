@@ -1,0 +1,19 @@
+.topbars {background: url("images/redtopbarbg.gif") repeat-x;}
+.topbarright {background: url("images/redtopbarright.gif") no-repeat;}
+.topbarleft {background: url("images/redtopbarleft.gif") no-repeat;}
+
+.page_item a{color: #ec9690;}
+.page_item a:hover, .current_page_item a, .current_page_item a:hover{color: #ec9690; background: url("images/redtopbarhover.gif") no-repeat;}
+.page_item ul li a{color: #ec9690;}
+
+.navigation a {
+  background: #af4c44;
+}
+
+#searchform2 #s2 {color: #792525; background: url("images/redsearchinput.gif") no-repeat;}
+#searchform2 #searchsubmit2 {background: url("images/redsearchbutton.gif") no-repeat;}
+
+.post-date{ background: url("images/redpost-date.gif") no-repeat bottom;}
+.post-date .month{color: #d57974;}
+
+li div.comment-meta .author a, #cancel-comment-reply a, li .comment-reply a, h2#comments, h3#comments{color: #af4c44;}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Feedbutton on 抽筋儿的话语权</title>
+    <link>https://chouj.github.io/tags/feedbutton/</link>
+    <description>Recent content in Feedbutton on 抽筋儿的话语权</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
+    <lastBuildDate>Mon, 12 Mar 2007 09:07:34 +0000</lastBuildDate>
+    
+	<atom:link href="https://chouj.github.io/tags/feedbutton/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>FeedButton:制作下拉式Feed按钮</title>
+      <link>https://chouj.github.io/2007/03/12/feedbutton/</link>
+      <pubDate>Mon, 12 Mar 2007 09:07:34 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/03/12/feedbutton/</guid>
+      <description>FEEDBUTTON
+这个站很早就有了，很多人都选用该站制作的Feed Button，其优点是“One Button, For All XML/RSS Readers”。
+Replace All These（取代这些）:
+只需要一个按钮，当鼠标移动到按钮上时，其隐藏的下拉菜单就显示出来，里面囊括支持各样阅读器的按钮。技术简单，但很实用，Blog上不用罗列大堆Feed按钮了，美观又节约地盘。
+现有两种菜单样式，一种是两列式，一种是一列式，两列式效果如下：
+
+想拥有这样一个按钮菜单基本不需要什么步骤：
+在“Create My Feed Button”下的选框中，填入您的Feed地址，再点击其下的“Make My Feed Button”按钮即可生成代码，然后将所生成的代码添加到您blog上需要的位置即告完成。
+Chou觉得下拉菜单中的诸多按钮还是乱了点儿，模样不统一，:)
+Technorati Tags: FeedButton, button
+Powered by ScribeFire. </description>
+    </item>
+    
+  </channel>
+</rss>

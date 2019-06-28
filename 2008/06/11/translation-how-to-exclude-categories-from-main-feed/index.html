@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8" />
+
+  
+  <title>[翻译]如何让WP一分类下的文章不在Feed输出</title>
+
+  
+  
+  <link href="//cdn.jsdelivr.net" rel="dns-prefetch">
+  <link href="//cdnjs.cloudflare.com" rel="dns-prefetch">
+  
+  <link href="//at.alicdn.com" rel="dns-prefetch">
+  
+  <link href="//fonts.googleapis.com" rel="dns-prefetch">
+  <link href="//fonts.gstatic.com" rel="dns-prefetch">
+  
+  
+  
+  <link href="//www.google-analytics.com" rel="dns-prefetch">
+  
+
+  
+
+  
+  <meta name="author" content="Chouj">
+  <meta name="description" content="原文：How to modify your WordPress RSS Feed
+作者：Kriesi
+译者：抽筋儿
+WordPress自动生成的RSS Feed是默认输出每个目录分类下的每一篇日志的，但有时，我们想唠叨下又不想打扰到关注有意义信息的订阅者，怎么办呢？只需要把唠叨的日志归类到一个分类，然后在Feed里让该分类下日志不显示就OK咯！
+如何实现呢？方法有二：
+ 通过URL除掉分类下日志的Feed显示； 通过一个小函数除掉分类下日志的Feed显示。 ">
+
+  
+  
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@gohugoio">
+    <meta name="twitter:title" content="[翻译]如何让WP一分类下的文章不在Feed输出">
+    <meta name="twitter:description" content="原文：How to modify your WordPress RSS Feed
+作者：Kriesi
+译者：抽筋儿
+WordPress自动生成的RSS Feed是默认输出每个目录分类下的每一篇日志的，但有时，我们想唠叨下又不想打扰到关注有意义信息的订阅者，怎么办呢？只需要把唠叨的日志归类到一个分类，然后在Feed里让该分类下日志不显示就OK咯！
+如何实现呢？方法有二：
+ 通过URL除掉分类下日志的Feed显示； 通过一个小函数除掉分类下日志的Feed显示。 ">
+    <meta name="twitter:image" content="/images/avatar.png">
+  
+
+  
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="[翻译]如何让WP一分类下的文章不在Feed输出">
+  <meta property="og:description" content="原文：How to modify your WordPress RSS Feed
+作者：Kriesi
+译者：抽筋儿
+WordPress自动生成的RSS Feed是默认输出每个目录分类下的每一篇日志的，但有时，我们想唠叨下又不想打扰到关注有意义信息的订阅者，怎么办呢？只需要把唠叨的日志归类到一个分类，然后在Feed里让该分类下日志不显示就OK咯！
+如何实现呢？方法有二：
+ 通过URL除掉分类下日志的Feed显示； 通过一个小函数除掉分类下日志的Feed显示。 ">
+  <meta property="og:url" content="https://chouj.github.io/2008/06/11/translation-how-to-exclude-categories-from-main-feed/">
+  <meta property="og:image" content="/images/avatar.png">
+
+
+
+
+<meta name="generator" content="Hugo 0.55.6">
+
+
+<link rel="canonical" href="https://chouj.github.io/2008/06/11/translation-how-to-exclude-categories-from-main-feed/">
+
+<meta name="renderer" content="webkit">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="format-detection" content="telephone=no,email=no,adress=no">
+<meta http-equiv="Cache-Control" content="no-transform">
+
+
+<meta name="robots" content="index,follow">
+<meta name="referrer" content="origin-when-cross-origin">
+
+
+
+
+
+
+
+<meta name="theme-color" content="#02b875">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="抽筋儿的话语权">
+<meta name="msapplication-tooltip" content="抽筋儿的话语权">
+<meta name='msapplication-navbutton-color' content="#02b875">
+<meta name="msapplication-TileColor" content="#02b875">
+<meta name="msapplication-TileImage" content="/icons/icon-144x144.png">
+<link rel="icon" href="https://chouj.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://chouj.github.io/icons/icon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://chouj.github.io/icons/icon-32x32.png">
+<link rel="icon" sizes="192x192" href="https://chouj.github.io/icons/icon-192x192.png">
+<link rel="apple-touch-icon" href="https://chouj.github.io/icons/icon-152x152.png">
+<link rel="manifest" href="https://chouj.github.io/manifest.json">
+
+
+<link rel="preload" href="https://chouj.github.io/styles/main-rendered.min.css" as="style">
+
+
+<link rel="preload" href="https://fonts.googleapis.com/css?family=Lobster" as="style">
+<link rel="preload" href="https://chouj.github.io/images/avatar.png" as="image">
+<link rel="preload" href="https://chouj.github.io/images/grey-prism.svg" as="image">
+
+
+<style>
+  body {
+    background: rgb(244, 243, 241) url('/images/grey-prism.svg') repeat fixed;
+  }
+</style>
+<link rel="stylesheet" href="https://chouj.github.io/styles/main-rendered.min.css">
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.2/dist/medium-zoom.min.js"></script>
+
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/video.js@7.3.0/dist/video-js.min.css">
+
+
+
+  
+  
+<!--[if lte IE 8]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/videojs-ie8@1.1.2/dist/videojs-ie8.min.js"></script>
+<![endif]-->
+
+<!--[if lte IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/eligrey-classlist-js-polyfill@1.2.20180112/classList.min.js"></script>
+<![endif]-->
+
+
+</head>
+  <body>
+    <div class="suspension">
+      <a role="button" aria-label="Go to top" title="Go to top" class="to-top is-hide"><span class="icon icon-up" aria-hidden="true"></span></a>
+      
+        
+      
+    </div>
+    
+    
+  <header class="site-header">
+  <a href="https://chouj.github.io/"><img class="avatar" src="https://chouj.github.io/images/avatar.png" alt="Avatar"></a>
+  
+  <h2 class="title"><a href="https://chouj.github.io/">抽筋儿的话语权</a></h2>
+  
+  <p class="subtitle">努力作个有情调的人，“调”字念二声。</p>
+  <button class="menu-toggle" type="button" aria-label="Main Menu" aria-expanded="false" tab-index="0">
+    <span class="icon icon-menu" aria-hidden="true"></span>
+  </button>
+
+  <nav class="site-menu collapsed">
+    <h2 class="offscreen">Main Menu</h2>
+    <ul class="menu-list">
+      
+      
+      
+      
+        <li class="menu-item
+          
+          
+           is-active">
+          <a href="https://chouj.github.io/">Home</a>
+        </li>
+      
+        <li class="menu-item
+          
+          
+          ">
+          <a href="https://chouj.github.io/tags/">Tags</a>
+        </li>
+      
+    </ul>
+  </nav>
+  <nav class="social-menu collapsed">
+    <h2 class="offscreen">Social Networks</h2>
+    <ul class="social-list"></ul>
+  </nav>
+</header>
+
+  <section class="main post-detail">
+    <header class="post-header">
+      <h1 class="post-title">[翻译]如何让WP一分类下的文章不在Feed输出</h1>
+      <p class="post-meta">@Chouj · Jun 10, 2008 · 1 min read</p>
+    </header>
+    <article class="post-content"><p><a rel="attachment wp-att-94" href="http://aboutrss.cn/2008/06/translation-how-to-exclude-categories-from-main-feed/wordpressfeed/"><img class="alignleft size-medium wp-image-94" title="wordpressfeed" src="http://pic.yupoo.com/xcchris/309805b2a084/qye3bzys.jpg" alt="wordpressfeed" width="100" height="100" /></a>原文：<a title="How to modify your WordPress RSS Feed - Kriesi" href="http://www.kriesi.at/archives/how-to-modify-your-wordpress-rss-feed" target="_blank">How to modify your WordPress RSS Feed</a></p>
+
+<p>作者：Kriesi</p>
+
+<p>译者：<a href="http://www.xuchi.name/blog" target="_blank">抽筋儿</a></p>
+
+<p>WordPress自动生成的RSS Feed是默认输出每个目录分类下的每一篇日志的，但有时，<strong>我们想唠叨下又不想打扰到关注有意义信息的订阅者</strong>，怎么办呢？只需要把唠叨的日志归类到一个分类，然后在Feed里让该分类下日志不显示就OK咯！</p>
+
+<p>如何实现呢？方法有二：</p>
+
+<ol>
+<li>通过URL除掉分类下日志的Feed显示；</li>
+<li>通过一个小函数除掉分类下日志的Feed显示。</li>
+</ol>
+
+<p>两种方法都很简单，<strong>首先要知道分类的ID</strong>。WP 2.5版以前，在控制面板“管理”-&gt;“分类”下面即可见分类ID；在WP 2.5之后，这些分类ID不直接显示出来了，但可以通过分类链接来判断：控制面板“管理”-&gt;“分类”下，各分类对应的链接即包含分类ID，如下图所示：</p>
+
+<p><a rel="attachment wp-att-95" href="http://aboutrss.cn/2008/06/translation-how-to-exclude-categories-from-main-feed/cat-id/"><img class="alignnone size-full wp-image-95" title="cat-id" src="http://pic.yupoo.com/xcchris/027365b2a0d4/nyg5bvdr.jpg" alt="cat-id" width="424" height="324" /></a></p>
+
+<p>所以，如果你想把ID为20的分类在Feed中除掉，就<strong>在Feed地址后面加上&#8221;?cat=-20&#8243;(不要引号)</strong>就好了。</p>
+
+<p>例如：</p>
+
+<ul>
+<li>正常Feed：<a href="http://www.kriesi.at/feed">http://www.kriesi.at/feed</a></li>
+<li>调整后的Feed：<a href="http://www.kriesi.at/feed?cat=-20">http://www.kriesi.at/feed?cat=-20</a></li>
+<li>要是想灭掉更多目录：<a href="http://www.kriesi.at/feed?cat=-20&amp;cat=-21&amp;cat=-22">http://www.kriesi.at/feed?cat=-20&amp;cat=-21&amp;cat=-22</a></li>
+</ul>
+
+<p>可惜，这种Feed地址挺不好看的，所以我们可以借助Feedburner之类的烧制服务来美化。但要注意的是，Feedburner所接纳的句法有点小差异，我们不能用“与”符号“＆”，需要改用逗号：</p>
+
+<ul>
+<li><a href="http://www.kriesi.at/feed?cat=-20,-21,-22">http://www.kriesi.at/feed?cat=-20,-21,-22</a></li>
+</ul>
+
+<p>方法一介绍完咯，下面介绍方法二。不想用如上方法的话，可以看看用小函数滴方法。只要在functions.php里加入如下code就好：</p>
+
+<p><coolcode linenum="off">function my_cat_exclude($query) {</p>
+
+<p>if ($query-&gt;is_feed) {</p>
+
+<p>$query-&gt;set(&#8216;cat&#8217;,&#8217;-20,-21,-22&#8242;);</p>
+
+<p>}</p>
+
+<p>return $query;</p>
+
+<p>}</p>
+
+<p>add_filter(&#8216;pre_get_posts&#8217;,&#8217;my_cat_exclude&#8217;);</coolcode></p>
+
+<p>这样就可以在不调整feed url的情况下，在feed里除去选定分类下的日志了！真是简单整洁的方法，只是没法输出多个feed，没方法一灵活。</p>
+
+<p>Hope this HELPFUL !</p>
+
+<p><strong>Update</strong>：fcicq在留言里提到，已经有这种WP插件的存在了哦，见以下：</p>
+
+<p><a title="Advanced category excluder wordpress plugin" href="http://wordpress.org/extend/plugins/advanced-category-excluder/" target="_blank"><a href="http://wordpress.org/extend/plugins/advanced-category-excluder/">http://wordpress.org/extend/plugins/advanced-category-excluder/</a></a></p></article>
+    <footer class="post-footer">
+      
+      <ul class="post-tags">
+        
+          <li><a href="https://chouj.github.io/tags/wordpress"><span class="tag">WordPress</span></a></li>
+        
+      </ul>
+      
+      <p class="post-copyright">
+        © This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.This post was published <strong>4034</strong> days ago, content in the post may be inaccurate, even wrong now, please take risk yourself.
+      </p>
+    </footer>
+    
+      
+    
+  </section>
+  
+<footer class="site-footer">
+  <p>© 2017-2019 抽筋儿的话语权</p>
+  <p>Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> with theme <a href="https://github.com/laozhu/hugo-nuo" target="_blank" rel="noopener">Nuo</a>.</p>
+  
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/smooth-scroll@15.0.0/dist/smooth-scroll.min.js"></script>
+
+
+
+<script async src="https://cdn.jsdelivr.net/npm/video.js@7.3.0/dist/video.min.js"></script>
+
+
+
+
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [['$','$'], ['\\(','\\)']],
+      displayMath: [['$$','$$'], ['\\[','\\]']],
+      processEscapes: true,
+      processEnvironments: true,
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+      TeX: { equationNumbers: { autoNumber: "AMS" },
+      extensions: ["AMSmath.js", "AMSsymbols.js"] }
+    },
+  });
+</script>
+<script type="text/x-mathjax-config">
+  // Fix <code> tags after MathJax finishes running. This is a
+  // hack to overcome a shortcoming of Markdown. Discussion at
+  // https://github.com/mojombo/jekyll/issues/199
+  MathJax.Hub.Queue(() => {
+    MathJax.Hub.getAllJax().map(v => v.SourceElement().parentNode.className += ' has-jax');
+  });
+</script>
+
+
+
+<script src="https://chouj.github.io/scripts/index.min.js"></script>
+
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('\/service-worker.js').then(function() {
+      console.log('[ServiceWorker] Registered');
+    });
+  }
+</script>
+
+
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-XXXXXXXX-X', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+
+
+
+
+
+  </body>
+</html>

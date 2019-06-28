@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>我尝试 on 抽筋儿的话语权</title>
+    <link>https://chouj.github.io/categories/%E6%88%91%E5%B0%9D%E8%AF%95/</link>
+    <description>Recent content in 我尝试 on 抽筋儿的话语权</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
+    <lastBuildDate>Fri, 19 Jan 2018 09:15:41 +0000</lastBuildDate>
+    
+	<atom:link href="https://chouj.github.io/categories/%E6%88%91%E5%B0%9D%E8%AF%95/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>用MATLAB实现便便时间间隔的定期统计分析</title>
+      <link>https://chouj.github.io/2018/01/19/%E7%94%A8matlab%E5%AE%9E%E7%8E%B0%E4%BE%BF%E4%BE%BF%E6%97%B6%E9%97%B4%E9%97%B4%E9%9A%94%E7%9A%84%E5%AE%9A%E6%9C%9F%E7%BB%9F%E8%AE%A1%E5%88%86%E6%9E%90/</link>
+      <pubDate>Fri, 19 Jan 2018 09:15:41 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2018/01/19/%E7%94%A8matlab%E5%AE%9E%E7%8E%B0%E4%BE%BF%E4%BE%BF%E6%97%B6%E9%97%B4%E9%97%B4%E9%9A%94%E7%9A%84%E5%AE%9A%E6%9C%9F%E7%BB%9F%E8%AE%A1%E5%88%86%E6%9E%90/</guid>
+      <description>&lt;p&gt;为了达成如题的目的，实现方法已经有了早期的两个版本：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;2014年：手机端手动输入便便时间，经Dropbox同步至本地PC；利用Windows计划任务定期执行统计分析的&lt;a href=&#34;http://xuchi.name/tag/matlab/&#34;&gt;MATLAB&lt;/a&gt;脚本；将结果发邮箱，再利用IFTTT发Twitter上。(见&lt;a href=&#34;https://github.com/chouj/PooAnalysis&#34;&gt;Github&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;2017年3月：应对Dropbox被墙，将便便时间记录放到&lt;a href=&#34;http://notepad.live&#34;&gt;Notepad&lt;/a&gt;上；&lt;a href=&#34;http://xuchi.name/tag/matlab/&#34;&gt;MATLAB&lt;/a&gt;里利用正则把页面上的数据读下来，再进行统计分析；同样用Windows计划任务实现定期执行。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;上述两个方案中最难坚持的部分在于：要打开手机浏览器，访问相应记录网页，再按10个数字手动输入便便时间。&lt;/p&gt;
+
+&lt;p&gt;去年10月搞定了&lt;strong&gt;第三版实现方法&lt;/strong&gt;，借助Thingspeak数据上载的timestamp，完美回避手动输入时间数据；同时脚本执行也丢去了Thingspeak；分析结果推送则通过IFTTT的webhooks发至Telegram；Thingspeak还具备利用数据作图的功能。具体如下：&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Call Bitly/Google URL shorten API in MATLAB</title>
+      <link>https://chouj.github.io/2018/01/19/call-bitlygoogle-url-shorten-api-in-matlab/</link>
+      <pubDate>Fri, 19 Jan 2018 08:31:50 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2018/01/19/call-bitlygoogle-url-shorten-api-in-matlab/</guid>
+      <description>Bitly Bitly API document: /v3/shorten
+Matlab code:
+url = &#39;https://api-ssl.bitly.com/v3/shorten?access_token={your_access_token}&amp;format=txt&amp;longUrl=http://google.com/&#39;; shortened = webread(url)  Escape character is also supported / 支持转义字符:
+url = &#39;https://api-ssl.bitly.com/v3/shorten?access_token={your_access_token}&amp;format=txt&amp;longUrl=http%3A%2F%2Fgoogle.com%2F&#39;; shortened = webread(url)  Google Google API document: URL Shortener
+First, you should have a URL shortener API key. It can be generated in the Credentials page.
+Then, the matlab code:
+url=&#39;https://www.googleapis.com/urlshortener/v1/url?key={yours}&#39;; options = weboptions(&#39;RequestMethod&#39;,&#39;post&#39;, &#39;MediaType&#39;,&#39;application/json&#39;); Body = struct(&#39;longUrl&#39;, &#39;http://www.google.com/&#39;); response = webwrite(url, Body, options);  Note：确保你的MATLAB可以科学上网(Preferences-&amp;gt;Web-&amp;gt;Internet connection里设置use a proxy)。</description>
+    </item>
+    
+    <item>
+      <title>Telegram同城广播频道的建立方法</title>
+      <link>https://chouj.github.io/2017/09/15/telegram%E5%90%8C%E5%9F%8E%E5%B9%BF%E6%92%AD%E9%A2%91%E9%81%93%E7%9A%84%E5%BB%BA%E7%AB%8B%E6%96%B9%E6%B3%95/</link>
+      <pubDate>Fri, 15 Sep 2017 02:24:40 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2017/09/15/telegram%E5%90%8C%E5%9F%8E%E5%B9%BF%E6%92%AD%E9%A2%91%E9%81%93%E7%9A%84%E5%BB%BA%E7%AB%8B%E6%96%B9%E6%B3%95/</guid>
+      <description>目标：建立一个Telegram频道，自动广播同城文娱活动，如影讯、展览、表演等。
+工具：Feed43、IFTTT。
+方法：
+以为豆瓣最近发布的同城活动页面生成RSS feed为例：
+Feed43的用法可问搜索引擎。Item (repeatable) Search Pattern的填入代码如下：
+&amp;lt;img data-lazy=&#34;{%}&#34;{*} &amp;lt;div class=&#34;title&#34;{*} &amp;lt;a href=&#34;https://www.douban.com/event/{%}/&#34; title=&#34;{%}&#34; itemprop=&#34;url&#34;&amp;gt;{*} &amp;lt;span class=&#34;hidden-xs&#34;&amp;gt;时间：&amp;lt;/span&amp;gt;{%}&amp;lt;{*} &amp;lt;span class=&#34;hidden-xs&#34;&amp;gt;地点：&amp;lt;/span&amp;gt;{%}&amp;lt;{*} &amp;lt;span class=&#34;hidden-xs&#34;&amp;gt;费用：&amp;lt;/span&amp;gt;{*} &amp;lt;strong&amp;gt;{%}&amp;lt;/strong&amp;gt;{*} &amp;lt;span class=&#34;meta-title&#34;&amp;gt;发起：&amp;lt;/span&amp;gt;{*} &amp;lt;a target=&#34;db-event-owner&#34; href=&#34;{*}&#34;&amp;gt;{%}&amp;lt;/a&amp;gt;  抓取结果如下：
+接着，RSS设置里这么填：
+如果需要全文feed，可以借助Feedex。
+然后，添加IFTTT bot作频道管理员；在IFTTT网站，If RSS Feed, then _Telegram_就好。
+广州城事频道收录了以下网页，供参考：
+广州近期同城活动、广州影讯、市民办事最新服务、旅游资讯、琶洲展览会、广东科学中心活动、广图活动发布、广少图活动发布、广州科普自由行、广州科普一日游、广州塔最新活动、中山纪念堂演出资讯、长隆缤纷活动。</description>
+    </item>
+    
+    <item>
+      <title>如何推广Telegram频道</title>
+      <link>https://chouj.github.io/2017/09/12/%E5%A6%82%E4%BD%95%E6%8E%A8%E5%B9%BFtelegram%E9%A2%91%E9%81%93/</link>
+      <pubDate>Tue, 12 Sep 2017 03:41:44 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2017/09/12/%E5%A6%82%E4%BD%95%E6%8E%A8%E5%B9%BFtelegram%E9%A2%91%E9%81%93/</guid>
+      <description>新建立了一个MATLAB TIPS的Telegram频道，欢迎加入。
+目前：
+ po了好些自己以前用到的现成脚本、函数，或前人写的技巧、教程、文档上去； 基于RSS自动发布一些Matlab相关博客的最新日志链接； 欢迎作管理员共同打理，只要顺手把自己用上的网页url发上来就好。  建好后就经历了到处发小广告做宣传的过程，在此总结一番：
+Telegram内宣传 電報群推廣 在这个TG群里发布频道链接，当频道订阅人数在50人以上时，将被推送至電報群組廣播频道；当频道订阅人数在50人以下时将暂时推送至電報新群推送頻道 。
+TGCN-群组频道狼:yum: 这是TGCN-群组索引计划的bot。添加该机器人作频道管理员（任意权限），然后转发频道任一文字信息给机器人即可完成频道添加。频道马上会发布于其索引频道@zh_groups。
+频道/群组/机器人分享 号称Telegram上的hao123。入群发布频道链接，即可将频道加入其bot@hao1234bot的索引，可以在bot和群里搜索到。
+Telegram Channels List 菜单点选注册新频道，然后将频道内容转发给该bot，选好频道分类即可。似乎是根据频道描述里的语言，把频道丢去中国频道列表或channelList English。同时，频道亦发布于其网站channelist.ir。
+群組導航 &amp;#8211; 分享/推廣 入群发布频道链接，群简介说将会被整理至频道群組導航。
+Telegram外宣传 Telegram Channels Catalog 国外的一个大型频道收集站，看起来和Telegram Bot Store是一家。用TG帐号登录后，即可添加频道。亦可用其bot添加频道，索引成功同样会出现在网站中，但bot添加的频道没有频道logo，所以推荐网站添加。似乎订阅人数较多的频道才会在其TG频道推广。
+Telegram 蒐集君 一个以WordPress搭建的群组频道收集blog。以公共帐号登入后台，编写频道宣传文章，经管理员审核后即可出现在该blog上。
+tlgrm.eu 进入频道分类页面，即可看到提交频道的加号按钮。似乎较多人订阅的频道方能显示。
+tsear.ch 添加完显示：
+ Your channel will appear in our channels and search databases within the next 2 weeks.
+ 应该是进入其网站和bot的索引。
+inten.to 可以submit yours，但过多久收录未知。</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu下基于Pure-ftpd建FTP记录</title>
+      <link>https://chouj.github.io/2013/07/31/%E4%BB%A5ftp%E4%BD%9C%E4%B8%BA%E5%B0%8F%E5%9B%A2%E9%98%9F%E5%86%85%E9%83%A8%E8%B5%84%E6%96%99%E5%85%B1%E4%BA%AB%E6%96%B9%E6%A1%88%E5%9F%BA%E4%BA%8Epure-ftpd/</link>
+      <pubDate>Wed, 31 Jul 2013 08:43:26 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2013/07/31/%E4%BB%A5ftp%E4%BD%9C%E4%B8%BA%E5%B0%8F%E5%9B%A2%E9%98%9F%E5%86%85%E9%83%A8%E8%B5%84%E6%96%99%E5%85%B1%E4%BA%AB%E6%96%B9%E6%A1%88%E5%9F%BA%E4%BA%8Epure-ftpd/</guid>
+      <description>一年前就开始寻找课题组内资料共享的解决方案，现在发现，我把事情想复杂了：在内网建外网可访问的FTP的话，以为要在单位出口网关上做映射才行，以为要搞DDNS。其实都不用。以下记录一些关键信息，备查。
+一开始尝试vsftpd，装好后发现21端口都没打开，作罢（查端口命令：#sudo netstat -npltu | grep 21）。
+安装pure-ftpd可参照网上的教程，不过其配置比较奇怪。Ubuntu 12.04下的/etc/pure-ftpd里确实有auth、db、conf三个文件夹，但官方wiki说的在conf里以选项为文件名，以选项值为文件内容进行配置，却不起作用。只好在启动命令里加switch：
+#sudo pure-ftpd -F ~/Message -lpuredb:/etc/pure-ftpd/pureftpd.pdb &amp;#8211;fscharset=gbk &amp;#8211;clientcharset=gbk -b -A -B -c15 -C5 -E -G -k95 -r -K -H &amp;amp;
+这些switch的控制作用可以在官网查。诡异的是“-l”这个，后面紧跟的虚拟用户数据库路径和“l”间居然不用空格。
+然后，在办公室Buffalo路由做端口映射，开放21端口。另外，在/etc/rsyslog.conf里做了ftp日志的单独输出，输出日志以gedit打开不能正常显示中文字符，但用配置好utf-8的GVIM打开就可以。
+目前运行良好，因为本来访问量就小。最大的问题在于WIN下部分浏览器不能正常显示中文，以致进入不了某些中文名的文件夹，最佳解决方案还是用FlashFXP等FTP工具访问。</description>
+    </item>
+    
+    <item>
+      <title>一个求解答的推特公共帐号@qna_cn</title>
+      <link>https://chouj.github.io/2013/04/23/%E4%B8%80%E4%B8%AA%E6%B1%82%E8%A7%A3%E7%AD%94%E7%9A%84%E6%8E%A8%E7%89%B9%E5%85%AC%E5%85%B1%E5%B8%90%E5%8F%B7qna_cn/</link>
+      <pubDate>Tue, 23 Apr 2013 01:58:53 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2013/04/23/%E4%B8%80%E4%B8%AA%E6%B1%82%E8%A7%A3%E7%AD%94%E7%9A%84%E6%8E%A8%E7%89%B9%E5%85%AC%E5%85%B1%E5%B8%90%E5%8F%B7qna_cn/</guid>
+      <description>ta是 @qna_cn https://twitter.com/qna_cn 
+用法： fo@qna_cn以获得入群授权，然后发文带上@qna_cn并加上 #问大家 发布； 
+会使用这个id来群发问题的目标用户： 1、在自己推上发问没反馈或反馈不多的 会fo这个id的目标用户： 2、看看大家都问些啥，有闲，愿意帮人解答的 3、看看大家都问些啥，找找有没有自己也想问的 和知乎及V2EX问与答的区别？ 1、以Twitter为平台，不需要登录。 2、问题不需要很高端，很那么回事，你可以问“二手iphone4求估价”之类即时性强的问题 如果这个id有大量活跃的fo，你也许愿意去用，只要ta的fo数大过你自己的；但我想问，你会愿意fo这样一个天天代人发问的帐号么？ 这是个关键。要是这个id不能积攒大量fo，那ta就没法生存；会堕入互动少，进而无人问津的恶性循环。
+虽然不知能否解决这个问题，但起码得有内容。所以我冒昧地用ifttt将V2EX问答区和知乎精选的内容输出到这个帐号上，算是原始积累吧。
+其实我对ta不抱太大希望，因为我搞出来的东西经常没人气，泪奔。</description>
+    </item>
+    
+    <item>
+      <title>怎样经由Twitter实现RSS Feed同步到微博</title>
+      <link>https://chouj.github.io/2013/04/12/%E6%80%8E%E6%A0%B7%E7%BB%8F%E7%94%B1twitter%E5%AE%9E%E7%8E%B0rss-feed%E5%90%8C%E6%AD%A5%E5%88%B0%E5%BE%AE%E5%8D%9A/</link>
+      <pubDate>Fri, 12 Apr 2013 06:41:49 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2013/04/12/%E6%80%8E%E6%A0%B7%E7%BB%8F%E7%94%B1twitter%E5%AE%9E%E7%8E%B0rss-feed%E5%90%8C%E6%AD%A5%E5%88%B0%E5%BE%AE%E5%8D%9A/</guid>
+      <description>RSS Feed to Twitter: IFTTT, TwitterFeed, etc. Twitter Tweets to Weibo: twitter-to-weibo-appengine  感谢GAE、github、新浪微博Gtalk机器人。
+警告：一折腾就死星人请绕行。</description>
+    </item>
+    
+    <item>
+      <title>阵痛之后 方显生命璋华</title>
+      <link>https://chouj.github.io/2011/06/13/%E9%98%B5%E7%97%9B%E4%B9%8B%E5%90%8E-%E6%96%B9%E6%98%BE%E7%94%9F%E5%91%BD%E7%92%8B%E5%8D%8E/</link>
+      <pubDate>Mon, 13 Jun 2011 02:19:19 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2011/06/13/%E9%98%B5%E7%97%9B%E4%B9%8B%E5%90%8E-%E6%96%B9%E6%98%BE%E7%94%9F%E5%91%BD%E7%92%8B%E5%8D%8E/</guid>
+      <description>闲来以Project Babel 2建了个社区，实现了GAE域名绑定和反向代理。
+本来很气，因为我吆喝之时，总有人说没人气。那时私以为，没注过id，没发过贴，没对社区内容做出贡献的童鞋，没有资格说人少没人气，没有资格坐享我的劳动成果；没有付出，就想坐享其成——就像没写过一个字就能发文章一样——是不现实的，是我看不惯的，是悖论，觉得是对我劳动成果的不尊重。而我不会也不可能弄无数僵尸马甲在这里打情骂俏来制造虚假繁荣来恶心自己。
+后来释然了，多亏海洋学中的尺度分析。
+社区望能以前人的见识和经验为后人节约生活方面的时间经济成本，这本就是个大尺度的过程。而且我得承认，这在UGC方面，在吸引用户创造和分享内容方面存在难点，不是单单提供一个平台就足够的。就目前知道这里的人数看，这个基数太小，也难为大家在初识的时候不说没人。所以我还要继续吆喝，即便被说没人。到什么时候为止?这个时间尺度就是我说的大尺度了。基数的积累我想需要几代南海人的努力和积淀，只有在若干年后知道这里的人足够的多，“没人气”的 帽子才能摘掉，那时我才能欣慰，并以创建者的身份骄傲。而你们是&amp;#8221;生不逢时&amp;#8221;的元老：与那时初识社区的人相比，你们是不幸的，因为你们一开始遇到的是刚出生的社区；但你们又是幸运的，因为见证了生命呱呱落地的奇迹。
+没错，相比这么长的周期而言，现在只是阵痛。阵痛之后，方显生命璋华。</description>
+    </item>
+    
+    <item>
+      <title>表示缺钱，所以要千人挑战一把</title>
+      <link>https://chouj.github.io/2011/06/02/%E8%A1%A8%E7%A4%BA%E7%BC%BA%E9%92%B1%E6%89%80%E4%BB%A5%E8%A6%81%E5%8D%83%E4%BA%BA%E6%8C%91%E6%88%98%E4%B8%80%E6%8A%8A/</link>
+      <pubDate>Thu, 02 Jun 2011 09:19:29 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2011/06/02/%E8%A1%A8%E7%A4%BA%E7%BC%BA%E9%92%B1%E6%89%80%E4%BB%A5%E8%A6%81%E5%8D%83%E4%BA%BA%E6%8C%91%E6%88%98%E4%B8%80%E6%8A%8A/</guid>
+      <description>四月五月是缴域名费和主机费的时间段。这比开支需要找些收益填掉，毕竟卖链接的日子和写Feedsky软文的日子一去不返了（虽然也没捞到多少）。如果这个活动成功的话，加入的前1000名博主可以每人分到50块RMB（其实分Bitcoin也行）。填一点儿是一点儿，坑浅些，摔得轻。
+拿福能是从东南亚发迹的博客广告社区，面对亚太地区。和一般的博客广告商不同的是，他们有些线下和博主互动的活动（不过目前只有北京和香港，且活动列表的最新条目显示是2009年，囧）。我在豆瓣上收到拿福能客服的豆邮介绍和邀请，感觉挺亲和，便以尝试的心态加入了，毕竟小博客盈利的方法很少。加入之后，拿福能一直没什么动作，中国这一块儿似乎还在招兵买马的宣传阶段，希望以后能快马加鞭步入正轨。
+如果也想挣50外加拿福能中国版徽章，参照“千人挑战”的说明页面，注册发文提交日志链接即可。</description>
+    </item>
+    
+    <item>
+      <title>摆摆书架:让闲置书有用武之地</title>
+      <link>https://chouj.github.io/2010/12/01/bookforus/</link>
+      <pubDate>Wed, 01 Dec 2010 09:41:40 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2010/12/01/bookforus/</guid>
+      <description>处置闲书的好地方啊，新加入的用户还可以免费借一本书。
+之后有闲书，不留的书，就放到摆摆书架来。每借出一本，就再可以免费借入一本。
+我放上去两本，借出了一本《名博是怎样炼成的》，借入了一本《长尾理论》。操作流程顺畅，UI很漂亮，每本书都有豆瓣链接可以看详细信息。我的id：抽筋儿
+大家都来补充书，构造超全流动书库，就不愁没书看了。“书非借不能读也”，哈哈。
+目前摆摆书架在内测中，可以来以下地址索取邀请码：
+ 开发者博客 豆瓣小组 v2ex  摆摆书架规则：http://bookfor.us/about/ 
+其他介绍：摆摆书架：社会化图书馆
+[ 点此进入：摆摆书架 ]</description>
+    </item>
+    
+    <item>
+      <title>在WebQQ 2.0添加推特为WEB OS桌面应用</title>
+      <link>https://chouj.github.io/2010/09/14/insert-twitter-to-webqq20/</link>
+      <pubDate>Tue, 14 Sep 2010 11:25:49 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2010/09/14/insert-twitter-to-webqq20/</guid>
+      <description>疼逊终于又上线了一款华丽丽的产品：Web QQ 2.0，我赶把时髦，体验过后觉得尚佳。
+发现它也可以像Chrome那样，将网站存储成桌面应用，在桌面一点即开。当然WebQQ存出来的是Web OS桌面应用。遂以Twitter网页客户端推操蛋为例，图示如下，点击放大：
+点击浏览网页，打开推操蛋，点击左上红框，即可自定义应用信息：
+
+低调起见，还是不把推操蛋共享了。在上方的下拉图标菜单里，就有建好的应用图标啦。以后在任一台电脑登录，都会有这个应用：
+
+疼逊终归还是将眼光放得稍微长远些了啊。</description>
+    </item>
+    
+    <item>
+      <title>我所用的10&#43;Chrome扩展</title>
+      <link>https://chouj.github.io/2010/07/31/favorite-chrome-extensions/</link>
+      <pubDate>Sat, 31 Jul 2010 09:41:34 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2010/07/31/favorite-chrome-extensions/</guid>
+      <description>&lt;p&gt;&lt;a title=&#34;Google Chrome Extensions&#34; href=&#34;https://chrome.google.com/extensions&#34; target=&#34;_self&#34;&gt;&lt;img src=&#34;https://www.google.com/intl/en/images/logos/chrome_extensions_logo.gif&#34; border=&#34;0&#34; alt=&#34;Chrome Extensions&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;点击图片链接进入扩展页面（若图片无法显示，请进入扩展页面后再刷新本页）：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://addons.mozilla.org/en-US/firefox/images/addon_icon/173/1275608192&#34; border=&#34;0&#34; alt=&#34;&#34; /&gt;&lt;span style=&#34;font-size: 14.4px;&#34;&gt;Google Mail Checker &lt;img style=&#34;width: 10px; height: 9px; display: inline; padding: 0px; margin: 0px; border: 0px initial initial;&#34; src=&#34;https://chrome.google.com/reviews/images/small_star_full-f3f7fc.gif&#34; alt=&#34;&#34; /&gt;&lt;img style=&#34;width: 10px; height: 9px; display: inline; padding: 0px; margin: 0px; border: 0px initial initial;&#34; src=&#34;https://chrome.google.com/reviews/images/small_star_full-f3f7fc.gif&#34; alt=&#34;&#34; /&gt;&lt;img style=&#34;width: 10px; height: 9px; display: inline; padding: 0px; margin: 0px; border: 0px initial initial;&#34; src=&#34;https://chrome.google.com/reviews/images/small_star_full-f3f7fc.gif&#34; alt=&#34;&#34; /&gt;&lt;img style=&#34;width: 10px; height: 9px; display: inline; padding: 0px; margin: 0px; border: 0px initial initial;&#34; src=&#34;https://chrome.google.com/reviews/images/small_star_full-f3f7fc.gif&#34; alt=&#34;&#34; /&gt;&lt;img style=&#34;width: 10px; height: 9px; display: inline; padding: 0px; margin: 0px; border: 0px initial initial;&#34; src=&#34;https://chrome.google.com/reviews/images/small_star_half-f3f7fc.gif&#34; alt=&#34;&#34; /&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a style=&#34;color: #0000cc;&#34; title=&#34;点击进入Google Mail Checker&#34; href=&#34;https://chrome.google.com/extensions/detail/mihcahmgecmbnbcchbopgniflfhgnkff&#34;&gt;&lt;img style=&#34;width: 243px; height: 170px; padding: 0px; margin: 0px; border: 0px initial initial;&#34; src=&#34;https://chrome.google.com/extensions/img/mihcahmgecmbnbcchbopgniflfhgnkff/1276209361.53/screenshot/1&#34; alt=&#34;Google Mail Checker&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;不多说了，查Gmail的&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&#34;font-size: 14.4px;&#34;&gt;&lt;img src=&#34;https://addons.mozilla.org/en-US/firefox/images/addon_icon/3615/1279229372&#34; border=&#34;0&#34; alt=&#34;&#34; /&gt; &lt;span style=&#34;font-size: 14.4px;&#34;&gt;Delicious BookMarks Extension(Beta) &lt;img style=&#34;width: 10px; height: 9px; display: inline; padding: 0px; margin: 0px; border: 0px initial initial;&#34; src=&#34;https://chrome.google.com/reviews/images/small_star_full-f3f7fc.gif&#34; alt=&#34;&#34; /&gt;&lt;img style=&#34;width: 10px; height: 9px; display: inline; padding: 0px; margin: 0px; border: 0px initial initial;&#34; src=&#34;https://chrome.google.com/reviews/images/small_star_full-f3f7fc.gif&#34; alt=&#34;&#34; /&gt;&lt;img style=&#34;width: 10px; height: 9px; display: inline; padding: 0px; margin: 0px; border: 0px initial initial;&#34; src=&#34;https://chrome.google.com/reviews/images/small_star_full-f3f7fc.gif&#34; alt=&#34;&#34; /&gt;&lt;img style=&#34;width: 10px; height: 9px; display: inline; padding: 0px; margin: 0px; border: 0px initial initial;&#34; src=&#34;https://chrome.google.com//reviews/images/small_star_half-f3f7fc.gif&#34; alt=&#34;&#34; /&gt;&lt;img style=&#34;width: 10px; height: 9px; display: inline; padding: 0px; margin: 0px; border: 0px initial initial;&#34; src=&#34;https://chrome.google.com/reviews/images/small_star_empty-f3f7fc.gif&#34; alt=&#34;&#34; /&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://chrome.google.com/extensions/detail/lnejbeiilmbliffhdepeobjemekgdnok&#34; title=&#34;点击进入Delicious Bookmarks Extension (Beta)&#34;&gt;&lt;img style=&#34;width: 396px; height: 342px; padding: 0px; margin: 0px; border: 0px initial initial;&#34; src=&#34;https://chrome.google.com/extensions/img/lnejbeiilmbliffhdepeobjemekgdnok/1279828762.34/screenshot/1&#34; alt=&#34;Delicious BookMarks Extension(Beta)&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;美味书签的官方扩展。delicious的扩展蛮多的，不乏优秀扩展。我用的是官方的。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>自制笔记本小贴纸</title>
+      <link>https://chouj.github.io/2009/12/23/laptop-sticker-diy/</link>
+      <pubDate>Wed, 23 Dec 2009 09:28:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2009/12/23/laptop-sticker-diy/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://farm4.static.flickr.com/3071/3037182759_b7afbdf499.jpg&#34; border=&#34;0&#34; alt=&#34;@shizhao老师的笔记本儿&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;( &lt;a title=&#34;cool notebook at CNBloggerCon 2008&#34; href=&#34;http://www.flickr.com/photos/elliottng/3037182759/&#34; target=&#34;_blank&#34;&gt;via&lt;/a&gt; )&lt;/p&gt;
+
+&lt;p&gt;最近迷恋于laptop stickers，梦想折腾成题图&lt;a title=&#34;@shizhao&#34; href=&#34;https://twitter.com/shizhao&#34; target=&#34;_blank&#34;&gt;@shizhao&lt;/a&gt;老师的那样。本来希冀于从网上买，但被推友驳回，说还不如自己做。OK，我就自己做吧。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>东莞足迹</title>
+      <link>https://chouj.github.io/2009/08/04/dongguan/</link>
+      <pubDate>Tue, 04 Aug 2009 15:04:02 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2009/08/04/dongguan/</guid>
+      <description>探访大学同学，去了趟东莞。这是第二次到东莞，第一次从东莞回去后就诞生了这个，那么这次要讲点新玩意儿。
+南沙航次归来，入了BB8310，受教于fisio，所以借东莞之机依葫芦画瓢：东莞足迹@GPSed
+路线和照片详见http://gpsed.com/track/13111726959591668
+ 手机端软件相当强大易用，不过将其开启并置于底层一直工作是相当耗电的，我的BB坚持了20小时左右的track就没电了。 GPS卫星通信不需要手机信号，关掉手机信号来节约电量。 露天、静止状态才能锁定卫星，否则就是GPS initialization。不过我本以为只追踪到了小段露天徒步的轨迹，后来发现似乎大部分轨迹都能追踪到，只是漂移和跳跃严重。 在GPSed.com只有卫星模式能看，地图模式存在我国特有的偏移。当然，这网站需要注册。 鉴于Picasa被盾，包含Exif信息的照片存放在了Flickr。  这个应用灰常GEEK，倚仗有强劲的电量的手机、GPS和网络即可打造完美得出游路径追踪和照片附着，相当激动人心啊。小试牛刀七成成功，以后爬个山、逛个景儿啥的就可以拿这套来招呼了。:)</description>
+    </item>
+    
+    <item>
+      <title>黑莓7230死机重启后再激活上网的技巧</title>
+      <link>https://chouj.github.io/2009/03/11/blackberry7230-reset-and-active/</link>
+      <pubDate>Wed, 11 Mar 2009 08:10:45 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2009/03/11/blackberry7230-reset-and-active/</guid>
+      <description>生命不息，折腾不止，黑莓完好的符合了这一精神，尤其是在我把7230折腾上cmwap之后。
+似乎因为软件稳定性问题，我的BB总是会遭遇jvm 523 error系统进程严重错误，然后要求reset。再想上网就成了大问题，坛子里都说要重新导入Service Book云云，这要是在外面没电脑可咋办。综合网上资料摸索了番，发现如下方法可行：
+ 黑莓死机或其他原因重启后，按shift(键位上A下面那坨)-alt(黑莓上cap这坨)-del三键再重启，重启过程挺快； 然后到Options里的Service Book，把internet[IPPP]undelete恢复回来； 再到TCP里置为空； 打开QQ(肯定有QQ的吧)，登录，进度走到10直到说网络不好连接中断； 回到Options里Service Book，把IPPP这个再删掉，TCP里填上cmwap（我是用的cmwap）； 再开QQ登录，就可以登上啦～～（至少我的这样可以成功）  解决jvm 523 error还是得靠软件，我换成BerryMail的QQ05就好了，没再error reset。现在可以上空中OperaMini、QQ、MSN了，就是Xrose连接不上，放弃之。</description>
+    </item>
+    
+    <item>
+      <title>Matlab：如何以线上点的颜色表示强度</title>
+      <link>https://chouj.github.io/2008/09/07/color-scatter-in-matlab/</link>
+      <pubDate>Sun, 07 Sep 2008 09:03:45 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2008/09/07/color-scatter-in-matlab/</guid>
+      <description>Matlab是一款极其好用的数学计算绘图软件。在科研用图绘制功能中，最常见的即为绘制等值线图，这也是一般同学们都掌握的。大家都知道，二维填充等值线图的coutourf(X,Y,Z,n)中，Z=f(X,Y)是一个矩阵，代表X,Y平面上的每一个点对应的值，颜色则表示该值的高低。也就是说，用这个画出来的是一个彩色的面，比如：
+但是，如果Z是一维向量呢？如果我们手上就只有某些X,Y对应的Z值，也不能虚构其他的点值来添进，这时候我们想表示强度怎么办呢？用Plot3吗？没错Plot3确实可以，但3维图并不是很容易识别的。如果想以颜色表示该点某物理量的强度，那又怎么画呢？
+本文就来告诉你，怎么实现点线中用点的颜色表示强度。科研中是会出现这种需要的，比方画卫星轨道、走航轨迹上一些诸如海表面高度、气溶胶浓度之类参量的时候。.
+比方我们有三个一维向量：lon,lat,ssha,分别代表卫星高度计数据中的经度(microdegree)、纬度(microdegree)、海表面高度距平(cm)。用matlab散点图命令scatter即可达到我们的目的。命令格式是：
+ scatter(X,Y,,,&amp;rsquo;&amp;#8217;);
+ &amp;#8211; 点的大小控制，设为和X，Y同长度一维向量，则值决定点的大小；设为常数或缺省，则所有点大小统一。
+ &amp;#8211; 点的颜色控制，设为和X，Y同长度一维向量，则色彩由值大小线性分布；设为和X，Y同长度三维向量，则按colormap RGB值定义每点颜色，[0,0,0]是黑色，[1,1,1]是白色。缺省则颜色统一。
+ &amp;#8211; 点型：可选filled指代填充，缺省则画出的是空心圈。
+ 这样，我们就可以得到以经纬度点的颜色表示海表面高度距平的图，使用命令：
+   scatter(lon,lat,3,ssha);
+   得到图如下：
+似乎不是特别直观，那么我们再利用m_map地图工具，将陆地绘制上。此时要注意以下几点：
+ m_map中经纬以十进制数目表示，不是度分秒形式，且东经为正，西经为负。数据的经纬度一定要符合此形式。 m_map中投影地图的坐标并不是实际经纬，需要以m_ll2xy.m（就是longitude &amp;amp; latitude to x-y coordinates）将数据中的经纬转化为投影地图中可用的坐标。例如：&amp;gt;&amp;gt;[X,Y]=m_ll2xy(lon,lat);  命令实例：
+   hold on
+m_proj(&amp;#8216;miller&amp;#8217;,&amp;#8217;lon&amp;#8217;,[0 250],&amp;#8217;lat&amp;#8217;,[-80 80]); % 设置投影、经纬
+m_coast(&amp;#8216;patch&amp;#8217;,[.7 .7 .7],&amp;#8217;edgecolor&amp;#8217;,&amp;#8217;none&amp;#8217;); % 画岸界，填充大陆
+m_grid(&amp;#8216;xlabeldir&amp;#8217;,&amp;#8217;end&amp;#8217;,&amp;#8217;fontsize&amp;#8217;,10); % 显示网格，并显示label
+scatter(lon,lat,3,ssha);
+   得图：
+[教程完]其实很简单，但网络上关于这类画法的指导基本没有，所以稍稍写下，望能帮助到需要的人。</description>
+    </item>
+    
+    <item>
+      <title>QQ群小秘密</title>
+      <link>https://chouj.github.io/2008/07/01/secret-of-qq-group/</link>
+      <pubDate>Mon, 30 Jun 2008 17:15:25 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2008/07/01/secret-of-qq-group/</guid>
+      <description>vs
+*****\** 测试分割线 one ********
+vs
+*****\** 测试分割线 two ********
+vs
+*****\** Post Script ********</description>
+    </item>
+    
+    <item>
+      <title>我使用的博客虚拟主机</title>
+      <link>https://chouj.github.io/2008/05/28/my-blog-host/</link>
+      <pubDate>Tue, 27 May 2008 18:12:35 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2008/05/28/my-blog-host/</guid>
+      <description>写这么一篇文章，我就能从总统那里收获拾元人民币，这个数在我整个blog月收入里占到99.99%，所以我写的义无反顾义不容辞，心甘情愿被他收买，为其做病毒式传销。嘿嘿。当然，货肯定是好货，包满意。
+
+侧栏最下的这个标识表征了我目前使用的主机，它也正是本话题广告的主角：总统的WordPress中文站所提供的博客主机。
+和总统认识挺久的了，那还是在他代理盘古主机的时候，我从他手上买入了第一款虚拟空间来架设独立blog。但盘古服务不大稳定，诟病较多，总统弃而自谋美国主机HostGator，开始组织主机合租。我在盘古空间到期之后，就立即扑入了总统WordPress专业主机的怀抱（麻死人不偿命）。
+二号主机上线运行以来，一直表现良好，总统的服务也是尽心尽力，热心到位，此次抽奖活动反映出总统是一位善良的商人（囧，hoho），得到了二号主机用户的普遍爱戴。
+现在总统组织的四号主机合租正在进行中，四号主机和二号主机具备同样的规格，大体是：
+ 磁盘空间：500M； 每月流量：5G； 可绑定顶级域名：3个； 可绑定子域名：10个； 可用数据库：3个； 独立的Cpanel帐户：1个，中英文可切换；  具体参数和细节问题可前去博客主机页面查看，欢迎垂询。
+写完咯，开始惦记钱钱&amp;#8230;</description>
+    </item>
+    
+    <item>
+      <title>乌班兔好好玩</title>
+      <link>https://chouj.github.io/2008/05/22/funny-ubuntu/</link>
+      <pubDate>Thu, 22 May 2008 06:19:29 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2008/05/22/funny-ubuntu/</guid>
+      <description>乌班兔果然比其他兔子好玩多啦，因为这只任人打扮的兔子会杂技和魔术。
+3D Desktop
+
+Windows Switcher
+
+Flame
+
+Google Earth &amp;amp; Real Player
+
+LumaQQ &amp;amp; Smplayer
+
+Desktop &amp;amp; Conky
+
+系统：Ubuntu 7.10 (gutsy)
+特效：Compiz Fusion
+壁纸：Sleep by David Lanham
+主题：Metacity
+图标：Ubuntoon
+配置：Conky
+Compiz Fusion更牛逼效果完整展示(7分10秒)：</description>
+    </item>
+    
+    <item>
+      <title>Cannot modify header information问题的解决方法</title>
+      <link>https://chouj.github.io/2008/04/29/cannot-modify-header-information/</link>
+      <pubDate>Tue, 29 Apr 2008 03:26:06 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2008/04/29/cannot-modify-header-information/</guid>
+      <description>昨晚升级WordPress 2.5.1 ，记事本编辑了wp-config-sample.php为wp-config.php，结果登录管理页面/wp-admin/时遭遇如下问题：
+Warning: Cannot modify header information &amp;#8211; headers already sent by ……
+搜索“Cannot modify header information”得到一票解决方法，简单说就是拿记事本编辑的php文件不是UTF-8（无BOM）编码的，更改php文件还是用Notepad++(这是一款主页上抵制北京奥*运的软件，囧)或UltraEdit靠谱。
+切换编码后保存，再上传就可以解决问题。</description>
+    </item>
+    
+    <item>
+      <title>乌班兔</title>
+      <link>https://chouj.github.io/2008/03/20/only-ubuntu/</link>
+      <pubDate>Wed, 19 Mar 2008 17:39:12 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2008/03/20/only-ubuntu/</guid>
+      <description>刚弄到本儿时，还是有瘟豆子叉屁系统的，所以折腾了几天士兵突击。还没看完，我就把瘟豆子砍了，直接引进了乌班兔，开始折腾这只兔子。
+虽然现在还停留在对着教程在终端里复制粘贴一气的程度， 但折腾这只倒霉兔子也算有趣，因为它长得和瘟豆子比较不一样。之前看一师兄对着黑乎乎的命令行界面一阵high敲，觉得特神秘，现在也吸引不到我了，不就是控制台嘛。
+之前没网，天天从办公室拷deb回来装，真是痛苦死，一气之下买了交换机，即便绑MAC绑IP，还是弄到了室友的网络，所以目前兔子被折腾成了这样：看突击不成问题了，可以QQ啦，还拿微软雅黑美化了下，并且装matlab成功，不容易啊。下一步想给兔子喝点WINE，让丫能吃点儿瘟豆子的程序，比如迅雷啥的。不多说了，上个桌面：
+PS. 全面更换各应用和服务的头像，好像有很多要换哦。</description>
+    </item>
+    
+    <item>
+      <title>小试Gregarius</title>
+      <link>https://chouj.github.io/2007/05/07/try-gregarius/</link>
+      <pubDate>Mon, 07 May 2007 12:55:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/05/07/try-gregarius/</guid>
+      <description>眼红于武大的博客聚合，在网络上苦搜RSS聚合程序。发现武大的是通过基于ASP的SXNA构架的，OK，PHP下一定也有一样的程序，果不其然被我搞到手，呵呵。捣腾这些东西貌似有一种蹂躏的快感，嗯，名曰天生BT。
+ 先入眼的就是这个Lilina，辉常好听的名字,需要 php4.3 + mbstring iconv支持，这里就是拿这玩意儿架的。试装一遍，木成功，估计是支持不够。后来发现其发育不良，主题插件都不完善，技术支持也基本没有。八成是日落西山，门前冷落了。再度寻觅ing。
+Gregarius
+马上，这玩意儿入眼了。随便介绍一下哈，Gregarius基本可以当作是自己架的抓虾，想看例子的到这里。主要缺陷是对中文的支持不大好，即便是汉化版，目前我正在四处求教中，拟解决一些中文显示的问题。
+最后倒是又听说还有个Feedonfeeds的聚合程序，不知道咋样，貌似Riku用过。先记这么多。</description>
+    </item>
+    
+    <item>
+      <title>Blogging is Earning money</title>
+      <link>https://chouj.github.io/2007/04/29/blogging-is-earning-money/</link>
+      <pubDate>Sun, 29 Apr 2007 09:00:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/04/29/blogging-is-earning-money/</guid>
+      <description>尊敬的Feedsky用户您好：
+您的广告收入已经支付到您的相应帐户，请注意查收。
+如在使用过程中碰到问题或有意见建议，欢迎您随时与我们的客服联系。
+Feedsky广告团队祝您使用愉快
+Feedsky团队敬上
+Feedsky.com ©2007 All Rights Reserved  不是我不明白，是时代变化快！写几百个字就能拿到相当一件廉价T恤的收入，看来我可以充分实现T恤的自给自足：线上收钱，线上订货，线上付账。这玩意儿要是告诉我妈，不知道她是该把我当疯子呢，还是会眼冒绿光杀进Blog圈？唉，其实，估计我告诉我身边的同学，都会有人把我当疯子呢。
+Pagerank最近又有所调整，我那没怎么打理的RSS相关居然从0窜到了3，着实让人匪夷所思，是不是说明主题Blog更有生命力？该有所侧重？
+Donews Blog的后台还是进不去，真是服了千橡门下这个超级2的站。
+帮导师改他们写的英语论文，头大，终于知道看不地道的英语是多么痛苦，估计积累下的语感怕是在这几天之内玩儿完了。残念～～
+CBN Forum上在讨论合租意向，如果成行的话，服务器是世纪互联的，和抓虾的服务器摆一个机房里，大概300米一年，凑不凑这个热闹呢？</description>
+    </item>
+    
+    <item>
+      <title>关于独立架站的域名设定</title>
+      <link>https://chouj.github.io/2007/04/10/about-domain/</link>
+      <pubDate>Tue, 10 Apr 2007 07:45:33 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/04/10/about-domain/</guid>
+      <description>本文写给第一次架站的朋友，老鸟请无视。
+有感于架这个blog时域名指定时的茫然，写点东西，尝试能有所解答，个人见解肯定有认识不足或出错之处，也请指教。
+先罗列几个我遇到的问题，如果您跟我一样困惑，说不定可以看看我要写的东西。
+ 1、你分的清子域名、二级域名吗？比方blog.xuchi.name和xuchi.name/blog？
+2、域名服务商提供解析，空间服务商提供绑定，这些又该如何操作呢？
+3、想指定blog地址为blog.mysite.com该怎么操作？
+4、想指定blog地址为mysite.com/blog又该怎么操作？
+ 网上教程很多，单介绍域名知识的有，单介绍虚拟主机的有，至于如上细节问题，很少见。以上几个问题可以算是对于初学者的盲点。
+解答问题一：
+其实二级域名就是子域名，像我这种计算机基础课学的不精的人，就被忽悠了。以前以为xxx.site.com是子域名、site.com/xxx是二级域名来着，但不是这样子的。二级域名（子域名）就是指一级域名（site.com）前面那部分，比如blog.site.com或mail.site.com。很多免费注册二级域名的站，就是拥有一级域名，比如yuming.com，然后开放xxx.yuming.com给用户注册。而site.com/xxx算是指向一级域名绑定目录下的子目录。更多域名知识可参考这里和这里，会很有帮助。
+解答问题二：
+这个问题涉及为什么要有域名，和域名如何工作的问题。简单来讲，只要知道网站服务器的ip，即可接入网站，域名只不过是为了方便记忆，记域名比记一串ip数字要容易的多。所以，解析、绑定，这两个词就是指域名和服务器ip之间的动作关系的。解析，指将域名指向某ip；绑定，指将空间ip和某域名捆绑映射。两者其实是一个意思。你买了域名，域名服务商的解析服务中，将有给域名添加A记录的设置，即添加域名指向的ip。你买了空间，开通空间时，会要求填入所绑定的域名，同时会提示要求您将域名解析到空间服务器的ip地址。不过，一般空间支持将子目录绑定到子域名，这是域名解析做不到的。
+解答问题三、四：
+一起答，因为要视不同情况而定。以xuchi.name和WP程序为例。
+首先想好，你需要的blog地址是什么样的，xuchi.name？www.xuchi.name？blog.xuchi.name？还是xuchi.name/blog/？
+一般都会将WP安装程序放在根目录里的一个文件夹下，比方直接将wordpress文件夹上传到public_htm目录下（很多教程都是这么写的，所以这样做的人肯定不少），即public_htm/wordpress/，装完WP程序，默认blog地址是http://绑定的域名/wordpress/。不要求地址为&amp;#8230;/blog/的话，直接从域名解析上设定地址。添加域名A记录时，_____.xuchi.name的空格，不填则地址为http://xuchi.name；填www，则地址为http://www.xuchi.name，此时http://xuchi.name会默认解析到http://www.xuchi.name；填blog则地址为http://blog.xuchi.name。所以，想好了你的blog地址，再提交，免得日后更改麻烦。前文地址中出现的“绑定的域名”，就看你解析到空间ip的域名是什么了，可以是xuchi.name/wordpress/，也可以是www.xuchi.name/wordpress/。然后要将wordpress文件夹下的index.php复制到public_htm目录下，同时在wordpress后台“选项”-&amp;gt;“常规”中将blog网址区别于其安装目录，填写你要的blog地址。此后你通过解析的地址即可访问blog了，而不用在后面挂上/wordpress/。
+如果你需要blog地址为xuchi.name/blog/，这样的好处是xuchi.name可指向一个index.html页面作为个人首页。那么，最好在上传WP程序时，就把wordpress文件夹更名为blog，即上传后为public_htm/blog/。这样建立的WP程序，默认WP安装目录为http://绑定的域名/blog/，Blog默认网址亦为http://绑定的域名/blog/。如果还想启用blog.xuchi.name，则在域名解析时，可以将blog.xuchi.name指向空间ip，然后在空间服务的子域名绑定中，将blog.xuchi.name绑定到public_htm/blog/目录,默认规则是xxx.xuchi.name绑定到public_htm/xxx/目录。
+以上都是我在架站后的一点收获，不知道说清楚没有，对初次架站的朋友能有所帮助，提供点参考价值就行。</description>
+    </item>
+    
+    <item>
+      <title>非常时期非常规访问方法</title>
+      <link>https://chouj.github.io/2007/03/20/unnormaly-way-to-view-blogspot/</link>
+      <pubDate>Tue, 20 Mar 2007 14:17:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/03/20/unnormaly-way-to-view-blogspot/</guid>
+      <description>上一篇是给GFW挠痒痒，结果丫狮子大张口吞了整个blogspot国度，害得本应欣欣向荣、如火如荼的google blogger中国用户群被当头被泼了一盆冷水，煞是凄惨。
+抽丫的筋儿：以下渠道尚可正常访问和交流：
+http://www.inblogs.net/xcchris/
+http://www.pkblogs.com/xcchris/
+这两个地址，可正常访问和评论。将xcchris改为您自己的，亦即可访问您自己的blogger。
+或者更改本地host文件，路径为系统安装盘/windows/system32/drives/etc/hosts，以记事本打开，添加如下类似文本：
+
+72.14.219.190 beta.blogger.com
+72.14.219.190 dugangs.blogspot.com
+72.14.219.190 sz-iris.blogspot.com
+72.14.219.190 liubinjob.blogger.com
+72.14.219.190 mylovegarden.blogspot.com
+72.14.219.190 ggpi.blogspot.com
+72.14.219.190 chenbo.blogspot.com
+72.14.219.190 xcchris.blogspot.com
+72.14.219.190 allofrss.blogspot.com
+保存后，即可访问您所添加的blog。
+抽丫的筋儿的rss feed地址：http://feed.feedsky.com/chrischou,feed保持正常输出，可用订阅工具查看。
+与GFW斗，其乐无穷啊！</description>
+    </item>
+    
+    <item>
+      <title>从keso那里盗流量</title>
+      <link>https://chouj.github.io/2007/03/13/steal-clicks-from-keso/</link>
+      <pubDate>Tue, 13 Mar 2007 14:26:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/03/13/steal-clicks-from-keso/</guid>
+      <description>最近，借由MyBlogLog的统计发现，基本每天我的两个blog都有从keso那里过来的流量，一时挺惊讶。我没在他那里附链接留言，他也不大可能写个链接指向我的博客。
+一番小小调查，还真发现我和keso攀上了关系，在他的博客上找到了我的链接，虽然这个链接是由机器生成，keso是被动和不知情的。究其原因，一个widget帮了我这个忙，帮keso挂上了我的友情链接。
+
+AutoRoll，我和keso都在博客上加载了这一widget，而其功能就是自动搭建blog的链接桥梁，跟MyBlogLog差不多，机器帮你做互动。条件很简单：都使用此widget，blog内容相关。但我的内容和keso的一点都不相似嘛，为什么可以在Autoroll上互链了呢？这是因为目前使用这一widget的中文blog还不够多，只要拿中文写的blog基本都被机器认为是相关的了。我就这么堂而皇之的骗到了keso的一点点流量。
+如果有朋友跟我一样，被芝麻利益冲昏了头，想攀龙附凤，鸡犬升天的话，不妨尽快一试。时机过了，恐怕只能在AutoRoll上和我互链了，呵呵，可惜我这里日流量才两位数。对于keso，不好意思拿你这杆大旗说事啦。</description>
+    </item>
+    
+    <item>
+      <title>OpenID &amp; .name 试用报告（续前篇）</title>
+      <link>https://chouj.github.io/2007/02/26/openid-dot-name-domain/</link>
+      <pubDate>Mon, 26 Feb 2007 07:54:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/02/26/openid-dot-name-domain/</guid>
+      <description>伴随网络上一大票儿标榜2.0网站的兴起，咱要是像Daodao一样挨个尝鲜的话，估计光注册填表格就得耗去大把的时间，而OpenID就是为了解决这种“超负荷注册”现象应运而生的。虽然目前支持OpenID的站点还不多，但随着巨人微软开始一点点支持OpenID，OpenID也许将成为潮流趋势。我也是听着这个词儿挺新鲜的，就去弄了个ID玩玩，顺便抢个好记的用户名，:-P
+到底OpenID怎么作用？上段那链接的新闻里写的好：
+ 一旦你建立起你的用户信息后，当你需要登陆一个新的站点时，它能将其指向你存放信息的站点。这个存放注册信息站点将会把你的用户资料发送给你要注册的新站点，从而使其知道你是谁并让你顺利登陆。
+ 打个比方，如果说Internet是个游乐场，一个一个的站点就是这游乐场里的景区。有了OpenID，就像有了通票，一张票，您可以逛遍各个景区；没有的话，您就只有挨个景区买通行证了。其实只要您是Google的用户，应该对这个方法并不陌生。Google这个大景区里，有Reader、Pages、Picasa、Docs、Orkut等等诸多小游戏，只要您是Google的注册用户，凭借Gmail地址，您就可以玩遍小游戏，这其实跟OpenID的用途是一样的。
+您要是还不懂OpenID，可以参看前文和这张wiki页。
+那到哪里弄个OpenID呢？给出以下两个发布站点：MyOpenID 、。前者注册到的OpenID形式为username.myopenid.com，后者则为getopenid.com/username。
+另外，ClaimID.com，也提供OpenID申请，只要普通申请的用户，即给出一个claimid.com/username的url，这个url可作为您的OpenID。但该站主要功能是，其给出的url页面是个可编辑页面，在这个页面里，您可以加载一切与您有关的链接，比方blog、QQzone、digg之类。并可生成一个链接logo添加到您的博客中去，比如我的。前文提到的FreeYourID.com不是专门发放OpenID的站点，而且配送的ID只能3个月试用，其给出的OpenID形式则为firstname.lastname.name。
+有了OpenID，到哪里去试试呢？这里有个OpenID Site Directory，但平常可用的，支持OpenID的站点不多（YY下，要是Yahoo和Google也开始支持OpenID就爽歪歪了），第一次试用，就用OpenID登录ClaimID.com好了。奇怪的是，Directory里有,但在该站的Claim Blog服务里，只见到了Quick Claim、Post Claim 、Embedded Claim ，却没有OpenID Claim（见其blog post：Blog Claiming with OpenId）。还是不过分纠缠了，如此伟大的站点已经被GFW挡在外面，顺带宣传下keso的广告语：操GFW记得带Tor。
+OK，关于OpenID的科普普及完毕，换点name域名上场。
+.name可是目前18个顶级域名之一，wiki上写的是“.name &amp;#8211; for families and individuals”，是架设个人博客的首选域名啊。不过，世界上同名同姓之人如此之多，想抢得一个如意的个人域名，必将又是一场腥风血雨，动心的赶紧动手吧。
+FreeYourID.com就给了大家一个享用.name域名的机会，虽然只有90天免费期，但我还是申请了一个尝尝鲜。大家输入这个地址http://www.xu.chi.name，现在它指向本博客；大家发邮件到xu在chi.name，就将转交到我的Gmail邮箱。90天内，这两个地址就属于我了，您要是也叫Xu Chi，就只能屈就www.x.chi.name或www.xu.c.name之类的域名了。
+偷偷告诉您，没准儿90天后，我再把这个域名注回来，:-P
+Update:刚收到一封自动email，来自freeyourid.com,署名Hakon Haugnes，Global Name Registry，部分内容如下：
+ If you are unsure about how OpenID works, Simon Willison has a great introductory video on OpenID on his blog http://simonwillison.net/2006/openid-screencast/
+ 这个链接里的视频相当的赞，非常详细的讲解了OpenID的使用方法，相信看过都能懂！</description>
+    </item>
+    
+    <item>
+      <title>春节快乐！猪事吉祥！</title>
+      <link>https://chouj.github.io/2007/02/16/happy-spring-festival/</link>
+      <pubDate>Fri, 16 Feb 2007 09:21:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/02/16/happy-spring-festival/</guid>
+      <description>刚刚PS出炉  Happy Spring Festival !</description>
+    </item>
+    
+    <item>
+      <title>博客圈试用报告</title>
+      <link>https://chouj.github.io/2007/02/12/blog-network-try-out/</link>
+      <pubDate>Mon, 12 Feb 2007 13:21:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/02/12/blog-network-try-out/</guid>
+      <description>心里一直认为，以feed合烧为技术支撑搭建博客圈平台，让每个blogger都可以打造自己的博客群落，是一项很2.0很in的服务。所以当Feedsky博客圈出现的时候，我再次感受到了技术带来的快乐。当然，我这草民没有Feedsky博客圈的划圈儿权，但在网上误打误撞中，发现了这个博客圈，试用报告如下。
+动作
+划了个襄樊四中03届高三六班博客圈儿，这里是合烧feed地址。可以预想，博客圈将成为班级交流的另一崭新阵地。
+特点
+每个用户的划圈儿数目不限；支持blog posts、评论、留言审核，即圈主享有posts、评论和留言的生杀大权。所建圈子支持分类，支持tag，支持圈子名称更改和圈子简介，支持圈子头像。莫名的是：有分类有tag，就是没见圈子搜索，没见所有分类页面，没见所有tags页面。
+每个圈子有自己的二线域名，比如高三六班博客圈儿；圈子支持公告，支持圈主随时加入new blogger，支持申请加入（即提交feed，要圈主审核），每篇post支持网友评论（不需注册），支持给圈主留言。
+采取添加feed的方式添加圈子博友。
+每个加入圈子的feed，支持头像，支持blog名称更改，支持博主名称更改，支持单blog独立页面（比如这里）。
+另外，既然feed合烧了，那么就不用将所有博客挨个订阅，仅订此一个feed即可。在当今feed蒲公英满天飞的年代，这个优点还是很实在的。
+BUG报告
+1、添加feed后，编辑博客网址的输入框中，可输入字符长度不够，看过源代码，maxlength=&amp;#8221;20&amp;#8243;，20完全不够。直接后果即输入不全，导致此页右侧blog链接为“http://xcchris.blogs”。
+2、同一feed，加入不同圈子，则在后加的圈子中，显示不出post。比如我后建的物理0301圈子，加入我自己的feed后，没有posts显示。这个伤很致命，但愿不是试用时我这里出的什么问题。
+看的出，这里才诞生不久，博客圈论坛里没有一个帖子。不过，这仍是前途无量的web service，至少我看好。我把我的试用报告mail给对方了，期待完善，期待搭配圈子搜索，继续关注之。
+同时YY一下，Feedsky的博客圈什么时候下放用户创建的功能呢？
+Update：纠正下BUG 2。同一feed，加入其他圈子，则不能即时显示出post，一定反应时间（时间还挺长）后才能显示出来。这样就还好，不算致命，但还是改之为妙。</description>
+    </item>
+    
+    <item>
+      <title>[个人经验]毕业包裹托运流程</title>
+      <link>https://chouj.github.io/2007/02/08/process-of-bags-check/</link>
+      <pubDate>Thu, 08 Feb 2007 15:24:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/02/08/process-of-bags-check/</guid>
+      <description>算是提前一学期离校，自己把铺盖衣物打包寄回家，昨天收到了，也提醒我写点经验总结以备他人查用。最好的希望是，毕业时学校和运输部门把托运统一包办了，那基本就用不着我废劲敲字，多好。
+在网上搜罗了一阵，严重参考了这个贴，获知托运包括两种方式，一种是包裹寄送，一种是行李托运。我采用了第一种，不过对第二种还是有发贴（帖1贴2）调查，先把我所知的写出来：
+行李托运注意事项
+1、在火车站托运处办理；
+2、要车票，若没有，会加价；
+3、可提前几天办理，可办理随车托运；
+4、计费标准：重量和行程距离；
+5、可托运电脑，但无附带泡沫的外包装，将要求打箱，并收取额外费用。
+因为我没有采用行李托运这一操作，所以像费用的清算细节，与包裹寄送相比孰贵孰便宜，我就无从告知了。而我选用第一种的首要原因，即是我所在的学校和火车站距离太远，但包裹托运可以到最近的邮局办理。以下是我在邮局办理包裹寄送的详细流程。
+1、由于是衣物被褥，所以我买了编织袋，打包放入袋中。考虑到邮政部门可能会清验包裹，所以我没有在编织袋外捆绑打包，或者密封，仅仅拉紧了编织袋拉链，运到邮局。
+2、邮局工作人员并没有如我所料清验包裹，只是询问了包内物件的种类，比如，是否全是衣物，是否有夹带书籍。可能与校内邮局办事积于对学生的信任有关，他们才没检查，但制度上确实要求这步骤，为了好订价（书籍的话，会贵些）。所以我建议运至邮局前，最好不要把包裹密封。不同地方的邮政部门应该有不一样的办事标准，提醒大家要灵活应对。
+3、交了1元钱，买了一块膏药样的贴布（以前医院固定点滴针头贴手上的那种，现在绝迹了）和缝编织袋的线，贼贵啊。贴布上写好收件人和寄件人的地址邮编姓名，贴在包裹一侧；拿针线再把编织袋的拉链条缝上一道，很粗的那种针线，比较好缝，简易密封。
+4、买包裹单，填好收件人寄件人的那些信息和是否保价之类。
+5、过秤，我的包裹重27公斤。
+6、选择邮寄方式，有慢件、快件、特快专递三种。慢件最多两周，快件一个礼拜之内，特快的两天寄到；价钱自然由低到高。我选了慢件，由武汉寄往襄樊，计价28元，基本上一公斤一元。计费标准跟物品易损程度、重量、邮寄方式、寄送距离有关。
+7、2月9日才去领取的包裹，因为包裹单到的晚，要携带身份证，至少要填领取人身份证号码。一看邮戳，1月29日办理的，2月1日寄到的，说明慢件不算慢。当然，不同地点不同的邮政服务，慢件的邮寄时间也肯定不同，切莫一概而论。
+纯属我个人的经验，不同地方会有所出入，但希望能有用。</description>
+    </item>
+    
+    <item>
+      <title>Logo for MARS</title>
+      <link>https://chouj.github.io/2007/02/04/logo-for-mars/</link>
+      <pubDate>Sun, 04 Feb 2007 13:13:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/02/04/logo-for-mars/</guid>
+      <description>Logo for MARS，还是放假前的作业。想不到什么可指代喻示的物件，就拿字母和圆球（来拍我吧，我把这个蓝色球当火星）敷衍了，仿web 2.0 logo的，因为参照了以下两篇东西：2007年标志设计趋势代码，Web2.0 Logo聚合及相关字体下载。
+二元色，反射效果（最好模仿），Balcony Angels字体（郁闷的是，上述第二篇文字介绍的字体要付费下载 &amp;#8211; -||），本想以暖色系寓意火星的，但为配合blog技术流的风格，还是冷色居多了。最后要说，这个gif可能不符合当初的大小要求，要更改的话，Mars同学直接交代就是了。
+**** **** {.ContentTitle}</description>
+    </item>
+    
+    <item>
+      <title>PS了俩豆瓣博客标志</title>
+      <link>https://chouj.github.io/2007/01/09/2-logos-for-blog-at-douban/</link>
+      <pubDate>Tue, 09 Jan 2007 02:31:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/01/09/2-logos-for-blog-at-douban/</guid>
+      <description>每个收录在豆瓣“我上”里的博客，可以有其自己的logo，配合简介说明，醒目而个性。开动PS画了两个：一是应麦子所托，给他的射手座的箭之所向；一是单纯给自己。
+
+搜到这个图，就知道该怎么处理了：麦子、箭、笔，三元素的交融，付之以热血与坚毅的红黄黑。
+
+听取麦子的建议，舍弃对称，再度雕琢至：笔自有其角度与力度，箭自有其昂扬与凌厉。
+
+话说到这份儿上，自不用掩饰我的愉悦：07年开篇即有得意之作，虽然技术上没什么含量，诚然贵在创意。
+
+这个标志更没什么技术含量，玩了一把汉字与字母结合的小把戏，而且结合的生硬了。</description>
+    </item>
+    
+    <item>
+      <title>2006年度“我最喜欢的软件”评选结果</title>
+      <link>https://chouj.github.io/2006/12/09/my-favorite-softwares-in-2006/</link>
+      <pubDate>Sat, 09 Dec 2006 02:20:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2006/12/09/my-favorite-softwares-in-2006/</guid>
+      <description>IT.com.cn发起的2006年度“我最喜欢的软件”评选结果公布.软件方面,分了十类进行投票评选,这其中有老面孔的IM软件、杀毒软件以及浏览器软件等,也有新面孔反流氓软件和在线视频直播软件等.总体来说排名变化不大,老牌软件依旧强势,但其中也不乏有新势力涌现,比如音频播放方面的千千静听、安全软件中的360安全卫士等.
+我最喜欢的中文输入法 获奖者：紫光拼音
+我最喜欢的聊天软件 获奖者：腾讯QQ
+我最喜欢的音频播放工具 获奖者：Winamp
+我最喜欢的视频播放工具 获奖者：暴风影音
+我最喜欢的反流氓软件工具 获奖者：超子兔子
+我最喜欢的杀毒软件 获奖者：卡巴斯基
+我最喜欢的网络资源交流工具 获奖者：BitComet
+我最喜欢的网页浏览器 获奖者：遨游Maxthon
+我最喜欢的在线视频直播工具 获奖者：PPLive
+我最喜欢的下载工具 获奖者：迅雷
+详见此页 各项参选排行见此页
+看来我足够睿智，也足够草根，基本用的和上面所列的一样了，除了遨游和Winamp。浏览器方面我还是忠于火狐和IE7，可惜排名上遨游几乎不可撼动。音频播放方面，实在想不通Winamp是怎么成为冠军的，这么一个江河日下，都没继续更新的软件了；目前用foobar中；千千静听也曾用过一段时日，为尝鲜才换成foobar，并没有觉得它不好，也确实如日中天。
+至于其他：紫光绝对强于智障ABC；教育网内想用MSN而不能，Gtalk尚待普及，故没QQ就没IM，而且先有QQ后有QQ邮箱，而先有Gmail后有Gtalk，所以Gtalk的普及完全受限；暴风影音功能齐全，虽然格式支持多了，挑选、设置都比较麻烦，但我不怕麻烦，其他一概没用过；超级兔子一直是我的优化首选，非常适合初级电脑使用者，简单易懂，功能强大，又不像优化大师那样专业而艰深，至于排行上的那个“其他”着实耐人寻味；卡巴的上榜倒是有点让人意外，居然这么流行了，看来是因为升级比较方便吧，不过最近丫加强了对盗版的封锁，我家里的已经不能正常升级了；BT不用说了，bitcomet应该都知道，电驴也尚待普及，目前我没用过，不过对VeryCD开始感兴趣；拿PPlive看NBA是件很爽的事情，所以丫上榜理所当然，榜上第二的“其他”也值得寻味，个人认为这块领域的争夺将愈演愈烈;迅雷和快车真是统领了下载领域，听说快车准备翻身，但我没打算尝试。
+看看你是否也足够睿智和草根呢？</description>
+    </item>
+    
+    <item>
+      <title>肆意的晃悠</title>
+      <link>https://chouj.github.io/2006/12/04/surfing/</link>
+      <pubDate>Mon, 04 Dec 2006 10:32:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2006/12/04/surfing/</guid>
+      <description>在家几天，借助电信的优势，很是在网上晃悠了下子。与学校的教育网比起来，我算是享受到了宝贵的网络自由。
+小记几笔。
+Digg 还是不大明白丫是提供什么服务的，准确说是不明白其与美味书签有什么区别。国内的diglog貌似是仿照digg的，提供网摘收录，收录榜推荐服务。
+美味书签 Del.icio.us 知名的网页摘录站点了，可惜也被教育网拒之门外，享用不到。在ie上加载一按钮就可以方方便便的收录网页了，其links roll可以显示用户收录的最新网摘，365key也有此功能，所以我只好把目光转向天天网摘。可惜365key不能在教育网内登陆，很是郁闷，抛弃教育网的时候也就是抛弃365key的时候，此乃后话。
+我老婆 Wallop 微软的新型flash社区。感谢豆瓣鲫鱼给了个邀请我，让我得以尝鲜，怎么说丫也叫我老婆啊。抱着占一坑的拙劣思想开了我的主页，效果确实不同反响，那叫一个华丽酷炫。惊讶的是，教育网内竟然可以访问，只是不能登录，遂把我blog的RSS提交上去，于是她就能实现同步更新了。 缺憾是字太小了，也懒得找丫改设置的地方。
+Docs.google Google的在线文档和电子表格服务。老早就知道，但一直没在意，在家却发现丫有个好处，可以匿名发布文字，比如这篇。另外，记一些文本的东西也是相当方便的，线上服务的缘故。
+Flickr 大名远播，最近在家得以初见。我居然以为丫是Google的服务，在这里向Yahoo!认错。但是，免费用户只能享有有限的服务，这对于我来说就不够用了，而付费二十多美刀绝不是我的风格，找个可以外链的相册难不倒我。只可远观不可享用了。
+orkut google的社区服务。有所耳闻，所以注册了个上去晃悠。晃完后得到结论：我更乐于去校内网。orkut界面做的不漂亮；虽然有不少国内朋友的叶子，但6成用户是巴西人，所以义不容辞的被我抛弃了。唯一成果是google账户中又多了个服务，于是这个帖子——google账户里的服务能退掉吗？——就诞生了。
+Yahoo! Widgets 桌面小玩意儿，也是尝鲜。摆桌面上挺花哨的：时间、日历、CPU资源显示、天气预报，种类繁多，也算实用。还是没继续用下去，担心占资源，还有我和雅虎没什么交情。
+www.blog.com http://www.blogsome.com/ 国外的博客服务站点，上去晃了下，注册个用户瞟一眼后台。不像国内的BSP，这些站点主页上基本没有排行、标签之类的东西，看起来清爽些。
+最后提点别的。
+网购的书到了，不过我当时不在，质量上没有问题，时间也在预料之中，服务还是可以信服的。
+Beta.Blogger终于中文化本地化了，念在Google和中国GOV的交情，想也不会再封了吧。要是再封，各位Bloggers都可能疯喽。所以，这里还是回归我的主战场，但两边同步更新。</description>
+    </item>
+    
+    <item>
+      <title>网上买本书</title>
+      <link>https://chouj.github.io/2006/11/21/buy-book-via-internet/</link>
+      <pubDate>Tue, 21 Nov 2006 13:11:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2006/11/21/buy-book-via-internet/</guid>
+      <description>第一次网购书籍，要是没有发送费还是挺划的来的。《搜》，挑了本价格不算太高，市面上又没找到过，然后又算是想看想收藏的书。
+与上一次网购相隔甚久，所以这次的体验留下了明晰的记忆之痕，第一次的印象早就模糊了。还好操作不算繁琐，只是担心送货上门时我不在，或者我在但钱不够罢了。
+第一次网上购物，还是因为贪小便宜。那还是大一的时候，手头上有那种代金券似的优惠小帐号，可抵五元，于是乎班上一票人簇拥在机房屏幕前，在卓越网上东挑西拣。记得我挑了张8元的S.H.E的专辑，那盘《Super Star》。当时货到的时候一脸莫名，之后才顿悟，到处翻钱。不过那碟子没听两次就塞到屉子里“珍藏”起来了。其他人有买塑料饭盒的，有买磁带的，只是有些人因为恰逢搬寝室，没收到东西罢了。那次也没留意几天内到货，这次可以留心下了，今天下的订单，估计考试周的时候可以到。
+图书馆捞新书是无的放矢，想看就揣回来；自己买书则目的明确，一定要物有所值，感觉果真不同。希望丫网购的书别出现什么脏、皱等瑕疵，同时祈祷丫blogspot别又抽筋儿就是了。</description>
+    </item>
+    
+    <item>
+      <title>社会实践展示KT板样片</title>
+      <link>https://chouj.github.io/2006/09/22/kt-board/</link>
+      <pubDate>Fri, 22 Sep 2006 10:22:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2006/09/22/kt-board/</guid>
+      <description>前天中午PS出来的，辅导员那里一遍PASS，期待下做出来的成品先。这个要和其他一堆KT板摆在一起，效果如何就不好说了，货比三家之后能否出彩，心存疑问，本来就是胡乱找了个背景模糊一下，然后胡乱罗列了下照片。至于文字，主题那个我就不说了，反正这种宣传性的东西少不了8R8C，下面那段倒是我亲口吹出来的，准确说是亲键盘敲出来的，再拜一下人的思维创造性。
+能看出背景图下方那黑乎乎的是什么吗？我会在这篇末尾贴出清晰的来，先让各位猜哈子，^_^ 这里转载 白云 一篇文章，关于系统清理。
+ 你是否注意到你的电脑系统磁盘的可用空间正在一天天在减少呢？是不是像老去的猴王一样动作一天比一天迟缓呢？
+没错！在Windows在安装和使用过程中都会产生相当多的垃圾文件，包括临时文件（如：* .tmp、*._mp）日志文件（*.log）、临时帮助文件（*.gid）、磁盘检查文件（*.chk）、临时备份文件（如：*.old、*.bak）以及其他临时文件。特别是如果一段时间不清理IE的临时文件夹“Temporary Internet Files”，其中的缓存文件有时会占用上百MB的磁盘空间。这些LJ文件不仅仅浪费了宝贵的磁盘空间，严重时还会使系统运行慢如蜗牛。这点相信你肯定忍受不了吧！所以应及时清理系统的LJ文件的淤塞，保持系统的“苗条”身材,轻松流畅上网！朋友来吧，现在就让我们一起来快速清除系统垃圾吧！！下面是步骤很简单就两步！
+在电脑屏幕的左下角按“开始→程序→附件→记事本”，把下面的文字复制进去,点“另存为”，路径选“桌面”，保存类型为“所有文件”，文件名为“清除系统LJ.bat”，就完成了。记住后缀名一定要是.bat，ok！你的垃圾清除器就这样制作成功了！ 双击它就能很快地清理垃圾文件，大约一分钟不到。
+======就是下面的文字(这行不用复制)======
+@echo off
+echo 正在清除系统垃圾文件，请稍等&amp;#8230;&amp;#8230;
+del /f /s /q %systemdrive%*.tmp
+del /f /s /q %systemdrive%*._mp
+del /f /s /q %systemdrive%*.log
+del /f /s /q %systemdrive%*.gid
+del /f /s /q %systemdrive%*.chk
+del /f /s /q %systemdrive%*.old
+del /f /s /q %systemdrive%\recycled*.*
+del /f /s /q %windir%*.bak
+del /f /s /q %windir%\prefetch*.*
+rd /s /q %windir%\temp &amp;amp; md %windir%\temp</description>
+    </item>
+    
+    <item>
+      <title>社会实践光盘Autorun界面</title>
+      <link>https://chouj.github.io/2006/09/19/autorun-graph-for-disk/</link>
+      <pubDate>Tue, 19 Sep 2006 02:35:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2006/09/19/autorun-graph-for-disk/</guid>
+      <description>那4行斗4俺们活动主题！！最后一句斗4俺想出来滴！！被逼无奈要向第一行押韵呐。。俺们那队伍叫“水乡行”社会实践队…俺们那总结居然有100多pages…最近还要俺给团队评优做一KT版…NND~~做出来鸟就贴出来～～
+PS.为照顾俺blog布局&amp;#8230;不符合规格的pictures都加了width=&amp;#8221;450&amp;#8243;标签，不是原始大小…可以自行查其网络地址再打开鸟看 ^_^</description>
+    </item>
+    
+    <item>
+      <title>About MMORPGs</title>
+      <link>https://chouj.github.io/2006/08/15/about-mmorpgs/</link>
+      <pubDate>Tue, 15 Aug 2006 02:56:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2006/08/15/about-mmorpgs/</guid>
+      <description>MMORPG——Massively Multiplayer Online Role Playing Games，翻译过来就是大型在线角色扮演类游戏，也就是网游。
+今儿个中午看央视12套，就又在讲网游害人，沉迷网游导致犯罪的青少年比比皆是。顿时想，天天听到看到的这些全是国内的，不晓得国外是否也是如此。遂借助搜索引擎的power，上网一搜，还真小有所获。
+＝＝＝＝＝＝＝＝＝＝＝国外主流媒体一例＝＝＝＝＝＝＝＝＝
+原文地址：Don&amp;#8217;t Read This Or you may be an Internet addict
+摘自《华尔街日报》REVIEW &amp;amp; OUTLOOK版 Friday, August 11, 2006 12:01 a.m. EDT 
+article就是最近发表的，摘俩段：
+ Accounts of the scourge pour in from around the globe. The University of Texas at Dallas offers advice for compulsive Internet users alongside information about eating disorders. In some countries, it has become an official matter, too. A government public-awareness campaign in Zurich cautions the Swiss: &amp;#8220;Spending lots of time in virtual worlds, especially chat rooms, online games and sex sites, can lead to a dependence comparable to other addictions.</description>
+    </item>
+    
+  </channel>
+</rss>

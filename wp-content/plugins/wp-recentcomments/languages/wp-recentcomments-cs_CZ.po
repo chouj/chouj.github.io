@@ -1,0 +1,194 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP-RecentComments 1.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-06-07 11:05+0800\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Ladislav Prskavec <ladislav@prskavec.net>\n"
+"Language-Team: NeoEase <http://www.neoease.com/plugins/>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: CHINA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: core.php:43
+#: core.php:189
+msgid "Loading"
+msgstr "Nahrávám"
+
+#: core.php:100
+msgid "Anonymous"
+msgstr "Anonym"
+
+#: core.php:119
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: core.php:121
+msgid "Trackback:"
+msgstr "Trackback:"
+
+#: core.php:123
+msgid "on"
+msgstr "na"
+
+#: core.php:142
+msgid "&laquo; Newest"
+msgstr "&laquo; Nejnovější"
+
+#: core.php:155
+msgid "&laquo; Newer"
+msgstr "&laquo; Novější"
+
+#: core.php:161
+msgid "Older &raquo;"
+msgstr "Starší &raquo;"
+
+#: core.php:214
+msgid "Y/m/d"
+msgstr "Y/m/d"
+
+#: core.php:215
+msgid "H:i"
+msgstr "H:i"
+
+#: core.php:216
+#, php-format
+msgid "%1$s - %2$s"
+msgstr "%1$s - %2$s"
+
+#: core.php:225
+msgid "&laquo; Back"
+msgstr "&laquo; Zpět"
+
+#: core.php:323
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: wp-recentcomments.php:49
+msgid "Recent Comments"
+msgstr "Poslední komentáře"
+
+#: wp-recentcomments.php:160
+msgid "Title: "
+msgstr "Nadpis: "
+
+#: wp-recentcomments.php:167
+msgid "Number of comments to show: "
+msgstr "Počet kometářů k zobrazení: "
+
+#: wp-recentcomments.php:171
+msgid "(at most 20)"
+msgstr "(nejvíce 20)"
+
+#: wp-recentcomments.php:176
+msgid "Length of each comment: "
+msgstr "Délka každého komentáře: "
+
+#: wp-recentcomments.php:184
+msgid "Show post titles."
+msgstr "Zobrazit nadpis příspěvku."
+
+#: wp-recentcomments.php:191
+msgid "Show pingback comments."
+msgstr "Zobrazit pingbacky v komentářích"
+
+#: wp-recentcomments.php:198
+msgid "Show trackback comments."
+msgstr "Zobrazit trackbacky v komentářích."
+
+#: wp-recentcomments.php:205
+msgid "Show author avatars."
+msgstr "Zobrazit autorův avatar."
+
+#: wp-recentcomments.php:211
+msgid "The size of avatars: "
+msgstr "Velikost avatarů: "
+
+#: wp-recentcomments.php:215
+msgid "(8 - 96)"
+msgstr "(8 - 96)"
+
+#: wp-recentcomments.php:220
+msgid "The position of avatars: "
+msgstr "Pozice avatarů: "
+
+#: wp-recentcomments.php:222
+msgid "Left"
+msgstr "Vlevo"
+
+#: wp-recentcomments.php:223
+msgid "Right"
+msgstr "Vpravo"
+
+#: wp-recentcomments.php:230
+msgid "The default avatar: "
+msgstr "Výchozí avatar: "
+
+#: wp-recentcomments.php:234
+msgid "(Filename from '/wp-recentcomments/avatars/' directory or Internet address)"
+msgstr "(Jméno souboru z  adresáře '/wp-recentcomments/avatars/' nebo internetová adresa)"
+
+#: wp-recentcomments.php:240
+msgid "Show navigator buttons."
+msgstr "Zobrazit navigační tlačítka."
+
+#: wp-recentcomments.php:247
+msgid "Show the comments from administrators."
+msgstr "Zobrazit komentáře od administrátorů."
+
+#: wp-recentcomments.php:254
+msgid "Convert emoticons like <code>:-)</code> and <code>:-P</code> to graphics on display."
+msgstr "Konvertovat emoticons jako <code>:-)</code> a <code>:-P</code> do  grafické podoby."
+
+#: wp-recentcomments.php:270
+msgid "The most recent comments"
+msgstr "Úplně poslední komentáře"
+
+#: wp-recentcomments.php:271
+#: wp-recentcomments.php:272
+#: wp-recentcomments.php:309
+#: options.php:28
+msgid "WP-RecentComments"
+msgstr "WP-RecentComments"
+
+#: wp-recentcomments.php:318
+#: options.php:37
+msgid "WP-RecentComments Options"
+msgstr "WP-RecentComments Nastavení"
+
+#: wp-recentcomments.php:323
+#: options.php:42
+msgid "JavaScript Library"
+msgstr "javascriptová knihovna"
+
+#: wp-recentcomments.php:327
+#: options.php:46
+msgid "Use normal JavaScript library that is supported by this plugin."
+msgstr "Použít normalní javascriptovou knihovnu podporovánou tímto pluginem."
+
+#: wp-recentcomments.php:332
+#: options.php:51
+msgid "Use jQuery library that is supported by WordPress."
+msgstr "Použit jQuery knihovnu, která je podporována WordPressem."
+
+#: wp-recentcomments.php:337
+#: options.php:56
+msgid "Custom jQuery."
+msgstr "Vlastní jQuery."
+
+#: wp-recentcomments.php:340
+#: options.php:59
+msgid "Please input the URL of jQuery:"
+msgstr "Prosím vložte URL k jQuery:"
+
+#: wp-recentcomments.php:349
+#: options.php:68
+msgid "Save Changes"
+msgstr "Uložit změny"
+

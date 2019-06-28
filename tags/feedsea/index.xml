@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>feedsea on 抽筋儿的话语权</title>
+    <link>https://chouj.github.io/tags/feedsea/</link>
+    <description>Recent content in feedsea on 抽筋儿的话语权</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
+    <lastBuildDate>Sun, 08 Apr 2007 08:42:20 +0000</lastBuildDate>
+    
+	<atom:link href="https://chouj.github.io/tags/feedsea/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Feedsea:国内新上线的在线RSS阅读器</title>
+      <link>https://chouj.github.io/2007/04/08/feedsea/</link>
+      <pubDate>Sun, 08 Apr 2007 08:42:20 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/04/08/feedsea/</guid>
+      <description>UPDATE:这个站已经嗝儿屁了。
+
+自仿抓虾的猫爪之后,zhuamao终于走出了模仿的影子，于4月7日正式推出其新站：Feedsea。
+该站在功能上除有RSS阅读功能外，还集成了Digg元素，首页极具DIGG风格。界面上版式清新，一改猫爪的黑色背景，采用白色基调。全站分三个板块，文章、频道、阅读器，分别是Digg后的最热文章、最热Blog分类显示和用户的RSS阅读页面。细节上，支持OpenID登录、支持Opml导入/导出，具备tag系统，支持用户头像，但并没有类似抓虾的小组功能，说明Digg元素在在该站是主打，以此有别与其他线上RSS阅读器。
+目前该站的服务还尚未完善，经我适用，在OpenID登录、用户信息更改等处偶尔会报错，但仍然值得期待。
+该站截图如下，点击可见大图：
+文章页面 频道页面 阅读器页面 PS. Feedsea要是不和Feedsky合作就太说不过去了，天上的种子找到归属，落到海里，这是多么美妙的姻缘啊，哈哈。</description>
+    </item>
+    
+  </channel>
+</rss>

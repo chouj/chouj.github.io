@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogger on 抽筋儿的话语权</title>
+    <link>https://chouj.github.io/tags/blogger/</link>
+    <description>Recent content in Blogger on 抽筋儿的话语权</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
+    <lastBuildDate>Mon, 30 Apr 2007 14:22:38 +0000</lastBuildDate>
+    
+	<atom:link href="https://chouj.github.io/tags/blogger/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>最近关于RSS的文章集锦</title>
+      <link>https://chouj.github.io/2007/04/30/recent-articles-about-rss-2/</link>
+      <pubDate>Mon, 30 Apr 2007 14:22:38 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/04/30/recent-articles-about-rss-2/</guid>
+      <description>什么是RSS，一个经典的比喻  通过自己的心身经历，把自己运用RSS的过程写的淋漓尽致，通俗易懂。怎么感觉我在总结中心思想？反正很值得看看啦。
+ 为什么要输出全文Feed？  Webleon告诉您为什么要全文输出FEED，但这是一家之言。出于商业化考虑，拥护摘要输出的朋友也正在增多中。
+ RSS的未来  译言网上一篇关于RSS的探讨性文章，由花花翻译，高度概括，推荐！
+ 让博客的RSS订阅用户数量最大化  杨远聘的力作，关于利用RSS对Blog的优化，推荐！
+ Klipfolio：RSS播放器  一款新颖的RSS播放器，是不是会吸引您的眼球呢？
+ [汇]Showeb2.0中以RSS为标签的文章  盗盗关于RSS和Feed的相关文章，集成了目前最新鲜的RSS运用！
+ [Web 2.0]特色服务&amp;#8211;Feed阅读器  一篇介绍性的科普，来自IwfWc，也是Blogger圈的名人了。
+ blogger:我的blogger深度友链方案  GG派关于RSS应用的深度探讨，值得参详。不见得仅仅局限于Blogger呢。
+ 普及篇——RSS和阅读器  又一个有名的blogger hacker 咖啡鱼的教程，通俗讲解RSS和阅读器。
+ 通过RSS给Blogger添加评论和最新文章(续)  八个圈的教程，通过RSS和Google Reader给Blogger添加评论和最新文章的方法。
+ 通过RSS给Blogger添加侧边栏评论和最新文章  一样是八个圈的教程，告诉您如何通过最简单的方法，给Blogger添加侧栏评论和最新文章。
+ Blogger:不通过外部JS文件使RSS供稿超过20的方法  Blogspot上专注Blogger Hack的GG派出品，告诉您如何使Blogger的RSS供稿超过20条。
+ Blogger:准确的标签项目RSS地址  GGpi出品，告知您Blogger上各个标签tag的RSS地址。
+ 如何通过google reader分享RSS聚合  还是GGpi出品，讲述利用RSS和Google Reader打造个人媒体的方法。
+ 各站点RSS新闻聚合服务  收集了大量门户、站点的RSS供稿地址，极具资料收集价值。</description>
+    </item>
+    
+    <item>
+      <title>我看过的blogger hack站点</title>
+      <link>https://chouj.github.io/2007/02/22/google-blogger-hack-blogs/</link>
+      <pubDate>Thu, 22 Feb 2007 10:16:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/02/22/google-blogger-hack-blogs/</guid>
+      <description>Google Blogger的自由度有目共睹，templates、hacks层出不穷。这里摆弄至今，看过不少写blogger代码技巧的站，受益匪浅。赶上最近有朋友问到，罗列几个，都是中文的，想必对以Google Blogger作为BSP开博客的用户有很大帮助。
+简体站点：
+ 色彩斑斓——http://sunr.blogspot.com/  我最早参考的站点之一，山东咖啡鱼的博客。一开始还看过博之道,但现在没开放了。
+ GG派——http://ggpi.blogspot.com/  同样不错的站点。GG＝GooGLe。GG和咖啡鱼现在在共同打造中文blogger导航,关于中文blogger推荐。
+ Chinese Blogger 禾草唐楷——http://dugangs.blogspot.com/   这个站太漂亮了，推荐浏览，不过是不久前才经由豆瓣看到的，先感谢博主把我这里加入他的博客亲友团。这里技巧教程贴也很多，值得大家共同学习。
+ 八个圈圈儿的Blogger-Beta——http://bloooooooogger-beta.blogspot.com/  这里的技术贴写的比较通俗，适合初次接触代码hack的朋友。
+繁体站点，博主均来自宝岛台湾：
+ 良人的大秘宝——http://klcintw4.blogspot.com/  国良先生在早些时候写过一些hack贴，现在写的少了，也是我很早参考过的站。该站左侧栏就有beta hacks组项。
+ Josh&amp;#8217;s Note——http://joshnote.blogspot.com/  很专业的站，除了常用hacks外，还有Blogger相关技术内容。
+ Ben&amp;#8217;s部落不及格——http://ibenjamin.blogspot.com/  这个站非常精美，推荐一看，即便是hack，文章也写的比较逗趣。
+Racklin&amp;#8217;s 阿土伯程式大觀園——http://racklin.blogspot.com/ 
+又一个专业级的，看起来比Josh&amp;#8217;s Note还专业，别吓着了:)
+Kaie&amp;#8217;s Blog——http://chenkaie.blogspot.com/ 
+又一个漂亮的站，技巧也挺实用。高人手下，blogger就可以变得很精美。
+也许有更好的站我没浏览到，但仅仅这些，对于新人修饰blogger已经绰绰有余了，真正的高人，还请参详国外的站点。
+Update：刚看到 博客hack扩展大全wiki by GG派 ，太赞了！
+最后发点儿牢骚，因为不值得再开一贴，见谅。
+又有人把“死亡笔记真人电影版”和“推荐”绑一起传达给我，让我分外不爽。两个帅哥以那么多人的生命为代价争酷斗狠，其中之一起初还算伸张正义，后来变成为了斗智而杀人，这都宣扬的什么价值观念啊？酷和帅就可以遮蔽一切？要我说，这本子的作者属于那种——套用一时髦歇后语，越狱里的手机男Kim——找抽型。还有就是决定把这么一明显适合动画题材的故事翻拍成真人电影的那家伙，就算后来兜里进了不少银子，丫脑袋里估计也进了不少水。还是豆瓣上第一条影评定性的好：反映资本主义腐朽堕落空洞无聊精神世界的片子。
+另外，各位女同胞们，你们爱看帅哥，爱到不论他们是对是错，这样的心情我能理解。但向别人推荐的时候能不能考虑下别人的性别？怎么说要推荐的也得是佳丽三千的后宫动画吧（算了，想想也知道你们不会津津乐道这种题材）？要是以将此片推荐给我，来测试本人的sex取向，那我再套用一句Heroes里的名言，不过得多个单词：I&amp;#8217;m NOT special !</description>
+    </item>
+    
+  </channel>
+</rss>

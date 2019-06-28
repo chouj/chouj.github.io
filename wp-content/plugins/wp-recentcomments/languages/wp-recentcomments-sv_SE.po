@@ -1,0 +1,166 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP-RecentComments 1.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-10-15 13:01+0800\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Patrik Hultgren <patrik.hultgren@bricco.se>\n"
+"Language-Team: Bricco <http://www.bricco.se>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Swedish\n"
+"X-Poedit-Country: SWEDEN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: wp-recentcomments.php:36
+#: wp-recentcomments.php:37
+#: wp-recentcomments.php:432
+msgid "Loading"
+msgstr "Laddar"
+
+#: wp-recentcomments.php:57
+msgid "Recent Comments"
+msgstr "Senaste kommentarer"
+
+#: wp-recentcomments.php:109
+msgid "Title: "
+msgstr "Rubrik:"
+
+#: wp-recentcomments.php:126
+msgid "The most recent comments"
+msgstr "De senaste kommentarerna"
+
+#: wp-recentcomments.php:127
+#: wp-recentcomments.php:128
+#: wp-recentcomments.php:264
+msgid "WP-RecentComments"
+msgstr "WP-RecentComments"
+
+#: wp-recentcomments.php:274
+msgid "WP-RecentComments Options"
+msgstr "WP-RecentComments inställningar"
+
+#: wp-recentcomments.php:280
+msgid "CSS"
+msgstr "CSS"
+
+#: wp-recentcomments.php:284
+msgid "Use wp-recentcomments.css."
+msgstr "Använd wp-recentcomments.css."
+
+#: wp-recentcomments.php:290
+msgid "JavaScript Library"
+msgstr "JavaScript bibliotek"
+
+#: wp-recentcomments.php:294
+msgid "Use normal JavaScript library that is supported by this plugin."
+msgstr "Använd vanligt JavaScript bibliotek som stödjs av denna plugin:en."
+
+#: wp-recentcomments.php:299
+msgid "Use jQuery library that is supported by WordPress."
+msgstr "Använd JQuery som stödjs av WordPress."
+
+#: wp-recentcomments.php:304
+msgid "Custom jQuery."
+msgstr "Anpassad jQuery."
+
+#: wp-recentcomments.php:307
+msgid "Please input the URL of jQuery:"
+msgstr "jQuery URL:"
+
+#: wp-recentcomments.php:314
+msgid "Comment List"
+msgstr "Kommentarslista"
+
+#: wp-recentcomments.php:317
+msgid "comments per page."
+msgstr "kommentarer per sida."
+
+#: wp-recentcomments.php:322
+msgid "Show the comments from administrators."
+msgstr "Visa kommentarer från administratörer."
+
+#: wp-recentcomments.php:328
+msgid "Show pingback and trackback comments."
+msgstr "Visa pingback och trackback kommentarer."
+
+#: wp-recentcomments.php:334
+msgid "Show navigation bar."
+msgstr "Visa menyn."
+
+#: wp-recentcomments.php:340
+msgid "Comment Items"
+msgstr "Kommentarer"
+
+#: wp-recentcomments.php:343
+msgid "characters per comment."
+msgstr "tecken per kommentar."
+
+#: wp-recentcomments.php:348
+msgid "Show post titles."
+msgstr "Visa kommentarsrubriker."
+
+#: wp-recentcomments.php:354
+msgid "Show the expand button when mouse over excerpts."
+msgstr "Visa expandera knappen när muspekaren är över utdraget."
+
+#: wp-recentcomments.php:360
+msgid "Open external pages in a new tab/window."
+msgstr "Öppna externa webbsidor i ett nytt webbläsarfönster/flik."
+
+#: wp-recentcomments.php:366
+msgid "Show avatars on"
+msgstr "Visa avatarer på"
+
+#: wp-recentcomments.php:369
+msgid "left"
+msgstr "vänster"
+
+#: wp-recentcomments.php:370
+msgid "right"
+msgstr "höger"
+
+#: wp-recentcomments.php:372
+msgid ", size is"
+msgstr ", storleken är"
+
+#: wp-recentcomments.php:374
+msgid "pixels"
+msgstr "pixlar"
+
+#: wp-recentcomments.php:379
+msgid "Show smilies as graphic icons."
+msgstr "Visa smilies som ikoner."
+
+#: wp-recentcomments.php:388
+msgid "Save Changes"
+msgstr "Spara ändringar"
+
+#: wp-recentcomments.php:431
+msgid "%REVIEWER% on %POST%"
+msgstr "%REVIEWER% om %POST%"
+
+#: wp-recentcomments.php:433
+msgid "No comments"
+msgstr "Inga kommentarer"
+
+#: wp-recentcomments.php:434
+msgid "&laquo; Newest"
+msgstr "&laquo; Nyaste"
+
+#: wp-recentcomments.php:435
+msgid "&laquo; Newer"
+msgstr "&laquo; Nyare"
+
+#: wp-recentcomments.php:436
+msgid "Older &raquo;"
+msgstr "Äldre &raquo;"
+
+#: wp-recentcomments.php:441
+msgid "Anonymous"
+msgstr "Anonym"
+

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>架设 on 抽筋儿的话语权</title>
+    <link>https://chouj.github.io/tags/%E6%9E%B6%E8%AE%BE/</link>
+    <description>Recent content in 架设 on 抽筋儿的话语权</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
+    <lastBuildDate>Tue, 10 Apr 2007 07:45:33 +0000</lastBuildDate>
+    
+	<atom:link href="https://chouj.github.io/tags/%E6%9E%B6%E8%AE%BE/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>关于独立架站的域名设定</title>
+      <link>https://chouj.github.io/2007/04/10/about-domain/</link>
+      <pubDate>Tue, 10 Apr 2007 07:45:33 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/04/10/about-domain/</guid>
+      <description>本文写给第一次架站的朋友，老鸟请无视。
+有感于架这个blog时域名指定时的茫然，写点东西，尝试能有所解答，个人见解肯定有认识不足或出错之处，也请指教。
+先罗列几个我遇到的问题，如果您跟我一样困惑，说不定可以看看我要写的东西。
+ 1、你分的清子域名、二级域名吗？比方blog.xuchi.name和xuchi.name/blog？
+2、域名服务商提供解析，空间服务商提供绑定，这些又该如何操作呢？
+3、想指定blog地址为blog.mysite.com该怎么操作？
+4、想指定blog地址为mysite.com/blog又该怎么操作？
+ 网上教程很多，单介绍域名知识的有，单介绍虚拟主机的有，至于如上细节问题，很少见。以上几个问题可以算是对于初学者的盲点。
+解答问题一：
+其实二级域名就是子域名，像我这种计算机基础课学的不精的人，就被忽悠了。以前以为xxx.site.com是子域名、site.com/xxx是二级域名来着，但不是这样子的。二级域名（子域名）就是指一级域名（site.com）前面那部分，比如blog.site.com或mail.site.com。很多免费注册二级域名的站，就是拥有一级域名，比如yuming.com，然后开放xxx.yuming.com给用户注册。而site.com/xxx算是指向一级域名绑定目录下的子目录。更多域名知识可参考这里和这里，会很有帮助。
+解答问题二：
+这个问题涉及为什么要有域名，和域名如何工作的问题。简单来讲，只要知道网站服务器的ip，即可接入网站，域名只不过是为了方便记忆，记域名比记一串ip数字要容易的多。所以，解析、绑定，这两个词就是指域名和服务器ip之间的动作关系的。解析，指将域名指向某ip；绑定，指将空间ip和某域名捆绑映射。两者其实是一个意思。你买了域名，域名服务商的解析服务中，将有给域名添加A记录的设置，即添加域名指向的ip。你买了空间，开通空间时，会要求填入所绑定的域名，同时会提示要求您将域名解析到空间服务器的ip地址。不过，一般空间支持将子目录绑定到子域名，这是域名解析做不到的。
+解答问题三、四：
+一起答，因为要视不同情况而定。以xuchi.name和WP程序为例。
+首先想好，你需要的blog地址是什么样的，xuchi.name？www.xuchi.name？blog.xuchi.name？还是xuchi.name/blog/？
+一般都会将WP安装程序放在根目录里的一个文件夹下，比方直接将wordpress文件夹上传到public_htm目录下（很多教程都是这么写的，所以这样做的人肯定不少），即public_htm/wordpress/，装完WP程序，默认blog地址是http://绑定的域名/wordpress/。不要求地址为&amp;#8230;/blog/的话，直接从域名解析上设定地址。添加域名A记录时，_____.xuchi.name的空格，不填则地址为http://xuchi.name；填www，则地址为http://www.xuchi.name，此时http://xuchi.name会默认解析到http://www.xuchi.name；填blog则地址为http://blog.xuchi.name。所以，想好了你的blog地址，再提交，免得日后更改麻烦。前文地址中出现的“绑定的域名”，就看你解析到空间ip的域名是什么了，可以是xuchi.name/wordpress/，也可以是www.xuchi.name/wordpress/。然后要将wordpress文件夹下的index.php复制到public_htm目录下，同时在wordpress后台“选项”-&amp;gt;“常规”中将blog网址区别于其安装目录，填写你要的blog地址。此后你通过解析的地址即可访问blog了，而不用在后面挂上/wordpress/。
+如果你需要blog地址为xuchi.name/blog/，这样的好处是xuchi.name可指向一个index.html页面作为个人首页。那么，最好在上传WP程序时，就把wordpress文件夹更名为blog，即上传后为public_htm/blog/。这样建立的WP程序，默认WP安装目录为http://绑定的域名/blog/，Blog默认网址亦为http://绑定的域名/blog/。如果还想启用blog.xuchi.name，则在域名解析时，可以将blog.xuchi.name指向空间ip，然后在空间服务的子域名绑定中，将blog.xuchi.name绑定到public_htm/blog/目录,默认规则是xxx.xuchi.name绑定到public_htm/xxx/目录。
+以上都是我在架站后的一点收获，不知道说清楚没有，对初次架站的朋友能有所帮助，提供点参考价值就行。</description>
+    </item>
+    
+  </channel>
+</rss>

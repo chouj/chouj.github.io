@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>工具 on 抽筋儿的话语权</title>
+    <link>https://chouj.github.io/categories/%E5%B7%A5%E5%85%B7/</link>
+    <description>Recent content in 工具 on 抽筋儿的话语权</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
+    <lastBuildDate>Mon, 16 Aug 2010 15:00:17 +0000</lastBuildDate>
+    
+	<atom:link href="https://chouj.github.io/categories/%E5%B7%A5%E5%85%B7/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>分享家:让你的订阅按钮更优雅</title>
+      <link>https://chouj.github.io/2010/08/16/addthis-org-cn/</link>
+      <pubDate>Mon, 16 Aug 2010 15:00:17 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2010/08/16/addthis-org-cn/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://addthis.org.cn/images/p_10.gif&#34; alt=&#34;分享家logo&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;正如&lt;a style=&#34;color: #0083b1; text-decoration: none;&#34; href=&#34;http://addfeed.cn/&#34;&gt;分享家&lt;/a&gt;的“关于”页面所说：&lt;a style=&#34;color: #0083b1; text-decoration: none;&#34; href=&#34;http://addfeed.cn/&#34;&gt;分享家&lt;/a&gt;是一个提供收藏和分享按钮、订阅按钮服务的网站。这里我们主要关注&lt;a style=&#34;color: #0083b1; text-decoration: none;&#34; href=&#34;http://addfeed.cn/&#34;&gt;分享家&lt;/a&gt;所提供的All in One订阅按钮服务。这个服务和国外应用&lt;a href=&#34;http://addthis.com&#34;&gt;AddThis&lt;/a&gt;很像，但他们没有什么关系。&lt;/p&gt;
+
+&lt;p&gt;两年前我也介绍过一些&lt;a title=&#34;All in ONE订阅按钮免费制作站点收集&#34; href=&#34;http://www.xuchi.name/blog/2007/05/all-in-one-feed-button/&#34; target=&#34;_self&#34;&gt;国外的All in ONE订阅按钮生成应用&lt;/a&gt;，但他们要么夭折了，要么不大符合贵国国情。但分享家十分国产，如果你需要生成一个订阅按钮的话，我十分推荐。下面简要介绍下&lt;a style=&#34;color: #0083b1; text-decoration: none;&#34; href=&#34;http://addfeed.cn/&#34;&gt;分享家&lt;/a&gt;的功能。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;首先转引分享家订阅按钮的特性和作用：&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>FeedSquare：打造Feed墙的Chrome扩展</title>
+      <link>https://chouj.github.io/2010/07/19/chrome-extension-feedsquare/</link>
+      <pubDate>Mon, 19 Jul 2010 11:48:50 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2010/07/19/chrome-extension-feedsquare/</guid>
+      <description>&lt;p&gt;除了借助油猴脚本来更改&lt;a title=&#34;Google Reader&#34; href=&#34;https://www.google.com/reader&#34; target=&#34;_blank&#34;&gt;Google Reader&lt;/a&gt;的界面外观之外，现在在&lt;a title=&#34;Google Chrome&#34; href=&#34;http://www.google.com/chrome&#34; target=&#34;_blank&#34;&gt;Chrome&lt;/a&gt;下，可以通过&lt;a title=&#34;FeedSquare&#34; href=&#34;https://chrome.google.com/extensions/detail/ddkahgkblobiogkkeedfnjkldecloidi&#34; target=&#34;_blank&#34;&gt;FeedSquare&lt;/a&gt;这个扩展来实现Feed墙的效果，很炫。&lt;/p&gt;
+
+&lt;p&gt;特性：&lt;/p&gt;
+
+&lt;p&gt;&amp;#8211; 将订阅的Feeds以墙的方式展示&lt;/p&gt;
+
+&lt;p&gt;&amp;#8211; 在线视频支持&lt;/p&gt;
+
+&lt;p&gt;&amp;#8211; 评论支持&lt;/p&gt;
+
+&lt;p&gt;&amp;#8211; 输入“？”可获取帮助&lt;/p&gt;
+
+&lt;p&gt;&amp;#8211; 支持Feed内图片的预览显示&lt;/p&gt;
+
+&lt;p&gt;&amp;#8211; 与Google Reader同步阅读状态、标签、星标信息&lt;/p&gt;
+
+&lt;p&gt;&amp;#8211; 易于分享到Google Buzz，Twitter和Facebook&lt;/p&gt;
+
+&lt;p&gt;&amp;#8211; 最新条目可于后台自动更新&lt;/p&gt;
+
+&lt;p&gt;&amp;#8211; 有手机版FeedSquare软件&lt;/p&gt;
+
+&lt;p&gt;预览如下，点击看大图：&lt;/p&gt;
+
+&lt;figure style=&#34;width: 500px&#34; class=&#34;wp-caption aligncenter&#34;&gt;[&lt;img title=&#34;FeedSquare Feed Wall 点击看大图&#34; src=&#34;http://pic.yupoo.com/xcchris/248969a78b82/medium.jpg&#34; alt=&#34;FeedSquare Feed Wall &#34; width=&#34;500&#34; height=&#34;344&#34; /&gt;][1]&lt;figcaption class=&#34;wp-caption-text&#34;&gt;FeedSquare Feed Wall&lt;/figcaption&gt;&lt;/figure&gt;</description>
+    </item>
+    
+    <item>
+      <title>RSSFriends：实现Twitter (un)followers的变化跟踪</title>
+      <link>https://chouj.github.io/2009/04/05/rssfriends-for-twitter/</link>
+      <pubDate>Sun, 05 Apr 2009 08:34:05 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2009/04/05/rssfriends-for-twitter/</guid>
+      <description>&lt;p&gt;&lt;img style=&#34;float: left; margin-left: 10px; margin-right: 10px;&#34; src=&#34;http://s3.amazonaws.com/twitter_production/profile_images/109485517/RSSFriends_Logo_bigger.png&#34; border=&#34;0&#34; alt=&#34;RSSFriends&#34; /&gt;Twitter是微博客的鼻祖，支持输出用户Tweets的RSS Feed，但有三种变化是不输出RSS的：follow我的朋友，我follow的朋友，以及我所喜爱(Favorited)的Tweets。如果想让这三个玩意儿也能被订阅，就得靠&lt;a title=&#34;RSSFriends&#34; href=&#34;http://www.rssfriends.com&#34; target=&#34;_blank&#34;&gt;RSSFriends&lt;/a&gt;啦！&lt;/p&gt;
+
+&lt;p&gt;只要提交你在Twitter的用户名即可：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://pic.yupoo.com/xcchris/9266673bddef/n03ggzsz.jpg&#34; border=&#34;0&#34; alt=&#34;RSSFriends&#34; /&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>使用FeedzShare实现信息过滤</title>
+      <link>https://chouj.github.io/2009/01/17/use-feedzshare-to-filter/</link>
+      <pubDate>Sat, 17 Jan 2009 11:04:56 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2009/01/17/use-feedzshare-to-filter/</guid>
+      <description>&lt;p&gt;&lt;img style=&#34;float: left; margin-left: 10px; margin-right: 10px;&#34; src=&#34;http://pic.yupoo.com/xcchris/214316d1520a/pxsblws4.jpg&#34; alt=&#34;FeedzShare：“中文版”的ReadBurner&#34; width=&#34;224&#34; height=&#34;50&#34; align=&#34;left&#34; /&gt;经&lt;a href=&#34;http://aboutrss.cn/2009/01/feedzshare/#comment-790&#34; target=&#34;_self&#34;&gt;Kuber的回复&lt;/a&gt;获知，FeedzShare还有一个&lt;a title=&#34;FeedzShare：“中文版”的ReadBurner&#34; href=&#34;http://aboutrss.cn/2009/01/feedzshare/&#34; target=&#34;_self&#34;&gt;尚未提到&lt;/a&gt;的有趣功能：我们现在可以利用FeedzShare以推荐数的多寡为门限来进行信息过滤。所以，像cnBeta和译言这类更新较快的站点，我们就可以挑选受众人推荐的信息来进行阅读，从而节省时间，免去信息过载之忧。&lt;/p&gt;
+
+&lt;p&gt;方法如下：&lt;/p&gt;
+
+&lt;p&gt;FeedzShare首页左侧栏，点击“过滤”，就进入到信息过滤的界面：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://pic.yupoo.com/xcchris/272176d51e3c/3xvejjas.jpg&#34; alt=&#34;FeedzShare实现信息过滤&#34; width=&#34;468&#34; height=&#34;183&#34; /&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>FeedzShare：“中文版”的ReadBurner</title>
+      <link>https://chouj.github.io/2009/01/14/feedzshare/</link>
+      <pubDate>Wed, 14 Jan 2009 15:09:02 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2009/01/14/feedzshare/</guid>
+      <description>&lt;p&gt;&lt;img style=&#34;float: left; margin-left: 10px; margin-right: 10px;&#34; src=&#34;http://pic.yupoo.com/xcchris/214316d1520a/pxsblws4.jpg&#34; alt=&#34;FeedzShare：“中文版”的ReadBurner&#34; width=&#34;224&#34; height=&#34;50&#34; align=&#34;left&#34; /&gt;水煮鱼&lt;a href=&#34;http://fairyfish.net/2009/01/09/from-douban-9-to-rss/&#34;&gt;最近有提到&lt;/a&gt;&lt;a href=&#34;http://www.readburner.com&#34;&gt;ReadBurner&lt;/a&gt;(一家按Google Reader分享人数进行信息热度排行的服务)，大意是由于&lt;a href=&#34;https://www.google.com/reader&#34;&gt;Google Reader&lt;/a&gt;不像&lt;a href=&#34;http://www.xianguo.com&#34;&gt;鲜果&lt;/a&gt;、&lt;a href=&#34;http://www.zhuaxia.com&#34;&gt;抓虾&lt;/a&gt;和&lt;a href=&#34;http://9.douban.com&#34;&gt;九点&lt;/a&gt;那样做类似于“热文”的信息Digg，所以才让&lt;a href=&#34;http://www.readburner.com&#34;&gt;ReadBurner&lt;/a&gt;有机可乘。可是ReadBurner是针对分享的英文信息条目的，不适合国人，有没有中文内容的shared items热度排行服务呢？有，但不是ReadBurner真对中文用户的产品，而是本文的主人公：&lt;a title=&#34;FeedzShare：“中文版”的ReadBurner&#34; href=&#34;http://www.feedzshare.com&#34; target=&#34;_blank&#34;&gt;FeedzShare&lt;/a&gt;，由&lt;a href=&#34;http://www.cnblogs.com/kuber/&#34; target=&#34;_blank&#34;&gt;Jeff&lt;/a&gt;出品。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>微博客播报器Feedlr详解</title>
+      <link>https://chouj.github.io/2008/12/18/feedlr/</link>
+      <pubDate>Thu, 18 Dec 2008 15:06:46 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2008/12/18/feedlr/</guid>
+      <description>&lt;p&gt;&lt;img class=&#34;alignleft&#34; style=&#34;margin: 10px; float: left;&#34; src=&#34;http://feedlr.com/images/logo_dark.jpg&#34; alt=&#34;feedlr logo&#34; width=&#34;162&#34; height=&#34;90&#34; /&gt;Feedlr实际上是今年三月份上线的一款国产Web2.0服务，可以用来“创建你自己的Feed广播机器人”，其实就是推送feed内容到微博客。如果你想在国内的&lt;a href=&#34;http://fanfou.com&#34;&gt;饭否&lt;/a&gt;和&lt;a href=&#34;http://jiwai.de&#34;&gt;叽歪&lt;/a&gt;上自动播报feed内容的话，不妨注册Feedlr一用，当然，Feedlr肯定支持&lt;a href=&#34;http://twitter.com&#34;&gt;twitte&lt;/a&gt;r这个鼻祖。&lt;/p&gt;
+
+&lt;p&gt;Feedlr的UI比较华丽，用户体验也不错，下面是其首页截图，可以看到硕大的feed、twitter bird和扬声器的标志，以及长相邪恶的广播机器人：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://pic.yupoo.com/xcchris/806286adc902/0mxnvfmb.jpg&#34; alt=&#34;Feedlr首页截图&#34; width=&#34;468&#34; height=&#34;316&#34; /&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Grazr:分享你的OPML</title>
+      <link>https://chouj.github.io/2008/11/25/grazr/</link>
+      <pubDate>Tue, 25 Nov 2008 02:48:03 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2008/11/25/grazr/</guid>
+      <description>&lt;p&gt;&lt;img style=&#34;margin: 10px;&#34; src=&#34;http://grazr.com/images/logo_nt.png&#34; alt=&#34;Grazr&#34; width=&#34;128&#34; height=&#34;44&#34; align=&#34;left&#34; /&gt;如果想共享出你所订阅的所有feed，不妨将订阅列表以opml文件导入到Grazr，生成一个list，供大家观赏。Grazr的特色就在于此，她能帮你生成一个OPML条目widget，美观实用。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://pic.yupoo.com/xcchris/7390168ec9f3/aj7h7ut5.jpg&#34; alt=&#34;screenshot for Grazr&#34; width=&#34;468&#34; height=&#34;332&#34; /&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Feed Icon 2.0：简单订阅按钮生成器</title>
+      <link>https://chouj.github.io/2008/11/14/feed-icon-20/</link>
+      <pubDate>Fri, 14 Nov 2008 01:11:20 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2008/11/14/feed-icon-20/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://feedicon20.com/?hl=en&#34; title=&#34;feed icon&#34;&gt;&lt;img src=&#34;http://feedicon20.com/img/en_logo.jpg&#34; alt=&#34;feedicon20&#34; width=&#34;468&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;“Feed Icon 2.0 &amp;#8211; a simplest way to add a feed icon to your website !”正如&lt;a title=&#34;Feedicon20.com&#34; href=&#34;http://feedicon20.com/&#34; target=&#34;_blank&#34;&gt;Feed Icon 2.0&lt;/a&gt;网页的title所述，这是一款可生成简易订阅按钮的服务。提交blog地址，点击&amp;#8221;Generate Icon&amp;#8221;即可得到两种简单的按钮样式：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://feedicon20.com/rss.php?u=http%3A%2F%2Faboutrss.cn%2F&amp;amp;s=1&amp;amp;hl=en&#34;&gt;&lt;img style=&#34;margin-right: 2px;&#34; title=&#34;RSS feed&#34; src=&#34;http://feedicon20.com/img/feed.gif&#34; border=&#34;0&#34; alt=&#34;RSS feed&#34; width=&#34;68&#34; height=&#34;22&#34; align=&#34;absmiddle&#34; /&gt;（含阅读器的订阅按钮）&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://feedicon20.com/rss.php?u=http%3A%2F%2Faboutrss.cn%2F&amp;amp;s=1&amp;amp;hl=en&#34;&gt;&lt;img style=&#34;margin-right: 2px;&#34; title=&#34;RSS feed&#34; src=&#34;http://feedicon20.com/img/feedicon16.gif&#34; border=&#34;0&#34; alt=&#34;RSS feed&#34; width=&#34;16&#34; height=&#34;16&#34; align=&#34;absmiddle&#34; /&gt;aboutrss Feed&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>DoYouFeed:iPhone家的feed裁缝</title>
+      <link>https://chouj.github.io/2008/10/10/doyoufeed/</link>
+      <pubDate>Fri, 10 Oct 2008 00:31:37 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2008/10/10/doyoufeed/</guid>
+      <description>&lt;p&gt;&lt;a title=&#34;DoYouFeed.com&#34; href=&#34;http://www.doyoufeed.com/&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://www.doyoufeed.com/i/logo.png&#34; alt=&#34;DoYouFeed.com logo&#34; width=&#34;261&#34; height=&#34;85&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;DoYouFeed.com: Turn any RSS feed into an iPhone friendly site.&lt;/p&gt;
+
+&lt;p&gt;theAppleBlog写过一篇&lt;a href=&#34;http://theappleblog.com/2008/08/04/tutorial-build-a-simple-rss-reader-for-iphone/&#34; target=&#34;_blank&#34;&gt;文章&lt;/a&gt;，教iPhone用户打造一个简易的iPhone RSS Reader。现在有了DoYouFeed，似乎会更加方便，该站可以将RSS Feed改造成适合在iPhone阅读的页面，所以我叫它iPhone家的Feed裁缝。只是俺买不起iPhone，不知道能提升多少阅读体验；其实对这个站有需求的人估计也挺少，呵呵。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>mloovi：多国语言版feed生成服务</title>
+      <link>https://chouj.github.io/2008/10/07/mloovi/</link>
+      <pubDate>Tue, 07 Oct 2008 03:24:21 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2008/10/07/mloovi/</guid>
+      <description>&lt;p&gt;_各位国庆过得可开心？ 🙂&lt;/p&gt;
+
+&lt;p&gt;_&lt;/p&gt;
+
+&lt;p&gt;&lt;a title=&#34;Mloovi&#34; href=&#34;http://mloovi.com/&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://mloovi.com/img/logo_orange_296x83.png&#34; alt=&#34;mloovi&#34; width=&#34;296&#34; height=&#34;83&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;这回介绍一款RSS Feed语言翻译服务：&lt;strong&gt;mloovi&lt;/strong&gt;。只要提交feed地址，该服务即可基于Google Translate生成相应语言的RSS feed，供有中文繁简体24种语言可供互译。虽然Google英汉翻译的质量难以恭维，不过也是一种方便交流的有益尝试；而拿mloovi生成繁简中文feeds，应该对大陆和台湾bloggers很有帮助。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>IMFeeds.com:RSS信息的IM订阅</title>
+      <link>https://chouj.github.io/2008/09/08/imfeeds-delivers-rss-to-im/</link>
+      <pubDate>Mon, 08 Sep 2008 14:39:18 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2008/09/08/imfeeds-delivers-rss-to-im/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://pic.yupoo.com/xcchris/66071628a4c0/hqhkxea7.jpg&#34; alt=&#34;imfeeds.com 首页&#34; width=&#34;468&#34; height=&#34;270&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;很早前，我介绍过&lt;a href=&#34;http://aboutrss.cn/2007/03/anothr/&#34; title=&#34;用IM订阅RSS 实现信息主动推送&#34;&gt;实现信息推送至IM的Anothr&lt;/a&gt;，这次介绍下功能一样的&lt;a title=&#34;IM Feeds Beta - RSS feeds delivered via IM &#34; href=&#34;http://imfeeds.com/&#34; target=&#34;_blank&#34;&gt;IMFeeds&lt;/a&gt;。借助&lt;a title=&#34;IM Feeds Beta - RSS feeds delivered via IM &#34; href=&#34;http://imfeeds.com/&#34; target=&#34;_blank&#34;&gt;IMFeeds&lt;/a&gt;，我们可以将RSS信息实时推送到AIM、MSN、Gtalk和Yahoo!四种IM上，将IM转化为订阅工具和阅读器，即时跟踪您关心的信息。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>三款基于Adobe AIR的RSS阅读器</title>
+      <link>https://chouj.github.io/2008/08/19/3-adobe-air-rss-reader/</link>
+      <pubDate>Mon, 18 Aug 2008 16:47:19 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2008/08/19/3-adobe-air-rss-reader/</guid>
+      <description>&lt;p&gt;_以下软件均基于Adobe AIR技术，请确保已安装&lt;a title=&#34;Get Adobe AIR&#34; href=&#34;http://www.adobe.com/products/air/&#34; target=&#34;_blank&#34;&gt;AIR支持&lt;/a&gt;。_&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a title=&#34;Snackr.net&#34; href=&#34;http://www.snackr.net/&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://pic.yupoo.com/daodao/6867158d2684/5ehp4it7.jpg&#34; alt=&#34;Snackr&#34; width=&#34;32&#34; /&gt;&lt;strong&gt;Snackr&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://pic.yupoo.com/xcchris/89759603e2ea/c69p7zf2.jpg&#34; alt=&#34;Snackr截图&#34; title=&#34;Snackr截图&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Snackr当之无愧是最炫的AIR RSS阅读器，看截图便知。她可以附在桌面一端，滚动播放最新的条目标题，点击条目浏览也是动态展开，非常cool。当然，和正统阅读器相比，其文字排版功夫不到位，且无法标记和区分已读未读。适合追踪新闻时效性的用户使用。喜欢Snackr的朋友，可以在twitter追踪官方消息：&lt;a title=&#34;Snackr@twitter.com&#34; href=&#34;http://twitter.com/snackr&#34; target=&#34;_blank&#34;&gt;Snackr@twitter.com&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Anonymouse.org代理显示FB订阅图标失效</title>
+      <link>https://chouj.github.io/2008/06/17/anonymouse-org-feedcount-display-invalid/</link>
+      <pubDate>Tue, 17 Jun 2008 08:19:28 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2008/06/17/anonymouse-org-feedcount-display-invalid/</guid>
+      <description>因为Anonymouse.org撞墙被屏蔽，所以，之前介绍的Anonymouse.org代理以显示FeedBurner订阅数图标的方法失效。
+主机在国外的朋友，可以参考江东的这篇Feedburner订阅数图标显示解决办法，通过上传一php文件来解决问题。
+Fuck G.F.W</description>
+    </item>
+    
+    <item>
+      <title>显示FeedBurner订阅数图标的唯一方法</title>
+      <link>https://chouj.github.io/2008/05/23/only-way-to-show-feedburner-feedcount-image/</link>
+      <pubDate>Fri, 23 May 2008 05:46:32 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2008/05/23/only-way-to-show-feedburner-feedcount-image/</guid>
+      <description>佳佑的显示FeedBurner订阅数终极大法中介绍了很多方法，可是大部分支持订阅数实时更新的方法没有经住时间的考验。
+Web2proxy.net方法失效
+FeedM8方法失效
+江东大哥的订阅统计烧录，申请起来似乎不大灵光。
+这里还是推荐一下佳佑补充的新方法，目前管用，也是我在用的方法。能够实时显示每天的订阅数。
+通过anonymouse.org网页代理显示Feedburner订阅数图标，编辑网页html代码，在合适位置加入以下代码：
+
+请调整其中feed地址中相应部分，共两处；也可更改颜色代码，自行DIY出喜欢的配色。点此检阅能否显示。
+强烈希望这个方法能用得越久越好。:)
+update:可惜，这个站也撞墙了，此方法失效。</description>
+    </item>
+    
+    <item>
+      <title>Linux下三款离线RSS阅读器简介</title>
+      <link>https://chouj.github.io/2008/04/06/offline-rss-readers-for-linux/</link>
+      <pubDate>Sat, 05 Apr 2008 17:23:02 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2008/04/06/offline-rss-readers-for-linux/</guid>
+      <description>&lt;p&gt;&lt;img SRC=&#34;http://pic.yupoo.com/xcchris/9269555b1fcd/hmje19zh.jpg&#34; ALT=&#34;liferea&#34; BORDER=&#34;0&#34; WIDTH=&#34;214&#34; HEIGHT=&#34;43&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;主页 &lt;a HREF=&#34;http://http://liferea.sourceforge.net/&#34; TARGET=&#34;_blank&#34; TITLE=&#34;Liferea&#34;&gt;&lt;a href=&#34;http://liferea.sourceforge.net/&#34;&gt;http://liferea.sourceforge.net/&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;截图&lt;/p&gt;
+
+&lt;p&gt;&lt;a HREF=&#34;http://pic.yupoo.com/xcchris/2262455b1fcd/nj46tnji.jpg&#34; TARGET=&#34;_blank&#34; TITLE=&#34;Liferea&#34;&gt;&lt;img SRC=&#34;http://pic.yupoo.com/xcchris/2262455b1fcd/small.jpg&#34; ALT=&#34;Liferea&#34; BORDER=&#34;0&#34; WIDTH=&#34;240&#34; HEIGHT=&#34;159&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p ALIGN=&#34;center&#34;&gt;
+   ============================
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[翻译]10个用于合并RSS Feeds的工具</title>
+      <link>https://chouj.github.io/2008/02/16/translation-10-tools-for-blending-feeds/</link>
+      <pubDate>Fri, 15 Feb 2008 17:17:46 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2008/02/16/translation-10-tools-for-blending-feeds/</guid>
+      <description>&lt;p&gt;原文：&lt;a href=&#34;http://www.tothepc.com/archives/10-tools-to-combine-mix-blend-multiple-rss-feeds&#34; target=&#34;_blank&#34;&gt;10 Tools to Combine, Mix, Blend Multiple RSS Feeds&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;作者：Davinde&lt;/p&gt;
+
+&lt;p&gt;译者：&lt;a href=&#34;http://www.xuchi.name/blog&#34; target=&#34;_blank&#34;&gt;抽筋儿&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;big&gt;越&lt;/big&gt;来越多的网民开始接触RSS feed及其应用，以致涌现出一批优良的线上或线下RSS feed管理工具，其中Feedburner和Feeblitz是行业领袖。&lt;/p&gt;
+
+&lt;p&gt;&lt;big&gt;每&lt;/big&gt;当你想从不同的渠道获取信息时，使用工具对RSS Feeds的内容进行过滤是必要的，同时将同类RSS Feeds合并，消灭内容重复的RSS Feeds，似乎更加重要。这有助于你整合Feeds内容，打造统一的RSS Feeds。十个能完成此类任务的工具值得介绍一哈：&lt;/p&gt;
+
+&lt;p style=&#34;text-align: center&#34;&gt;
+  &lt;img src=&#34;http://pic.yupoo.com/xcchris/3326051923f3/gii3ddzu.jpg&#34; alt=&#34;RSS mix&#34; /&gt;
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>TagMindr：Remember the future</title>
+      <link>https://chouj.github.io/2007/10/12/tagmindr-remember-the-future/</link>
+      <pubDate>Fri, 12 Oct 2007 12:54:08 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/10/12/tagmindr-remember-the-future/</guid>
+      <description>&lt;p&gt;&lt;img width=&#34;400&#34; src=&#34;http://media.tagmindr.com/2.0/img/ui-logo.jpg&#34; alt=&#34;TagMindr&#34; height=&#34;144&#34; title=&#34;TagMindr&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://aboutrss.cn&#34; title=&#34;RSS相关&#34;&gt;RSS相关&lt;/a&gt;较少追一些最新应用的，但最近在&lt;a target=&#34;_blank&#34; href=&#34;http://del.icio.us/popular/rss&#34; title=&#34;美味书签&#34;&gt;del.icio.us&lt;/a&gt;上出现的&lt;strong&gt;TagMindr&lt;/strong&gt;挺有意思，口号是“Remember the future&amp;#8230;”。TagMindr仅利用&lt;a target=&#34;_blank&#34; href=&#34;http://del.icio.us/&#34; title=&#34;美味书签&#34;&gt;del.icio.us&lt;/a&gt;书签、Tags标记、RSS Feed，却似乎增加了一种面向海量信息的淘金方式，为信息的有效利用建立了一种提醒机制，避免信息价值的快速淹没。其实反过来说，也加强了信息冲击波的杀伤力，- -#&lt;/p&gt;
+
+&lt;p&gt;吹完牛，这个TagMindr到底是怎么让你Remember the future的呢？&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rss网页Widget: 泥狗狗 ieooo</title>
+      <link>https://chouj.github.io/2007/09/14/rss-widget-ieooo/</link>
+      <pubDate>Fri, 14 Sep 2007 12:05:25 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/09/14/rss-widget-ieooo/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.ieooo.com/&#34;&gt;&lt;img src=&#34;http://www.ieooo.com/logo.gif&#34; alt=&#34;Rss Widget&#34; border=&#34;0&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;早上看到从&lt;a href=&#34;http://www.weborn.org/Website/ieooo.html&#34; title=&#34;网生代&#34; target=&#34;_blank&#34;&gt;网生代&lt;/a&gt;过来的trackback，抽儿于是注意到了这款由网生代推荐的RSS widget服务，与之前介绍的FeedSweep一样，生成一个RSS内容列表，以置于blog侧栏实时共享信息。用泥狗狗（真是kawaii的名字）官方宣传来说就是：&lt;strong&gt;简单,方便,迅速增强网站,分享你的内容&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>如何使用BlackBerry阅读RSS Feeds</title>
+      <link>https://chouj.github.io/2007/09/09/how-to-read-feed-in-blackberry/</link>
+      <pubDate>Sun, 09 Sep 2007 12:22:38 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/09/09/how-to-read-feed-in-blackberry/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://blogs.feedburner.com/feedburner/archives/handango_r2_c1.gif&#34; title=&#34;rss reader for blackberry&#34; alt=&#34;rss reader for blackberry&#34; height=&#34;169&#34; width=&#34;259&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;最近在&lt;a href=&#34;http://www.xuchi.name/blog/2007/09/08/blackberry7230/&#34; title=&#34;“计算器”入手&#34; target=&#34;_blank&#34;&gt;把玩黑莓7230&lt;/a&gt;，听说可以拿黑莓读RSS，于是找了些资源，共享出来，但&lt;strong&gt;我并没有试过&lt;/strong&gt;，仅供参考。&lt;/p&gt;
+
+&lt;p&gt;1、&lt;a href=&#34;http://www.piconews.com/&#34; title=&#34;Piconews&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Piconews&lt;/strong&gt;&lt;/a&gt;——News in your pocket !&lt;/p&gt;
+
+&lt;p&gt;各论坛里极力推崇的黑莓用RSS reader，使用心得和截图见&lt;a href=&#34;http://www.52blackberry.com/thread-7151-1-1.html&#34; title=&#34;介绍一个好的RSS阅读软件 For Blackberry&#34; target=&#34;_blank&#34;&gt;这里&lt;/a&gt;和&lt;a href=&#34;http://www.52blackberry.com/thread-5152-1-1.html&#34; title=&#34;BB上最方便、最实用的RSS免费新闻阅读软件&#34; target=&#34;_blank&#34;&gt;这里&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;2、&lt;a href=&#34;http://www.litefeeds.com/&#34; title=&#34;LiteFeeds&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;LiteFeeds&lt;/strong&gt;&lt;/a&gt;——移动工具的RSS阅读&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://litefeeds.com/myfeeds/images/v3images/skins/general/lflogo.gif&#34; title=&#34;LiteFeeds&#34; alt=&#34;LiteFeeds&#34; height=&#34;26&#34; width=&#34;219&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://litefeeds.com/install/#bby&#34; target=&#34;_blank&#34;&gt;说是&lt;/a&gt;手机上网浏览&lt;a href=&#34;http://litefeeds.com/m之后，即可按步骤下载手机端软件并安装。不知道有没有BBers用这种。&#34;&gt;http://litefeeds.com/m之后，即可按步骤下载手机端软件并安装。不知道有没有BBers用这种。&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;3、&lt;a href=&#34;http://www.mobipocket.com/en/DownloadSoft/ProductDetailsReader.asp&#34; title=&#34; Mobipocket Reader Desktop 6.0&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;MobiPocket Reader&lt;/strong&gt;&lt;/a&gt;——电子书+RSS新闻阅读的强大软件&lt;/p&gt;
+
+&lt;p&gt;其实这只是个PC端的软件，支持把文本和RSS以.prc文件导入黑莓。当黑莓和电脑连接时，该软件会自动将手机里的RSS信息和PC端软件里的RSS信息同步，以此成为RSS阅读的一种方式。用户需要主动接入，而不是被动得等待手机网络把新内容推送过来，如果你的黑莓没有上网的话，可以尝试一下这样一种方式。&lt;/p&gt;
+
+&lt;p&gt;这里有PC端软件界面的&lt;a href=&#34;http://photo11.yupoo.com/20070909/195629_1968417969_igfxckxb.jpg&#34; title=&#34;截图 of mobipocket&#34; target=&#34;_blank&#34;&gt;截图&lt;/a&gt;，可以看到添加RSS的按钮，和阅读器的基本布局。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>HTML/PAGE2RSS线上工具收集</title>
+      <link>https://chouj.github.io/2007/09/05/html2rss-online-tools/</link>
+      <pubDate>Wed, 05 Sep 2007 13:18:22 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/09/05/html2rss-online-tools/</guid>
+      <description>&lt;p&gt;当网页不提供RSS输出，但每一则内容的网页结构相同的话，我们就可以利用&lt;strong&gt;HTML2RSS&lt;/strong&gt;工具生成一个RSS Feed，让这个Feed自动抓取这个网页的新内容，再送到我们面前。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;此类工具是怎么实现信息抓取的呢？&lt;/strong&gt;熟悉网页代码的朋友都知道，网页布局、样式的相同意味着代码结构的相同，而我们浏览的一些信息站点又往往罗列多个样式一致的信息条目。信息内容是变化的，但装载信息的容器——网页代码有它不变的部分。HTML2RSS工具就是通过针对相同代码结构中的不同信息进行甄别抓取来工作的。仔细说来就是：这些工具将相同架构的网页代码视为常量，将其中不同的部分视为变量——这些变化的部分可能就是用户关注的信息——用户确定所需要的变量部分后，系统将该部分以通配符形式代替，定期检索网页代码，然后把相同代码间符合通配符的那部分抓取出来，再以RSS文件的格式重写输出，我们要的Feed就生成啦。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Firefox上的阅读器：Wizz RSS News Reader</title>
+      <link>https://chouj.github.io/2007/08/22/firefox-extension-wizz-rss-reader/</link>
+      <pubDate>Wed, 22 Aug 2007 12:34:21 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/08/22/firefox-extension-wizz-rss-reader/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://photo6.yupoo.com/20070822/191418_728437375_azhcsavb.jpg&#34; title=&#34;Firefox&#34; alt=&#34;Firefox&#34; align=&#34;left&#34; height=&#34;128&#34; width=&#34;128&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;火狐浏览器一直是技术人员最为喜欢的浏览器，以极好的网页标准支持和丰富的扩展能力而著称。因此，必定会有RSS Feed阅读器以火狐扩展的形式而存在，&lt;a href=&#34;http://www.xuchi.name/blog&#34; title=&#34;抽筋儿&#34; target=&#34;_blank&#34;&gt;抽儿&lt;/a&gt;一直都这样以为。Wizz RSS News Reader就是这么一款集成于Firefox之上的extension，虽然&lt;a href=&#34;http://www.xuchi.name/blog&#34; title=&#34;抽筋儿&#34; target=&#34;_blank&#34;&gt;抽儿&lt;/a&gt;并不喜欢浏览器的上下左右被各种插件攻陷，但&lt;a href=&#34;http://www.xuchi.name/blog&#34; title=&#34;抽筋儿&#34; target=&#34;_blank&#34;&gt;抽儿&lt;/a&gt;还是要推荐它，因为也许有朋友用的到。&lt;/p&gt;
+
+&lt;p&gt;Wizz RSS News Reader可以实现一般在线或离线阅读器的主流功能，作为一款火狐扩展插件来说，还是非常强大的。在安装好之后，我们可以在浏览器中看到它：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://photo8.yupoo.com/20070822/194557_785427207_lrkpnmru.jpg&#34; title=&#34;Wizz RSS&#34; alt=&#34;Wizz RSS&#34; height=&#34;351&#34; width=&#34;468&#34; /&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>RSS ScreenSaver：屏保也疯狂</title>
+      <link>https://chouj.github.io/2007/08/13/rss-screensaver/</link>
+      <pubDate>Mon, 13 Aug 2007 03:34:25 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/08/13/rss-screensaver/</guid>
+      <description>编前：不知何故，RSS相关的feed和单篇页面一段时间内404报错，现经重装wp已经恢复，祈求上天保佑，别在折腾我了，阿门。
+屏保和RSS能牵扯上关系吗？抽儿负责任的告诉你，可以，而且2005年就可以了，因为要介绍的这款屏保软件在2005年就有了，- -b 希望别太火星。
+RSS Screensaver 能够在屏保激活时，在背景图片之上，显示你所设置的feed中的条目，截图如下：
+可以看到，中间半透明的区域是显示feed标题的地方，而每个标题对应的摘要则显示于右侧，并以淡入淡出的方式滚动播出。
+软件的自定义程度很高，支持数个feeds订阅。在设置中，你可以选择显示的标题数目，背景图片切换的时间周期，feed信息停留的时间，也可以自己更改背景图片文件夹，选择自己心怡的图片。屏保激活时，可以使用左右方向键在feeds中切换，使用上下方向键选择感兴趣的条目，或使用空格键，在浏览器中打开当前条目。
+不过， 抽儿私以为，屏保的时候都要和feed上的信息打交道，实在是残忍的行为，过载的还不够么？
+[ 点击进入RSS Screensaver下载页面，软件需要.NET Framework支持 ]</description>
+    </item>
+    
+    <item>
+      <title>FeedSweep:一款显示RSS内容的Widget</title>
+      <link>https://chouj.github.io/2007/08/09/feedsweep-to-show-feed-items/</link>
+      <pubDate>Thu, 09 Aug 2007 11:18:09 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/08/09/feedsweep-to-show-feed-items/</guid>
+      <description>如果你想将RSS Feed里的内容显示到blog的侧栏上，那么就可以选用FeedSweep这项服务（无需注册），它支持将Feed里的标题，描述，日期等详尽信息读取出来，生成widget，用户可以将其贴到blog上。
+此服务的Basic版本可免费使用，但只能添加一个Feed，目前Feed合烧早就不是问题，所以Basic版绝对够用。在widget定制中，用户可自行设置如下项目：
+ widget标题 显示条目数量 widget宽度 是否显示Feed标题 是否显示每篇头条 是否显示每篇摘要 是否显示每篇发布的日期 是否在新窗口打开条目 widget标题的链接指向 widget颜色  最后生成javascript代码，添加到合适的位置即可。抽儿做了一个供参考，如下(RSS订阅读者可能无法在阅读器中看到效果)：
+[点击进入FeedSweep]
+以此矬文纪念070809，XD~~</description>
+    </item>
+    
+    <item>
+      <title>RSS聚合器 之 Tiny Tiny RSS</title>
+      <link>https://chouj.github.io/2007/08/05/tiny-tiny-rss/</link>
+      <pubDate>Sun, 05 Aug 2007 15:15:09 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/08/05/tiny-tiny-rss/</guid>
+      <description>什么是RSS聚合器？  RSS聚合器是一种以用户被动更新模式更新，可读取RSS Feed / XML并显示新闻项的程序，可以方便地在线获取、阅读和管理RSS/XML格式的信息。
+
+一两月前抽儿在twitter上见到启羁提到这款新发布的聚合器——Tiny Tiny RSS，收入书签，此番来介绍哈子。
+TT-RSS是目前很新的一款RSS聚合器程序，基于浏览器端，但可实现桌面级应用的用户体验，也就是说，她的功能非常强大。先来直观认识，上截屏，点击小图可看大图：
+
+从界面看，布局和目前主流的RSS在线阅读器基本一致，容易上手。再来看其特性：
+ 需要数据库支持，浏览器端操作 支持各种格式：RSS, RDF, Atom ，基于Magpie{.ext-link}的RSS Feeds后台管理 支持OPML{.ext-link}导入导出 安装和设置简单 运用AJAX技术 免费程序，licensed under GPL{.ext-link} !支持文本搜索 可工作于两款主流数据库 &amp;#8211; PostgreSQL{.ext-link} and MySQL{.ext-link} !支持 Technorati-style标签{.ext-link}，可显示标签云 !支持灵活的 内容筛选{.wiki} !支持多用户操作 支持feeds分类，支持feed favicon显示 !支持 快捷键{.wiki} 支持已读/未读标记，!支持Items星标 三款颜色皮肤可选  是不是很诱人？要实现如此强大的功能，当然需要强劲的后台支撑，我们来看看其运行需要的环境：
+ 服务器，例如 Apache{.ext-link} PHP{.ext-link} (OPML 导入/导出 需要 PHP4 DOMXML项 支持, 更多信息可见于 FAQ{.wiki} ) Magpie RSS{.ext-link} feed 分析 (内含) PostgreSQL{.ext-link} (测试于 7.4, 8.1 &amp;#8211; 推荐) 或 MySQL{.</description>
+    </item>
+    
+    <item>
+      <title>FanfouFeed将RSS更新推送到饭否</title>
+      <link>https://chouj.github.io/2007/07/24/rss-to-fanfou/</link>
+      <pubDate>Tue, 24 Jul 2007 13:32:52 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/07/24/rss-to-fanfou/</guid>
+      <description>RSS2Twitter.com将即时更新的RSS信息发布到Twitter，FanfouFeed.com则可以将Feed内更新的信息标题发布到饭否。
+其主页上介绍的使用需知有三：
+ 有饭否帐号，即为饭否用户； 只可使用OpenID登录； 登录后台，添加或管理Feed和消息前缀。  发文时此服务用户仅21名，有blog的饭否用户可以尝试下，让信息传播得更远些吧 🙂
+[点此进入（该站目前关闭中）]</description>
+    </item>
+    
+    <item>
+      <title>RSS聚合器 之 Gregarius</title>
+      <link>https://chouj.github.io/2007/07/14/gregarius/</link>
+      <pubDate>Sat, 14 Jul 2007 14:42:32 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/07/14/gregarius/</guid>
+      <description> 什么是RSS聚合器？  RSS聚合器是一种以用户被动更新模式更新，可读取RSS Feed / XML并显示新闻项的程序，可以方便地在线获取、阅读和管理RSS/XML格式的信息。
+ Gregarius  个人认为Gregarius已经是一款相当成熟的RSS feed聚合器程序了，具备不错的用户体验，易于操作和管理。抽儿就是拿这款程序架设的RSS阅读器。特性如下：
+ 支持 RDF, RSS, ATOM feeds 支持智能识别； 基于浏览器Web端的前台浏览和后台管理； 支持目录分类，支持标签系统，并运用了ajax技术； 支持搜索； 支持OPML； 可显示favicon； 支持已读未读分类和条目数量显示； 具有多种主题样式，支持插件；  前台样式：
+后台含八个管理标签，分别为“控制面板”、“Feed管理”、“条目管理”、“设置”、“插件”、“主题”和“分类目录”，操作简单。
+Demo站点：
+OpenRSS
+话语权
+Gregarius运行环境要求：
+ Apache服务器（推荐） PHP (PHP 4.x 或 PHP 5.x, 4.3+ 推荐) 数据库 MySQL 和 SQLite  Gregarius主页 | Gregarius 0.5.4 原版下载页面 | Gregarius 0.5.3 的安装说明
+最后提一下抽儿在使用中的一些感受。首先，空间的访问速度和php的版本会直接影响feed添加以及OPML导入的成败，某些时候可能feed添加成功，但没有成功读取到内容，或抓取后不能实时更新，这在话语权中表现比较明显。其次，Gregarius有经过汉化的版本，搜索可得（比如这里），但汉化的不彻底，更新时间显示为乱码，可能涉及编码UTF-8/GB2312的支持和时间日期代码格式的问题。还有就是Gregarius对Feedsky的Feed不友好。
+Powered by ScribeFire. </description>
+    </item>
+    
+    <item>
+      <title>RSS聚合器 之 Lilina News Aggregator</title>
+      <link>https://chouj.github.io/2007/07/09/lilina/</link>
+      <pubDate>Mon, 09 Jul 2007 13:59:42 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/07/09/lilina/</guid>
+      <description>什么是RSS聚合器？  RSS聚合器是一种以用户被动更新模式更新，由asp或php编写的，可读取RSS Feed / XML并显示新闻项的程序，可以方便地在线获取、阅读和管理RSS/XML格式的信息。
+ Lilina  抽儿在自己寻找RSS聚合器程序的时候，就曾留意过这款名字好听，小巧，却功能强大的Lilina。但像抽儿这种非技术人士，初次安装时没鼓捣成，进而转投Gregarius聚合器门下，算是无缘于Lilina相拥了。但她仍然是一款优秀的RSS聚合器程序，值得推荐。
+Lilina的介绍很简单：
+ is a simple but powerful news aggregator written in PHP. No database is needed, RSS/ATOM parsing is done by the excelent MagpieRSS library (it is included, no additional installation needed). It features feed auto-discovery and an easy-to-use interface.
+ 抽儿来总结下lilina的特性：
+ 由php写就，无需数据库支持； 基于MagpieRSS的RSS后台缓存机制； 支持RSS、Atom格式，支持OPML导出，支持网页内RSS地址的自动搜寻； 可视web界面端的RSS管理：Feed的添加、删除简单； 支持换肤； 支持Favicon显示； 安装文件体积小； 易安装。  其实Lilina已经发布很久了，目前版本号为0.9，但其下载页面上提示不要下载0.9这个版本，且也只提供了0.7的版本，印证了David Feng的话：Lilina 源程序 Bug 太多，性能也不太好。不过请放心，使用如此小众的Lilina搭建RSS新闻聚合的朋友，绝大多数是技术高手，早已将Lilina精巧的打扮了一番。先让我们欣赏一下芳容：
+■ www.CheDong.com</description>
+    </item>
+    
+    <item>
+      <title>RSS聚合器 之 XML News Aggregator</title>
+      <link>https://chouj.github.io/2007/07/06/xml-news-aggregator/</link>
+      <pubDate>Thu, 05 Jul 2007 16:46:28 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/07/06/xml-news-aggregator/</guid>
+      <description>什么是RSS聚合器？  RSS聚合器是一种以用户被动更新模式更新，由asp或php编写的，可读取RSS Feed / XML并显示新闻项的程序，可以方便地在线获取、阅读和管理RSS/XML格式的信息。
+ Sipo XML News Aggregator（SXNA）  SXNA是由Sipo开发的一款基于asp的聚合器程序，也是asp下最为流行的RSS聚合器。目前版本号1.7，特点如下：
+ 支持RSS0.9&amp;frasl;1.0/2.0 Atom  支持OPML导入与导出 首页第一页采用缓存机制，更加快速 有列表显示模式和标准显示模式 可以订制多种显示模式组合 支持动态制定正则表达式 无需登陆即可浏览到聚合内容。 支持皮肤更换  采用首页停留驱动自动更新的机制  采用自动更新代码驱动自动更新  列表显示和聚合源读取采用Ajax技术  首页调用支持GB调用和UTF8调用 后台方便的数据库管理  首页可以搜索或组合搜索 不支持favicon显示
+  SXNA主页 | 下载页面 | 安装指南 | SXNA聚合器站点示例：
+ Blueidea XML News Aggregator WAFX&amp;#8211;武汉大学博客XML聚合(Whublog Aggregator For Xml) 啸聚一庐&amp;#8211;txna(技术博客聚合)Thw&amp;#8217;s XML News Aggregator 美剧.COM | 美剧信息聚合平台(MXNA) 汉化新世纪聚合 何昕博客聚合 一笑而过RSS聚合器  SXNA聚合器界面截图：
+
+
+ &amp;#8230;</description>
+    </item>
+    
+    <item>
+      <title>MonitorThis:实现搜索结果的订阅</title>
+      <link>https://chouj.github.io/2007/06/14/monitorthis/</link>
+      <pubDate>Wed, 13 Jun 2007 21:21:39 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/06/14/monitorthis/</guid>
+      <description>每天网络上将产生许多新的页面，而搜索引擎的爬虫们在积极地抓取，努力把所有网络上的内容都纳入其搜索引擎中。如果能让爬虫们为你服务，将你关心的关键字的内容抓取到，再通过RSS推送到你面前，这是不是很激动人心呢？那么MonitorThis就可以帮到你的忙，她能让你订阅到你需要的关键字在22个搜索引擎上的结果。MonitorThis直译的意思是：“监视这个”，对于MonitorThis的功能来说，非常贴切。而22个搜索引擎分别为：
+  Google Blog Search Google News search Technorati tag search del.icio.us tag search furl search Flickr tag search MSN search MSN News search Yahoo search Yahoo News search Icerocket search Feedster rss search Topix.net search Feedsfarm.com search Newspad PRWeb search Search4RSS rss search Blogdigger search Plazoo search NewsNetPlus search Blogmarks tag search Find articles search Wired News search blogg.de tag search   OK，让我们开始，我们需要做的只有三步：
+ 在MonitorThis页面上的“enter search term”中填入你所关心的关键词，比如“Google”之类（对中文支持不佳），点击右侧的“make monitor.</description>
+    </item>
+    
+    <item>
+      <title>All in ONE订阅按钮免费制作站点收集</title>
+      <link>https://chouj.github.io/2007/05/23/all-in-one-feed-button/</link>
+      <pubDate>Wed, 23 May 2007 12:32:46 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/05/23/all-in-one-feed-button/</guid>
+      <description>Blogosphere中，经常可以见到All in ONE类型的订阅按钮，说白了就是用一个按钮代替众多阅读器的订阅按钮，其类型目前主要有两种，一种是鼠标移动到按钮上或点击按钮，随即触发下拉菜单，菜单中有适合各种阅读器的按钮；另一种是点击按钮后转到拥有一堆按钮的界面供选择。RSS相关特收集了一些常用的All in ONE按钮制作站点，免费无需注册：
+菜单式： FEEDBUTTON
+该站很早就出现了，提供的菜单有两列式(normal)和一列式(long)，但按钮只有一种。两列式菜单如下：
+点此进入按钮生成页面
+===================================== Buttonr
+RSS相关对该站做过介绍，截图如下
+同时提供不同的按钮式样供用户选择：
+该站同时可制作Bookmark按钮。
+点此进入按钮生成页面
+===================================== 
+该站提供一大一小两个按钮，式样为：
+点击按钮会弹出菜单，截图为：
+点此进入按钮生成页面
+===================================== 页面式： 该站同时提供Feed订阅按钮和Bookmark按钮的定制。按钮形式多样，Feed按钮共有六种样式，例如
+而点击按钮后转入的页面见此。如果您是注册用户，您还可以订制该页面，去掉您不乐意显示的按钮；另外，您还能享受到统计（trends）服务，实时查知自己blog的订阅趋势和网摘收录情况。
+点此进入按钮生成页面
+===================================== 
+该站服务很多，其一就是提供Feed订阅按钮和Bookmark按钮的定制，共有五种样式，给出一例：
+点击按钮后转入页面见此。
+点此进入按钮生成页面
+===================================== 这个站严格来讲不算这个类别，因为它可以自动识别您默认的Feed阅读器，然后转到相应页面。按钮样式有7种，比较典型的是下面这个：
+点此进入按钮生成页面
+===================================== 个人认为还是不要选页面式的好，谁知道转入的页面在读者的网络环境下是否打的开呢，囧。</description>
+    </item>
+    
+    <item>
+      <title>抓虾：免费订阅按钮大放送</title>
+      <link>https://chouj.github.io/2007/05/19/buttons-of-zhuaxia/</link>
+      <pubDate>Fri, 18 May 2007 17:31:46 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/05/19/buttons-of-zhuaxia/</guid>
+      <description>抓虾日前推出了博客订阅按钮大放送服务 ，在抓虾首页的左侧即有其悬挂的服务广告：
+在该服务页面中，抓虾一改绿色清新的界面，选择了热情似火的红色，可见其推广力度。
+服务中，抓虾保留了原有经典的订阅按钮样式的同时，增加了4个类别的订阅按钮，分别为卡通、星座、性感、清爽，各有特色。按钮的定制过程简单：选择自己喜欢的按钮图案；填入自己的blog地址，点击生成代码，将代码放进blog的合适位置即可。我感觉，抓虾此举大有普及RSS订阅应用的意味在其中，想以个性鲜明的图片换取网友对RSS订阅的学习动力，实属可贵，赞个！
+点此进入抓虾订阅按钮生成页面
+这个消息发布的晚了点儿，而且我还不是从抓虾看到的，而是从这里，囧。谁让我不是抓虾用户呢，我还是对我的Google Reader更痴情～～XD，但是如果你喜欢这里的话，也可以点下面的按钮用抓虾订阅我哦！:)
+[
+]1</description>
+    </item>
+    
+    <item>
+      <title>80×15规格RSS按钮线上制作站点收集</title>
+      <link>https://chouj.github.io/2007/05/14/button-makers/</link>
+      <pubDate>Mon, 14 May 2007 00:41:50 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/05/14/button-makers/</guid>
+      <description>前文介绍了一个收集80×15规格button的站点，如果还是没有令您心怡的RSS按钮的话，不妨自己动手，丰衣足食。正巧有很多线上站点提供此类按钮DIY服务，RSS相关将其搜罗如下：
+
+正宗的左右两色按钮制作站点，可调参数为两色分隔位置（bar position）、两边背景颜色、字体、字体大小、字体颜色、字符的左边距和上边距。优点在于支持的字体超级多，上面标明有对中文、日文、韩文的支持，但貌似没法使用，有点遗憾。
+样例：点此进入该站
+************************************************* 
+和RSSbuttons.com不同的是，该站可自定义按钮的大小，但只有11种字体可选。
+样例：点此进入该站
+************************************************* 这个服务页界面清新，可制作80×15和88×31两种规格的按钮，缺陷就是无法定义左右两色各占的比例，且字体不可选。
+样例：点此进入该页
+************************************************* 该页面也很简单，特点在于可以定义按钮的border属性，一改外框黑内框白的格局，当然，字体仅有一种。
+样例：点此进入该页
+************************************************* 
+别看logo小，这个站可不一般啊。他允许在按钮中嵌入图片，两边都可以嵌入 ，支持内外框的颜色定义，6种字体可选。不过制作成功需要点人品。
+样例： 点此进入该站
+************************************************* RSS Graphic Tool
+这个工具就很一般了，仅支持一种字体，只能靠空格来调整字符的左边距和上边距。不推荐。
+样例：点此进入该页</description>
+    </item>
+    
+    <item>
+      <title>Feed Submitter:向搜索引擎提交您的Feed</title>
+      <link>https://chouj.github.io/2007/05/08/feed-submitter/</link>
+      <pubDate>Tue, 08 May 2007 02:14:34 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/05/08/feed-submitter/</guid>
+      <description>Feed Submitter，英文意思就是提交Feed。顾名思义，该站提供的服务即为向各大搜索引擎提交您的Feed地址，以供搜索，免费的哦。
+目前该站将把Feed地址提交到如下站点：
+ Google Blog Search
+Google Ping
+Technorati
+Technorati Ping
+Blogdigger
+BloogZ
+BlogStreet
+ 提交方法很简单，只需在该站首页填入RSS Feed地址和您的Email邮箱，点击“OK”即可。之后反馈页如下：
+点此进入该站</description>
+    </item>
+    
+    <item>
+      <title>buttonr.com已推出Feed按钮定制</title>
+      <link>https://chouj.github.io/2007/04/25/buttonr/</link>
+      <pubDate>Wed, 25 Apr 2007 09:44:35 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/04/25/buttonr/</guid>
+      <description>本站每篇文章下面的Bookmark this的按钮，就是在buttonr.com生成的。之前该站只提供网摘收录按钮的生成，而且只有一种样式，现在不仅放出了多款样式，而且同时提供Rss按钮的定制。其方式和FeedButton提供的按钮功能一样，鼠标移动到按钮上，即弹出下拉窗口，提供多种订阅工具的选择。如下图：
+
+同时提供不同的按钮式样供用户选择：
+
+用户只要填好自己的Feed地址，生成代码，将代码复制到自己blog相应的地方即可：
+&amp;lt;!-- buttonr.com Bookmark Script BEGIN --&amp;gt;&amp;lt;br /&amp;gt; &amp;lt;script type=&amp;quot;text/javascript&amp;quot;&amp;gt;&amp;lt;!--&amp;lt;br /&amp;gt; buttonr_rss_button_type = &#39;01-rss&#39;;&amp;lt;br /&amp;gt; buttonr_feed_url = &#39;http://&#39;;&amp;lt;br /&amp;gt; // --&amp;gt;&amp;lt;/script&amp;gt;&amp;lt;br /&amp;gt; &amp;lt;script type=&amp;quot;text/javascript&amp;quot; src=&amp;quot;http://www.buttonr.com/buttonr_01_rss.js&amp;quot;&amp;gt;&amp;lt;br /&amp;gt; &amp;lt;/script&amp;gt;&amp;lt;br /&amp;gt; &amp;lt;!-- buttonr.com Bookmark Script END --&amp;gt;
+把其中的“http://”补充完整为您自己的Feed URL即可。其中buttonr_rss_button type 属性后的内容，即选定不同样式的按钮，从01至06。</description>
+    </item>
+    
+    <item>
+      <title>Feedsea:国内新上线的在线RSS阅读器</title>
+      <link>https://chouj.github.io/2007/04/08/feedsea/</link>
+      <pubDate>Sun, 08 Apr 2007 08:42:20 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/04/08/feedsea/</guid>
+      <description>UPDATE:这个站已经嗝儿屁了。
+
+自仿抓虾的猫爪之后,zhuamao终于走出了模仿的影子，于4月7日正式推出其新站：Feedsea。
+该站在功能上除有RSS阅读功能外，还集成了Digg元素，首页极具DIGG风格。界面上版式清新，一改猫爪的黑色背景，采用白色基调。全站分三个板块，文章、频道、阅读器，分别是Digg后的最热文章、最热Blog分类显示和用户的RSS阅读页面。细节上，支持OpenID登录、支持Opml导入/导出，具备tag系统，支持用户头像，但并没有类似抓虾的小组功能，说明Digg元素在在该站是主打，以此有别与其他线上RSS阅读器。
+目前该站的服务还尚未完善，经我适用，在OpenID登录、用户信息更改等处偶尔会报错，但仍然值得期待。
+该站截图如下，点击可见大图：
+文章页面 频道页面 阅读器页面 PS. Feedsea要是不和Feedsky合作就太说不过去了，天上的种子找到归属，落到海里，这是多么美妙的姻缘啊，哈哈。</description>
+    </item>
+    
+    <item>
+      <title>RSS与Twitter结合的新玩法</title>
+      <link>https://chouj.github.io/2007/03/28/rss-to-twitter/</link>
+      <pubDate>Wed, 28 Mar 2007 09:46:48 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/03/28/rss-to-twitter/</guid>
+      <description>从盗盗那里再度发现有关RSS的新鲜服务，这次RSS的伙伴是风靡全球的Twitter。
+只要是Twitter用户，就可在这个站登录。她实现的功能就是：通过RSS，将最新的网志发布到Twitter上去，把Twitter变成了在线RSS阅读器，或者说是最新网志发布平台。而发布哪些RSS，全凭用户登录后在后台的订阅，可订阅多个RSS，也可对已订阅的RSS去订。
+Blogging的Twitter用户还不赶紧去试试？
+点击进入</description>
+    </item>
+    
+    <item>
+      <title>用IM订阅RSS 实现信息主动推送</title>
+      <link>https://chouj.github.io/2007/03/26/anothr/</link>
+      <pubDate>Mon, 26 Mar 2007 11:34:11 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/03/26/anothr/</guid>
+      <description>虽然Anothr提供的服务，对刚刚熟悉RSS的用户来说比较高端，但我还是非常乐意介绍她，因为她有中文网页， 而且她被我视为RSS技术的里程碑式应用。为什么这么讲？即便我们有RSS，有阅读器，但我们要主动去打开，主动去看，才能获知别人是否有更新；但有了 Anothr RSS 机器人，在IM（即时通信软件）中，它会主动将别人的更新信息发送过来，也就是我们在RSS阅读中处于被通知的地位，而订哪个由我们说了算，所以这个机器 人是不会塞进来垃圾广告的。
+闲话少说。先来点小教程，告诉大家怎么用。
+用Skype的中文用户比较有福，因为Anothr中文页面详尽介绍了使用方法。简要复述下：
+ 在Skype里添加机器人 Anothr.com 为好友；
+在对话框中输入您要订阅的博客地址或其RSS地址，即可实现订阅，您什么都不需要做，机器人会在第一时间将更新通知您；
+机器人会在对话框中反馈一个登录链接，点击进去即实现帐号登录，一个帐号绑定一个Skype帐号，所以无需注册，在管理页面，就可以对您的订阅进行删除、共享操作。
+ 虽然中文主页上还没提到Gtalk（google 的IM软件），但英文主页上已经表明该服务已经扩展到Gtalk上。使用方法与Skype基本相同，只是在Gtalk中您要添加的好友是 anothr@gmail.com
+我自己试用了这款服务，个人认为，长篇的文章不适合在IM中阅读，且排版比较不理想，这是该服务需要改善的地方。但这个服务，无疑给摘要式RSS输出提供了强有力的支持，因为人们用它的主要目的是获知更新，而不大会是阅读享受。
+更多信息请参考Anothr Blog。正如Anothr页面上说的那样：
+ Anothr.com是基于Skype/Gtalk的RSS订阅提醒机器人
+Skype/Gtalk用户实时接收RSS种子的更新信息
+Anothr.com带来革命性的RSS阅读体验
+ 希望您能享受到技术带来的愉快。</description>
+    </item>
+    
+    <item>
+      <title>FeedButton:制作下拉式Feed按钮</title>
+      <link>https://chouj.github.io/2007/03/12/feedbutton/</link>
+      <pubDate>Mon, 12 Mar 2007 09:07:34 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/03/12/feedbutton/</guid>
+      <description>FEEDBUTTON
+这个站很早就有了，很多人都选用该站制作的Feed Button，其优点是“One Button, For All XML/RSS Readers”。
+Replace All These（取代这些）:
+只需要一个按钮，当鼠标移动到按钮上时，其隐藏的下拉菜单就显示出来，里面囊括支持各样阅读器的按钮。技术简单，但很实用，Blog上不用罗列大堆Feed按钮了，美观又节约地盘。
+现有两种菜单样式，一种是两列式，一种是一列式，两列式效果如下：
+
+想拥有这样一个按钮菜单基本不需要什么步骤：
+在“Create My Feed Button”下的选框中，填入您的Feed地址，再点击其下的“Make My Feed Button”按钮即可生成代码，然后将所生成的代码添加到您blog上需要的位置即告完成。
+Chou觉得下拉菜单中的诸多按钮还是乱了点儿，模样不统一，:)
+Technorati Tags: FeedButton, button
+Powered by ScribeFire. </description>
+    </item>
+    
+    <item>
+      <title>Yourrss.jp:用RSS打造Flash滚动标题榜</title>
+      <link>https://chouj.github.io/2007/03/02/yourrss-widget/</link>
+      <pubDate>Fri, 02 Mar 2007 13:14:12 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/03/02/yourrss-widget/</guid>
+      <description>该站YourRSS.jp提供一款很炫的服务，即打造blog的Flash滚动标题榜，效果如下：
+是不是很棒？想拥有她很简单，只要你有自己blog的RSS地址，不用惧怕其日文界面，这里有Chou截屏给出的步骤：先进入这里。
+按上图操作，即可生成代码，然后将代码贴在您blog的相应地方即可，推荐侧栏sidebar处。只是该站位于日本，可能要稍微loading一下。
+** 点此进入**
+Technorati Tags: yourrss, widget</description>
+    </item>
+    
+  </channel>
+</rss>

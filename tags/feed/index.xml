@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Feed on 抽筋儿的话语权</title>
+    <link>https://chouj.github.io/tags/feed/</link>
+    <description>Recent content in Feed on 抽筋儿的话语权</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
+    <lastBuildDate>Tue, 06 Jul 2010 08:58:39 +0000</lastBuildDate>
+    
+	<atom:link href="https://chouj.github.io/tags/feed/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>[翻译]给Twitter Favorites添加一个Feed</title>
+      <link>https://chouj.github.io/2010/07/06/create-an-feed-for-twitter-favorites/</link>
+      <pubDate>Tue, 06 Jul 2010 08:58:39 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2010/07/06/create-an-feed-for-twitter-favorites/</guid>
+      <description>原文：Create an RSS Feed for Twitter Favorites
+作者：MARK EVANS
+推特的神奇之处在于，在这条信息长流之中，汇集了好玩的点子、稀奇的思绪、纷杂的内容和用户的观点。当然推特也有让人不爽的地方，那就是难以将这些存留下来。
+一个解决办法是，运用推特的“favorite（收藏）”功能将tweets标记下来，过后再看。
+但其中有个问题是，推特并未提供方便的管理和检索“收藏”的功能。特别是当我们想定期查阅和检索“收藏”时，此类功能的缺失让我们觉得比较不方便。那么我们该怎么做呢？
+其实我们可以为这些“收藏”生成一个RSS Feed。这是推特所支持的，且很便捷。
+http://twitter.com/favorites/[**insert_your_ID_here**].rss就是你的收藏的RSS Feed地址，以你的推特用户名替换掉方括号的部分。如果你用Google Reader的话，就可以把这个URL添加进你的订阅了。</description>
+    </item>
+    
+    <item>
+      <title>“枪版”全文RSS Feed的是与非</title>
+      <link>https://chouj.github.io/2009/08/19/about-fullview-feed-diy/</link>
+      <pubDate>Tue, 18 Aug 2009 16:56:04 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2009/08/19/about-fullview-feed-diy/</guid>
+      <description>&lt;p&gt;&lt;img title=&#34;“枪版”全文RSS Feed的是与非&#34; src=&#34;http://pic.yupoo.com/xcchris/188367ee3952/am5ayc5h.jpg&#34; alt=&#34;“枪版”全文RSS Feed的是与非&#34; width=&#34;630&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;欣欣然想在这里发布一些推友制作的全文RSS Feeds的时候，我想到了版权问题，于是有了这个名字：&lt;strong&gt;“枪版”全文RSS Feed&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;什么是“枪版”全文RSS Feed？&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;利用一些网络应用将门户或纸媒网络版的摘要型Feed全文化所得到的全文RSS Feed，就被我起名为&lt;strong&gt;“枪版”RSS Feed&lt;/strong&gt;。这跟“枪版”电影的道理是一样的：“枪版”电影虽然也算推广了作品，但毕竟影响票房，侵犯版权；私制的全文RSS Feed传递了信息，方便了订阅者，但损害了门户和纸媒网站的利益，一样侵权。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[翻译]10个用于合并RSS Feeds的工具</title>
+      <link>https://chouj.github.io/2008/02/16/translation-10-tools-for-blending-feeds/</link>
+      <pubDate>Fri, 15 Feb 2008 17:17:46 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2008/02/16/translation-10-tools-for-blending-feeds/</guid>
+      <description>&lt;p&gt;原文：&lt;a href=&#34;http://www.tothepc.com/archives/10-tools-to-combine-mix-blend-multiple-rss-feeds&#34; target=&#34;_blank&#34;&gt;10 Tools to Combine, Mix, Blend Multiple RSS Feeds&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;作者：Davinde&lt;/p&gt;
+
+&lt;p&gt;译者：&lt;a href=&#34;http://www.xuchi.name/blog&#34; target=&#34;_blank&#34;&gt;抽筋儿&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;big&gt;越&lt;/big&gt;来越多的网民开始接触RSS feed及其应用，以致涌现出一批优良的线上或线下RSS feed管理工具，其中Feedburner和Feeblitz是行业领袖。&lt;/p&gt;
+
+&lt;p&gt;&lt;big&gt;每&lt;/big&gt;当你想从不同的渠道获取信息时，使用工具对RSS Feeds的内容进行过滤是必要的，同时将同类RSS Feeds合并，消灭内容重复的RSS Feeds，似乎更加重要。这有助于你整合Feeds内容，打造统一的RSS Feeds。十个能完成此类任务的工具值得介绍一哈：&lt;/p&gt;
+
+&lt;p style=&#34;text-align: center&#34;&gt;
+  &lt;img src=&#34;http://pic.yupoo.com/xcchris/3326051923f3/gii3ddzu.jpg&#34; alt=&#34;RSS mix&#34; /&gt;
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>RSS资源：国家地理新闻</title>
+      <link>https://chouj.github.io/2007/07/30/feed-for-nationalgeographicnews/</link>
+      <pubDate>Mon, 30 Jul 2007 15:39:20 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/07/30/feed-for-nationalgeographicnews/</guid>
+      <description>国家地理新闻频道的头条和新闻概要已经可以通过RSS Feed实现订阅啦！虽然只能看到小图和简介，想见到精美图片和新闻还是要访问网站，但聊胜于无。RSS地址如下：
+  http://news.nationalgeographic.com/index.rss
+[via 1 2]</description>
+    </item>
+    
+    <item>
+      <title>RSS资源：绿色和平组织</title>
+      <link>https://chouj.github.io/2007/07/30/feed-for-greenpeace/</link>
+      <pubDate>Mon, 30 Jul 2007 15:15:08 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/07/30/feed-for-greenpeace/</guid>
+      <description>[]1绿色和平(中国)的最新消息{.xml}
+绿色和平(中国)的新闻发布{.xml}
+绿色和平组织一直致力于环保事业，很多新闻和事项都值得我们大家关注！英语优秀的朋友也可以订阅绿色和平组织的国际新闻Feed。另，
+ 绿色和平网站的任何一页都可以成为RSS 2.0 feed！你只需要把 /rss插到网址 http://www.greenpeace.org 之后即可。 例如，你可以把以下网址
+http://www.greenpeace.org/china/zh/press/releases
+改为
+http://www.greenpeace.org/rss/china/zh/press/releases
+然后汇入你的RSS阅读软件。
+ </description>
+    </item>
+    
+    <item>
+      <title>Feeds的翻译 正太们的照片</title>
+      <link>https://chouj.github.io/2007/04/22/translate-of-feed-pictures-of-boys/</link>
+      <pubDate>Sun, 22 Apr 2007 08:45:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/04/22/translate-of-feed-pictures-of-boys/</guid>
+      <description>译文网是个好去处，blog上没话题可写了，就可以上去淘两篇文章翻译翻译，还可以练练英语。前些天在那里看到一个帖，问Feeds如何翻译比较好，有说翻译为飞子的，有逗乐说翻译为痱子的。我感觉呢，不翻为妙。九几年时，书店里还能见到一个词：“视窗操作系统”,现在你还见的到么？这种势必会变得众人皆知的词，保留原样最好。
+写童声伴我心的时候转了两张图，觉得不大过瘾，还真让我撞见过瘾的啦，放牛班的春天广州音乐会官方博客，放出了一堆小孩儿照片，想看照片的筒子们有福了！！
+给Technorati.com的论坛留了言，原因是搜索能搜出本blog有45个反向链接，但Links Counts中总是显示“0 links from 0 sites”,让我很郁闷，参见侧栏中那个大大的零。要说的是，那个faq论坛里，留言的大部分都是这个问题，唉，Technorati.com也不靠谱啊。</description>
+    </item>
+    
+  </channel>
+</rss>

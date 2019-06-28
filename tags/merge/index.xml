@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Merge on 抽筋儿的话语权</title>
+    <link>https://chouj.github.io/tags/merge/</link>
+    <description>Recent content in Merge on 抽筋儿的话语权</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
+    <lastBuildDate>Fri, 15 Feb 2008 17:17:46 +0000</lastBuildDate>
+    
+	<atom:link href="https://chouj.github.io/tags/merge/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>[翻译]10个用于合并RSS Feeds的工具</title>
+      <link>https://chouj.github.io/2008/02/16/translation-10-tools-for-blending-feeds/</link>
+      <pubDate>Fri, 15 Feb 2008 17:17:46 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2008/02/16/translation-10-tools-for-blending-feeds/</guid>
+      <description>&lt;p&gt;原文：&lt;a href=&#34;http://www.tothepc.com/archives/10-tools-to-combine-mix-blend-multiple-rss-feeds&#34; target=&#34;_blank&#34;&gt;10 Tools to Combine, Mix, Blend Multiple RSS Feeds&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;作者：Davinde&lt;/p&gt;
+
+&lt;p&gt;译者：&lt;a href=&#34;http://www.xuchi.name/blog&#34; target=&#34;_blank&#34;&gt;抽筋儿&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;big&gt;越&lt;/big&gt;来越多的网民开始接触RSS feed及其应用，以致涌现出一批优良的线上或线下RSS feed管理工具，其中Feedburner和Feeblitz是行业领袖。&lt;/p&gt;
+
+&lt;p&gt;&lt;big&gt;每&lt;/big&gt;当你想从不同的渠道获取信息时，使用工具对RSS Feeds的内容进行过滤是必要的，同时将同类RSS Feeds合并，消灭内容重复的RSS Feeds，似乎更加重要。这有助于你整合Feeds内容，打造统一的RSS Feeds。十个能完成此类任务的工具值得介绍一哈：&lt;/p&gt;
+
+&lt;p style=&#34;text-align: center&#34;&gt;
+  &lt;img src=&#34;http://pic.yupoo.com/xcchris/3326051923f3/gii3ddzu.jpg&#34; alt=&#34;RSS mix&#34; /&gt;
+&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

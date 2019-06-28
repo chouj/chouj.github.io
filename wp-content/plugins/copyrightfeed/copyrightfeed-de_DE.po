@@ -1,0 +1,410 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: CopyrightFeed\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2008-01-08 08:38+0100\n"
+"Last-Translator: Frank Bueltge <frank@bueltge.de>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: D:\\xampp\\htdocs\\wpbeta\\wp-content\\plugins\\copyrightfeed\\\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: copyrightfeed.php:39
+msgid "Error in file: "
+msgstr "Fehler in Datei: "
+
+#: copyrightfeed.php:39
+msgid " on line: "
+msgstr " on line: "
+
+#: copyrightfeed.php:39
+msgid "<br />The WordPress file \"rss-functions.php\" or \"rss.php\" could not be included."
+msgstr "<br />Die WordPress Datei \"rss-functions.php\" oder \"rss.php\" kann nicht genutzt werden."
+
+#: copyrightfeed.php:142
+#: copyrightfeed.php:1060
+#: copyrightfeed.php:1106
+msgid "You do not have sufficient permissions to edit plugins for this blog."
+msgstr "Du hast nicht genügend Rechte zum Ausführen dieser Aktivität."
+
+#: copyrightfeed.php:153
+msgid "Domain is reachable."
+msgstr "Domain ist erreichbar."
+
+#: copyrightfeed.php:154
+msgid "Domain is <b>not</b> reachable."
+msgstr "Domain ist <b>nicht</b> erreichbar."
+
+#: copyrightfeed.php:214
+msgid "&copy;Feed"
+msgstr "&copy;Feed"
+
+#: copyrightfeed.php:231
+msgid "open"
+msgstr "&Ouml;ffnen"
+
+#: copyrightfeed.php:232
+msgid "close"
+msgstr "Schlie&szlig;en"
+
+#: copyrightfeed.php:233
+msgid "click-down and drag to move this box"
+msgstr "Klicken und halten zum Bewegen der Box"
+
+#: copyrightfeed.php:234
+msgid "click to %toggle% this box"
+msgstr "klick zum %toggle% der Box"
+
+#: copyrightfeed.php:235
+msgid "use the arrow keys to move this box"
+msgstr "Nutze die Pfeiltasten, um die Box zu bewegen"
+
+#: copyrightfeed.php:236
+msgid ", or press the enter key to %toggle% it"
+msgstr ", oder dr&uuml;cke die Entertaste zum %toggle%"
+
+#: copyrightfeed.php:244
+msgid "&copy;Feed MiniMenu"
+msgstr "&copy;Feed MiniMen&uuml;"
+
+#: copyrightfeed.php:248
+#: copyrightfeed.php:268
+msgid "Options &copy;Feed"
+msgstr "Einstellungen &copy;Feed"
+
+#: copyrightfeed.php:249
+#: copyrightfeed.php:303
+msgid "Options for comments in feed"
+msgstr "Einstellungen Kommentare im Feed"
+
+#: copyrightfeed.php:250
+msgid "Options for related post in feed"
+msgstr "Einstellungen &auml;hnliche Beitr&auml;ge im Feed"
+
+#: copyrightfeed.php:251
+msgid "FullFeed"
+msgstr "FullFeed"
+
+#: copyrightfeed.php:254
+msgid "Preview"
+msgstr "Vorschau"
+
+#: copyrightfeed.php:255
+msgid "Search for a digital fingerprint"
+msgstr "Suche nach dem digitalen Fingerabdruck"
+
+#: copyrightfeed.php:256
+#: copyrightfeed.php:439
+msgid "further search options"
+msgstr "weitere Suchm&ouml;glichkeiten"
+
+#: copyrightfeed.php:257
+msgid "Information on plugin/GUID"
+msgstr "Hinweise zum Plugin/GUID"
+
+#: copyrightfeed.php:258
+msgid "Uninstall"
+msgstr "Deinstallation"
+
+#: copyrightfeed.php:272
+#: copyrightfeed.php:468
+msgid "Start of copyright notice"
+msgstr "Copyright Mitteilung Start"
+
+#: copyrightfeed.php:272
+#: copyrightfeed.php:274
+#: copyrightfeed.php:296
+msgid "Use HTML, use of PHP is not possible."
+msgstr "Nutze HTML, kein PHP m&ouml;glich."
+
+#: copyrightfeed.php:273
+#: copyrightfeed.php:468
+msgid "digital fingerprint"
+msgstr "digitaler Fingerabdruck"
+
+#: copyrightfeed.php:273
+msgid "Possible key:"
+msgstr "M&ouml;glicher Schl&uuml;ssel:"
+
+#: copyrightfeed.php:274
+#: copyrightfeed.php:468
+msgid "End of copyright notice"
+msgstr "Copyright Mitteilung Ende"
+
+#: copyrightfeed.php:275
+msgid "Show content theft in Dashboard?"
+msgstr "Contentdiebe im Tellerrand anzeigen?"
+
+#: copyrightfeed.php:276
+msgid "Scan for the digital fingerprint in order to find possible contenttheft?"
+msgstr "Suche nach dem digitalen Fingerabdruck um m&ouml;gliche Contentdiebe zu finden?"
+
+#: copyrightfeed.php:281
+msgid "Fast"
+msgstr "Schnell"
+
+#: copyrightfeed.php:287
+msgid "How long may the check for domain availability take (in seconds)?"
+msgstr "Wie lange darf die Prüfung zur Domainerreichbarkeit prüfen (in Sekunden)?"
+
+#: copyrightfeed.php:289
+msgid "Hide search results of your own blog?"
+msgstr "Suchergebnisse des eigenen Blogs ausblenden?"
+
+#: copyrightfeed.php:292
+#: copyrightfeed.php:468
+msgid "Include the IP address of the feed reader?"
+msgstr "IP-Adresse des Feedlesers &uuml;bernehmen?"
+
+#: copyrightfeed.php:293
+msgid "Also attach on short version of the feed?"
+msgstr "Auch bei Kurzfassung des Feeds anh&auml;ngen?"
+
+#: copyrightfeed.php:293
+msgid "If the feed in shortened version is spent, then is the report of copyright likewise angehangen to become. The attitude applies also to comments and similar contributions."
+msgstr "Wenn der Feed in gek&uuml;rzter Version ausgegeben wird, dann soll die Copyright-Mitteilung ebenfalls angehangen werden. Die Einstellung gilt auch f&uuml;r Kommentare und &auml;hnliche Beitr&auml;ge."
+
+#: copyrightfeed.php:294
+msgid "WhiteList"
+msgstr "WhiteList"
+
+#: copyrightfeed.php:294
+#: copyrightfeed.php:295
+msgid "One URL or IP per line and thus those copyright report one does not insert. Please enter the domain without HTTP:// and without Subdomain (I.E.: 123.123.23.1, example.com or only example). This does also applie to all other settings like similar contributions and comments."
+msgstr "Vergib f&uuml;r jede URL oder IP eine neue Zeile und damit wird die Copyright Mitteilung nicht eingef&uuml;gt. Es muss die Domain, ohne http:// und ohne Subdomain eingetragen werden (Bsp: 123.123.23.1, example.com oder nur example). Dies gilt auch f&uuml;r alle anderen Einstellungen wie &auml;hnliche Beitr&auml;ge und Kommentare."
+
+#: copyrightfeed.php:295
+msgid "BlackList"
+msgstr "BlackList"
+
+#: copyrightfeed.php:296
+msgid "BlackList Message"
+msgstr "BlackList Mitteilung"
+
+#: copyrightfeed.php:307
+msgid "Comments in feed?"
+msgstr "Kommentare im Feed?"
+
+#: copyrightfeed.php:308
+msgid "Before the comments"
+msgstr "Vor den Kommentaren"
+
+#: copyrightfeed.php:308
+msgid "Use HTML, use of PHP is not possible. Examples: &lt;h2&gt;Comment&lt;/h2&gt;&lt;ul&gt;"
+msgstr "Nutze HTML, kein PHP m&ouml;glich. Beispiel: &lt;h2&gt;Kommentare&lt;/h2&gt;&lt;ul&gt;"
+
+#: copyrightfeed.php:309
+msgid "Layout of the comments"
+msgstr "Layout der Kommentare"
+
+#: copyrightfeed.php:309
+msgid "Use HTML, use of PHP is not possible. You may use %author%, %authorlink%, %date%, %time%, %comment%, %excerpt%, %permalink% und %trackback% as placeholders.<br />Examples: &lt;li&gt;&lt;a href=\\\"%permalink%\\\" &gt;%date%&lt;/a&gt;, %authorlink% write:%comment%&lt;li&gt;"
+msgstr "Nutze HTML, kein PHP m&ouml;glich. Du kannst %author%, %authorlink%, %date%, %time%, %comment%, %excerpt%, %permalink% und %trackback% als Platzhalter nutzen.<br />Beispiel: &lt;li&gt;&lt;a href=\"%permalink%\" &gt;%date%&lt;/a&gt;, %authorlink% schreibt:%comment%&lt;li&gt;"
+
+#: copyrightfeed.php:310
+msgid "After the comments"
+msgstr "Nach den Kommentaren"
+
+#: copyrightfeed.php:310
+msgid "Use HTML, use of PHP is possible. Examples: &lt;/ul&gt;"
+msgstr "Nutze HTML, kein PHP m&ouml;glich. Beispiel: &lt;/ul&gt;"
+
+#: copyrightfeed.php:317
+msgid "Options related post in feed"
+msgstr "Einstellungen &auml;hnliche Beitr&auml;ge im Feed"
+
+#: copyrightfeed.php:321
+msgid "Include similar content in feed?"
+msgstr "&Auml;hnlichen Beitr&auml;ge im Feed?"
+
+#: copyrightfeed.php:322
+msgid "Number of items with similar content"
+msgstr "Anzahl der &auml;hnlichen Beitr&auml;ge"
+
+#: copyrightfeed.php:322
+msgid "How many titles should be displayed?"
+msgstr "Wie viele Titel sollen dargestellt werden?"
+
+#: copyrightfeed.php:323
+msgid "Identify posts with password?"
+msgstr "Beitr&auml;ge mit Passwort identifizieren?"
+
+#: copyrightfeed.php:324
+msgid "Add excerpt of posts?"
+msgstr "Auszug des Beitrags hinzuf&uuml;gen?"
+
+#: copyrightfeed.php:325
+msgid "Number of words"
+msgstr "Anzahl der W&ouml;rter"
+
+#: copyrightfeed.php:325
+msgid "How many words should be included in post excerpts?"
+msgstr "Wie viele W&ouml;rter sollen im Auszug des Beitrags dargestellt werden?"
+
+#: copyrightfeed.php:326
+msgid "Before items with similar content"
+msgstr "Vor den &auml;hnlichen Beitr&auml;gen"
+
+#: copyrightfeed.php:326
+msgid "Use HTML, use of PHP is possible. Examples: &lt;/ul&gt; &lt;h2&gt;&Related posts&lt;/h2&gt;&lt;ul&gt;"
+msgstr "Nutze HTML, kein PHP m&ouml;glich. Beispiel: &lt;h2&gt;&Auml;hnliche Beitr&auml;ge&lt;/h2&gt;&lt;ul&gt;"
+
+#: copyrightfeed.php:327
+msgid "Before the titles of items with similar content"
+msgstr "Vor dem &auml;hnlichen Titel"
+
+#: copyrightfeed.php:327
+msgid "Use HTML, use of PHP is not possible. Examples: &lt;li&gt;"
+msgstr "Nutze HTML, kein PHP m&ouml;glich. Beispiel: &lt;li&gt;"
+
+#: copyrightfeed.php:328
+msgid "After the titles of items with similar content"
+msgstr "Nach dem &auml;hnlichen Titel"
+
+#: copyrightfeed.php:328
+msgid "Use HTML, use of PHP is not possible. Examples: &lt;/li&gt;"
+msgstr "Nutze HTML, kein PHP m&ouml;glich. Beispiel: &lt;/li&gt;"
+
+#: copyrightfeed.php:329
+msgid "After the items with similar content"
+msgstr "Nach den &auml;hnlichen Beitr&auml;gen"
+
+#: copyrightfeed.php:329
+msgid "Use HTML, use of PHP is not possible. Examples: &lt;/ul&gt;"
+msgstr "Nutze HTML, kein PHP m&ouml;glich. Beispiel: &lt;/ul&gt;"
+
+#: copyrightfeed.php:331
+msgid "Simple Tags/Simple Tagging Related Post in feed?"
+msgstr "Simple Tags/ Simple Tagging Related Post im Feed?"
+
+#: copyrightfeed.php:331
+msgid "You have the plugin Simple Tags/Simple Tagging actively and can on basis this plugins the related posts in the feed indicate."
+msgstr "Du hast das Plugin Simple Tags/Simple Tagging aktiv und kannst auf Basis dieses Plugins die themenrelevanten Beitr&auml;ge im Feed anzeigen."
+
+#: copyrightfeed.php:339
+msgid "Options FullFeed"
+msgstr "Einstellungen FullFeed"
+
+#: copyrightfeed.php:343
+msgid "Full Text Feed?"
+msgstr "Volltextfeed?"
+
+#: copyrightfeed.php:343
+msgid "Prevents WordPress 2.1+ from adding a more link to your website's feed. WordPress 2.1 introduces a nasty \"feature\" to feeds. Instead of abiding by your feed preferences, WordPress will truncate your feed's content anywhere you insert a &lt;!--more--&gt; tag. Full Text Feed undos this functionality, allowing your feeds to contain the full text regardless of &lt;!--more--&gt; usage."
+msgstr "Verhindert, dass WordPress 2.1+ einen more-Link zum Feed hinzufügt. WordPress 2.1 führt ein unschönes \"Feature \" zum Feed ein. Anstatt bei den Feedeinstellungen zu bleiben, beschneidet WordPress den Inhalt des Feed, wenn ein &lt;!--more--&gt; Tag gesetzt ist. Diese Option macht es rückgängig, der Feed enthält den kompletten Inhalt."
+
+#: copyrightfeed.php:350
+msgid "Preview &copy;Feed"
+msgstr "Vorschau &copy;Feed"
+
+#: copyrightfeed.php:355
+msgid "Update"
+msgstr "Aktualisieren"
+
+#: copyrightfeed.php:363
+msgid "Scan for the digital fingerprint"
+msgstr "Suche nach dem digitalen Fingerabdruck"
+
+#: copyrightfeed.php:367
+msgid "Google Blog Search"
+msgstr "Google Blog Suche"
+
+#: copyrightfeed.php:373
+#: copyrightfeed.php:376
+#: copyrightfeed.php:386
+#: copyrightfeed.php:389
+#: copyrightfeed.php:399
+#: copyrightfeed.php:402
+#: copyrightfeed.php:412
+#: copyrightfeed.php:415
+#: copyrightfeed.php:425
+#: copyrightfeed.php:428
+#: copyrightfeed.php:444
+#: copyrightfeed.php:445
+#: copyrightfeed.php:446
+#: copyrightfeed.php:447
+msgid "Search further with:"
+msgstr "Suche tieter mit:"
+
+#: copyrightfeed.php:380
+msgid "IceRocket Blog Search"
+msgstr "IceRocket Blog Suche"
+
+#: copyrightfeed.php:393
+msgid "Bloglines"
+msgstr "Bloglines"
+
+#: copyrightfeed.php:406
+msgid "BlogPulse Search"
+msgstr "BlogPulse Suche"
+
+#: copyrightfeed.php:419
+msgid "Sphere Blog Posts"
+msgstr "Sphere Blog Beiträge"
+
+#: copyrightfeed.php:457
+msgid "Update Options"
+msgstr "Einstellungen aktualisieren"
+
+#: copyrightfeed.php:463
+msgid "Information on the plugin"
+msgstr "Hinweise zum Plugin"
+
+#: copyrightfeed.php:467
+msgid "The plugin adds a copyright notice to each post. The text fields will be displayed in the following order:"
+msgstr "Das Plugin setzt hinter jeden Beitrag den Copyright-Hinweis. Dabei wird folgende Reihenfolge der Textfelder vorgenommen:"
+
+#: copyrightfeed.php:469
+msgid "The digital fingerprint and the transmission of the IP address of the feed reader is optional."
+msgstr "Der digitalen Fingerabdruck und die &Uuml;bergabe der IP-Adresse des Feed-Lesers ist optional."
+
+#: copyrightfeed.php:470
+msgid "xHTML can also be used. A digital fingerprint, which can be used to identify possible content theft through some search engines, can also be added. The plugin will search using search engines that include RSS feeds in their results, and include the 10 most relevant results. More information can be found here. A unique GUID will be displayed here each time the page is generated. Copy it in the relevant digital fingerprint field or use your own digital fingerprint. Examplekey: "
+msgstr "Ebenso kann xHTML eingesetzt werden.<br />Du kannst einen &bdquo;digitalen Fingerabdruck&ldquo; hinterlegen, nach dem man mit Hilfe von Suchmaschinen suchen kann um eventuellen Contentdiebstahl zu finden. Das Plugin sucht bei jedem Aufrufen dieser Seite in einschl&auml;gigen Suchmaschinen, die einen RSS-Feed ihrer Suche anbieten, nach den Ergebnissen und stellt die die aktuellsten 10 Ergebnisse bereit.<br />Mehr Informationen dazu findest du im Beitrag &bdquo;<a href=\"http://bueltge.de/digitaler-fingerabdruck-fuer-den-feed-als-contentschutz/274\" title=\"zum Beitrag\">Digitaler Fingerabdruck f&uuml;r den Feed als Contentschutz</a>&ldquo;. Ein GUID daf&uuml;r wird bei jedem neuen Laden der Seite neu erzeugt und ist eindeutig, kopiere es in das obige Feld &bdquo;digitaler Fingerabdruck&ldquo; oder setze eine eigenen Schl&uuml;ssel. Beispielschl&uuml;ssel: "
+
+#: copyrightfeed.php:471
+msgid "You can also choose to display comments and entries with related content. Careful! This content will be generated dynamically and may cause some feed services to show the post as new each time a comment is posted and/or when an entry with related content is shown"
+msgstr "Im weiteren kann zu jedem Feed, die Kommentare des Beitrags und themenverwante Beitr&auml;ge angezeigt werden. Achtung: diese Daten werden dynamisch geladen, sind ver&auml;nderlich, und k&ouml;nnen somit dazu f&uuml;hren, dass der Artikel in einigen NewsFeed-Services als Aktuell erscheint, sobald es einen neuen Kommentar gibt, bzw. immer, da die themenverwanten Beitr&auml;ge sich immer &auml;ndern k&ouml;nnten."
+
+#: copyrightfeed.php:473
+msgid "Further information: Visit the <a href='http://bueltge.de/wp-feed-plugin/204'>plugin homepage</a> for further information or to grab the latest version of this plugin."
+msgstr "Weitere Informationen: Beusche die <a href='http://bueltge.de/wp-feed-plugin/204'>Plugin Webseite</a> f&uuml;r weitere Informationen oder lade die aktuelle Version."
+
+#: copyrightfeed.php:473
+msgid "You want to thank me? Visit my <a href='http://bueltge.de/wunschliste'>wishlist</a>."
+msgstr "Du willst Danke sagen, dann besuche meine <a href='http://bueltge.de/wunschliste'>Wunschliste</a>."
+
+#: copyrightfeed.php:480
+msgid "Uninstall options"
+msgstr "Deinstalliere Einstellungen"
+
+#: copyrightfeed.php:484
+msgid "This button deletes all options of the &copy;Feed plugin. Please use it <strong>before</strong> deactivating the plugin.<br /><strong>Attention: </strong>You cannot undo this!"
+msgstr "Der Button löscht alle Einstellungen des Plugins &copy;Feed. Bitte nutze ihn, <strong>bevor</strong> das Plugin deaktiviert wird.<br /><strong>Achtung: </strong>Du kannst dies nicht rückgängig machen!"
+
+#: copyrightfeed.php:489
+msgid "Delete Options"
+msgstr "Einstellungen löschen"
+
+#: copyrightfeed.php:498
+msgid "top"
+msgstr "oben"
+
+#: copyrightfeed.php:838
+msgid "Plagiarism"
+msgstr "Contentdiebe"
+
+#: copyrightfeed.php:1058
+msgid "The options have been saved!"
+msgstr "&copy;Feed Einstellungen wurden gespeichert!"
+
+#: copyrightfeed.php:1104
+msgid "The options have been deleted!"
+msgstr "&copy;Feed Einstellungen wurden gespeichert!"
+

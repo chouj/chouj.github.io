@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on 抽筋儿的话语权</title>
+    <link>https://chouj.github.io/tags/linux/</link>
+    <description>Recent content in Linux on 抽筋儿的话语权</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
+    <lastBuildDate>Thu, 22 May 2008 06:19:29 +0000</lastBuildDate>
+    
+	<atom:link href="https://chouj.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>乌班兔好好玩</title>
+      <link>https://chouj.github.io/2008/05/22/funny-ubuntu/</link>
+      <pubDate>Thu, 22 May 2008 06:19:29 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2008/05/22/funny-ubuntu/</guid>
+      <description>乌班兔果然比其他兔子好玩多啦，因为这只任人打扮的兔子会杂技和魔术。
+3D Desktop
+
+Windows Switcher
+
+Flame
+
+Google Earth &amp;amp; Real Player
+
+LumaQQ &amp;amp; Smplayer
+
+Desktop &amp;amp; Conky
+
+系统：Ubuntu 7.10 (gutsy)
+特效：Compiz Fusion
+壁纸：Sleep by David Lanham
+主题：Metacity
+图标：Ubuntoon
+配置：Conky
+Compiz Fusion更牛逼效果完整展示(7分10秒)：</description>
+    </item>
+    
+    <item>
+      <title>Linux下三款离线RSS阅读器简介</title>
+      <link>https://chouj.github.io/2008/04/06/offline-rss-readers-for-linux/</link>
+      <pubDate>Sat, 05 Apr 2008 17:23:02 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2008/04/06/offline-rss-readers-for-linux/</guid>
+      <description>&lt;p&gt;&lt;img SRC=&#34;http://pic.yupoo.com/xcchris/9269555b1fcd/hmje19zh.jpg&#34; ALT=&#34;liferea&#34; BORDER=&#34;0&#34; WIDTH=&#34;214&#34; HEIGHT=&#34;43&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;主页 &lt;a HREF=&#34;http://http://liferea.sourceforge.net/&#34; TARGET=&#34;_blank&#34; TITLE=&#34;Liferea&#34;&gt;&lt;a href=&#34;http://liferea.sourceforge.net/&#34;&gt;http://liferea.sourceforge.net/&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;截图&lt;/p&gt;
+
+&lt;p&gt;&lt;a HREF=&#34;http://pic.yupoo.com/xcchris/2262455b1fcd/nj46tnji.jpg&#34; TARGET=&#34;_blank&#34; TITLE=&#34;Liferea&#34;&gt;&lt;img SRC=&#34;http://pic.yupoo.com/xcchris/2262455b1fcd/small.jpg&#34; ALT=&#34;Liferea&#34; BORDER=&#34;0&#34; WIDTH=&#34;240&#34; HEIGHT=&#34;159&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p ALIGN=&#34;center&#34;&gt;
+   ============================
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>乌班兔</title>
+      <link>https://chouj.github.io/2008/03/20/only-ubuntu/</link>
+      <pubDate>Wed, 19 Mar 2008 17:39:12 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2008/03/20/only-ubuntu/</guid>
+      <description>刚弄到本儿时，还是有瘟豆子叉屁系统的，所以折腾了几天士兵突击。还没看完，我就把瘟豆子砍了，直接引进了乌班兔，开始折腾这只兔子。
+虽然现在还停留在对着教程在终端里复制粘贴一气的程度， 但折腾这只倒霉兔子也算有趣，因为它长得和瘟豆子比较不一样。之前看一师兄对着黑乎乎的命令行界面一阵high敲，觉得特神秘，现在也吸引不到我了，不就是控制台嘛。
+之前没网，天天从办公室拷deb回来装，真是痛苦死，一气之下买了交换机，即便绑MAC绑IP，还是弄到了室友的网络，所以目前兔子被折腾成了这样：看突击不成问题了，可以QQ啦，还拿微软雅黑美化了下，并且装matlab成功，不容易啊。下一步想给兔子喝点WINE，让丫能吃点儿瘟豆子的程序，比如迅雷啥的。不多说了，上个桌面：
+PS. 全面更换各应用和服务的头像，好像有很多要换哦。</description>
+    </item>
+    
+  </channel>
+</rss>

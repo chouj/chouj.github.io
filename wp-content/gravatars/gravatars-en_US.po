@@ -1,0 +1,179 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: gravatars\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2005-06-22 16:13-0500\n"
+"Last-Translator: skippy <skippy@skippy.net>\n"
+"Language-Team: skippy <skippy@skippy.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Keywords: __,_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: gravatars.php:25
+msgid "Gravatars"
+msgstr "Gravatars"
+
+#: gravatars.php:27
+msgid "Gravatar Selection"
+msgstr "Gravatar Selection"
+
+#: gravatars.php:27
+msgid "Gravatar"
+msgstr "Gravatar"
+
+#: gravatars.php:86
+msgid "There was an error copying the gravatar.  The system default has been used instead."
+msgstr "There was an error copying the gravatar.  The system default has been used instead."
+
+#: gravatars.php:106
+msgid "Gravatar Updated."
+msgstr "Gravatar Updated."
+
+#: gravatars.php:109
+msgid " is using your <strong>local</strong> gravatar"
+msgstr " is using your <strong>local</strong> gravatar"
+
+#: gravatars.php:115
+msgid " is using your <strong>default</strong> gravatar"
+msgstr " is using your <strong>default</strong> gravatar"
+
+#: gravatars.php:125
+msgid "You can assign a specific gravatar for use on "
+msgstr "You can assign a specific gravatar for use on "
+
+#: gravatars.php:127
+msgid "enter the path (local or remote) below"
+msgstr "enter the path (local or remote) below"
+
+#: gravatars.php:130
+#: gravatars.php:325
+msgid "Submit"
+msgstr "Submit"
+
+#: gravatars.php:132
+msgid "A blank submission will remove your locally defined gravatar"
+msgstr "A blank submission will remove your locally defined gravatar"
+
+#: gravatars.php:143
+#: gravatars.php:157
+msgid "WARNING! WARNING! WARNING!"
+msgstr "WARNING! WARNING! WARNING!"
+
+#: gravatars.php:145
+msgid "is not writable"
+msgstr "is not writable"
+
+#: gravatars.php:148
+msgid "Gravatar caching will be disabled until this directory is made writable"
+msgstr "Gravatar caching will be disabled until this directory is made writable"
+
+#: gravatars.php:159
+msgid "is <strong>DISABLED</strong> on this host"
+msgstr "is <strong>DISABLED</strong> on this host"
+
+#: gravatars.php:161
+msgid "Gravatar caching has been disabled"
+msgstr "Gravatar caching has been disabled"
+
+#: gravatars.php:230
+msgid "Gravatar Options"
+msgstr "Gravatar Options"
+
+#: gravatars.php:235
+msgid "Default gravatar rating"
+msgstr "Default gravatar rating"
+
+#: gravatars.php:245
+msgid "Default gravatar size"
+msgstr "Default gravatar size"
+
+#: gravatars.php:254
+msgid "Border Color"
+msgstr "Border Color"
+
+#: gravatars.php:258
+msgid "Default gravatar image"
+msgstr "Default gravatar image"
+
+#: gravatars.php:260
+msgid "You may enter: "
+msgstr "You may enter: "
+
+#: gravatars.php:262
+msgid "a local filename: "
+msgstr "a local filename: "
+
+#: gravatars.php:265
+msgid "a directory containing a collection of gravatars from which to randomly select: "
+msgstr "a directory containing a collection of gravatars from which to randomly select: "
+
+#: gravatars.php:267
+msgid "or a remote URI "
+msgstr "or a remote URI "
+
+#: gravatars.php:269
+msgid "<strong>Please read the documentation for more information about valid options.</strong>"
+msgstr "<strong>Please read the documentation for more information about valid options.</strong>"
+
+#: gravatars.php:272
+msgid "Cache gravatars"
+msgstr "Cache gravatars"
+
+#: gravatars.php:275
+msgid "<strong>DISABLED</strong>"
+msgstr "<strong>DISABLED</strong>"
+
+#: gravatars.php:282
+#: gravatars.php:302
+#: gravatars.php:317
+msgid "Yes"
+msgstr "Yes"
+
+#: gravatars.php:288
+#: gravatars.php:308
+#: gravatars.php:323
+msgid "No"
+msgstr "No"
+
+#: gravatars.php:293
+msgid "How long (in seconds) to cache gravatars"
+msgstr "How long (in seconds) to cache gravatars"
+
+#: gravatars.php:296
+msgid "Allow local gravatars"
+msgstr "Allow local gravatars"
+
+#: gravatars.php:311
+msgid "Replace <code>&lt;gravatar foo@bar.com&gt;</code> in posts"
+msgstr "Replace <code>&lt;gravatar foo@bar.com&gt;</code> in posts"
+
+#: gravatars.php:355
+msgid "Local Gravatars"
+msgstr "Local Gravatars"
+
+#: gravatars.php:357
+msgid "Deleting a local gravatar causes your blog to use that user's global gravatar (if they have one) or your site's default gravatar"
+msgstr "Deleting a local gravatar causes your blog to use that user's global gravatar (if they have one) or your site's default gravatar"
+
+#: gravatars.php:367
+msgid "No local gravatars"
+msgstr "No local gravatars"
+
+#: gravatars.php:373
+msgid "Cached Gravatars"
+msgstr "Cached Gravatars"
+
+#: gravatars.php:375
+msgid "Deleting a cached gravatar will force your blog to request the latest version (if any) from <code>gravatar.com</code>"
+msgstr "Deleting a cached gravatar will force your blog to request the latest version (if any) from <code>gravatar.com</code>"
+
+#: gravatars.php:385
+msgid "No cached gravatars"
+msgstr "No cached gravatars"
+

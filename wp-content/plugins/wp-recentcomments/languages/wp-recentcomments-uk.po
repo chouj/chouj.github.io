@@ -1,0 +1,264 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP-RecentComments  Uk\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-09-21 01:37+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Jurko Chervony <info@skinik.name>\n"
+"Language-Team: UA WordPress <info@skinik.name>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Ukrainian\n"
+"X-Poedit-Country: UKRAINE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: core.php:173
+#, php-format
+msgid "%s ago"
+msgstr "%s тому"
+
+#: core.php:175
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s о %2$s"
+
+#: wp-recentcomments.php:36
+#: wp-recentcomments.php:37
+#: wp-recentcomments.php:465
+msgid "Loading"
+msgstr "Завантаження..."
+
+#: wp-recentcomments.php:57
+msgid "Recent Comments"
+msgstr "Останні коментарі"
+
+#: wp-recentcomments.php:109
+msgid "Title: "
+msgstr "Заголовок: "
+
+#: wp-recentcomments.php:126
+msgid "The most recent comments"
+msgstr "Нові коментарі на сайті"
+
+#: wp-recentcomments.php:127
+#: wp-recentcomments.php:128
+#: wp-recentcomments.php:272
+msgid "WP-RecentComments"
+msgstr "WP-RecentComments"
+
+#: wp-recentcomments.php:281
+msgid "WP-RecentComments Options"
+msgstr "Опції WP-RecentComments"
+
+#: wp-recentcomments.php:284
+msgid "Settings <strong>saved</strong>."
+msgstr "Опції <strong>збережено</strong>."
+
+#: wp-recentcomments.php:290
+msgid "Donation"
+msgstr "Пожертвування"
+
+#: wp-recentcomments.php:292
+msgid "If you like this plugin, please donate to support development and maintenance!"
+msgstr "Якщо вам сподобався плаґін — можете переказати мені невелику суму коштів."
+
+#: wp-recentcomments.php:306
+msgid "About Author"
+msgstr "Про автора плаґіну"
+
+#: wp-recentcomments.php:309
+msgid "Author Blog"
+msgstr "Блоґ"
+
+#: wp-recentcomments.php:310
+msgid "More Plugins"
+msgstr "Інші плаґіни"
+
+#: wp-recentcomments.php:324
+msgid "CSS"
+msgstr ""
+
+#: wp-recentcomments.php:328
+msgid "Use wp-recentcomments.css."
+msgstr "Використовувати wp-recentcomments.css."
+
+#: wp-recentcomments.php:334
+msgid "JavaScript Library"
+msgstr "Бібліотека JavaScript"
+
+#: wp-recentcomments.php:338
+msgid "Use normal JavaScript library that is supported by this plugin."
+msgstr "Використовувати нормальну бібліотеку JavaScript, яка підтримується даним плаґіном"
+
+#: wp-recentcomments.php:343
+msgid "Use jQuery library that is supported by WordPress."
+msgstr "Використовувати бібліотеку jQuery яка підтримується WordPress."
+
+#: wp-recentcomments.php:348
+msgid "Custom jQuery."
+msgstr "Інший jQuery."
+
+#: wp-recentcomments.php:351
+msgid "Please input the URL of jQuery:"
+msgstr "Будь ласка, введіть URL до jQuery:"
+
+#: wp-recentcomments.php:358
+msgid "Comment List"
+msgstr "Список коментарів"
+
+#: wp-recentcomments.php:361
+msgid "comments per page."
+msgstr "коментарів на сторінку."
+
+#: wp-recentcomments.php:366
+msgid "Show the comments from administrators."
+msgstr "Показувати коментарі адміністратора."
+
+#: wp-recentcomments.php:372
+msgid "Show pingback and trackback comments."
+msgstr "Показувати пінґбеки і трекбеки."
+
+#: wp-recentcomments.php:378
+msgid "Show navigation bar."
+msgstr "Показувати кнопки навігації."
+
+#: wp-recentcomments.php:384
+msgid "Comment Items"
+msgstr "Елементи коментарів"
+
+#: wp-recentcomments.php:387
+msgid "characters per comment."
+msgstr "символів у коментарі"
+
+#: wp-recentcomments.php:392
+msgid "Show post titles."
+msgstr "Показувати заголовки публікацій."
+
+#: wp-recentcomments.php:398
+msgid "Show the expand button when mouse over excerpts."
+msgstr "Показувати кнопку  «+», яка дозволяє відкрити весь текст коментаря."
+
+#: wp-recentcomments.php:404
+msgid "Open external pages in a new tab/window."
+msgstr "Відкривати посилання на інші сайти в новій вкладці/вікні."
+
+#: wp-recentcomments.php:410
+msgid "Show timestamps."
+msgstr "Показувати час, який минув з моменту додавання коментаря, наприклад, «2години тому»."
+
+#: wp-recentcomments.php:416
+msgid "Show avatars on"
+msgstr "Показувати аватари"
+
+#: wp-recentcomments.php:419
+msgid "left"
+msgstr ""
+
+#: wp-recentcomments.php:420
+msgid "right"
+msgstr ""
+
+#: wp-recentcomments.php:422
+msgid ", size is"
+msgstr ", розміром"
+
+#: wp-recentcomments.php:424
+msgid "pixels"
+msgstr "пікселів"
+
+#: wp-recentcomments.php:429
+msgid "Show smilies as graphic icons."
+msgstr "Показувати смайлики і графічні іконки."
+
+#: wp-recentcomments.php:438
+msgid "Save Changes"
+msgstr "Зберегти зміни"
+
+#: wp-recentcomments.php:464
+msgid "%REVIEWER% on %POST%"
+msgstr "%REVIEWER% до &laquo;%POST%&raquo;"
+
+#: wp-recentcomments.php:466
+msgid "No comments"
+msgstr "Немає коментарів"
+
+#: wp-recentcomments.php:467
+msgid "&laquo; Newest"
+msgstr "&laquo; До початку"
+
+#: wp-recentcomments.php:468
+msgid "&laquo; Newer"
+msgstr "&laquo; Наступні коментарі"
+
+#: wp-recentcomments.php:469
+msgid "Older &raquo;"
+msgstr "Попередні коментарі &raquo;"
+
+#: wp-recentcomments.php:474
+msgid "Anonymous"
+msgstr "Анонім"
+
+#~ msgid "Number of comments to show: "
+#~ msgstr "Скільки коментарів показувати: "
+
+#~ msgid "(at most 20)"
+#~ msgstr "(не більше 20)"
+
+#~ msgid "Length of each comment: "
+#~ msgstr "Довжина коментаря: "
+
+#~ msgid "Show pingback comments."
+#~ msgstr "Показувати пінґбеки."
+
+#~ msgid "The size of avatars: "
+#~ msgstr "Розмір аватарів:"
+
+#~ msgid "(8 - 96)"
+#~ msgstr "(8 - 96)"
+
+#~ msgid "The position of avatars: "
+#~ msgstr "Розміщення аватарів:"
+
+#~ msgid "Left"
+#~ msgstr "Зліва"
+
+#~ msgid "The default avatar: "
+#~ msgstr "Аватар за замовчуванням:"
+
+#~ msgid ""
+#~ "(Filename from '/wp-recentcomments/avatars/' directory or Internet "
+#~ "address)"
+#~ msgstr "(Файл з теки '/wp-recentcomments/avatars/' або URL адреса аватару)"
+
+#~ msgid ""
+#~ "Convert emoticons like <code>:-)</code> and <code>:-P</code> to graphics "
+#~ "on display."
+#~ msgstr ""
+#~ "Перетворювати текстові смайлики <code>:-)</code> або <code>:-P</code> в "
+#~ "графічні смайлики."
+
+#~ msgid "Pingback:"
+#~ msgstr "Пінґбек:"
+
+#~ msgid "Trackback:"
+#~ msgstr "Трекбек:"
+
+#~ msgid "on"
+#~ msgstr "до публікації"
+
+#~ msgid "Y/m/d"
+#~ msgstr "Y/m/d"
+
+#~ msgid "H:i"
+#~ msgstr "H:i"
+
+#~ msgid "&laquo; Back"
+#~ msgstr "&laquo; Назад"
+
+#~ msgid "&raquo;"
+#~ msgstr "&raquo;"

@@ -1,0 +1,740 @@
+/*  
+Theme Name: Paperback Blogger
+Theme URI: http://wpthemes.euworx.com/
+Description: Paperback Blogger - A new clean, crisp, and bold em-based theme.  
+Version: 1.0
+Author: M.Dagg
+Author URI: http://www.euworx.com
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*     Life is what happens to you while you're busy making other plans. -John Lennon     */
+
+/**************** clock **************/
+
+.clock
+{
+position: relative;
+float:right;
+margin: -33px 28px;
+float: right;
+width: 19.oem;
+color: #CECBA4;
+background: transparent;
+
+/*margin: -1.0em 0em 0.0em 0em;*/
+clear: both;
+}
+
+
+*
+{
+padding: 0em;
+margin: 0em;
+}
+
+body
+{
+background: #ffffff;
+padding: 0px 0px 0px 0px;
+}
+
+body
+{
+font-size: small;
+font-family: ;
+color: #222222;
+font-size:0.8em;
+}
+
+p
+{
+line-height: 1.5em;
+margin-bottom: 1.0em;
+}
+
+a
+{
+color: #545030;
+text-decoration: none;
+border-bottom:#C9C5A4 0px dashed;
+}
+a:hover
+{
+color:#D6C054;
+text-decoration: none;
+border-bottom:#222222 1px solid;
+}
+h1,h2,h3,h5,h6
+{
+	font-family: ;
+}
+h4
+{
+	font-family: ; 
+	display: inline;
+}
+h6
+{
+	font-family:;
+}
+h3,h6
+{
+display: inline;
+font-weight: bold;
+background-repeat: no-repeat;
+background-position: left;
+}
+
+/* -- flasher -- */
+h3
+{
+font-size: 1.7em;
+padding-left: 0px;
+
+}
+
+h4
+{
+font-size: 1.8em;
+padding-left: 0px;
+}
+
+/* -- h6 for sidebar -- */
+h6
+{
+font-size: 1.4em;
+padding-left: 23px;
+background-image: url(images/square_1.gif);  
+}
+
+
+h3 span
+{
+font-weight: normal;
+font-size:60%;
+color:#999;
+}
+h5 
+{
+	font-weight:normal;
+	font-family:;
+	font-size:1em;
+}
+.contentarea
+{
+padding-top: 1.3em;
+}
+dl {
+	margin:1em 0px;
+}
+dt 
+{
+	font-weight:bold;
+}
+dd 
+{
+	margin:0.5em 1em;
+	padding:0;
+}
+img
+{
+padding:0px;
+border: none;
+}
+img a:hover
+{
+border:none;
+background:none;
+background-color:#FFFFFF;
+}
+img.left
+{
+position: relative;
+float: left;
+margin: 0.2em 1.0em 0.6em 0em;
+}
+img.right
+{
+position: relative;
+float: right;
+margin: 0em 0em 1.8em 1.8em;
+}
+img.center
+{
+position: relative;
+float: none;
+margin: 0.5em;
+padding:3px;
+}
+code
+{
+color:#009900;
+}
+ul, ol 
+{
+	margin:1em;
+	padding:0;
+}
+li 
+{
+	margin:0 1em;
+	padding:0.15em;
+}
+#contentarea ul li 
+{
+	list-style-image: url(images/list.gif);
+}
+blockquote 
+{
+    margin:40px 50px;    
+    border-left:#CECBA4 3px solid;
+	padding-left:10px;
+	color:#666666;
+}
+fieldset 
+{
+	border:none;
+}
+
+.borderline
+{
+position: relative;
+background: #fff url(images/borderline.gif) repeat-x;
+border-top:#958E55 10px solid;
+height: 14px;
+margin: 1.5em 0em 0.0em 0em;
+clear: both;
+}
+
+/****************** POST ********************/
+
+.post 
+{
+	margin: 1.5em 0;
+	text-align:justify; 
+	font-family:; 
+	font-size:15px;
+}
+
+.post h4 a 
+{
+	text-align:left;
+	text-decoration:none;
+	color:#444444;	
+	border:none;
+	
+}
+.post h4 a:hover 
+{
+	border:none;
+	text-decoration:none;
+	color:#000000;	
+	
+}
+.postcontent a
+{
+    color:#84920C;
+	border-bottom:solid 1px #E0DEC4;
+}
+.postcontent a:hover
+{
+     color:#ffffff;
+	 background-color:#848166;
+	 border:none;
+}
+.post .details
+{
+position: relative;
+text-align:left;
+top: -1.5em;
+font-size: 0.86em;
+color: #787878;
+margin:0;
+padding:0;
+border-bottom: solid 1px #E0DEC4;
+}
+.post .details .user 
+{
+	background:url(images/list.gif) no-repeat left center;
+	padding-left:15px;
+	
+}
+.post .details .date 
+{
+	background:url(images/square_1.gif) no-repeat left center;
+	padding-left:20px;
+	margin:0 0 0 0.2em;
+	
+}
+#outer .post ul.controls
+{
+font-size:small;
+clear: both;
+margin:0;
+padding:0.2em 0;
+/***background:#fff url(images/postmetabg.gif) no-repeat left center;***/
+padding-left:0px;
+border-top: solid 1px #E0DEC4;
+text-align:left;
+}
+
+.post ul.controls li
+{
+display: inline;
+font-size: 0.86em;
+margin:0;
+padding: 0em 1.0em 0em 15px;
+
+}
+.post ul.controls li.comments
+{
+	background: url(images/cup_add.png) no-repeat left bottom;
+	padding-left:20px;
+	
+}
+
+.post ul.controls li.more
+{
+	background: url(images/cup.png) no-repeat left bottom;
+	padding-left:20px;
+}
+.post ul.controls li.tag
+{
+	background: url(images/tag.png) no-repeat left bottom;
+	padding-left:20px;
+}
+
+.box
+{
+background: #FFFFFF;
+padding: 1.5em;
+border-top: solid 0px #E0DEC4;
+border-bottom: solid 1px #E0DEC4; 
+margin-bottom: 1.0em;
+text-align:left;
+}
+.boxsearch
+{
+background: #FFFFFF;
+padding: 0.0em;
+border-top: solid 0px #E0DEC4;
+border-bottom: solid 1px #E0DEC4; 
+margin-bottom: 1.0em;
+text-align:left;
+}
+
+
+
+
+/***** link to me plugin *****/
+.linktext {
+	font-size:13px;
+	margin-left:5%;
+	margin-right:5%;
+}
+.linktextarea {
+	font-size:11px;
+	font-family:verdana;
+	margin-left:5%;
+	overflow: hidden;
+		height: 4em;
+		width: 400px;
+}
+
+/***** x *****/
+
+ul.linklist
+{
+list-style: none;
+}
+
+ul.linklist li
+{
+line-height: 2.0em;
+}
+
+#outer
+{
+z-index: 2;
+position: relative;
+/*
+	The width value below controls the overall width of the design. It is set to 100% by default
+	(so it'll take up 87% of the browser window's width). You can set it to a different percentage
+	value (70%, 90%, etc.) or even a pixel value (760px, 800px, etc.) to enforce a fixed width.
+*/
+width: 100%;
+border: solid 0px #fff;
+/*background-color: #fff;*/
+margin: 0 auto;
+}
+   /******************  HEADER   ******************/
+#header
+{
+position: relative;
+width: 100%;
+height: 9.0em;
+/*background: #958E55 url(images/topheader_bg.jpg) repeat-x;*/
+margin-bottom: 0.8em;
+}
+
+#headercontent
+{
+position: absolute;
+bottom: 0em;
+padding: 0em 2.0em 0.3em 2.0em;
+margin-left:5em;
+}
+
+#headercontent h1
+{
+font-weight: normal;
+font-size: 4.0em;
+}
+#headercontent h1 a:link, #headercontent h1 a:visited
+{
+	color:#000000;
+	text-decoration:none;
+	border:none;
+}
+#headercontent h1 a:hover, #headercontent h1 a:active
+{
+	text-decoration:none;
+	color:#222222;
+	border:none;
+}
+#headercontent h2
+{
+font-size: 1.2em;
+font-family:Verdana, Arial, "Trebuchet MS"
+font-weight: normal;
+color: #545030;
+margin-left:10px;
+}
+/***
+#search
+{
+position: absolute;
+top: 3.5em;
+right: 2.0em;
+padding-right: 0.0em;
+color:#000;
+}
+
+#search input.text
+{
+margin-right: 0.5em;
+vertical-align: middle;
+border: solid 1px #f0f0f0;
+padding: 0.1em;
+width: 14.0em;
+}
+***/
+
+/**
+#search input.submit
+{
+background: #8f4008;
+border: solid 1px #9F9030;
+font-weight: bold;
+padding: 0.25em;
+font-size: 0.8em;
+color: #F2F3DE;
+vertical-align: middle;
+}
+**/
+
+/****
+#headerpic
+{
+position: relative;
+height: 200px;
+background: #fff url(images/headerpic.jpg) repeat-x bottom left;
+margin-bottom: 2px;
+} ******/
+
+
+/********************  MENU  **********************/
+
+#menu
+{
+position: relative;
+/***background:  url(images/menubg.gif) repeat-x top left;*****/
+height: 4.9em;
+padding: 0 1.0em;
+margin: 0 0 0px;
+margin-left:4.6em;
+font-family: ;
+font-size: 1.2em;
+}
+
+#menu ul
+{
+
+padding:0.7em 0 0 0;
+margin:0;
+}
+
+#menu ul li
+{
+position: relative;
+display: inline;
+padding:0;
+margin:0;
+
+}
+
+#menu ul li a:link,  #menu ul li a:visited
+{
+	color: #D6C054;
+	padding: 0.8em 1.0em 0.8em 1.0em;
+	text-decoration: none;	
+	border:none;
+     /*   font-weight:bold; */
+}
+
+
+#menu ul li a:hover, #menu ul li a:active, #menu ul li.current_page_item a
+{
+    color: #ffffff;
+	background-color: #AAA573;	
+	border:#ccc 0px solid;
+    text-decoration: none;
+}
+
+
+#menubottom
+{
+background: transparent url(images/3_squares.gif) no-repeat top left;
+height: 14px;
+margin-bottom: 0.0em;
+margin-left: 2.1em;
+}
+
+
+/************************** CONTENT  ****************************/
+
+#content
+{
+padding: 0 2.0em;
+margin-left:5em;
+margin-right:5em;
+}
+
+#primarycontainer
+{
+float: left;
+margin-right: -20.0em;
+width: 100%;
+}
+
+#primarycontent
+{
+margin: 1.5em 22em 0 0em;
+}
+
+#sidebar
+{
+margin: 0px 2px;
+float: right;
+width: 19.0em;
+}
+#sidebar ul
+{
+	list-style:none;
+	margin:0.5em 0 0;	
+}
+#sidebar li 
+{
+	margin:1em 0;
+	padding:0.5em;
+}
+#sidebar li li 
+{
+	margin:0;
+	padding:0.5em;
+	background:none;
+}
+#sidebar li li li
+{
+	margin:0;
+	padding:0.5em 1em;
+}
+#sidebar ul.feeds li 
+{
+	background:url(images/rss_chicklet.png) no-repeat left center;
+	margin:1em 0;
+	padding:0 1.5em;	
+}
+
+/*************************  FOOTER  ************************/
+
+#footer
+{
+position: relative;
+height: 3.7em;
+clear: both;
+padding-top: 2.7em;
+padding-bottom: 0em;
+background: #A19E86;
+font-size: 1.2em;
+border-top:#AAA573 10px solid;
+margin-bottom: 0px;
+margin-top: 20px;
+}
+
+/*******  comments and their styles  **********/
+
+#comments, #respond{
+	margin: 2em 0 0 0px;
+}
+#commentform 
+{
+	margin:10px;
+	padding:10px;
+}
+#outer .commentlist {
+	margin: 0;
+	padding: 0;
+}
+.commentlist li 
+{
+	list-style:none;
+	margin: 2em 0;
+	padding: 0.5em;			
+	border-bottom:#f5f5f5 0px solid;
+	background:#F9F8EC;
+}
+.commentlist li p 
+{
+    margin:0 1em;
+}
+.commentlist li .cmtinfo 
+{
+	font-family:Verdana, Trebuchet MS, Tahoma, Serif;
+	font-size:1.1em;		
+	padding:5px;
+	margin-bottom: 10px;
+	position:relative;	
+}
+.commentlist li .cmtinfo2 
+{
+	font-family:Verdana, Trebuchet MS, Tahoma, Serif;
+	font-size:0.7em;		
+	padding:0px;
+	margin-bottom: 10px;
+	position:relative;	
+}
+.commentlist li .cmtinfo em 
+{
+	margin:0;
+	padding:0 1em;
+	text-align:right;
+	font-style:normal;			
+	color:#999;	
+}
+.commentlist li cite 
+{
+	font-style:normal;
+	font-weight:bold;
+}
+
+.commentlist li.alt
+{
+	background:#F9F8EC;
+}
+
+textarea{
+	width: 90%;
+	padding:5px;
+	height: 10em;
+	border: 1px solid #ccc;	
+	background:#ffffff url(images/borderline.gif) repeat-x top;
+	font:1em Verdana, Arial, Serif;
+}
+
+#outer input.text 
+{
+	background:#ffffff; color:#666666;
+
+	border:#ccc 1px solid;
+	padding:2px;
+	font:1em Verdana, Arial, Serif; 
+	width: 17.3em;
+	margin-top:1em;
+	margin-bottom:1em;
+}
+#outer input.textcomment 
+{
+	background:#ffffff;
+	border:#ccc 1px solid;
+	padding:2px;
+	font:1em Verdana, Arial, Serif;
+}
+.post h5 em
+{
+	font-style:normal;
+	float:right;
+	font-weight:normal;
+}
+#header, #content, #sidebar, #footer, .widget {
+    overflow: hidden;
+}
+
+#pro
+{
+color:#555555;
+font-family:Arial, Verdana, "Trebuchet MS";
+position: relative;
+height: 1.7em;
+clear: both;
+padding-top: 0em;
+padding-bottom: 0.0em;
+background: #A19E86;
+font-size: 0.9em;
+border-top:#AAA573 0px solid;
+margin-bottom: 0px;
+margin-top: 0px;
+}
+
+#bg {
+   width: 100%;
+   height: 130px; /* height of bg! */
+   position: absolute;
+   top: 0;
+   left: 0;
+   background: transparent url(images/bg1.gif) bottom repeat-x;
+}
+.bigchic
+{
+text-align:center;
+}

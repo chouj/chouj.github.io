@@ -1,0 +1,2376 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>我记录 on 抽筋儿的话语权</title>
+    <link>https://chouj.github.io/categories/%E6%88%91%E8%AE%B0%E5%BD%95/</link>
+    <description>Recent content in 我记录 on 抽筋儿的话语权</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
+    <lastBuildDate>Fri, 19 Jan 2018 09:15:41 +0000</lastBuildDate>
+    
+	<atom:link href="https://chouj.github.io/categories/%E6%88%91%E8%AE%B0%E5%BD%95/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>用MATLAB实现便便时间间隔的定期统计分析</title>
+      <link>https://chouj.github.io/2018/01/19/%E7%94%A8matlab%E5%AE%9E%E7%8E%B0%E4%BE%BF%E4%BE%BF%E6%97%B6%E9%97%B4%E9%97%B4%E9%9A%94%E7%9A%84%E5%AE%9A%E6%9C%9F%E7%BB%9F%E8%AE%A1%E5%88%86%E6%9E%90/</link>
+      <pubDate>Fri, 19 Jan 2018 09:15:41 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2018/01/19/%E7%94%A8matlab%E5%AE%9E%E7%8E%B0%E4%BE%BF%E4%BE%BF%E6%97%B6%E9%97%B4%E9%97%B4%E9%9A%94%E7%9A%84%E5%AE%9A%E6%9C%9F%E7%BB%9F%E8%AE%A1%E5%88%86%E6%9E%90/</guid>
+      <description>&lt;p&gt;为了达成如题的目的，实现方法已经有了早期的两个版本：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;2014年：手机端手动输入便便时间，经Dropbox同步至本地PC；利用Windows计划任务定期执行统计分析的&lt;a href=&#34;http://xuchi.name/tag/matlab/&#34;&gt;MATLAB&lt;/a&gt;脚本；将结果发邮箱，再利用IFTTT发Twitter上。(见&lt;a href=&#34;https://github.com/chouj/PooAnalysis&#34;&gt;Github&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;2017年3月：应对Dropbox被墙，将便便时间记录放到&lt;a href=&#34;http://notepad.live&#34;&gt;Notepad&lt;/a&gt;上；&lt;a href=&#34;http://xuchi.name/tag/matlab/&#34;&gt;MATLAB&lt;/a&gt;里利用正则把页面上的数据读下来，再进行统计分析；同样用Windows计划任务实现定期执行。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;上述两个方案中最难坚持的部分在于：要打开手机浏览器，访问相应记录网页，再按10个数字手动输入便便时间。&lt;/p&gt;
+
+&lt;p&gt;去年10月搞定了&lt;strong&gt;第三版实现方法&lt;/strong&gt;，借助Thingspeak数据上载的timestamp，完美回避手动输入时间数据；同时脚本执行也丢去了Thingspeak；分析结果推送则通过IFTTT的webhooks发至Telegram；Thingspeak还具备利用数据作图的功能。具体如下：&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Call Bitly/Google URL shorten API in MATLAB</title>
+      <link>https://chouj.github.io/2018/01/19/call-bitlygoogle-url-shorten-api-in-matlab/</link>
+      <pubDate>Fri, 19 Jan 2018 08:31:50 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2018/01/19/call-bitlygoogle-url-shorten-api-in-matlab/</guid>
+      <description>Bitly Bitly API document: /v3/shorten
+Matlab code:
+url = &#39;https://api-ssl.bitly.com/v3/shorten?access_token={your_access_token}&amp;format=txt&amp;longUrl=http://google.com/&#39;; shortened = webread(url)  Escape character is also supported / 支持转义字符:
+url = &#39;https://api-ssl.bitly.com/v3/shorten?access_token={your_access_token}&amp;format=txt&amp;longUrl=http%3A%2F%2Fgoogle.com%2F&#39;; shortened = webread(url)  Google Google API document: URL Shortener
+First, you should have a URL shortener API key. It can be generated in the Credentials page.
+Then, the matlab code:
+url=&#39;https://www.googleapis.com/urlshortener/v1/url?key={yours}&#39;; options = weboptions(&#39;RequestMethod&#39;,&#39;post&#39;, &#39;MediaType&#39;,&#39;application/json&#39;); Body = struct(&#39;longUrl&#39;, &#39;http://www.google.com/&#39;); response = webwrite(url, Body, options);  Note：确保你的MATLAB可以科学上网(Preferences-&amp;gt;Web-&amp;gt;Internet connection里设置use a proxy)。</description>
+    </item>
+    
+    <item>
+      <title>利用MATLAB的Timer实现网络图片的定时下载</title>
+      <link>https://chouj.github.io/2017/09/22/%E5%88%A9%E7%94%A8matlab%E7%9A%84timer%E5%AE%9E%E7%8E%B0%E7%BD%91%E7%BB%9C%E5%9B%BE%E7%89%87%E7%9A%84%E5%AE%9A%E6%97%B6%E4%B8%8B%E8%BD%BD/</link>
+      <pubDate>Fri, 22 Sep 2017 09:09:31 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2017/09/22/%E5%88%A9%E7%94%A8matlab%E7%9A%84timer%E5%AE%9E%E7%8E%B0%E7%BD%91%E7%BB%9C%E5%9B%BE%E7%89%87%E7%9A%84%E5%AE%9A%E6%97%B6%E4%B8%8B%E8%BD%BD/</guid>
+      <description>以这个约每小时更新的GIF格式遥感图片为例：
+在MATLAB当前目录下新建一个.m脚本，本例里起名为wvgifdownload.m：
+%图片存储目录设定： folderpath=[&#39;d:\temp\&#39;]; if length(dir([folderpath,&#39;*.gif&#39;]))==0 %判断目录是否已有GIF文件  urlwrite(&#39;http://www.goes.noaa.gov/dimg/jma/fd/wvblue/10.gif&#39;,[folderpath,&#39;1.gif&#39;],&#39;timeout&#39;,15); %空目录则将下载的图片命名为1.gif else %文件夹已有GIF文件  localinfo=imfinfo([folderpath,num2str(length(dir([folderpath,&#39;*.gif&#39;]))),&#39;.gif&#39;]); %获取目录里最新GIF的文件信息  webinfo=imfinfo(&#39;http://www.goes.noaa.gov/dimg/jma/fd/wvblue/10.gif&#39;);%获取目标网络图片的文件信息  if localinfo.FileSize~=webinfo.FileSize %比较两者文件大小，若不一样，则表示网络图片已更新，可以下载  urlwrite(&#39;http://www.goes.noaa.gov/dimg/jma/fd/wvblue/10.gif&#39;,[&#39;f:\CloudGIF\wv\&#39;,num2str(length(dir([folderpath,&#39;*.gif&#39;]))+1),&#39;.gif&#39;],&#39;timeout&#39;,15); end end  设定Timer对象，这里起名为down：
+down = timer ... ( &#39;Name&#39; , &#39;my_timer&#39; ... , &#39;TimerFcn&#39; , @(varargin)evalin(&#39;base&#39;,&#39;wvgifdownload&#39;) ... , &#39;BusyMode&#39; , &#39;drop&#39; ... , &#39;ExecutionMode&#39; , &#39;fixedRate&#39; ... , &#39;Period&#39; , 1800 ... , &#39;StartDelay&#39; , 0 ... );  注意TimerFcn这里是调用当前目录脚本的写法，如果是函数则按函数调用去写。本例Period这里设定的是半小时执行一次，即每半小时检查网络图片是否更新，如有更新即可下载。
+执行Timer：
+start(down)  </description>
+    </item>
+    
+    <item>
+      <title>Telegram同城广播频道的建立方法</title>
+      <link>https://chouj.github.io/2017/09/15/telegram%E5%90%8C%E5%9F%8E%E5%B9%BF%E6%92%AD%E9%A2%91%E9%81%93%E7%9A%84%E5%BB%BA%E7%AB%8B%E6%96%B9%E6%B3%95/</link>
+      <pubDate>Fri, 15 Sep 2017 02:24:40 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2017/09/15/telegram%E5%90%8C%E5%9F%8E%E5%B9%BF%E6%92%AD%E9%A2%91%E9%81%93%E7%9A%84%E5%BB%BA%E7%AB%8B%E6%96%B9%E6%B3%95/</guid>
+      <description>目标：建立一个Telegram频道，自动广播同城文娱活动，如影讯、展览、表演等。
+工具：Feed43、IFTTT。
+方法：
+以为豆瓣最近发布的同城活动页面生成RSS feed为例：
+Feed43的用法可问搜索引擎。Item (repeatable) Search Pattern的填入代码如下：
+&amp;lt;img data-lazy=&#34;{%}&#34;{*} &amp;lt;div class=&#34;title&#34;{*} &amp;lt;a href=&#34;https://www.douban.com/event/{%}/&#34; title=&#34;{%}&#34; itemprop=&#34;url&#34;&amp;gt;{*} &amp;lt;span class=&#34;hidden-xs&#34;&amp;gt;时间：&amp;lt;/span&amp;gt;{%}&amp;lt;{*} &amp;lt;span class=&#34;hidden-xs&#34;&amp;gt;地点：&amp;lt;/span&amp;gt;{%}&amp;lt;{*} &amp;lt;span class=&#34;hidden-xs&#34;&amp;gt;费用：&amp;lt;/span&amp;gt;{*} &amp;lt;strong&amp;gt;{%}&amp;lt;/strong&amp;gt;{*} &amp;lt;span class=&#34;meta-title&#34;&amp;gt;发起：&amp;lt;/span&amp;gt;{*} &amp;lt;a target=&#34;db-event-owner&#34; href=&#34;{*}&#34;&amp;gt;{%}&amp;lt;/a&amp;gt;  抓取结果如下：
+接着，RSS设置里这么填：
+如果需要全文feed，可以借助Feedex。
+然后，添加IFTTT bot作频道管理员；在IFTTT网站，If RSS Feed, then _Telegram_就好。
+广州城事频道收录了以下网页，供参考：
+广州近期同城活动、广州影讯、市民办事最新服务、旅游资讯、琶洲展览会、广东科学中心活动、广图活动发布、广少图活动发布、广州科普自由行、广州科普一日游、广州塔最新活动、中山纪念堂演出资讯、长隆缤纷活动。</description>
+    </item>
+    
+    <item>
+      <title>如何推广Telegram频道</title>
+      <link>https://chouj.github.io/2017/09/12/%E5%A6%82%E4%BD%95%E6%8E%A8%E5%B9%BFtelegram%E9%A2%91%E9%81%93/</link>
+      <pubDate>Tue, 12 Sep 2017 03:41:44 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2017/09/12/%E5%A6%82%E4%BD%95%E6%8E%A8%E5%B9%BFtelegram%E9%A2%91%E9%81%93/</guid>
+      <description>新建立了一个MATLAB TIPS的Telegram频道，欢迎加入。
+目前：
+ po了好些自己以前用到的现成脚本、函数，或前人写的技巧、教程、文档上去； 基于RSS自动发布一些Matlab相关博客的最新日志链接； 欢迎作管理员共同打理，只要顺手把自己用上的网页url发上来就好。  建好后就经历了到处发小广告做宣传的过程，在此总结一番：
+Telegram内宣传 電報群推廣 在这个TG群里发布频道链接，当频道订阅人数在50人以上时，将被推送至電報群組廣播频道；当频道订阅人数在50人以下时将暂时推送至電報新群推送頻道 。
+TGCN-群组频道狼:yum: 这是TGCN-群组索引计划的bot。添加该机器人作频道管理员（任意权限），然后转发频道任一文字信息给机器人即可完成频道添加。频道马上会发布于其索引频道@zh_groups。
+频道/群组/机器人分享 号称Telegram上的hao123。入群发布频道链接，即可将频道加入其bot@hao1234bot的索引，可以在bot和群里搜索到。
+Telegram Channels List 菜单点选注册新频道，然后将频道内容转发给该bot，选好频道分类即可。似乎是根据频道描述里的语言，把频道丢去中国频道列表或channelList English。同时，频道亦发布于其网站channelist.ir。
+群組導航 &amp;#8211; 分享/推廣 入群发布频道链接，群简介说将会被整理至频道群組導航。
+Telegram外宣传 Telegram Channels Catalog 国外的一个大型频道收集站，看起来和Telegram Bot Store是一家。用TG帐号登录后，即可添加频道。亦可用其bot添加频道，索引成功同样会出现在网站中，但bot添加的频道没有频道logo，所以推荐网站添加。似乎订阅人数较多的频道才会在其TG频道推广。
+Telegram 蒐集君 一个以WordPress搭建的群组频道收集blog。以公共帐号登入后台，编写频道宣传文章，经管理员审核后即可出现在该blog上。
+tlgrm.eu 进入频道分类页面，即可看到提交频道的加号按钮。似乎较多人订阅的频道方能显示。
+tsear.ch 添加完显示：
+ Your channel will appear in our channels and search databases within the next 2 weeks.
+ 应该是进入其网站和bot的索引。
+inten.to 可以submit yours，但过多久收录未知。</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu下基于Pure-ftpd建FTP记录</title>
+      <link>https://chouj.github.io/2013/07/31/%E4%BB%A5ftp%E4%BD%9C%E4%B8%BA%E5%B0%8F%E5%9B%A2%E9%98%9F%E5%86%85%E9%83%A8%E8%B5%84%E6%96%99%E5%85%B1%E4%BA%AB%E6%96%B9%E6%A1%88%E5%9F%BA%E4%BA%8Epure-ftpd/</link>
+      <pubDate>Wed, 31 Jul 2013 08:43:26 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2013/07/31/%E4%BB%A5ftp%E4%BD%9C%E4%B8%BA%E5%B0%8F%E5%9B%A2%E9%98%9F%E5%86%85%E9%83%A8%E8%B5%84%E6%96%99%E5%85%B1%E4%BA%AB%E6%96%B9%E6%A1%88%E5%9F%BA%E4%BA%8Epure-ftpd/</guid>
+      <description>一年前就开始寻找课题组内资料共享的解决方案，现在发现，我把事情想复杂了：在内网建外网可访问的FTP的话，以为要在单位出口网关上做映射才行，以为要搞DDNS。其实都不用。以下记录一些关键信息，备查。
+一开始尝试vsftpd，装好后发现21端口都没打开，作罢（查端口命令：#sudo netstat -npltu | grep 21）。
+安装pure-ftpd可参照网上的教程，不过其配置比较奇怪。Ubuntu 12.04下的/etc/pure-ftpd里确实有auth、db、conf三个文件夹，但官方wiki说的在conf里以选项为文件名，以选项值为文件内容进行配置，却不起作用。只好在启动命令里加switch：
+#sudo pure-ftpd -F ~/Message -lpuredb:/etc/pure-ftpd/pureftpd.pdb &amp;#8211;fscharset=gbk &amp;#8211;clientcharset=gbk -b -A -B -c15 -C5 -E -G -k95 -r -K -H &amp;amp;
+这些switch的控制作用可以在官网查。诡异的是“-l”这个，后面紧跟的虚拟用户数据库路径和“l”间居然不用空格。
+然后，在办公室Buffalo路由做端口映射，开放21端口。另外，在/etc/rsyslog.conf里做了ftp日志的单独输出，输出日志以gedit打开不能正常显示中文字符，但用配置好utf-8的GVIM打开就可以。
+目前运行良好，因为本来访问量就小。最大的问题在于WIN下部分浏览器不能正常显示中文，以致进入不了某些中文名的文件夹，最佳解决方案还是用FlashFXP等FTP工具访问。</description>
+    </item>
+    
+    <item>
+      <title>种牙一期手术的病例及费用</title>
+      <link>https://chouj.github.io/2013/07/05/%E7%A7%8D%E7%89%99%E4%B8%80%E6%9C%9F%E6%89%8B%E6%9C%AF%E7%9A%84%E7%97%85%E4%BE%8B%E5%8F%8A%E8%B4%B9%E7%94%A8/</link>
+      <pubDate>Fri, 05 Jul 2013 07:25:32 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2013/07/05/%E7%A7%8D%E7%89%99%E4%B8%80%E6%9C%9F%E6%89%8B%E6%9C%AF%E7%9A%84%E7%97%85%E4%BE%8B%E5%8F%8A%E8%B4%B9%E7%94%A8/</guid>
+      <description>拖了三四年，我终于躺手术台上了。没种时忐忐忑忑、惴惴不安；一期完事后，发现比洗牙还舒服。现在麻药期已过，也从没疼痛。呈上手术病例和费用明细，供后来者参考。
+注：是一期，这还没完。别以为五千多就搞定了。</description>
+    </item>
+    
+    <item>
+      <title>又是出海时</title>
+      <link>https://chouj.github.io/2012/08/06/%E5%8F%88%E6%98%AF%E5%87%BA%E6%B5%B7%E6%97%B6/</link>
+      <pubDate>Sun, 05 Aug 2012 17:15:49 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2012/08/06/%E5%8F%88%E6%98%AF%E5%87%BA%E6%B5%B7%E6%97%B6/</guid>
+      <description>又是国际危机组织对南海形势表示悲观，又是美国国务院关于南中国海的声明，我却要在这个当口儿出海了，戏言为视察南海局势。这次预计为期35天，航线最南端将抵南海的北纬六度，和09年那次一样；也有离菲越都很近的站位。也许是基于一线视察的原因，船上还有记者。
+每次出海，都会为了船上的非作业时间做一番准备。我在V2EX有此一问：如果是你，如何安排？我是这样：Kindle Fire上可以看几个航次的书+500G高清资源+若干消遣型PC Games。当然，要是装逼一点的话，我会说还有若干文献、底稿、程序、数据神马的。还有，结识船上各色人等一同思考人生神马的，也是不错的选择。
+望平安。</description>
+    </item>
+    
+    <item>
+      <title>香港扫货部分清点（含价格）</title>
+      <link>https://chouj.github.io/2012/01/15/%E9%A6%99%E6%B8%AF%E6%89%AB%E8%B4%A7%E9%83%A8%E5%88%86%E6%B8%85%E7%82%B9%E5%90%AB%E4%BB%B7%E6%A0%BC/</link>
+      <pubDate>Sat, 14 Jan 2012 16:49:11 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2012/01/15/%E9%A6%99%E6%B8%AF%E6%89%AB%E8%B4%A7%E9%83%A8%E5%88%86%E6%B8%85%E7%82%B9%E5%90%AB%E4%BB%B7%E6%A0%BC/</guid>
+      <description>虽然这活不该大老爷们做，但7号的这次扫货确实就我一人完成，为了供路人参考，清点如下（单位：港纸）：
+Jenny Bakery 小熊饼干
+4 MIX：110
+8 MIX：150
+龙城大药房
+兰蔻水份缘舒缓日霜（LANCOME HYDRA ZEN） 15ml小样：55
+安娜苏许愿精灵迷你淡香水（ANNA SUI Secret Wish）4ml小样：62
+TIGI BED HEAD Small Talk弹力素 200ml：62
+大力猴星加坡速效千里追风油 45ml：38
+丝塔芙/舒特膚洁面乳（Cetaphil Gentle Skin Clenser） 237 ml：64
+金英化糚药房
+碧欧泉滋润洗面奶（BIOTHERM　BIOSOUCE） 400ML：188
+安娜苏许愿精灵女士淡香水（ANNA SUI Secret Wish） 30ML：195
+碧欧泉男士水动力保湿乳（BIOTHERM HOMME Aquapower） 75ml：208
+雅施化糚品中心
+美源黑发霜/染发膏 881 882：44
+兰蔻清滢柔肤水(粉水) Lancome TONIQUE CONFORT Rehydrating Skincare Toner 200ml：178
+莎莎 Sa Sa
+雅诗兰黛红石榴日霜（Estee Lauder Nutritious Vita-Mineral Moisture Crème）50ml：465
+卡莱美 ColourMix
+安娜苏香水小样套装（Secret Wish/Flight of Fancy/Dolly Girl/Rock Me!</description>
+    </item>
+    
+    <item>
+      <title>2011年度折腾</title>
+      <link>https://chouj.github.io/2011/12/30/2011%E5%B9%B4%E5%BA%A6%E6%8A%98%E8%85%BE/</link>
+      <pubDate>Fri, 30 Dec 2011 14:56:35 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2011/12/30/2011%E5%B9%B4%E5%BA%A6%E6%8A%98%E8%85%BE/</guid>
+      <description>&lt;p&gt;&lt;img class=&#34;size-full wp-image-736&#34; title=&#34;chouj2011@4sq&#34; src=&#34;http://xuchi.name/blog/wp-content/uploads/2011/12/4sq2011.jpg&#34; alt=&#34;chouj2011@4sq&#34; width=&#34;580&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;年末按规矩整一篇。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;年度成就&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;国庆期间办完婚礼，人生进入崭新阶段。累是累点儿，但心里还是挺乐呵。不过木有蜜月心有不甘啊。虽说确实是毕业季，但总归咎于毕业也不是个事儿。&lt;/li&gt;
+&lt;li&gt;年初一篇&lt;a title=&#34;Ocean Dynamics&#34; href=&#34;http://www.springerlink.com/content/95221007334887n0/&#34; target=&#34;_blank&#34;&gt;OD&lt;/a&gt;接收，人生第一篇SCI，来得有点晚，还是去年做的活。&lt;/li&gt;
+&lt;li&gt;3月参与了个重点基金本子的出炉，没拿上，但听说评得不错。&lt;/li&gt;
+&lt;li&gt;8月1号完的第一稿的文章现在还没投出去，囧。稿子被批了N多次。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;年度电子产品&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a title=&#34;G15@悠悠通讯&#34; href=&#34;http://www.3g368.cn/html/mobile/goods_1257.html&#34; target=&#34;_blank&#34;&gt;HTC Salsa (G15)&lt;/a&gt;：老婆吵吵着联想E520问题越来越多，于是在&lt;a title=&#34;悠悠通讯&#34; href=&#34;http://www.3g368.cn/&#34; target=&#34;_blank&#34;&gt;悠悠通讯&lt;/a&gt;拿了这个水货G15。刷了官方微客的ROM，不过我把facebook键从官方ROM的一键微博改成了锁屏键。现在我用这部，因为给老婆换了veer耍。不过G15的内存问题始终没有解决方案，十分坑爹。&lt;/li&gt;
+&lt;li&gt;&lt;a title=&#34;veer@MAXPDA团购&#34; href=&#34;http://bbs.maxpda.com/thread-969316-1-1.html&#34; target=&#34;_blank&#34;&gt;HP veer&lt;/a&gt;：12月从MAXPDA团购给自己来把玩WebOS的。自RIM、Android、iOS后，我又多接触了一种系统，表示WebOS精致流畅，但比其他都更折腾。WebOS还欠缺很多人性化智能化的东西，不仅补丁打得头大，光联系人同步一项就够能让我把机器弄成交互失能。P.S. 点金石很惊艳。&lt;/li&gt;
+&lt;li&gt;旭日150：被搬回家养老了，继续过木有笔记本电脑的生活，希望下一台会是MBA或MBP。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;**&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>抽筋儿的手机编年史</title>
+      <link>https://chouj.github.io/2011/07/24/%E6%8A%BD%E7%AD%8B%E5%84%BF%E7%9A%84%E6%89%8B%E6%9C%BA%E7%BC%96%E5%B9%B4%E5%8F%B2/</link>
+      <pubDate>Sun, 24 Jul 2011 06:25:06 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2011/07/24/%E6%8A%BD%E7%AD%8B%E5%84%BF%E7%9A%84%E6%89%8B%E6%9C%BA%E7%BC%96%E5%B9%B4%E5%8F%B2/</guid>
+      <description>[][1]抽筋儿的手机编年史 </description>
+    </item>
+    
+    <item>
+      <title>阵痛之后 方显生命璋华</title>
+      <link>https://chouj.github.io/2011/06/13/%E9%98%B5%E7%97%9B%E4%B9%8B%E5%90%8E-%E6%96%B9%E6%98%BE%E7%94%9F%E5%91%BD%E7%92%8B%E5%8D%8E/</link>
+      <pubDate>Mon, 13 Jun 2011 02:19:19 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2011/06/13/%E9%98%B5%E7%97%9B%E4%B9%8B%E5%90%8E-%E6%96%B9%E6%98%BE%E7%94%9F%E5%91%BD%E7%92%8B%E5%8D%8E/</guid>
+      <description>闲来以Project Babel 2建了个社区，实现了GAE域名绑定和反向代理。
+本来很气，因为我吆喝之时，总有人说没人气。那时私以为，没注过id，没发过贴，没对社区内容做出贡献的童鞋，没有资格说人少没人气，没有资格坐享我的劳动成果；没有付出，就想坐享其成——就像没写过一个字就能发文章一样——是不现实的，是我看不惯的，是悖论，觉得是对我劳动成果的不尊重。而我不会也不可能弄无数僵尸马甲在这里打情骂俏来制造虚假繁荣来恶心自己。
+后来释然了，多亏海洋学中的尺度分析。
+社区望能以前人的见识和经验为后人节约生活方面的时间经济成本，这本就是个大尺度的过程。而且我得承认，这在UGC方面，在吸引用户创造和分享内容方面存在难点，不是单单提供一个平台就足够的。就目前知道这里的人数看，这个基数太小，也难为大家在初识的时候不说没人。所以我还要继续吆喝，即便被说没人。到什么时候为止?这个时间尺度就是我说的大尺度了。基数的积累我想需要几代南海人的努力和积淀，只有在若干年后知道这里的人足够的多，“没人气”的 帽子才能摘掉，那时我才能欣慰，并以创建者的身份骄傲。而你们是&amp;#8221;生不逢时&amp;#8221;的元老：与那时初识社区的人相比，你们是不幸的，因为你们一开始遇到的是刚出生的社区；但你们又是幸运的，因为见证了生命呱呱落地的奇迹。
+没错，相比这么长的周期而言，现在只是阵痛。阵痛之后，方显生命璋华。</description>
+    </item>
+    
+    <item>
+      <title>麦子语录一</title>
+      <link>https://chouj.github.io/2011/04/15/%E9%BA%A6%E5%AD%90%E8%AF%AD%E5%BD%95%E4%B8%80/</link>
+      <pubDate>Fri, 15 Apr 2011 04:17:08 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2011/04/15/%E9%BA%A6%E5%AD%90%E8%AF%AD%E5%BD%95%E4%B8%80/</guid>
+      <description>发现自己并不仅仅只缺管理自我的勇气和毅力，更缺管理自我的驱动力和自始至终的热情，以至于很多时候一些小计划难以为继。生活应该更hight一些，困难是关卡、通关有奖励！  很多时候，得有些目标，做些努力，多些耐心。你觉得重要的事，那就现在开始做，即便一开始慢些，混乱些，但坚持下去终会清晰，小如读一本难读的书、大如掌握一门吃饭的手艺。  重燃生活之激情。你想到的是乐趣，终将得到乐趣；你想到的是麻烦和悲剧，终将得到的是麻烦和悲剧。想想这么一条路：挣票子、旅游、玩车、挣更多的票子、环球旅游、玩更好的车。得暗示这是一条给你准备的路，以及做好上路的准备。好好玩！要活着！  立足个人之潜能和兴趣才是个体奋斗之方向，即便在这期间需要和各种集体主义（国家、族群或教义）妥协和交易，毕竟这个世界秩序是历经几次大集团的利益斗争后达成，与规则相比，个体势微不足一提。但心底必须清楚前者才是目的，后者只是途径，不要自己傻逼了。  都是能力不足，才会手足无措吧。所以与其单纯安抚脆弱的廉价伤感，不如多理智的学学技能，无论工作、感情或是生活，去享受摆平一件件麻烦事带来的征服感和宁静感。  真能叫醒一个成天萎靡不振的男人的只有理想，只有理想才会真的引起他的野心和乐趣，才会在他心中建立一套他会遵守的规章准则。懦弱、疲惫和分心都会消弱这个家伙践行理想的力量，若你是这个家伙的朋友和伴侣，请在他孱弱是给予勇气、紧张时让他休息。繁杂时助他专注，他即便不说，心底也会感激不尽  畏难、疲惫、分心貌似是我所有半途而废和停滞不前工作前的三座大山。注意技巧、由易入难、平和心态；保持深入的热情，享受预期成果的喜悦，以及规律科学的作息；专注，再专注些，并每天睡前反思回顾来纠正。我只能如此每天念叨自己了。  互联网如此深入自己的生活，可在手中完全沦为享乐工具，放眼望去关注的都是别人的笑话和自己的欲望。难怪人生低迷如此呢。生存恐惧的确是很多中国年轻人当下在意的事，也的确是我们面临的问题，但这又怎能成为自己逃避放逐的理由。得和懦弱打一架。  必须勤奋、必须养成自己独立工作习惯和技巧。强制性达到一种高效率、持久和高执行力的惯性状态。而不是花费时间在这件事上就纠结懊悔。这件事念叨了很多年了，我得很有耐心的逼着自个继续念叨下去。  但一个人独处时，当独立工作生活时，必须控制我的情绪心态和行为、规划我每天的日程和阶段性任务。做到不失控，不随波逐流，不怨天尤人。花一年时间训练自己。我必须要为自己负责。搞不定就去读书。  乐观，积极，行动，缓慢。我操，说起来这么简单的几个字，混了几十年还是不会。  所以不要拖延，不要指望一直不热身，最后一刻就一定会满血满魔的出现神迹，不要太自信所谓潜力。  创新者所遇阻力极大且终所获极少，反复多次，一旦成功便是扎实一步。守旧者自身动力极小且所获颇丰，衰减趋势并非直线，但一旦出局便决无生路。问题是谁能撑过此消彼长那段路。  不能只要忙，更得学会忙里偷闲，学会人生豁达，以及豁达之后的乐观欣欣然。  人事关系的处理都需要提前分析局面、权衡筹码、心里有一个目标之后才开始行动和说话。很多时候我们笨、懒、全凭着性子和惯性来做，惹了麻烦，自己安慰别人推托说就这性格。清晰些、慢些、细致些总是万全的。  给我一件具体琐碎小事一个规定时间，我能完成的很好。大把时间内给一个宽泛的任务，我却没法有任何进展。说白了就是学习习惯和能力的弱智体现，不能改变的话，这辈子只能打小工了。 要相信自己的潜力，坚定执行的意志力。  这个夜晚，小伙子们，有情人的一定要拉出去溜溜，去弥补射手岁月里的苦逼惨淡和惆怅，即便这街上到处人很多，商人更多，那又怎样。这个夜晚，大姑娘们，能失身的就不要只是湿身，若已失了身，就请放纵到失声。人类没有癫狂，世界将会怎样。  2011-02-14 23:42  大师兄说的没错，我们这代人安逸久了，习惯逃避和拖延。在这个成家立业的年纪，越来越意识到这是种病。一一年一季度已过，回想所得，和展望剩下的三个季度，比一零年同期要清楚些。有进步是好事，哪怕不多。时间紧迫，不容彷徨，keep pondering.
+望麦子童鞋容我收藏下他在饭否上对自己励志警世的句子以学习自勉（乱序）：
+ 发现自己并不仅仅只缺管理自我的勇气和毅力，更缺管理自我的驱动力和自始至终的热情，以至于很多时候一些小计划难以为继。生活应该更hight一些，困难是关卡、通关有奖励！
+很多时候，得有些目标，做些努力，多些耐心。你觉得重要的事，那就现在开始做，即便一开始慢些，混乱些，但坚持下去终会清晰，小如读一本难读的书、大如掌握一门吃饭的手艺。
+重燃生活之激情。你想到的是乐趣，终将得到乐趣；你想到的是麻烦和悲剧，终将得到的是麻烦和悲剧。想想这么一条路：挣票子、旅游、玩车、挣更多的票子、环球旅游、玩更好的车。得暗示这是一条给你准备的路，以及做好上路的准备。好好玩！要活着！
+立足个人之潜能和兴趣才是个体奋斗之方向，即便在这期间需要和各种集体主义（国家、族群或教义）妥协和交易，毕竟这个世界秩序是历经几次大集团的利益斗争后达成，与规则相比，个体势微不足一提。但心底必须清楚前者才是目的，后者只是途径，不要自己傻逼了。
+都是能力不足，才会手足无措吧。所以与其单纯安抚脆弱的廉价伤感，不如多理智的学学技能，无论工作、感情或是生活，去享受摆平一件件麻烦事带来的征服感和宁静感。
+真能叫醒一个成天萎靡不振的男人的只有理想，只有理想才会真的引起他的野心和乐趣，才会在他心中建立一套他会遵守的规章准则。懦弱、疲惫和分心都会消弱这个家伙践行理想的力量，若你是这个家伙的朋友和伴侣，请在他孱弱是给予勇气、紧张时让他休息。繁杂时助他专注，他即便不说，心底也会感激不尽
+畏难、疲惫、分心貌似是我所有半途而废和停滞不前工作前的三座大山。注意技巧、由易入难、平和心态；保持深入的热情，享受预期成果的喜悦，以及规律科学的作息；专注，再专注些，并每天睡前反思回顾来纠正。我只能如此每天念叨自己了。
+互联网如此深入自己的生活，可在手中完全沦为享乐工具，放眼望去关注的都是别人的笑话和自己的欲望。难怪人生低迷如此呢。生存恐惧的确是很多中国年轻人当下在意的事，也的确是我们面临的问题，但这又怎能成为自己逃避放逐的理由。得和懦弱打一架。
+必须勤奋、必须养成自己独立工作习惯和技巧。强制性达到一种高效率、持久和高执行力的惯性状态。而不是花费时间在这件事上就纠结懊悔。这件事念叨了很多年了，我得很有耐心的逼着自个继续念叨下去。
+但一个人独处时，当独立工作生活时，必须控制我的情绪心态和行为、规划我每天的日程和阶段性任务。做到不失控，不随波逐流，不怨天尤人。花一年时间训练自己。我必须要为自己负责。搞不定就去读书。
+乐观，积极，行动，缓慢。我操，说起来这么简单的几个字，混了几十年还是不会。
+所以不要拖延，不要指望一直不热身，最后一刻就一定会满血满魔的出现神迹，不要太自信所谓潜力。
+创新者所遇阻力极大且终所获极少，反复多次，一旦成功便是扎实一步。守旧者自身动力极小且所获颇丰，衰减趋势并非直线，但一旦出局便决无生路。问题是谁能撑过此消彼长那段路。
+不能只要忙，更得学会忙里偷闲，学会人生豁达，以及豁达之后的乐观欣欣然。
+人事关系的处理都需要提前分析局面、权衡筹码、心里有一个目标之后才开始行动和说话。很多时候我们笨、懒、全凭着性子和惯性来做，惹了麻烦，自己安慰别人推托说就这性格。清晰些、慢些、细致些总是万全的。
+给我一件具体琐碎小事一个规定时间，我能完成的很好。大把时间内给一个宽泛的任务，我却没法有任何进展。说白了就是学习习惯和能力的弱智体现，不能改变的话，这辈子只能打小工了。 要相信自己的潜力，坚定执行的意志力。
+这个夜晚，小伙子们，有情人的一定要拉出去溜溜，去弥补射手岁月里的苦逼惨淡和惆怅，即便这街上到处人很多，商人更多，那又怎样。这个夜晚，大姑娘们，能失身的就不要只是湿身，若已失了身，就请放纵到失声。人类没有癫狂，世界将会怎样。（2011-02-14 23:42）
+ </description>
+    </item>
+    
+    <item>
+      <title>2010 年度折腾</title>
+      <link>https://chouj.github.io/2011/01/26/2010-%E5%B9%B4%E5%BA%A6%E6%8A%98%E8%85%BE/</link>
+      <pubDate>Wed, 26 Jan 2011 03:55:12 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2011/01/26/2010-%E5%B9%B4%E5%BA%A6%E6%8A%98%E8%85%BE/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://pic.yupoo.com/xcchris_v/ANCtO3d9/D2EA4.jpg&#34; alt=&#34;10年广州部分足迹 by Foursquare&#34; title=&#34;10年广州部分足迹 by Foursquare&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;看到有人说，每年开篇会写个计划，隐藏不发，等年末再核对公开。我觉得这方法很好，但我自己写博至今，没有写过一次年度总结性质的日志。拿兔年开个头，先写个类总结的东西。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;年度成就&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;嘿嘿嘿嘿，人人都说她贤惠。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;年度电子产品&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a title=&#34;iPod Touch 4 8GB&#34; href=&#34;http://www.apple.com.cn/ipodtouch/&#34; target=&#34;_blank&#34;&gt;iPod Touch 8GB&lt;/a&gt;：在官网订，11月17号由同学过关带回。送给老婆的生日礼物。至今未FaceTime过。对于扮演Apps人肉精选器的角色不是很爽。4代的屏真是比三代靓丽多了。&lt;/li&gt;
+&lt;li&gt;&lt;a title=&#34;T-mobile G1&#34; href=&#34;http://www.htc.com/www/product/g1/overview.html&#34; target=&#34;_blank&#34;&gt;T-mobile G1&lt;/a&gt;：10年年初丢了BlackBerry 8310，于是有了这个G1，以1500从@leira 那里买的。是我09年的生日礼物。至今未刷过机。对于这个内存小，短信、通话记录、联系人一多就啥时都卡的机器不是很爽。其他都挺满意，经常拿着上网。现在要不停重播打订票电话的缘故，换成了以前的BlackBerry 7230。如果仅电话、短信的话，还是7230给力啊。&lt;/li&gt;
+&lt;li&gt;&lt;a title=&#34;松下XQB60-Q660U&#34; href=&#34;http://detail.zol.com.cn/washer/index254941.shtml&#34; target=&#34;_blank&#34;&gt;松下洗衣机 XQB60-Q660U&lt;/a&gt;、奥马冰箱：该置办的得置办，该享受的得享受，哪怕还没房子。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;年度折腾&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a title=&#34;南海海洋研究所非官方社区&#34; href=&#34;http://scsers.appspot.com&#34; target=&#34;_blank&#34;&gt;南海海洋所非官方社区&lt;/a&gt;：觉得QQ群的内容无法留存，但那些信息——无论是学术技术讨论，还是本地生活信息，若积累下来就可供后来者参考，所以搞了这个社区。无奈目前没人中，还间歇性因appspot被墙而访问不能。&lt;/li&gt;
+&lt;li&gt;&lt;a title=&#34;Foursquare&#34; href=&#34;http://foursquare.com&#34; target=&#34;_blank&#34;&gt;Foursquare（需翻墙）&lt;/a&gt;：低碳环保的“本人到此一游”，借助G1本人乐此不疲，以致被老婆痛斥陪她逛街不专心。这东西比GPS轨迹好使，因为往往想查阅的就是什么时候在哪里。目前使用156天，396次Check-in，14个Badges，34个Mayorships。参见题图&lt;/li&gt;
+&lt;li&gt;&lt;a title=&#34;Dropbox&#34; href=&#34;http://db.tt/lkZ5xM3&#34; target=&#34;_blank&#34;&gt;Dropbox&lt;/a&gt;：云存储势必流行，用Dropbox，不仅省略了优盘携带，附加了文件备份，而且其增容方法众多，特别适合于行政文案类工作。&lt;/li&gt;
+&lt;li&gt;PT：可惜，这玩意儿貌似要被封杀了，可我已经习惯了在这上面找高清。&lt;/li&gt;
+&lt;li&gt;&lt;a title=&#34;2010 的 日志&#34; href=&#34;http://xuchi.name/date/2010/&#34; target=&#34;_self&#34;&gt;15篇&lt;/a&gt;：blogging不给力，才15篇。&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>二访澳门</title>
+      <link>https://chouj.github.io/2010/08/19/macau-2/</link>
+      <pubDate>Thu, 19 Aug 2010 14:30:01 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2010/08/19/macau-2/</guid>
+      <description>&lt;p&gt;半年前写的《&lt;a href=&#34;http://www.xuchi.name/blog/2010/01/macau-1/&#34; title=&#34;澳门小吃游记&#34;&gt;澳门小吃游记&lt;/a&gt;》俨然成为了这里访问最频繁的日志之一。很荣幸。八月十五，我和挠挠再赴澳门，一举了却了对恒友鱼丸的挂念，当然也有别样的收获：&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/chouj/4900754249/&#34; title=&#34;Flickr 上 抽筋儿 的 圣玫瑰堂内&#34;&gt;&lt;img src=&#34;http://farm5.static.flickr.com/4081/4900754249_5d1ef6e598_b_d.jpg&#34; alt=&#34;圣玫瑰堂内&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;上次来到板墇堂前地没有进圣玫瑰堂，那么这次就从圣玫瑰堂里开始。上图是刚入教堂所见。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>“丈母娘说了 婚房要三房”</title>
+      <link>https://chouj.github.io/2010/07/01/wuhan/</link>
+      <pubDate>Thu, 01 Jul 2010 14:06:37 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2010/07/01/wuhan/</guid>
+      <description>&lt;p&gt;在&lt;a title=&#34;世界城风情 武昌新中心&#34; href=&#34;http://www.1350m.com&#34; target=&#34;_self&#34;&gt;光谷步行街&lt;/a&gt;看到硕大的如题广告，我心里有些不爽。似乎每个牛逼起来的地方，就一定要弄个牛逼的鸭梨（压力）坐镇。相对而言，我还不够牛逼，看到的还是鸭梨不是蛋糕。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;WHU、HUST&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;带着挠挠，回到武汉，回到学校，时隔三年。既是挠挠的毕业游，也是我的怀旧日。在华科骑着自行车，穿梭在交通事故视频中出现的各个路口，在武大依旧迷路以致找不到樱顶。兜个大圈子回来，发现人没变，景没变，拍照的器械变牛逼了，于是照片变好看了。挠挠说武大比华科漂亮，我说嗯。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;又见宗师&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;宗师这个名号不是瞎给的，我受之独立精神影响相当大。总在Q上说要见面把酒畅谈，却一直未成行。面见之时似乎又总在苦于找话题，曾经班聚也是，这次绿茵阁也是。难道只适合线上交流？隐隐可想像宗师笑而不语，祝丫幸福。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;户部巷&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;“有这么一条小吃街真好”，挠挠如是说。诚然啊，有着热干面和豆皮呢，湖北人不可或缺的东东。三年没吃着，一朝吃到爆。中大食堂的热干面绝对不配叫这三个字。PS.最近发掘了一家湖北菜馆“手拉手”，终于可以在广州回味湖北风味了。&lt;/p&gt;
+
+&lt;p style=&#34;text-align: center;&#34;&gt;
+  &lt;figure style=&#34;width: 375px&#34; class=&#34;wp-caption aligncenter&#34;&gt;&lt;img title=&#34;豆皮@户部巷&#34; src=&#34;http://pic.yupoo.com/xcchris/3658799005d6/medium.jpg&#34; alt=&#34;豆皮@户部巷&#34; width=&#34;375&#34; height=&#34;500&#34; /&gt;&lt;figcaption class=&#34;wp-caption-text&#34;&gt;豆皮@户部巷&lt;/figcaption&gt;&lt;/figure&gt;</description>
+    </item>
+    
+    <item>
+      <title>将满百天</title>
+      <link>https://chouj.github.io/2010/04/23/100-days-at-sea/</link>
+      <pubDate>Fri, 23 Apr 2010 14:13:57 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2010/04/23/100-days-at-sea/</guid>
+      <description>明日出发，归来之后，我的海上日子将破百。为念。2010基金委航次
+真实路线：10年南海开放航次</description>
+    </item>
+    
+    <item>
+      <title>澳门小吃游记</title>
+      <link>https://chouj.github.io/2010/01/07/macau-1/</link>
+      <pubDate>Wed, 06 Jan 2010 16:28:30 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2010/01/07/macau-1/</guid>
+      <description>&lt;p&gt;天未亮就起，天已黑方归，才能契合20100102这种回形日子。于是我和挠挠奔去了澳门，记载如下。搜攻略而来的朋友，谨记&lt;strong&gt;如下文字仅供参考&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;准备：&lt;/p&gt;
+
+&lt;p&gt;我们事先咨询了常去澳门吃小吃的同学，然后查阅了网上的澳门攻略，将小吃的部分汇总打印，除此外就带一瓶水和通行证。在金马旅行社报名澳门自由行当日往返巴士，花费42元/人。&lt;/p&gt;
+
+&lt;p&gt;6：00 &amp;#8211; 6：30 am&lt;/p&gt;
+
+&lt;p&gt;六点起床收拾。自备早餐。出发前记得如厕，毕竟车程还是挺长的，虽然中途可以停车方便。&lt;/p&gt;
+
+&lt;p&gt;6：30 &amp;#8211; 7：00 am&lt;/p&gt;
+
+&lt;p&gt;乘地铁至公元前D出口。各旅行社的车都集中于教育路上。&lt;/p&gt;
+
+&lt;p&gt;7：15 &amp;#8211; 9：45 am&lt;/p&gt;
+
+&lt;p&gt;说是7：00出发，但我们因为有游客晚到而推迟了大概20分钟。车程大概2个半小时，中途停靠加油站方便一次。&lt;/p&gt;
+
+&lt;p&gt;9：45 &amp;#8211; 11：00 am&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/chouj/4242537251/&#34; title=&#34;拱北口岸 by 抽筋儿, on Flickr&#34;&gt;&lt;img src=&#34;http://farm5.static.flickr.com/4023/4242537251_0150ca907b.jpg&#34; alt=&#34;拱北口岸&#34; width=&#34;500&#34; height=&#34;375&#34; /&gt;&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>我们都是爬上陆地的鱼</title>
+      <link>https://chouj.github.io/2009/10/26/tedtochina1025/</link>
+      <pubDate>Mon, 26 Oct 2009 15:09:50 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2009/10/26/tedtochina1025/</guid>
+      <description>又参加了一次线下活动，是TEDtoChina广州站的meetup。临时看到，距离又很近，就去了。没有认识的人，无论线上还是线下。
+缺乏活动场地指引，开场时间的推迟，都注定这不是一个完美的活动。只是麦子说的“韧性和执行力是一个点子成功的所在”，让我对TEDtoChina广州站活动的认识有所改观。我先要承认我的动机不纯——本打算对TED和活动形式了解个大概就溜号去修液晶——所以我只有好奇没有热心，提前离开后也觉得不是那么有趣。但改观的地方在于，看事情需要一种尺度。就像远古第一条爬上陆地的鱼，可能它很丑、很笨拙，而当时间尺度发展到人类纪元的时候，我们有足够的理由为这只鱼欢呼。TED就是那光怪陆离的大地，我们每个参与其中的人，都是登上陆地的鱼。即便活动在组织上有所欠缺，即便真正交流的就那么几头人，但能在TED的中国“远古”时期就融入进来，不是很幸运么？</description>
+    </item>
+    
+    <item>
+      <title>2009年开放航次站位图</title>
+      <link>https://chouj.github.io/2009/08/31/2009-chuhai/</link>
+      <pubDate>Sun, 30 Aug 2009 17:35:55 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2009/08/31/2009-chuhai/</guid>
+      <description>今晨登船起航。</description>
+    </item>
+    
+    <item>
+      <title>玄真古洞</title>
+      <link>https://chouj.github.io/2009/08/14/qingyuan-xuanzhen/</link>
+      <pubDate>Fri, 14 Aug 2009 08:04:29 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2009/08/14/qingyuan-xuanzhen/</guid>
+      <description>巨石突兀，溪水奔流，一叶扁舟，跳跃不休。扭臀撑桨，方可变向，心思缜密，临险不慌。以上扯淡，是我对漂流的心中映像。不过这纯体力活是体育项目，非我等可为，我人生第一次漂流，就是猫着腰在一橡皮艇上过的，还是没桨的挺，由人体和地球提供动力。遗憾的是双人橡皮艇里坐着的另一童鞋是博士后师兄，估计他也相当遗憾，不然咋又跟女朋友换地儿漂了次呢。
+@车程
+导游挺帅，车程挺长（1.5~2小时），旅行社午餐还是那么磕碜。路线已被BB8310记录。
+@丛林探险
+针对经常不锻炼人士和非运动人士的锻炼项目，考验小胆量和小身手。探险山路已被BB8310记录，海拔低于200m，此处照片也最多，环境很好。推荐参与人士徒手前进，毕竟还是要手脚并用的。
+@华南第一漂 玄真漂流
+解除一切金钱、卡片、电子束缚之后，人类终于要回归自然啦~当然不是裸漂，钢盔和救生衣还是必须的，其实钢盔主要用来打水仗。猫腰-水仗-猫腰-水仗，累了躺在筏子里仰望被高压线割裂的天空，心想回归自然也不是那么容易办到的。
+@路线+照片
+沿途开着GPSed和Dabr，虽然漂流前就费完了电，但也把之前的路线全记录下来。漂流线路没法记录，但很好找到，探险旁的溪水便是。
+路线加18张照片附着见此：http://gpsed.com/track/13111727472771620。GPSed tracks要是能嵌入这里就好了。</description>
+    </item>
+    
+    <item>
+      <title>正佳广场哈尔滨冰雪节冰雕展</title>
+      <link>https://chouj.github.io/2009/08/10/ice-sculpture/</link>
+      <pubDate>Mon, 10 Aug 2009 13:56:03 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2009/08/10/ice-sculpture/</guid>
+      <description>在大广州能看冰雕展~！奇迹吧。人都能热化，何况冰乎。可还真有这种地方，我和挠挠就去了。以门卡当学生证，我们各花20元，挑了棉衣就冲进去了。据说里面有零下十度，看图为证：
+室内场景，我站的位置是个大滑梯，看旁边的小滑梯 葫芦娃，太粗糙了。 未来动物主题，鸟身猫头？ 忘了叫什么，还挺好看 冰河世纪 猛犸象 钢琴家 白雪公主和七个小矮人，白雪公主贼难看了。 卖火柴的小女孩，愣是没看出哪个是火柴。 爱斯基摩人 爱斯基摩人的工具，这个好，本来他们的工具就挺粗糙的 海马，很漂亮 七彩滑梯，滑了下，风驰电掣~ 里面还有冰桌冰椅冰马桶冰吧，当然冰吧只是摆设。 被冰得差不多了，我们就撤了，回归暖洋洋的广州。想想“天鹅”来之前的那个酷闷热，怀念下冰窟也是挺不错的，里面拿大通风机吹冷风，那个寒峭啊，纯当望梅止渴了。:) </description>
+    </item>
+    
+    <item>
+      <title>无线上网发日志</title>
+      <link>https://chouj.github.io/2009/07/31/post-wirelessly/</link>
+      <pubDate>Thu, 30 Jul 2009 17:20:10 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2009/07/31/post-wirelessly/</guid>
+      <description>一努力，我让挠挠淘汰下来的旭日150无线了。经查，该本儿无线接口和天线都是齐齐的，就缺个卡，所以我一怒之下去淘宝捞了个Intel 2200bg miniPCI 54M，遵从网上的图文教程，一次KO。正巧有童鞋遗留了个无线路由在挠挠手里，我就顺理成章得蹭上了网。路由在7楼，我在3楼。
+ 每晚蹲在平台的拉缩门门口，少衣少裤，不知对面楼上的邻居们情绪是否稳定。 掰断了主板上固定键盘排线的活卡，好在是楔形的，塞住即可用。不知是否影响笔记本儿的移动性。 只开了个QQ，然后端着南方都市报看，被誉为以后有望成为21世际闲情逸致老头。 该本儿屏上有八九条闪烁竖线，经搜索，多数认为是屏线接触不好。所以该屏早晚也会被我大卸八块，先预告。图文教程的document已经攒好了。 问了回收商，我在淘宝买的那个二手笔记本丫竟然说不收。好吧，卖不出去的话，要么留着当古董，要么扔到淘宝店上百元处理了吧。  话说支援挠挠购入Gateway奶牛本儿之后，我把这旭日150据为己有。带它出海，美其名曰测性能而魔兽之，均感觉这机性能和质感都挺出彩。其方方正正中规中矩的外形也很合我意，正好现在又被我折腾得能无线了，遂发贴贺之。
+有童鞋留言说老不更新很不爽，于是我来了。网络、时间、动力，要想更新缺一不可。Twitter很便捷，所以那里成为了我牢骚的主阵地了，即便那里理我的人也不多，还要翻墙。记得有人推特过这种意思，迫于生计的压力，往往有些人会淡出twitter。博客也是同样。因此，似乎这里要回归流水账了，为自己服务。希望看客还能从中找到些有效信息量。
+安啦，去睡。</description>
+    </item>
+    
+    <item>
+      <title>创意市集&amp;Punch Party</title>
+      <link>https://chouj.github.io/2009/03/18/one-day-in-shenzhen/</link>
+      <pubDate>Wed, 18 Mar 2009 05:00:37 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2009/03/18/one-day-in-shenzhen/</guid>
+      <description>为避讳地缘近亲，襄樊学院都不招襄樊人了，你看，多元和交流是多么重要。所以，要多走走，就有了深圳一行，with挠挠@twitter。
+@动车组
+很和谐，凭票可领动车组特供西藏圣水。有些遗憾，跟在飞机上的时候一样，忘了参观厕所。陆姐比空姐出现次数少了许多。
+@东门
+胶着的繁华。广州的还挺宽，深圳的好挤，所以我能想像香港这弹丸地。油炸鸡软骨很贵。
+@创意市集
+总是觉得想一个好玩的点子折腾些什么比想一个科研切入点要容易许多。
+入手“雷人标语”公交卡贴，写着“我被社会活活得和谐了”，打算贴到饭卡上，免得羊城通上的one piece海贼旗下岗。
+@Punch Party
+zhimadoudou&amp;#8217;s photo@flickr 梁晓智-栋笃笑视频@tudou
+懒得看字的童鞋可以看以上的影像。
+如果说创意市集对得起75一张的票价，那么PP就令我失望了。虽然线上的扯淡往往会勾引出线下的拓展，但这次拓展显然不大合乎我的想象。一句话，我看不到PunchParty的单纯。</description>
+    </item>
+    
+    <item>
+      <title>[照片]山头有宝</title>
+      <link>https://chouj.github.io/2009/01/30/valuables/</link>
+      <pubDate>Fri, 30 Jan 2009 14:11:35 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2009/01/30/valuables/</guid>
+      <description>山头上目力可及之处：襄樊市未来的烟花爆竹基地 襄樊市殡仪馆
+更多踏青照片见这里</description>
+    </item>
+    
+    <item>
+      <title>吾神万岁</title>
+      <link>https://chouj.github.io/2009/01/28/happy-niu-year/</link>
+      <pubDate>Wed, 28 Jan 2009 09:25:18 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2009/01/28/happy-niu-year/</guid>
+      <description>意识总是难于集中，怕是年味太稠，束缚住了脱逃的决心，使得链子容易掉。掉链子不是什么好现象，坏处多多，诸如开博客不写日志拜年之类，扯远了还能影响个人发展。本寒假，链子似乎也掉了不少。之前希冀于能实现早睡早起，可年初一我卧到十二点，与被窝恋恋不舍。自幼谦卑——可以简称自卑——总是认为这是没甚出息的表象，无奈此表象周而复始，四季循环，感悲天呛地而无用，还是撂下聊聊数笔，记下寒假生息为妙。
+ 收拾店铺  和挠挠一开发的淘宝店：南海所资源优化同盟已像模像样。趁着刚到家的十足干劲，套用淘宝网自己的CSS设置了宝贝描述模板，再DIY了个店铺简介。望能实现取之于民，用之于民。
+ 升级blog程序到WordPress 2.7  链子掉的多了，也就不在乎一条两条，自更新慢下来，掉链子也就是常有的事。不过，还是负责任的把程序升级到了2.7，掩耳盗铃般。
+ 年   年就是这么一会会儿，怎样迎接这一会会儿是个难题。我挺想拉十好个人在除夕玩杀人游戏，绝对有趣，可惜是不可能完成的任务。挠挠在胡子，我只好加入twitter上侃春晚的队伍。
+一日复一日。某日喝饱山寨葡萄酒从姥爷家出来，头顶我唯一认得的猎户座，默念：“佑吾平安，吾神万岁。”</description>
+    </item>
+    
+    <item>
+      <title>[照片]羽泉广州歌友会</title>
+      <link>https://chouj.github.io/2008/12/23/yuquan/</link>
+      <pubDate>Tue, 23 Dec 2008 09:07:59 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2008/12/23/yuquan/</guid>
+      <description>羽你联通 泉心泉意 羽泉广州歌友会@暨大 12.21
+我和挠挠亲拍的照片：
+
+因同学关系去的，本是报名志愿者检票，结果被发配到粉丝互动区充当歌迷了。算是第一次亲见明星，现场氛围不错。但一是发觉上去互动游戏的不少是场地工作人员，因为问的都是联通服务的问题，所以极似“托”；二是坐在最前面椅子上的大盖帽保安比较煞风景，挡人拍照。羽泉共唱了6首，参与了一个互动游戏。俺们所一帅哥也上去了，蹭到联通的礼品：公仔、U盘、签名CD。
+非羽泉粉丝，但追回星真不容易。</description>
+    </item>
+    
+    <item>
+      <title>生日</title>
+      <link>https://chouj.github.io/2008/12/09/birthday-2008/</link>
+      <pubDate>Mon, 08 Dec 2008 16:13:25 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2008/12/09/birthday-2008/</guid>
+      <description>1、去年生日在演讲台上叽哩哇啦，今年生日在舞台上伸胳膊伸腿儿，何其充实。
+2、挠挠送了我想要的mp3，很喜欢也很高兴。还给定了蛋糕，和同学们一起吃很好玩，就是被欺负去洗了所有锅碗。谢谢我的挠挠。
+3、半路出家到PORSEC 2008打杂，茶歇吃点心最开心，堵车最郁闷，忽悠老外最无聊，混得珠江夜游和大渔一顿自助最实在。
+4、早前也曾半路出家一次，从“布长”升级到了演员，参与所庆演出大型舞的练习。14男14女，不容易啊。
+5、相机被丫们摔了一次，但还是有很多珍贵的“闪亮小马甲”之类的照片流出。
+6、忙得又饿又困又冷，结果被老板娘说“连听报告都要请”，faint。
+7、回家的车票忘了订，直博的申请还没写。
+8、日志发出去时已经不是生日了。</description>
+    </item>
+    
+    <item>
+      <title>海归(三)</title>
+      <link>https://chouj.github.io/2008/11/18/from-sea-3rd/</link>
+      <pubDate>Mon, 17 Nov 2008 18:59:11 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2008/11/18/from-sea-3rd/</guid>
+      <description>难得不用过光棍节，却被课程上的ppt报告折腾许久，心情大为败坏，特来缅怀一下海上的中秋节（思维跳跃得有点远）。另，感谢zEUS.的提醒。
+一觉起来，汪洋一片。海水已不似珠江口那样污浊，代之的是藏青色。我坐在缆栓之上，俯身看去，有些眩晕。仿佛波塞冬想我投奔他一般，我几欲纵情一跃拥抱海洋。转念理性一下：月饼还没到嘴，不能这么恣意妄为。遂龟缩到铁壳中去。
+一直有所幻想，海上升明月定是月明星密，浪声涛涛，嫦娥织女，分外妖娆。到时，往甲板上肆意一躺，望满天星斗，品美酒佳肴，念祖国大陆，观神舟X号，快哉快哉！可理想与现实总是相悖的。大灯耀眼而火热，四周却漆黑一片；龙门吊身姿扭曲，绞车拼命嘶吼，月女神都被吓得花容失色。
+作业完毕，觅死觅活，只揽得可乐一罐。我那精心挑选的六块死贵月饼啊，不知何处去。独上甲板赏明月，低头凭栏忆佳人。佳人何处吃月饼，馋煞海上流浪魂。忽而稀里哗啦之声跃入耳帘，是有人在冲洗仪器。恍然间发现，那不是自己流口水的声音，挺好。
+回到铁皮腹中，幻想自己是一Camera，360度航拍铁皮怪兽，场景顿然宏大起来。同寝的两个男配角正在扯淡，我就是男主角。导演说，不要奢望月饼了，能真正体验海上升明月的人，今天可以算你一个。于是乎，男主角满意的睡了。</description>
+    </item>
+    
+    <item>
+      <title>海归(二)</title>
+      <link>https://chouj.github.io/2008/10/10/from-sea-2nd/</link>
+      <pubDate>Thu, 09 Oct 2008 18:34:49 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2008/10/10/from-sea-2nd/</guid>
+      <description>换个风格继续记录海上的日子，唯美系的看来是行不通。
+话说911起航那天，还没上船我就被同级同学的官腔发言雷了个半死，没法子，作为报上说的“自己培养的航次首席科学家”自然是要表表态的。还没回过神来，惊闻没配备随船医生的我又一阵眩晕，迷离之间暗想此行凶多吉少，能不能回来见到MM真是个问号啊。忽有一硬物落于身边甲板，定睛一看是冰棍一只，立马就被人捡走了。我再遥望码头，见大师兄大领导们将冰棍纷纷扔向我船以示饯行。为了壮胆+复苏+阿Q自己一下，我立即横刀立马斩获一只吃将起来，心里掂量着咋不扔个医生过来，光靠大厨加血哪够啊。
+我正要回舱，看到舱门上夹着一短支玫瑰，真是让这钢铁巨物都彰显出人性光辉的好玫瑰啊。那收起岸梯之时将启航花篮里的玫瑰奋力扔上船的师姐，也真是好师姐。遂，我觉得此航次还有救，赶紧去饭否现场直播一下。
+傍晚时分，闲来无事，我上顶甲板凭栏远望。驱逐舰、油轮、货轮、海事巡逻艇、装卸码头统统消失，唯有钻进手机的“Welcome to HK！”以及头顶频繁飞离的飞机提醒俺正在香港地界。离开万山群岛、担杆群岛之后，身下的这片汪洋就将延伸至无限，和即将到来的黑暗狼狈为奸，侵蚀人心。
+“Goodbye Land, Hello Ocean!&amp;#8221;
+(未完)</description>
+    </item>
+    
+    <item>
+      <title>海归(一)</title>
+      <link>https://chouj.github.io/2008/10/08/from-sea-1st/</link>
+      <pubDate>Wed, 08 Oct 2008 02:42:54 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2008/10/08/from-sea-1st/</guid>
+      <description>“大海啊，全是水～骏马啊，四条腿～”——观海有感（盗用）。
+小时候我见过大海，5岁或是8岁。在连云港的海滩，还没旅游开发，荒芜人际，只有海浪孤独的声音。那时的我，似乎还是对沙子比较感兴趣，玩到涨潮浸湿了裤子。
+长大了，出海科考，我随船跑到台湾和菲律宾间的吕宋海峡，日夜以海为伴。方感到大海的壮阔与美：那是一种海天之间的美，和沙滩椰林的热带美完全不一样的。
+晨光下，一片柔和，云如棉絮。日光下，海水蔚蓝透彻。黄昏时，滚滚火烧云如在手边，海面灿金点点。月升之时，寥寥数星点缀，海上银光泛泛。即便台风黑格比迫近之时，海雄伟的自然力也是美的。
+作文写到这个地步发现不会收尾，算了就不给这儿花痴了，待续待续，囧。</description>
+    </item>
+    
+    <item>
+      <title>领导归来（续）</title>
+      <link>https://chouj.github.io/2008/08/21/girlfriend-comes-back-2/</link>
+      <pubDate>Thu, 21 Aug 2008 09:10:26 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2008/08/21/girlfriend-comes-back-2/</guid>
+      <description>今日凌晨4时单车骑行接人路线，时速9.6Km/h </description>
+    </item>
+    
+    <item>
+      <title>领导归来</title>
+      <link>https://chouj.github.io/2008/08/20/girlfriend-comes-back/</link>
+      <pubDate>Wed, 20 Aug 2008 14:50:43 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2008/08/20/girlfriend-comes-back/</guid>
+      <description> 地拖拖 席子擦擦 洗澡水烧烧 把自个儿拾掇拾掇 整壶凉白开，备喝 绿豆沙一锅，晾凉 买花瓶一只，插九坨玫瑰 默诵《爱老婆八荣八耻》十遍 扪心自问：合格没？合格没？合格没？……  </description>
+    </item>
+    
+    <item>
+      <title>给MM淘宝的下场</title>
+      <link>https://chouj.github.io/2008/07/08/taobao-for-mm/</link>
+      <pubDate>Tue, 08 Jul 2008 06:37:18 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2008/07/08/taobao-for-mm/</guid>
+      <description>在店里给MM买东西，结果……
+囧rz</description>
+    </item>
+    
+    <item>
+      <title>证书</title>
+      <link>https://chouj.github.io/2008/07/03/certification-firefox-3/</link>
+      <pubDate>Thu, 03 Jul 2008 07:44:38 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2008/07/03/certification-firefox-3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>旷工检查范本</title>
+      <link>https://chouj.github.io/2008/06/26/self-criticism-demo/</link>
+      <pubDate>Thu, 26 Jun 2008 05:22:05 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2008/06/26/self-criticism-demo/</guid>
+      <description>
+霉男甲乙丙丁：
+你们俩离开××室一天,为什么不请假?
+每人写一份检查,给我.
+下次再这样,将在Group meeting 上念检查.
+检 查 尊敬的×X×：
+由于我无视组织纪律，外出活动未事先请假，特愧疚得向您检讨。
+事情经过如下：单位×××组织职工××及×××××、×××和××××于×月×日参观××，学习××××发展历程，我和××同志报名参加了该活动，但出发前，仅仅告诉了×××，没有知会您，造成在您不知情的情况下我们私自离开×××整整一个白天。
+事实证明我们不请假而擅自离岗是极端错误和不负责任的行为，我们错误得忽视了我所、我×××的规章制度，乐观得认为不会带来恶劣影响，虽说是参加组织活动，但已经偏离了组织成员的行为准则，且造成老师不必要的担心。在此，我承诺绝不允许这种散漫的行径再次在自己身上发生，坚决遵守纪律章程，听从××的指挥调度。
+霉男甲
+20××.×.×× </description>
+    </item>
+    
+    <item>
+      <title>心理预期</title>
+      <link>https://chouj.github.io/2008/06/01/psychological-expectations/</link>
+      <pubDate>Sun, 01 Jun 2008 09:15:29 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2008/06/01/psychological-expectations/</guid>
+      <description>当地产巨鳄捐钱太少，金额没有达到我们心理预期的时候，我们谴责他，说咋这么没有社会责任感。
+当乞丐捐出一张红票子，金额远远超过我们对他的心理预期的时候，我们很感动，说他善良且高尚。
+当MM的心理预期是要你陪她，而你却跑去玩儿，回来还叫唤多有趣多有趣的时候，你就等死吧。
+我真想把“心理预期”四个字儿拿小红盒装了，摆屋子东南角高处，烧两柱香，每天拜啊拜的：佑我平安～佑我平安～</description>
+    </item>
+    
+    <item>
+      <title>圣火传递广州站照片幻灯展示</title>
+      <link>https://chouj.github.io/2008/05/08/sacred-flame-in-guangzhou/</link>
+      <pubDate>Wed, 07 May 2008 17:23:24 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2008/05/08/sacred-flame-in-guangzhou/</guid>
+      <description>广州 海珠区 滨江东路 新珠江大酒店 2008.05.07
+幻灯播放，RSS阅读器里怕是看不到
+同学拍摄，已获授权，谢绝商业性转载</description>
+    </item>
+    
+    <item>
+      <title>华中科技大学物理系04级毕业衫</title>
+      <link>https://chouj.github.io/2008/04/30/tshirts-of-hust-phy-04/</link>
+      <pubDate>Wed, 30 Apr 2008 05:48:48 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2008/04/30/tshirts-of-hust-phy-04/</guid>
+      <description>&lt;nav&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#span-style-color-888888-for-zhuaxia-zhuaxia24f94cc751fc7da77e7637ea720f992bunion-span&#34;&gt;&lt;span style=&#34;color: #888888;&#34;&gt;for zhuaxia : {ZHUAXIA24f94cc751fc7da77e7637ea720f992bUnion}&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/nav&gt;
+
+&lt;p&gt;华中科技大学物理系04级毕业衫火热出炉，04级同学自行设计的哦：&lt;/p&gt;
+
+&lt;p&gt;[&lt;/p&gt;
+
+&lt;p&gt;]&lt;a href=&#34;http://www.xuchi.name/blog/wp-content/uploads/2008/04/large_14687m172.jpg&#34; title=&#34;点击放大&#34;&gt;1&lt;/a&gt; &lt;img class=&#34;alignnone size-full wp-image-84&#34; title=&#34;华中科技大学物理系04级毕业衫设计图&#34; src=&#34;http://www.xuchi.name/blog/wp-content/uploads/2008/04/tshirt04a.jpg&#34; alt=&#34;华中科技大学物理系04级毕业衫设计图&#34; width=&#34;500&#34; height=&#34;913&#34; /&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>标记</title>
+      <link>https://chouj.github.io/2008/04/29/to-remember-linzhao/</link>
+      <pubDate>Tue, 29 Apr 2008 02:49:09 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2008/04/29/to-remember-linzhao/</guid>
+      <description>挂在RSS相关侧栏的doll——萝丽，已经400天了（该萝丽估计无法显示于RSS阅读器），但我要说的到不是这个。今天是林*昭遇难四十周年纪念日，一个爱国者就这么莫无声息几近忘却得走过了40年。
+纪念林*昭 | 林*昭年表 </description>
+    </item>
+    
+    <item>
+      <title>祭</title>
+      <link>https://chouj.github.io/2008/04/21/mourning/</link>
+      <pubDate>Mon, 21 Apr 2008 12:00:48 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2008/04/21/mourning/</guid>
+      <description>母亲去世一百天。祭。</description>
+    </item>
+    
+    <item>
+      <title>Laptop breaks down</title>
+      <link>https://chouj.github.io/2008/04/12/laptop-bread-down/</link>
+      <pubDate>Sat, 12 Apr 2008 09:29:32 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2008/04/12/laptop-bread-down/</guid>
+      <description>GiGi说的好本儿在前些天再也进不了系统了，开机后软驱灯常亮，屏幕没反应，硬盘灯不闪，也听不见硬盘转。所以我又一次来到了惠佳数码的单元楼工作间，现在正边等笔记本儿修理，边用他们的本儿敲下这些字，感谢无线网络。
+好在有空调吹，有音乐听，有本儿玩儿，有Honey可以想，外加我的良好心态，这事儿也不算什么。买二手本儿，早晚都可能出问题，所以一定要买本地的，想修也容易，只要不修出CGX门就行。
+现在呆的屋子有两位年轻的技术人员，看起来比我还年轻，一直在天花板摄像头下勤勤恳恳，桌上脚边一坨又一坨的散件加工具，万用表，可调电源之类。就我一个挺想知道他们薪金如何的闲人，和他们的工作态度相比，似乎我差了老远。可是他们仍然会说，他们是书没读好，才在这里辛苦。
+如果能修好，打算把硬盘升级到60G，好不容易来一趟，不能白来。所以以后还是XP和Ubuntu的双系统好了，但放些私人资料和急用的东西还真是不保险，没准儿什么时候就又down了，只能保持良好心态的同时干瞪眼。
+无聊日志附抽筋儿虚构无聊打油诗《伏天》一首：
+日照香炉升紫烟，夏满芒夏暑相连。老太热倒人行道，只怜无人敢救援。 Update：升级60G+维修共花300米，另，热烈祝贺该笔记本自购买日起无大故障运行44天！望此后能打破该记录！</description>
+    </item>
+    
+    <item>
+      <title>二手本本儿提货记</title>
+      <link>https://chouj.github.io/2008/03/18/secondhand-laptop/</link>
+      <pubDate>Tue, 18 Mar 2008 11:31:50 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2008/03/18/secondhand-laptop/</guid>
+      <description>电脑这个东西，多了吧好像没什么实质好处，没有吧却又总在心里念叨，一段时日总是暗示自己：没有自己的电脑挺悲哀，久而久之下来，就没克制住。正巧 cosβ 在谈二手本本，所以2月23号就去惠佳数码提了一台，回来后欣欣然像了却了一桩心事。机子也用了快一个月了，还算满意，权且记下当日上门提货的所见所闻。
+一行人按约定时间赶到了广州石牌西金桥二手笔记本市场，场内各家铺位面儿上都是形形色色的本儿，各店家也多在淘宝开有小店，一看就知道都是动过手术经过改装了的本儿，想找没拆过的二手本儿是肯定没戏的。
+在这里倒是和店家有点儿误会，原因简单，前台和自家作坊沟通不畅，直接告知我们同行调货，没机器了什么的。好在交代清了支付宝名称，要铺位前台仔细核实，终于说机器有预留，差点儿算是白跑一趟。不过店家这时候还没把机器配好，更不用说调试了，这种拼装本儿要弄到能用，还是得花一阵子时间的。
+所以我们直接跟着店员到他们家庭作坊来等了，在天河东路的一家单元楼里。进屋一看，客厅似乎是工作间，几个人坐在桌边折腾几个本儿；往里看，有仓库样的屋子，还有办公室，八成是在淘宝上对外联系的。我们被带到一间有沙发的小屋，店家给倒了水，嘱咐我们在这里等机器组配和调试。虽然这一等一个多小时就过去了，但能放心用机器也就算是值了，何况店家的态度还是值得称道的。而且店家临时没有2.0G的CPU，见买家都上门来了，就直接给用上了个2.5G的，很大的优惠了。
+好不容易见到了调好了的机器，赶紧试用，键面，触摸板，光驱，usb接口一样不落得检查了下。全部妥当后，店家给贴了标签，擦拭一番，我则掏出数字证书确认付款宣告走人。好家伙，东西拎着还挺沉。
+给个指标：
+NEC Versa VA20S
+移动奔四 2.5G
+20G硬盘
+640M DDR266 内存 划分128M给ATI集显
+CD-ROM
+15‘ 高亮屏幕
+电池不包待机，4 USB口
+使用尽一个月，CS1.6顺畅，fps五六十；魔兽DotA时，人多就卡；无故黑屏两次，每次伴随若干分钟内无法启动。无其他问题。</description>
+    </item>
+    
+    <item>
+      <title>本命年</title>
+      <link>https://chouj.github.io/2008/02/08/chinese-new-year/</link>
+      <pubDate>Thu, 07 Feb 2008 18:24:26 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2008/02/08/chinese-new-year/</guid>
+      <description>            鲜果认领：BANGF5A6BC913C212C10164CA6E5XIANGUO        上一篇说到控制面板进不去，八成是因为插件开多了。光靠人品来解决问题不是办法，趁年闲重装到了WordPress 2.3.2，换主题到Blackish，晚点儿是晚点儿，谁让猪年手懒呢。
+Blog还是要恢复更新，即便以流水帐的姿态。每每看着朋友们的文字，就算与我毫不相干，也能品味到一种鲜活，一抹温暖。换言之，我随便写点东西没准儿就让谁谁的神经产生了电脉冲呢。Blog Boom是否将阅读引向了信息快餐，这不是我想讨论的，我的目的只有一个：让诸懒人在阅读器里就能知道我还鲜活着。
+年是过的异常萧条，缺乏与人交流的欲望，尤其不愿在相机面前挒开嘴角，因为很假。真的感觉看不到希望，感觉所有生龙活虎之物都是敌人，似乎想要摘掉印有“破灭”二字的封印，又似乎颓颓然无所动。本命年是惨大发了。
+贴张旧图，拜年了事。
+鲜果认领：BANGF5A6BC913C212C10164CA6E5XIANGUO </description>
+    </item>
+    
+    <item>
+      <title>久违</title>
+      <link>https://chouj.github.io/2008/02/01/back-again/</link>
+      <pubDate>Fri, 01 Feb 2008 13:41:46 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2008/02/01/back-again/</guid>
+      <description>终于又打开我的WP后台了，一个月中/wp-admin/控制面板页一直空白一片，加上正事偏事侧事诸事杂多，一时难于将精力聚焦到blog上。就像牙膏的小洞升级到了加农炮的口径，想一点儿不漏得精确制导到牙刷上，已为难事。
+好在奇迹发生，后台又能打开了，落笔记之。赶紧升级重建，免去后患。
+两个月来的停博生活倒也惬意，因为心中少了块儿石头，不用总是揣着掂着。别人的石头能不能蹦出花来是别人的事，我的石头找不见了也是一种境界。不过话说回来，人是有责任感的动物，吆喝了半天，聚了一票人，戏却不演了，是要挨臭鸡蛋的；戏台子也不能荒着，免得生虫。时不时小唱几曲，方能吊足胃口；唱得不好听，再扔臭鸡蛋不迟。
+接下来的日子忙碌依旧，正史野史都得操笔，年终事多，总是如此。好在看客们也比较忙，不大有时间来扔臭鸡蛋了，挺好。</description>
+    </item>
+    
+    <item>
+      <title>不要抱怨食堂的理由</title>
+      <link>https://chouj.github.io/2007/11/14/do-not-complain-about-canteen/</link>
+      <pubDate>Wed, 14 Nov 2007 12:08:22 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/11/14/do-not-complain-about-canteen/</guid>
+      <description>男生经过长期追求，女生经过艰苦等待，此后，
+不仅要做饭，
+还要给别人做饭；
+不仅要吃剩饭，
+还要吃别人剩下的饭。
+—— 某报告会，报告人对那些希望食堂能集中华美食之大成的人如是说。</description>
+    </item>
+    
+    <item>
+      <title>双休</title>
+      <link>https://chouj.github.io/2007/10/22/two-day-weekend/</link>
+      <pubDate>Mon, 22 Oct 2007 05:00:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/10/22/two-day-weekend/</guid>
+      <description>双休上课有个好处：休息眼睛啊，尽量坐后面，盯着远远的黑板，相比天天盯着显示屏而言，是种享受，具有保护视力的功效～
+前天早上6：35起来赶bus，欲以晨练身份冲进黄花岗公园被拦～
+昨天早上6：45起来赶bus，踢毽子踢到8：40～
+前天中午，在科技图书馆看杂志看到迟到～
+昨天中午，踢坏两只毽子，转而奋战拱猪～
+前天回来，篮球打到黑～
+昨天回来，足球踢到黑～
+某银语录：
+足球场上，球被我断掉，嚎：
+日啊，你怎么总是东升西落？
+球场上，某带球：
+某曰：我顶你个肺～我穿你个裆～
+某：本科有那么多作业，研究生还有那么多作业！
+我：不就一门有点儿作业嘛
+某：日啊，你怎么总是东升西落？
+甲：老说这句什么意思啊？
+某：我只是想说头俩字啦，一想到都研究生了要有点儿修养，就补充点儿东西在后面撒～</description>
+    </item>
+    
+    <item>
+      <title>Oct上半月个人俗事播报</title>
+      <link>https://chouj.github.io/2007/10/14/first-half-october/</link>
+      <pubDate>Sun, 14 Oct 2007 04:41:22 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/10/14/first-half-october/</guid>
+      <description>10.4 广州白云山半日游 
+查看大图  终于去了久负盛名的白云山景区一次，人确实不少啊。坐索道上山，登顶海拔382m的摩星岭；最后怀疑论和坚持论打了一架，因为在半山腰的盘山公路上，我们找不到下山索道，来来回回中意志力和身体都得到了极大的锻炼。幸运的是在18:30索道停运前赶到，终成功下山。
+ 10.5 穗港澳动漫游戏展一日游 
+查看大图  从白云山回来，就马不停蹄的接待了从东莞赶来的kuku——校友、blogger、摄影发烧友，媒体专业却混迹公司IT部门，襄樊动漫Cosplay的鼻祖级人物。晚九点，边吃边聊，从网络扯到《School Days（日在校园 &amp;#8211; -#）》，其实是为了商量同去动漫展的，真的。我挺佩服他的思维能力和谈吐。
+第二天准时赶赴穗港澳动漫游戏展，我们照的照片都被kuku发到他自己的论坛了，想看的点这里和这里。
+只放出一张10月5日动漫展上最敬业最萌最高人气的公主装loli一只：
+可以和我在hust漫舞白云Cosplay上看到的女仆装小loli PK一下：
+ 10.13 广州笑翻天乐园素质拓展 
+查看大图  07级研究生新生都参与了，玩儿得非常开心。经过一堆山间和水上的极限运动项目，我有幸成为少数几个没有落水没有受伤的队员之一，看来rp攒的不错。顺道佩服下宿舍隔壁同级的一女生，一样没落水没受伤～弓虽～
+这里有笑翻天乐园的主页，居然整理出了10大精彩落水瞬间，太邪恶了。
+本文纯属纪念意义～看到这儿了pass不pass都无所谓了，囧～</description>
+    </item>
+    
+    <item>
+      <title>“计算器”入手</title>
+      <link>https://chouj.github.io/2007/09/08/blackberry7230/</link>
+      <pubDate>Sat, 08 Sep 2007 09:58:52 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/09/08/blackberry7230/</guid>
+      <description>“咦，你不是去买手机吗？怎么买了个大号计算器？！……还七百块？你没发烧吧？？”
+ 这话是我在今年六月听到的。刚陪Mars（一火星哥们）从Computown某店扫荡归来，正当他抓着机器跨进寝室，这悲剧的一幕就上演了，那时，他手上抓着的是BB7730。
+好在是2v1，一顿“不懂行情”、“木有眼界”之类的海批之后，Mars脑袋后面那斗大的汗珠，被我俩成功嫁接到说那一段话的仁兄头上。
+这次黑莓shopping也是我第一次见黑莓，之前有所关注，但没有亲见，此后一直觊觎BB7290。可最近北航的帅哥入手了一部BB7230，北极的帅哥也入手了一部，又勾起了我的胃口。7230价格低，作个把玩的过渡机型再合适不过，何况我之前用的机子还远远不如7230。想想大学四年间我的手机没丢过没坏过，它也算是功成名就，该衣锦还乡了，研究生三年就换一部吧。于是5号下单，6号到手，330元+10元运费，双电双充耳机数据线，和北航帅哥在同一家淘宝店购入。刚刚发现江东帅哥也在8号入了一部，唉，什么叫流行啊。
+把玩一下午，做到游刃有余，不像有些朋友只看到玩BB有多麻烦， 我看到的是，这玩意儿居然可以玩儿出诸多花样，自然动力非凡。简单介绍下心得，讲讲一些刚接触的后缀名文件，再共享些必备的东东，毕竟论坛上下东西还得有金币支持。
+1、cod文件 模块式结构
+黑莓7230（7系列应该都是如此）的内部程序结构全部是模块式的，所有功能——包括主题、应用程序、基本手机功能等——都是由cod模块实现的。 不同的模块实现不同的功能，实现短信发送的是个模块，一个游戏程序也是一个模块。前文所谓“游刃有余”，就是要做到能够自如的添加/删减cod模块以DIY。“瘦身”就是剔除掉不常用的模块；装软件、游戏甚至字体，就是加载相应的cod模块进来。机器默认安装的cod模块都可以在官方发布的ROM中找到，瘦身瘦掉的程序可以很方便的加载回来。（原来以为把黑莓接上电脑就是个16M的优盘，其实不是，要麻烦滴多，sigh）
+我所用的cod模块添加删除的方法有两种：
+a. 图形界面可视化操作：借助桌面管理器进行应用程序的加载删除。需要对应cod模块的alx文件，因为桌面管理器只识别alx文件。只有cod，没有alx，没有关系，我拿AlxBuilder.exe生成cod对应的alx文件就可以了。
+b. 程序式操作：写bat文件通过JavaLoader.exe加载擦除，只需要cod模块文件。写在bat中的加载语句：
+JavaLoader -u load 文件名.cod 擦除语句：
+JavaLoader -usb erase -f 文件名.cod Javaloader.exe、bat、cod文件在一个文件夹中即可。
+2、换壁纸、midi铃音需要用到ipd文件
+其实是桌面管理器生成的备份文件，把手机里的内容备份到电脑里。可是ipd文件没法直接更改，想添加壁纸、铃音怎么办呢？要用到IPDmanager.exe，拿这个程序打开ipd文件，就可以增减图片和midi到ipd文件中了。然后拿桌面管理器恢复到手机里即可。
+3、电子书prc文件
+其实看电子书的程序有多种，只有Mobipocket制作的才是prc文件，但这个软件很强大：支持导入多种文件格式生成prc，支持添加书籍封面，自动安装手机端阅读器，阅读时支持添加书签、笔记。做书、装软件的教程就不说了，各大论坛多的是。
+下面的box里有Mobipocket Reader V6.0 Beta 的汉化版、Mobipocket Creater 的汉化版，只是不知道有没有破解14天使用限制。要说的是，看书时，程序偶尔会报错跳出。
+以上橙色文件box里都有，下面是box里的其他共享：
+ 一个BB壁纸包，精挑细选的好图，有美女图片哦～ 一个BB端软件包，没有都安装测试，但有几个不错的词典，推荐 一个midi包，上千首流行歌曲midi，每个midi1kb，所以midi都挺短 一个游戏包，没有都安装测试，强烈推荐打企鹅和百战天虫，都是流行游戏，每局不重样儿，而且apm要求极低，不损键盘。不过百战天虫的load有点儿慢，但运行流畅。  
+挑到好东西啦，别忘了谢谢我哈～～
+友情提醒：别装太多，最后留1.5M空间，否则可能会发生丢短信的灵异事件！嘿嘿。抓着BB吃饭去！</description>
+    </item>
+    
+    <item>
+      <title>海</title>
+      <link>https://chouj.github.io/2007/08/31/%E6%B5%B7/</link>
+      <pubDate>Fri, 31 Aug 2007 15:28:51 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/08/31/%E6%B5%B7/</guid>
+      <description>昨天去了趟港口，迎接实验三号考察船夏季航次凯旋，看着硕大的船抛锚、进港，不禁开始想像那些海上丰富的景象，猜度师兄们经厉了怎样的冒险：是惊涛骇浪中与命运的抗争，还是娴静得伴着海鸟吹着口琴？是发现食人之鲨的惊惧，还是偶遇美人鱼的惊艳？海与天一样，是值得人们冥想的神秘之物，她留给了人们太多的悬念与畏惧，就像加三里的海神Calypso幻化为成千海蟹（还好不是河蟹）一般，不可琢磨，不可冒犯。
+遥想我与海的亲密接触，似乎很早，已经记不清是五岁还是八岁了。随父母去了江苏连云港，一个地名颇似天边的地方，我在那里见了第一眼海，也只知道这是大人口中说的海，平静而广阔。倒是对海浪记忆深刻，一是照相时涨潮，被拍打在礁石上的浪花吓的掉头就跑；二是玩沙子的时候全然不顾潮水浸湿自己的衣裤。寄居蟹也是好玩儿的，背着尖角的小壳在沙滩上奔走。最痴迷的要数满眼的沙，比工地上的沙堆大的多，有水有沙，盖起防洪大坝，却顶不住海浪的一次冲刷。按成功人士的人生轨迹，我似乎该去研修水利，以继续儿时的趣味，之后去清华，再而转入政界，可我却跑去了物理，看来不是成功人士的料。
+导师说下次出航可能会去印度洋，上来就两个月的远洋航行，心里直哆嗦。但愿以上种种想像实现其一就好，只要别长吐不起。师兄说胖的矮的人比较适合出海，我这样的怕是最惨，唉，长叹息掩涕兮，叹民生之多艰。
+
+8月31日是BlogDay，盗盗说没有节日氛围，我就来烘托下。茫茫Blog之海里挑出五个以示推荐，多出于私心，严重慎入：
+草莓周刊：即便你再忙，每半月看看这个，就能对周遭的事况有个大致了解，密集型链接的形式，又可让你进一步探究，看一看何乐而不为。
+RSS相关：我的另一个站，写一些关于RSS的东西，想知道RSS是什么的朋友，可以仔细看看。
+WordPress主题中文站：最近我加入的一个组织，推荐优秀的WordPress主题模板！
+彭雷的Chronological Posts：每每看他的文字，就能让我的思絮由线上飘转到线下，学文之人笔触的魔力不可小觑。
+网络研习者：华科的学弟，写网络营销，个人成才相关的，观点比较专业。
+Technorati Tags: BlogDay2007, 海
+Powered by ScribeFire. </description>
+    </item>
+    
+    <item>
+      <title>莲藕们的圣物：连岳全集</title>
+      <link>https://chouj.github.io/2007/08/28/all-books-of-lianyeah/</link>
+      <pubDate>Tue, 28 Aug 2007 03:20:21 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/08/28/all-books-of-lianyeah/</guid>
+      <description>连岳粉丝们，顶礼膜拜吧！
+注：照片来源于网络，摄于8月7日下午4点47分。</description>
+    </item>
+    
+    <item>
+      <title>非常男女6&#43;1</title>
+      <link>https://chouj.github.io/2007/08/19/great-men-and-women/</link>
+      <pubDate>Sun, 19 Aug 2007 04:15:17 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/08/19/great-men-and-women/</guid>
+      <description>老妈在家，无事之余遍览综艺性节目，尽是购物街、五十二、超市大赢家之流，当然咏哥的非常6+1也难逃法眼。故，做梦都想在手机里听到“喂？我是中央电视台 非常6+1节目主持人李咏——”，然后即可挥斥方遒般找人上去给那蛋狠狠来一下，当然，不管金蛋银蛋，砸出花儿来才是好蛋。
+无奈，我不fan咏哥，尤其不喜欢那种故意摆谱儿的表情和早已黔驴技穷的故弄玄虚。在综艺大观和正大综艺走下坡路之后，不知道央视从哪儿找来这么一位撑门 面，并号令众生对敲蛋事业矢志不渝，而且本人也成为央视一颗耀眼的明蛋，足以照亮身边的女人，不信的话，大家可以在百度图片里搜索“非常6+1”。咏哥大可不必为乡下人的嫉妒生气，只能说明你还不够牛。当一头牛长的不像牛而像一只猪的时候，人人都有将其宰之，或和谐下肠胃或和谐下腰包的冲动。
+一个我不喜欢的人自不足以成为此文的主题。想提起的是若干年前凤凰的一档子节目，非常男女。胡瓜和高怡平的速配风味儿自然在那时就对上了老妈的胃口，且播出时段儿在周六晚上，正巧高中唯有周六晚上回家，于是人在饭桌之上难得的看电视机会就完全献给非常男女了。数周的累积强化，方有此文的记忆来源。
+要说记的最清楚的，是第一环节的速配，那皇冠到底会飘到哪位幸运男女的头上能让老妈猜上好一阵子。要说只记得住的，也只有第一环节的非常速配，因为 第二环节的两性话题被老妈设为禁止观赏，我得乖乖的去洗澡或者回屋看书。其实殊不知，在我屋里，我把书架上那本书脊向内藏着的《两性夜话》翻了有若干遍。 同学间聚时，曾有人说小时候一旦电视中有kiss类的画面出现，其父就以虎腰屯于电视前，她只有看裤衩的份儿，现在想来父母在教育孩子方面真是煞费苦心， 不料我们成年后却把这些旧经历当成了谈资以飨众人。
+非常男女在那个时期走红异常，时不时还有8对速配成功的火爆场面，更有国人模仿产物的《玫瑰之约》华丽登台。只是此类节目没能长青，一番流行之后非 常男女就没有放映了。后来有了我猜猜猜，吴宗宪的无厘头没能逃过周星驰的命运，被老妈鄙视的一败涂地，倒是老爸好像不大排斥，但一样是我高中时的禁看节 目。想到大学里现在流行的韩国综艺节目情书，我要是在高中的话，估计一样不能看，哦对，这个电视上没有。提一句，国人要是想copy情书，怕是行不通。国 内的艺人谁能像那些韩星一样玩儿的洒脱自如呢？记得一档地方台的综艺节目上，李思思和一杂耍艺人搭档，这家伙扛着李思思又是旋转又是腾挪，李思思碍于录影 笑容尴尬苦不堪言，自此后我再没见过思思同学上综艺节目。不禁让我想起一著名的绕口令：“鲜花香，牛粪臭。鲜花不让鲜花插在牛粪上，牛粪偏要鲜花插在牛粪 上 ，云云。”
+大学以来，家里的禁映节目骤然消失，一时让人有点儿不习惯。老妈还是一样不会闲着，有段时日看上了星空台的美人关。一 个老男人加一群美女围着10个男人，目的就是把9个推进水里，剩下一个呢，自然姐姐妹妹站起来，然后人人爱。值此时期老妈不会轰跑我，倒是会来这么一句： 要是你，会参加这样的活动不。那时的我对这种迎合女性胃口的节目一脸不屑，思想还没进步将其视为女性意识崛起，稳定两性和谐的伟大节目，自是持否定论：我 宁愿去游泳，也不废这个劲儿。
+后来我年龄直逼法婚临界之时，没遇到任何抵抗阻挠般的，在家看了部青春爱情韩喜剧《My Girl》， 战果是我看了一遍，但老妈看了若干遍，且目前唯一看过的韩剧就是这个。境遇与若干年前实乃迥异，认真思纣得原因两点：一来老妈想透过片子一窥我的喜好或心 理，二来此类题材正好属于树立正确恋爱观、婚姻观的必修思想政治教育课范畴，有益身心。继此之后推荐该课程教材成了老妈的一项事业，教材都有：《我们无处安放的青春》、《新结婚时代》、《奋斗》，etc.
+想必，如果我还在家，如果凤凰卫视还在，再如果非常男女还在， 这节目一定会成为一门我该主修的课程，学分6+1。</description>
+    </item>
+    
+    <item>
+      <title>身边的河蟹</title>
+      <link>https://chouj.github.io/2007/08/11/news-around-me/</link>
+      <pubDate>Sat, 11 Aug 2007 13:23:49 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/08/11/news-around-me/</guid>
+      <description>总坐在电脑前，不利于人类进化，特在雨后趁着阴天，到珠江之畔散散心。搭了轮渡，吹着风，很是河蟹。不觉越走越远，直到新闻现场——
+ ** 特价猪肉引来顾客蜂拥抢购?超市电梯挤压伤人(图)**  双休中的家乐福自然人声鼎沸，有如菜市场一般，全无襄樊沃尔玛的那种空旷自由。当然，今天的菜市场还是非常河蟹的，至少我没看出丝毫如新闻中所述的火爆。不过，海珠区有些新开张超市出售每市斤6.9元的特价肉，如此惹人眼馋嘴痒的价格，足以成为威胁河蟹的因素。
+出行归来，在公寓活动室落坐，面前一硕大电视放着节目。不曾想离开两月再回来之后，河蟹社会造福于民，为我带来了数字电视，让我提前于内地享受了。瞟一眼桌上的报纸，映入眼帘的又是一则新闻——
+ ** 数字电视花脸多因线路问题 需要重新布线**  其实不止花脸，看某些台就像网络不好时看pplive，会卡的。在大学，我们在线看NBA，看世界杯，关键时刻卡掉的体验怕是要重演了。近日德甲开场，有人说21：30来看拜仁，不知央视最受欢迎的5套，会不会看的人越多越流畅呢？
+还有人问起歹命的凤凰卫视，家里人也因看不到鲁豫有约而惋惜过。时下网络上有“还我凤凰”的签名征集贴，有停播地区调查，百度知道对停播问题的解释更是千奇百怪。真正有些靠谱儿的，倒是华尔街日报的一则新闻：中国打击非法接收境外卫星电视节目（想看带留言评论的请到CB的这里），文中说：
+ 广电总局的这一指示大意是说，此举旨在强化监管，维护政府对信息的控制力，“阻止敌对势力的知识和文化渗透。”
+香港《南华早报》(South China Morning Post)称，这一打击行动既是要禁绝官方媒体以外的声音也是要保护大陆本地电视台的商业和内容垄断权，凤凰卫视等境外媒体已经夺去了它们的一部分观众。
+ 不禁让我和另一篇文章——傅国涌：活在一个可怕的时代（需代理翻墙，需要最新翻墙工具的到这里）——联想到一起。其实不仅人们活在一个可怕的时代，已经灭绝且绝于谋杀的白暨豚应该最有发言权，再怎么悼念都是那么苍白。
+顺道儿给自己普及个词儿：BRT——Bus Rapid Transit快速公交系统，广州最近热议中的项目。</description>
+    </item>
+    
+    <item>
+      <title>张震岳 OK | 思念是一种病</title>
+      <link>https://chouj.github.io/2007/07/26/zhangzhenyue-ok/</link>
+      <pubDate>Thu, 26 Jul 2007 08:01:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/07/26/zhangzhenyue-ok/</guid>
+      <description>专辑名称：OK（思念是一种病）
+歌手姓名：张震岳
+唱片公司：滚石唱片
+发行日期：2007年07月06日
+专辑语言：国语专辑
+
+点此进入下载页面（DOWNLOAD）
+歌曲只做试听用途，请在下载后24小时内删除，
+音乐版权归相关音像公司所有。
+如果喜欢，请支持歌手，购买正版音像制品。
+许久不曾写音乐方面的东西，因为听的少。看到有bloggers推荐流行圈内的辑子，就听了些。林俊杰的西界，好像过了听这种歌的年龄似的；王力宏的改变自己，又有点儿接受不了其风格；只发现了张震岳的《OK/思念是一种病》。有人说，听了后有种飙泪的惊喜和感动，估计境遇类似的人都会这么想。曲调轻松，歌词朴实，却值得随着歌随着词慢慢回味，每一首都是这样。
+ 思念是一种病
+ 你说有个女孩
+ 路口
+ 很难
+ OK
+ 孤独的夜哨
+ 再见
+ 小宇
+ 就让这首歌 &amp;#8211; 张震岳/MC HotDog/侯佩岑
+ 小星星 &amp;#8211; 张震岳/阿里山桃花村姐妹
+ 再见 (真情版)
+  再见 载入有点慢
+[audio:http://www.d5bbs.com/UploadFile/2005-12/2005122622481681609.mp3]
+再见（真情版）载入速度适中
+[audio:http://gmr.hilp.cn/再见.mp3]
+特别推荐这首再见，挺适合毕业之类生活中要go our separate ways的人听。顺便推荐两个找音乐的地方，也都是blogs。
+Kade —— 一个叫Kade的女生，把自己听的单曲都写出来，更新很快，有下载链接。
+影月孤风娱乐杂志 —— 借助网络硬盘关注专辑更新的blog，挺全乎，可下载。</description>
+    </item>
+    
+    <item>
+      <title>毕业了（四）</title>
+      <link>https://chouj.github.io/2007/07/26/graduation-end/</link>
+      <pubDate>Wed, 25 Jul 2007 18:17:18 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/07/26/graduation-end/</guid>
+      <description>想起“毕业“系列还没完结，补完丫。俺这召唤兽终于即将登场，开赴广州，有望直接在那边呆上一年半，不知是好是坏。所以走前补完丫，还是那句：纯记录，可无视。
+前前后后出手了一堆纸媒介，一网球拍，俩充电器，一水果盘，俩台灯，两套BBC科普视频VCD，若干磁带CD光盘，一破电子辞典，一笔筒，俩文件夹，一压缩包之后，一身轻松，跟清空回收站一个感觉。卖谁东西给谁钱，外加请Angeline同学吃了顿饭，临上火车一摸兜，50块，这收入都哪儿去了？不解谜团。
+楼里多了封装的电脑机箱，少了平日的歌舞升平，走廊上的垃圾全是走人信号的固态相，正常的波动态在两面墙之间来回反射叠加共振；那著名的“巫妖来了，快跑啊”（玩War 3的人应该知道）却许久不曾听到。寝室内倒是一如往常，该睡的睡该玩的玩，除了我独自一人收拾着显示器外，毫无散伙的征兆。走廊上黄色的灯光渗进室内，浸润着满地陈杂，升腾起浓郁的生活气息一般。我，想像周围的人都突然消失的话，将是什么感觉。
+25号，一个月前。难得早起，因为退房。验房、两个小时的排队、繁杂的手续和赔款（为室内损坏丢失的东西）、黑压压的人群和嘈杂的抱怨咒骂，让人不厌其烦。我第一个走，我独自承受，原本没有的破坏欲也在这一遭体验中膨胀得不可一世。那个时候的我怕是忘掉了曾经晚归给楼管阿姨的打扰，忘掉了阿姨四年的辛劳和苦衷。忽然想起，晚归时两次从容的签了DY，谢同楼兄弟不知情的庇佑。
+要离开的时候事情却多的扎堆儿：十三点扛着机器到楼下托运， 十四点奔赴科技楼交校优论文的材料，十五点再改再交，十六点卖掉一显示器，90元，十七点赶到南大门迎接最后的Party。大三搞通讯时的一次聚会能让人笑得腮帮生疼，所以我们再聚，以此收尾却是我没想到。要向聪表示歉意，妹说的没错，让在报社忙碌的头儿来张罗实在不该。人不多，这一聚也有些仓促，马上真的要“散似满天星”，大家都没想好怎么面对。在KFC撞见Angeline，最后的一脸不舍；在包厢里偷喝带去的啤酒，基本没放开的氛围中又平添了一丝心虚。时间终于回到篇（一）开头的那晚，返回的路上碰见班上一群包夜的哥们儿，一番漆黑大街上的拥别让人只记得善意的只言片语。
+26号早7点，穿过办退房的热闹人群，在拥别和再见没有泛滥之前，在寝室凋零之前，我第一个逃离。估计也只有冷血（现在想来，凯子对我的这个评价还真是到位）如我者能这般残忍，决绝的割舍。我拎着行李走进静谧的校园，每每此时总能想起或离开或抵达的情景：有大一返校走在城建地界的兴奋，有凌晨6点漆黑冬夜中赶车的刺激，有大二放假联合武大同学的大迁徙，有小草同学没赶上火车的小笑料。陈杂百感之后，用毛爷爷的三个字作注脚：俱往矣。
+此后将是数载南下，武汉这座不知什么时候才能被我认同的城市怕是要离我而去了。四年大学是在马路上走过的话，未来也许是一线天，可进不可退。仅此继往开来。END</description>
+    </item>
+    
+    <item>
+      <title>毕业了（三）</title>
+      <link>https://chouj.github.io/2007/07/14/graduation-3/</link>
+      <pubDate>Fri, 13 Jul 2007 17:03:35 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/07/14/graduation-3/</guid>
+      <description>纯记录，可无视。
+前些天在饭否闹了个大笑话，把“杨远骋”喊成了“杨远聘”，不知道北航的这位大当家会怎么想。其实第一次看到他的名字就下意识的以为是“聘”，一时没改过来，思维定势的厉害。最近在他blog看到这么一个短语：Social的乐趣，说的很有感觉。毕业的若干天里，游行是Social的乐趣，摆摊卖书也是Social的乐趣。
+接游行那一晚。自然上午睡足，下午即被吆喝着卖书，二话没说，拾掇一下就大麻袋小包得赶集去了。其实早就想把我那一堆东西处理处理，可惜有人来宿舍买书的时候，都是DotA最火热的时候，无法兼顾其他，只好憋到最后几天清仓。
+书一撂，摊子一支，再美其名曰“一班专场”，罗敏同学更是抄出从西安华山带回来的拨浪鼓，一阵high敲，这阵仗算是摆开了。要说这拨浪鼓，被罗敏同学视为招财进宝的神器，引得二三十人问津也不卖；谁觉得自个儿的摊儿人气不旺，就都拿过来耍上一下，好生热闹。
+话说卖书的Social乐趣，可谓花样迭出。所谓Social，不就是指人与人之间嘛。那卖书牵扯的 关系就不少：摊主与上帝的，摊主与路人的，摊主与学弟学妹熟人的，摊主与摊主的，摊主与收破烂儿的，摊主与委托人的，甚至摊主和体育爱好者的，各有风味。 为什么和体育爱好者呢？因为摊子在操场边儿上，因此引发了一场瓜葛，暂且按住不表。
+在下课放学吃饭回寝的黄金时段之前，历来是要和捡便宜的大爷大妈们周旋下的。这些群众与学生的差别在 于，死压价不松口，我们在这淡季自然瞅准了这么个扯闲天儿，练口舌的机会，和大爷大妈们你来我往，代表性语句是：“保证坏不了！”其实我们也知道他们的生 活也不宽裕，正好我们的原则是尽量出货，所以便宜卖也不心疼，因为旗号是抚慰群众嘛，自个儿给自个儿升官加爵先。紧接着黄金时期一到，人多人气旺，忙活开 来。上帝们瞄什么，咱就跟着介绍什么，喊个凑合价，重要的是得享受光明正大和陌生人聊天的乐趣，施展下嘴皮子工夫，顺带算是经商演习。现在寻思下哈，大学 四年，除了我搞通讯的时候和陌生人联络联络，也就卖书这茬儿见的陌生人多了。
+摊主和路人的段子，在于商业头脑和性格因素。咱形而下的说就是得有胆量向路人吆喝，有广告，有眼球效 应，咱才有门儿啊。不过乐不在此，您想人气旺的时候，吆喝是为生意，人气淡的时候，吆喝为什么呀？为美女呀。其实摆摊本就是个公然当街瞄美女的机会，有美 女路过，先叫唤下以吸引注意，能让美女留步赚得谈上两句的机会就更好了，别忘了，我们有拨浪鼓，那可是吸引MM的利器。
+
+见着熟人，自是好事，不用不好意思。熟人的作用多啦：当托儿的来抬抬人气；想尝鲜的直接客串下 临时摊主，要么自个儿吆喝着玩儿，要么欣赏我们吆喝；碰见来扫荡的学弟学妹，自可吹嘘一番，这位考哪哪哪儿了，那教材怎么怎么滴；淡季的时候路过一朋友， 还可以解解闷儿。噢对，有点儿不好，举个例子：“哟，下海啦？收成咋样？发财了可得请我吃饭！”
+“你这儿人气不行啊！”，“哎，有零钱不？”，“今儿个卖了多少？”，摊主也摊主间的关系正是构架于人气指数、找钱能力、营业额这仨量度之上，按这整三个榜单，实时给出排行，咱就可以弄个“摆摊2.0”的帽子戴戴。当然彼此间还是合作无间的，以那传递着的拨浪鼓为证。
+和委托人的关系，发生在卖书的首环节：总有些偷懒的，会委托我们卖点儿东西。和收废品的关系则发生在尾环节：实在出手不能，才会出此下策。委托人一般不关心价格，只关心是否售罄，没准儿可以从中剥削一道儿；收废品的更不关心价格，钉死了一块二一公斤，知识就是介末廉价。
+最后说到和体育爱好者的关系，这档子事儿是个特例，算是毕业几天里特别疯狂的一笔，因为是场群架，直接惊动校保卫处和110，有兄弟受伤送往医院。不知道兄弟的伤好了没有，这也是毕业之后我挂念的事情之一。
+透漏些有用的信息，毕业摆摊儿什么东西最好卖：
+ 电器。包括电风扇、手电筒、电脑周边、充电器、电饭锅； 体育音乐器材。拳击套，球拍，球，口琴之类。  还有好卖的，就是别人没有你有的东西：少见的教材，特别外文原版那种；烟灰缸之类小玩意儿也特吃香。至于经验，可以总结出以下2条，仅供参考：
+ 敢于推荐； 坚定的相信什么玩意儿都能卖出去。  多跟上帝介绍介绍你的货，多说有益。我们班上星仔连用剩的半壶食用色拉油都卖出去了，你说还什么卖不出去。
+毕业之时，什么事情都该走上一遭，游行是，卖书也是。
+另，摆弄feedburner时，不幸手抖，把http://feeds.feedburner.com/xuchi删到30天转向了，过程不可逆，不知道日后会如何。只好专一于Feedsky的feed，地址如下：
+http://feed.xuchi.name</description>
+    </item>
+    
+    <item>
+      <title>毕业了（二）</title>
+      <link>https://chouj.github.io/2007/07/07/graduation-2/</link>
+      <pubDate>Fri, 06 Jul 2007 17:33:23 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/07/07/graduation-2/</guid>
+      <description>兀自给前一篇加上了“游行”的标签，却还没写到，特在这篇交代吧。“游行”这词儿挺敏感的，搁和谐社会，这得改称“散步”，即便如此，散步的后果还是很严重滴。另，纯为记录毕业的疯狂，其实对看官来说基本没意义。
+参加之前，我对毕业游行的态度挺模糊的，加入与否的天平不知道该向哪里倾斜。印象中有新闻的学妹说，怎么还不游行，觉得不习惯，诧异完毕，游行的事就抛诸脑后了。
+毕业生晚会时，舞台上的同学卖力得挥舞着旗帜，淋漓得释放着主人翁似的激情。这种情绪的渲染、旗帜的指引，加上晚会之后路上熙攘的人群，游行的迫切感似乎传播的特别快。转眼间，在22点半左右（6.21），楼下的各院系旗帜下就聚拢了好些人，喊起了口号。本着不甘示弱的集体主义精神，我就这么被召集了下去。四下相望，有抓着矿泉水瓶儿的，大号小号都有，有拿着不锈钢饭缸和勺的，有镐着脸盘儿的，还有扛着18升饮用水空桶的，直接印证了我属于两手空空毫无准备滥竽充数那种。不管算不算集体无意识，难得一次合情合法发泄发疯的机会，我就顺势找熟人抢了点儿家伙，该闹腾的时候就得闹腾，该享受的时候就该享受。一院系一队伍，先绕紫菘公寓群一圈儿，敲家伙自不必说，口号是“物理物理，永远爱你”，意外吸引了几位物理大一的MM跟着我们一起傻乐，口耐的孩子们。
+23点半左右，狂热依旧，紫菘各院系开始组织长征，杀奔2公里开外的东校区韵苑公寓群，谁让我们都是从那边搬到西边来的呢。一路上有说有笑有打有闹，提点三处：班上一猛男从路边抄了个铁皮垃圾桶，临时当战鼓使唤，据说事后还残璧归赵了；每每望见其他院系的旗帜队伍，立即招手舞旗，梆鼓辉映，有了长征两公里，怎么能少了会师的感觉；化学化工的俩MM扛着大旗，打起头阵，物理这边却性别单一，数来数去能赚点眼球的，只剩些个裸男了。
+队伍安静得穿过主校区的教职工区，进驻子夜过后的韵苑。口号都已议定好：“韵苑韵苑我爱你，我的大一在这里；华工华工我爱你，我的青春在这里！”；路线自定，大一时我们所在楼栋，韵苑几栋主打的女生楼，爱因斯坦广场自是肯定要拿下的。不曾想韵苑这边自有计算机、电信的游行队伍，两军交错少不了又是击掌相拥。也就是这儿，事后我被人扣了个“乱抱计算机小MM”的帽子，我倒是无所谓，抱了又能咋样，只是那人确实是个男的呀。言归正传，若干裸男存在的物理队伍拉到曾住过的韵苑18栋楼下，不禁触景生情，要哭嚎一番。性别单一的结果是口号稍稍露骨了点儿：十八栋 我爱你，我的初夜在这里。说的也绝对是事实，好在18栋住的是同性，不然发疯中还得拐带着点儿发情的味儿。楼里有哥们儿飙出一句“喊得什么，听不清”，没搭理，我们负责喊，你们负责听不清就是了。随后，集结的队伍在17栋、5栋公主楼前继续招摇，路边的警车强烈的映衬着我们游行队伍的强势存在。时值1点。
+原路返回自不在话下。只是后来的事情也挺蹊跷，自组织行为下聚拢了七人跑到建校纪念碑下打了一晚上升级，其中算我一个。躺在大理石地面上，望着脑袋顶上的“四年顶个球”，这经历怕是没几人拥有吧。凌晨六点多钟，七人翻西门而出，吃了早点，再翻墙而入，活脱脱不走寻常路。
+事至于此，想是很好的符合了“毕业生”三字，这称号的昭示之下，人见了也会敬三分，避三分。既然有了避让，何不赏脸疯上一把。所以事后总结，这游行值得参加。一是，发疯发得合情合法不招人嫌，爽一次还有益身心健康。二是，那份罕见的热情，有别于现实冷漠、可招手可击掌可相拥的热情，所感所染必会追忆。
+另，所谓“学位门”事件最近在网络上沸沸扬扬，白云黄鹤HS版、GS版竟短暂只读，而后新浪博客首页，天涯头条，猫扑头条，校内网广场头条，一时影响不小。本不想提，但我毕业不久母校就发生这种事，甚至威胁到白云的存在，还传出谣言，让人不得不持续关注。希望事情可以妥善解决，利益攸关的学生和生事者都该修善其身。</description>
+    </item>
+    
+    <item>
+      <title>毕业歌</title>
+      <link>https://chouj.github.io/2007/07/02/song-of-graduation/</link>
+      <pubDate>Mon, 02 Jul 2007 07:48:28 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/07/02/song-of-graduation/</guid>
+      <description>[audio:http://law.ruc.edu.cn/Article/UploadFiles/200506/biyege.mp3]
+毕 业 歌 田汉词 聂耳曲 同学们,大家起来,
+担负起天下的兴亡!
+听吧,满耳是大众的嗟伤!
+看吧,一年年国土的沦丧!
+我们是要选择&amp;#8221;战&amp;#8221;还是&amp;#8221;降&amp;#8221;?
+我们要做主人去拼死在疆场,
+我们不愿做奴隶而青云直上!
+我们今天是桃李芬芳,
+明天是社会的栋梁;
+我们今天是弦歌在一堂,
+明天要掀起民族自救的巨浪!
+巨浪,巨浪,不断地增涨!
+同学们!同学们!
+快拿出力量,
+担负起天下的兴亡! 学位授予仪式上第一次听到这首毕业歌，田汉词，聂耳曲，这歌儿也有些年头了。咱校刚出台的校歌倒是异常的新。载入比较慢，因为是教育网内的文件。
+顺道为summer同学的手机默哀下下，大学四年内丢个手机也是人之常情了， 可没见过毕业临了的几天这么晚节不保的。</description>
+    </item>
+    
+    <item>
+      <title>毕业了（一）</title>
+      <link>https://chouj.github.io/2007/06/30/graduation/</link>
+      <pubDate>Sat, 30 Jun 2007 05:49:33 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/06/30/graduation/</guid>
+      <description>黄鹤楼
+(唐) 崔颢 昔人已乘黄鹤去，此地空余黄鹤楼。
+黄鹤一去不复返，白云千载空悠悠。
+晴川历历汉阳树，芳草萋萋鹦鹉洲。
+日暮乡关何处是？烟波江上使人愁。 以这首诗形容HUST每届毕业生的离愁，怕是再合适不过了。这些天在家里，有学妹在Q上说，时间过的好快，师兄们一个一个的都走了，言语中露出哀伤，很是契合崔颢这首诗中的调调。回想这毕业的几天，离愁之于我，仿佛只是一刹那一恍惚。那还是25日晚，和通讯部的朋友们K歌之后，第二天就要离开的我，坐在taxi上，望着一路闪过的街景，怆然得泪眼迷离，要不是有04级的天翼在，我也许就泪流满面了，他应该没有看见我的泪花。
+我是班上第一个离开的，饭否上留下了我这样的一段自我鉴定：“毕业时，应该最后走的。可以从容的和每个人说再见，可以见证寝室的空荡，可以拥有诸多次离别。而这诸多次，没准儿可以将离愁稀释到无足轻重。”最后一句，是传说中的自欺欺人，因为早走很像是一种逃，逃避、逃脱、逃难的逃。逃，兴许会是一种遗憾。
+
+在此前，倒是有许多疯狂的有趣的记忆。
+
+没照单人的学士服照片，因为个人感觉实在太矬了
+ 二十号领学位证，一个个套着学士服，恭听最后的教诲。完事后有人语：学位授予仪式，一个字：假；大学四年，一个字：混！也有人语：四年大学就是把流苏从右边折腾到左边尔。晚上的班撮，自是觥筹交错。
+照片转载于华中大在线
+ 二十一号毕业生晚会“同歌同行”,毕业生激情释放的官方版。总是觉得当一群人拥有共同的头衔时，共同利益的超距作用就会立马把他们笼络到一块儿，做一些外人看起来挺矬，自己却快感于其中的事情。这晚会上，我如此，甘愿如此，大家也如此。为旗帜欢呼，为口号呐喊，甚至全力打造“荧光棒雨”送给光电，只因他们那欠揍的口号：“我们来的时候最强，走的时候也要最强”。
+待续&amp;#8230;
+Powered by ScribeFire. </description>
+    </item>
+    
+    <item>
+      <title>海盗三 一般般</title>
+      <link>https://chouj.github.io/2007/06/20/pirates-of-the-caribbean-3/</link>
+      <pubDate>Wed, 20 Jun 2007 04:14:25 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/06/20/pirates-of-the-caribbean-3/</guid>
+      <description>白云黄鹤影版的毕业生电影包场，实惠啊，巨幕影院，两部片子35元。这种机会岂能错过，就当是离开武汉前的留念庆典了，而且还是我长这么大第一次进正规影院看电影，惭愧。:P
+观影效果自然不用说，IMAX巨幕，第十排正中间。要说不足，也有，中文配音，片子不是完整版，看电影前什么东西都没吃，空腹啊，就等这精神食量了。
+另起一段好好评述下主食——海盗三。个人感觉，效果场景自然不错，恢弘壮丽，However，悬念和情节的衔接却显得生硬了，不像在娓娓道来地讲故事，倒像是费劲儿捏巴一个故事出来。有评论说的好：
+ 搞笑部分太过僵硬，让人想笑笑不出声，想哭感情又干巴巴！……层层忽悠，层层设局，结果啥都没有，就换来两个人最后的结合……饼子摊大了
+ 期望大了失望就大了，海盗一里的幽灵船，海盗二里的水车、章鱼，比海盗三的螃蟹海神加漩涡海神要出彩更多。
+再说说甜点——国际空间站，在豆瓣上居然搜不到，奇怪。但立体电影的效果果真不一般，透过眼镜，前排观众不是被撞死了，就该被水泡着，眼睛被欺骗的厉害，立体的魅力在某些程度上比海盗三那让人琢磨得想睡的剧情更为精彩。
+总结来说，辉常不错的体验，虽然被一同去的生活观念迥异的同学小影响了下心情。PS.看完之后，穿过新民众乐园出来，发现该地界上的小美女还挺不少。。
+Powered by ScribeFire. </description>
+    </item>
+    
+    <item>
+      <title>苍井空同学还真不一般</title>
+      <link>https://chouj.github.io/2007/06/09/cangjingkong-youtube/</link>
+      <pubDate>Sat, 09 Jun 2007 10:35:53 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/06/09/cangjingkong-youtube/</guid>
+      <description>[via here] 原帖名为 人说女优体力好
+ORZ &amp;#8230;</description>
+    </item>
+    
+    <item>
+      <title>看到这个，我笑了</title>
+      <link>https://chouj.github.io/2007/05/22/what-i-laugh-at/</link>
+      <pubDate>Tue, 22 May 2007 15:27:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/05/22/what-i-laugh-at/</guid>
+      <description>……
+第二，指导教师应以对学生高度负责的态度写好评语。学生读了三年书，花了大量心血写出了数千字的处女作，不能三言两语就把学生“应付过去”了。应给学生的科研写作练习予以中肯的评价，使学生知道自己的优点与不足，为其今后的努力指明方向，这也是学生在校期间接受的最后一次学习指导。它将给学生留下终生难忘的教益。
+……
+ 指导工作都“人性化”到这地步了，世界一流大学不远矣。见于此页附件3</description>
+    </item>
+    
+    <item>
+      <title>什么叫潜移默化</title>
+      <link>https://chouj.github.io/2007/05/18/influence/</link>
+      <pubDate>Fri, 18 May 2007 11:03:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/05/18/influence/</guid>
+      <description>记得挺小的时候，可能初中可能小学，一家三口看电视。电视里有个女人总是觉得恶心，呕啊呕的想吐，我当即丢了一句：
+“这女的怀孕了吧？”
+换回来的是两道目光，分别来自惊异大于好奇的我妈和好奇大于惊异的我爸。
+“你怎么知道的啊？”
+“电视上都这么演的。” 我的表情呢，估计是装下委屈那种。
+现在想想，这篇的题目还可以是“什么叫润物细无声”，嗯～～</description>
+    </item>
+    
+    <item>
+      <title>欠揍的广告</title>
+      <link>https://chouj.github.io/2007/05/13/ad-of-xiaonei-im/</link>
+      <pubDate>Sun, 13 May 2007 03:41:54 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/05/13/ad-of-xiaonei-im/</guid>
+      <description>个人认为这个广告非常欠揍，不知道三表同志看了会有什么样的反应。
+广告词是：用校内通，抢沙发更轻松！</description>
+    </item>
+    
+    <item>
+      <title>命令行模式的WP模板</title>
+      <link>https://chouj.github.io/2007/05/08/wp-theme-dos/</link>
+      <pubDate>Tue, 08 May 2007 11:08:06 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/05/08/wp-theme-dos/</guid>
+      <description>Site | Demo
+这个太牛逼了！DOS命令行模式的Wordpress模板，不信你可以点上面的Demo进去瞧瞧。输入“dir”可查询当前日志，输入“comment”可添加评论，输入“help”可查询更多可用命令！问题是这种WP模板你敢用否？
+顺便通报下，抓拍城市的白小刺同学在收集毛雕像，不知哪位HUST的同学可以拍几张贡献过去，地址及相关展示见此 。PS.该站域名居然是50mm.cn，汗啊。</description>
+    </item>
+    
+    <item>
+      <title>五一期间</title>
+      <link>https://chouj.github.io/2007/05/04/may-1st/</link>
+      <pubDate>Fri, 04 May 2007 06:23:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/05/04/may-1st/</guid>
+      <description>老板请客，在广州番禺大排档式的西桥饭店，光门前的车估计就有近百辆。我也终于见识了广东的食文化，遥想当年广东人吃到果子狸头上所带来的危害性，我理解的更为深刻了，嗯。总结了一条：为了和谐社会，切莫乱吃！
+黄金周期间，人潮依旧恐怖，耐不住寂寞的我，跑去越秀公园兜了一圈。除了锻炼下脚力、放松下眼睛，再度见证中国的众多人口外，别无他获，连美女都没瞥见一个。早知道就报名参加中山大学七日游了，嘿嘿。
+无心插柳般把自己的东西diglog了一下，就上了首页，特来矫情一番，截图纪念。上diglog首页24小时内能带来多少点击，大家就心里有数了。
+
+
+来装一回球迷。好久没看球，欧冠的AC对曼联终于没有错过。凌晨两点多就我一人在活动室面对40多寸的大屏幕，唯一不爽的是粤语解说。进球都挺诡异，要是打盹儿，估计一个都看不着。AC抓着了战机，对手即便是曼联，即便是范德萨也回天无力：卡卡的灵异出现、西多夫的勇猛、吉拉迪诺的单刀，再加上英扎吉错失的那个机会，可以4：0的。反观曼联，基本整场都没什么戏。鲁尼拿不到球，c罗拿球不是瞎奔，就是还没奔几步迅即被家兔放倒，和PB里LB长的巨像的家兔未灭此役这么激动捏？看到一篇蓝魔球迷送给红黑军团fans的文章——红黑浪漫圣西罗，宝剑出匣斩红魔，很大气磅礴，特别推荐。</description>
+    </item>
+    
+    <item>
+      <title>贴图不说话</title>
+      <link>https://chouj.github.io/2007/05/03/pictures-of-forbidden-city-in-golden-week/</link>
+      <pubDate>Thu, 03 May 2007 12:58:25 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/05/03/pictures-of-forbidden-city-in-golden-week/</guid>
+      <description>报道见此
+Technorati Tags: 五一, 旅游, 黄金周, 故宫, 图片
+Powered by ScribeFire. </description>
+    </item>
+    
+    <item>
+      <title>毕业衫貌似敲定了</title>
+      <link>https://chouj.github.io/2007/04/27/tshirt-for-graduate/</link>
+      <pubDate>Fri, 27 Apr 2007 11:46:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/04/27/tshirt-for-graduate/</guid>
+      <description>Department of PHYSICS , HUST , 2003 &amp;#8211; 2007
+点击上图见大图  袖标比较差，背后那个标语不错，就是字体我不喜欢，不协调，要我画，一定整个彪悍的字体！整体而言还是比较令人满意的。
+之前为应付差事也胡画了个，从bbs上搜出来丢到现现眼，哈哈！这标志要是暖色系的，当袖标还可以。
+
+自己画的Logo我还是挺喜欢的，数字和背后的英语统一用的04号小字体，貌似有点不合适。</description>
+    </item>
+    
+    <item>
+      <title>可怕的粉丝</title>
+      <link>https://chouj.github.io/2007/04/24/awful-fans/</link>
+      <pubDate>Tue, 24 Apr 2007 15:58:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/04/24/awful-fans/</guid>
+      <description>点击上图，可见原始大小，原帖见此。事件缘由可参考此。
+只是见着了我不乐于看见的言论，留了言，结果被抬高了身价，还被标记上了派别，我心里那个寒，真是可怕的粉丝。
+为了澄清一些事情，我主动和被认为争议性的网谈作者启羁 (QeeQi)私下交流了一下，事后他在twitter里提到，觉得自己变得好说话了，呵呵，也确实，并没有给我高高在上的感觉。他提到了很多，从文字里我开始尝试理解他，为了blog，为了中文blogsophere的氛围与经营环境，可以看得出他在思考，在努力，关于blog的发展也想的很深。至少，他是值得敬仰的优秀blogger。</description>
+    </item>
+    
+    <item>
+      <title>Feeds的翻译 正太们的照片</title>
+      <link>https://chouj.github.io/2007/04/22/translate-of-feed-pictures-of-boys/</link>
+      <pubDate>Sun, 22 Apr 2007 08:45:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/04/22/translate-of-feed-pictures-of-boys/</guid>
+      <description>译文网是个好去处，blog上没话题可写了，就可以上去淘两篇文章翻译翻译，还可以练练英语。前些天在那里看到一个帖，问Feeds如何翻译比较好，有说翻译为飞子的，有逗乐说翻译为痱子的。我感觉呢，不翻为妙。九几年时，书店里还能见到一个词：“视窗操作系统”,现在你还见的到么？这种势必会变得众人皆知的词，保留原样最好。
+写童声伴我心的时候转了两张图，觉得不大过瘾，还真让我撞见过瘾的啦，放牛班的春天广州音乐会官方博客，放出了一堆小孩儿照片，想看照片的筒子们有福了！！
+给Technorati.com的论坛留了言，原因是搜索能搜出本blog有45个反向链接，但Links Counts中总是显示“0 links from 0 sites”,让我很郁闷，参见侧栏中那个大大的零。要说的是，那个faq论坛里，留言的大部分都是这个问题，唉，Technorati.com也不靠谱啊。</description>
+    </item>
+    
+    <item>
+      <title>Fun for blog</title>
+      <link>https://chouj.github.io/2007/04/21/fun-for-blog/</link>
+      <pubDate>Sat, 21 Apr 2007 07:23:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/04/21/fun-for-blog/</guid>
+      <description> 
+“我不是博客”的页面貌似抓瞎了：
+ Directory Listing Denied This Virtual Directory does not allow contents to be listed.
+ 曾经看过不少blog上有这个标签，不过说实在的，这个运动让我想起小品里的一句话：“我们乡下人用卫生纸擦屁股了,城里人却用它擦嘴了……”
+发个关于blog的冷笑话：
+ 说在一个QQ高级群里，有人问：
+“谁知道blog的？”
+应者寥寥，又问：
+“谁知道Qzone？”
+“知道啊！”
+“浇花的地儿！”
+“天天浇花的地方啊！”
+“来我的Qzone浇花吧！”
+“……”
+那人继续问：
+“为什么要浇花啊？”
+群里半天没反应，过了阵子终于有人怯怯的回复了：
+“好让花开。”
+ </description>
+    </item>
+    
+    <item>
+      <title>得了个铜牌</title>
+      <link>https://chouj.github.io/2007/04/20/got-a-bronze-medal/</link>
+      <pubDate>Fri, 20 Apr 2007 12:42:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/04/20/got-a-bronze-medal/</guid>
+      <description>整个题目忽悠下，一个多礼拜木在这边更新鸟。
+今天在译言网上注册了个ID，胡乱诌了篇之前的文章发了上去，居然被评为铜牌译作，升级为秀才名号，那个惊讶啊。胡乱往后翻，不是银牌就是金牌。。。。看来有可能随便整篇文章上去都是铜牌，hoho 地址见此
+随便翻到个blog，主人也叫Chris，去打了打招呼。
+现在写blog的时间非常零散，经常是Matlab在处理数据，我就在等结果出来的间隙，开个notepad.exe诌几个字，这时间节约的，要是用在背单词上该多好，哈哈。
+再次开始没事逛论坛，Forum of China Blogger Network，这个站很新，目前还没什么值得看的，教程类文章还不够，也就和一些知名bloggers唠唠嗑。以后发展大了，原创教程多了才值得来找找资料。肯定很快，都是玩Blog的，必定能写。逛坛子附带的结论就是，独立blogger中，学生还是占大多数；写IT相关的诸多bloggers大部分不是IT相关行业的，有意思。
+Update：铜牌长成白金牌了，貌似是根据读者数目的多寡由机器定的，hoho</description>
+    </item>
+    
+    <item>
+      <title>童声伴我心</title>
+      <link>https://chouj.github.io/2007/04/20/%E6%94%BE%E7%89%9B%E7%8F%AD%E7%9A%84%E6%98%A5%E5%A4%A9/</link>
+      <pubDate>Fri, 20 Apr 2007 12:05:09 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/04/20/%E6%94%BE%E7%89%9B%E7%8F%AD%E7%9A%84%E6%98%A5%E5%A4%A9/</guid>
+      <description>广州书店 窥斑见豹也只是交代了Targets的一部分，不算真正的补完，关于放牛班那段，咱在这里唠唠。
+话说7号当晚打扮停当之后，我就直奔目的地而去。穿过夜色，穿过收购退票的诸多黄牛们，我顺着人流（这个词儿用着比较汗）不分东西得钻进中山纪念堂外园的某个小门儿，视线努力掰开路旁的树杈树枝，聚焦到面前的建筑之上:丫挺的，个儿还不小。
+顺手抄了张节目单，直入堂内。落座之后，环顾四周，忽然有种过节的感觉，Children&amp;#8217;s Day，有吆喝的，有乱窜蹦达的，有被爸妈牵着的，真是感觉掉进祖国的花园里了，姹紫嫣红有男有女 &amp;#8211; -b。趁着有亮儿，发现堂顶挺高，人挺多，我这地儿离台还是挺远，虽然是比四等席高级点儿的三等席。努力用我1.0的千里眼瞄来瞄去，结论是科技发达了，人家都配备望远镜2.0了。演出即将开始，全场灯灭，感受有三：童声大呼小叫此起彼伏；节目单上的歌名儿歌词儿估计是白印了，完全抓瞎看不见；主持人那句“请勿使用闪光照相设备、录音录像设备”在咱这儿纯属废话，说了也没人注意素质，反正我身上除了一被我掐成振动的古董手机外再无其他设备，照相功能都木有，想显摆下中国特色都没辙。
+台上小孩儿登场，灯光亮起，柔和雅致，以烘托音乐气氛。还好我不是正太控（非熟悉动漫人士请自行谷歌之），数清是31个小孩儿，男的居多，模样看不清也就罢了，全凭耳朵发力。
+稍微提下演出，毕竟享受演出是初衷。不过确实没啥好说，之前听过，自然知道其表演的出色，首要特点是童声，次要特点是乐器之王钢琴琴声。我一乐盲，又不懂法文，别指望我能在这儿写出什么耳朵听着脑袋里就浮现出或高山流水或五谷丰收之类的肉麻句子。全部歌曲我也就听明白了两首，其他基本对不上号儿：一首和广州少年宫合唱团合唱的《茉莉花》，一首让堂里爆出笑声的大长今韩语主题曲《希望》。至于非音乐上的感观，一是演出之中法国小朋友该擦汗的擦汗，该抠痒的抠痒，辉常可爱。二是谢幕之时，三男两女提前闪了，现场的观众也是诸多错愕。我寻思着，就算是私奔，这数目也不对啊。谁知，一会儿一人抱一束鲜花上来献给两个团的指挥和乐手。嗯，中国式谢幕，让我想起“圆满结束”四个字。
+说实在的，再有此类演出，我是不会来看了，从音乐角度讲，现场的效果——特指和前台距离较远的后排——不如弄张专辑自己静静的听。要是交响乐，我估计还有可能到现场，毕竟器乐的动静比人声大的多，而合唱中夹杂着台下观众发出的背景噪音，就使效果打了折扣。下面要对本音乐会中的特别现象发发牢骚，此特别现象在本音乐会中成了破坏效果的主要因素，估计也仅仅会出现在本音乐会中，不喜勿视。
+本文为灭不叫歌声伴我心，因为我要牢骚的对象就是现场的“童声”。我很不幸，身后坐着一对母女，于是演出之中，台上是天籁般的歌声，台下是天籁般的话语，可谓交相辉映，不绝于耳。可悲的是，当一种你听不懂的声音和一种你听的懂的声音交织出现的时候，谁都会倾向于把注意力转移到后者，所以我到现在还能想起，可爱的小女孩儿都说了些什么：
+ “站出来了一个小男孩儿。”（报幕的）
+“怎么还是那个小男孩儿呀？”（其实是另一个报幕的）
+“妈妈，怎么没有小女孩儿呀？”（其实是有）
+“他们唱的是什么呀？”（我也想知道）
+“妈妈，我想喝水。”（……）
+“……”
+“请你们安静点好吗？”（旁边一位忍不下去了）
+ 安静了若干分钟之后，小女孩儿丢出了一句颇有杀伤力的话：“为什么阿姨不让我们讲话呀？”估计那位“阿姨”内伤不轻。我就想，还好小孩子都天真的可以，没有把“阿姨”换成“大妈”、“大婶”之类，否则估计就有人暴毙而亡了。
+看见了吧，门票钱没花在刀刃上，一场音乐会我都focus在舞台之外了。那些放任小孩儿在纪念堂里瞎跑瞎窜的家长，我就不说什么了，扯皮都没用。对于其他一些望子成龙望女成凤，期望小孩儿能在此环境下有所陶冶有所浸染的家长，我想说的是，希望你们在买票之前，想想演出结束之后，您的小孩儿会不会说：“这演出太棒了！”、“这就是艺术！”、“我要像他们一样！”之类的话。我个人认为不会。难道圣马可合唱团一直到2010年的演出安排不是商业行为？那些小孩子演唱的歌曲难道是符合了您孩子的口味？您要是觉得您的小孩儿可以摒除一切商业化的东西找出其艺术内涵并追随之，那么我只能承认您的小孩儿过分早熟了。推断下去，要么您可以望子快速成龙的把小孩儿送到艺术团，让丫以后出现在台上而不是台下，学音乐比听音乐更能陶冶人，说不准我也会买张票来仰慕仰慕；要么您就别把小孩子带到如此正式，如此难得的场合中来，要知道，小孩子多问的天性是打压不住的。您要是再挥舞“耳濡目染”、“循序渐进”两把刷子来试图反击，那我只能表示悲哀。一来“耳濡目染”或者“变的懂事”都有这么层意思：小孩子丢掉童心，逐渐看得懂大人的世界，并按大人的规则期许行事，这在我看来不是什么好事情；二来小孩子的天性好问无疑将在“循序渐进”中打扰一拨又一拨虔诚的听众，即便您告知他“在这里说话，就打扰了叔叔阿姨欣赏节目，就是不尊重叔叔阿姨”，除非，您的孩子还是早熟到能成功理解“尊重”二字的意思。
+牢骚完毕，畅快。从7号憋到20号终于憋到blog上来，各位bloggers要注意的是，这种东西一定要尽早blogging出来，否则也容易内伤。o(∩_∩)o&amp;#8230;转载两张现场图，照的太赞了，想必地理位置极其优越，来自佛头的佛窟。
+补一句：目前我还没看过《放牛班的春天》！板砖，无情的飞过来吧！
+Powered by ScribeFire. </description>
+    </item>
+    
+    <item>
+      <title>广州书店 窥斑见豹</title>
+      <link>https://chouj.github.io/2007/04/16/bookstore-in-guangzhou/</link>
+      <pubDate>Mon, 16 Apr 2007 08:35:32 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/04/16/bookstore-in-guangzhou/</guid>
+      <description>Target Locked ，成行，然后一定要补完所见所想。
+从大四左右，开始对书本文 字间传达的思想有所兴趣，涉猎的题材也多为或影射现实、或本就着眼现实的敦促思考类书籍。说来奇怪，武侠性质的小说一本也没看过，却同样因文字的力量而对 书抱有好感。渐渐的，逛书店也成为乐趣所在，而评判一个书店好坏的标准慢慢过渡到了其有没有《读库》。不是《读库》这一系列书异常的好。而是说《读库》是 一个合适的下限，有《读库》说明这个书店的定位比较文艺，同时偏门如《读库》都有所收藏，那么肯定有很多值得一读的书星罗棋布于店中。最近正在考虑要不要 把下限降至《格列佛再游记》，能收藏这本书的店，眼光一定格外独到。可惜还没找到有这本书的店啊，当然，除了网店。
+回到广州。豆瓣网上以广州品牌书店而自发构建的粉丝小组居然有五六个之多，我所逛到的也就三四家而已，本想写广州书店一览的念头只好作罢，否则有被羊城人民丢臭鸡蛋的风险。又不得不感叹羊城人民的幸福，有诸多优秀的书店供他们享用。
+学而优
+我在广州去的第一家书店，中大西门旁那家旗舰店，从我这里步行即可，比较近。两层的建筑，布置得比较有格调，店里放着舒缓的轻音乐，书码放的整齐，顾客也不 多，环境是非常合我胃口的那种。藏书更是足以让我断言，这是全广州很不错的地方之一，不求全，但求精。从偏技术偏管理的《搜》、《长尾理论》、《撬动地球 的Google》到思想性文学性的《野火集》、《神了》、《读库》，纵然我的眼界只集中在这几本之上，但一家书店将这些都囊括其中，已经比较鲜见了，至少，武汉基本没有这样的店。
+一层主营主流读物、文学类，最里面则有经管和计算机类书籍；二楼则首先是三联和商务专架，然后是历史、法律、 传媒、艺术类图书。书架之侧，贴出最新上架的新书，销量榜上的畅销书，按区域分类，比如“历史类书籍销量榜单”，其上还有吴思的《隐蔽的秩序》。闲来无事 想到书店逛逛的话，这里会成为我的首选福地；要掏钱的话，还是会倾向网购，毕竟这里是按原价售书。
+博尔赫斯
+一个非常牛的名字，搭配一干人等的推荐；第一次的擦肩而过，直至站在书店之外感叹其外观的别致，无形间已经将我的期许拔高了许多。
+我去这间书店的时候正是中午，一路上和一位姑娘保持路线一致，在有种跟踪良家妇女的莫名之中一直到了书店，悬疑随即化解：姑娘是来换班的，接替一位老者。一人到岗，一人离去，片刻之后安静下来，只有视线从书册中捋过。老实说，和期许十分的不符，店子不到十平米，架子上的书又集思想性、逻辑性、文艺性、学术性于一身，实在不适合我这样的非专业顾客，倒是比较适合学究。视线随之转移：书架之上的海报、相框还有一些贴着石灰、露着水泥的砖石。好奇的向那位姑娘求 解，这些砖石有什么特殊的意义，答曰：“第一次拆迁搬过来就放在那里了。”过高的期许之下，这样的回答不会让我认为是书店的质朴，倒是觉得是对我希冀的摧 残，有点讨无趣。如果是我，我会说的更文学一点：“为了纪念书店的第一次搬迁。”
+倒是听说这里经常举办文化学术活动，以此闻名，没能亲见。别人拍的书店见这里和这里。
+必得书店
+跑了老远，终于到了天河购书中心，可能周六的缘故，人山人海。一楼什么都有；二楼教辅，少儿读物；三楼社科，还有三联专店，倒也能找到《读库》、《神了》、《野火集》，但书多人多，体验就差了；四楼专业书；五楼个体。层层净化之后，购书中心五楼的顾客已经稀少到刚刚好的程度。而必得书店亦不与经法考证店铺为 伍，在角落里偏安一隅。
+来之前，并不知书店之名，只见网上说中心五楼有不错的去处，便找到了必得。店子稍显拥挤，却独具特色，书籍和杂志 都比较精到，老板娘果真有眼光。问可否有折扣，老板娘说凭书而论，随手抄起一本《读库0701》，答曰九折。欣喜的是终于找到一家可以打折的店，悲哀的是 路费绝非可忽略成本，还是网上买吧。
+这里有别人拍的书店照片。五楼之上，还有一家红枫叶书店，也可以去逛逛。
+广州还有几家口碑不错的书店，比如唐宁书店，还有缺书店。尚没去过，困惑于地下铁和公交车的周转，怕舟车疲惫连累了发现的惊喜和逛店的兴致。这里给出的都是各自豆瓣小组的链接，活跃的帖子总比生硬的网站要亲切，信息也比较周全。不禁想到，顾客之中，上网的有多少，上豆瓣的又有多少，却汇聚起人气积攒出口碑， 从中可悟出两条经营之道。一是在豆瓣这样的地盘上挖个坑，来来往往的朋友如若发现自己曾去过的书店，尚有组织可循，必会进来看个究竟，这时店家贴一些进 货、销榜、折价、书评之类，自然可以笼络起一片Fans。二是有书店网站也好，有豆瓣小组也好，顺反向链接而上，凡有blog提及，店家留言答谢，说的堂皇点，这叫突显人文关怀。如若有书店站长组长看到如此idea，拿去受用，别忘给我办张会员金卡，我定经常前去捧场，o(∩_∩)o&amp;#8230;
+Technorati Tags: 广州, 书店, 学而优, 博尔赫斯, 必得
+Powered by ScribeFire. </description>
+    </item>
+    
+    <item>
+      <title>Feedsky让我很郁闷</title>
+      <link>https://chouj.github.io/2007/04/12/feedsky/</link>
+      <pubDate>Thu, 12 Apr 2007 07:15:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/04/12/feedsky/</guid>
+      <description>Ffeedsky让黎旭很棘手的同时，也让我很郁闷。
+黎黎旭还算幸运的，更新后，只是提示feed not exist。我到好，升级一次，feed个数就成5个升级成了4个。而且在我管辖内的feeds中，feed.feedsky.com/chrischou不存在：
+ feed feedsky/chrischou is not exists!
+ 以上就是那个feed链接出来的句子，少了“.”不说，英文也比较差劲。而跑到我管辖范围外的那个feed，feed.feedsky.com/xuchi，居然又是存在的，我没法重新烧到这个地址上了，而且绑定到feed.xuchi.name的，变成指向Feedsky feed中心了，真是让我额外恼火。
+昨天在faq论坛发了个问题帖，刚看了看，忽然发现Src开始逐条回复却跳过了我那一片儿帖，不行，得赶紧抓住了问问，结论是问题严重，已提交技术处理。从论坛里最近的发帖量就可以揣度出Feedsky升级过后肯定处于焦头烂额之中，所以这个技术处理过后直到圆满解决的时间期限估计成为一个可供我闲暇之余猜测的议题，一定时期之后可以演变为惊喜也说不定。就以从我发帖到Src回复的22小时间隔作为基本单位吧，大家也可以猜下会是几个22小时。希望事后，能如805大字报说的，Feedsky已经运转在高效稳定的系统之上，Feeds不会再经历惊心动魄的若干22小时。
+前一篇所述的新地方如下，目前也只有3篇文章，推荐在FF下浏览：
+地址： http://www.xuchi.name/blog/  RSS： http://feeds.feedburner.com/xuchi/  http://feed.xuchi.name  关于友情链接：独立blog的链接是基于现实中的关系和建站后的友链交换，和blogger没什么瓜葛，本就应区别对待的。当然也欢迎这边的朋友和我的新站互恋，不过有我现在PR为2的blogspot和各位恋着，想必不会有多少朋友想更改。如果您想两个都互恋，那我可得感激不尽外带乐开花。记得留言哦。
+Update:
+16:39分，丢失在管辖外的和报告不存在的feed都宣告找回，速度还是非常快的，感谢Feedsky的及时解决。</description>
+    </item>
+    
+    <item>
+      <title>愚人节</title>
+      <link>https://chouj.github.io/2007/04/01/april-fool-day/</link>
+      <pubDate>Sun, 01 Apr 2007 02:03:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/04/01/april-fool-day/</guid>
+      <description>豆瓣访问不能，别说是愚人节玩笑。update:为什么别人都说可以访问，就我这里打不开。
+这节应该是让大家开心的节日，翻两个以前的原创恶搞出来充场面，本想花点心思骗骗人，但一花心思就比较累，作罢。
+创意表白 雪之缘
+宿舍楼下惊现雪地表白 和谐校园初见建设成效</description>
+    </item>
+    
+    <item>
+      <title>暂时回归</title>
+      <link>https://chouj.github.io/2007/03/28/temporary-back/</link>
+      <pubDate>Wed, 28 Mar 2007 08:53:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/03/28/temporary-back/</guid>
+      <description>这口G_Blogger(牌号32269107)锅再度小炸之后，我知道blogspot又可正常访问了。加之GSeeker的第一时间报道，更加确信blogspot暂时回归。虽然L.G.Y说仅仅是从上次封锁的IP:72.14.207.190
+换到了现在的IP:72.14.207.191，也不知道是不是Google的公关起了作用，但总算谢天谢地又能访问了。
+无论如何，这里都将继续，如果我要换BSP的话，下一个一定是独立架站。只是非常不爽GFW将俺们这些小民玩弄于股掌之中。最近看《野火集》，觉得改host、加代理、代Tor，都是避，都是绕，而抵抗或者声讨自身权利的一概没发现，比方弄个antiGFW.com，发出点声音，虽然这种站绝对会上GFW的黑名单。就像虚飞说的那样，封了，解了，还得感谢，这难道不是病态么？
+Blogspot暂时可访问，加之一点不闲的吕帅的“闲话”，回归Feedsky的理由足够了，虽然肯定是和Feedburner烧的Feed并存。各位到底订哪个，看自己的立场，顺便检验下两家受欢迎的程度，有竞争才有生存。回归的另一个主要原因就是，实在想知道自己这块儿地值多少钱，有没有发展为钉子户的价值，很俗的欲念。这么写让我挺惭愧，捣腾了一遍结果有自己抽疯之嫌，只能怨GFW闹的，而且一下给我闹出两个激活的话题广告Feed，不好收场。不知道吕帅能否给话题广告开个删号的功能。最后奉上激活码：efa22884，要说的是，当然不会仅仅估个价就完事，有时间我肯定会就邀请话题写点什么的。
+Update：Blog定价：￥ 30.00元，看来我在对“人工干预”这四个字的估计上严重失误。</description>
+    </item>
+    
+    <item>
+      <title>Targets Locked</title>
+      <link>https://chouj.github.io/2007/03/12/targets-locked/</link>
+      <pubDate>Mon, 12 Mar 2007 08:44:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/03/12/targets-locked/</guid>
+      <description>借由
+ 和菜头同学的广州买碟地点一览 广州特色书店地图 学而优追随者联合会 博尔赫斯书店小组 如何找到博尔赫斯书店？ 放牛班的春天广州音乐会小组 放牛班的春天广州音乐会博客  锁定
+ 学而优书店 海珠区新港西路93号 面向中大西门左手边
+ 博尔赫斯书店 广州市海珠区怡乐路95号二层
+ 法国圣马可童生合唱团“放牛班的春天”广州音乐会售票总部 广州东风东路艺苑大厦 东峻广场旁边
+  有互联网真好！
+
+  </description>
+    </item>
+    
+    <item>
+      <title>广州之歌</title>
+      <link>https://chouj.github.io/2007/03/10/song-of-guangzhou/</link>
+      <pubDate>Sat, 10 Mar 2007 13:56:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/03/10/song-of-guangzhou/</guid>
+      <description>月亮走我也走……
+元宵佳节，南下广州。刚在火车上落定，就看见一人西装革履器宇不凡大有来头。事实验证，果不其然：先掏一证，裱得跟人大代表证似的，上面赫然两杠四星。我心里咯噔一下：这家伙不得了哇，跟我的迅雷等级一个水平的，好歹在线时长得上百小时哇。再发名片，“××投资公司董事长”，说是到襄樊是来作考察的，然后历数襄樊的区县市，可了不得。顺着襄樊侃到广州，此句双关，一指话题，二指行程，可谓事多话多。趁这人去厕所，对面俩姑娘眼巴巴的跟我说，估计你晚上不用睡了；我只好眼巴巴的对着食物发狠：吃掉你丫的！
+BTW.元宵佳节的夜车，一可赏月，二可赏一路的烟花焰火，人品好的没准可以赏到秋香，这铁路部门也不加价，真是脑瓜子进水。
+命运交响曲
+没在豆瓣的广州小组里打声招呼，也没跟武汉小组的ggmm道个别，我就屁颠儿屁颠儿的到了广州，奔向海洋所，追溯历史，已经算是二进宫了，555
+中科院系统的就是有钱，人手一电脑，我先使唤一奔三的本儿，说改明儿会换个新台机。再者拿到了700米——400补助＋300路费报销，可惜这里米饭都3毛一两，打三两还吃不饱，郁闷。捞着一研究生宿舍住，现在就我一人，貌似代价是第一年去不了北京了，因为老板说9月份就过来了所以直接安排了吧。别了，我的奥运，别了，我喜欢的颜色分明的四季，别了，北京那些盼我来的亲友，这心里头啊，是临屋涕泠不知所云呐；这表情上啊，是春意盎然大言不惭：自创的，扎根南中国，树挪我不挪；改编的，我是boss的一块砖，哪里需要往哪搬！
+中科院系统的兄弟姐妹也确实牛叉。宿舍就是个睡觉的地儿，一天十个小时以上泡实验室。吃喝拉撒睡，掐头去尾，中间的都在实验楼里搞定，要搞定两头的，也就走个50米。这里和大学不一样，不是一小组一项目、一堆人供一台机器，而是一人一项目，好硬件好待遇大施展空间，真正搞研究出文章的地儿，人人都刻苦能干哇。只要能有成绩，作息上不管你啥时来啥时走，换句话说，给你自愿枪毙双休的权力，也就等于在实验室基本没啥娱乐了。我敢赌这里的一些人还不知道blog是何物，像我这样blogging的估计可以贴上“异类”的标签了。坏处就是，在实验室写东西，总有点小偷小摸的不良感觉，可怜哇。看来我得启动一天写一点儿，每周攒一篇儿的地下blog战略。顺道可怜下我的google reader，没准儿我哪天发篇题为“热烈祝贺G Reader未读篇数突破N位数大关”的贴，诸位可别惊讶。别了，那网上纷至沓来的能让思维舞动的资讯，别了，那挨揍的M Scofield和找到姥姥的Claire bear。这心里头哭的是，稀里哗啦巴扎嘿，表面上看起来又是，扎西德勒亚克西……
+摇篮曲
+我的毕设课题是“瑞利-布纳德湍流热对流中大尺度相干结构对传热的影响研究”，流体领域中的。
+瑞利-布纳德湍流热对流是指实验中的一种现象，即一个装满液体的对流箱内，底板加热保持均匀恒温，顶板制冷保持均匀恒温，板间温差恒定。下部流体受热膨胀，密度变小而上浮；上部流体遇冷收缩，密度变大而下沉。在此机制下，可形成一种环流。若流体是以湍流形式流动，即固定位置处流速呈现随机性，而流动由热能不均驱动，这即叫做湍流热对流。
+但由于流体的粘性，受热的流体元能量聚集到一定程度，由外界触发后，才会显著的上升，而在上述实验中，其触发主要是由冷水团的下降；冷水团亦和热水团一样，受热水团上升而触发后，显著下沉，道理跟水滴要积攒到一定程度才会滴下一样。但实验测量到，由于板距、流速和水团运动并非持续而是脉冲式的原因，某段时间水团运动会出现真空期，即测量点流速减慢，甚至流速反转，此即瑞利-布纳德湍流热对流现象。这一现象的意义在于，可在地质学中解释古地磁翻转现象。因为地磁由地幔中流动的四氧化三铁形成，同样是流体，地心处高温，接近地表则低温，与实验条件基本吻合，而其流速若也呈现周期性减缓或反转——当然这周期长达上万年——即可解释南北磁极翻转现象。
+我现在做的就是利用现有实验数据，尝试找寻实验中流体流速反转周期和一些物理量是否相关，其间是否存在规律。若有规律则可以进一步用其他物理量推算反转周期，实现理论预测。
+尾声
+括弧，话外音。
+整篇科普装点门面，被吓着了快去医院。横批：曲终人散。括弧，备用横批：俺太有才了……</description>
+    </item>
+    
+    <item>
+      <title>卢跃刚：禁书、禁人、禁……</title>
+      <link>https://chouj.github.io/2007/02/10/article-of-luyuegang/</link>
+      <pubDate>Sat, 10 Feb 2007 08:15:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/02/10/article-of-luyuegang/</guid>
+      <description>给出三个不同的网上来源：
+牛博论坛一贴
+五柳百草园一文 这站首页上有首散曲，写的很是“嚣张”。
+360DOC收藏文章 from 真积力久 相关文章(18)
+该文有关章诒和新书《伶人往事》被禁一事，也许教育网用户看不到以上链接，请点这里。
+附一帖：沙叶新支持章诒和抗议禁书 2007年1月20日
+我也是在《冰点故事》、《用新闻影响今天》这两本书里认识卢跃刚这人的，李大同手下大记者。自中青报冰点被解散之后，终于又见到这个人名了，该文2月2日发于《亚洲周刊》。</description>
+    </item>
+    
+    <item>
+      <title>New Year New Template</title>
+      <link>https://chouj.github.io/2007/02/04/new-year-new-template/</link>
+      <pubDate>Sat, 03 Feb 2007 16:04:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/02/04/new-year-new-template/</guid>
+      <description>其实之前的模版挺好的，但为了能适合发一些白底的图，一心想换成白色背景的板子。在家有时间有条件捣腾，就迫不及待的实现了。
+先搜了半天，适合新版blogger的模版还真是不多，给出模版的出处（HUST校园网内估计访问不了）：Blogger Templates (Beta)。里面的5个模版都很不错，经测试都可用。
+为了调这些板子代码，测试显示效果，特意弄了个test blog。最喜欢的要数K2，最先换上的，但在ie下显示不佳，调试失败，只好作罢。Andreas02也很棒，我唯独不喜欢这个板子的侧栏，链接一多就显得乱了。现在的这款Kubrick，和我第一个blog的板子几乎是一样的，我废了点劲PS了一张header banner。担心的就是一旦googlepages服务失效，这里就会面目全非了。
+在学校，每天同学热情的拉人DotA，面子上磨不开，自由失去了纯色般，境地尴尬。住家几天，在时间的支配上就简单了许多。新年新模版，之后就是要好好想想，写点东西了。</description>
+    </item>
+    
+    <item>
+      <title>入法眼了，夏普812SH</title>
+      <link>https://chouj.github.io/2007/02/01/sharp-812sh/</link>
+      <pubDate>Thu, 01 Feb 2007 13:44:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/02/01/sharp-812sh/</guid>
+      <description>先扯点闲话。回家后用电信上网，虽然是稍微比教育网健全点的网络，但我的备份博客还是存在发布极端困难的问题，终于理解了keso为什么要离开donews。^_^
+手机这种东西，自打进入人类社会，就一直层出不穷的进化着，而且变成了绝不可少的样子。高考结束后，家里以1199元给我配备了这款手机，一直用到了现在。虽然有一行液晶花了，也曾经不幸摔成了两半，但它一直顽强地履行着能打电话，能发短信的使命（虽然丫的文字输入反应迟钝），对我尽死效忠，我也就和它不离不弃。每每看到各样的机子过门到了不同的人手里，主人婆娑其一段时间之后，就开始推销“手机只要能发短信能打电话就行啦”的言论，我就抱着我的古董乐呵。不过，更多的时候我还是抱着丫郁闷，用麦子的话说，就是用户体验实属糟糕。
+不对手机这种商品存在需求，基本上就别想赚到我的眼球。只要它不坏不丢，我是没理由去关注手机业的，只是我的订阅主动塞给我了一则消息，让我发现了这款夏普812SH，图片及基本性能见这里。
+翻盖，天线内置，要选手机的话，我就凭这两条挑了。其实之前是BS翻盖手机的，觉得有点土。现在人变老了，心也老了：手机一掏，拇指一翘，盖子刷的打开，用北方语系说，忒气派了；用武汉话讲，这几sai（读二声，阳平）啊。然后，把手机盖儿往脑袋上一磕，机身顺势一合，个性啊（记得这个动作曾在康熙来了里被丫们狂鄙视，同时被鄙视的还有鼻毛嚣张得长出来，- -）！
+这款手机今年第二季度才会发布，目前价格未知，估计肯定不菲，但并不妨碍其入我法眼。我还是会和我的康佳长厢思守下去，只不过多了一个暗恋着的美丽的她而已。</description>
+    </item>
+    
+    <item>
+      <title>狼来了</title>
+      <link>https://chouj.github.io/2007/01/05/teaching-congregation/</link>
+      <pubDate>Fri, 05 Jan 2007 11:04:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/01/05/teaching-congregation/</guid>
+      <description>教学预评估来了，人人自危，校主页都紧张到把日期弄错的地步（已改正）。
+ 标 题: 为学校本科教育评估做贡献～大家帮顶啊
+发信站: 武汉白云黄鹤站 (2007年01月04日23:43:26 星期四)
+为了迎接本科教育评估，兄弟们把压箱底的东西都搬出来了，大家帮顶啊～～
+ 白云上4号十大第一帖，我住这栋当然也和照片似的，一样壮观。寝室里是能扔了，不能扔的也扔了，本以为这样的场景仅有毕业方可见到，没想提前了，无端辛苦了做清洁的阿姨们。以上两张是学校东区拍的，我住西区，本科生全体动员，不是围狼，是为狼。
+ 发信人: lyphhust (疯狂的猪头), 信区: Physics
+标 题: 还叫人活吗？
+发信站: 武汉白云黄鹤站 (2007年01月04日22:30:34 星期四)
+相信大家都接到通知了吧，我觉得那些条款不是苛刻，是搞笑啊！！
+ 物理版某人一贴，庆幸BBS还未及时管制起来。所谓“条款”诸多，仅凭记忆，备案如下：
+ ……
+打开电脑的，任何时候不许游戏，不许QQ，不许看影视作品，不许做与学习无关的事……
+举凡课堂正常上课期间，不要在教学楼内走动，窥探，尽量不要在校园内肆意走动……
+我所接到的是：晚间时段，尽量不要4人全在寝室；低年级一些同学接到的是：晚间时段，寝室仅可留一人……
+早8点前必须起床，晚10点前，不许呆在床上……
+凡有课，必须于课前提前5分钟到教室，有班主任核查，落实到人，而非人头数目……
+……
+ 此事全系上下极为重视，特召开年级大会一次。楞没想到，大四了，居然召开年级大会的次数最多。稍加记录几点：
+ 辅导员：如果谁有任何违纪、出错，有免推资格的，我们会考虑在给你保研单位的院系意见上提一笔；要就业的，我们会考虑在就业推荐书上，告知你要应聘的单位；考研的，我们也会考虑在院系建议上或档案里提及到……
+某男接：打DotA的，我们会考虑让你的英雄每秒掉100滴血……
+辅导员：……你们谁私下谈恋爱的，在校园里也要收敛一点……
+众男议：……这年头谈恋爱，还有私下的啊？
+辅导员：我们和各班主任都写了军令状，系里也向学校保证过……
+木然想起麦子提到过的“对上负责制”一词……
+ 豆瓣上有一贴：武汉，你最想访问谁？有人回复：大学校长，今年的本科评估你们花了多少钱？虽然即便问了，相信也套不出任何有价值的信息，但这本意良好的教学评估，无疑已经被贴上“劳民伤财”的标签了。</description>
+    </item>
+    
+    <item>
+      <title>祭奠2006</title>
+      <link>https://chouj.github.io/2006/12/31/the-last-day-of-2006/</link>
+      <pubDate>Sun, 31 Dec 2006 05:30:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2006/12/31/the-last-day-of-2006/</guid>
+      <description>6年最后一天，迹象表明武汉的雪水还憋在天上。
+昨晚应同学小草的邀请，听了武汉大学07年新春音乐会。走出大厅的刹那，我意识到本年度最后一件值得回忆的事情刚刚过去了。
+ 虽然高雅艺术之于我就是两根平行线；虽然开场前我还是满场瞄PLMM；虽然分不清哪个音儿是哪个乐器整出来的，只好盯着后排的打击乐地盘儿，但我还是被丫震撼了。真正LIVE版的交响乐近乎完美的打动了我：三四十人通力协作，为大家奉献上几个小时优美的交响乐，这种音乐的力量，这种感动喷薄而出。
+《家是珞珈》、《我们·武汉大学校歌》两首曲目挺让人动情，即便我根本不是武大学子，也是第一次听。如果说前者给人以温暖的力量，那后者则让人振奋，有两首如此优秀的歌颂母校的歌曲，并且有如此优秀的乐队和歌手将其演绎出来，武大人着实应该为之骄傲。只是不知道丫们身在其中的人怎么想，没准儿很多人都给忽略遗漏了，像我遗漏了自己母校感人的东西一样，要回去反思下。
+之前听说过，交响乐演奏现场有人拿掌声打节奏，有人手机响，这次还真让我都遇到了，在现场时觉得丫们真是不可饶恕，也许在场的老外跟我有同样的想法。指挥除了指挥乐队，还要腾出手示意观众安静，个人感觉有点悲凉的意味。最后还有个小插曲，全场的掌声吓着了场内的警报器，丫不识时务的“嘀呜嘀呜”了半天，好在不影响交响乐的质量，和听众们的赞誉之情。
+以如此一场交响音乐会作为我06年的记忆收尾，实在要让人乐得合不拢嘴，太特殊了，再次感谢小草同学。
+有取有舍 有失有得 零柒继续</description>
+    </item>
+    
+    <item>
+      <title>网上买本书</title>
+      <link>https://chouj.github.io/2006/11/21/buy-book-via-internet/</link>
+      <pubDate>Tue, 21 Nov 2006 13:11:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2006/11/21/buy-book-via-internet/</guid>
+      <description>第一次网购书籍，要是没有发送费还是挺划的来的。《搜》，挑了本价格不算太高，市面上又没找到过，然后又算是想看想收藏的书。
+与上一次网购相隔甚久，所以这次的体验留下了明晰的记忆之痕，第一次的印象早就模糊了。还好操作不算繁琐，只是担心送货上门时我不在，或者我在但钱不够罢了。
+第一次网上购物，还是因为贪小便宜。那还是大一的时候，手头上有那种代金券似的优惠小帐号，可抵五元，于是乎班上一票人簇拥在机房屏幕前，在卓越网上东挑西拣。记得我挑了张8元的S.H.E的专辑，那盘《Super Star》。当时货到的时候一脸莫名，之后才顿悟，到处翻钱。不过那碟子没听两次就塞到屉子里“珍藏”起来了。其他人有买塑料饭盒的，有买磁带的，只是有些人因为恰逢搬寝室，没收到东西罢了。那次也没留意几天内到货，这次可以留心下了，今天下的订单，估计考试周的时候可以到。
+图书馆捞新书是无的放矢，想看就揣回来；自己买书则目的明确，一定要物有所值，感觉果真不同。希望丫网购的书别出现什么脏、皱等瑕疵，同时祈祷丫blogspot别又抽筋儿就是了。</description>
+    </item>
+    
+    <item>
+      <title>消逝</title>
+      <link>https://chouj.github.io/2006/11/16/killing-time/</link>
+      <pubDate>Thu, 16 Nov 2006 14:38:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2006/11/16/killing-time/</guid>
+      <description>在学校图书馆翻到《老徐的博客》，崭新的，刨了回来。没精神到网上翻丫的博客，但闲的时候翻翻纸质的东西却别有韵味，同时伴随着些许惊异，因为这么一本没什么学术与收藏价值，全是琐碎日记的书，丫图书馆居然购置了。
+现在，每每到图书馆都会激起读书的兴奋感，会有窥视封皮之下文字的冲动，宛如诸多免费书籍摆在我面前，不读不是亏大了的奇怪感觉。说到底是意识到，图书馆也许是个离我远去的事物了，即便有，也别想找到《老徐的博客》这样的书。记得在广州，问师兄能否到中山大学的图书馆里借书看，答曰：除非你有同学在里面。看来，浩瀚的资源果真在离我远去，以后想摩挲下纸制品都要自己掏腰包了。
+攥着大把的时间，无度得挥霍。妈的，什么时候改变哈子，挥霍始终是个贬义词。</description>
+    </item>
+    
+    <item>
+      <title>植物们</title>
+      <link>https://chouj.github.io/2006/11/11/plants-and-flowers/</link>
+      <pubDate>Sat, 11 Nov 2006 14:36:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2006/11/11/plants-and-flowers/</guid>
+      <description>前些日子到武汉中科院植物园晃了一下，陶冶情趣，顺手拍了几张，虽然不甚满意，但还是PS出来聊以纪念。
+今年光棍节实在没什么好写，想想自己写blog都一年了，因为去年写过。“群光”广场，果真是一群光棍过节的好地方。
+某群在闪：
+甲：愿上帝赐予你勇气，勇于在单身的黑暗中寻找爱情的光明。
+乙：愿主的荣光永远伴随你，至于我，还是让我沉沦在黑暗中吧。</description>
+    </item>
+    
+    <item>
+      <title>放出俩视频</title>
+      <link>https://chouj.github.io/2006/10/25/2-videos/</link>
+      <pubDate>Wed, 25 Oct 2006 05:09:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2006/10/25/2-videos/</guid>
+      <description>  Thanks for your interest in Google
+Video.
+Currently, the playback feature of Google Video isn&amp;#8217;t
+available in your country.
+We hope to make this feature available more widely
+in the future, and we really appreciate your patience.   Google Video可上传，不可实现在线播放，实在让人郁闷。头疼之余发现我忽略了本土视频网站——土豆，马上着手尝试，除了在教育网内打开要慢点外，视频上传的速度尚可，达20k/s左右。接着我就能在这里罗列两个视频了，仅此俩100M以下的。   这个是苏州行社会实践的，应付评优。   这个是华中科技大学庆祝2005世界物理年纪念视频，基本算是我做过的视频里最满意的了。出彩的是片头，像我这种不会用AE之类效果软件的菜鸟，只好用ImageReady做一Gif图片充当片头，和Music配合的还算可以。  看了这俩视频，估计你们也就知道我做视频也就是Windows Movie Maker的水平了吧，只能算是接触了些基本软件的。 </description>
+    </item>
+    
+    <item>
+      <title>广州印象 步行街</title>
+      <link>https://chouj.github.io/2006/10/24/impression-of-guangzhou-pedestrian-street/</link>
+      <pubDate>Tue, 24 Oct 2006 05:37:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2006/10/24/impression-of-guangzhou-pedestrian-street/</guid>
+      <description>趁着等体检结果的时段，我搭地铁一览广州市容去了，好奇心还是战胜了对广州治安的担心。其实是在前一次乘地铁时，听到了“动漫星城”这么个地方，于是直接杀将过去。一直梦寐能找到个动漫氛围浓厚的专属地带，领略一下那种不一样的气息，对武汉我是不抱希望了，结果“动漫星城”也没能满足我这一癖好。不为别的，只是那里尚在招商引资，排场够了，内容和人气却远远不够，倒是让我多了份期待。好在天不绝人，北京路商圈相隔两个街区，杀奔那里而去。
+虽然我不像女生那样天生乐于逛街，但这些时日每到一处，总会到步行街上步行一番。走过那么多条步行街了，忍不住想对这个词下一定义：不许车辆入内、仅供行人步行的，具有音乐喷泉的，两边商铺林立的一条街。然后我骄傲的想，基本算是概括了全国步行街的基本特征了吧，普天之下，莫非王土，于是乎步行街也都长的一个样儿。故严格点说，丫街中央没音乐喷泉的，哪能叫××步行街啊，所以襄樊的北街就只能叫“仿古一条街”，看，只能叫“一条街”。
+也许各位会说，逛街就逛街，丫一心挑刺儿能有好心情吗？对，这个我赞成，我只是表达下我强烈的猎奇愿望，和不愿事事都一个模子的草根儿心理罢了。找得到中国特色，找不到广州特色，这不是我所愿，许是浸染的时间短了点儿。算了，既然已经差不多一个模子了，大家照着自个儿见过的步行街想象一番，就知道广州北京路步行街长什么样儿，我也就不赘述，省事了倒是。补充点，北京路步行街比较宽，也许跟北京王府井步行街的宽度一样吧。
+顺带提下，晃了两家书店。教辅、工具书、管理励志类等等占了大半江山，畅销书的地盘倒不大，可惜我想看到的书却一本都没见着（比如《搜》、《不许联想》）。虽然欣喜的发现了三联专架，可就是没有我想找的，不过我找着了也不见得会掏钱。诺大个广州，要是没有我想见到的书，那还真是信了丫的邪（笔者注：北京话与武汉话的杂交）。
+唯一有广州特色的就是凉茶了，可惜这种小门面的店子没法出现在步行街的那种浮华中。凉茶品种很多，貌似牌子也不少，是当地老字号，外加世界文化遗产，这帽子不小。时间短促，只喝过两种，一瓶金银露，4元；一瓶椰汁，5元。其实后者怎么想都算不上凉茶。瓶子也没600ml的可乐瓶大，也就400ml左右，不过是现场手动灌制封装的，很新鲜，看介绍可以赶上功能饮料了，清热解火，多喝有益等等。这么说，尝遍各种凉茶，然后挑一种好喝的出来，可以算作以后在广州的目标之一了。
+聊以记录至此，许以后生活在广州的话，当有更多切身的体会，说不定与我这三天的体会不同呢。</description>
+    </item>
+    
+    <item>
+      <title>广州印象 中山大学</title>
+      <link>https://chouj.github.io/2006/10/21/impression-of-sun-yat-sen-university/</link>
+      <pubDate>Sat, 21 Oct 2006 07:22:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2006/10/21/impression-of-sun-yat-sen-university/</guid>
+      <description>推行博客实名制，曹操引发脑中风
+先推荐篇好玩的文章，网易文化频道的，再入正题。
+ 一路之隔，中山大学当然是晃悠的首选之地。
+不得不承认，中山大学比较符合我心目中对“大学”的定义，至少从感观层面上。其实不论是大学前，还是进了华工，我都不曾想过为“大学”下个定义，但走在中大的路上，我仿佛找到了那种大学的感觉，也许是新的环境总让人所向往,而在自己的学校里呆久了，心生厌倦。
+中大校园绿色荫庇，古旧的建筑物传递着历史的气息，走在不算宽的小路上，仿佛沉浸入文化之河。路上学生不多，三三两两，静谧而不拥挤，没有扩招的遗毒。也许这就是我对大学的基本要求，不像华工，放学路上那洪水猛兽般的人海。。冲到食堂就差吞噬一切。。
+
+还是回到中大。历史始终是中大的主题，无论孙中山铜像还是中国近代十八先贤雕塑，都透露着厚重。我有所注意到，老毛的雕像要么指点江山，要么挥手致意，手都是向上；而孙中山铜像确是伸手向下，有如抚平历史的伤疤一般。近代中国的混沌和希冀压在孙中山一个人的身上，确实不是一个可以像老毛一样意气风发的时代。
+
+顺路往北，穿过“国立中山大学”的牌坊，来到珠江江边享受那份惬意。健身慢跑的男女，放风筝的老人，和中大的氛围一样，闲适而不慵懒。翻飞在高楼背景中的风筝，带来别样的风情……
+我去过的大学并不多，主要也就是武汉的几所。相比而来，武汉的高校还是缺少些韵致的。兴许因为，中大主校区要改成研究生院的缘故，现在都是大三以上的学生，所以多了沉稳，少了浮躁吧。</description>
+    </item>
+    
+    <item>
+      <title>广州印象 海洋所</title>
+      <link>https://chouj.github.io/2006/10/20/impression-of-scsio/</link>
+      <pubDate>Fri, 20 Oct 2006 15:32:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2006/10/20/impression-of-scsio/</guid>
+      <description>南下广州三天，聊以记录。木的DC啊！，-_-
+于广交会期间远赴广州，实在不是我所愿。K7次车上，虽见到不少新疆维吾尔同胞，还好相安无事；只是深夜时分，全车厢就他们在聒噪罢了。
+下了火车，从出站口直接转乘地铁，等我从中大站探出头来，才算是看见了广州的天空。从中山大学正门扎进那一抹绿色，一通乱走后，我站在了中大东门外，马路对面就是海洋所的大门，外加车来车往，异常喧嚣。之前在网上的调查，使这一切都在意料之中，毫无悬念；可惜一个月前，我万万没法预知我会出现在这里的，世事难料啊，一点心理准备都没有。
+所里只有4幢楼，2个篮球场，地方小，人数少，也就意味着比大学冷清许多。倒是能见到踢毽球的人们和小孩在空地上嬉耍。偶尔看见一对学生夫妻牵着童车，他们的同学纷纷逗着小孩子，景致与大学是那么的不同。
+面见导师，生怕行为言语出错，幸好是很厚道的一个人，用他的饭卡吃了两天，待我不薄。他和他妻子联合培养，共用一个实验室，目前有3硕2博士后。实验室里电脑的配置还是不错的，就是气氛严肃了些，师兄师姐都在忙自己的事情，诸如matlab绘图之类，而且一呆就比较晚，看来我以后的日子有的忙活了。中科院系统就是待遇不错，固定600RMB/月的薪水，要是出海，每天150RMB，师兄们都盼着呢。
+吃和住都不成问题。所里的伙食水平至少和华工齐平，在广州这种地方，贵一些我就不说什么了。和一师兄一起住研究生公寓里，2人一间。因为只有一栋的缘故，楼上有男有女。平日人们都在实验室里，或者上课，楼道里都是大门紧锁，异常清静，师兄都说太寂寞了，不能和大学相比。好在还有篮球场，否则硕士阶段还不成井底之Master蛙了。
+面试是此行的重点，是忐忑的源泉，可是当老师说“没你什么事了”的时候，我知道基本算是pass了。英语自我介绍，有所准备，安然过关；Nature文章翻译，可以开金山词霸，加上以前看科学画报的积累，难不倒我；剩下的就是些琐碎问题，估计考察思维逻辑的，顺便填充档案，好在不涉及专业知识。抽身而去，发一通短信，回短信的格式无比统一：恭喜＋索饭，最多捎带一句：咱中南海还真有人啦呀，或者，给我带条美人鱼！
+物理海洋学专业，海洋动力学方向，具体从事声学层析；第一年基础学习可选北京中科院总部或中山大学……站在公寓的阳台上，我默默的想着最近发生的这一切，那么始料不及、虚无缥缈。在武汉稳定得虚度了三年，然后开始为考研还是工作而烦忧。好不容易准备考研了，又杀出来个保研的机会。于是抱着一试之心，结果抓住了救命稻草，不但保了老命，从此和海洋结下不解之缘，而且貌似这稻草还是金子做的，至少我的面子、老爹老娘的面子都过的去了。细想之下，从接到保研开始的通知，到这复试结束，短短一个月就像把大学四年都浓缩进来了一样，充分体现了我就是这么一个慌不择路，乱无目的的一人。另外就是，我无意间又实现了历史的延续：在完全不知道那地方前景如何，以后三年生活又会如何的时候，收获了一大堆的“牛”，“厉害”，“强人”，“佩服”之类的词汇，面子上算是被赞的红光闪闪，虚荣心得到了极大满足。这么多年，我总觉得自己在重复这个怪圈：一路总有人赞，但自己又觉的并没有那么快乐，是不是该怀疑自己身在福中不知福呢？
+不管怎么说，又可以在一个地方稳定几年了，就看居安能否提早思危了，咱还是得承认人是有惰性的。</description>
+    </item>
+    
+    <item>
+      <title>目的地啊，忐忑</title>
+      <link>https://chouj.github.io/2006/10/12/destination-and-nervous/</link>
+      <pubDate>Thu, 12 Oct 2006 14:30:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2006/10/12/destination-and-nervous/</guid>
+      <description>         点击上图看大图  </description>
+    </item>
+    
+    <item>
+      <title>罗莎伴月</title>
+      <link>https://chouj.github.io/2006/10/06/mid-autumn-day/</link>
+      <pubDate>Fri, 06 Oct 2006 12:31:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2006/10/06/mid-autumn-day/</guid>
+      <description>罗莎伴月，面前的月饼盒子上写着这么四个字，名字挺不错。至于里面的东西，早就被我一口秒掉，已经想不起来是什么味道了，一如稀释掉的节日内涵。过节的气氛还是不错的：在学校超市看见有人拿筐装月饼，现在肯定脱销了；南三门外的人流量也比平常多一倍，可以想象江汉路那种地段的“人海”了，呃，狭窄地段还是称为“人河”吧。
+国庆中秋，双节黄金周，我却第一次没回家。班上的哥们都很兴奋，吆喝着去搓，于是挤在一小餐馆里，把酒言欢。保研的成功了要请客，玩FIFA的来干一杯，考公务员的考上了要负责按需分配老婆，云云。开怀着，放肆着。然后主力部队杀向江滩看焰火，我没去。一是早就从去过的朋友那里听说了“人海”的胜景；二是我向来不乐意凑这种热闹。想想我这个人还真是奇怪呢，不乐于顺“民意”，大家干什么我偏不干什么，故意把自己装扮得特立独行，哪怕清高的忍受孤独与痛苦。曾记得高三那年，唯一一次因为运动会而不用上晚自习，所有人都聚在教室。不知是谁搬来了DVD，大家就堆到电视前看柯南，整个教室就五个人没看。有四个人对动画不感冒，缩在教室后面打升级，而我夹在那四个人和前面一票动画观众中间，异常坚定baidu不侵与世隔绝的做我的物理题。不看柯南的理由是“总是要盯着字幕看不爽！”现在想想，我属于自虐型或没事找抽型，所以别人叫我抽筋儿；我要是坚定不移的做化学题，没准儿就进了化学系。- -b
+没跟大部队走，于是回寝室码字。今年中秋是看不着月亮了，阴天。不喜欢这样的中秋，虽然我身边既没家人也没佳偶，但有月亮总可以让我触下景生下情，想想嫦娥MM也是好的，可惜老天不给我这么一个机会，只好对着面前那个月饼盒子发呆了。记起到目前为止吃的2.25个月饼都不是我掏的钱，心里小有了那么一点安慰。0.25个的那块，整个的要12块钱，可不能小瞧，是今年吃到的味道最好的月饼。本是准备拿来送给军训教官的，辅导员抄了一块给我们分了，谁让那时我们在为社会实践评优卖力呢。还一块是社联做活动的月饼，从妹妹那里得到的。那块“罗莎伴月”，今天吃的，是寝室一兄弟的姐姐的男朋友给丫的，见者有份。考虑到这月饼们大部分姓“公”不姓“私”，我要诚心的开展自我批评！
+为弥补自己的过错，做点善事，另人称道的文字是值得推荐的，来自麦子同学：
+废墟之上
+ 但我的心中却有丝丝的悲凉,在众生喧哗褪去的片刻:一个充满废墟的时代是不可能产生宏伟的建筑,供我们屹立其上,去眺望远方.
+ 一个人的烟花
+ 所以在这个夜,请喝一杯酒,当着微凉的风,让消融后的乙醇去慢慢的勾引着,勾引着那些微不足道的往事,刻骨铭心的情愫,惊心动魄的瞬间,在回忆的长河中此起彼伏的绽放,
+这只放给一个人看的焰火,已足够惊艳.
+ PS.又摆弄了下我的google pages, 下次再摆弄它就不知道何年何月了。提供了些txt文本下载，手上还有3000多个txt文件，没事就上载几个。有想要的，可以先留言问我有没有。
+中秋快乐！</description>
+    </item>
+    
+    <item>
+      <title>[转]可怜的中国动漫</title>
+      <link>https://chouj.github.io/2006/10/03/%E8%BD%AC%E5%8F%AF%E6%80%9C%E7%9A%84%E4%B8%AD%E5%9B%BD%E5%8A%A8%E6%BC%AB/</link>
+      <pubDate>Tue, 03 Oct 2006 05:06:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2006/10/03/%E8%BD%AC%E5%8F%AF%E6%80%9C%E7%9A%84%E4%B8%AD%E5%9B%BD%E5%8A%A8%E6%BC%AB/</guid>
+      <description>转自 白云黄鹤 10.02 十大热贴</description>
+    </item>
+    
+    <item>
+      <title>音乐一隅 2006.9 右手戒指</title>
+      <link>https://chouj.github.io/2006/10/01/%E9%9F%B3%E4%B9%90%E4%B8%80%E9%9A%85-20069-%E5%8F%B3%E6%89%8B%E6%88%92%E6%8C%87/</link>
+      <pubDate>Sun, 01 Oct 2006 03:47:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2006/10/01/%E9%9F%B3%E4%B9%90%E4%B8%80%E9%9A%85-20069-%E5%8F%B3%E6%89%8B%E6%88%92%E6%8C%87/</guid>
+      <description>左手把烦恼抛光
+右手佩戴着希望
+是自己给自己的奖赏
+让你梦中的女郎
+带你到处去流浪
+右手的戒指在发亮
+——右手戒指 金海心
+ 很多blog上都挂的有背景音乐，而且我原来的也挂过，但越来越反感这种做法了，因为
+1、有被突然出来的背景音乐吓着的经历；
+2、music要延长页面下载时间；
+3、每个页面丫都要重新开始播放；
+4、没法照顾到各网域的用户，也就是教育网内缓冲快的，就甭想在公网里流畅播放。
+但也有点好处，就是能偶尔碰到些8错的音乐或歌曲，比如8月推荐的自然卷也是在别人blog上听到的。9月初的时候就撞进一个blog，听到了这首 右手戒指 金海心的，感觉还是挺好听的，断断续续听到现在。
+就中国内陆的女歌手而言，我心里最为推崇的就是金海心了，从那一首把耳朵叫醒，就觉得她的音乐比较特别，有种不羁和恣意，但决不颓废。后来听的几首，悲伤的秋千、那么骄傲、独立日，也都证实了我的这种感觉。而且她的歌也比较耐听，至少我认为是这样，不像我之前介绍的一些。决定要对我介绍的music进行质量把关，某些当时听有点感觉，但听久了就没味道的歌还是不要说出来，虽然一首歌不可能一直听不腻，但还是长久一点的好。
+既然是9月，就不能不提依然范特西，毕竟周董的专辑我一直有听。
+
+貌似音乐元素跟物质元素一样，也就只有100多种，新的还没发现或创造出来，这盘专辑就给我这么一种感觉，真的没法听出彩了。上一张的夜曲还是很赞的，而这一张的千里之外却让我觉得不伦不类，两个完全不同风格的人搭配在一起，就跟驴和马那个××诞下骡子似的，造就了一残缺品。。。</description>
+    </item>
+    
+    <item>
+      <title>别逼我恶搞【转载】</title>
+      <link>https://chouj.github.io/2006/09/18/bie-bi-wo-e-gao/</link>
+      <pubDate>Mon, 18 Sep 2006 00:30:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2006/09/18/bie-bi-wo-e-gao/</guid>
+      <description>转载 来源：悠视网
+国家广电总局有关部门正在制定互联网视频的新规定，限制网络恶搞的消息一传出，网上出现的众多的反对呼声，让我们来听听这些恶搞视频原创者的呼声吧！
+这个相当逗啊。。可悲的广电总局。。首次在钱烈宪那里看到滴。。
+下载地址：http://www.uusee.com/upload/video/joke/egao/060828_bwgn.wmv</description>
+    </item>
+    
+    <item>
+      <title>还是暑假的photo</title>
+      <link>https://chouj.github.io/2006/09/17/photoes-in-summer-vocation/</link>
+      <pubDate>Sun, 17 Sep 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2006/09/17/photoes-in-summer-vocation/</guid>
+      <description>焰火 常熟
+东方之珠
+金茂大厦 实在是高
+从金茂85层往下看 晕不？ Ps.那底下是54层&amp;#8230;
+社会实践队队服 不是我design的
+我之前为实践队队服做的一个标志，结果被枪毙了，死因：太抽象，不知道是哪校哪系的。不过我自我感觉良好，呵呵。
+最近为了社会实践参加评优忙活的屁颠屁颠的：几千字的东西，照片挑拣，DV剪辑处理，光盘Autorun制作，音频材料整理，1天内统统搞定，所有人都有分工总结，累死人。又不幸被辅导员钦点去做最后的材料整合，这两天也就充实了，可惜还得在总结里写上这么一句：“当一切美好通过自己的双手结晶出来时，心里只有感动。”不过，凭良心说，这次社会实践确实让我们赚到了。
+拜此次突击总结所致，不幸又玩转了一款傻瓜小软件：AutoPlay Media Studio 6.0。为光盘做Autorun界面的，确实傻瓜，可视化编辑器嘛，软件提供了很多模版，功能还是比较强大的。输出方式多样：直接刻录数据、驱动器文件夹、压缩EXE、ISO，相当完善周全。唉，为了咱系的学生工作，一个又一个Software就被我这样攻克了，虽然很符合我的兴趣，很有成就感，可惜完全落入了“能者多劳”这么一栓死我的窠臼中。每当丫们路过我的座位，看着屏幕上Premiere、CoolEdit等颇似“专业”的软件，我就能收到“丫真一强人”的赞叹了，是该苦笑呢？还是该得意呢？
+PS.相片空间首次用了google的picasaweb，上传速度还相当的快，250M，比google pages空间还大。只是可惜：一，丫必须配备picasa本地软件，无法从网页上传；二，最不能让我容忍的是，丫居然不支持gif，真是相当无语，咋就不能完美点呢？</description>
+    </item>
+    
+    <item>
+      <title>8荣8耻英文版</title>
+      <link>https://chouj.github.io/2006/09/14/english-edition-for-8r8c/</link>
+      <pubDate>Thu, 14 Sep 2006 00:48:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2006/09/14/english-edition-for-8r8c/</guid>
+      <description>点击上图看大图</description>
+    </item>
+    
+    <item>
+      <title>电梯下坠时保护自己的最佳动作</title>
+      <link>https://chouj.github.io/2006/09/13/pose-when-lift-drops/</link>
+      <pubDate>Wed, 13 Sep 2006 04:40:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2006/09/13/pose-when-lift-drops/</guid>
+      <description>首先在aw那里看到的，确实有用，值得转载。
+『电梯下坠时保护自己的最佳动作』
+第一、(不论有几层楼) 赶快把每一层楼的按键都按下。
+第二、如果电梯里有手把，一只手紧握手把。
+第三、整个背部跟头部紧贴电梯内墙，呈一直线。
+第四、膝盖呈弯曲姿势。
+说明：因为电梯下坠时，你不会知道它会何时着地，且坠落时很可能会全身骨折而死。所以：第一点是当紧急电源启动时，电梯可以马上停止继续下坠 .
+第二点是为了要固定你人所在的位子，以致于你不会因为重心不稳而摔伤
+第三点是为了要运用电梯墙壁作为脊椎的防护 .
+第四点是最重要的是因为韧带是唯一人体富含弹性的一个组织，所以借用膝盖弯曲来承受重击压力，比骨头来承受压力来的大。
+这个信息绝不虚构，只是我觉得很重要想让大家都知道，而且以后高楼会越来越多，以防万一 .
+为了自己，为了朋友，为了亲人……看完之后请广为转寄…功德无量花5分钟转寄一下吧。</description>
+    </item>
+    
+    <item>
+      <title>贴图不说话</title>
+      <link>https://chouj.github.io/2006/09/04/picture-with-no-words/</link>
+      <pubDate>Mon, 04 Sep 2006 05:30:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2006/09/04/picture-with-no-words/</guid>
+      <description>
+    直接搜 中国最强悍的  </description>
+    </item>
+    
+    <item>
+      <title>历史RP最低点~~</title>
+      <link>https://chouj.github.io/2006/09/03/lowest-rp/</link>
+      <pubDate>Sun, 03 Sep 2006 01:18:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2006/09/03/lowest-rp/</guid>
+      <description>时间：2006.9.2 22点左右
+地点：华中科技大学韵苑学生公寓5栋和篮球场之间的下坡路上
+就在这个时间和地点，我的RP降到了历史最低点鸟。。
+在路上走着，突然感觉右脚内侧靠近后脚跟的地方被什么东西猛扎了一下，立马回头看，愣是发现一条铅笔粗细铅笔般长的蜈蚣从容不迫的游走在马路中央，我那清晰的感觉就是被丫所赐。想我当时还真是异常镇定，借着路灯把那条蜈蚣上上下下大量了一遍：肉色的脑袋，褐的发亮的身体。然后再打量下伤口，两个小洞，就是蜈蚣吻痕，有点红肿。长这么大，还真是头次见这么大条蜈蚣；头次见这么大条蜈蚣若无其事的在马路上溜达，周围人来人往；头次见着丫了，丫就给我一见面礼，害我黑灯瞎火的往校医院奔。
+一路上不是想着咱学校越往东越是蛮荒之地，就是想天龙八部里那个比较lucky的游坦之，哦，还有就是我怎么这么衰，RP怎么这么差。
+夜间的医院还真是处处透着恐怖的气息，狭长的过道，宽敞无人的电梯，还真TMD有一闪一熄的日光灯，推荐各位没事别晚上往校医院那里跑。医生和护士跟蜈蚣一样，一副若无其事的样子，处理的轻描淡写，一问敢情被蜈蚣吻的人还挺多，最近是丫的发情期也说不定。护士MM说踩死它没，咬了你还不踩死它。我想，也是，该整死丫的，省得再害人，可惜那大一条要是没踩死再给我回眸一吻，我这脚，不，说不定我这人都彻底歇菜了。涂抹了点去毒的东西之后，男医生和女护士就跑一房里看电视去了&amp;#8230;orz&amp;#8230;男医生和女护士&amp;#8230;
+23：10回寝室继续若无其事的炫耀一番：丫们哪个被蜈蚣吻过？再若无其事的到网上发个贴博取同情，小声说句，其实是为了查查被蜈蚣咬了该咋整。看到说要撩开伤口，以去毒液，想想还是算了，木这胆啊，这热天要是化脓感染，我还不是一命呜呼了，敷敷药了事。有点小忐忑的躺在床上，心想过了这么久我尚神智清醒，毫无异状，想必是没中毒，要是中毒了，像我瘦成这样的，还不瞬间毒发全身嗝儿屁着凉了，遂安心睡去。
+大早上醒了，发现一切如旧，脚都毫无感觉了，大喜。赶紧来此记录下这一填补我大学四年&amp;#8230;呃&amp;#8230;是人生一项空白的历史事件，咱以后说不定百毒不侵了呢，怎么着也得修成点正果不是。</description>
+    </item>
+    
+    <item>
+      <title>[普及贴]orz是什么意思？</title>
+      <link>https://chouj.github.io/2006/09/01/what-is-the-mean-of-orz/</link>
+      <pubDate>Fri, 01 Sep 2006 05:50:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2006/09/01/what-is-the-mean-of-orz/</guid>
+      <description>这个符号叫失意体前屈
+失意体前屈，原本指的是网路上流行的表情符号：＿￣○，源自日本。看起来像是一个人跪倒在地上，低着头，一副「天啊，你为何这样对我」的动作，虽然简单却很传神。
+在初期的时候，并没有人对这个符号起个名字，失意体前屈也是后来才出现的， 据说是某个餐厅的座垫上绣着这五个字，至於再之前又是谁想到的，就不可考了。 后来，又有人发现，用简单的三个英文字也可以表现这个动作，於是 orz 就开始流行了。到2004年之后，orz的广泛使用，已经从日本，扩展到中文网络了。
+orz原本带有“愤恨”“无力回天”等含义，后来意义逐渐扩展，目前比较多用的是“拜服”“被你打败了”等，有点象中文BBS上的常用语“I服了U！”、“Faint”等。
+各种失意体前屈的表示法
+全形：
+＿￣○ ← 右向
+○￣＿ ← 左向
+○＿￣ ← 逆天
+半形：
+STO ← 右向
+OTZ ← 左向
+OLS ← 左向逆天
+ZJO ← 右向逆天
+半形小写：
+sto ← 右向
+orz ← 左向
+ots ← 左向逆天
+z_/o ← 右向逆天
+迷你形：
+no ← 右向
+on ← 左向
+ou ← 左向逆天
+uo ← 右向逆天
+其他
+orz 这是小孩&amp;#8230;
+OTZ 这是大人&amp;#8230;
+or2 这是屁股特别翘的&amp;#8230;
+Or2 这是头大身体小的翘屁股&amp;#8230;
+orZ 这是下半身肥大&amp;#8230;
+OTz 这是举重选手吧&amp;#8230;</description>
+    </item>
+    
+    <item>
+      <title>高莺莺案复查工作结束</title>
+      <link>https://chouj.github.io/2006/08/19/gao-ying-ying/</link>
+      <pubDate>Sat, 19 Aug 2006 03:05:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2006/08/19/gao-ying-ying/</guid>
+      <description>高莺莺案确认为跳楼自杀 其父涉嫌作伪证
+备受媒体关注的“高莺莺死亡事件”复查工作结束。今天（8月18日）上午，襄樊市人民政府新闻办公室在武汉召开新闻发布会，向媒体通报了复查情况。复查表明：高莺莺系跳楼自杀身亡。高天虎向公安机关提供的高莺莺内裤上的精斑高天虎本人所留。高天虎捏造事实，诬告陷害及伪证行为，涉嫌构成犯罪，已被襄樊市公安机关立案侦察。
+２００２年３月１５日晚，老河口市宝石宾馆女服务员高莺莺跳楼，送医院抢救无效死亡。老河口市公安局调查认定，高莺莺系跳楼自杀身亡。事隔４年，某杂志发表了《高莺莺之死九问》等报道，对高莺莺之死提出了种种质疑，国内各大门户网站等众多媒体相继转载，高莺莺死亡事件引起了社会广泛关注。
+襄樊市委、市政府对此高度重视，湖北省委、省委政法委、省公安厅领导先后作出批示，要求迅速查明事实真相。省、市组成联合复查组，并邀请公安部有关专家指导、参与，本着“重新复查、办成铁案”的原则，对高莺莺死亡事件进行了为期一个月的全面复查。联合复查组认真审核了高莺莺死亡事件的案卷材料，复勘了现场，对尸检过程及尸检意见进行了审核，对有关人员进行了全面调查取证，认定高莺莺系跳楼自杀身亡，不存在他人加害。高莺莺有精神异常表现，其跳楼与精神异常有关。
+此前，高莺莺的父亲高天虎一直声称其女高莺莺是被奸杀的，并保存有高莺莺死亡时所穿的内裤，上面留有精斑。这次复查，公安部物证鉴定中心对高天虎提供的高莺莺死亡时所穿的内裤上所留精斑进行了检验，与可能对高莺莺造成性侵害的相关人员血样ＤＮＡ检验结果做了比对，均被排除。经对所提取的高天虎拭子的检验，精斑为高天虎本人所留。
+包括新华社、人民日报等在内的30多家媒体的记者，参加了今天的新闻发布会。复查组有关负责人还就媒体关注的问题，回答了记者的提问。
+标 题: 21世纪－－－－－－比窦娥还冤的高莺莺
+发信站: 武汉白云黄鹤站 (2006年08月19日15:51:13 星期六)
+ 大家心里都有一杆秤  人的思想是不能打压的，压只能适得其反  以上是 白云 上顶上十大的一个贴。</description>
+    </item>
+    
+    <item>
+      <title>《读库0601》读后</title>
+      <link>https://chouj.github.io/2006/08/18/du-ku-0601/</link>
+      <pubDate>Fri, 18 Aug 2006 03:04:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2006/08/18/du-ku-0601/</guid>
+      <description>闲时一览《读库0601》，文体诸多，雅俗共陈。
+雅者，如《非常道》序作《走向历史破晓时分》，以气吞历史山河，纵览古今东西的超脱眼界诠释中国，诠释中国的破晓时分。观点尚新，只是是否可取，还需读者自行思辨。我独喜之一喻：“把宇宙生命浓缩折合为365日…”“…12月31日晚10点30分才出现人类”，极悠远比之极短暂，人生苦短，历史若何，未来若何。
+俗者，如《周星驰龙套家族》。虽有掀人家底，揭人八字之嫌，但论及满足人之好奇心，窥私欲，可谓一文难求。
+全书有一文让我为之动容：《追我魂魄》，抗日题材小说，平铺直叙，却感人至深。一如冯小宁的电影——《紫日》，犹记得我看《紫日》时泪流满面的情景。为弘扬我民族精神而特意浓彩重墨的文章堪能与此文比。
+一览《读库》，各取所需，雅俗共赏。</description>
+    </item>
+    
+    <item>
+      <title>锦绣苏州</title>
+      <link>https://chouj.github.io/2006/08/16/beautiful-suzhou/</link>
+      <pubDate>Wed, 16 Aug 2006 03:02:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2006/08/16/beautiful-suzhou/</guid>
+      <description>网师园 四大名园之一 可惜我没去 5555  寒山寺里的一个塔 沧浪亭外 &amp;lt;p align=&amp;quot;center&amp;quot;&amp;gt; 寒山寺上 &amp;lt;/p&amp;gt; &amp;lt;p align=&amp;quot;center&amp;quot;&amp;gt; &amp;lt;p align=&amp;quot;center&amp;quot;&amp;gt; &amp;lt;img style=&amp;quot;BORDER-LEFT-COLOR: #000000; BORDER-BOTTOM-COLOR: #000000; BORDER-TOP-COLOR: #000000; BORDER-RIGHT-COLOR: #000000&amp;quot; src=&amp;quot;http://blog.donews.com/images/blog_donews_com/xcchris/107822/r_照片-477.jpg&amp;quot; border=&amp;quot;0&amp;quot; alt=&amp;quot;&amp;quot; /&amp;gt; &amp;lt;/p&amp;gt; &amp;lt;p align=&amp;quot;center&amp;quot;&amp;gt; 梦兰苑 梦兰集团下的别墅区 &amp;lt;/p&amp;gt; &amp;lt;p align=&amp;quot;center&amp;quot;&amp;gt; &amp;lt;p align=&amp;quot;center&amp;quot;&amp;gt; &amp;lt;img style=&amp;quot;BORDER-LEFT-COLOR: #000000; BORDER-BOTTOM-COLOR: #000000; BORDER-TOP-COLOR: #000000; BORDER-RIGHT-COLOR: #000000&amp;quot; src=&amp;quot;http://blog.donews.com/images/blog_donews_com/xcchris/107822/r_照片-479.jpg&amp;quot; border=&amp;quot;0&amp;quot; alt=&amp;quot;&amp;quot; /&amp;gt; &amp;lt;/p&amp;gt; &amp;lt;p align=&amp;quot;center&amp;quot;&amp;gt; 波司登下的别墅区 &amp;lt;/p&amp;gt; &amp;lt;p align=&amp;quot;center&amp;quot;&amp;gt; &amp;lt;p align=&amp;quot;center&amp;quot;&amp;gt; &amp;lt;img style=&amp;quot;BORDER-LEFT-COLOR: #000000; BORDER-BOTTOM-COLOR: #000000; BORDER-TOP-COLOR: #000000; BORDER-RIGHT-COLOR: #000000&amp;quot; src=&amp;quot;http://blog.donews.com/images/blog_donews_com/xcchris/107822/r_照片-438.jpg&amp;quot; border=&amp;quot;0&amp;quot; alt=&amp;quot;&amp;quot; /&amp;gt; &amp;lt;/p&amp;gt; &amp;lt;p align=&amp;quot;center&amp;quot;&amp;gt; 常熟 苏州 &amp;lt;/p&amp;gt; &amp;lt;p align=&amp;quot;center&amp;quot;&amp;gt; &amp;lt;p align=&amp;quot;center&amp;quot;&amp;gt; &amp;lt;img style=&amp;quot;BORDER-LEFT-COLOR: #000000; BORDER-BOTTOM-COLOR: #000000; BORDER-TOP-COLOR: #000000; BORDER-RIGHT-COLOR: #000000&amp;quot; src=&amp;quot;http://blog.</description>
+    </item>
+    
+    <item>
+      <title>趣闻一个接一个</title>
+      <link>https://chouj.github.io/2006/08/06/funny-news/</link>
+      <pubDate>Sun, 06 Aug 2006 02:49:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2006/08/06/funny-news/</guid>
+      <description>先扯个小范围内的趣闻，互联网业界的。
+www.ie7.com 看到这个地址，稍微了解业界动态的估计都知道应该和微软的Internet Explorer 7发布有关。可是你点开看看，那可绝对是个意外：这个IE7的域名下放了一个大大的Firefox LOGO，并且做了一个导向链接指向了Mozilla的Firefox浏览器下载地址，还附了一句：“Neither this site nor Mozilla is connected with Microsoft.”咱都知道火狐和IE那可是竞争冤家，这明摆着挑衅嘛。倒是抢注这个域名的家伙聪明的紧，估计是Firefox的人吧。
+相关新闻：爆笑：FireFox竟然成功抢注ie7.com域名
+在扯个最近流行的套套事件。
+最早在btChina的一个极不显眼的角落里看到一个链接，名为“中央一套”被抢注成安全套商标，先一寻思，一频道和安全套有虾米关系？转而YY一下，茅塞顿开啊，这个事情还真是极其好玩捏。这个就比上面那个竞争对手抢注域名厉害多了，注册商标这伙计有胆识有见地，虽然还在审核中。
+不过，这火爆的新闻怎么没见哪家blog报料调侃一番呢？刚刚觉得有点惋惜，今早就来了一篇，三表同志的《不就是一个套儿吗》，下面的评论倒是更精彩了，人民的YY能力还是不可小视啊！丫们自己看去哈，为维护偶blog繁荣昌盛的假相，偶就不贴出来亲自教导你们YY了。
+相关新闻：中央一套被抢注成避孕套商标
+顺便提个，在家瞟了电视两眼，听到个新名词儿：“××××专用面”。自打什么“××会专用饮用水、××航天员专用牛奶”，这次今麦郎又蹦出来个“大学生运动会专用面”。这还算好，所谓“专用”也只是说××组织者提供的东西仅此一牌子尔。倒是像“中国××队专用××”的比较惨，代言人家品牌，就得用人家的东西，放眼超市琳琅满目的牌子不能选，真是连消费者的最低权益都被剥夺了。人家愿意赚点广告费，我们也无可厚非，只怕到时候什么乱七八糟“专用”都出来了。李愚蠢专用蠢才，哦，是唇彩，不好意思，偶的破专用输入法；何洁专用假睫毛，马家爵专用榔头；黄健翔专用响声丸；××夜总会专用套套——中央一套；中国××女队专用卫生巾——挡中央……想必市场上必是腥风血雨，这粉丝帮派、那利益集团可是打的不可开胶。便宜了那帮商家们，市场份额倒好算无比，数粉丝人头呗。
+当下的消费者们，一定要打造自己的专用品牌，你们谁专用的我专不用，看你们丫的怎么办！</description>
+    </item>
+    
+    <item>
+      <title>文理有别</title>
+      <link>https://chouj.github.io/2006/07/31/difference-between-arts-and-science/</link>
+      <pubDate>Mon, 31 Jul 2006 05:52:43 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2006/07/31/difference-between-arts-and-science/</guid>
+      <description> 讲述老百姓自己的故事，说明以下属实哦：  某食堂伙食很差。  某文科生：这饭吃的真“晦涩”～～ 某理科生：这饭简直不具备“可吃性”！  </description>
+    </item>
+    
+    <item>
+      <title>读鸟冰点故事</title>
+      <link>https://chouj.github.io/2006/07/26/bingdian-story/</link>
+      <pubDate>Wed, 26 Jul 2006 04:42:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2006/07/26/bingdian-story/</guid>
+      <description>在我看来，新闻的最高使命，绝不是“记录”下来一点什么，以后供个把历史学家来做资料。恰恰相反，新闻如果不能影响“今天”，那才是失职和对我们职业天条的亵渎。新闻的使命在于“影响”当代而不是“记录”当代，完全是由新闻的基本特征所决定的。这个基本特征是——“新闻只有一天的生命力”！
+——李大同
+ 回了武汉，就开始翻这本《冰点故事》，其实是为看《用新闻影响今天》作铺垫的。 之前一期《冰点》都没看过，只是从其被停刊整顿才知道有这么一个特别的周刊的。书里讲述了《冰点》由无到有，有软到硬的过程，最终成为了百姓喉舌，成为了舆论监督的利器。我看这本书主要还是用来了解《冰点》的，另外倒还有个收获，就是见识了纯搞文科的人是怎么写东西的，里面的一些句子在我看来跟CET－6里的句式似的，晦涩难懂。再提一个，里面的一些关于刊物创办的理论探索被我一目十行掉了，不做新闻这行的不必要关心，其实木想到新闻的理论也如此艰深。 关于李大同，倒是从字里行间看出丫有些恃才傲物，也确实有才。所以期待哈子新出的《冰点》周刊纪事，《冰点》被停后的故事也会相当精彩。 《冰点》：这个链接可以看到《冰点》从1998到2003的文章。 </description>
+    </item>
+    
+    <item>
+      <title>下了次江南</title>
+      <link>https://chouj.github.io/2006/07/26/the-south-of-yangzi-river/</link>
+      <pubDate>Wed, 26 Jul 2006 04:38:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2006/07/26/the-south-of-yangzi-river/</guid>
+      <description>着实不知从何写起，5天内努力从中国特色中发掘地方特色，只好拣印象深的说吧。另外拿DC的都回家了，所以photo只好稍后提供。
+江西、浙江、江苏一路过来，倍感江南气息渐浓，铁路沿线一水儿的尖顶瓦式小楼，极少见到平顶的房子。这边人民也确实富足，村落屋间少有中部农村常见的泥巴路，全部水泥铺就。其实，这并非我脑海里的江南景象，而应该是像周庄那样的石板小径，可惜此行我们没有去周庄，虽然周庄之行一度在议事范围之内。
+过杭州，有幸在火车上见了眼钱塘江，江水确实汹涌，保证不是心理作用作祟。
+到了苏州，正值台风过境，阵雨疾风。没进苏州大学，而是入住三星级友谊宾馆，系里到真是下了血本，只是与学校里的江南MM失之交臂了。
+上有天堂，下有苏杭，此话不虚。 小桥、流水、杨柳、细腰构筑起了江南水乡的特色，只是观光客多了，最后一项的成色就无法验证了。盛名的苏州园林我倒是一个都没进去，城既如此，想必园林更美。 旧城区（护城河所围以内）内，皆是仿古建筑，政府有令：楼不可过高。没准儿你在一家古建筑前驻足时，会发现那是三星Anycall的专卖店。没有家乐福、沃尔马、没有宽广的广场，没有武汉式的购物中心，没有满眼的肯大叔和麦大叔，有的只是24小时营业的“可的”小超市，别致的小吃店、咖啡厅或港式茶餐厅，以及经营小玩意、工艺品、衣饰的店子。作为旅游城市的苏州旧城，第三产业确实相当发达，古典与现代交融。 苏州不小，因为周边新城的发展。一个并非省会的城市内高楼林立，貌似是中西部各省所不可见到的。工业园区内，各家企业的厂房安静的躺在那里，高科技和轻工业给这里带来了一份灵巧，你不会见到那种重工业的轰鸣和荼毒。进了几家企业，私企、外企，我可以感觉到自豪和责任感从接待者的言谈举止中流露出来。而我实习去的那家和这里的企业当然没得比，这里还是相当适合个人来发展的。记得在一生产半导体芯片的美资外企中，除看到管理甚严外，发现那里的员工都穿拖鞋，甚至包括保安，当即打趣到：外企的企业文化莫非是可以穿拖鞋上班吗？
+常熟、太仓、张家港……苏州管辖的各县，和襄樊的南漳、谷城、老河口处于同一地位，不过人家一个县的生产总值几乎顶了中西部一个省。这次我们也在常熟呆了一天，从街上5、6家KFC和Mc&amp;#8217;D…就可以看出这里的发展水平。恰逢当地某一期工程结束，老板放焰火庆祝，时长30多分钟，气势宏大，我们倒是过了把瘾，顺便感叹下丫TMD就是有钱。路上还经过了中国跳水队下榻的酒店，巨大的横幅昭示着酒店的欢欣鼓舞，跳水世界杯正在常熟进行中。 波司登、梦兰，两家成功的民营企业是我们常熟之行的考察对象，波司登的千人制衣工厂确实让我印象深刻。一个高德康，一个钱月宝，让这片土地上立起了一幢幢整齐划一的别墅，确实居功至伟，只是从我们的参观中，我倒是觉得有点个人崇拜的意味。
+最后一天逗留上海，亲眼见了什么叫国际化大都市。14号到上海的时候，其实就已经见识了：7月1号才启用的壮丽的上海南站，虽然看起来像体育馆；驶向无锡的城际商旅特快列车，感觉像是坐豪华大巴；还有就是不可接受的物价水平：啤酒5元，矿泉水2.5元（非超市）…… 19号那天的上海游，第一站便去了上海体育馆边上的全场1－5折精品折扣店，从Nike、阿迪到GUCCI，牌子应有尽有。随后，上南京路步行街，借口陪女同胞逛街而正大光明的寻找各路美女，结论是这里的美女比苏州要多；出了街上外滩，黄浦江畔，人流攒动，光影如织。多元化和浮华倒是展示的淋漓尽致，其实并不能诠释上海的内在，只不过我们仅有一晚的时间，木有选择。我们本想不花钱就上到金茂大厦的观光层，却在54层的客房部总服务台遭到阻击，理由是“衣冠不整”，应着正装，只好宣告投机取巧失败。不过54层已经比旁边的香格里拉大酒店要高出一截了。 当晚住在国际青年旅社，回的时候已是大雨滂沱，楼下有2个外国girl，一个坐在雨中很享受的样子，一个在马路边徘徊戏水，某男回屋后惊叹：终于见到外国鸡长什么样子了！
+18小时的火车，还是夜路，的确比较辛苦，好在一路有说有笑，还有吃，吃的可是“上饶鸡腿”。</description>
+    </item>
+    
+    <item>
+      <title>社会实践行程</title>
+      <link>https://chouj.github.io/2006/07/11/society-practice/</link>
+      <pubDate>Tue, 11 Jul 2006 02:30:32 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2006/07/11/society-practice/</guid>
+      <description> 13-14日 乘火车 抵上海
+转大巴 抵苏州 入住苏州大学宾馆  15日 上午 苏州游览沧浪亭、苏州参观企业
+下午 自由活动  16日 上午 参观苏州市人才市场、苏州新加坡工业园区
+下午 座谈，（介绍苏州概况），解答相关问题  17日 企业苏州参观学习  18日 上午 沙家浜进行光荣传统教育
+下午 参观苏州梦兰集团，波司登  19日 上午 企业参观学习
+下午 赴上海  以上乃此次赴苏州社会实践活动的官方安排，三名老师带队。  苏州、常熟、上海，挑战陌生，玩味新鲜，肯定比之前实习要强许多。另据说，有不少要在19号活动结束后逗留上海。  还是没DC……  PS:世界杯完了，感觉印象最深的除了黄同学的激情解说外，就剩克林斯曼了。丫挺激昂挺有感染力的，记得丫在意大利进球后那忧伤的眼神，记得那丫在小猪发威后招牌式的笑容。没错，生活就是追求自己热爱的，然后享受快乐……  </description>
+    </item>
+    
+    <item>
+      <title>实习 国企 见闻和有感</title>
+      <link>https://chouj.github.io/2006/06/26/practical-training/</link>
+      <pubDate>Mon, 26 Jun 2006 04:28:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2006/06/26/practical-training/</guid>
+      <description>实习第一天，住的地方对面就是网吧，偶现在坐的机子对面，一票人在warcraft……
+平素第一次坐上一辆不知道会开到哪里的bus，好奇的经历了柳暗花明的一程。出发的时候就有新的发现，喻园小区后面居然有一条出校的公路，amazing。。。然后，一路向北，沿着森林公园和东湖，穿梭在一票这个农庄，那个山寨，这个中心，那个度假村的fb场所。。。随后穿东湖而过，抵达东湖磨山风景区，惊愕的发现：繁华和杂乱的城市背景印象中，竟出现了如此秀美的一抹碧蓝和碧绿，近景的山水和远景山间的高楼交相辉映，激起人流连的欲望。
+之后的风景处于“每况愈下”的走势中，进入了极具中国特色的城郊，无论南北，中国城市的城郊估计都长这个样子，路上一度出现小灵通失去信号的状况。伴随以下这些扎眼的招牌，我们的心都凉了一截：“武汉第二精神病医院”、“武东戒毒所”！庆幸的是车子并没在这穷乡僻壤停下，而是继续前进，直到再度进入城区，可以说目的地比想像中那满目锈迹斑驳的钢铁架子的地方要好不少，至少，有网吧。
+武东工业区 武汉船用机械有限责任公司 代号461 这就是我们实习的地方，典型的改制后的军工国企。关于国企的东东一会儿再扯，毕竟我出身国企，先扯下我住的地方。
+住在厂属招待所，4人间，室外卫生间洗漱间，有空调有电扇，只是空调纯属摆设罢了。比较过分的是，40人2个水龙头，2个坑。。。可以想像早8点不能迟到，然后争抢战略资源的壮观场面~~本来貌似说可以洗澡的，但居然停水了。。。狂汗。。。今天是不大可能了。。。莫非要忍5天。。。心都拔凉拔凉的了。。。
+当人们纷纷把席子拿出去洗的时候，有人这么预料着：“现在是床比人脏，5天后就是人比床脏，人家招待所还要感谢我们给人家擦床。。。”而我预料，会出现以下情景：“嘿，那块大号抹布，过来杀人！！”
+还有遗憾的是，这里木有电视，唉球赛啊。。。。伙食也理所当然的没法和后勤比，5元的还没学校3元的好，于是伙食费50下发，但我们随后发现，这里周边还真没什么像样的吃饭的地方，竟出现一二十人集体吃饺子的景象。。。人家饺子馆老板不知道要偷笑多久了。。。还有就是，bus只有201和515，回去的话风险比较大，因为停班比较早。。。旅社10：30锁门。。。绝望吧。。
+言归正传，下午上了堂课：企业简介和劳动注意事项讲解，某俞（音译）部长在例行的吹嘘了一遍华工并例行的获得了掌声后，开始了对公司概况的介绍。这些内容我还是仔细听了下，出身国企的我对他们的发展历程还是感觉相当亲切的，而且还可以增长对武汉工业发展的认识。
+原来在计划经济下，武汉有两大工业区，一是这里所在的，武东工业区，一是我们学校附近的关山工业区。而被列为光谷的关山工业区，发展迅猛，风光无限；而武东工业区仍然地处偏僻，发展缓慢。这个军工企业就处于这么一个地方。和我想像的一样，俞部长强调了计划经济时代该厂有辉煌的过去，而经历国企改革后，效益和利润有所下滑，但仍然有一流的管理和技术，待遇福利不错，尤其针对大学生人才来说都很不错云云。
+随后的劳动注意事项的讲解占据了下午大半的时间，一名资深工人在扯了半天什么美国经济学家如是说……什么物质和精神需求的阳春白雪后，一路开始俗下去。。直接导致我睡着。。。醒了爬起来问旁边一兄弟那家伙讲了什么，结果收到听不懂武汉话的答案，遂信心爆棚，我对武汉话还是具有强大的解析能力滴！
+国企问题，尤其国营军工国企的发展都有极大的相似之处，这是我拿我家所在的单位和这里相比所得的结论。6、70年代，在苏联的帮助下建厂，在计划经济时代一度辉煌，成为铁饭碗的制造厂，确实为国家作出了杰出的贡献。但改革开放后，由于历史上军工背景所导致的选址偏僻，交通闭塞，主要是因为国企改制后所面临的市场竞争，这些国企面临着淡出舞台的下滑局面。而产品创新，迎合市场需要的艰难，人才的流失，领导的腐败又加剧了国企的衰落。我父母都是国企工人，所在的单位已经濒临破产的边缘，厂里没有活干，工人纷纷下岗，厂门口再也看不到蓝领大军下班的壮观场面。而这里似乎也是这样一个轨迹，我很想到厂子里听听那些最基层，最一线的工人们对这个厂到底持什么样的看法，是不是也存在腐败，是不是也存在领导捞油，工人卖命的“基本国企情况”，虽然部长同志说西昌火箭发射架的300多套液压装置都是这里造的，貌似突破了产品创新的瓶颈。
+另外，人才流失也是国企的基本情况之一，从部长关于福利和大学生人才吸纳的言语里就可以看出端倪，他很希望能有我们这样的大学生入主该厂，其实他俨然把我们当成入厂的大学生了，句句都是“你们的福利……你们的待遇……你们的住房……”可知啊，大学生不想留国企，至少是发展不善的国企，人才流失严重。我父母的单位就出现过分配的大学生从人事部偷出档案一溜了之的事情。为什么呢？我想是恶性循环吧。国企发展不善，企业领导名义上重视人才，祈求人才能带来技术上的创新，但实质上有些人从企业这个大金矿中不断中饱私囊，捞到了油水谁还管创不创新，谁还管一线的工人的死活，于是坐吃山空，经营不善，亏损倒闭。而大学生们即便是人才，在这样的企业环境中也必不可长久，何况还有些大学生是从校园转移到工厂的拖鞋帮，上大学后我就总结出这么个分辨刚分配来的大学生的方法。恶性循环就是：人才利用不善，人才流失，没有创新，发展差，更没有人才。
+顺便提一句，这些国企新军没有那些公积金、工龄和保险的羁绊，更容易脱离国企系统。而公积金之类，在我看来，更像是套住工人的枷锁，是要挟工人对垂死企业忠诚的砝码。一些工龄比较长的工人，在企业衰落后并没有离开企业的绊脚石就是因为这些，住房公积金、养老/医疗/失业/工伤/生育保险层层锁住了他们。要想离开，就要舍弃这些上缴了数十年的血汗钱，让这些钱成为一个堕落企业的领导的囊中物，而没了这些钱，辛苦一生的工人阶层又没法承担下半生的风险，迫于无奈，他们选择了忠诚，选择了迟早要沉的船。
+我父母已经从国企中淘汰出局，上个月正式下岗，之前不过有的月有活，有的月没活，但面临生活仍要挣扎，我真的感觉他们很辛苦，儿子不争气，让他们操心了。
+要是有DC就好了，可以详细记录这实习生活的点点滴滴……明天入厂……</description>
+    </item>
+    
+    <item>
+      <title>[转]达芬奇密码与宗教愤青</title>
+      <link>https://chouj.github.io/2006/05/27/da-vinc-code/</link>
+      <pubDate>Sat, 27 May 2006 04:20:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2006/05/27/da-vinc-code/</guid>
+      <description>_转一篇影评，来自 纵横_
+宗教战争从来残酷，宗教愤青也比喊喊口号的愤青同伴可怕得多。[文/花落去]
+索尼－哥伦比亚显然对影片抱有厚望，倾亿万巨金，请出朗·霍华德、汤姆·汉克斯两匹戴着奥斯卡金笼头的骏马，以伊安·麦克莱恩、奥黛丽·塔图、阿尔弗雷德 ·莫利纳和让·雷诺等名角并辔，用实景拍摄的卢浮宫独家印花地板做车厢，企望这部战车能一举超越《蜘蛛侠2》。
+看起来这一注押对了，尽管影片在戛纳电影节首映时反响寥寥，但原著空前绝后的畅销已经是电影回本的保证。走出影院的大部分观众面带失望，很多人认为影片中规中矩，了无新意。阅读过原著的观众更认为，影片没有原著峰回路转的感觉，更没有反映出原书的深度和颠覆性意义。
+梵蒂冈对待影片的态度毫无新意，号召全球信众群起抵制。尽管教皇早已承认审判伽利略的错误，但看起来教廷在对待异端的态度上并无多大进步。《达芬奇密码》中多处引用“伪经”——不在教廷正典经书之列的“福音书”——来作为解谜关键，这一点尤其激怒主教们。
+相比之下，最终耶稣婚配产子、基督指定女性创立教会等结论倒因其戏剧性而不那么引起学术质疑。但随着去年考古学界最为轰动的成就——《犹大福音》的发现，“伪经”是基督教早期正统的经书这一观点已经为越来越多历史学家认可。
+梵蒂冈如果只在细节上锱铢必较，哪天弄个伽利略第二出来也不是不可能。根深蒂固的信仰并不会因为一些新的学术观点出现就受到动摇，天主教立宗上千年来，无数智慧头脑早已奠定了它丰富淳厚的信仰基础，又岂是一本小说、一部电影所能动摇？
+倒是塞拉斯这个人物颇堪玩味，这个角色我们姑且称之为“宗教愤青”。与一切愤青一样，塞拉斯文化程度不高，但人不论高低贵贱，总有寻找信仰、解释人生的冲动，既然修养不足以自产自销，那便只好唯能说者从之。
+塞拉斯对阿林主教敬若神明，对冒牌导师也毕恭毕敬，正是思想信仰上极端无助后的反作用。恐怖组织中，人肉炸弹等基层人士往往头脑简单，教育低下，他们信奉的不是经书，而是对经书的解释。所以宗教战争从来残酷，宗教愤青也比喊喊口号的愤青同伴可怕得多——后者可从来没单枪匹马灭掉一个存在将近千年的神秘组织，一个零头都没有。
+ 走出影院的大部分观众面带失望，很多人认为影片中规中矩，了无新意。阅读过原著的观众更认为，影片没有原著峰回路转的感觉，更没有反映出原书的深度和颠覆性意义。    严重同意！</description>
+    </item>
+    
+    <item>
+      <title>又操了次旧业…</title>
+      <link>https://chouj.github.io/2006/05/18/write-a-news-article/</link>
+      <pubDate>Thu, 18 May 2006 03:50:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2006/05/18/write-a-news-article/</guid>
+      <description>物理系教学研讨会 学习先进理念 发展新型课堂
+教师拘泥于书本，学生着眼于应试，已是当今大学课堂中比较普遍的现象，但全国首届“教学名师”、南京大学基础学科教育学院院长卢德馨教授带来的研究性教学理念却让记者耳目一新。5月13日，卢德馨教授作客物理系教学研讨会，为在座的物理系师生上了一堂精彩的“研究性教学理念”课。
+卢德馨教授在南京大学物理系期间曾承担多门基础物理课和理论物理课教学，潜心教学和教育改革，坚持在教育一线工作，成功探索出一条以拓宽基础、强化科学研究和创新能力为特点的“大理科”模式的基础人才培养新路子。
+在报告中，卢德馨教授援引其在教学过程中亲身经历的个案，以及个人在教学一线积累的宝贵经验，向物理系师生传达了一种崭新的研究性教学理念：物理课堂教学不可拘泥于解题或应试，而是要培养学生探究物理思想，追求物理本质的探索精神；放手低年级学生进行科学研究训练是培养创造能力，挖掘学生主观能动性的重要途径。卢德馨教授还将清华大学的先进教学方法——“课程论文”式研究性教学介绍给了物理系师生。
+研讨会上，本科生和研究生的参与也成为一大亮点，一改往年仅有教职工参加的局面，并且取得了不错的效果。在座的师生均努力争取与卢德馨教授对话的机会，并积极参与讨论，研讨会一直在热烈而有序的氛围中进行。
+此次研讨会的召开，进一步提高了物理系教师的教学水平，营造了积极开展教学法研究的良好氛围，对物理系的教学工作提供了有力的帮助与支持。
+准确说，这篇是仅仅经过了华中大在线编辑的新闻，但绝对不能成为“合格”的新闻，原因在于以上的文字木有经过“政审”！
+小题大做了。为了保证新闻能整出去，我没有等系辅导员审核就擅自投出去鸟，所以权且称之为木有经过“政审”的文章，其实更kuso的称呼应该是“木有阉割过的文章”。
+行政领导们向来不知道新闻的时效性有多重要，等丫们慢慢腾腾得打开邮箱，再斟酌斟酌、研究研究，把更改意见回复给我，我再投其所好得修饰更改一番，抹煞“阉割”的痕迹，再让领导们过目后回复个“同意投发”的批准条文。。。我敢保证等我投给人家编辑的时候，编辑们一边del，一边撇嘴：“这么晚的东西还弄过来干吗！？”&amp;#8230;
+其实本人的“觉悟”足够高，“责任感”足够强，基本把这种文章按领导的意图“阉割”了出来，保证一片和谐，完全积极向上。不过，丫们要是说第一句“教师拘泥于书本，学生着眼于应试”一板子敲死了太多人，提到了不好的教学现象，还要我再给“阉”下，或者他们自己来“阉”，那我也不好说什么，只好承认“阉”的不干净，留了点毛毛皮皮&amp;#8230;话说回来，这种东西理应经过两层“阉割”，我先“责任”得“阉”一遍，然后丫们再来“阉”一遍，于是乎，上面说的“木有经过阉割”似乎还是不妥。。。
+但怎么说，经过了第一层“阉割”，这些文字还是已经具备了发布出来的价值，所以我鼓起勇气，带着把自己弄的东东发布出来的私心，带着对自己“阉割”技术水平的信心，带着不辜负领导再次要求我“出山”的决心，终于让这篇文字和大家见了面。
+现在看网页上的那些文字，忽然想那是经过几层“阉割”的作品呢，呃，还是说“净化”比较好点&amp;#8230;起码听着比较舒服。强调一点，那个研讨会还是不错的，卢教授确实有其水平，能把握到和其他老师不一样的脉搏。
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝分隔线＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+例行推荐两篇文字：
+我们离“疯人院”还有多远，老罗转的别人的文章，老罗推荐的东西，必有其价值。
+何日可安祥？，讨论当代社会的普遍焦虑感。
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝分隔线＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝</description>
+    </item>
+    
+    <item>
+      <title>一些不错的网刊</title>
+      <link>https://chouj.github.io/2006/05/01/nice-magazine-online/</link>
+      <pubDate>Mon, 01 May 2006 03:21:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2006/05/01/nice-magazine-online/</guid>
+      <description>manonfire 那里 有一文——网刊小窥，小思，展望——介绍了不错的一些网上刊物。
+最近从 王怡 那里也发现了一个不错的网刊，全当补充。
+前沿周刊 涵盖政治、经济、宗教、历史、文化等诸多方面，主编： 王怡 乾言 王光泽，里面很有些不错的文章，推荐一看！目前第三十四期。</description>
+    </item>
+    
+    <item>
+      <title>思绪之乱</title>
+      <link>https://chouj.github.io/2006/04/30/thought-flow/</link>
+      <pubDate>Sun, 30 Apr 2006 03:12:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2006/04/30/thought-flow/</guid>
+      <description>在家，思绪乱的一如既往。
+先唾骂一下华工的校园网，在家里才发现公网的便利。BBC中文网、德国之声、纵横周刊、msn等等等等那些学校里全要代理才可以窥得的网站，家里全部打开的刷刷的。。。开mozilla主站下火狐插件真是爽快无比。。。想想在学校加代理加的真是苦不堪言。。。甚至还真有窥视非法站点的负罪之感。。。可是找刺激也不是这样找的啊！
+最近才发现在ie下偶blog的主要文字部分居然在左边侧栏的下面，尝试整顿正常，但是失败了，于是乎推荐大家用firefox浏览，在firefox下不会出现酱紫的问题，要不然我也不会过了这么长时间才发现。
+中国商业插画培训班开始招生
+培训目标：通过专业理论知识学习和实用技法训练，使学员掌握作为“职业插画师”基本职业常识、理论以及概念；认识插画创意行为的基本要素；掌握插画创作的基本技能。最终具备商业数码插画创作的工作能力。
+证书：学员在规定的时间内学完教学计划规定的全部课程，达到要求，可获得由中国插画网(插画中国论坛)颁发的商业数码插画培训结业证书。
+看好插画师这个行业，同时也有点小心动，只是不知道为期一个月的培训后，学员们出来都能达到一个什么样的水平。。。
+最后转几篇不错的文章，由简到难。
+已然大三下 写大三人心境的，颇为真切。
+是什么冷却了我对远方的遐想 将赴远方的一位友人，思考自己对远方失去好奇遐想的心路里程。兴许是长大了的我们，无意识得把那一份好奇埋藏的过为深远了，其实并未失去。。。
+古典今情中的施琅 很推荐的一篇，分析施琅在历史中的定位，文笔大气，看完了有一种“会当凌绝顶，一览众山小”的感觉，拜manonfire推荐给我的，谢。</description>
+    </item>
+    
+    <item>
+      <title>这篇没啥好看的</title>
+      <link>https://chouj.github.io/2006/04/30/nothing-worth-reading/</link>
+      <pubDate>Sun, 30 Apr 2006 02:50:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2006/04/30/nothing-worth-reading/</guid>
+      <description>最近花在PC前的时间多了点。。。纠缠于firefox与blog、PS间。
+将firefox升到了1.5.0.1，重新开代理装插件，Adblock、Launchy、All-in-One Gestures、Sage、FlashGot、Fasterfox、IE Tab、Tab Mix Plus、FoxyTunes、MediaPlayerConnectivity的装了一堆。还有几个感觉不错的没下到，一个weather，一个proxy，一个close tab on double click。发现居然不能正常显示flash，郁闷。。。改天继续找找。。。
+顺便下了两个主题。。。还8错。。。担心火狐穿了这么多层皮，加上天气渐热，会不会消极怠工。。。要是怠工了，没关系，我还比较能忍ie。。。
+又花了点时间给blog小修饰了一番。。从blogweather那里蹭了个天气预报过来。。。有时候会Service Unavailable&amp;#8230;加载起来也有点慢，但希望能对大家有点用。。。只是默认地点是上海，想看武汉的话，手动拉下菜单啦。。
+随后，开PS画了blogTop和blogBottom两个图，挂了出来。。之前选了这个版子就是因为CSS定义的正文字体大一些，布局比我自己写的当然更成熟，但之前的图大众化了，于是彰显下个性，自己改之。。。只是这图一个40多K，一个60多K，有点影响页面下载的速度。。。
+从Oblog官方模板下载站里，捞了一票模板，但像我这样还没钱自己找服务器架blog的，这些板子没有用。。。所以看看人家的板子找找画图的感觉罢了。Top和Bottom都是取材一个Desert的模板里的，稍微改了改：没表现出沙子的材质，选择了壁纸加粉刷喷涂的形式。。。但受限于原模板的CSS加上色调，没办法大改。TOP左边那个写着“Customer”的纸片，就是因为没办法全部去掉只有保留了，顺便把自己现在用的PC桌面摆了进去，黑崎一护，Bleach男一号，配合俺滴qq脑袋，呵呵。看到他手心里写的什么了么？right，Fighting！原来写的是祝Rukia生日快乐的句子的，抹掉了。另外，右边那个灰灰的狰狞的脸请无视，抓过来就摆那里了。
+画图画的小郁闷，机子里装了一千以上的字体，要么一不小心忘了刚才用的是什么字体，然后怎么找也找不到，要么就是从巨多字体中挑一个满意的、合适的，难啊！改代码也改的心烦，要让页子在firefox和ie下同时完美真是困难。。。什么时候出个秦始皇一统浏览器市场，那就万事大吉了。。。
+最后发个表，偶在5Q上的发布一览，乱七八糟什么都有。
+最后发个表，偶在5Q上的发布一览，乱七八糟什么都有。
+状态  标题  论坛  作者  回复  人气  最后发表         【ChinaUI.com2006新春大礼包】【exe】【见介绍】    电脑资料镜像区  xcchris
+2006-04-07      131    2006-04-07 07:14
+by: xcchris             【北航单片机视频教程】【格式】【查看】    专业区镜像  xcchris</description>
+    </item>
+    
+    <item>
+      <title>【完结】部长带来的（七）</title>
+      <link>https://chouj.github.io/2006/04/04/what-department-head-bring-7/</link>
+      <pubDate>Tue, 04 Apr 2006 02:27:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2006/04/04/what-department-head-bring-7/</guid>
+      <description>终结篇了，讲点实在的。
+迄今，大学里面笑到脸疼，就差抽过去的两次，全是在通讯部的聚会上。之前的文字里有提到“开心索王道”，这肆无忌惮的笑,一如上天馈赠的礼物，达谢我担起这“部长”二字。
+一次在YY23栋管院公房，欢送校会老部长离任；一次在东园三楼，部长聚会。都是因为“通讯部长”才相互认识的，都是为了友情和开心坐到了一起，都在那一刻极尽搞笑整蛊之能事，都是“杀人”惹的祸.忘不了两任部长一起灌我酒,忘不了跟南瓜饼过不去的方儿，忘不了宇的“红豆大红豆”，忘不了LYC的超强转折句,忘不了东北的搞笑派，忘不了紫菘的到了东园就叛变成韵苑的500，忘不了funny的“杀人游戏”，忘不了随之而来的把我整的巨惨的“真心话大冒险”,忘不了所有人……再写“忘不了”估计就被人打死了，原谅我省略掉一些名字吧.PS：忘不了我自己……我闪……
+排比句这感情递进、气势渐高的奥义被我领悟的那叫一个融会贯通炉火纯青啊！表打偶！
+排比继续！
+想想刚当部长时，亲自为“世界物理年”跑媒体，倒是认识了不少新闻MM；想想从谁也不认识，到被一票人戏称“大哥”，还莫名奇妙收了几个小弟（当然现在人家早就长大成人了）；想想咱部长群里那热闹非凡，YY无止境的景象;想想自己那份引来诸多崇拜目光值得小炫一下的“通讯部总结”想想靠写稿子都能小范围的有点名儿的离奇经历.不夸张的说，目前大学里最快乐的时光还是在通讯部的日子啊，机缘巧合地作了部长，又机缘巧合地结识一帮朋友，再机缘巧合地收获快乐……靠，又是排比！
+“登上一艘大船，结识一帮朋友。”
+“聚是一团火，散是满天星；合飞是群雁，单飞是雄鹰。”
+咱部里的氛围还真是对的起这两句话。
+没能提早发觉冰岩的优秀让我有点后悔，但不会后悔进了校会通讯部。虽然现在大家都忙着自己的事情，群里也不再如以往般热闹，但快乐的过去当然需要我们铭记于心，同时真诚祈祷还有快乐的未来。再次聚会的机会相信还有，毕竟偶们里最老也才大三，望快乐依旧。</description>
+    </item>
+    
+    <item>
+      <title>读这读那</title>
+      <link>https://chouj.github.io/2006/03/31/read-them/</link>
+      <pubDate>Fri, 31 Mar 2006 02:30:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2006/03/31/read-them/</guid>
+      <description>从manonfire知道了安替，又借安替认识了《纵横》，我所接触的文化和观点就多了另一种选择。安替等《纵横》编辑人员正努力将真正的新闻和评论展现出来，独辟蹊径，脱离陈腐与桎梏。一连看了几期《纵横》，虽然有些地域性的政治和文化不甚了解，但感觉她确实在讲述真实，我确实是在她的带领下，感悟其中的透彻和深刻。试想《纵横》的读者定位于全球的精英人士，我的资历还远远不够，只是如manonfire所说，想知道的再深一些，活得更明白一些。
+《纵横》仅仅是借助安替blog在网络空间传播，在我们这些安替准确说是追逐真实的fans中传播。我有一个想法，一直收集下去，然后发布到5Q上，只是不知道会有多少人对这样一份刊物报以热情。忘了说的是，这一全称，《纵横国际政治周刊》的pdf刊物以洞悉一周内的时政为切入点，给予精悍的评论，绝对不同于各种官方或是媒体的文章，因为她的编辑——“‘纵横国政研究小组’的目的就是希望有一批年轻人从今天开始，扎实地做国政国别研究，每周跟踪该国（ 地区）的舆情， 并且每周做出自己的政治分析（500-800 字），和小组其他国别研究员共享研究心得。这样，我们就能获得一个动态的、准确的全球图景。”（摘自《纵横》第一期）
+现在的《纵横》又加入了其他的元素，第七期除了时政外，增加了经济和科技，副刊中也加入了书评，变得越来越好。下面的这一篇就是这期中涉及科技的文章，之所以援引这篇，是因为比单纯的政治评述少些艰涩，多些诙谐。
+基因科技和民族主义
+近20 年来基因科技的发展，颠覆了过去一切种族的概念，使种族主义和民族主义的理论基础变成了空中楼阁。
+[文/实习研究员 易茅]
+80 年代中后期，科学家发现可以利用人类细胞中线粒体的DNA 来追踪人类祖先（因为线粒体DNA只继承于母亲，不会与父亲的染色体产生交换）。因此可以通过线粒体DNA的缓慢变异，看到不同人种之间的联系以及人类进化的线路。
+追踪得到的结论是令人震惊的：所有的现代人都起源于十四五万年前的一小部分非洲人，大约在七万年前才从非洲走出，分布到全球。这一发现可以说是轰动的，因为它和传统的看法以及各国政府试图通过本国是人类的一个起源地来树立民族信心的企图完全背道而驰。但是这一结论的证据却如此无懈可击，经历了十多年后已经被普遍接受。
+基因技术的分析也带来了很多有趣的结论。例如藏族和北方汉族基因上的差距小于和南方汉族之间的差距；日本人显然不是纯种民族，他们至少由来自阿尔泰的北亚人种、渡过白令海峡前往美洲的早期北亚人种、来自南亚海上人种这几种基因混合……这些结论遭到了一些政府支持的学者的强力抵制。
+基因技术对人类的分析一旦成为现实，种族主义者将如获至宝，他们希望能够从基因学的证据上证明人类不同种族是有差距的。但基因学的证据却令他们大大失望了。基因学发现的线粒体DNA 变异以及近期使用的Y 染色体变异区分方法并不能和我们现有的种族分类划上等号。也许一种变异A 会大量存在于欧洲的巴斯克人那里，但是别的民族也会有这样的变异出现。也就是说，从基因学的证据看，人类在史前曾进行过如此多的交流和融合，以至于根本无法用基因来划定一般意义上的种族。
+一个基因学家的话最具有代表性：任何两个美国白人之间的基因差距，都大于我们能从白人和黑人种族上找出的共同差距。
+这些天也看完了《DA VANCI CODE》，阅读飞快，受悬念的驱使。只是也许受之前吴思那书的影响，集大权者为了自身利益掩盖真实这一历史话题变得愈发的醒目，无论东方还是西方，无论宗教还是政治。感叹一句，柯南那“真相只有一个”，只要不是傻瓜，就知道只有一个真相，但是我们想知道真相的话，要么成为柯南，要么成为真相的缔造者。</description>
+    </item>
+    
+    <item>
+      <title>部长带来的（六）</title>
+      <link>https://chouj.github.io/2006/03/26/what-department-head-bring-6/</link>
+      <pubDate>Sun, 26 Mar 2006 02:20:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2006/03/26/what-department-head-bring-6/</guid>
+      <description>2004－2005学年度下学期大学生新闻中心优秀通讯员＋《西行漫记》一本
+2004－2005学年度校优秀学生干部＋800RMB奖学金＋“霸王龙”牌笔记本包一个
+2005年度校优秀通讯员＋50RMB奖励
+系团学联通讯部部长一年聘书＋面值68元智慧IC卡一张
+精美邀请函两封
+名誉和物质上的收获貌似就这些，都索那浮云，只是所谓“浮云遮望眼”，何况这云的构成成分还8成是Au&amp;#8230;
+&amp;#8230;飘过&amp;#8230;</description>
+    </item>
+    
+    <item>
+      <title>部长带来的（五）</title>
+      <link>https://chouj.github.io/2006/03/18/what-department-head-bring-5/</link>
+      <pubDate>Sat, 18 Mar 2006 02:19:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2006/03/18/what-department-head-bring-5/</guid>
+      <description>相逢不如偶遇，作个通讯部的部长，竟然能让人熟悉一门软件，貌似不相干的东东就这样被我联系在了一起。Adobe Premiere 就是这个了，从茫然不知世界上还有这么一玩意儿，到现在拍个什么都少不了用到它，少不了有人找到我。
+其实，这种事情只要多看看书上教程，自己摸索摸索，加上手上软件资源齐了，又不怕麻烦，那什么剪片儿、压片儿、字幕、玩格式都是小儿科，我决不敢在此说自己多么多么精通，以免哗众取宠。做了那么多片子，多是稍微剪剪，加几个字而已，特效就不用讲了，更谈不上什么艺术。这么一来，我自己摸索了，ok，我明白是这么一回事了，离高级影视编辑人才差得远。可其他人呢，不亲自去试的，丢我一身盲目崇拜的目光＋夸奖，唉，也不怪人家，不知者不为过。
+忽然想起“能者多劳”，这破词真是害人不浅，现在想想发号施令的就是比执行施令的爽的多，不管你发号施令的时候是颐指气使，还是低三下四。
+系里整一DV真是方便了大家，锻炼了老子我，既然得到了锻炼，就不抱怨了。
+罗列下出手的视频，不为炫，只为证明这精力耗费的那叫一个多。。。想想俺也可以变身为胡戈，hoho：
+系学习十六号文件DV 《梦想在希望升起的地方》
+系05年迎新晚会
+以上这两个网上有&amp;#8230;but华工内才可以流畅播放。
+系05年开放日活动
+湖北省世界物理年科普知识展我系志愿活动
+世界物理年系列活动物理科普知识决赛
+世界物理年之光传递活动武汉地区
+世界物理年系列活动之创新设计实验大赛（初赛＋决赛）
+世界物理年华工系列活动闭幕式播放的总结短篇
+系03级拔河比赛
+系05级新生军训阅兵剪影
+系05团学联纪念特辑
+系05年度学代会
+系社会实践部06.3.5学雷锋活动采风
+最恶的是有个延安红色革命之旅的视频也是我做的，片子里出现了壶口瀑布、华山……还有诸多TEaChers、Masters、Leaders ……
+另外，关于PS，这个不能算部长头衔带来的，因为早就在用。but在任期间PS也发挥了不少作用，比如PS个系徽、ps个浮动链接gif、ps个海报、ps个DV剧CD封面、PS个物理年纪念册、Ps个系刊…… 想起前些天看考研的帖子，一文里写：想考计算机的要搞清楚的是，画个图、做网站、剪片子、做皮肤、截音乐、做字幕之类的，那统统不叫计算机，要是为了这个考计算机，那就是大错特错。
+真理啊！
+再附个接触到的software列表&amp;#8230;
+……………………………………………………
+Premiere 6.5用：
+Adobe Premiere MPEG Encoder 激活程序
+JPG公司的AVI文件解码器MJPEG VIDEO CODEC
+百老汇公司的AVI文件解码器
+MPG剪辑软件IEDIT
+PREMIERE输出MPG格式插件XING ENCODER
+模板定位软件 UltraEdit
+Titledeko
+title express
+TMPGEnc + Video Server
+极品字幕软件TitleMotion（有教程）
+极品转场软件AdorageI-GfxDatas.ISO
+PREMIERE的好莱坞转场特效插件Hfx313,还有5.1 和 4.58 gold 两个版本的安装程序，共3个好莱坞
+PREMIERE的雨雪插件Final Effects
+premiere输出插件ProCoder_2.0
+音频处理：
+专业音频处理软件Magix.Samplitude.Professional.v7.22.Retail.KG.HH
+CoolEdit
+压片或转格式用：
+Batch Real Producer
+Easy RealMedia Producer</description>
+    </item>
+    
+    <item>
+      <title>部长带来的（四）</title>
+      <link>https://chouj.github.io/2006/03/11/what-department-head-bring-4/</link>
+      <pubDate>Sat, 11 Mar 2006 02:18:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2006/03/11/what-department-head-bring-4/</guid>
+      <description>部长带来的当然还有现在还在操练着的PC了&amp;#8230;这个系列还是要继续的&amp;#8230;聊以记录&amp;#8230;
+05年3月9日拿下的，购入价￥2700整，配置如下：
+磐正KM400
+AMD SP2200＋（盒）
+威刚 256M DDR400
+WD80G/7200
+HPC17&amp;#8243;纯平
+飞雪204机箱
+金河田光电套
+感谢表哥送来的CD-ROM和显卡，感谢自己用奖学金的钱添了一根内存条，当然最感谢的还是老爸老妈的理解和支持了。
+想当初，并没有想在大学拥有台机子的，家里买了，花的金子也不少，所以对大学的有机一族毫无想法，就算寝室里的弟兄有电脑了，也是这样。只不过，作了部长，竟是些敲字发文的工作，又有新闻时效性的要求，所以电脑就离不开了。我不是那种喜欢求人的人，所以四处找机子借用真是难过。就算相熟，但占着别人的机子用，我心里也过意不去，于是犹豫许久，才向家里提了这么个要求。当时也觉得很不好，家里有了还要学校里有，家里赚钱也相当不易，感觉自己跟过分了似的。好在爸妈通情达理，免去了我心头的忧虑，我真的十分感激。
+机器入手，呵护有佳，由于计算机方面稍显在行，一切井井有条，这种配置下其运行速度绝对超过班上同水平机器了。在这台机器上耗费的时间也确实不少，对自己的机子更是有霸占的感觉，PS、Premeire、DW、IIS、Visual C++、DeskTopAuthor ……权且不说net surfing、cartoon、blog、qq、word之类。机器对自己的帮助还是很大的，一一道来全无可能，略过。
+这套配置在现在看来当然属于超低档系列，板子和cpu早就不可能有了，想想现在pci-e＋ddr2＋64bit横行的时代，完全属于两个复数，不具备可比性。
+最近时间紧，就写这么点。</description>
+    </item>
+    
+    <item>
+      <title>无题</title>
+      <link>https://chouj.github.io/2006/03/01/no-title/</link>
+      <pubDate>Wed, 01 Mar 2006 02:17:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2006/03/01/no-title/</guid>
+      <description>寝室里果真不是写blog的地方，人鱼混杂，耳目众多，毫无心境。“考研”这个词俨然成了寝室里的高频词汇，真心期待其频率能超过20MHz，这样耳朵就听不到了，万籁俱寂。
+前些天的Crazy想法仍在脑海萦绕，挥之不去，一如将死之人看着天上盘旋的尸鹫般烦心。利用一年半时间，好好研习平面设计技术，毕业后进军中国UI行业，努力成为UI设计师，不保研不考研，Crazy到了极至。此路是险是坦，是宽是窄，未有定论，未敢盲从。
+回忆寒假，改变不大，诸多弊病仍是顽疾。在老妈眼里，我依旧不是她所期待的满意儿子；老爸也许仍然认为我不成器，于是听之任之了吧。
+近期的所见所闻，让我愈发看清了blog写作的含义，为了记录的初衷只能作为含义其一，新的东西需要加入进来。木然地发现，自己早就没有写blog的资本：文化上，匮乏基奠，缺失底蕴；技术上，虽稍有习获，但还没强到为人师，教人进步的地步；心境已然不甘心记流水帐了。blog承载了太多，俨然漏水之船。为不致其沉，唯有一瓢一瓢将水舀出，勉强所至，杯水车薪。值当舀水愈发娴熟，不致船沉，方得正果。自嘲一句，今后乃努力舀水尔，只是不可为此所累。
+2006年第一本仔细看的书就是《隐蔽的秩序》，吴思将皇者、官府、商贾、百姓之间的博弈剖析得精妙至极，无愧“拆解历史奕局”之称。易懂的文字背后，虽渗出些许阴暗，但无可辩驳，如宗师言，别有洞天。无奈历史是现实的一面镜子，秉承理论联系实际的指导思想，我不禁忆起诸多生活中的事宜。阿扁“废统”，是中、美、台之间的博弈；汉芯造假，是科学和名利之间的博弈；“馒头”VS“无极”，是权威和大众网络之间的博弈；学校里的“塑料门”和“米价们”事件，是学生和后勤之间的博弈；研是考还是不考，是未来方向考量下的博弈；就拿我买这本书来说，一是实为兴趣，二可谓为虚荣，姑且称之为内心世界的博弈。博弈二字虽为经济学用语，但确实饱含历史真谛，无论事大事小，均可以此论之。换用书里的话来讲，博弈的源头即在于参与博弈的双方个体，“追求其自身利益的最大化”，而这个体，在书中是皇者、官府、商贾、百姓，联系了实际，则范畴无形扩大，博弈也就无所不在了。
+不愿论及诸多博弈孰是孰非，但陈博弈比比皆是，遂就此打住。其实还可以扯些甜言蜜语是爱情博弈中追求短期利益的表现之类的博弈论断，但这无非用历史的旧瓶装爱情的新酒，实属废话。就像书中所说，以暴力、流血为代价的“血酬”被冠以各种各样的华被，我权且厚颜无耻的把“就此打住”美名为给读者留下思考的空间吧。
+至此，给这篇文章下个论断。这些文字也是思想博弈的产物，就内容言，纯属废话。用一堆四字成语形容下就是：矫柔造作、虚而无实、哗众取宠等等。我对读了这篇文字的朋友表示遗憾，敬请原谅。</description>
+    </item>
+    
+    <item>
+      <title>部长带来的（三）</title>
+      <link>https://chouj.github.io/2006/01/30/what-department-head-bring-3/</link>
+      <pubDate>Mon, 30 Jan 2006 14:01:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2006/01/30/what-department-head-bring-3/</guid>
+      <description>部长 当然带来了工作业绩！
+通讯，一个经常和宣传弄混淆的部门，也是一个新兴的部门。每当有人问我，通讯都做什么，或通讯和宣传有什么区别时，我就会告诉他：通讯就是用现代化的手段，借助现代的一些平台，比如报纸、网络、广播等进行宣传；普通说的宣传，则是利用传统的展板、海报进行宣传，言语中仿佛透漏着自豪之情。
+作部长，当然要有那么点成绩，2005.12.29－2006.12.30的一年时间里，独立创作了28篇挂在网上的新闻，不包括和别人一起的，以及网上见不到的，罗列在下面了。从不会写、尝试写，到最后写的得心应手；从醉晚亭网站到华中大在线，都可以瞥见偶的拙作。算是成长么？可以说是吧，至少知道了新闻该怎么写，悄悄告诉你，新闻想写的好不容易，嘿嘿。另外，也知道了学校媒体是怎么运作的之类，算是从另外的角度了解学校了，这不是每个人都会知道的事情，不一般的回忆了。
+写新闻花了不少时间，因为事情多，很多杂事需要报道。无聊时想想自己走新闻这条路算了，新闻美女又多，呵呵，不过我还是有自知之名的，既没八两，也没半斤。
+[物理]关注物理系特色团日大型活动
+[组图]物理系开放日发扬学科特色
+庆世界物理年 志愿者走进省科技馆
+[物理]省科技馆《走进物理——庆祝世界物理年》大型科普知识展览印象
+物理系“与优秀团干面对面”主题活动举行
+清华大学朱鹤年教授为物理系师生作报告
+物理系足球联赛圆满结束 0401班取得冠军
+物理系本科生与毕业生交流会成功举行
+物理科普知识竞赛决赛圆满结束 水电学院代表队摘得桂冠
+[物理]物理系学习16号文件之自拍DV首映
+物理系迎新晚会 一样的精彩 不一样的感觉
+[物理]物理系围棋比赛宣告结束
+[物理]重温入团誓词，增强团员意识
+[物理]增强团员意识 物理系在行动
+物理系学生党支部扎实推进党员先进性教育
+[物理]学生会内部建设：院系间加强交流 共同进步
+物理系“摩擦力”杯拔河比赛考量团队精神
+“手帕”代“纸巾”：物理学子倡导节约新方法
+科技节物理设计与创新实验大赛初赛进行
+物理系“友谊杯”乒乓球赛日前揭幕
+物理学子特色团日：厨艺大比拼 能力大锻炼
+[物理]分团委开展增强团员意识大讨论
+物理系第二届“友谊”杯乒乓球赛近日圆满结束
+指点迷津 排忧解惑：优秀团员事迹报告会举行
+你合理使用电脑了吗：电脑使用情况大调查
+历时半个月 物理系寝室创新设计大赛举行
+[物理]物理设计与创新实验大赛圆满结束
+[物理]物理系学代会：忆往昔 览今朝 贺新年</description>
+    </item>
+    
+    <item>
+      <title>最近…</title>
+      <link>https://chouj.github.io/2006/01/27/recent/</link>
+      <pubDate>Fri, 27 Jan 2006 01:59:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2006/01/27/recent/</guid>
+      <description>家里的日子，犹如晴空中的云，悠闲、懒散。又匆匆忙忙得把自己脑袋里的想法用技术手段表达了出来，就成了现在blog的样子。但总是表达得这么不顺利，技术不过硬。
+不想出门，因为在家可以不管自己的形象，也不用担心脆弱的神经经受鞭炮的考验。人小的时候神经就是坚强，怎么放鞭炮都不觉得吵，长大了反而变脆弱了，不希望在毫无准备的情况下被鞭炮声吓着。
+罗列下要做的事情：
+换blog模板。这个pass，权且当搞定，估计会有人认为原来的那个更好看。
+写blog。还有很多想写，比如写些有技术含量的东东，不能让人家以为我只会敲字。
+写《物理系通讯部部长工作手册》。这个要好好写，本来就是回忆，值得。而且不能让后来人走弯路，经验教训要传承。会不会写个几万字呢，因为我本来就会写下很多细节，先想象下。
+做学代会的视频，丫的占了将近20G空间，赶紧搞定，腾地方。这种东西做了一学期，从不会到会，烦了。下学期还有一个要做，希望是最后一个，最好能在04级找一个接我的这个班。
+9000字的入党材料。3000字的申请书＋6000字个人自传！天呐！
+学英语。为以后着想，所以该开始了，重新拾起以前扔掉的东西，这个要坚持。
+罗列最近看的听的东东：
+《photoshop cs中文版网页与多媒体设计商用实例》 Ps用了N长时间了，但还不能算擅长，艰深的东西还不是很会。不过用简单的技术还是可以营造美，只要使用技术的人懂得什么是美，这点我坚信。
+《ASP.NET基础教程》 这个看着玩，想知道建站的过程而已，比如后台如何实现这里有讲。看得懂就钻研下，看不懂就当了解了。
+《微型计算机》2005年24期 05年硬派盘点，没时间全年关注，只好关注年末盘点了，怎么说也该知道下现在硬件都发展到什么地步了吧。
+韩剧《My Girl》。放假前看的东东，从没主动看过韩剧，受寝室里弟兄的吸引，觉得挺好看，所以寒假继续，有些弟兄看不到，嘿嘿。其实韩剧多多少少都看过了，for example,巴黎恋人、新进社员之类。班上看韩剧的不分男女，普及率高哦..
+五小强冥界篇3－4话，刚刚出，现在还没下完，1－2话的剧情让我觉得比较恶，有从热血动画转恶搞动画的嫌疑，不知道这次嫌疑是不是会更大。
+死神才看到29话，有时间再继续吧，这个一切看缘，唯有完全没事做的时候可以继续一下，but 机子上木有。
+EVA。经典的作品到现在我还没看完，到后面看得越来越玄乎，难道是传说中的概念型作品..orz&amp;#8230;
+Aaron Carter－Do You Remember 最近听的一首，缘起作视频的时候拿来作背景音乐了，现在摆来作blog音乐，欢快点嘛。
+别的听的最多的就是Jay的，考试复习的时候天天听，40多首听个没完，只是mp3有点不听话。之前下了个《天下足球全部音乐合集》，一些怀旧的曲子不错，不过全部从作背景音乐的角度考虑的，做DV落下的毛病。
+就这些了，不过有个很缠人的表妹要来这里过年，唉，计划能否实现已经成了大大的问号，难道又要在陪她大富翁中浪费时光？？God bless me！</description>
+    </item>
+    
+    <item>
+      <title>流水帐喽~~</title>
+      <link>https://chouj.github.io/2006/01/26/running-account/</link>
+      <pubDate>Wed, 25 Jan 2006 19:58:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2006/01/26/running-account/</guid>
+      <description>流水帐喽&amp;#8230;
+time is flying ！哈，老套的开头，但没办法，06年1月发生的事情唯有用流水帐来记录啦&amp;#8230;对了，可以挂几个小标题嘛，作通讯的惯用手法&amp;#8230;
+元旦
+&amp;#8230;新旧交替&amp;#8230;不算平淡&amp;#8230; &amp;#8230;31号晚&amp;#8230;无心于校会的游园会＋舞会&amp;#8230;开始会场飘忽&amp;#8230; &amp;#8230;热闹都是别人的&amp;#8230;飘忽的时候想到了这么一句杂志里的话&amp;#8230;奇怪&amp;#8230; &amp;#8230;被一位high过了头的游戏参与者迎头撞上&amp;#8230;发现眉骨处红肿&amp;#8230;心想大过节的竟碰上血光之灾，煞是不爽，于是继续飘忽&amp;#8230; &amp;#8230;看见动漫社cos的卡卡西&amp;#8230;眼前一亮&amp;#8230;白的cos者不知道跑哪里去了&amp;#8230;郁闷&amp;#8230;开始想为啥我没DC&amp;#8230; &amp;#8230;一票人一起飘忽，校会的，媒体的，熟悉的，非熟悉的&amp;#8230; &amp;#8230;12点&amp;#8230;校长培根开始发言&amp;#8230;略过&amp;#8230;重头戏礼花绽放天际&amp;#8230;很漂亮&amp;#8230;继续想我为啥没有DC&amp;#8230; &amp;#8230;回寝室&amp;#8230;1:20左右&amp;#8230;20分钟后出寝室&amp;#8230;妍子叫我去三度空间&amp;#8230; &amp;#8230;4个人开始骑车之旅&amp;#8230;带着妍子在凌晨2点的空旷大街上蹬车子&amp;#8230;还真是奇怪的风景&amp;#8230;Crazy&amp;#8230; &amp;#8230;终于到了&amp;#8230;人好多&amp;#8230;居然还碰见了熟人&amp;#8230; &amp;#8230;找位子&amp;#8230;开玩开吃&amp;#8230;发现凌晨的时候吃的东西好少&amp;#8230;最后被告知早9点才有东西&amp;#8230; &amp;#8230;店子里所有玩具被玩了个遍&amp;#8230;还是一楼的足球玩的最high&amp;#8230; &amp;#8230;呆了11个小时&amp;#8230;返校&amp;#8230;和妍子说再见时顺便说了生日快乐&amp;#8230; &amp;#8230;36个小时没睡&amp;#8230;破纪录&amp;#8230; &amp;#8230;去西园订桌&amp;#8230;迎接校通讯部会餐&amp;#8230; &amp;#8230;3号12:00&amp;#8230;傻瓜样站在西园门口接人&amp;#8230; &amp;#8230;一票人到&amp;#8230;吃饭＋喝酒＋杀人&amp;#8230; &amp;#8230;还好我没被灌倒&amp;#8230;但有人倒&amp;#8230; &amp;#8230;对某些K歌的高手留下另一番印象&amp;#8230; &amp;#8230;闪出西园&amp;#8230;为了让喝倒的再缓缓&amp;#8230;进美食屋&amp;#8230; &amp;#8230;一票人要见我妹妹&amp;#8230;迫于无奈&amp;#8230;接妹妹到美食屋&amp;#8230; &amp;#8230;送了生日礼物&amp;#8230;
+火车票
+&amp;#8230;学校今年组织订票了&amp;#8230;有人欢喜有人忧&amp;#8230;网上赞的有骂的也有&amp;#8230; &amp;#8230;还好我的票拿到了&amp;#8230;就是有点晚&amp;#8230;仍然Thanks&amp;#8230;
+系刊
+&amp;#8230;系刊终于花了几天时间整完&amp;#8230;迫不及待的放出下载&amp;#8230;结果就是漏洞百出&amp;#8230; &amp;#8230;改&amp;#8230;再改&amp;#8230;直到真正“完美打造 铸就非凡”&amp;#8230; &amp;#8230;感谢为了系刊付出的老师同学&amp;#8230;希望系刊影响力能大点&amp;#8230; &amp;#8230;有不少赞美之辞或崇拜之辞飘来&amp;#8230;有点晕&amp;#8230;
+新部长
+&amp;#8230;见了继任的部长..印象还8错&amp;#8230;不过有很多东西要交代&amp;#8230;发现说不清楚&amp;#8230; &amp;#8230;先转移资料&amp;#8230;
+物理年闭幕式
+&amp;#8230;无比郁闷的在13号通宵&amp;#8230;赶物理年的纪念册&amp;#8230;还好考前寝室不停电&amp;#8230; &amp;#8230;终于闭幕了&amp;#8230;唯一关心的是我做的册子&amp;#8230;和我做的物理年纪念视频&amp;#8230;可以炫炫&amp;#8230; &amp;#8230;拿到一本册子&amp;#8230;很精美&amp;#8230;成就感&amp;#8230;
+团学联散伙
+&amp;#8230;15晚&amp;#8230;终于散伙&amp;#8230;意外收获是发现一家学校里的隐藏餐厅&amp;#8230; &amp;#8230;又有人喝倒&amp;#8230;我不动声色&amp;#8230; &amp;#8230;团学联纪念册&amp;#8230;还不错&amp;#8230;不过团学联纪念特辑又是我做的&amp;#8230;
+16－20
+&amp;#8230;考试周&amp;#8230;非考试时间盘踞在西五&amp;#8230;自习是王道&amp;#8230; &amp;#8230;考得有点郁闷&amp;#8230;
+20号考完了
+&amp;#8230;寝室弟兄生日&amp;#8230;西园撮一顿&amp;#8230;权且当这学期散伙饭&amp;#8230; &amp;#8230;晚上妍子找我去包夜&amp;#8230;意料之中&amp;#8230;没包过夜的想尝试一下&amp;#8230;于是闪去逗号Net Bar&amp;#8230; &amp;#8230;我看动画&amp;#8230;她看电影&amp;#8230; &amp;#8230;终于消灭了带去吃的东西&amp;#8230; &amp;#8230;插曲：有老鼠&amp;#8230;而且有人怕老鼠&amp;#8230;呵呵&amp;#8230; &amp;#8230;7:00出来&amp;#8230;晃悠下&amp;#8230;晃到图书馆&amp;#8230;人真是少&amp;#8230; &amp;#8230;小吃城解决了午饭&amp;#8230;第二次爬喻家山&amp;#8230; &amp;#8230;记得第一次爬&amp;#8230;石头(10)剪刀(2)布(5)&amp;#8230;赢了的走相应步数&amp;#8230; &amp;#8230;第二次爬&amp;#8230;赌有几级台阶&amp;#8230;输掉&amp;#8230; &amp;#8230;下午闪去了鲁广超市&amp;#8230;买火车上的东东&amp;#8230; &amp;#8230;闪回百景吃饭&amp;#8230;2个人解决了妍子饭卡里仅有的3.90元&amp;#8230;
+回家
+&amp;#8230;22&amp;#8230;10栋已经没什么人了&amp;#8230;下午收拾东西&amp;#8230;闪&amp;#8230;这次公汽不挤&amp;#8230;还不错&amp;#8230; &amp;#8230;火车站有武警维持秩序&amp;#8230;人狂多&amp;#8230; &amp;#8230;02车上&amp;#8230;双层车厢&amp;#8230; &amp;#8230;一路kill time&amp;#8230;发现窗外出现了雪&amp;#8230; &amp;#8230;还算正点到站&amp;#8230;打的回家&amp;#8230;的士司机很能扯&amp;#8230;</description>
+    </item>
+    
+    <item>
+      <title>盘点2005</title>
+      <link>https://chouj.github.io/2006/01/04/take-stock-of-2005/</link>
+      <pubDate>Wed, 04 Jan 2006 01:57:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2006/01/04/take-stock-of-2005/</guid>
+      <description>大二下——&amp;gt;大三上
+就这么浑浑噩噩的过来了，大学时间确实如过来人说的那般快&amp;#8230;始料不及&amp;#8230;
+关键词：通讯 wow 动画
+大二下学期正式作部长，怎么着也是白手起家，怎么着也是一手拉扯大&amp;#8230;因为偶不是管理型人才，所以自己投入的精力那叫一个多&amp;#8230;这个会另开几片田来好好耕耘&amp;#8230;其实开过几篇了呵呵
+wow风靡全球，稍微不上进的都会在河边走走&amp;#8230;目的就是湿湿鞋&amp;#8230;偶也找了个sf尝了下鲜&amp;#8230;从上学期末到这学期初&amp;#8230;wow占据了大部分吧&amp;#8230;因为放假，黑黑&amp;#8230;诞生64级sm一个&amp;#8230;.没事放放闪电链&amp;#8230;
+动画没看几个&amp;#8230;机子里没那多空间放（都被DV素材占了）&amp;#8230;也没时间看&amp;#8230;钢炼看完，非常8错&amp;#8230;SEED Destiny看完，十分垃圾&amp;#8230;火影略有涉猎，前些天居然忘了白，汗&amp;#8230;EVa到现在还没看完&amp;#8230;倒&amp;#8230;one piece &amp;amp; conan &amp;amp;犬夜叉 只看剧场版，死神目前看倒十几&amp;#8230;圣斗士&amp;#8230;该看的都看了&amp;#8230;还有诸多下了没看，然后删了的&amp;#8230;
+看似蛮堕落&amp;#8230;其实是蛮堕落&amp;#8230;但of course有成长&amp;#8230;只是掠过&amp;#8230;</description>
+    </item>
+    
+    <item>
+      <title>这几天过的！29－30</title>
+      <link>https://chouj.github.io/2006/01/04/those-days/</link>
+      <pubDate>Wed, 04 Jan 2006 01:55:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2006/01/04/those-days/</guid>
+      <description>终于有时间写点..忙啊
+30号换届&amp;#8230;说既要发纪念册又要发纪念光盘&amp;#8230;好么&amp;#8230;直接导致29号一晚没睡&amp;#8230;整的偶qq签名都换成&amp;#8230;“黎明前也忒黑了吧”..要问为什么&amp;#8230;还不是因为刚刚拍完的片子要作出来..然后再刻成盘子&amp;#8230;发下去&amp;#8230;我就是那个做片子的人&amp;#8230;.
+隔壁的公用房灯火通明，3台电脑1本本，那叫个壮观。本本作ppt，另外2台作纪念册，偶司职纪念视频特辑&amp;#8230;
+期间事故不断&amp;#8230;有一哥们，搬1四百瓦的锅来煮面&amp;#8230;直接导致公房电门跳闸，顿时所有电脑、照明设施漆黑..除了本本（本本优势啊&amp;#8230;）
+唉，这一晚上真是充分体现了学生会成员的团结合作精神。有什么技术困难，互相帮忙解决，二话不说；有什么资料缺失，立马共享；有什么吃的喝得，都拿出来给兄弟伙的分分&amp;#8230;
+一晚上效率那个高，竟然没觉得困，真叫一个“一鼓作气”！凌晨9：00&amp;#8230;汗一个“凌晨”先&amp;#8230;搞得差不多&amp;#8230;机子扛回寝室&amp;#8230;它去输出&amp;#8230;我去睡觉&amp;#8230;
+好在这学期处理的视频材料甚多&amp;#8230;机子里就腾出30G东西存视频素材了&amp;#8230;抱怨下&amp;#8230;系里什么都要拍&amp;#8230;拍完了什么都要我作&amp;#8230;丫的还真是tmd的不像话&amp;#8230;过分&amp;#8230;就算能者多劳也不能这样吧&amp;#8230;.亏我adobe premiere玩得还算得心应手&amp;#8230;否则还不挂在这里了&amp;#8230;
+30号，12：00，闹钟＋Achillis，准时喊我起床，检验昨晚作战成果&amp;#8230;输出完毕&amp;#8230;继续压制&amp;#8230;还好偶压片儿的技术也小有所成&amp;#8230;那就压着呗&amp;#8230;闪去吃饭&amp;#8230;那个饿哟&amp;#8230;.
+压over，该刻盘的拿去刻盘，偶先悠闲会儿&amp;#8230;偶可不是11号&amp;#8230;要命啊&amp;#8230;
+西五417，换届圣地&amp;#8230;例行程序不再赘述&amp;#8230;看主席同志作报告的那个辛苦&amp;#8230;看下一级的弟弟妹妹们竞选演说的不亦乐乎&amp;#8230;没事想想偶们当年的风范，再按两下快门（相机竟然总没电&amp;#8230;郁闷&amp;#8230;）&amp;#8230;想起自己当时还是冲着一纸聘书才作部长的，那时看这学长们能领一聘书是多么的牛X&amp;#8230;现在聘书到手..倒是看得淡了&amp;#8230;ps：聘书倒是异常精美&amp;#8230;
+选出来的4位，偶倒是都认识，都非常8错，尤其票最高的那位女同志，那个强啊，说来（此处省略2万◎￥％◎＃￥个字&amp;#8230;）咱系的未来就是他们的啦~~偶好好轻省轻省&amp;#8230;.
+这个拍的DV又甩给我&amp;#8230;.郁闷&amp;#8230;.偶还要担负这DV被盗的危险&amp;#8230;&amp;#8230;..更郁闷&amp;#8230;&amp;#8230;&amp;#8230;&amp;#8230;&amp;#8230;&amp;#8230;&amp;#8230;&amp;#8230;</description>
+    </item>
+    
+    <item>
+      <title>圣诞 我 4、6级</title>
+      <link>https://chouj.github.io/2005/12/25/christmas/</link>
+      <pubDate>Sun, 25 Dec 2005 13:55:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2005/12/25/christmas/</guid>
+      <description>24号，平安夜，不知多少人会疯狂一夜；4、6级考试日，报纸上说湖北近40万人赶考。老天把这些给凑一起去了，多不平凡的日子。
+前一天晚上，和对面寝一弟兄fifa到凌晨5点，被菜无数次，麻木了，权且让他嚣张一下。这家伙睡了一上午，爬起来刚刚好去考6级，我不用考，庆幸一下，可以目送一票人奔赴考场，前途未卜，视死如归。
+早8点半给妍子发短信，问起了没，之前她说有圣诞礼物送。只睡了3个小时，我仍然起来了，自己先佩服个。寝室里一学习型弟兄在摆弄收音机，未雨绸缪，为下午的6级作准备。“华中科技大学英语教学基地&amp;#8230;全国大学英语四级考试&amp;#8230;”，声音听着就不平凡。
+妍子说比谁先到见面的地方，结果输得很惨，要知道，男生刷刷牙、洗洗脸、糊弄下头发——只要别太引人注目——就可以出门咧。加上我再打扮也跟帅沾不上边，当然闪得快。
+一起早餐，聊些最近的事情。收到的礼物异常精致，同样精致的还有贺卡，外加，精致的包装。一个很漂亮的漂流瓶（不知道是不是叫漂流瓶，呵呵），里面满是写了祝福话语的彩色纸条。打算一天看一条，这样每天都有新奇感，也每天都惦记着这漂亮的gift，心情自然好。
+祖玛了一天，看得出妍子很喜欢，从寝室里的弟兄在收拾东西，到他们闪去考试，午饭都是我去买的面包。之后闪去吃晚饭，因为她晚上要去教堂。路上正好遇见6级考完的大部队，感慨下自己当年也是这部队中的人，现在可不可以说是退伍了呢？N多认识的、不认识，在这队伍中的，还有在其他地方的队伍中的朋友们，考的怎么样呢？以前关心自己，现在关心别人。
+一起去鲁巷光谷圣诞动漫嘉年华的门口转了转，我本想去瞅瞅，毕竟平安夜要找点节目。只是最后黄了，一是没人去，二是要票，20RMB，三是手里没DC，所以划不来。之后送妍子到车站，公交爆满，节假日的武汉就是这样，可怜妹妹还要去挤。
+回寝。聊天——QQ＋短信——不亦乐乎，手忙脚乱。短信又延迟严重，晚9点才收到下午的一些短信。想起23号群发了N条的短信，非常不错：“质量、自然对数之底、小球半径平方、纵坐标；电容、高度、电阻、瞬时电流、路程、时间、质量、加速度、位移，猜一句话”。这条短信太好了，因为自己是学物理的嘛，佩服下创作者，感谢下发给我的朋友，不过她是新闻学院的，嘿嘿。别说你猜不出来啊！
+25号，睡到中午12点，谁叫24号没怎么睡呢。洗完堆起来的衣服，然后就窝寝室里了。看了一条漂流瓶里的祝福纸条，“Merry Christmas！”，呵呵，刚刚好，谢谢妍子。继续做系刊，卸任前必须要完成的东西，也是为纪念我这一任而做，自己主刀设计制作，当然要尽善尽美，只是妹妹下的期限是元旦前搞定，没谱中&amp;#8230;
+想起summer说要寄贺卡过来，很期待，summer的贺卡向来也是精致的那种，她是越来越珍惜眼下的很多东西了，希望她过得好。
+圣诞将完，妹妹生日将至。</description>
+    </item>
+    
+    <item>
+      <title>礼物送出</title>
+      <link>https://chouj.github.io/2005/12/25/gift/</link>
+      <pubDate>Sun, 25 Dec 2005 13:54:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2005/12/25/gift/</guid>
+      <description>听说28号可以从部长的位子上离任，终于可以松口气。虽说不是很放心，连继任的是谁都不知道，但还是决定放手，自己已经累了，毕竟很多是自己一个人撑起来的，也该忙忙自己的事，大三，非常时期了。
+给妍子的圣诞礼物终于买了，沙发垫，不过经过改装，成了椅子坐垫——在一边轧了2条绳子，这样搭在椅上可以绑住，靠背也可以是软和的。记得和她上的那次自习，莫名的让我和她换个位子，不知道是不是想让我帮她把凳子焐暖和喽，或许我瞎猜多了。
+给她写了贺卡，不敢拿她写的和我写的比，一个天上，一个地下，不，地狱。难看的可以直接拿去烧了，不知道她看完了是什么心情，唉。等她过生日的时候再做补偿，一定好好写一张生日贺卡，答应了的。
+礼物送出，妍子说很可爱，外加不知道怎么用，再加已经有个小熊坐垫，不过可以放在床上&amp;#8230;我&amp;#8230;唉&amp;#8230;还真是不会送礼物，不过还好没买那个小熊坐垫，否则掉的大。
+在电脑上装了祖玛，因为她喜欢，妍子说这也是我送她的一个礼物，呵呵。
+八卦是人之本性，我终于理解了。其实早就理解了的，从初中到大学，我就没少被八卦，人善被人欺么？和妹妹在一起，被他们见的多了，难免被调侃，妍子说，没有血缘关系的兄妹是很难让人理解，不过清者自清。
+嗯，清者自清，这四个字好。</description>
+    </item>
+    
+    <item>
+      <title>出手不凡＝追求完美？</title>
+      <link>https://chouj.github.io/2005/12/21/striving-for-perfection/</link>
+      <pubDate>Wed, 21 Dec 2005 01:52:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2005/12/21/striving-for-perfection/</guid>
+      <description>好久没出校园，今天借由买礼物跑了出去，和寝室里另外两个有家世的弟兄。
+出发之前漫无目的，本想去汉口，结果在武昌逛了一圈。
+下午3、4点，走在武汉的街上，他们每个人手上的礼物已经以3件记，金额近百元，我呢？唯独多了根内存条，至于礼物可以说是两手空空，虽然那根条顶的过他们礼物的价钱。
+甲：买个礼物有那么难吗？ 我：我可以用4个字来形容：“出手不凡”！ 甲：那我对你买的礼物很期待&amp;#8230; 我：怎么找不到那种特别一点的店呢？
+不承认这是自嘲，因为确实不想买那种到处都见得到的礼物，要是那样的话，买礼物是个n简单的事情。真的想出手不凡吗？也蛮矛盾，他们买的礼物也都很不错，我再去买也会买他们那样的也说不定。
+“出手不凡”，这个突然想到的搪塞他们的词，莫非暗示我是追求完美的人？
+“我要疯了！你做这么好搞得我快窒息了！”昨天把总结给环院的部长看了后，他发过来的一句话。又是追求完美的结果么？做事情认真仔细负责是我的习惯，说这句我不会脸红，但难道换句话说就是追求完美？
+“完美”是个很遥远很崇高的词汇，我所想得到的只是“满意”。我并没有希望毫无缺憾，只是想让自己觉得这样可以了。有些东西我会尽量得找到，尽量做到，自己感觉不错就ok，虽然别人并不见得会认为好。也就是说，这不等同于“完美”，我仅仅追求自己满意，嗯，就是这样子，就算是自我辩解，自我敷衍&amp;#8230;
+最后的结论：买礼物对我来说是个困难的事情。
+最后的想法：但礼物还是要去寻觅&amp;#8230;希望这次我同样能做到。</description>
+    </item>
+    
+    <item>
+      <title>部长带来的（二）</title>
+      <link>https://chouj.github.io/2005/12/17/what-department-head-bring-2/</link>
+      <pubDate>Sat, 17 Dec 2005 01:51:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2005/12/17/what-department-head-bring-2/</guid>
+      <description>部长 带来了考前的恶补
+课翘的多了，自习去的少了，自然科目听不懂，恶性循环的后果就是造就了考前突击派别的诞生。聊以自慰的是，没有学习的时间我用在了一些稍有意义的事情上，不像很多人，堕落或者无意义得虚度了……其实我跟他们也差不多，又清高了…唉……都是借口
+其实考前突击这一派无论在哪所大学都是大帮派了，我一“部长”只是催化剂，更加注定我要成为这一帮派的一个小罗罗。现在大三，也算资深小罗罗，从大一开始研习突击技巧（just a joke），前些天才查了门分数，数电——82，3天突击出来的，比我们寝室一“学究”级人物还高一分。不是我在这里炫，确实突击对于我们这些在学习上花的时间少的弟兄来说，“很管用”。考得简单，挂得可能性不大，也像给了这一派一把尚方宝剑，让我们这帮人屡试不爽。
+过几周又是考试，3门，都是感觉棘手的课程，不知道这回能有足够时间复习不，学期末总结，系刊，事情看样子少不了。很想认真好好沉下心复习，自己已经越来越浮躁，不敢设想再浮躁下去会怎样。有时候马上要考试的非常时期都看不进去书，真是可怕。其实认真复习时，发现很多以前认为异常难异常艰涩的东西，都不是那样的，只是没有花时间去研究，突击的时候弄得稍微懂了，但研究的时间又不够，考完之后，这门就算over了，一觉醒来又什么都不知道，大学学到了什么呢？前面写了感悟大学真谛，就是因为觉得大学里到头来要是什么都没学会，那是件多么郁闷的事情&amp;#8230;
+我所说的学当然是广义的啦，不见得要盯着专业课不放，完全可以抓住自己喜欢的，爱好的东西不放嘛&amp;#8230;老生常谈了&amp;#8230;</description>
+    </item>
+    
+    <item>
+      <title>我是作秘书的料！</title>
+      <link>https://chouj.github.io/2005/12/15/genius-to-be-a-secretary/</link>
+      <pubDate>Thu, 15 Dec 2005 01:49:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2005/12/15/genius-to-be-a-secretary/</guid>
+      <description>越来越发现自己适合作秘书了,写东西越来越官方，刚写完个总结，发一段上来瞧瞧，严禁转载哦！
+l 对外工作总结
+在系领导的指导下，在系团学联主席团及其他部门的配合下，在我部所有部员的共同努力下，本学期外宣工作承接了上学期的良好势头，保持了上学期的外宣实力，取得了优秀的成绩。
+由以上定量总结可知，我系本学期通讯工作在保持上学期原有水平的基础上，有所进步。我系在醉晚亭网站的投稿量已经超过60，各院系排名中暂列第6位；在华中大在线新闻网的投稿量已经超过90，各院系排名中暂列第7位。就我系而言，取得以上成绩实属不易。
+我系外宣篇
+本学期，我部继续对我系各年级、各部门活动积极配合，积极报道。我系迎新晚会、舞会、新生杯篮球赛、DV首映、特团团会、增强团员意识活动、科技节及世界物理年活动、系乒乓球赛等等活动都在校内媒体上给予了重点报道，通讯工作已几尽做到无所遗漏。
+特别要提的是本学期特色团日的通讯宣传工作非常到位，几乎各班的特团都在校主流媒体上有文字报道，仅物理0504班的特团先后就有6篇次报道。
+校内媒体篇
+本学期，我部继续巩固和我校媒体之间的良好合作关系。自上学期至今，我部和校报记者团、醉晚亭、广播台、喻园网视、华中青年等诸多媒体建立并发展了这种友好的关系，这使得我系的外宣通讯工作更易开展。
+一方面，我部在通讯报道上积极配合校各家媒体，各媒体对我系的通讯宣传亦给予大力支持，在此互相配合的良性循环下，双方皆可获益。
+另一方面，我系同学在各媒体内表现活跃，得益于他们的帮助，我系的通讯工作才能如此完满。
+在此，诚挚希望我部与各媒体的良好关系，无论工作上的还是个人的都可以保持下去。
+校部院系篇
+本学期，我部继续在校通讯部的带领下，在与兄弟院系的合作中稳步前进。与上学期相比，我部与校部及各院系通讯部之间的交流合作明显加强。
+学期初，我部与化学系、数学系通讯部共同举办了一期通讯员培训，并得到了校部的大力支持，获得了良好的效果。整个学期间，在以校部例会和校通讯部长QQ群为主的交流平台上，我部与校部和各院系通讯部建立了深厚的友谊，互相学习交流的氛围浓厚，也从中深深获益，同样望能继续保持。
+l 部内工作总结
+本学期，我部的部内建设较上学期已经有不小改观。新生进校伊始，我部进行了招新，吸纳了几名优秀同学，为我部补充了新鲜的血液。在所有部员的共同努力下，我部的运作稍微找到一点门路，并且开始探索出系刊之路。
+部员培训篇
+从事通讯工作的人员必须要有一定的业务能力，故我部多次对部员进行了业务培训。首先，借助记者团的新团员培训，我部有几名部员参加；其次，借助我部例会的契机，邀请到了我系原记者团成员殷锐同学，对我部部员进行了直接的有针对性的培训；最后一次培训也是规模最大的一次，由物理系、化学系、数学系通讯部联办，邀请到了醉晚亭网站新闻版负责人张婧同学以及校通讯部部长尚聪及常务副部长高瑗，对三系的部员进行了系统的培训，整个培训在良好的氛围中进行。
+例会制度篇
+本学期，我部施行了单周周五晚的例会制度。就该制度的执行情况而言，总体效果良好。
+由于我部的通讯工作主要为我系的各活动服务，所以例会是我部收集活动信息，进行工作安排的平台；同时例会亦是对上两周工作情况进行总结，鼓励优秀部员的平台；另外，例会还是我部各成员之间进行交流沟通的平台。下半学期，伴随系刊的筹划，例会更是必不可少。可以说例会制度的好处是显而易见的。
+但也存在诸多问题，最突出的是，例会的出勤问题，部员仍未养成出席例会的习惯，原则上，例会时间确定后是不需要通知的，所以这一点仍需加强。
+通讯业务篇
+就写稿、投发新闻方面，本学期延续上学期的情况，稍有改观。
+具体而言，大部分新闻报道由部长操刀，小部分由各部员完成。这种情况与各部员都能写能发的理想状况仍有较大差距，一方面各部员的业务水平还不够，仍需锻炼；另一方面，报道任务的分工机制还未健全。
+但并不是全无进步，由于目前部内大一部员占多数，故05级诸多新闻报道已经依靠他们来完成，虽然稿件质量还有待提高，但已经基本达到完成05级新闻报道任务的目标，望继续得到发展。
+系刊筹划篇
+13周左右，我部决心出系刊，随后的工作重心均已向系刊倾斜。
+首先，本届通讯部并没有出系刊的任何经验，无论是稿件的获得，还是最后的制作，均为零经验。因而，我部在积极向各院系刊物学习的同时，努力尝试找到自己的出系刊之路。便捷之处在于，系刊仅为电子版，免去了排版印制之苦。
+目前的工作模式是：一，向全系征稿；二，向优秀的同学约稿；三，部员去采访老师、或同学，最后整理形成稿件；四，部员自己创作；五，在网络上寻找优秀稿件。由于05级部员没有计算机，故系刊的设计和制作由部长完成。目前系刊的制作工作仍在进行中，已完成了对制作软件的学习和熟悉。
+首先的问题，仍然是稿件的筹集和质量问题，其次是电子版系刊的技术问题，这两个问题都需要我部在今后的工作中摸索、克服。面临这些困难，我部选择了坚持下去，希望我系系刊电子版能最终与同学们见面，并得到大家的喜爱，最好能作为我系的传统刊物传承下去。
+看完的记得给个评价o！同时也拜一下看完的兄弟姐妹!!</description>
+    </item>
+    
+    <item>
+      <title>[转]写华工女生的－今天白云十大第一贴</title>
+      <link>https://chouj.github.io/2005/12/15/about-hust-girls/</link>
+      <pubDate>Thu, 15 Dec 2005 01:47:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2005/12/15/about-hust-girls/</guid>
+      <description>转载自白云黄鹤，今日十大，作者id： terryking
+终于一切都过去了…… 周末的下午，我坐在自习室，手捧一本杂志，享受这难得的清闲。窗外寒风呼啸，屋内茶杯热气氤氲，一切都那么恬静。
+忽然有点想写些什么的冲动，思绪飘忽之际，门前经过一长发美女，拉我回到现实，让华工美女多些，再多些，我们的眼球实在需要休息。
+脑子一转，不禁莞尔，也罢……今天就让我调侃一下华工的女生吧!（纯属无聊之作，望众mm看过之后，权且一笑置之，不要登门造访，找我麻烦～）
+在我看来，华工的女生就如同证券交易所中的股票一般，五什两样。中国股票风风雨雨十几年了，从开盘第一天的“八大股”到如今沪深两市数以千计的股票，从来就没听过哪只股票发愁没人买的时候。事实在那儿摆着，股票是增加了，股民也没闲着，都积极投身到社会主义市场经济大潮里了，结果比例还是那么多嘛！反正中国人多，你不行了，他就上…… 就好像华工的女生一般，甭管怎么扩招，比例总是平衡在1：7附近，这狼多肉少，你说说怎么够分？怪不得我们班某女生老说我脸是绿的，估计是饿坏了吧…？ 这校领导的脑壳也够不灵光，当初并校干吗不把华师并过来跟我们掺和掺和呢？也省得那么多小伙子跟一个姑娘身上较劲不是？
+股市上有句至理名言，说是：十人炒股，七赔二平一赚。好家伙，看到没？十个人里只有一个赚到钱了，其余的大都是去实践那句“重在参与”上面了。那你说这么多人干吗还都吃饱了撑的似的往股市里扔钱玩啊？问题的关键在于，我们所有人都自我感觉良好的认为自己是那个能赚到钱的。要不我们学校的男生们怎么都一个个的前仆后继，踩在兄弟们的尸体上追求各系那为数不多的资源呢？最后谁得意呢？别问我，我还真不知道，我就知道证券交易所每次交易都收手续费和带收印花税……
+股票分板块，玩儿过股票的都知道绩优股板块业绩优良，成长稳健，适合中长线持有，想做这种股票的大多是实力雄厚的投资机构，盘子太大了，你要是实力不够，砸进去几千万都没什么么响动。看看我们身边的系花吧！名声在外，可真正追得反到不多。追之前，谁不得掂量掂量，自己玩儿的起么？
+股票做短线一不看业绩，二不看行业，就看一条：题材。管你是华工科技还是武昌鱼，有了题材就能火，就有人接盘炒。今天一报道，武昌鱼被定为“参粥”七号唯一指定食物，得，明儿股价就涨停！就如同我身边这些相貌说得过去得女生，追得人多了，就变得轻飘飘的了，七个不服，八个不分儿。什么，您喜欢我？求求您别喜欢我成么？您喜欢我哪儿，我改还不成么我？哎～ 可是题材总有过气的时候，要想长盛不衰，还是修炼内功，把业绩搞好是真的。
+胡说八道了这么久，还真的有点累了，虽然这篇文章有编排女生之嫌，但我相信每只股票都有自己的价值，只要用心寻找一定会发现对你最有价值的那只股票的。</description>
+    </item>
+    
+    <item>
+      <title>部长带来的（一）</title>
+      <link>https://chouj.github.io/2005/12/14/what-department-head-bring/</link>
+      <pubDate>Wed, 14 Dec 2005 01:38:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2005/12/14/what-department-head-bring/</guid>
+      <description>写在前面
+不甘心平凡 不甘心毫无变化 于是 整了个部长 不后悔我当初的这个选择 虽然失去了很多 但也得到了很多……
+部长 带来了翘课的理由
+欲扬先抑 嘿嘿 第一个写写翘课
+通讯是个需要时效性的工作 给自己的心理暗示又是写稿子发新闻比上课听讲容易的多 因而每每选择写东西 而翘去了无数节课
+记得校会通讯部招新 我被拉去作面试官 面试刚进来的大一学弟学妹 也有大二的 校会副部问的最多的一个问题就是 当你的工作和你的上课时间有冲突时 你会如何选择 面完后 她跟我说 就喜欢那些能为做事而翘课的 足见 不论校会还是院会 翘课是传统
+翘课了干吗 写稿子 晚了发不出去 做DV 这是个耗时耗力的事 估计翘了的课 都是为这两样 副产品就是 可以在人少菜多的时候到食堂吃饭 btw 冬天花在吃上的钱是越来越多了
+那些没翘的课 多半也没好好听 做工作记录 想想最近有什么安排之类 稿子该怎么写 某些东西用photoshop该怎么画 乱七八糟无所不有 貌似作了部长 偶的时间有一半都是为这而去了 事情纷杂 各部门的活动 都需要报道 忙得不亦乐乎 心情不好 也是常事 虽然有大一的部员跟我一起瞎混 奈何本人总是放心不下他们作的事情 作了我还要再纠正什么的 so 自己承担的多了点 也知道他们不锻炼就不会进步 但看似他们也不乐于做这些琐事 于是恶性循环了 马上卸任 不知他们会怎么样 下届又会怎么样 都懒得关心了 because 身心俱疲 想歇歇 到时要我帮忙指点的 尽力就是</description>
+    </item>
+    
+    <item>
+      <title>21岁第一天</title>
+      <link>https://chouj.github.io/2005/12/08/21-years-old/</link>
+      <pubDate>Thu, 08 Dec 2005 02:44:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2005/12/08/21-years-old/</guid>
+      <description>21岁第一天 晴 早上一弟兄说气温回升了2度 感谢老天的好意 课没去上 睡觉果真是惬意的事
+昨晚跑去堕落街外的老湘会 请妹妹和朋友们 4个人 9点到的 里面的员工都在聚餐了 不过我们兴致不差 一小伙为了让我请 晚饭没吃 挨到9点多 可见大家还是对我请客充满期待 只是传说中聚好的老湘会 在我感觉 just so so
+妹妹给的惊喜不小 画得很有心思的贺卡＋自己织的围巾＋绣了“XC”的手套 很是感动了一把 后悔之前对她关心不够 不过她怎么就认我作了哥哥 我自己都不明白 参悟不透这个异常精神的丫头 昨晚还陪她在操场上走了几圈 聊聊高中初中开心的事情 感谢她了
+同时要感谢的当然还有爸爸妈妈啦 用奖学金给他们买点礼物吧 就这么决定了
+晚上继续请寝室的弟兄们 之后还有选修作业 工作总结 物理年总结 系刊design 当然还有学习 这学期就要over了&amp;#8230;</description>
+    </item>
+    
+    <item>
+      <title>好久没写了</title>
+      <link>https://chouj.github.io/2005/12/04/recent-life/</link>
+      <pubDate>Sat, 03 Dec 2005 18:33:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2005/12/04/recent-life/</guid>
+      <description>13周考试周结束，终于可以分得可怜的一点时间来写东西了。凌晨1：41，还好周六不断电。机器也没闲着，一边是premiere编码DV，一边写blog，各不拖累，两全其美，小得意下，就是电费估计又要交不少了。
+之前的应付考试真是忙，原子物理、数字电路，几乎没怎么听过。突击一个礼拜，每门花三天时间，三天一本书，大学莫非如此？21周又是考试周，继续面临三门考试，但不想再过要突击的日子。
+这段时间没有更新这里，访问量却上了500，莫非链接起的作用？不得而知。现在终于有时间写点东西，这里的更新也会频率高点了，可以写的东西可以罗列一筐，希望以后不会太忙，可以让我一点一点写。先感谢下访问到这里的朋友，久未更新让很多人失望了吧，sorry&amp;#8230;只要这段日子不忙的话，还是会尽量写点东西上来的，毕竟说了可以写的东西太多了，作通讯部长的不练笔怎么行，just a joke&amp;#8230;
+2：00，一弟兄还在看电影，另外两个已经睡了，还好不是打呼噜那种，打呼噜的在看电影，嘿嘿&amp;#8230;闪去睡&amp;#8230;估计DV输出在3个小时之后，设5：30自动关机吧&amp;#8230;不能浪费电，节约型校园&amp;#8230;</description>
+    </item>
+    
+    <item>
+      <title>今天过节~~</title>
+      <link>https://chouj.github.io/2005/11/11/single-day/</link>
+      <pubDate>Thu, 10 Nov 2005 16:24:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2005/11/11/single-day/</guid>
+      <description>光棍节&amp;#8230;全天没课 qq上有同学说是不是你们老师商量好了 我想没可能 老师不会这么好心吧
+上午继续完善这里 就这样了 不打算再管了 以后没事换换背景就可以了
+到现在收到了几条短信祝福 一条来自妹妹 一条来自远在同济的学妹 还有两条是认识的校媒体记者发 过来的 妹妹问我什么时候她能有个嫂子 学妹希望下次过节我不再用她来祝福了 剩下的就是祝开心快乐之类 我不置可否 这种事情如何说的清楚
+11：11已过去 光棍节最经典的时刻 晚上有饭局 寝室一弟兄9号的生日 改在今天撮 过节可以饱餐一 顿也还不错 有点过节的样子
+白云黄鹤上 进版画面早就换成了Single的 紫色 感觉还不错 没有光棍的孤独感 bbs里早就闹开了锅 十大就有好几个跟光棍有关 我们学校光棍就是多 计划K歌 吃饭的 借这个机会发泄派遣 无可非议
+过节时可以安心写写字 感觉挺惬意的 下午干什么 快考试了 有两门 还没底 是该看书的时候了</description>
+    </item>
+    
+  </channel>
+</rss>

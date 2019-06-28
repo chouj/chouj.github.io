@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>翻译 on 抽筋儿的话语权</title>
+    <link>https://chouj.github.io/categories/%E7%BF%BB%E8%AF%91/</link>
+    <description>Recent content in 翻译 on 抽筋儿的话语权</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
+    <lastBuildDate>Tue, 06 Jul 2010 08:58:39 +0000</lastBuildDate>
+    
+	<atom:link href="https://chouj.github.io/categories/%E7%BF%BB%E8%AF%91/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>[翻译]给Twitter Favorites添加一个Feed</title>
+      <link>https://chouj.github.io/2010/07/06/create-an-feed-for-twitter-favorites/</link>
+      <pubDate>Tue, 06 Jul 2010 08:58:39 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2010/07/06/create-an-feed-for-twitter-favorites/</guid>
+      <description>原文：Create an RSS Feed for Twitter Favorites
+作者：MARK EVANS
+推特的神奇之处在于，在这条信息长流之中，汇集了好玩的点子、稀奇的思绪、纷杂的内容和用户的观点。当然推特也有让人不爽的地方，那就是难以将这些存留下来。
+一个解决办法是，运用推特的“favorite（收藏）”功能将tweets标记下来，过后再看。
+但其中有个问题是，推特并未提供方便的管理和检索“收藏”的功能。特别是当我们想定期查阅和检索“收藏”时，此类功能的缺失让我们觉得比较不方便。那么我们该怎么做呢？
+其实我们可以为这些“收藏”生成一个RSS Feed。这是推特所支持的，且很便捷。
+http://twitter.com/favorites/[**insert_your_ID_here**].rss就是你的收藏的RSS Feed地址，以你的推特用户名替换掉方括号的部分。如果你用Google Reader的话，就可以把这个URL添加进你的订阅了。</description>
+    </item>
+    
+    <item>
+      <title>[翻译]如何让WP一分类下的文章不在Feed输出</title>
+      <link>https://chouj.github.io/2008/06/11/translation-how-to-exclude-categories-from-main-feed/</link>
+      <pubDate>Tue, 10 Jun 2008 16:11:49 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2008/06/11/translation-how-to-exclude-categories-from-main-feed/</guid>
+      <description>&lt;p&gt;&lt;a rel=&#34;attachment wp-att-94&#34; href=&#34;http://aboutrss.cn/2008/06/translation-how-to-exclude-categories-from-main-feed/wordpressfeed/&#34;&gt;&lt;img class=&#34;alignleft size-medium wp-image-94&#34; title=&#34;wordpressfeed&#34; src=&#34;http://pic.yupoo.com/xcchris/309805b2a084/qye3bzys.jpg&#34; alt=&#34;wordpressfeed&#34; width=&#34;100&#34; height=&#34;100&#34; /&gt;&lt;/a&gt;原文：&lt;a title=&#34;How to modify your WordPress RSS Feed - Kriesi&#34; href=&#34;http://www.kriesi.at/archives/how-to-modify-your-wordpress-rss-feed&#34; target=&#34;_blank&#34;&gt;How to modify your WordPress RSS Feed&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;作者：Kriesi&lt;/p&gt;
+
+&lt;p&gt;译者：&lt;a href=&#34;http://www.xuchi.name/blog&#34; target=&#34;_blank&#34;&gt;抽筋儿&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;WordPress自动生成的RSS Feed是默认输出每个目录分类下的每一篇日志的，但有时，&lt;strong&gt;我们想唠叨下又不想打扰到关注有意义信息的订阅者&lt;/strong&gt;，怎么办呢？只需要把唠叨的日志归类到一个分类，然后在Feed里让该分类下日志不显示就OK咯！&lt;/p&gt;
+
+&lt;p&gt;如何实现呢？方法有二：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;通过URL除掉分类下日志的Feed显示；&lt;/li&gt;
+&lt;li&gt;通过一个小函数除掉分类下日志的Feed显示。&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    
+    <item>
+      <title>[翻译]10个用于合并RSS Feeds的工具</title>
+      <link>https://chouj.github.io/2008/02/16/translation-10-tools-for-blending-feeds/</link>
+      <pubDate>Fri, 15 Feb 2008 17:17:46 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2008/02/16/translation-10-tools-for-blending-feeds/</guid>
+      <description>&lt;p&gt;原文：&lt;a href=&#34;http://www.tothepc.com/archives/10-tools-to-combine-mix-blend-multiple-rss-feeds&#34; target=&#34;_blank&#34;&gt;10 Tools to Combine, Mix, Blend Multiple RSS Feeds&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;作者：Davinde&lt;/p&gt;
+
+&lt;p&gt;译者：&lt;a href=&#34;http://www.xuchi.name/blog&#34; target=&#34;_blank&#34;&gt;抽筋儿&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;big&gt;越&lt;/big&gt;来越多的网民开始接触RSS feed及其应用，以致涌现出一批优良的线上或线下RSS feed管理工具，其中Feedburner和Feeblitz是行业领袖。&lt;/p&gt;
+
+&lt;p&gt;&lt;big&gt;每&lt;/big&gt;当你想从不同的渠道获取信息时，使用工具对RSS Feeds的内容进行过滤是必要的，同时将同类RSS Feeds合并，消灭内容重复的RSS Feeds，似乎更加重要。这有助于你整合Feeds内容，打造统一的RSS Feeds。十个能完成此类任务的工具值得介绍一哈：&lt;/p&gt;
+
+&lt;p style=&#34;text-align: center&#34;&gt;
+  &lt;img src=&#34;http://pic.yupoo.com/xcchris/3326051923f3/gii3ddzu.jpg&#34; alt=&#34;RSS mix&#34; /&gt;
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[草莓版]九月汇集：FB消化掉河蟹，GR发布中文版</title>
+      <link>https://chouj.github.io/2007/10/01/articles-about-rss-in-september/</link>
+      <pubDate>Sun, 30 Sep 2007 18:15:06 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/10/01/articles-about-rss-in-september/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://photo5.yupoo.com/20070828/184610_1275588803_rrcvhspd.jpg&#34; title=&#34;RSS相关 草莓版信息汇集&#34; alt=&#34;RSS相关 草莓版信息汇集&#34; height=&#34;130&#34; width=&#34;122&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;[&lt;strong&gt;&lt;a href=&#34;http://www.feedburner.com&#34; target=&#34;_blank&#34;&gt;FeedBurner&lt;/a&gt;吃河蟹&lt;/strong&gt;]&lt;/p&gt;
+
+&lt;p&gt;8月底，&lt;a href=&#34;http://aboutrss.cn/2007/08/29/is-feeds-dot-feedburner-gfwed/&#34;&gt;FB吃上了河蟹&lt;/a&gt;，一月后，仍有朋友&lt;a href=&#34;http://www.iamvip.net/blog/review/53&#34; title=&#34;Feedburner被和谐之后…&#34; target=&#34;_blank&#34;&gt;撰文悼念之&lt;/a&gt;，实属效力强劲，耐力持久，FeedBurner一“举”成为9月RSS相关话题中的热门关键词，实乃拜男性健康用品“河蟹”所赐。9月12日，&lt;a href=&#34;http://www.williamlong.info/archives/1053.html&#34; title=&#34;网通用户无法访问FeedBurner&#34; target=&#34;_blank&#34;&gt;报网通也无法访问feeds.feedburner.com二级域名&lt;/a&gt;，标志着吃河蟹吃完满了，剩下全国bloggers给这一事件抹嘴。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[翻译]为什么要用Feedburner的十大理由</title>
+      <link>https://chouj.github.io/2007/09/02/10-reasons-why-you-should-choose-feedburner/</link>
+      <pubDate>Sun, 02 Sep 2007 13:29:27 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/09/02/10-reasons-why-you-should-choose-feedburner/</guid>
+      <description>&lt;p&gt;原文：&lt;a href=&#34;http://moblogsmoproblems.blogspot.com/2007/08/10-ways-you-can-use-feedburner-to.html&#34;&gt;10 Ways You Can Use Feedburner to Improve Your Blog&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;作者：&lt;em&gt;Mack Collier&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;翻译：&lt;a href=&#34;http://www.xuchi.name/blog/&#34; title=&#34;抽筋儿&#34; target=&#34;_blank&#34;&gt;抽筋儿 &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://bp1.blogger.com/_S_50sh4glvU/RrU0GQep7fI/AAAAAAAAAJA/kIITPv2Vz6o/s1600-h/FB.gif&#34;&gt;&lt;img src=&#34;http://bp1.blogger.com/_S_50sh4glvU/RrU0GQep7fI/AAAAAAAAAJA/kIITPv2Vz6o/s320/FB.gif&#34; style=&#34;margin: 0pt 0pt 10px 10px; float: right&#34; border=&#34;0&#34; /&gt;&lt;/a&gt;还在今年二月的时候，我就注意到一个有趣的现象：我的Feed读者赶上了我的日访者数。这值得我注意，我开始花费更多的时间来分析Feed统计数据，我也花掉大量的时间来研究&lt;a href=&#34;http://www.feedburner.com/&#34;&gt;Feedburner&lt;/a&gt;，我很快就发现Feedburner拥有一大堆丰富的功能来让bloggers传播、优化和追踪他们发布的内容。&lt;/p&gt;
+
+&lt;p&gt;1 &amp;#8211; &lt;span style=&#34;font-weight: bold&#34;&gt;烧制一个Feed。&lt;/span&gt;只要免费注册一个帐号，给Feed想一个好名字，(&lt;a href=&#34;http://feeds.feedburner.com/你的blog名)就可以烧制啦。一旦你拥有了一个烧制的feed……&#34;&gt;http://feeds.feedburner.com/你的blog名)就可以烧制啦。一旦你拥有了一个烧制的feed……&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[翻译]为什么我的FeedBurner订阅数会上下振荡呢？</title>
+      <link>https://chouj.github.io/2007/08/18/translation-why-feedburner-subscriber-count-fluctuate/</link>
+      <pubDate>Fri, 17 Aug 2007 16:54:16 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/08/18/translation-why-feedburner-subscriber-count-fluctuate/</guid>
+      <description>原文：Why does my Feedburner Subscriber Count Fluctuate?——08.16 
+作者：Darren Rowse
+翻译：抽筋儿
+ 为什么我的订阅量老蹦上蹦下的呢？ Feedburner的订阅量统计告诉我的订阅数增减确实是由读者订阅造成的吗？ 我注意到一天当中我的订阅数都会有上下波动，为什么？ 每周末我的订阅数都会下降，怎么回事啊？  在上一周，如上这些或类似的关于FeedBurner订阅数统计的问题，我总共被问到了七次！每次我都要找个答案应付下提问的朋友，我一度以为我知道真相，可事实并不是这样。
+所以今天一早，当我又有两次从邮箱里看到类似的问题，我觉得我该直接去找Feedburner的智慧之源——主管Feedburner信息发布服务的副主席Rick Klau先生——来问个清楚，他也许会给出订阅数波动的官方解释。
+Rick是这么回答我的： 当我们公布一个feed的订阅量时，它代表着一个总人数，当天所有请求获得feed信息的个体的总数。
+绝大部分订阅者都来自以下两个方面：
+ 使用离线单机阅读器的订阅者 使用浏览器端的线上阅读器的订阅者  就离线阅读来说，订阅者的阅读器基于他们自己的电脑，且一天中重复地抓取feed中的信息。我们可以思考一下这类feed信息请求的特性，区分一下同一个 人的多次请求（指规律性的定期探测，固定的ip地址和统一的客户端环境）和不同请求（指与之前所述一处或多处不同）间的差别。
+就线上阅读来说，比如My Yahoo, Google Reader, Bloglines, Pageflakes, 等等，这些服务也是全天都在读取feed信息，但却是多用户同时进行的。几乎所有的这些服务都会向我们报告他们有多少用户订阅了某个feed。到了一天末 尾，我们结算有多少订阅数来自离线阅读器，然后把这个数目加到来自线上阅读器的订阅数上，这样，最后的数目就是我们对外发布的feed订阅总数。（我抛开 了一些细节，下面是更细致的解答）
+而订阅数的波动几乎所有都是因为使用离线阅读器软件的订阅者在统计的那天没有打开电脑，或者没有启动他们的阅读器。如果他们的阅读器并不要求读取feed 的信息，那么我们就不知道它们的存在，结果就是并不把这些算在订阅数之内。（Darren注，这就是为什么在周末那个数字会掉下来，因为周末还开阅读器的人少嘛。）
+还有个解释就是，当站点的流量陡变之时，至少当一部分访客使用的浏览器版本过低时，我们无法区分到底是浏览器访问feed还是基于浏览器的feed阅读器在读取feed。关于这种情况的细致解释可以看这里——从我对关于站点流量大幅波动问题的解答中可以找到有用的信息。
+最后，为了全面把握订阅量统计数目的各个组成部分，去年我们在TechCrunch上做了一个研究。 这项研究应该能够深层次的说明订阅量是如何计算（且为什么会波动）的。同时，这项研究也着重评论了下“订阅实效量”（译者注：原文此处为Reach，意为真正通过feed在内容上进行了阅读动作或点击动作的数量，译者不才，权且这么丑陋的译一下）。订阅量可能包括了曾对你的内容感兴趣但并没有进行实际阅读 的订阅者数目，而“订阅实效量”与此不同，它统计的对象则是在阅读器中实际被阅读的条目数和将流量带回到发布者的站点的点击量。所以，订阅量单纯的代表所 有对feed内容感兴趣的读者的数目，而订阅实效量则更准确的勾画出了订阅者与feed内容交互的程度。
+【译者按】 博客圈内的总统博客和前博客都有解释订阅数变化的文章，作为本文的补充链接，值得一看：
+Feedburner 跳舞——总而言之，统而言之
+理解Feedburner订阅统计的变化——前～博客</description>
+    </item>
+    
+    <item>
+      <title>[翻译]RSS价值高于博客</title>
+      <link>https://chouj.github.io/2007/07/31/rss-higher-value-than-blogs/</link>
+      <pubDate>Tue, 31 Jul 2007 08:57:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/07/31/rss-higher-value-than-blogs/</guid>
+      <description>于7月25日发表的Forrester研究报告表明，在众多Web 2.0应用中，RSS技术价值最高。四月至六月，有275位IT界的决策者接受了研究报告的调查。
+23%的被调查对象认为RSS具有实质性的商业价值，三分之一的人为营销而使用RSS。排在RSS之后的最具价值Web 2.0应用为播客，有21%的被调查对象认同。
+相对而言，只有11%的人认为写博客有助于实质性商业价值的传播。还有14%的人说他们的企业并不评测Web 2.0应用的商业价值。但即便评测Web 2.0应用价值的公司，还是侧重依赖于传统的商业价值衡量方法，例如投资收益率和总购置成本。
+[via] 不知道翻译的对不对，- -#</description>
+    </item>
+    
+  </channel>
+</rss>

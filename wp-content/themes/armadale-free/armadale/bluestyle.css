@@ -1,0 +1,19 @@
+.topbars {background: url("images/bluetopbarbg.gif") repeat-x;}
+.topbarright {background: url("images/bluetopbarright.gif") no-repeat;}
+.topbarleft {background: url("images/bluetopbarleft.gif") no-repeat;}
+
+.page_item a{color: #a5bfdc;}
+.page_item a:hover, .current_page_item a, .current_page_item a:hover{color: #a5bfdc; background: url("images/bluetopbarhover.gif") no-repeat;}
+.page_item ul li a{color: #a5bfdc;}
+
+.navigation a {
+  background: #5e7ca0;
+}
+
+#searchform2 #s2 {color: #3a5b6c; background: url("images/bluesearchinput.gif") no-repeat;}
+#searchform2 #searchsubmit2 {background: url("images/bluesearchbutton.gif") no-repeat;}
+
+.post-date{ background: url("images/bluepost-date.gif") no-repeat bottom;}
+.post-date .month{color: #8ba7c5;}
+
+li div.comment-meta .author a, #cancel-comment-reply a, li .comment-reply a, h2#comments, h3#comments{color: #5e7ca0;}

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>河蟹 on 抽筋儿的话语权</title>
+    <link>https://chouj.github.io/tags/%E6%B2%B3%E8%9F%B9/</link>
+    <description>Recent content in 河蟹 on 抽筋儿的话语权</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
+    <lastBuildDate>Fri, 31 Aug 2007 09:20:25 +0000</lastBuildDate>
+    
+	<atom:link href="https://chouj.github.io/tags/%E6%B2%B3%E8%9F%B9/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>[草莓版]八月汇集：Sociality,Marketing,Mobile,Filter</title>
+      <link>https://chouj.github.io/2007/08/31/august-sociality-marketing-fliter-mobile/</link>
+      <pubDate>Fri, 31 Aug 2007 09:20:25 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/08/31/august-sociality-marketing-fliter-mobile/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://photo11.yupoo.com/20070830/154027_188461499_uqlzfxyc.jpg&#34; alt=&#34;Feedburner is blocked&#34; align=&#34;left&#34; /&gt;本以为八月过的比较平淡，没想到重磅炸弹都在月末：&lt;strong&gt;Bloglines杀回市场&lt;/strong&gt;，&lt;strong&gt;FeedBurner吃了河蟹&lt;/strong&gt;。搅得写草莓的人不得安生，改稿几次，郁闷又生了一级，- -|| 还是先为FeedBurner默哀三分钟吧，链接我就不贴了，24小时内GR里提到Feedburner的消息飙出近20条，风雨满城。综合几条&lt;strong&gt;应对措施&lt;/strong&gt;如下：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strike&gt;&lt;a href=&#34;http://www.xianguo.com&#34; title=&#34;鲜果&#34; target=&#34;_blank&#34;&gt;鲜果&lt;/a&gt;用户可更换在线阅读器为国外服务，如&lt;a href=&#34;http://www.google.com/reader/&#34; title=&#34;GR&#34; target=&#34;_blank&#34;&gt;GR&lt;/a&gt;或&lt;a href=&#34;http://beta.bloglines.com/&#34; title=&#34;Bloglines&#34; target=&#34;_blank&#34;&gt;Bloglines&lt;/a&gt;，这些阅读器可正常抓取Feedburner烧制的Feed（鲜果一定很郁闷）；&lt;/strike&gt;鲜果汇报已可正常抓取，期待Feedburner重新收纳鲜果的订阅数&lt;/li&gt;
+&lt;li&gt;订阅其他Feed托管商提供的Feed，本站&lt;strong&gt;Feedsky版Feed&lt;/strong&gt;为 &lt;a href=&#34;http://feed.feedsky.com/aboutrss&#34; title=&#34;本站Feedsky版Feed&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://feed.feedsky.com/aboutrss&#34;&gt;http://feed.feedsky.com/aboutrss&lt;/a&gt;&lt;/a&gt; ；&lt;/li&gt;
+&lt;li&gt;将页面上的 FeedBurner 订阅数字图标、广告代码、或者页面统计代码删除或替换为静态图片。因为这些代码会严重影响博客的加载速度，导致整个页面无法打开。by &lt;a href=&#34;http://www.ilmay.cn/post/hexie-feedburenr.html&#34; title=&#34;Feedburner被和谐啦！&#34; target=&#34;_blank&#34;&gt;长天暮鼓&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;目前 FeedBurner 烧制者首要做的是&lt;strong&gt;去掉 &lt;a href=&#34;http://fisio.cn/avoid-feed-link-redirecting.html&#34;&gt;FeedBurner 的跳转&lt;/a&gt;&lt;/strong&gt;——肥嫂，&lt;a href=&#34;http://fisio.cn/feedburner-solutions.html&#34; title=&#34;给本次Feedburner事件受害者们支招&#34; target=&#34;_blank&#34;&gt;给本次Feedburner事件受害者们支招&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.zuola.com/weblog/?p=876&#34; title=&#34;给托管了Feed的FeedBurner用户和Feedsky用户的solution&#34;&gt;给托管了Feed的FeedBurner用户和Feedsky用户的solution&lt;/a&gt;——Zola，需翻墙，技术文&lt;/li&gt;
+&lt;li&gt;站长们没事儿就去&lt;strong&gt;备份数据&lt;/strong&gt;吧，参考如下信息：&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;继“紫田”机房、广东汕头“蓝芒”机房,总数超过2000多台服务器被断网关闭处理后,今天我机房参加了省公安厅召开的“十七大”前严打“交互性网站”(论坛/博客/留言板)通告会。会议精神明确要求,各IDC服务商在十七大之前,必须强制关闭所有论坛/博客/留言板等交互性网站；整个机房只要发现超过7例,采取关闭机房强制性措施,并处罚款5-100万元。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;这时，我们需要&lt;a href=&#34;http://www.kakug.com/blog/archives/201&#34; title=&#34;怀念马丁·尼莫拉牧师&#34; target=&#34;_blank&#34;&gt;怀念下马丁·尼莫拉牧师&lt;/a&gt;：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;**“当初他们封&lt;a href=&#34;http://www.blogger.com/&#34; onclick=&#34;javascript:urchinTracker (&#39;/outgoing/www.blogger.com&#39;);&#34;&gt;blogspot&lt;/a&gt;，&lt;/p&gt;
+
+&lt;p&gt;我没有作声，&lt;/p&gt;
+
+&lt;p&gt;因为我很少更新我的Blogger；&lt;/p&gt;
+
+&lt;p&gt;后来他们封&lt;a href=&#34;http://www.flickr.com/&#34; onclick=&#34;javascript:urchinTracker (&#39;/outgoing/www.flickr.com&#39;);&#34;&gt;flickr&lt;/a&gt;，&lt;/p&gt;
+
+&lt;p&gt;我没有作声，&lt;/p&gt;
+
+&lt;p&gt;因为我一直在用&lt;a href=&#34;http://www.panoramio.com/user/173844&#34; onclick=&#34;javascript:urchinTracker (&#39;/outgoing/www.panoramio.com/user/173844&#39;);&#34;&gt;panoramio相册&lt;/a&gt;；&lt;/p&gt;
+
+&lt;p&gt;再接下来他们封&lt;a href=&#34;http://feeds.feedburner.com/kaku&#34; onclick=&#34;javascript:urchinTracker (&#39;/outgoing/feeds.feedburner.com/kaku&#39;);&#34;&gt;feedburner&lt;/a&gt;的时候，&lt;/p&gt;
+
+&lt;p&gt;我仍然保持沉默，&lt;/p&gt;
+
+&lt;p&gt;因为我用的是&lt;a href=&#34;http://www.kakug.com/blog/archives/163&#34; onclick=&#34;javascript:urchinTracker (&#39;/outgoing/www.kakug.com/blog/archives/163&#39;);&#34;&gt;河南网通&lt;/a&gt;，还没有&lt;a href=&#34;http://www.williamlong.info/archives/1032.html&#34; onclick=&#34;javascript:urchinTracker (&#39;/outgoing/www.williamlong.info/archives/1032.html&#39;);&#34;&gt;受到中国电信的这种骚扰&lt;/a&gt;；&lt;/p&gt;
+
+&lt;p&gt;最后，当他们开始对付&lt;a href=&#34;http://www.kakug.com/blog&#34; onclick=&#34;javascript:urchinTracker (&#39;/outgoing/www.kakug.com/blog&#39;);&#34;&gt;我的网站&lt;/a&gt;时，&lt;/p&gt;
+
+&lt;p&gt;已经没有人为我讲话了……”**&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;但是，在人们习惯性的把智慧都投入到揶揄和恶搞的时候，在人们对这些揶揄和恶搞麻木之前，请想想&lt;a href=&#34;http://feed.feedsky.com/min-jian&#34; title=&#34;《民间》 Feed&#34; target=&#34;_blank&#34;&gt;《民间》&lt;/a&gt;的口号：“&lt;strong&gt;行动改变生存&lt;/strong&gt;”，也许我们需要更多的周曙光：&lt;a href=&#34;https://www.zuola.com/weblog/?p=876&#34; target=&#34;_blank&#34;&gt;“还是那句话，弄点钱，有空起诉GFW去，这才是终极solution。”&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://photo5.yupoo.com/20070828/184610_1275588803_rrcvhspd.jpg&#34; title=&#34;RSS 草莓版&#34; alt=&#34;RSS 草莓版&#34; align=&#34;left&#34; height=&#34;130&#34; width=&#34;122&#34; /&gt;下面是半熟&lt;font color=&#34;#ff0000&#34;&gt;&lt;strong&gt;草莓&lt;/strong&gt;&lt;/font&gt;时间，因为结的籽儿不够多，囧：&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>河蟹长啥样？</title>
+      <link>https://chouj.github.io/2007/08/29/what-does-hexie-look-like/</link>
+      <pubDate>Wed, 29 Aug 2007 03:30:26 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/08/29/what-does-hexie-look-like/</guid>
+      <description> 河蟹长啥样   河蟹舌会会旗   河蟹舌会会员必备   河蟹舌会会员专项健身运动   河蟹舌会的电脑长啥样   河蟹舌会的猪都是怎么死的   河蟹的宠物   该宠物的口头禅   该宠物的窝   该宠物的癖好  
+××××××××××××××××××分割线×××××××××××××××× &amp;nbsp; 声援大猫，友情贴图 </description>
+    </item>
+    
+    <item>
+      <title>身边的河蟹</title>
+      <link>https://chouj.github.io/2007/08/11/news-around-me/</link>
+      <pubDate>Sat, 11 Aug 2007 13:23:49 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/08/11/news-around-me/</guid>
+      <description>总坐在电脑前，不利于人类进化，特在雨后趁着阴天，到珠江之畔散散心。搭了轮渡，吹着风，很是河蟹。不觉越走越远，直到新闻现场——
+ ** 特价猪肉引来顾客蜂拥抢购?超市电梯挤压伤人(图)**  双休中的家乐福自然人声鼎沸，有如菜市场一般，全无襄樊沃尔玛的那种空旷自由。当然，今天的菜市场还是非常河蟹的，至少我没看出丝毫如新闻中所述的火爆。不过，海珠区有些新开张超市出售每市斤6.9元的特价肉，如此惹人眼馋嘴痒的价格，足以成为威胁河蟹的因素。
+出行归来，在公寓活动室落坐，面前一硕大电视放着节目。不曾想离开两月再回来之后，河蟹社会造福于民，为我带来了数字电视，让我提前于内地享受了。瞟一眼桌上的报纸，映入眼帘的又是一则新闻——
+ ** 数字电视花脸多因线路问题 需要重新布线**  其实不止花脸，看某些台就像网络不好时看pplive，会卡的。在大学，我们在线看NBA，看世界杯，关键时刻卡掉的体验怕是要重演了。近日德甲开场，有人说21：30来看拜仁，不知央视最受欢迎的5套，会不会看的人越多越流畅呢？
+还有人问起歹命的凤凰卫视，家里人也因看不到鲁豫有约而惋惜过。时下网络上有“还我凤凰”的签名征集贴，有停播地区调查，百度知道对停播问题的解释更是千奇百怪。真正有些靠谱儿的，倒是华尔街日报的一则新闻：中国打击非法接收境外卫星电视节目（想看带留言评论的请到CB的这里），文中说：
+ 广电总局的这一指示大意是说，此举旨在强化监管，维护政府对信息的控制力，“阻止敌对势力的知识和文化渗透。”
+香港《南华早报》(South China Morning Post)称，这一打击行动既是要禁绝官方媒体以外的声音也是要保护大陆本地电视台的商业和内容垄断权，凤凰卫视等境外媒体已经夺去了它们的一部分观众。
+ 不禁让我和另一篇文章——傅国涌：活在一个可怕的时代（需代理翻墙，需要最新翻墙工具的到这里）——联想到一起。其实不仅人们活在一个可怕的时代，已经灭绝且绝于谋杀的白暨豚应该最有发言权，再怎么悼念都是那么苍白。
+顺道儿给自己普及个词儿：BRT——Bus Rapid Transit快速公交系统，广州最近热议中的项目。</description>
+    </item>
+    
+  </channel>
+</rss>

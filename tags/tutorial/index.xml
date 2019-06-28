@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tutorial on 抽筋儿的话语权</title>
+    <link>https://chouj.github.io/tags/tutorial/</link>
+    <description>Recent content in Tutorial on 抽筋儿的话语权</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
+    <lastBuildDate>Thu, 08 May 2008 07:03:16 +0000</lastBuildDate>
+    
+	<atom:link href="https://chouj.github.io/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>[ppt下载]如何利用”RSS”定制相关的学术资源</title>
+      <link>https://chouj.github.io/2008/05/08/ppt-rss-apply-for-academy/</link>
+      <pubDate>Thu, 08 May 2008 07:03:16 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2008/05/08/ppt-rss-apply-for-academy/</guid>
+      <description>早些时候我在以“RSS 图书馆”为关键字搜索时，看到了南开大学图书馆信息部邓克武老师的一个讲座，题为“如何利用&amp;#8217;RSS&amp;#8217;定制相关的学术资源”，深感惊奇。因为我之前有浅显得讨论学术领域的RSS应用，且最近也在思考高校在RSS普及上的作用，而高校开展这类性质的宣讲还真是我第一次见到，但愿是我孤陋寡闻或这类信息没有上网。
+我立即联系上了邓老师，邓老师给了我讲座的课件ppt，并允许我发布出来。在这里我要感谢热心的邓老师，这类ppt材料是少有而可贵的。
+该PPT面向RSS的初识者，以文字和图示结合的形式涵盖了RSS的概念、用途、价值和优势、订阅的方法以及学术资源信息的获取渠道。
+下载地址：Box下载 | 南开大学图书馆线上下载
+ppt版权归作者——南开大学图书馆信息部邓克武老师所有！</description>
+    </item>
+    
+    <item>
+      <title>学术领域的RSS应用</title>
+      <link>https://chouj.github.io/2008/03/05/rss-apply-for-academic/</link>
+      <pubDate>Wed, 05 Mar 2008 12:26:41 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2008/03/05/rss-apply-for-academic/</guid>
+      <description>&lt;p&gt;&lt;big&gt;&lt;big&gt;搞&lt;/big&gt;&lt;/big&gt;研究的同志们都很关心最新的期刊杂志又发表了哪些文章，似乎和RSS的作用很对路，所以，不妨利用RSS为研究人员的信息获取带来点便利。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.xuchi.name&#34; title=&#34;抽筋儿&#34; target=&#34;_blank&#34;&gt;&lt;big&gt;&lt;big&gt;抽&lt;/big&gt;&lt;/big&gt;筋儿&lt;/a&gt;注意到，很多学术性网站都提供了RSS输出功能，何不利用之。下面以&lt;a href=&#34;http://www.cnki.net/index.htm&#34; title=&#34;中国期刊全文数据库&#34; target=&#34;_blank&#34;&gt;中国期刊全文数据库&lt;/a&gt;为例，纯属抛砖。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[WP插件]BetterFeed使用指南</title>
+      <link>https://chouj.github.io/2007/10/25/wordpress-plugin-betterfeed/</link>
+      <pubDate>Thu, 25 Oct 2007 13:04:48 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/10/25/wordpress-plugin-betterfeed/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://photo5.yupoo.com/20071025/144157_423535404_lmeqxrcy.jpg&#34; title=&#34;WordPress&#34; alt=&#34;WordPress&#34; height=&#34;112&#34; width=&#34;112&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;除了&lt;a href=&#34;http://aboutrss.cn/2007/10/17/wordpress-plugin-copyfeed/&#34; title=&#34;[WP插件]©Feed指南及其汉化版&#34;&gt;上文&lt;/a&gt;介绍的WordPress&lt;a href=&#34;http://wordpress.org/extend/plugins/copyfeed/&#34; title=&#34;©Feed&#34;&gt;©Feed&lt;/a&gt;，&lt;a href=&#34;http://planetozh.com/blog/my-projects/wordpress-plugin-better-feed-rss/&#34; title=&#34;Wordpress Plugin : Better Feed&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;BetterFeed&lt;/strong&gt;&lt;/a&gt;也是一款用于更改Feed footer信息的强大插件。两者相比，前者具备Option界面，使用上比较傻瓜，后者则需要自己编辑插件部分代码；但前者不支持php语言调用，后者则可借助php参数调用，为feed添加进更有针对性、更智能的信息。所以说，两个插件各有优劣，不过，&lt;strong&gt;切勿同时启用&lt;/strong&gt;。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[WP插件]©Feed指南及其汉化版</title>
+      <link>https://chouj.github.io/2007/10/17/wordpress-plugin-copyfeed/</link>
+      <pubDate>Wed, 17 Oct 2007 12:16:45 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/10/17/wordpress-plugin-copyfeed/</guid>
+      <description>&lt;p&gt;适用于WordPress的&lt;strong&gt;&lt;a href=&#34;http://wordpress.org/extend/plugins/copyfeed/&#34; title=&#34;©Feed&#34;&gt;©Feed&lt;/a&gt;&lt;/strong&gt;插件功能强大，可在feed footer添加&lt;strong&gt;版权声明&lt;/strong&gt;、&lt;strong&gt;数字指纹、文章留言&lt;/strong&gt;、&lt;strong&gt;相关文章标题&lt;/strong&gt;，还可以控制feed&lt;strong&gt;是否全文输出&lt;/strong&gt;，因而很多bloggers都安装并启用了这款插件。现在，为方便国内用户，&lt;a href=&#34;http://angryouth.com/&#34; title=&#34;愤青团&#34;&gt;Anthony&lt;/a&gt;汉化了该插件，请有需要的朋友移步至此下载：&lt;/p&gt;
+
+&lt;p align=&#34;center&#34;&gt;
+  [ &lt;a href=&#34;http://www.angryouth.com/2007/10/15/copyrightfeed-chinese/&#34; title=&#34;CopyRightFeed 汉化版&#34; target=&#34;_blank&#34;&gt;点此进入&lt;strong&gt;©Feed汉化版&lt;/strong&gt;下载页&lt;/a&gt; ]
+&lt;/p&gt;
+
+&lt;p align=&#34;center&#34;&gt;
+  &amp;nbsp;
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[图文教程]给目录页或标签页添个Feed</title>
+      <link>https://chouj.github.io/2007/09/22/add-feed-to-category-or-tags/</link>
+      <pubDate>Sat, 22 Sep 2007 12:35:50 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/09/22/add-feed-to-category-or-tags/</guid>
+      <description>WordPress架构下的目录页和标签页不支持Feed输出。当我们想让自己的目录也支持Feed输出，或者，当我们只对blog某目录下的文章感兴趣的时候，想订阅这个目录，该怎么办呢？我们可以借助HTML2RSS工具来实现！
+以Feed43.com为例，抽儿PS了个教程， 由于图片硕大，就不贴在这里了，只放出LINK。依照教程思路，其他HTML2RSS工具同样能帮你给目录页或标签页添个Feed。
+[ 点此进入图文教程 ]
+Update:
+其实，在目录链接和标签链接后面加上/feed/就是目录页feed和标签页feed了。。。。我真傻，真的。
+比如：http://aboutrss.cn/category/wordpress/feed/</description>
+    </item>
+    
+    <item>
+      <title>中文BSP中寻找RSS地址</title>
+      <link>https://chouj.github.io/2007/03/03/rss-address/</link>
+      <pubDate>Sat, 03 Mar 2007 11:46:07 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/03/03/rss-address/</guid>
+      <description>具有哪些标志的页面、站点可以被订阅？这是首要问题，也就是要找到RSS源，或者称为FEED。左图就是当今最常见的FEED标志，表征此站可通过RSS订阅。
+常见字样为：RSSXML ATOM 
+常见图样为：
+另外IE7和Firefox都支持RSS自动搜寻功能，只要页面存在RSS源，浏览器上的标签就会高亮。以IE7为例：
+
+
+以FF为例：
+
+点击以上图样、浏览器RSS指示标志，都会得到该RSS地址，即一url。也就是说blog上该标志指向的链接地址，即RSS地址。如果您使用IE7，RSS内容页面上，将会有如下一段显示： 
+ 您正在查看的提要包含频繁更新的内容。订阅提要后，该提要会添加到“常见提要列表”中。该提要的更新信息会自动下载到计算机，通过 Internet Explorer 及其他程序可以查看这些信息。
+ 
+下面分别指出各国内BSP（Blog Service Providers）初始（未经烧制过）的RSS标志在哪里：
+新浪博客——侧栏上有如下标志： 推荐订阅：订阅到RSS阅读器
+sohu博客——博客名称＋博客地址链接＋
+网易博客——博客页最下：有RSS标志BlogBus——侧栏上有此标志： 什么是RSS？ 
+歪酷博客——侧栏上有此标志： 
+猫扑博客——侧栏上有此标志：My.Donews——侧栏“其他链接：”后有RSS字样链接 
+Blog.Donews——侧栏有“日志 RSS” 
+中文Blogger——页底有“订阅：帖子（Atom）字样链接</description>
+    </item>
+    
+    <item>
+      <title>Feed烧制教程贴 via Feedsky</title>
+      <link>https://chouj.github.io/2007/02/27/burn-feed-via-feedsky/</link>
+      <pubDate>Tue, 27 Feb 2007 12:23:52 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/02/27/burn-feed-via-feedsky/</guid>
+      <description>为什么很多博客上有花里胡哨的订阅按钮呢？那是因为博主为他的博客RSS烧制了一个Feed，提供Feed烧制服务的网站，一般都支持在线生成订阅按钮的服务。除此之外，我们能获得的好处还包括：对订阅数、订阅源进行一定的跟踪；Feed url页面更加美观，等等。
+Feedsky/Feedburner是国内外两家最常见的提供烧制服务的网站，既然本博客面向中文用户，就以Feedsky为例，图解Feed烧制过程。
+下图为您登录后的Feedsky首页图：
+Feedsky首页  
+圈一和圈二，Feedsky告 诉您为什么要烧一个Feed。圈三处，即是需要您录入的地方。若以为本博客烧Feed为例，填入的地址就可以是http: //www.xuchi.name/bog/或博客的初始RSS，即http: //www.xuchi.name/blog/feed/。博客的初始RSS可以在“订阅”、XML或RSS字样处找 到。录入完毕，点击下一步，见到下图：    Feedsky添加feed
+&amp;lt;p&amp;gt; &amp;lt;span style=&amp;quot;font-size: large;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;font-weight: bold;&amp;quot;&amp;gt;机&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;器 自动取得了Feed所指向的博客标题，剩下的信息可自行进行补充。新Feed地址即以http://feed.feedsky.com/打头，起名本着与 博客相关，好记的原则。本博客的Feed即烧制为http://feed.feedsky.com/aboutrss。点击下一步： &amp;lt;/p&amp;gt; &amp;lt;p style=&amp;quot;text-align: center&amp;quot;&amp;gt; &amp;lt;figure style=&amp;quot;width: 500px&amp;quot; class=&amp;quot;wp-caption aligncenter&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;http://pic.yupoo.com/xcchris/056069b38e98/46nehs6c.jpg&amp;quot;&amp;gt;&amp;lt;img title=&amp;quot;Feedsky添加feed成功&amp;quot; src=&amp;quot;http://pic.yupoo.com/xcchris/056069b38e98/46nehs6c.jpg&amp;quot; alt=&amp;quot;Feedsky添加feed成功&amp;quot; width=&amp;quot;500&amp;quot; /&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;figcaption class=&amp;quot;wp-caption-text&amp;quot;&amp;gt;Feedsky添加feed成功&amp;lt;/figcaption&amp;gt;&amp;lt;/figure&amp;gt; &amp;lt;p&amp;gt; &amp;lt;span style=&amp;quot;font-size: large;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;font-weight: bold;&amp;quot;&amp;gt;提&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;示烧制成功。上图中的小问号，即帮助您更好的享用服务，推荐过目。下面进入Feed管理。在Feed统计中，Feed订阅量以及该量的变化都将直观的呈现在您面前。&amp;lt;br /&amp;gt; &amp;lt;figure style=&amp;quot;width: 500px&amp;quot; class=&amp;quot;wp-caption aligncenter&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;http://pic.yupoo.com/xcchris/780199b3910a/bcb6zmlj.jpg&amp;quot;&amp;gt;&amp;lt;img title=&amp;quot;Feedsky feed管理&amp;quot; src=&amp;quot;http://pic.yupoo.com/xcchris/780199b3910a/bcb6zmlj.jpg&amp;quot; alt=&amp;quot;Feedsky feed管理&amp;quot; width=&amp;quot;500&amp;quot; /&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;figcaption class=&amp;quot;wp-caption-text&amp;quot;&amp;gt;Feedsky管理&amp;lt;/figcaption&amp;gt;&amp;lt;/figure&amp;gt; &amp;lt;/p&amp;gt; &amp;lt;p&amp;gt; &amp;lt;span style=&amp;quot;font-size: large;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;font-weight: bold;&amp;quot;&amp;gt;订&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;户使用什么样的订阅工具，您也能做到心中有数。 &amp;lt;/p&amp;gt; &amp;lt;p style=&amp;quot;text-align: center&amp;quot;&amp;gt; &amp;lt;a href=&amp;quot;http://pic.</description>
+    </item>
+    
+    <item>
+      <title>如何利用抓虾订阅blog</title>
+      <link>https://chouj.github.io/2007/02/24/zhuaxia/</link>
+      <pubDate>Sat, 24 Feb 2007 12:26:55 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/02/24/zhuaxia/</guid>
+      <description>抓虾，国内最为知名的基于RSS阅读的信息收藏和共享站点，特专门截几张图，写个教程。若仍未明白，可配合抓虾帮助来看。
+
+1.进入抓虾用户界面后，最上五个标签即“我的频道”、“我的收藏”、“我的小组”、“频道大全”、“热文排行”。左边有一溜侧栏，最上就是“添加频道”按钮，给出抓虾对频道的解释：
+ 什么是频道(RSS)?
+&amp;#8220;抓虾&amp;#8221;现在支持的频道就是RSS的地址。
+RSS(Really Simple Syndication)是站点用来和其他站点之间共享内容的一种简易方式（也叫聚合内容），通常被用于新闻和其他按顺序排列的网站，例如Blog。说得 更加简单一点，RSS就是一种用来分发和汇集网页内容的XML格式！如果你还是不太明白，没有关系，RSS是什么其实基本就不重要，重要的是RSS可以做 什么，下面我们就来了解一下，RSS能给我们带来什么：
+在许多新闻信息服务类网站及Blog上，会看到或者的按钮，有的网站使用一个图标，有的同时使用两个，这就是典型的提供RSS订阅的标志，这个图标一般链接到RSS信息源。当然，即使不用这样的图标也是可以的，只要提供订阅RSS信息源的URL即可。
+  2.点击“添加频道”后，即显示出如下界面：
+
+3.将RSS 地址，比如本站RSS地址 http://feed.feedsky.com/aboutrss 填入其中。或者直接填入本站地址http://www.xuchi.name/blog/category/aboutrss/ ，但不如直接填RSS地址便捷，因为涉及网络问题等因素，有可能抓虾会解析不到RSS地址。 
+4.抓虾对提交的地址进行分析后，给出相关描述如下。点“订阅到”选择要将站点存放的目录。 
+5.随后，将提示添加频道成功，在左侧栏内，即出现博客名称，括号中显示出未读posts。 
+6.点击左侧栏中的博客标题，右侧主页面即显示出博客文章标题，星号表示最新更新。再次点击侧栏中博客标题，星号将消失，表示文章已读过。 
+7.点击每篇文章标题后的空白区域即可展开该文章，使文章内容可见。 
+8.将鼠标移至主页面中的博客标题旁，即可显示出编辑/删除按钮，方便RSS FEED的管理操作。 
+9.点击“编辑”按钮，显示窗口如下，可更改该RSS FEED的一些属性。  抓虾毕竟是中文环境的，比Google Reader要更贴近中国用户，希望您能抓虾愉快！</description>
+    </item>
+    
+    <item>
+      <title>RSS &amp; Google打造个性主页</title>
+      <link>https://chouj.github.io/2007/02/21/google-personalized-page/</link>
+      <pubDate>Wed, 21 Feb 2007 12:39:43 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/02/21/google-personalized-page/</guid>
+      <description>看看下面这幅图，点击放大&amp;#8230;
+
+Chouj同学好早以前的google个性主页，我所关注的项目都在这里有所罗列，注意右边的blog标题排列了吗？&amp;#8230;不论新闻还是blog，只用打开这一个主页，就可以掌握所有我关注网页的更新情况。目前提供个性主页服务的网站有很多，比如飞鸽，Google只是其中之一。
+以上所有写有“编辑”的模块，都利用ajax而可以移动&amp;#8230;且可以设置标题链接显示的数目（1－9可选），是不是很high呢？
+想拥有这样的个性主页吗？不论你关注的是blog更新，还是时事新闻、技术速递，这里都能圆满的为你个人打造一个比较完美的网页定制浏览主页&amp;#8230;
+心动啦吧！！我来告诉你如何搞定这一切！
+关键词：google RSS
+1、从http://www.google.com，点右上角的“登录”，注册或登录&amp;#8230;
+2、点右上角的“个性化主页”进入你的个性主页啦！现在有几个默认的新闻分类模块！可以点“×”让其消失；可以点“编辑”，设置标题链接数目；可以当鼠标变成移动状态时，点住左键不放移动模块到想放的地方&amp;#8230;
+3、点右边的“添加内容”，然后进入诸多可添加元素的选择界面。从“我的资料”到“娱乐”都是google默认的分类显示，可以选择添加，点“立即添加” 按钮即可。但搜索框最右边的小字“按网址”才是 最重要的地方！！这里有两个作用：一是RSS搜索引擎、二是RSS订阅。先讲“搜索”，以“bbc中文网”为例，在表单提交框里输入 “bbc”，点击“开始”，搜索完毕后，下面会罗列最为相近的RSS站点..找到你要的站点，点“添加”即可将模块加入你的个性主页。再讲RSS订阅，很 多网页、论坛、blog都支持RSS/XML，一般比较显眼..好找..点下那种橘红的RSS标志，所打开的页面地址，即RSS地址，将其复制填入表单提 交框，点击“开始”即可添加该RSS站点的模块了。但也可能显示“搜索不匹配”或“错误”之类，这要么那个地址有误，要么搜索失败，可以再次尝试，点击 “开始”，RP好的话也许会成功。以添加我blog的RSS订阅模块为例，点击我blog右边栏“订阅”的Feed标志，获得其地址http://feed.feedsky.com/aboutrss，复制粘入表单框，点击“开始”即可。
+4、模块添加完毕后，调整模块位置和显示标题数目，以求美观，和分类准确。
+http://www.donews.net/sogoo/archive/2005/03/16/303272.aspx
+一个RSS地址搜集的比较全的帖子，可以去看看有什么你需要的。
+步骤很简练，只要填入Blog地址，Google也会识别出RSS url，所以想订阅什么，想添加什么模块全听凭您的操作，是不是很过瘾呢？那就赶紧自己动手定制Google个人主页吧。</description>
+    </item>
+    
+    <item>
+      <title>如何利用Google Reader订阅blog</title>
+      <link>https://chouj.github.io/2007/02/21/google-reader/</link>
+      <pubDate>Wed, 21 Feb 2007 12:35:53 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/02/21/google-reader/</guid>
+      <description>IE 7发布，亮点之一就是集成了RSS订阅功能，评论谓之“迎合‘高端’用户的胃口”，“为推广RSS订阅作出了贡献”。既然RSS订阅都高端了，那我也来推 广推广。平日深感众多开博人士尚不知RSS订阅为何物，仍停留在把博客加入收藏夹的“原始”阶段。要知道，订阅RSS即可实现对方更新的及时获知，省去挨 个打开收藏夹里链接的繁琐，故希望看了此教程后，各位也能接触“高端”，体验一把技术浪潮尖儿上的浪花。会用的还是请无视吧。
+此教程仅仅告诉丫RSS怎么用，至于RSS是虾米东东，丫在技术上又是怎么实现的，本教程一概不论。
+Step 1 找RSS
+具有哪些标志的页面、站点可以被订阅？这是首要问题，也就是要找到RSS源，或者称为FEED。
+常见字样为：RSS XML ATOM
+常见图样为： 
+各大BSP（博客服务提供商）的blog都支持RSS订阅，各blog上肯定有这些图样。
+另外IE7和Firefox都支持RSS自动搜寻功能，只要页面存在RSS源，浏览器上的标签就会高亮，以IE7为例：
+
+Step 2 获取RSS地址
+点击以上图样，或者浏览器RSS指示标签，都会得到该RSS地址。如果您使用IE7，将会有如下一段显示：
+ 您正在查看的提要包含频繁更新的内容。订阅提要后，该提要会添加到“常见提要列表”中。该提要的更新信息会自动下载到计算机，通过 Internet
+Explorer 及其他程序可以查看这些信息。
+ 有了RSS地址，即可进一步完成订阅的步骤。不过有些站点比较贱，点了以上图标弹出要求安装丫提供的订阅器，比如sohu博客。这时候就要灵活对待，其实sohu博客的rss地址，即在博客地址后加上“/rss”。
+Step 3 使用在线订阅服务
+光有地址还不行，还要有订阅的工具。目前比较常见的在线工具有google reader和抓虾，当然都要注册。以下以Google reader为例。
+reader左边栏见下图：
+点击“Add subscription”，如下：
+
+将获得的RSS地址复制于上图位置，添加，即可显示在下面了。有可能出现添加失败，多试几次也许就好了，看人品。标题右边括号里的数字即表示未阅览的post数，有没有这个数字即表示是否有新post。点击标题即可看到post，如下，点击看大图：
+
+OK，这个步骤完成，即可享用服务了。
+之前算入门的话，再扯点提高的，见下图。
+
+
+很多blog都可以见到以上这些按钮，同样是方便订阅的。但这个要先进一些，针对不同的订阅工具，丫用什么工具，就点对应的按钮就行了，不用像以上steps一样麻烦，快捷点。
+教程over，希望各位有博人士能用的上。</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,2 @@
+<h2 class="extratitle">TagsCloud</h2>
+<p><?php st_tag_cloud(); ?></p>

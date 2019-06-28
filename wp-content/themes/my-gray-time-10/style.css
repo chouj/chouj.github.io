@@ -1,0 +1,640 @@
+/*  
+Theme Name: My Gray Time
+Theme URI: http://www.idsg.it/
+Description: A fixed width, two columns theme for Wordpress with gray backgrounds.<br /><br />Wordpress Widgets supported.<br /><br />Extra? You can use .imgleft and .imgright classes to float images, Gravatar 2 plugin supported but not required.
+Version: 1.0
+Author: ShinRa
+Author URI: http://www.idsg.it/
+*/
+
+/*   BODY AND MISC   */
+
+body {
+background: #ffffff url(images/back-body.jpg) repeat-x top left;
+color: #333;
+font-family: arial, tahoma, verdana, sans-serif;
+font-size: 14px;
+margin: 0;
+padding: 0;
+
+}
+
+hr {
+display:none;
+}
+
+blockquote {
+font-family: 'Lucida bright', georgia, serif;
+color: #676767;
+font-size: 13px;
+}
+
+code {
+font-family:'Courier New', Courier, monospace;
+font-size: 15px;
+background:#f5f5f5;
+}
+
+del {
+}
+
+ins {
+}
+
+abbr {
+}
+
+acronym {
+}
+
+h1 {
+display: none;
+}
+
+/*   IMAGES   */
+
+img {
+padding: 6px;
+border: 1px solid #e5e5e5;
+display: block;
+background: #f5f5f5;
+}
+
+img.imgleft {
+float: left;
+margin-right: 5px;
+}
+
+img.imgright {
+float: right;
+margin-left: 5px;
+}
+
+/*   MAIN LINKS   */
+
+a {
+color:#576F8D;
+text-decoration:none;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+/*   MAIN WRAPPER   */
+
+#wrapper {
+width: 900px;
+margin: 0 auto 0 auto;
+padding: 0;
+text-align: left;
+}
+
+#sub-wrapper {
+}
+
+/*   HEADER   */
+
+#header {
+}
+
+#header h1 {
+}
+
+#header h2 {
+font-weight: normal;
+font-size: 30px;
+text-transform: uppercase;
+color: #bababa;
+margin-top: 30px;
+}
+
+#header h2 a:hover {
+color: #FF0000;
+text-decoration: none;
+}
+
+#header div.description {
+text-transform: uppercase;
+letter-spacing: 1px;
+color: #9a9a9a;
+text-decoration: none;
+margin-bottom: 90px;
+}
+
+#header div.description a:hover {
+color: #FF0000;
+text-decoration: none;
+}
+
+.TopMenu { margin: 53px; padding: 0px; position: absolute; top: 83px; left: 117px;  }
+.TopMenu ul { padding-left: 0;
+margin-left: 0;
+float: left;
+color: White;
+background-color: #ffffff;
+width:100%}
+
+.TopMenu li { display: inline; font-size: 14px;}
+
+.TopMenu li a { padding: 0.2em 1em;
+text-decoration: none;
+text-transform: uppercase;
+color: c6c6c6;
+background-color:#ffffff
+border-right: 1px solid #fff;
+float: left;}
+
+.TopMenu li a:visited { color:#576F8D;}
+
+.TopMenu li a:hover { background-color: #666666;
+color: #fff;}
+
+/*   MAIN CONTENTS   */
+
+p.post-date {
+float: left;
+color: #333;
+font-family: Georgia,'Lucida sans ms', Verdana, Arial, Helvetica, sans-serif;
+font-size: 0.9em;
+text-align: center;
+font-weight: bold;
+margin: 3px 10px 0 0;
+padding: 8px 3px;
+width: 48px;
+background: #f1f1f1;
+line-height:1em;
+border:2px solid #ccc
+}
+
+h2.pagetitle {
+font-size: 22px;
+color: #9e9e9e;
+font-weight: bold;
+text-transform: uppercase;
+background: transparent url(images/back-body.jpg) repeat-x top left;
+padding: 10px;
+}
+
+#content {
+padding-right: 290px;
+}
+
+#content h1 {
+}
+
+#content div.post {
+}
+
+#content div.post h2 {
+font-size: 26px;
+font-variant: small-caps;
+font-weight: bold;
+color: #6D8CC4;
+line-height: 0.6em;
+border-bottom: 8px solid #dfdfdf;
+}
+
+#content div.post h3 {
+font-family: georgia, serif;
+font-size: 23px;
+font-variant: small-caps;
+font-weight: normal;
+color: #6d6d6d;
+}
+
+#content div.post h4 {
+font-family: georgia, serif;
+font-size: 20px;
+font-variant: small-caps;
+font-weight: normal;
+color: #6d6d6d;
+}
+
+#content div.post h5 {
+font-family: georgia, serif;
+font-size: 17px;
+font-variant: small-caps;
+font-weight: normal;
+color: #6d6d6d;
+}
+
+#content div.post h6 {
+font-family: georgia, serif;
+font-size: 14px;
+font-variant: small-caps;
+font-weight: normal;
+color: #6d6d6d;
+}
+
+#content div.post h2 a {
+color: #6D8CC4;
+text-decoration: none;
+}
+
+#content div.post h2 a:hover {
+color: #D07878;
+}
+
+#content div.post p {
+line-height: 150%;
+}
+
+#content div.post p.date,
+#content div.post p.date a {
+color: #bebebe;
+text-align: right;
+text-transform: uppercase;
+margin-bottom: 43px;
+}
+
+p.nocomments {
+}
+
+#content div.post p.details_small {
+font-size: 12px;
+padding-left: 20px;
+background: transparent url(images/back-details.jpg) no-repeat left center;
+color: #aaa;
+}
+
+#content div.post ul {
+}
+
+#content div.post ul li {
+line-height: 140%;
+}
+
+#content div.post ol {
+}
+
+#content div.post ol li {
+line-height: 140%;
+}
+
+/*   NAVIGATION LINKS   */
+
+#content div.navigation {
+display: block;
+padding-top:10px;
+padding-bottom:40px;
+}
+
+#content div.navigation a {
+
+}
+
+#content div.navigation span.alignleft {
+float:left;
+width:45%;
+padding: 8px !important;
+background: #f5f5f5 !important;
+border: 1px solid #e9e9e9 !important;
+}
+
+#content div.navigation span.alignright {
+float:right;
+width:45%;
+text-align:right;
+padding: 8px !important;
+background: #f5f5f5 !important;
+border: 1px solid #e9e9e9 !important;
+}
+
+/*   COMMENTS AND COMMENTLIST   */
+
+h3#comments,
+h3#respond {
+font-family: georgia, serif;
+font-size: 22px;
+font-weight: normal;
+color: #8a8a8a;
+padding: 10px 0;
+}
+
+ol.commentlist {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+ol.commentlist li {
+padding: 10px;
+border: 1px solid #e5e5e5;
+background: #f5f5f5;
+margin-bottom: 12px;
+}
+
+ol.commentlist li.alt {
+background:#f2f2f2;
+}
+
+ol.commentlist li big {
+font-weight: bold;
+font-size: 18px;
+display: block;
+color: #606060;
+}
+
+ol.commentlist li span.await_mod {
+color: #c30;
+font-weight: bold;
+}
+
+ol.commentlist li span.comment_data a {
+font-size: 12px;
+}
+
+ol.commentlist li p {
+line-height: 140%;
+}
+
+p.allowed-tags {
+padding: 5px;
+border: 1px solid #e9e9e9;
+background:#f5f5f5;
+}
+
+/*   FORM ELEMENTS   */
+
+#commentform {
+}
+
+input {
+}
+
+input[type="submit"] {
+}
+
+input, textarea {
+padding: 4px 4px 4px 4px;
+border: 1px solid #025;
+}
+
+textarea {
+width:60%;
+}
+
+input[type="submit"],
+input[type="submit"]:focus {
+width: auto !important;
+background: #036 url(images/back-input.jpg) repeat-x center left;
+color: #fff;
+cursor: pointer;
+text-transform: uppercase;
+}
+
+input:focus {
+background: #E6EDF7 url(images/back-text.jpg) no-repeat top right;
+color: #333;
+}
+
+textarea:focus {
+background: #E6EDF7 url(images/back-textarea.jpg) no-repeat bottom right;
+color: #333;
+}
+
+#searchform br {
+}
+
+#searchform input {
+border-color: #664800;
+}
+
+#searchform input[type="submit"] {
+background-image: url(images/back-input-searchform.jpg);
+}
+
+/*   SIDEBAR   */
+
+#sidebar {
+width: 240px;
+margin: 0;
+padding: 0;
+padding-left: 15px;
+float: right;
+font-size: 12px;
+border-left: 1px solid #efefef;
+}
+
+#sidebar h1 {
+}
+
+#sidebar ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+#sidebar ul li{
+line-height: 160%;
+}
+
+#sidebar ul li h2 {
+font-weight: bold;
+font-size: 15px;
+text-transform: uppercase;
+color:#9e9e9e;
+}
+
+#sidebar a {
+padding-left: 13px;
+background: transparent url(images/icon-sidelink.jpg) no-repeat left center;
+}
+
+#sidebar a:hover {
+}
+
+#sidebar ul li a {
+}
+
+/*   SIDEBAR WIDGETS TAGS   */
+
+caption {
+}
+
+#sidebar table {
+width:90%;
+padding: 2px;
+background: #f5f5f5;
+border: 1px solid #e9e9e9;
+}
+
+#sidebar th {
+width: 12%;
+text-align:center;
+}
+
+#sidebar td {
+text-align:center;
+}
+
+#sidebar table a {
+padding: 0 !important;
+background-image: none !important;
+text-decoration:underline;
+}
+
+#sidebar table img {
+padding: 0px;
+margin: 0px;
+border: 0px;
+display: block;
+background:#ffffff
+}
+
+.recentcomments a {
+padding: 0 !important;
+background-image: none !important;
+}
+
+.recentcomments {
+}
+
+/*
+	PIE DI PAGINA
+*/
+
+#footer {
+margin-bottom: 0;
+padding-top: 30px;
+padding-bottom: 30px;
+clear: both;
+color: #999;
+font-size: 13px;
+text-align: center;
+background: #F7F7F7 url(images/back-foot.jpg) repeat-x top left;
+border-top: 3px solid #dfdfdf;
+}
+
+#footer p {
+width: 600px;
+margin: 0 auto 0 auto;
+text-align: left;
+clear: both;
+}
+
+#footer p.first {
+text-align: center;
+padding-top: 20px;
+}
+
+#footer p.incima {
+text-align: center;
+padding-top: 20px;
+}
+
+#footer a {
+color:#777;
+text-decoration: none;
+}
+
+#footer a:hover {
+text-decoration: underline;
+}
+
+/*
+	FOOTERBAR
+*/
+
+#footerbar {
+width: 900px;
+margin: auto;
+}
+
+#footerbar h2 {
+font-size: 16px;
+font-weight: normal;
+padding-bottom: 7px;
+border-bottom: 2px solid #dadada;
+}
+
+#footerbar ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+#footerbar ul li {
+width: 205px;
+float: left;
+text-align: left;
+margin: 10px;
+}
+
+#footerbar ul li ul li {
+margin: auto;
+float: none;
+width: auto;
+line-height: 140%;
+}
+
+/*   EXTRAS   */
+
+.sh_avatar, .gravatar {
+width: 40px;
+height: 40px;
+float: right;
+}
+
+
+#global-feed {
+width: 150px;
+height: 155px;
+display: block;
+position: absolute;
+top: 20px;
+left: 50%;
+margin-left: 320px;
+background: transparent url(images/back-feed.png) no-repeat top left;
+}
+
+#global-feed span {
+display: none;
+}
+
+#site_content {position: absolute;left: -10000px;};
+
+/*
+	LISTE ARCHIVI E ULTIMI MESSAGGI
+*/
+
+ul.recenti {
+margin: 0 0 0 0;
+padding: 0 0 0 0;
+list-style-type: none;
+}
+
+ul.recenti li {
+padding: 5px 0 5px 0;
+}
+
+ul.recenti li.sinistro {
+width: 70%;
+float: left;
+border-bottom: 1px solid #ededed;
+}
+
+ul.recenti li.destro {
+width: 30%;
+float: left;
+color: #999;
+text-align: right;
+border-bottom: 1px solid #ededed;
+}
+
+ul.recenti li:hover {
+background-color: #f3f7fd;
+color: #333;
+}
+
+ul.recenti li a {
+padding-left: 20px;
+background: transparent url(images/back-recenti.png) no-repeat center left;
+text-decoration: none;
+}
+
+ul.recenti li a.no-back {
+padding-left: 0;
+background-image: none;
+}

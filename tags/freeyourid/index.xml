@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>FreeYourID on 抽筋儿的话语权</title>
+    <link>https://chouj.github.io/tags/freeyourid/</link>
+    <description>Recent content in FreeYourID on 抽筋儿的话语权</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
+    <lastBuildDate>Sun, 25 Feb 2007 07:24:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://chouj.github.io/tags/freeyourid/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>翻译FreeYourID.com</title>
+      <link>https://chouj.github.io/2007/02/25/translate-freeyourid-dot-com/</link>
+      <pubDate>Sun, 25 Feb 2007 07:24:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/02/25/translate-freeyourid-dot-com/</guid>
+      <description>Welcome to YourID.name
+线下，每个人都会有出生证明；在这里，您将享受线上的身份证明服务。
+您获取了什么信息，这些信息的用途，怎么能联系到您……我们将把您的这些网上信息捆绑起来加以个人化，并协助您管理您的网上身份。我们能让友善的人更加容易的找到您，而让坏蛋难于非法获取、使用您的个人信息。
+为了更好的建立网上的身份数据和享用个人服务，我们将为您激活您的网上私人地址，这一地址包括一个.name域名和可伴随一生的建立在您自己域名上的电子邮箱。并且，配送一个Openid以进行个人身份管理，您也可以选择Pageflakes提供的个人网页服务。
+试用服务为90天，您会喜欢上这项服务的。
+什么是OpenID ?
+您可将您的OpenID视为您的线上身份管理库。有了OpenID, 您就可以对提交给各个站点的个人信息加以控制。对于不同的网络服务，您再也不需记住不同的个人密码，而且，当你注册新的站点新的服务时，再也不用一次一次的输入繁琐的个人信息。
+可进行提交和分享的个人信息都存储在您的Openid中，而您有权对向谁提交什么信息进行控制。您的密码不会透露给任何人或单位，只有您知道它，即使您使用OpenID登录的站点都不会获知您的密码。
+有了OpenID，您的所有线上身份都将受您掌控。现在就利用OpenID来进行管理吧！
+.name &amp;#8211; 您一生的个人地址
+对于个人一生享用的网上身份来说，获得一个个人的点name域名和基于此域名的电子信箱是每个人梦寐以求的。为了方便录入和记忆，以您的姓名构建的点name域名地址同时也是您的OpenID。
+以基于个人点name域名的信箱作为您一生的电子信箱地址，既彰显个性，又极具魅力和纪念意义。对于您的朋友和家人来说，这表明您再也不会更改邮箱地址了。同时无论您使用Hotmail、Yahoo、Gmail还是其他网络服务商、邮箱服务商，他们都能在这一统一的，个人的地址联系到您。
+如何使用?  您的Open ID是基于您所申请的点name域名的, 比方说,您申请到的点name域名为peter.morgan.name，则您的OpenID即peter.morgan.name。当您需要登入支持OpenID的站点，只需提交您的个人点name域名地址，然后该站点会自动联入OpenID服务器以寻求您的认证。如果您需要，服务器将要求您决定哪些信息可提交给站点，而您仅仅需要登录OpenID一次。
+&amp;lt;p&amp;gt; 如果您的点name域名为peter.morgan.name，您的个人信箱即为peter@morgan.name。如果您仍使用其他信箱，您可设定将其他信箱的信件转交给此地址，或者反之。&amp;lt;span style=&amp;quot;color: #666666;&amp;quot;&amp;gt;（此段为抽筋儿添加，:-P）&amp;lt;/span&amp;gt; &amp;lt;/p&amp;gt;   
+对FreeYourID.com进行的翻译，算是免费打广告了。橙色部分最为诱人，可惜只能适用三个月。（待续）</description>
+    </item>
+    
+  </channel>
+</rss>

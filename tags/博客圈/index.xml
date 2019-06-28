@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>博客圈 on 抽筋儿的话语权</title>
+    <link>https://chouj.github.io/tags/%E5%8D%9A%E5%AE%A2%E5%9C%88/</link>
+    <description>Recent content in 博客圈 on 抽筋儿的话语权</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
+    <lastBuildDate>Mon, 12 Feb 2007 13:21:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://chouj.github.io/tags/%E5%8D%9A%E5%AE%A2%E5%9C%88/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>博客圈试用报告</title>
+      <link>https://chouj.github.io/2007/02/12/blog-network-try-out/</link>
+      <pubDate>Mon, 12 Feb 2007 13:21:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/02/12/blog-network-try-out/</guid>
+      <description>心里一直认为，以feed合烧为技术支撑搭建博客圈平台，让每个blogger都可以打造自己的博客群落，是一项很2.0很in的服务。所以当Feedsky博客圈出现的时候，我再次感受到了技术带来的快乐。当然，我这草民没有Feedsky博客圈的划圈儿权，但在网上误打误撞中，发现了这个博客圈，试用报告如下。
+动作
+划了个襄樊四中03届高三六班博客圈儿，这里是合烧feed地址。可以预想，博客圈将成为班级交流的另一崭新阵地。
+特点
+每个用户的划圈儿数目不限；支持blog posts、评论、留言审核，即圈主享有posts、评论和留言的生杀大权。所建圈子支持分类，支持tag，支持圈子名称更改和圈子简介，支持圈子头像。莫名的是：有分类有tag，就是没见圈子搜索，没见所有分类页面，没见所有tags页面。
+每个圈子有自己的二线域名，比如高三六班博客圈儿；圈子支持公告，支持圈主随时加入new blogger，支持申请加入（即提交feed，要圈主审核），每篇post支持网友评论（不需注册），支持给圈主留言。
+采取添加feed的方式添加圈子博友。
+每个加入圈子的feed，支持头像，支持blog名称更改，支持博主名称更改，支持单blog独立页面（比如这里）。
+另外，既然feed合烧了，那么就不用将所有博客挨个订阅，仅订此一个feed即可。在当今feed蒲公英满天飞的年代，这个优点还是很实在的。
+BUG报告
+1、添加feed后，编辑博客网址的输入框中，可输入字符长度不够，看过源代码，maxlength=&amp;#8221;20&amp;#8243;，20完全不够。直接后果即输入不全，导致此页右侧blog链接为“http://xcchris.blogs”。
+2、同一feed，加入不同圈子，则在后加的圈子中，显示不出post。比如我后建的物理0301圈子，加入我自己的feed后，没有posts显示。这个伤很致命，但愿不是试用时我这里出的什么问题。
+看的出，这里才诞生不久，博客圈论坛里没有一个帖子。不过，这仍是前途无量的web service，至少我看好。我把我的试用报告mail给对方了，期待完善，期待搭配圈子搜索，继续关注之。
+同时YY一下，Feedsky的博客圈什么时候下放用户创建的功能呢？
+Update：纠正下BUG 2。同一feed，加入其他圈子，则不能即时显示出post，一定反应时间（时间还挺长）后才能显示出来。这样就还好，不算致命，但还是改之为妙。</description>
+    </item>
+    
+  </channel>
+</rss>

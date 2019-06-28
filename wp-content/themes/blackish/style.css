@@ -1,0 +1,14 @@
+/* 
+Theme Name: Blackish
+Title: Screen styles and ie/win fixes
+Description: Blackish is a 2 columns wordpress theme with a beautiful combination of Red, Black and Grey. Sponsored By: <a target="_blank" href="http://www.dirjournal.com">The Directory Journal</a> and <a target="_blank" href="http://www.elegantdirectory.com">Elegant Directory</a> . Get more free themes like this from <a target="_blank" href="http://www.dirjournal.com/wp-themes/">DirJournal Free WP Themes</a>
+Author: Hasan Saleem
+Author Email: hasan@templatesfactory.net
+Author URI: http://www.templatesfactory.net
+Last Update: June 23rd, 2007
+*/
+
+/* import stylesheets and hide from ie/mac \*/
+@import url("master.css");
+@import url("ie.css");
+/* end import/hide */

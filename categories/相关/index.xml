@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>相关 on 抽筋儿的话语权</title>
+    <link>https://chouj.github.io/categories/%E7%9B%B8%E5%85%B3/</link>
+    <description>Recent content in 相关 on 抽筋儿的话语权</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
+    <lastBuildDate>Fri, 15 Sep 2017 02:24:40 +0000</lastBuildDate>
+    
+	<atom:link href="https://chouj.github.io/categories/%E7%9B%B8%E5%85%B3/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Telegram同城广播频道的建立方法</title>
+      <link>https://chouj.github.io/2017/09/15/telegram%E5%90%8C%E5%9F%8E%E5%B9%BF%E6%92%AD%E9%A2%91%E9%81%93%E7%9A%84%E5%BB%BA%E7%AB%8B%E6%96%B9%E6%B3%95/</link>
+      <pubDate>Fri, 15 Sep 2017 02:24:40 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2017/09/15/telegram%E5%90%8C%E5%9F%8E%E5%B9%BF%E6%92%AD%E9%A2%91%E9%81%93%E7%9A%84%E5%BB%BA%E7%AB%8B%E6%96%B9%E6%B3%95/</guid>
+      <description>目标：建立一个Telegram频道，自动广播同城文娱活动，如影讯、展览、表演等。
+工具：Feed43、IFTTT。
+方法：
+以为豆瓣最近发布的同城活动页面生成RSS feed为例：
+Feed43的用法可问搜索引擎。Item (repeatable) Search Pattern的填入代码如下：
+&amp;lt;img data-lazy=&#34;{%}&#34;{*} &amp;lt;div class=&#34;title&#34;{*} &amp;lt;a href=&#34;https://www.douban.com/event/{%}/&#34; title=&#34;{%}&#34; itemprop=&#34;url&#34;&amp;gt;{*} &amp;lt;span class=&#34;hidden-xs&#34;&amp;gt;时间：&amp;lt;/span&amp;gt;{%}&amp;lt;{*} &amp;lt;span class=&#34;hidden-xs&#34;&amp;gt;地点：&amp;lt;/span&amp;gt;{%}&amp;lt;{*} &amp;lt;span class=&#34;hidden-xs&#34;&amp;gt;费用：&amp;lt;/span&amp;gt;{*} &amp;lt;strong&amp;gt;{%}&amp;lt;/strong&amp;gt;{*} &amp;lt;span class=&#34;meta-title&#34;&amp;gt;发起：&amp;lt;/span&amp;gt;{*} &amp;lt;a target=&#34;db-event-owner&#34; href=&#34;{*}&#34;&amp;gt;{%}&amp;lt;/a&amp;gt;  抓取结果如下：
+接着，RSS设置里这么填：
+如果需要全文feed，可以借助Feedex。
+然后，添加IFTTT bot作频道管理员；在IFTTT网站，If RSS Feed, then _Telegram_就好。
+广州城事频道收录了以下网页，供参考：
+广州近期同城活动、广州影讯、市民办事最新服务、旅游资讯、琶洲展览会、广东科学中心活动、广图活动发布、广少图活动发布、广州科普自由行、广州科普一日游、广州塔最新活动、中山纪念堂演出资讯、长隆缤纷活动。</description>
+    </item>
+    
+    <item>
+      <title>写RSS普及教程也能发学术论文</title>
+      <link>https://chouj.github.io/2011/04/26/%E5%86%99rss%E6%99%AE%E5%8F%8A%E6%95%99%E7%A8%8B%E4%B9%9F%E8%83%BD%E5%8F%91%E5%AD%A6%E6%9C%AF%E8%AE%BA%E6%96%87/</link>
+      <pubDate>Tue, 26 Apr 2011 15:05:34 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2011/04/26/%E5%86%99rss%E6%99%AE%E5%8F%8A%E6%95%99%E7%A8%8B%E4%B9%9F%E8%83%BD%E5%8F%91%E5%AD%A6%E6%9C%AF%E8%AE%BA%E6%96%87/</guid>
+      <description>话说今天在一论文分享站里看到一篇关于RSS的论文，好奇查了下来源，很错愕。文章信息如下：
+ Laura E. Pence, Harry E. Pence, 2008: Accessing and Managing Scientific Literature: Using RSS in the Classroom. J. Chem. Educ., 85 (10), p 1449
+DOI: 10.1021/ed085p1449
+Publication Date (Web): October 1, 2008
+ 从维基上了解到_J. Chem. Educ._是美国教育类杂志《Journal of Chemical Education》的缩写，创办于1924年（o_o!），09年影响因子0.586（o.o!！）！
+比我写《学术领域的RSS应用》还要晚几个月，结果人家发一学术论文，我发一blog post，我擦，这是何等的差距啊！
+近距离围观传送门（下载地址）：</description>
+    </item>
+    
+    <item>
+      <title>转至Twitter发布RSS的相关信息</title>
+      <link>https://chouj.github.io/2010/03/22/aboutrss-at-twitter/</link>
+      <pubDate>Mon, 22 Mar 2010 14:17:33 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2010/03/22/aboutrss-at-twitter/</guid>
+      <description>本站职能也无外乎把美味书签（delicious.com）里rss/feed tag下的最新东西罗列至此，目前想来，还不如在Twitter写140字畅快。遂经由TwitterFeed自动发布美味书签（delicious.com）里rss/feed tag下条目于@aboutrss。欢迎发喽，本人id @chouj 亦会不时RT @aboutrss的消息并作简短注解。</description>
+    </item>
+    
+    <item>
+      <title>“枪版”全文RSS Feed的是与非</title>
+      <link>https://chouj.github.io/2009/08/19/about-fullview-feed-diy/</link>
+      <pubDate>Tue, 18 Aug 2009 16:56:04 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2009/08/19/about-fullview-feed-diy/</guid>
+      <description>&lt;p&gt;&lt;img title=&#34;“枪版”全文RSS Feed的是与非&#34; src=&#34;http://pic.yupoo.com/xcchris/188367ee3952/am5ayc5h.jpg&#34; alt=&#34;“枪版”全文RSS Feed的是与非&#34; width=&#34;630&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;欣欣然想在这里发布一些推友制作的全文RSS Feeds的时候，我想到了版权问题，于是有了这个名字：&lt;strong&gt;“枪版”全文RSS Feed&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;什么是“枪版”全文RSS Feed？&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;利用一些网络应用将门户或纸媒网络版的摘要型Feed全文化所得到的全文RSS Feed，就被我起名为&lt;strong&gt;“枪版”RSS Feed&lt;/strong&gt;。这跟“枪版”电影的道理是一样的：“枪版”电影虽然也算推广了作品，但毕竟影响票房，侵犯版权；私制的全文RSS Feed传递了信息，方便了订阅者，但损害了门户和纸媒网站的利益，一样侵权。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[翻译]有关RSS的ABC</title>
+      <link>https://chouj.github.io/2009/07/27/translation-abcs-of-rss/</link>
+      <pubDate>Mon, 27 Jul 2009 13:34:38 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2009/07/27/translation-abcs-of-rss/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://pic.yupoo.com/xcchris/152046216d4e/07vxiyl1.jpg&#34; alt=&#34;[翻译]有关RSS的ABC&#34; align=&#34;right&#34; /&gt;[原文]&lt;a title=&#34;ABCs of RSS feeds&#34; href=&#34;http://www.feedforall.com/abcs-of-rss.htm&#34; target=&#34;_blank&#34;&gt;ABC&amp;#8217;s of RSS Feeds&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;[作者]Sharon Housley&lt;/p&gt;
+
+&lt;p&gt;[翻译]抽筋儿&lt;/p&gt;
+
+&lt;p&gt;[译者按]能力有限，欢迎指正。&lt;/p&gt;
+
+&lt;p&gt;[全文]&lt;/p&gt;
+
+&lt;p&gt;Implementing RSS (Really Simple Syndication) can be aided by an understanding of the terms relating to RSS. Learn the ABCs of RSS&amp;#8230;.&lt;/p&gt;
+
+&lt;p&gt;来学RSS的ABC吧，了解了这些和RSS有关的东东，你就能搞懂RSS啦。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;A &amp;#8211; AutoDiscovery（自动识别）&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Auto Discovery is code that is inserted into the header of an HTML web page, which then indicates to readers that an RSS feed is available for the content.&lt;/p&gt;
+
+&lt;p&gt;如果网页HTML源码的头部中有了自动识别编码，那么阅读器就能知道该网页有RSS feed可读取。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;B &amp;#8211; Blogs（博客）&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Blogs are web logs that are updated regularly, usually on a daily basis. Blogs generally contain information related to a specific topic. In some cases, blogs are used as daily diaries about people&amp;#8217;s personal lives, political views, or even as social commentaries. The truth of the matter is that blogs can be shaped into whatever the author wants them to be. While initially thought of as diaries or online journals, blogs have evolved into the latest fresh web content.&lt;/p&gt;
+
+&lt;p&gt;每日更新或规律更新的网络日志就是博客，它往往有其特定的主题，比方个人日记，政治倾向，甚至是时事探讨。最关键的是，博主能依照他们的意愿决定博客的一切（译者注：请参照贵国基本国情理解），因此本被理解为线上日记的博客变成了网络上的新鲜内容发源地。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;C &amp;#8211; Cache（缓存）&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Cache is a temporary storage area for frequently-accessed or recently-accessed data. Having certain data stored in a cache area speeds up the operation of the computer. Using a cache with RSS feeds will help minimize bandwidth and display an RSS feed&amp;#8217;s content quicker.&lt;/p&gt;
+
+&lt;p&gt;最近或经常调用的数据就会被堆放在缓存里。电脑就是有益于缓存而使得运行速度提高。在RSS feeds里配备缓存可以减少带宽占用并加快内容展示的速度。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>RSS Reader vs Twitter，信息获取方式如何选择</title>
+      <link>https://chouj.github.io/2009/06/27/rss-reader-vs-twitter/</link>
+      <pubDate>Sat, 27 Jun 2009 08:31:49 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2009/06/27/rss-reader-vs-twitter/</guid>
+      <description>即便是这次出海之前，我也很少打开Google Reader了。一方面是因为忙，一方面是因为Twitter。如果QQ弹出新闻算是信息推送的进步的话，那么RSS和微博客的出现则可以称为“革命”。如何与信息同步，阅读器和微博客各自的优势何在，寥寥分析一下：
+ 阅读器之贮存，微博客之即时  阅读器是信息的湖，新东西收留与此等待主人探索，主人的阅读是对泄洪力度的控制，Mark all as read可称为“决堤”。湖里的水往往停驻许久，不像流动的河水那么新鲜。
+微博客是信息的河，下一刻的水和这一刻迥然不同，看过也罢，没看到也罢，河水依然。每一条，都是汇聚成Stream的溪，当然也不排除有些小溪流进了玩聚RT的湖。
+ 阅读之习惯，推优之持久  无暇之人，可以在工作之余，洗个实实在在的澡，然后打开阅读器，再洗个信息的澡。对于生活规律，且因为工作无法online的朋友来说，阅读器是不二之选。
+有闲有网之人，则适合在各类终端上，和推特持久缠绵。手机笔记本，桌面客户端，火狐附加组件都是他们的小JJ，哪儿都可以爽。过分得爽，即便不会过劳死，我想也会影响工作学习的吧。
+However，我个人觉得天天开阅读器放水有些累，或是会审美疲劳。没事的时候从微博客的河里捞点小鱼小虾也很快哉。
+ 阅读器之死，微博客之生  人与人的对话，牵扯到阅读器和微博客，则落实为留言和@somebody。这回阅读器落了下风。
+湖是死的，想交流就得跟大马哈鱼似的溯流而上，这就是博客留言少的原因；而河是活的，推优们都在河里呐喊彷徨，对话是微博客的一大特色。
+另外，作为信息湖源头的各博客，畏惧河蟹的力量——忽然觉得似乎“湖蟹”比较合适——声音孱弱 了许多；而流水般的微博客里，愤怒能汇成浪花。
+ 到底要咋样  无外乎参考您的信息需求和时间分配，是开辟一个阅读器时间，还是申请加入锐推党，您自己说了算。
+我的Twitter: http://twitter.com/chouj 欢迎发喽。</description>
+    </item>
+    
+    <item>
+      <title>ForRSS.com：围绕RSS的又一博</title>
+      <link>https://chouj.github.io/2009/01/31/forrss-com/</link>
+      <pubDate>Sat, 31 Jan 2009 13:57:53 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2009/01/31/forrss-com/</guid>
+      <description>套用下老套台词：”我很欣慰！“，哈哈！我非常高兴又看到一个全面介绍RSS web应用的中文Blog诞生，她就是ForRSS：A Weblog that Covers All Things RSS，由博主火星人执笔。纵观ForRSS这几个月的posts，她均以简短精湛的汉字介绍了当下以RSS为基础的网络应用服务。能有更多介绍RSS应用的中文日志甚至是中文blog涌现，让RSS不再是GEEKer的玩物，正是我所乐见的！
+如果想follow最新最帅的RSS应用，就请跟紧ForRSS！</description>
+    </item>
+    
+    <item>
+      <title>RSS相关祝您牛年大吉～！</title>
+      <link>https://chouj.github.io/2009/01/26/happy-ox-year/</link>
+      <pubDate>Mon, 26 Jan 2009 12:35:41 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2009/01/26/happy-ox-year/</guid>
+      <description>我要给两种人类拜年！一种是知道RSS的朋友，一种是不知道RSS的朋友！哈哈！
+
+特此感谢老乡digitalboy密制的油炸RSS标志！</description>
+    </item>
+    
+    <item>
+      <title>2008年会神秘物品：RSS棒球帽</title>
+      <link>https://chouj.github.io/2008/11/26/rss-hat/</link>
+      <pubDate>Tue, 25 Nov 2008 18:13:44 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2008/11/26/rss-hat/</guid>
+      <description>&lt;p&gt;2008中文网志年会上的神秘物件，就是印有RSS醒目logo的棒球帽。虽然我人在广州，但没能参加，特从淘宝上买了顶。碰巧购入Canon A590 IS，所以有照片送上：&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://creativecommons.org/licenses/by-nc-nd/2.0/deed.zh&#34;&gt;&lt;img class=&#34;Icon&#34; src=&#34;http://www.yupoo.com/images/icon_creative_commons.gif&#34; alt=&#34;&#34; width=&#34;15&#34; height=&#34;15&#34; /&gt;&lt;/a&gt;{.plain} 署名-非商业性使用-禁止演绎&lt;/p&gt;
+
+&lt;p&gt;RSS标志细节，丝绣的，相机的微距还成：&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.yupoo.com/photos/view?id=ff8080811dcae72b011dd4c0a0035ad7&#34; title=&#34;RSS棒球帽logo&#34;&gt;&lt;img src=&#34;http://pic.yupoo.com/xcchris/5671768faf80/custom.jpg&#34; border=&#34;0&#34; alt=&#34;RSS棒球帽&#34; width=&#34;468&#34; height=&#34;351&#34; /&gt;&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>与RSS有关的网摘</title>
+      <link>https://chouj.github.io/2008/10/20/articles-about-rss-collected/</link>
+      <pubDate>Mon, 20 Oct 2008 15:22:43 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2008/10/20/articles-about-rss-collected/</guid>
+      <description>草莓版RSS相关信息汇集停止于去年十月(其实没做几期)，这是一项我觉得挺有意义的工作，能实现信息的浓缩和再消化。一年过去了（似乎网络上草莓版的东西活得不大长），估计以后我也不会重新拾它起来，一是因为写它太费精力，负担不起，时间是需要用在刀刃上的；二是目前博客圈都弥漫着倦怠，文章质和量都趋于下乘，以RSS为题材的文与同期相比更是少了许多。
+不过，还是需要靠群策群力来为RSS应用广而告之，所以我以网摘的形式，分享中文虚拟世界里不时出现的RSS相关文章，将它们收录于侧栏。正如左图所示，此栏目唤作“搜罗天下有关RSS的优秀文章(feed)”。围绕RSS应用的新闻、讨论、介绍都包含于其中。欢迎朋友们或关注，或订阅。
+说实话，通过搜索引擎过来的点击都有很强的目的性，是为问题而来，不是为浏览而来。所以该栏目收录条目超过100，但点击率依然很差，特独立撰文提携一下，望能有朋友从中受益。
+[ 搜罗天下有关RSS的优秀文章 | feed ]</description>
+    </item>
+    
+    <item>
+      <title>高校是推广RSS应用的助燃剂</title>
+      <link>https://chouj.github.io/2008/07/06/university-is-pioneer-to-popularize-rss/</link>
+      <pubDate>Sun, 06 Jul 2008 15:55:05 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2008/07/06/university-is-pioneer-to-popularize-rss/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://pic.yupoo.com/xcchris/0009358731b0/wlqr2ez9.jpg&#34; alt=&#34;高校是推广RSS应用的助燃剂 题图&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;不谈啥高深理论窥伺未来，因为那是一小撮会用RSS的童鞋们该想的事情，我只用想怎么让一小撮变成一大撮。&lt;/p&gt;
+
+&lt;p&gt;言归正传。象牙塔里的学生们都会用RSS获知图书馆新书通报，要毕业的学生用RSS即时了解岗位工作的招聘信息，科研课题组成员以RSS订阅学术期刊，跟踪科研前沿动态，哇噻，这是多么美妙的景象。所以，随便想想，就能知道RSS在高校的应用潜力，没错，关键词就是：“&lt;strong&gt;高校&lt;/strong&gt;”。高校是不是应该教会童鞋们利用RSS来捕获感兴趣的信息，如若做到这点，那无疑&lt;strong&gt;高校将成为RSS应用扫盲班&lt;/strong&gt;，加速推进RSS应用的普及。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>图书馆的RSS应用之路</title>
+      <link>https://chouj.github.io/2008/05/16/rss-apply-for-library/</link>
+      <pubDate>Fri, 16 May 2008 06:00:06 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2008/05/16/rss-apply-for-library/</guid>
+      <description>&lt;p&gt;&lt;img class=&#34;alignleft&#34; style=&#34;float: left;&#34; src=&#34;http://pic.yupoo.com/xcchris/7155059095ff/qdvxbe62.jpg&#34; alt=&#34;图书馆的RSS应用之路&#34; /&gt;近年来，RSS在图书馆学上的应用似乎成为图书馆学界的热点，网络上有两篇代表性的文献值得浏览：&lt;/p&gt;
+
+&lt;p&gt;[pdf]2006年7月——&lt;a href=&#34;http://www.lac.org.tw/epaper/200607/RSS20060716.pdf&#34; target=&#34;_blank&#34;&gt;&lt;span style=&#34;color: #cc0033;&#34;&gt;RSS&lt;/span&gt; 介绍及其在&lt;span style=&#34;color: #cc0033;&#34;&gt;图书馆&lt;/span&gt;的应用&lt;/a&gt;&lt;span&gt;&amp;#8211; &lt;span class=&#34;a&#34;&gt;繁&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;[pdf]2008年1月——&lt;a href=&#34;http://www.lis.ac.cn/download/LIS_NET/2008-01/03-%E5%9F%BA%E4%BA%8ERSS%E6%8E%A8%E9%80%81%E6%8A%80%E6%9C%AF%E7%9A%84%E5%9B%BE%E4%B9%A6%E9%A6%86%E6%96%B0%E5%9E%8B%E4%BF%A1%E6%81%AF%E6%9C%8D%E5%8A%A1-%E6%9D%A8%E5%BF%83%E5%AE%81.pdf&#34; target=&#34;_blank&#34;&gt;基于&lt;span style=&#34;color: #cc0033;&#34;&gt;RSS&lt;/span&gt; 推送技术的&lt;span style=&#34;color: #cc0033;&#34;&gt;图书馆&lt;/span&gt;新型信息服务&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;图书馆网站应用RSS技术的好处&lt;/strong&gt;：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;实现新书通报、馆藏动态等信息的推送服务，为资源的热门程度等角度进行导航；&lt;/li&gt;
+&lt;li&gt;实现关键词订阅、信息门类订阅，辅助图书馆用户搜索资源。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;图书馆网站应用RSS技术的现状&lt;/strong&gt;：&lt;/p&gt;
+
+&lt;p&gt;稍微搜索一下便知，目前国内借助RSS作为信息推送和搜索辅助的图书馆不多。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>订阅统计DIY的可行性</title>
+      <link>https://chouj.github.io/2008/05/05/feedcount-diy/</link>
+      <pubDate>Sun, 04 May 2008 17:55:01 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2008/05/05/feedcount-diy/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://wpchina.org/images/w-event-plugin-1.gif&#34; alt=&#34;我为WP中文化做贡献：推荐一款优秀的WP插件&#34; width=&#34;200&#34; height=&#34;80&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;较早前，曾兄曾在博客联盟分析过&lt;a title=&#34;feedburner，feedsky还是原始 feed？&#34; href=&#34;http://blogunion.org/blogging-tips/feedsky-feedburner-or-original-feed.html&#34; target=&#34;_blank&#34;&gt;feed到底要不要托管&lt;/a&gt;，结论是&lt;strong&gt;视订阅量为浮云的稳定独立博客何不使用原始feed&lt;/strong&gt;，这样更新更迅速（无需等托管商的爬虫来采集）。Charlee推出的一款&lt;a title=&#34;Feed统计插件My Feed Stats发布&#34; href=&#34;http://tech.idv2.com/2007/11/12/my-feed-stats/&#34; target=&#34;_blank&#34;&gt;My Feed Stats WordPress Plugin&lt;/a&gt;则让feed不托管的适用范围更加广阔，我们使用原始feed一样能知道订阅量指标，姑且称之为订阅统计DIY。RSS相关曾&lt;a title=&#34;[WP插件]My Feed Stats介绍&#34; href=&#34;http://aboutrss.cn/2008/02/10/my-feed-stats/&#34; target=&#34;_self&#34;&gt;简介过这款插件&lt;/a&gt;，经过我在WP2.5.1下的测试可用后，再次详细推荐一下，没有它我们的讨论就没有意义：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://pic.yupoo.com/xcchris/946285840dc1/busvb7e4.jpg&#34; alt=&#34;My Feed Stats&#34; width=&#34;450&#34; height=&#34;200&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;插件名称：&lt;a title=&#34;Feed统计插件My Feed Stats&#34; href=&#34;http://tech.idv2.com/2007/11/12/my-feed-stats/&#34; target=&#34;_blank&#34;&gt;My Feed Stats&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;作者：&lt;a title=&#34;idv2.com&#34; href=&#34;http://tech.idv2.com/&#34; target=&#34;_blank&#34;&gt;Charlee&lt;/a&gt;（国人哦）&lt;/p&gt;
+
+&lt;p&gt;适用版本：WordPress 2.3+&lt;/p&gt;
+
+&lt;p&gt;语言：中文&lt;/p&gt;
+
+&lt;p&gt;备注：需导入数据库文件，不适合yo2类BSP&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a title=&#34;Feed统计插件My Feed Stats&#34; href=&#34;http://tech.idv2.com/2007/11/12/my-feed-stats/&#34; target=&#34;_blank&#34;&gt;下载页面 安装方法&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>RSS相关一周年数据统计</title>
+      <link>https://chouj.github.io/2008/04/18/aboutrss-anniversary/</link>
+      <pubDate>Fri, 18 Apr 2008 03:39:03 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2008/04/18/aboutrss-anniversary/</guid>
+      <description>RSS相关一周年矣。这一年数据统计：
+**日志68 篇
+评论320 条
+ip访问量25000+
+订阅量700+
+PR=3**
+10 hottest posts  [翻译]10个用于合并RSS Feeds的工具{#r_l_23} 帕兰整理的RSS Feed图标大集合{#r_l_24} 为什么要用线上RSS阅读器？{#r_l_25} [WP插件]My Feed Stats介绍 [草莓版]十月汇集：订阅数风波迭起，挑战赛拼搏到底 [WP插件]BetterFeed使用指南 学术领域的RSS应用{#r_l_26} [WP插件]©Feed指南及其汉化版 TagMindr：Remember the future 又有RSS标志设计出炉  10 most commented posts  17 [翻译]为什么要用Feedburner的十大理由 16 [WP插件]©Feed指南及其汉化版 15 为什么要用线上RSS阅读器？ 11 [草莓版]七月汇集：共享与广告 竞争与生存 11 [WP插件]BetterFeed使用指南 9 [翻译]为什么我的FeedBurner订阅数会上下振荡呢？ 9 我使用的Feed类WordPress插件 8 feeds.Feedburner.com二级域名访问失效？ 8 [草莓版]十月汇集：订阅数风波迭起，挑战赛拼搏到底 8 又有RSS标志设计出炉  一时心动开了这个blog，没想到一年后交出的答卷还成。其间有努力，有懈怠，被赞赏过，估计也让大家失望过；但不管怎么说，很高兴自己能做点事情，也很高兴借此认识了不少朋友。不敢说以后会做的更好，但我会一直在这里。:)</description>
+    </item>
+    
+    <item>
+      <title>学术领域的RSS应用</title>
+      <link>https://chouj.github.io/2008/03/05/rss-apply-for-academic/</link>
+      <pubDate>Wed, 05 Mar 2008 12:26:41 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2008/03/05/rss-apply-for-academic/</guid>
+      <description>&lt;p&gt;&lt;big&gt;&lt;big&gt;搞&lt;/big&gt;&lt;/big&gt;研究的同志们都很关心最新的期刊杂志又发表了哪些文章，似乎和RSS的作用很对路，所以，不妨利用RSS为研究人员的信息获取带来点便利。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.xuchi.name&#34; title=&#34;抽筋儿&#34; target=&#34;_blank&#34;&gt;&lt;big&gt;&lt;big&gt;抽&lt;/big&gt;&lt;/big&gt;筋儿&lt;/a&gt;注意到，很多学术性网站都提供了RSS输出功能，何不利用之。下面以&lt;a href=&#34;http://www.cnki.net/index.htm&#34; title=&#34;中国期刊全文数据库&#34; target=&#34;_blank&#34;&gt;中国期刊全文数据库&lt;/a&gt;为例，纯属抛砖。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[草莓版]十月汇集：订阅数风波迭起，挑战赛拼搏到底</title>
+      <link>https://chouj.github.io/2007/11/05/articles-about-rss-in-october/</link>
+      <pubDate>Mon, 05 Nov 2007 05:53:47 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/11/05/articles-about-rss-in-october/</guid>
+      <description>&lt;p&gt;&lt;font color=&#34;#999999&#34;&gt;在&lt;a href=&#34;http://www.yeeyan.com/articles/view/7683/2294&#34; target=&#34;_blank&#34;&gt;世界顶级赚钱博客Rss订阅挑战赛&lt;/a&gt;中，十月开始了，不过我不知道结果，囧～最近忙的像条狗（狗们好像挺悠闲的，都可以按点儿睡觉），所以此文迟到5天，顺道热烈祝贺&lt;a href=&#34;http://www.cnbloggercon.org/&#34; target=&#34;_blank&#34;&gt;2007中文网志年会&lt;/a&gt;结束！圆不圆满不好说，因为我看到了&lt;a href=&#34;http://www.kenengba.com/post/285.html&#34; title=&#34;有点失败的网志年会&#34; target=&#34;_blank&#34;&gt;不满&lt;/a&gt;。&lt;/font&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;small&gt;&lt;/small&gt;&lt;/p&gt;
+
+&lt;p class=&#34;post&#34; style=&#34;margin-top: 1em&#34;&gt;
+  &lt;img src=&#34;http://photo5.yupoo.com/20070828/184610_1275588803_rrcvhspd.jpg&#34; title=&#34;RSS相关 草莓版信息汇集&#34; alt=&#34;RSS相关 草莓版信息汇集&#34; height=&#34;130&#34; width=&#34;122&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;[ &lt;strong&gt;Google Reader 订阅数那点事&lt;/strong&gt; ]&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.google.com/reader&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://photo11.yupoo.com/20071104/214230_579105010_xfybkhzb.jpg&#34; title=&#34;Google Reader&#34; alt=&#34;Google Reader&#34; align=&#34;left&#34; border=&#34;0&#34; height=&#34;39&#34; width=&#34;130&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;模仿一下曹增辉“&lt;a href=&#34;http://www.caozenghui.cn/?p=230&#34; title=&#34;订阅数这点事&#34; target=&#34;_blank&#34;&gt;订阅数这点事&lt;/a&gt;”的标题先。这小风波算是从国外一路吹到国内，历程基本一致：先是&lt;a href=&#34;http://www.ilmay.cn/post/google-reader-show-numbers.html&#34; title=&#34;到底有多少人用Google Reader订阅你的博客&#34; target=&#34;_blank&#34;&gt;揭密阶段&lt;/a&gt;，说Google Reader的订阅数可查；后来辟谣阶段，说&lt;a href=&#34;http://googlereader.blogspot.com/2007/10/subscriber-stats-summed-up.html&#34; target=&#34;_blank&#34;&gt;官方发话&lt;/a&gt;啦，&lt;a href=&#34;http://www.williamlong.info/archives/1094.html&#34; title=&#34;那不是Google Reader的订阅数&#34; target=&#34;_blank&#34;&gt;那不是GR的订阅数&lt;/a&gt;。抽儿和&lt;a href=&#34;http://www.caozenghui.cn/?p=230&#34; title=&#34;订阅数这点事&#34; target=&#34;_blank&#34;&gt;曹某的看法&lt;/a&gt;一致，以IT为主题的blog自然会报道这些，但对诸bloggers来说，&lt;strong&gt;那只是个数字而已，不要过于追求&lt;/strong&gt;；而且，&lt;a href=&#34;http://www.kenengba.com/post/278.html&#34; title=&#34;至少一半的订阅数是无用的&#34; target=&#34;_blank&#34;&gt;至少一半的订阅数是无用的&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;还好奇的话，就去TechCrunch看看&lt;a href=&#34;http://www.techcrunch.com/2007/10/14/top-blogs-on-google-reader/&#34; title=&#34;top blogs on google reader &#34; target=&#34;_blank&#34;&gt;Top Blogs on Google Reader&lt;/a&gt;吧～&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[草莓版]九月汇集：FB消化掉河蟹，GR发布中文版</title>
+      <link>https://chouj.github.io/2007/10/01/articles-about-rss-in-september/</link>
+      <pubDate>Sun, 30 Sep 2007 18:15:06 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/10/01/articles-about-rss-in-september/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://photo5.yupoo.com/20070828/184610_1275588803_rrcvhspd.jpg&#34; title=&#34;RSS相关 草莓版信息汇集&#34; alt=&#34;RSS相关 草莓版信息汇集&#34; height=&#34;130&#34; width=&#34;122&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;[&lt;strong&gt;&lt;a href=&#34;http://www.feedburner.com&#34; target=&#34;_blank&#34;&gt;FeedBurner&lt;/a&gt;吃河蟹&lt;/strong&gt;]&lt;/p&gt;
+
+&lt;p&gt;8月底，&lt;a href=&#34;http://aboutrss.cn/2007/08/29/is-feeds-dot-feedburner-gfwed/&#34;&gt;FB吃上了河蟹&lt;/a&gt;，一月后，仍有朋友&lt;a href=&#34;http://www.iamvip.net/blog/review/53&#34; title=&#34;Feedburner被和谐之后…&#34; target=&#34;_blank&#34;&gt;撰文悼念之&lt;/a&gt;，实属效力强劲，耐力持久，FeedBurner一“举”成为9月RSS相关话题中的热门关键词，实乃拜男性健康用品“河蟹”所赐。9月12日，&lt;a href=&#34;http://www.williamlong.info/archives/1053.html&#34; title=&#34;网通用户无法访问FeedBurner&#34; target=&#34;_blank&#34;&gt;报网通也无法访问feeds.feedburner.com二级域名&lt;/a&gt;，标志着吃河蟹吃完满了，剩下全国bloggers给这一事件抹嘴。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[翻译]为什么要用Feedburner的十大理由</title>
+      <link>https://chouj.github.io/2007/09/02/10-reasons-why-you-should-choose-feedburner/</link>
+      <pubDate>Sun, 02 Sep 2007 13:29:27 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/09/02/10-reasons-why-you-should-choose-feedburner/</guid>
+      <description>&lt;p&gt;原文：&lt;a href=&#34;http://moblogsmoproblems.blogspot.com/2007/08/10-ways-you-can-use-feedburner-to.html&#34;&gt;10 Ways You Can Use Feedburner to Improve Your Blog&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;作者：&lt;em&gt;Mack Collier&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;翻译：&lt;a href=&#34;http://www.xuchi.name/blog/&#34; title=&#34;抽筋儿&#34; target=&#34;_blank&#34;&gt;抽筋儿 &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://bp1.blogger.com/_S_50sh4glvU/RrU0GQep7fI/AAAAAAAAAJA/kIITPv2Vz6o/s1600-h/FB.gif&#34;&gt;&lt;img src=&#34;http://bp1.blogger.com/_S_50sh4glvU/RrU0GQep7fI/AAAAAAAAAJA/kIITPv2Vz6o/s320/FB.gif&#34; style=&#34;margin: 0pt 0pt 10px 10px; float: right&#34; border=&#34;0&#34; /&gt;&lt;/a&gt;还在今年二月的时候，我就注意到一个有趣的现象：我的Feed读者赶上了我的日访者数。这值得我注意，我开始花费更多的时间来分析Feed统计数据，我也花掉大量的时间来研究&lt;a href=&#34;http://www.feedburner.com/&#34;&gt;Feedburner&lt;/a&gt;，我很快就发现Feedburner拥有一大堆丰富的功能来让bloggers传播、优化和追踪他们发布的内容。&lt;/p&gt;
+
+&lt;p&gt;1 &amp;#8211; &lt;span style=&#34;font-weight: bold&#34;&gt;烧制一个Feed。&lt;/span&gt;只要免费注册一个帐号，给Feed想一个好名字，(&lt;a href=&#34;http://feeds.feedburner.com/你的blog名)就可以烧制啦。一旦你拥有了一个烧制的feed……&#34;&gt;http://feeds.feedburner.com/你的blog名)就可以烧制啦。一旦你拥有了一个烧制的feed……&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[草莓版]八月汇集：Sociality,Marketing,Mobile,Filter</title>
+      <link>https://chouj.github.io/2007/08/31/august-sociality-marketing-fliter-mobile/</link>
+      <pubDate>Fri, 31 Aug 2007 09:20:25 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/08/31/august-sociality-marketing-fliter-mobile/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://photo11.yupoo.com/20070830/154027_188461499_uqlzfxyc.jpg&#34; alt=&#34;Feedburner is blocked&#34; align=&#34;left&#34; /&gt;本以为八月过的比较平淡，没想到重磅炸弹都在月末：&lt;strong&gt;Bloglines杀回市场&lt;/strong&gt;，&lt;strong&gt;FeedBurner吃了河蟹&lt;/strong&gt;。搅得写草莓的人不得安生，改稿几次，郁闷又生了一级，- -|| 还是先为FeedBurner默哀三分钟吧，链接我就不贴了，24小时内GR里提到Feedburner的消息飙出近20条，风雨满城。综合几条&lt;strong&gt;应对措施&lt;/strong&gt;如下：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strike&gt;&lt;a href=&#34;http://www.xianguo.com&#34; title=&#34;鲜果&#34; target=&#34;_blank&#34;&gt;鲜果&lt;/a&gt;用户可更换在线阅读器为国外服务，如&lt;a href=&#34;http://www.google.com/reader/&#34; title=&#34;GR&#34; target=&#34;_blank&#34;&gt;GR&lt;/a&gt;或&lt;a href=&#34;http://beta.bloglines.com/&#34; title=&#34;Bloglines&#34; target=&#34;_blank&#34;&gt;Bloglines&lt;/a&gt;，这些阅读器可正常抓取Feedburner烧制的Feed（鲜果一定很郁闷）；&lt;/strike&gt;鲜果汇报已可正常抓取，期待Feedburner重新收纳鲜果的订阅数&lt;/li&gt;
+&lt;li&gt;订阅其他Feed托管商提供的Feed，本站&lt;strong&gt;Feedsky版Feed&lt;/strong&gt;为 &lt;a href=&#34;http://feed.feedsky.com/aboutrss&#34; title=&#34;本站Feedsky版Feed&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://feed.feedsky.com/aboutrss&#34;&gt;http://feed.feedsky.com/aboutrss&lt;/a&gt;&lt;/a&gt; ；&lt;/li&gt;
+&lt;li&gt;将页面上的 FeedBurner 订阅数字图标、广告代码、或者页面统计代码删除或替换为静态图片。因为这些代码会严重影响博客的加载速度，导致整个页面无法打开。by &lt;a href=&#34;http://www.ilmay.cn/post/hexie-feedburenr.html&#34; title=&#34;Feedburner被和谐啦！&#34; target=&#34;_blank&#34;&gt;长天暮鼓&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;目前 FeedBurner 烧制者首要做的是&lt;strong&gt;去掉 &lt;a href=&#34;http://fisio.cn/avoid-feed-link-redirecting.html&#34;&gt;FeedBurner 的跳转&lt;/a&gt;&lt;/strong&gt;——肥嫂，&lt;a href=&#34;http://fisio.cn/feedburner-solutions.html&#34; title=&#34;给本次Feedburner事件受害者们支招&#34; target=&#34;_blank&#34;&gt;给本次Feedburner事件受害者们支招&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.zuola.com/weblog/?p=876&#34; title=&#34;给托管了Feed的FeedBurner用户和Feedsky用户的solution&#34;&gt;给托管了Feed的FeedBurner用户和Feedsky用户的solution&lt;/a&gt;——Zola，需翻墙，技术文&lt;/li&gt;
+&lt;li&gt;站长们没事儿就去&lt;strong&gt;备份数据&lt;/strong&gt;吧，参考如下信息：&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;继“紫田”机房、广东汕头“蓝芒”机房,总数超过2000多台服务器被断网关闭处理后,今天我机房参加了省公安厅召开的“十七大”前严打“交互性网站”(论坛/博客/留言板)通告会。会议精神明确要求,各IDC服务商在十七大之前,必须强制关闭所有论坛/博客/留言板等交互性网站；整个机房只要发现超过7例,采取关闭机房强制性措施,并处罚款5-100万元。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;这时，我们需要&lt;a href=&#34;http://www.kakug.com/blog/archives/201&#34; title=&#34;怀念马丁·尼莫拉牧师&#34; target=&#34;_blank&#34;&gt;怀念下马丁·尼莫拉牧师&lt;/a&gt;：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;**“当初他们封&lt;a href=&#34;http://www.blogger.com/&#34; onclick=&#34;javascript:urchinTracker (&#39;/outgoing/www.blogger.com&#39;);&#34;&gt;blogspot&lt;/a&gt;，&lt;/p&gt;
+
+&lt;p&gt;我没有作声，&lt;/p&gt;
+
+&lt;p&gt;因为我很少更新我的Blogger；&lt;/p&gt;
+
+&lt;p&gt;后来他们封&lt;a href=&#34;http://www.flickr.com/&#34; onclick=&#34;javascript:urchinTracker (&#39;/outgoing/www.flickr.com&#39;);&#34;&gt;flickr&lt;/a&gt;，&lt;/p&gt;
+
+&lt;p&gt;我没有作声，&lt;/p&gt;
+
+&lt;p&gt;因为我一直在用&lt;a href=&#34;http://www.panoramio.com/user/173844&#34; onclick=&#34;javascript:urchinTracker (&#39;/outgoing/www.panoramio.com/user/173844&#39;);&#34;&gt;panoramio相册&lt;/a&gt;；&lt;/p&gt;
+
+&lt;p&gt;再接下来他们封&lt;a href=&#34;http://feeds.feedburner.com/kaku&#34; onclick=&#34;javascript:urchinTracker (&#39;/outgoing/feeds.feedburner.com/kaku&#39;);&#34;&gt;feedburner&lt;/a&gt;的时候，&lt;/p&gt;
+
+&lt;p&gt;我仍然保持沉默，&lt;/p&gt;
+
+&lt;p&gt;因为我用的是&lt;a href=&#34;http://www.kakug.com/blog/archives/163&#34; onclick=&#34;javascript:urchinTracker (&#39;/outgoing/www.kakug.com/blog/archives/163&#39;);&#34;&gt;河南网通&lt;/a&gt;，还没有&lt;a href=&#34;http://www.williamlong.info/archives/1032.html&#34; onclick=&#34;javascript:urchinTracker (&#39;/outgoing/www.williamlong.info/archives/1032.html&#39;);&#34;&gt;受到中国电信的这种骚扰&lt;/a&gt;；&lt;/p&gt;
+
+&lt;p&gt;最后，当他们开始对付&lt;a href=&#34;http://www.kakug.com/blog&#34; onclick=&#34;javascript:urchinTracker (&#39;/outgoing/www.kakug.com/blog&#39;);&#34;&gt;我的网站&lt;/a&gt;时，&lt;/p&gt;
+
+&lt;p&gt;已经没有人为我讲话了……”**&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;但是，在人们习惯性的把智慧都投入到揶揄和恶搞的时候，在人们对这些揶揄和恶搞麻木之前，请想想&lt;a href=&#34;http://feed.feedsky.com/min-jian&#34; title=&#34;《民间》 Feed&#34; target=&#34;_blank&#34;&gt;《民间》&lt;/a&gt;的口号：“&lt;strong&gt;行动改变生存&lt;/strong&gt;”，也许我们需要更多的周曙光：&lt;a href=&#34;https://www.zuola.com/weblog/?p=876&#34; target=&#34;_blank&#34;&gt;“还是那句话，弄点钱，有空起诉GFW去，这才是终极solution。”&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://photo5.yupoo.com/20070828/184610_1275588803_rrcvhspd.jpg&#34; title=&#34;RSS 草莓版&#34; alt=&#34;RSS 草莓版&#34; align=&#34;left&#34; height=&#34;130&#34; width=&#34;122&#34; /&gt;下面是半熟&lt;font color=&#34;#ff0000&#34;&gt;&lt;strong&gt;草莓&lt;/strong&gt;&lt;/font&gt;时间，因为结的籽儿不够多，囧：&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[草莓版]七月汇集：共享与广告 竞争与生存</title>
+      <link>https://chouj.github.io/2007/07/31/what-happened-in-july/</link>
+      <pubDate>Tue, 31 Jul 2007 15:00:04 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/07/31/what-happened-in-july/</guid>
+      <description>火热七月，大事有三：刚入七月的OPML共享活动，紧接着Feedsky首开国内RSS展示广告的先河，再然后大家都能感觉到的：鲜果 VS 抓虾，这样的竞争无处不在。
+[OPML共享]
+7月3日，月光分享了他的Opml订阅Feed，6日Src发起OPML共享运动，一时间订阅数飙升，参与和讨论不断，分外河蟹。活动意义诸多：通告大家在面对信息过载，和未读数斗争的日子里，如何管理你的订阅，如何学会筛选和过滤，以避免RSS阅读焦虑的灾难；同时也可开阔视野，避免坐井观天。忧虑的声音也有，因为信息重叠和喜好有别。
+看来初识RSS的新鲜感已经过去，随之而来的问题是，海量信息（特别是微内容兴起之后）冲刷之下谁能站得更稳。如何找寻个性化阅读，如何学会攀登信息时代的通天塔，和菜头说“资讯的量未必意味着质，披沙沥金这种事情是必须要做的”，故方法一是人主观为之。方法二则是机器为之，目前大家可以运用的有OgOg——dig性质的RSS联合服务，或借助AideRSS来提高RSS Feed的阅读效率，但这些服务都尚在机器过滤的摸索中。要我说，还是自己人肉过滤来的靠谱儿，XD～
+[Feedsky展示广告]
+
+7月2日，盗盗说Feedsky进军RSS广告业，一石激起千层浪（1、2），随着官方正式宣布展示广告开通，广告Banner就旗帜般挂满Feed世界的大街小巷，博客赚钱愈发炙手可热。如何在WP下把默认Feed转向Feedsky，如何实现Feedburner到Feedsky的无缝无痛切换（1、2）， 纷至沓来。真正要能赚到钱，月光在Feedburner的RSS广告收益分析中告诉了我们要点，值得一看；但还需要忍受Athere大叔在实验报告中指出的Feedsky抓取慢的诟病。现状呢？在Google Adsense单价颇低的基本国情下，在博客赚钱甚嚣尘上的初级阶段中，嗷嗷待哺的诸bloggers（包括俺，- -b）都把一线生机寄托于敢啃螃蟹的Feedsky，殊不知Feedsky脚下步履蹒跚、胃里半饥半饱，上游广告商链条的良性与否直接影响了 Feedsky的奶水量，而如狼似虎的bloggers自然因吃不饱或味道不好而发难（1、2、3）。且让我们从竞争与生存的角度分析下：
+VS FeedBurner
+自Feedburner Pro免费之后，WebLeon说：“RSS Feed终究会成为一个主流的媒介，我一直这样坚信。我看到Google也这样认为，在这样努力”；Shawn说：“预计Google接下来会将Adsense集成到Feedburner当中”；长天暮鼓也就吕帅造访Google一事说过：“不管 Google 中国有多么本地化，它始终是其全球战略的组成部分，怎么可能自家的 FeedBurner 不用，而与 Feedsky 合作呢？”在此情形之下，Feedsky若想依赖广告收入而生存，只有抢先开放RSS展示广告，提前摸索道路打造品牌争取用户，要是等到Adsense整合进Feedburner的那天，就没戏了。而用户面对被收购之后十分危险的Feedburner，选择Feedsky与否还得靠你自己定夺。
+VS 博狗 Blogool
+话题广告口碑传播得以发展的需求是，广告商能从该形式的广告中看到收益，能对该新兴的广告模式抱以信心。而上游广告商这种信心的建立需要中游Feedsky和博狗这些平台良好的运作，需要下游Bloggers的配合与传播。目前看来，这一链条能否良性循环尚在摸索之中，要真正达到三方获益还需时日。在不能满足所有bloggers得利的发展前期，我们bloggers如何解决和中游平台之间的矛盾冲突将决定该广告模式的存亡；而Feedsky和博狗谁能更好得解决问题，争得更多的“500强企业”，又将决定两者在该领域的生死。
+[鲜果 PK 抓虾]
+每每在饭否上看见duberry和小虾的轮番上场 ，联想到鲜果日志和抓虾日记的频频更新，再配合长天暮鼓这篇在线RSS阅读器门槛并不低，就愈发能够嗅到RSS在线阅读器市场上浓烈的竞争气息。用户的疑问是，我们需要那么多RSS阅读器吗？不论是否需要，至少可以多些选择，至少我们可以感谢鲜果，让市场一片繁荣。鲜果 VS Fastladder，抓虾 VS Google Reader，是鲜果更嫩还是抓的虾更鲜，比来比去你选好了吗？愚以为，鲜果更加便捷，抓虾更加social，对用户都是好事，他们应该侧重于利用这些吸引刚接触RSS的新用户，毕竟用户习惯成形，有了众多收藏和依赖情感后，不会轻易离开，稳住老用户相对容易。像抽儿就一直忠于Google Reader，嘿嘿（鲜果和抓虾很郁闷~~）。
+为了生存，就得面对竞争，学会竞争，愿鲜果和抓虾好运。
+[RSS杂碎]
+RSS能玩出什么花样，看看盗盗介绍的Bloglive便知。喜欢鲜果的用户可以参照困兽的教程添加FireFox订阅收取点或Feedburner FeedFlare。喜欢Google Reader的朋友可以看看Google Reader高级技巧快速入门，或者给Firefox安装这款插件Google Reader Watcher 0.0.8。想找合烧工具的朋友可以看看RSS Mixer或aFeeda。想把RSS文本转化为声音的话，可以使用Odiogo。Feedburner用户可以参考月光的十二个Feedburner技巧汇总。RSS Feed应用及周边汇总也很全乎。
+正确看待RSS订阅者的价值后，我们也许会全文输出RSS，但这本为方便订阅者的行为，可也方便了聚合网站或滋长了抄袭，解决方法月光这里有介绍。也有人认为全文输出不好，就像阅读裸体信息，缺失了特定网站构架和图形的阅读氛围，觉得还是穿着衣服的更美。
+RSS标志依然受到设计者的追捧，又有漂亮标志现身网络，详见这篇和这篇。
+写草莓体真费劲儿，以后读研了八成没功夫写这玩意儿。</description>
+    </item>
+    
+    <item>
+      <title>[翻译]RSS价值高于博客</title>
+      <link>https://chouj.github.io/2007/07/31/rss-higher-value-than-blogs/</link>
+      <pubDate>Tue, 31 Jul 2007 08:57:00 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/07/31/rss-higher-value-than-blogs/</guid>
+      <description>于7月25日发表的Forrester研究报告表明，在众多Web 2.0应用中，RSS技术价值最高。四月至六月，有275位IT界的决策者接受了研究报告的调查。
+23%的被调查对象认为RSS具有实质性的商业价值，三分之一的人为营销而使用RSS。排在RSS之后的最具价值Web 2.0应用为播客，有21%的被调查对象认同。
+相对而言，只有11%的人认为写博客有助于实质性商业价值的传播。还有14%的人说他们的企业并不评测Web 2.0应用的商业价值。但即便评测Web 2.0应用价值的公司，还是侧重依赖于传统的商业价值衡量方法，例如投资收益率和总购置成本。
+[via] 不知道翻译的对不对，- -#</description>
+    </item>
+    
+    <item>
+      <title>[草莓版]六月汇集：品完鲜果 再来抓虾</title>
+      <link>https://chouj.github.io/2007/07/02/articles-about-rss-in-june/</link>
+      <pubDate>Sun, 01 Jul 2007 18:01:08 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/07/02/articles-about-rss-in-june/</guid>
+      <description>这几个月以来,RSS的消息一直像是沸水里的气泡，喷薄而出，炽炎之热，咄咄逼人。
+[鲜果阅读器]
+既鲜果离线阅读器之后，鲜果在线横空出世，这可引发了RSS阅读器评测比较、阅读器发展模式探讨的浪潮。
+大家公认（1、2、3、4）鲜果具备Google Reader和抓虾的特点，比如支持快捷键，具备社会化元素；抓虾饱受争议的转型和稳定性、Google Reader的撞墙问题，以及狗狗的被收购，又使鲜果拥有了良好的上线时机。但一个阅读器的发展，包括方方面面。作为用户，守望、启羁、WebLeOn都提到，良好的用户体验中重要的是稳定性，包括feed抓取速度和访问速度，用户越多，鲜果的稳定性越值得考验。而阅读器未来发展的模式同样值得大家探讨。曹增辉和吕欣欣都不大看好阅读器市场，因为阅读器市场较低的进入门槛，前者还是支持阅读体验纯粹的Google Reader，后者则为“鲜果在这个领域准备坚持努力的决心，和开放合作的态度”，选择支持他们。狂风则认为鲜果若能先模仿后超越，定可后来居上。WebLeOn在考虑阅读器的走向到底应该纯工具化还是应该伴随服务推送；长天暮鼓给的答案是，看好抓虾的内容分类推送，支持RSS应用的多元化，同时也给出了阅读器盈利模式的建议。
+[抓虾风波]
+抓虾目前事故不少。27号在饭否上看到和菜头说抓虾访问不能，结果是因为光纤断掉；就在写这篇的时候，我又看到Angelived同学在质问：“抓虾怎么不抓了？”。更加严重的貌似是关于抓虾是否盗用bloggers内容的讨论，（1、2、3）。我个人认为值得看看的，还是优比客的用抓虾订阅博客的十大理由。
+[RSS未来之路]
+关于RSS应用现状和未来发展的探讨、诠释从来就没有停止过，六月中魏武挥有两篇非常优秀的文章值得一看：《RSS的兴旺：当它不再是RSS》、《RSS阅读：前景何在？》。文章告诉我们目前RSS应用依然十分小众，受技术门槛和需求的影响，这一现象可能将长久存在，而RSS又在一定程度上阻碍了交互功能而使得其发展局面陷入困顿之中。
+[RSS使用技巧]
+如何在信息爆炸之中摘取有价值信息，而不是被冲击得体无完肤，已经受到较多的关注。旁观者郑钧介绍了三种信息过滤的方法，可供参考；Angelived则告诉大家如何给RSS阅读器减肥。
+84同学定是尝到了RSS阅读的甜头，不遗余力得推广RSS Feed订阅，我们要感谢他；老前则告诉我们如何理解Feed订阅数的小波小动；曾英杰是个好同志，收集了能给你博客带去流量的77个中外RSS目录，想提交Feed地址到收录站点的朋友，看这篇准没错；博客学堂的Rss订阅统计相当帅气，您可以到这一篇《个性化博客RSS订阅统计状态》中学习学习。
+[RSS新应用]
+
+新应用多了去了。xFruits再次发威，发布第11个应用，RSS to My Blog（1，2），能够把RSS Feed内容发布到Blog或CMS系统中去；Feedster发布了2.0版本，可以将blog搜索结果以widget形式挂出来；盗盗这次教我们一个方法，巧用Yahoo Pipes翻译烧制RSS Feed，对订阅英文文章的朋友会有帮助；Geuro介绍了一款服务twitterfeed，可将Feed内容自动发布到twitter； hhalloyy发现了一个简单输出Feed条目标题的服务：FeedMeplz；Adobe air程序渐渐增多，Riku介绍了一款基于此技术的RSS阅读器，名为Fresh；在臭豆的指引下(XD),盗盗发现了提供RSS聚合烧制服务的Feedtwister；RSS和煎蛋也有密切关系啊，煎蛋编辑找到了两个好东东，一是视频网站专用 RSS 阅读器——Democracy Player，一是30 款免费 水晶透明型RSS订阅图标，很实用的哦。
+不知道您是否喜欢这期草莓版文章汇集呢？可以留言告诉我。我阅读范围有限，有好文章也可以告诉我哦！
+Powered by ScribeFire. </description>
+    </item>
+    
+    <item>
+      <title>五月RSS相关文章汇集</title>
+      <link>https://chouj.github.io/2007/06/06/articles-about-rss-in-may/</link>
+      <pubDate>Wed, 06 Jun 2007 13:46:27 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/06/06/articles-about-rss-in-may/</guid>
+      <description>火热五月，RSS界也是热闹非凡，Feedburner改姓为G，及其中文版风波，Feedsky话题广告的bloggers大讨论，皆为业界大事件。我很欣喜能看到RSS应用的这些发展历程，很多是必须要经历的，You是最大的受益者。
+ Google收购Feedburner将如何影响Feed营销市场——WebLeOn 写在FeedBurner被Google收购之后——SRC  Google收购Feedburner，必然带来Feed发展的突飞猛进和巨大变革。游戏规则的制定，再次落入Google手中。
+ 关于话题广告的争论——前博客  老前整理出了相关争论文章的列表，我就不一一列出了。不管怎么说，话题广告肯定要经历这种发展和讨论的，始终是一种进步。
+ 国外RSS订阅数最多的100个博客 RSS 订阅数超过10000的中文博客 Feedburner订阅数最多的21个台湾博客  博客联盟的曾英杰做了一些伟大的统计工作，他还打算做出香港博客RSS订阅数top100，数据和排名摆在那里，非常直观，好奇的话不妨去看看。
+ Feed托管服务FeedTea试用——月光博客 Feed托管服务商-FeedTea——Yee  FeedTea，国内第二家Feed烧制服务提供商，Feedsky一枝独秀的局面被打破，虽然FeedTea还有一些bug。
+ RSS，Feed和抓虾——和菜头 抓虾：算是半个Start-up Review ——花花  和菜头同学的blog订阅数已经突破10K，受益于RSS和抓虾的和菜头借此大力推广RSS和抓虾的应用。花花的分析很深刻，很技术，很全面，都用这么多“很”了，还不值得一看么？
+ 7个用Rss Feed赚钱的办法——前博客 两个被忽视的订阅按钮放置地点——前博客 DiggReSS:定制digg的Feed(强烈推荐)——E-Space RSS Feed邮件评测——月光博客 FireFox浏览器上RSS订阅插件——PengBone lllumio：基于RSS-Feed社会化新运用——PengBone Orkut加入Feed订阅功能——E-Space 订阅文献搜索结果——格志 比特海日志14月22日，天气预报RSS订阅——和菜头 Nokia把Rss Feed叫做精灵——老白 Funp(推推王)—来自的宝岛台湾的抓虾?——盗盗  RSS的应用依旧层出不穷，高人写过的，我收集下子，就不再写了，免得话题重复，有兴趣的顺着链接过去就行。我自己其实也收集了些，无奈学校网络差，等我回到家里再整理发布吧。毕业倒计时，我也不想让电脑过多的侵占最后一月的时光，所以更新放慢下。自己的blog，自己作主，嘿嘿。
+Powered by ScribeFire. </description>
+    </item>
+    
+    <item>
+      <title>最近关于RSS的文章集锦</title>
+      <link>https://chouj.github.io/2007/04/30/recent-articles-about-rss-2/</link>
+      <pubDate>Mon, 30 Apr 2007 14:22:38 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/04/30/recent-articles-about-rss-2/</guid>
+      <description>什么是RSS，一个经典的比喻  通过自己的心身经历，把自己运用RSS的过程写的淋漓尽致，通俗易懂。怎么感觉我在总结中心思想？反正很值得看看啦。
+ 为什么要输出全文Feed？  Webleon告诉您为什么要全文输出FEED，但这是一家之言。出于商业化考虑，拥护摘要输出的朋友也正在增多中。
+ RSS的未来  译言网上一篇关于RSS的探讨性文章，由花花翻译，高度概括，推荐！
+ 让博客的RSS订阅用户数量最大化  杨远聘的力作，关于利用RSS对Blog的优化，推荐！
+ Klipfolio：RSS播放器  一款新颖的RSS播放器，是不是会吸引您的眼球呢？
+ [汇]Showeb2.0中以RSS为标签的文章  盗盗关于RSS和Feed的相关文章，集成了目前最新鲜的RSS运用！
+ [Web 2.0]特色服务&amp;#8211;Feed阅读器  一篇介绍性的科普，来自IwfWc，也是Blogger圈的名人了。
+ blogger:我的blogger深度友链方案  GG派关于RSS应用的深度探讨，值得参详。不见得仅仅局限于Blogger呢。
+ 普及篇——RSS和阅读器  又一个有名的blogger hacker 咖啡鱼的教程，通俗讲解RSS和阅读器。
+ 通过RSS给Blogger添加评论和最新文章(续)  八个圈的教程，通过RSS和Google Reader给Blogger添加评论和最新文章的方法。
+ 通过RSS给Blogger添加侧边栏评论和最新文章  一样是八个圈的教程，告诉您如何通过最简单的方法，给Blogger添加侧栏评论和最新文章。
+ Blogger:不通过外部JS文件使RSS供稿超过20的方法  Blogspot上专注Blogger Hack的GG派出品，告诉您如何使Blogger的RSS供稿超过20条。
+ Blogger:准确的标签项目RSS地址  GGpi出品，告知您Blogger上各个标签tag的RSS地址。
+ 如何通过google reader分享RSS聚合  还是GGpi出品，讲述利用RSS和Google Reader打造个人媒体的方法。
+ 各站点RSS新闻聚合服务  收集了大量门户、站点的RSS供稿地址，极具资料收集价值。</description>
+    </item>
+    
+    <item>
+      <title>[译]RSS 1.0/2.0 Atom – 你订阅哪一种？</title>
+      <link>https://chouj.github.io/2007/04/26/different-feed-format/</link>
+      <pubDate>Thu, 26 Apr 2007 09:33:46 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/04/26/different-feed-format/</guid>
+      <description>RSS 1.0, RSS 2.0 or Atom &amp;#8211; How Do You Subscribe to Blog Feeds ?
+posted by Amit Agarwal on 4/25/2007 01:27:00 PM 以获翻译授权
+( 译者：写给刚刚认识RSS的朋友）
+在网页上，我们经常能见到一个写有XML的小小的橘色图标，或者一个像水波的橘色正方形符号，这表示该站支持RSS供稿。只是有一些博客或网站会更进一步的提供不同格式的联合供稿源（Feed），诸如Atom、RSS 1.0、RSS 0.92和RSS 2.0。
+截图来自Joi的博客，访客可以通过3种不同格式的供稿源订阅他的博客文章。但实质上，这些供稿源都是XML档案文件，都按倒序排列，唯一的不同在于内容布局格式上的微小差别。
+你是否被这些“烦人”的订阅选择给迷惑住了呢？答案当然是否定的，因为好在你的订阅软件或线上服务能接受任何形式的联合供稿源（Feed）。
+只要将网站地址输入你的RSS阅读器，它就会自动选择合适的格式。如果你选用火狐浏览器的实时书签来订阅不同格式的供稿源（Feed），推荐选择RSS 2.0——这是Dave Winer提过的最佳选择。
+世界上有两种互联网用户，一种是用RSS的，一种是不利用RSS的。这里有个视频适合那些能通过RSS的使用节省时间，却不知道从何下手的朋友。</description>
+    </item>
+    
+  </channel>
+</rss>

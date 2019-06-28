@@ -1,0 +1,204 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP-RecentComments 1.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-08-22 11:38+0800\n"
+"PO-Revision-Date: \n"
+"Last-Translator: neoease.com <wuzhao.mail@gmail.com>\n"
+"Language-Team: NeoEase <http://www.neoease.com/plugins/>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: CHINA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: core.php:170
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: core.php:172
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: wp-recentcomments.php:36
+#: wp-recentcomments.php:37
+#: wp-recentcomments.php:465
+msgid "Loading"
+msgstr ""
+
+#: wp-recentcomments.php:57
+msgid "Recent Comments"
+msgstr ""
+
+#: wp-recentcomments.php:109
+msgid "Title: "
+msgstr ""
+
+#: wp-recentcomments.php:126
+msgid "The most recent comments"
+msgstr ""
+
+#: wp-recentcomments.php:127
+#: wp-recentcomments.php:128
+#: wp-recentcomments.php:272
+msgid "WP-RecentComments"
+msgstr ""
+
+#: wp-recentcomments.php:281
+msgid "WP-RecentComments Options"
+msgstr ""
+
+#: wp-recentcomments.php:284
+msgid "Settings <strong>saved</strong>."
+msgstr ""
+
+#: wp-recentcomments.php:290
+msgid "Donation"
+msgstr ""
+
+#: wp-recentcomments.php:292
+msgid "If you like this plugin, please donate to support development and maintenance!"
+msgstr ""
+
+#: wp-recentcomments.php:306
+msgid "About Author"
+msgstr ""
+
+#: wp-recentcomments.php:309
+msgid "Author Blog"
+msgstr ""
+
+#: wp-recentcomments.php:310
+msgid "More Plugins"
+msgstr ""
+
+#: wp-recentcomments.php:324
+msgid "CSS"
+msgstr ""
+
+#: wp-recentcomments.php:328
+msgid "Use wp-recentcomments.css."
+msgstr ""
+
+#: wp-recentcomments.php:334
+msgid "JavaScript Library"
+msgstr ""
+
+#: wp-recentcomments.php:338
+msgid "Use normal JavaScript library that is supported by this plugin."
+msgstr ""
+
+#: wp-recentcomments.php:343
+msgid "Use jQuery library that is supported by WordPress."
+msgstr ""
+
+#: wp-recentcomments.php:348
+msgid "Custom jQuery."
+msgstr ""
+
+#: wp-recentcomments.php:351
+msgid "Please input the URL of jQuery:"
+msgstr ""
+
+#: wp-recentcomments.php:358
+msgid "Comment List"
+msgstr ""
+
+#: wp-recentcomments.php:361
+msgid "comments per page."
+msgstr ""
+
+#: wp-recentcomments.php:366
+msgid "Show the comments from administrators."
+msgstr ""
+
+#: wp-recentcomments.php:372
+msgid "Show pingback and trackback comments."
+msgstr ""
+
+#: wp-recentcomments.php:378
+msgid "Show navigation bar."
+msgstr ""
+
+#: wp-recentcomments.php:384
+msgid "Comment Items"
+msgstr ""
+
+#: wp-recentcomments.php:387
+msgid "characters per comment."
+msgstr ""
+
+#: wp-recentcomments.php:392
+msgid "Show post titles."
+msgstr ""
+
+#: wp-recentcomments.php:398
+msgid "Show the expand button when mouse over excerpts."
+msgstr ""
+
+#: wp-recentcomments.php:404
+msgid "Open external pages in a new tab/window."
+msgstr ""
+
+#: wp-recentcomments.php:410
+msgid "Show timestamps."
+msgstr ""
+
+#: wp-recentcomments.php:416
+msgid "Show avatars on"
+msgstr ""
+
+#: wp-recentcomments.php:419
+msgid "left"
+msgstr ""
+
+#: wp-recentcomments.php:420
+msgid "right"
+msgstr ""
+
+#: wp-recentcomments.php:422
+msgid ", size is"
+msgstr ""
+
+#: wp-recentcomments.php:424
+msgid "pixels"
+msgstr ""
+
+#: wp-recentcomments.php:429
+msgid "Show smilies as graphic icons."
+msgstr ""
+
+#: wp-recentcomments.php:438
+msgid "Save Changes"
+msgstr ""
+
+#: wp-recentcomments.php:464
+msgid "%REVIEWER% on %POST%"
+msgstr ""
+
+#: wp-recentcomments.php:466
+msgid "No comments"
+msgstr ""
+
+#: wp-recentcomments.php:467
+msgid "&laquo; Newest"
+msgstr ""
+
+#: wp-recentcomments.php:468
+msgid "&laquo; Newer"
+msgstr ""
+
+#: wp-recentcomments.php:469
+msgid "Older &raquo;"
+msgstr ""
+
+#: wp-recentcomments.php:474
+msgid "Anonymous"
+msgstr ""
+

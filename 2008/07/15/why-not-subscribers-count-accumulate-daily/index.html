@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8" />
+
+  
+  <title>为什么订阅量不是每日累加的？</title>
+
+  
+  
+  <link href="//cdn.jsdelivr.net" rel="dns-prefetch">
+  <link href="//cdnjs.cloudflare.com" rel="dns-prefetch">
+  
+  <link href="//at.alicdn.com" rel="dns-prefetch">
+  
+  <link href="//fonts.googleapis.com" rel="dns-prefetch">
+  <link href="//fonts.gstatic.com" rel="dns-prefetch">
+  
+  
+  
+  <link href="//www.google-analytics.com" rel="dns-prefetch">
+  
+
+  
+
+  
+  <meta name="author" content="Chouj">
+  <meta name="description" content="为什么订阅量只显示当天的，不是把每天的读者数目加起来？
+最近被频繁问到这个问题，想必值得作答。先科普下，区分一下Bloggers都关心的几个量。
+ 订阅量，Subscribers Count 订阅量表征订阅某feed的读者的数量，针对的是阅读器背后的人，技术上讲，是当天所有请求获得feed信息的个体的总数。具体参考此文。
+ 流量，Traffic 狭义的流量指网站带宽使用量，即浏览网页时，终端从服务器下载了多少字节页面文件到本地，比如日流量，月流量。
+  广义的流量“指网站的访问量，是用来描述访问一个网站的用户数量以及用户所浏览的网页数量等指标，常用的统计指标包括网站的独立用户数量、总用户数量（含重复访问者）、网页浏览数量、每个用户的页面浏览数量、用户在网站的平均停留时间等。（百度百科）”
+ 访问量，Visits “网站访问量的衡量标准一个是IP，另一个是PV，常以日为标准，即日独立IP和PV来计算。一台电脑上网即为一个独立IP，PV即Page View的缩写，即页面浏览量，一个独立IP可以产生多个PV，所以PV个数&amp;gt;=IP个数。&amp;#8221;(百度百科) ">
+
+  
+  
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@gohugoio">
+    <meta name="twitter:title" content="为什么订阅量不是每日累加的？">
+    <meta name="twitter:description" content="为什么订阅量只显示当天的，不是把每天的读者数目加起来？
+最近被频繁问到这个问题，想必值得作答。先科普下，区分一下Bloggers都关心的几个量。
+ 订阅量，Subscribers Count 订阅量表征订阅某feed的读者的数量，针对的是阅读器背后的人，技术上讲，是当天所有请求获得feed信息的个体的总数。具体参考此文。
+ 流量，Traffic 狭义的流量指网站带宽使用量，即浏览网页时，终端从服务器下载了多少字节页面文件到本地，比如日流量，月流量。
+  广义的流量“指网站的访问量，是用来描述访问一个网站的用户数量以及用户所浏览的网页数量等指标，常用的统计指标包括网站的独立用户数量、总用户数量（含重复访问者）、网页浏览数量、每个用户的页面浏览数量、用户在网站的平均停留时间等。（百度百科）”
+ 访问量，Visits “网站访问量的衡量标准一个是IP，另一个是PV，常以日为标准，即日独立IP和PV来计算。一台电脑上网即为一个独立IP，PV即Page View的缩写，即页面浏览量，一个独立IP可以产生多个PV，所以PV个数&amp;gt;=IP个数。&amp;#8221;(百度百科) ">
+    <meta name="twitter:image" content="/images/avatar.png">
+  
+
+  
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="为什么订阅量不是每日累加的？">
+  <meta property="og:description" content="为什么订阅量只显示当天的，不是把每天的读者数目加起来？
+最近被频繁问到这个问题，想必值得作答。先科普下，区分一下Bloggers都关心的几个量。
+ 订阅量，Subscribers Count 订阅量表征订阅某feed的读者的数量，针对的是阅读器背后的人，技术上讲，是当天所有请求获得feed信息的个体的总数。具体参考此文。
+ 流量，Traffic 狭义的流量指网站带宽使用量，即浏览网页时，终端从服务器下载了多少字节页面文件到本地，比如日流量，月流量。
+  广义的流量“指网站的访问量，是用来描述访问一个网站的用户数量以及用户所浏览的网页数量等指标，常用的统计指标包括网站的独立用户数量、总用户数量（含重复访问者）、网页浏览数量、每个用户的页面浏览数量、用户在网站的平均停留时间等。（百度百科）”
+ 访问量，Visits “网站访问量的衡量标准一个是IP，另一个是PV，常以日为标准，即日独立IP和PV来计算。一台电脑上网即为一个独立IP，PV即Page View的缩写，即页面浏览量，一个独立IP可以产生多个PV，所以PV个数&amp;gt;=IP个数。&amp;#8221;(百度百科) ">
+  <meta property="og:url" content="https://chouj.github.io/2008/07/15/why-not-subscribers-count-accumulate-daily/">
+  <meta property="og:image" content="/images/avatar.png">
+
+
+
+
+<meta name="generator" content="Hugo 0.55.6">
+
+
+<link rel="canonical" href="https://chouj.github.io/2008/07/15/why-not-subscribers-count-accumulate-daily/">
+
+<meta name="renderer" content="webkit">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="format-detection" content="telephone=no,email=no,adress=no">
+<meta http-equiv="Cache-Control" content="no-transform">
+
+
+<meta name="robots" content="index,follow">
+<meta name="referrer" content="origin-when-cross-origin">
+
+
+
+
+
+
+
+<meta name="theme-color" content="#02b875">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="抽筋儿的话语权">
+<meta name="msapplication-tooltip" content="抽筋儿的话语权">
+<meta name='msapplication-navbutton-color' content="#02b875">
+<meta name="msapplication-TileColor" content="#02b875">
+<meta name="msapplication-TileImage" content="/icons/icon-144x144.png">
+<link rel="icon" href="https://chouj.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://chouj.github.io/icons/icon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://chouj.github.io/icons/icon-32x32.png">
+<link rel="icon" sizes="192x192" href="https://chouj.github.io/icons/icon-192x192.png">
+<link rel="apple-touch-icon" href="https://chouj.github.io/icons/icon-152x152.png">
+<link rel="manifest" href="https://chouj.github.io/manifest.json">
+
+
+<link rel="preload" href="https://chouj.github.io/styles/main-rendered.min.css" as="style">
+
+
+<link rel="preload" href="https://fonts.googleapis.com/css?family=Lobster" as="style">
+<link rel="preload" href="https://chouj.github.io/images/avatar.png" as="image">
+<link rel="preload" href="https://chouj.github.io/images/grey-prism.svg" as="image">
+
+
+<style>
+  body {
+    background: rgb(244, 243, 241) url('/images/grey-prism.svg') repeat fixed;
+  }
+</style>
+<link rel="stylesheet" href="https://chouj.github.io/styles/main-rendered.min.css">
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.2/dist/medium-zoom.min.js"></script>
+
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/video.js@7.3.0/dist/video-js.min.css">
+
+
+
+  
+  
+<!--[if lte IE 8]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/videojs-ie8@1.1.2/dist/videojs-ie8.min.js"></script>
+<![endif]-->
+
+<!--[if lte IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/eligrey-classlist-js-polyfill@1.2.20180112/classList.min.js"></script>
+<![endif]-->
+
+
+</head>
+  <body>
+    <div class="suspension">
+      <a role="button" aria-label="Go to top" title="Go to top" class="to-top is-hide"><span class="icon icon-up" aria-hidden="true"></span></a>
+      
+        
+      
+    </div>
+    
+    
+  <header class="site-header">
+  <a href="https://chouj.github.io/"><img class="avatar" src="https://chouj.github.io/images/avatar.png" alt="Avatar"></a>
+  
+  <h2 class="title"><a href="https://chouj.github.io/">抽筋儿的话语权</a></h2>
+  
+  <p class="subtitle">努力作个有情调的人，“调”字念二声。</p>
+  <button class="menu-toggle" type="button" aria-label="Main Menu" aria-expanded="false" tab-index="0">
+    <span class="icon icon-menu" aria-hidden="true"></span>
+  </button>
+
+  <nav class="site-menu collapsed">
+    <h2 class="offscreen">Main Menu</h2>
+    <ul class="menu-list">
+      
+      
+      
+      
+        <li class="menu-item
+          
+          
+           is-active">
+          <a href="https://chouj.github.io/">Home</a>
+        </li>
+      
+        <li class="menu-item
+          
+          
+          ">
+          <a href="https://chouj.github.io/tags/">Tags</a>
+        </li>
+      
+    </ul>
+  </nav>
+  <nav class="social-menu collapsed">
+    <h2 class="offscreen">Social Networks</h2>
+    <ul class="social-list"></ul>
+  </nav>
+</header>
+
+  <section class="main post-detail">
+    <header class="post-header">
+      <h1 class="post-title">为什么订阅量不是每日累加的？</h1>
+      <p class="post-meta">@Chouj · Jul 15, 2008 · 1 min read</p>
+    </header>
+    <article class="post-content"><p><strong>为什么订阅量只显示当天的，不是把每天的读者数目加起来？</strong></p>
+
+<p>最近被频繁问到这个问题，想必值得作答。先科普下，区分一下Bloggers都关心的几个量。</p>
+
+<ul>
+<li><p><strong>订阅量，Subscribers Count</strong>
+订阅量表征<strong>订阅某feed的读者的数量，针对的是阅读器背后的人</strong>，技术上讲，是<strong>当天所有请求获得feed信息的个体的总数</strong>。<a href="http://aboutrss.cn/2007/08/translation-why-feedburner-subscriber-count-fluctuate/" title="[翻译]为什么我的FeedBurner订阅数会上下振荡呢？">具体参考此文</a>。</p></li>
+
+<li><p><strong>流量，Traffic</strong>
+狭义的流量指网站带宽使用量，即浏览网页时，终端从服务器下载了多少字节页面文件到本地，比如日流量，月流量。</p></li>
+</ul>
+
+<p>广义的流量“指网站的访问量，是用来描述访问一个网站的用户数量以及用户所浏览的网页数量等指标，常用的统计指标包括网站的独立用户数量、总用户数量（含重复访问者）、网页浏览数量、每个用户的页面浏览数量、用户在网站的平均停留时间等。（<a title="流量_百度百科" href="http://baike.baidu.com/view/66422.htm" target="_blank">百度百科</a>）”</p>
+
+<ul>
+<li><strong>访问量，Visits</strong>
+“网站访问量的衡量标准一个是IP，另一个是PV，常以日为标准，即日独立IP和PV来计算。一台电脑上网即为一个独立IP，PV即Page View的缩写，即页面浏览量，一个独立IP可以产生多个PV，所以PV个数&gt;=IP个数。&#8221;(<a title="访问量_百度百科" href="http://baike.baidu.com/view/20241.htm" target="_blank">百度百科</a>)</li>
+</ul>
+
+<p></ul></p>
+
+<p><strong>订阅量到底为什么不累加呢？</strong></p>
+
+<p>我估计有不少朋友是这么理解订阅量的含义的：订阅量是指通过RSS feed阅读了blog日志的读者的数量，访问量和访问行为挂钩，订阅量和在阅读器里的阅读行为挂钩，所以这玩意儿要是不累加肯定是出错了，只显示每天有多少个读者读了有啥意思。</p>
+
+<p>可惜，这种理解是错的，肯定被“×××readers”、“×××位读者”的标贴忽悠了，也难怪。</p>
+
+<p>举两个例子：</p>
+
+<ul>
+<li>统计有100个用户在抓虾里订阅了我的blog，今天有67个用户打开了抓虾，有33个用户没有访问抓虾干别的去了。这种情况下，抓虾向feed托管商报告的数目是多少？是100，因为抓虾报告的是多少个用户订阅，实际撑死了只能算今天有67个读者来自抓虾，这67人里有20人展开了我的条目的话，那读者数目就缩水到20。显然，抓虾报告的量，不是有阅读行为的读者的量，而是订阅该feed的用户的量。</li>
+<li>昨天A君从阅读器里看了我的blog，今天A君又看了。如果从阅读行为的统计看，OK，算A君读了两次。但读者都是A君，我凭啥把A君掰成两个，算成两个读者？</li>
+</ul>
+
+<p>所以说，<strong>订阅量不是阅读量，它和阅读行为无关，而和订阅行为有关</strong>，把“×××readers”、“×××位读者”换成“×××subscribers”、“×××个订阅”就好理解多啦。比方，昨天有800个订阅，今天这800个订阅里有2个退订了，但又有3个新读者订阅，那么更新后的订阅量当然是801。:)</p></article>
+    <footer class="post-footer">
+      
+      <ul class="post-tags">
+        
+          <li><a href="https://chouj.github.io/tags/subscribe"><span class="tag">Subscribe</span></a></li>
+        
+          <li><a href="https://chouj.github.io/tags/visits"><span class="tag">Visits</span></a></li>
+        
+          <li><a href="https://chouj.github.io/tags/%E6%B5%81%E9%87%8F"><span class="tag">流量</span></a></li>
+        
+          <li><a href="https://chouj.github.io/tags/%E8%AE%A2%E9%98%85%E9%87%8F"><span class="tag">订阅量</span></a></li>
+        
+      </ul>
+      
+      <p class="post-copyright">
+        © This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.This post was published <strong>3999</strong> days ago, content in the post may be inaccurate, even wrong now, please take risk yourself.
+      </p>
+    </footer>
+    
+      
+    
+  </section>
+  
+<footer class="site-footer">
+  <p>© 2017-2019 抽筋儿的话语权</p>
+  <p>Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> with theme <a href="https://github.com/laozhu/hugo-nuo" target="_blank" rel="noopener">Nuo</a>.</p>
+  
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/smooth-scroll@15.0.0/dist/smooth-scroll.min.js"></script>
+
+
+
+<script async src="https://cdn.jsdelivr.net/npm/video.js@7.3.0/dist/video.min.js"></script>
+
+
+
+
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [['$','$'], ['\\(','\\)']],
+      displayMath: [['$$','$$'], ['\\[','\\]']],
+      processEscapes: true,
+      processEnvironments: true,
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+      TeX: { equationNumbers: { autoNumber: "AMS" },
+      extensions: ["AMSmath.js", "AMSsymbols.js"] }
+    },
+  });
+</script>
+<script type="text/x-mathjax-config">
+  // Fix <code> tags after MathJax finishes running. This is a
+  // hack to overcome a shortcoming of Markdown. Discussion at
+  // https://github.com/mojombo/jekyll/issues/199
+  MathJax.Hub.Queue(() => {
+    MathJax.Hub.getAllJax().map(v => v.SourceElement().parentNode.className += ' has-jax');
+  });
+</script>
+
+
+
+<script src="https://chouj.github.io/scripts/index.min.js"></script>
+
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('\/service-worker.js').then(function() {
+      console.log('[ServiceWorker] Registered');
+    });
+  }
+</script>
+
+
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-XXXXXXXX-X', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+
+
+
+
+
+  </body>
+</html>

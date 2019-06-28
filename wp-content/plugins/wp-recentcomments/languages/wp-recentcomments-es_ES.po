@@ -1,0 +1,157 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP-RecentComments 1.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-12-23 21:41+0800\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Eugenio Cavero <enjoy720@hotmail.com>\n"
+"Language-Team: NeoEase <http://www.neoease.com/plugins/>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: CHINA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: core.php:43
+#: core.php:189
+msgid "Loading"
+msgstr "Cargando"
+
+#: core.php:100
+msgid "Anonymous"
+msgstr "Anónimo"
+
+#: core.php:119
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: core.php:121
+msgid "Trackback:"
+msgstr "Trackback:"
+
+#: core.php:123
+msgid "on"
+msgstr "en"
+
+#: core.php:142
+msgid "&laquo; Newest"
+msgstr "&laquo; El más reciente"
+
+#: core.php:155
+msgid "&laquo; Newer"
+msgstr "&laquo; Recientes"
+
+#: core.php:161
+msgid "Older &raquo;"
+msgstr "Antiguos &raquo;"
+
+#: core.php:214
+msgid "Y/m/d"
+msgstr "Y/m/d"
+
+#: core.php:215
+msgid "H:i"
+msgstr "H:i"
+
+#: core.php:216
+#, php-format
+msgid "%1$s - %2$s"
+msgstr "%1$s - %2$s"
+
+#: core.php:229
+msgid "&laquo; Back"
+msgstr "&laquo; Atrás"
+
+#: core.php:327
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: wp-recentcomments.php:49
+msgid "Recent Comments"
+msgstr "Comentarios recientes"
+
+#: wp-recentcomments.php:160
+msgid "Title: "
+msgstr "Título: "
+
+#: wp-recentcomments.php:167
+msgid "Number of comments to show: "
+msgstr "Número de comentarios a mostrar: "
+
+#: wp-recentcomments.php:171
+msgid "(at most 20)"
+msgstr "(20 como máximo)"
+
+#: wp-recentcomments.php:176
+msgid "Length of each comment: "
+msgstr "Longitud de cada comentario: "
+
+#: wp-recentcomments.php:184
+msgid "Show post titles."
+msgstr "Mostrar el título de la entrada."
+
+#: wp-recentcomments.php:191
+msgid "Show pingback comments."
+msgstr "Mostrar comentarios pingback."
+
+#: wp-recentcomments.php:198
+msgid "Show trackback comments."
+msgstr "Mostrar comentarios trackback."
+
+#: wp-recentcomments.php:205
+msgid "Show author avatars."
+msgstr "Mostrar el avatar del autor."
+
+#: wp-recentcomments.php:211
+msgid "The size of avatars: "
+msgstr "Tamaño del avatar: "
+
+#: wp-recentcomments.php:215
+msgid "(8 - 96)"
+msgstr "(8 - 96)"
+
+#: wp-recentcomments.php:220
+msgid "The position of avatars: "
+msgstr "Posición del avatar: "
+
+#: wp-recentcomments.php:222
+msgid "Left"
+msgstr "Izquierda"
+
+#: wp-recentcomments.php:223
+msgid "Right"
+msgstr "Derecha"
+
+#: wp-recentcomments.php:230
+msgid "The default avatar: "
+msgstr "Avatar por defecto: "
+
+#: wp-recentcomments.php:234
+msgid "(Filename from '/wp-recentcomments/avatars/' directory or Internet address)"
+msgstr "(Filename from '/wp-recentcomments/avatars/' directory or Internet address)"
+
+#: wp-recentcomments.php:240
+msgid "Show navigator buttons."
+msgstr "Mostrar botones de navegación."
+
+#: wp-recentcomments.php:247
+msgid "Show the comments from administrators."
+msgstr "Mostrar comentarios de administradores."
+
+#: wp-recentcomments.php:254
+msgid "Convert emoticons like <code>:-)</code> and <code>:-P</code> to graphics on display."
+msgstr "Convertir emoticons como <code>:-)</code> y <code>:-P</code> a imagen."
+
+#: wp-recentcomments.php:270
+msgid "The most recent comments"
+msgstr "Los comentarios más recientes"
+
+#: wp-recentcomments.php:271
+#: wp-recentcomments.php:272
+msgid "WP-RecentComments"
+msgstr "WP-RecentComments"
+

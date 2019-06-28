@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MonitorThis on 抽筋儿的话语权</title>
+    <link>https://chouj.github.io/tags/monitorthis/</link>
+    <description>Recent content in MonitorThis on 抽筋儿的话语权</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
+    <lastBuildDate>Wed, 13 Jun 2007 21:21:39 +0000</lastBuildDate>
+    
+	<atom:link href="https://chouj.github.io/tags/monitorthis/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>MonitorThis:实现搜索结果的订阅</title>
+      <link>https://chouj.github.io/2007/06/14/monitorthis/</link>
+      <pubDate>Wed, 13 Jun 2007 21:21:39 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/06/14/monitorthis/</guid>
+      <description>每天网络上将产生许多新的页面，而搜索引擎的爬虫们在积极地抓取，努力把所有网络上的内容都纳入其搜索引擎中。如果能让爬虫们为你服务，将你关心的关键字的内容抓取到，再通过RSS推送到你面前，这是不是很激动人心呢？那么MonitorThis就可以帮到你的忙，她能让你订阅到你需要的关键字在22个搜索引擎上的结果。MonitorThis直译的意思是：“监视这个”，对于MonitorThis的功能来说，非常贴切。而22个搜索引擎分别为：
+  Google Blog Search Google News search Technorati tag search del.icio.us tag search furl search Flickr tag search MSN search MSN News search Yahoo search Yahoo News search Icerocket search Feedster rss search Topix.net search Feedsfarm.com search Newspad PRWeb search Search4RSS rss search Blogdigger search Plazoo search NewsNetPlus search Blogmarks tag search Find articles search Wired News search blogg.de tag search   OK，让我们开始，我们需要做的只有三步：
+ 在MonitorThis页面上的“enter search term”中填入你所关心的关键词，比如“Google”之类（对中文支持不佳），点击右侧的“make monitor.</description>
+    </item>
+    
+  </channel>
+</rss>

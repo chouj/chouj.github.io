@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DOS on 抽筋儿的话语权</title>
+    <link>https://chouj.github.io/tags/dos/</link>
+    <description>Recent content in DOS on 抽筋儿的话语权</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
+    <lastBuildDate>Tue, 08 May 2007 11:08:06 +0000</lastBuildDate>
+    
+	<atom:link href="https://chouj.github.io/tags/dos/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>命令行模式的WP模板</title>
+      <link>https://chouj.github.io/2007/05/08/wp-theme-dos/</link>
+      <pubDate>Tue, 08 May 2007 11:08:06 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2007/05/08/wp-theme-dos/</guid>
+      <description>Site | Demo
+这个太牛逼了！DOS命令行模式的Wordpress模板，不信你可以点上面的Demo进去瞧瞧。输入“dir”可查询当前日志，输入“comment”可添加评论，输入“help”可查询更多可用命令！问题是这种WP模板你敢用否？
+顺便通报下，抓拍城市的白小刺同学在收集毛雕像，不知哪位HUST的同学可以拍几张贡献过去，地址及相关展示见此 。PS.该站域名居然是50mm.cn，汗啊。</description>
+    </item>
+    
+  </channel>
+</rss>

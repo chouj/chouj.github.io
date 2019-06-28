@@ -1,0 +1,157 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP-RecentComments 1.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-12-23 21:41+0800\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Mustafa <mustafa@albazy.com>\n"
+"Language-Team: NeoEase <http://www.neoease.com/plugins/>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: CHINA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: core.php:43
+#: core.php:189
+msgid "Loading"
+msgstr "تحميل"
+
+#: core.php:100
+msgid "Anonymous"
+msgstr "زائر"
+
+#: core.php:119
+msgid "Pingback:"
+msgstr ""
+
+#: core.php:121
+msgid "Trackback:"
+msgstr ""
+
+#: core.php:123
+msgid "on"
+msgstr "في"
+
+#: core.php:142
+msgid "&laquo; Newest"
+msgstr "&laquo; أحدث"
+
+#: core.php:155
+msgid "&laquo; Newer"
+msgstr "&laquo; الأحدث"
+
+#: core.php:161
+msgid "Older &raquo;"
+msgstr " الأقدم &raquo;"
+
+#: core.php:214
+msgid "Y/m/d"
+msgstr "d/m/y"
+
+#: core.php:215
+msgid "H:i"
+msgstr ""
+
+#: core.php:216
+#, php-format
+msgid "%1$s - %2$s"
+msgstr ""
+
+#: core.php:229
+msgid "&laquo; Back"
+msgstr "&laquo; رجوع"
+
+#: core.php:327
+msgid "&raquo;"
+msgstr ""
+
+#: wp-recentcomments.php:49
+msgid "Recent Comments"
+msgstr "أخر التعليقات"
+
+#: wp-recentcomments.php:160
+msgid "Title: "
+msgstr "العنوان:"
+
+#: wp-recentcomments.php:167
+msgid "Number of comments to show: "
+msgstr "عدد التعليقات لأظهارها ؟"
+
+#: wp-recentcomments.php:171
+msgid "(at most 20)"
+msgstr "(أقصى حد 20 تعليق)"
+
+#: wp-recentcomments.php:176
+msgid "Length of each comment: "
+msgstr "الطول لكل تعليق"
+
+#: wp-recentcomments.php:184
+msgid "Show post titles."
+msgstr "أضهر عنوان التدوينة"
+
+#: wp-recentcomments.php:191
+msgid "Show pingback comments."
+msgstr "أضهار تعليقات الـ Pingback"
+
+#: wp-recentcomments.php:198
+msgid "Show trackback comments."
+msgstr "أضهار تعليقات الـ trackback"
+
+#: wp-recentcomments.php:205
+msgid "Show author avatars."
+msgstr "أضهر الصور الشخصية"
+
+#: wp-recentcomments.php:211
+msgid "The size of avatars: "
+msgstr "حجم الصورة الرمزية:"
+
+#: wp-recentcomments.php:215
+msgid "(8 - 96)"
+msgstr "(8 - 96)"
+
+#: wp-recentcomments.php:220
+msgid "The position of avatars: "
+msgstr "مكان عرض الصورة الرمزية:"
+
+#: wp-recentcomments.php:222
+msgid "Left"
+msgstr "شمال"
+
+#: wp-recentcomments.php:223
+msgid "Right"
+msgstr "يمين"
+
+#: wp-recentcomments.php:230
+msgid "The default avatar: "
+msgstr "الصور الشخصية الأفتراضية"
+
+#: wp-recentcomments.php:234
+msgid "(Filename from '/wp-recentcomments/avatars/' directory or Internet address)"
+msgstr ""
+
+#: wp-recentcomments.php:240
+msgid "Show navigator buttons."
+msgstr "أضهار المستكشف."
+
+#: wp-recentcomments.php:247
+msgid "Show the comments from administrators."
+msgstr "أضهر تعليقات المدير"
+
+#: wp-recentcomments.php:254
+msgid "Convert emoticons like <code>:-)</code> and <code>:-P</code> to graphics on display."
+msgstr "تحويل الرموز <code>:-)</code> و  <code>:-P</code> ..الخ, إلى وجوة تعبيرية (صور)."
+
+#: wp-recentcomments.php:270
+msgid "The most recent comments"
+msgstr "أحدث التعليقات."
+
+#: wp-recentcomments.php:271
+#: wp-recentcomments.php:272
+msgid "WP-RecentComments"
+msgstr "التعليقات الأخيرة (المطور)"
+

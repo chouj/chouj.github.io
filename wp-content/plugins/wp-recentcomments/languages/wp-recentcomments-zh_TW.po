@@ -1,0 +1,200 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP-RecentComments (zh_TW)\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-04-27 17:38+0800\n"
+"PO-Revision-Date: \n"
+"Last-Translator: neoease.com <wuzhao.mail@gmail.com>\n"
+"Language-Team: Pseric <pserics@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: TAIWAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: core.php:170
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: core.php:172
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s %2$s"
+
+#: wp-recentcomments.php:36
+#: wp-recentcomments.php:37
+#: wp-recentcomments.php:461
+msgid "Loading"
+msgstr "正在載入"
+
+#: wp-recentcomments.php:57
+msgid "Recent Comments"
+msgstr "近期迴響"
+
+#: wp-recentcomments.php:109
+msgid "Title: "
+msgstr "標題: "
+
+#: wp-recentcomments.php:126
+msgid "The most recent comments"
+msgstr "在側邊欄顯示最新迴響的列表"
+
+#: wp-recentcomments.php:127
+#: wp-recentcomments.php:128
+#: wp-recentcomments.php:272
+msgid "WP-RecentComments"
+msgstr "最新迴響"
+
+#: wp-recentcomments.php:281
+msgid "WP-RecentComments Options"
+msgstr "WP-RecentComments 選項"
+
+#: wp-recentcomments.php:286
+msgid "Donation"
+msgstr "資助鼓勵"
+
+#: wp-recentcomments.php:288
+msgid "If you like this plugin, please donate to support development and maintenance!"
+msgstr "如果你認為我做的這些對你來說是有價值的，並鼓勵我進行更多開源和免費開發。那你可以資助我, 就算是一杯咖啡…"
+
+#: wp-recentcomments.php:302
+msgid "About Author"
+msgstr "關於作者"
+
+#: wp-recentcomments.php:305
+msgid "Author Blog"
+msgstr "作者的部落格"
+
+#: wp-recentcomments.php:306
+msgid "More Plugins"
+msgstr "更多外掛 "
+
+#: wp-recentcomments.php:320
+msgid "CSS"
+msgstr ""
+
+#: wp-recentcomments.php:324
+msgid "Use wp-recentcomments.css."
+msgstr "使用 wp-recentcomments.css。"
+
+#: wp-recentcomments.php:330
+msgid "JavaScript Library"
+msgstr "JavaScript Library"
+
+#: wp-recentcomments.php:334
+msgid "Use normal JavaScript library that is supported by this plugin."
+msgstr "使用外掛內建的 JavaScript Library。"
+
+#: wp-recentcomments.php:339
+msgid "Use jQuery library that is supported by WordPress."
+msgstr "使用 WordPress 提供的 jQuery。"
+
+#: wp-recentcomments.php:344
+msgid "Custom jQuery."
+msgstr "自訂 jQuery。"
+
+#: wp-recentcomments.php:347
+msgid "Please input the URL of jQuery:"
+msgstr "請輸入 jQuery 檔案位址："
+
+#: wp-recentcomments.php:354
+msgid "Comment List"
+msgstr "迴響列表"
+
+#: wp-recentcomments.php:357
+msgid "comments per page."
+msgstr "則迴響每頁。"
+
+#: wp-recentcomments.php:362
+msgid "Show the comments from administrators."
+msgstr "顯示管理員的迴響。"
+
+#: wp-recentcomments.php:368
+msgid "Show pingback and trackback comments."
+msgstr "顯示 pingback 和 trackback 迴響。"
+
+#: wp-recentcomments.php:374
+msgid "Show navigation bar."
+msgstr "顯示導航欄。"
+
+#: wp-recentcomments.php:380
+msgid "Comment Items"
+msgstr "迴響條目"
+
+#: wp-recentcomments.php:383
+msgid "characters per comment."
+msgstr "個字符每天迴響。"
+
+#: wp-recentcomments.php:388
+msgid "Show post titles."
+msgstr "顯示文章標題。"
+
+#: wp-recentcomments.php:394
+msgid "Show the expand button when mouse over excerpts."
+msgstr "當滑鼠經過迴響時顯示彈開按鈕。"
+
+#: wp-recentcomments.php:400
+msgid "Open external pages in a new tab/window."
+msgstr "在新窗體或者新頁面上打開外部連結。"
+
+#: wp-recentcomments.php:406
+msgid "Show timestamps."
+msgstr "顯示迴響時間。"
+
+#: wp-recentcomments.php:412
+msgid "Show avatars on"
+msgstr "顯示留言者頭像在"
+
+#: wp-recentcomments.php:415
+msgid "left"
+msgstr "左邊"
+
+#: wp-recentcomments.php:416
+msgid "right"
+msgstr "右邊"
+
+#: wp-recentcomments.php:418
+msgid ", size is"
+msgstr "，尺寸是："
+
+#: wp-recentcomments.php:420
+msgid "pixels"
+msgstr "像素。"
+
+#: wp-recentcomments.php:425
+msgid "Show smilies as graphic icons."
+msgstr "顯示表情圖形。"
+
+#: wp-recentcomments.php:434
+msgid "Save Changes"
+msgstr "儲存變更"
+
+#: wp-recentcomments.php:460
+msgid "%REVIEWER% on %POST%"
+msgstr "%REVIEWER% 在 %POST%"
+
+#: wp-recentcomments.php:462
+msgid "No comments"
+msgstr "沒有任何迴響"
+
+#: wp-recentcomments.php:463
+msgid "&laquo; Newest"
+msgstr "&laquo; 最新的"
+
+#: wp-recentcomments.php:464
+msgid "&laquo; Newer"
+msgstr "&laquo; 上一頁"
+
+#: wp-recentcomments.php:465
+msgid "Older &raquo;"
+msgstr "下一頁 &raquo;"
+
+#: wp-recentcomments.php:470
+msgid "Anonymous"
+msgstr "匿名"
+

@@ -1,0 +1,227 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP-RecentComments v1.8.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2009-11-04 02:02-0600\n"
+"Last-Translator: Romeo Shuka <webmaster@romeolab.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: Albanian\n"
+"X-Poedit-Country: ALBANIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: core.php:43
+#: core.php:189
+#@ wp-recentcomments
+msgid "Loading"
+msgstr "Duke u ngarkuar"
+
+#: core.php:100
+#@ wp-recentcomments
+msgid "Anonymous"
+msgstr "Anonim"
+
+#: core.php:119
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: core.php:121
+msgid "Trackback:"
+msgstr "Trackback:"
+
+#: core.php:123
+#@ wp-recentcomments
+msgid "on"
+msgstr "më"
+
+#: core.php:142
+#@ wp-recentcomments
+msgid "&laquo; Newest"
+msgstr "&laquo; Më të rejat"
+
+#: core.php:155
+#@ wp-recentcomments
+msgid "&laquo; Newer"
+msgstr "&laquo; Më të reja"
+
+#: core.php:161
+#@ wp-recentcomments
+msgid "Older &raquo;"
+msgstr "Më të vjetra &raquo;"
+
+#: core.php:213
+#@ wp-recentcomments
+msgid "Y/m/d"
+msgstr "Y/m/d"
+
+#: core.php:214
+#@ wp-recentcomments
+msgid "H:i"
+msgstr "H:i"
+
+#: core.php:215
+#, php-format
+#@ wp-recentcomments
+msgid "%1$s - %2$s"
+msgstr "%1$s - %2$s"
+
+#: core.php:224
+#@ wp-recentcomments
+msgid "&laquo; Back"
+msgstr "&laquo; Mbrapsht"
+
+#: core.php:322
+#@ wp-recentcomments
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: wp-recentcomments.php:49
+#@ wp-recentcomments
+msgid "Recent Comments"
+msgstr "Komentet e fundit"
+
+#: wp-recentcomments.php:160
+#@ wp-recentcomments
+msgid "Title: "
+msgstr "Titulli:"
+
+#: wp-recentcomments.php:167
+#@ wp-recentcomments
+msgid "Number of comments to show: "
+msgstr "Numri i komenteve për tu treguar:"
+
+#: wp-recentcomments.php:171
+#@ wp-recentcomments
+msgid "(at most 20)"
+msgstr "(së shumti 20)"
+
+#: wp-recentcomments.php:176
+#@ wp-recentcomments
+msgid "Length of each comment: "
+msgstr "Gjatësia e secilit koment:"
+
+#: wp-recentcomments.php:184
+#@ wp-recentcomments
+msgid "Show post titles."
+msgstr "Trego titullin e postimit."
+
+#: wp-recentcomments.php:191
+#@ wp-recentcomments
+msgid "Show pingback comments."
+msgstr "Trego pingbacket e komenteve."
+
+#: wp-recentcomments.php:198
+#@ wp-recentcomments
+msgid "Show trackback comments."
+msgstr "Trego trackbacket e komenteve."
+
+#: wp-recentcomments.php:205
+#@ wp-recentcomments
+msgid "Show author avatars."
+msgstr "Trego avatarët e autorëve."
+
+#: wp-recentcomments.php:211
+#@ wp-recentcomments
+msgid "The size of avatars: "
+msgstr "Madhësia avatarit:"
+
+#: wp-recentcomments.php:215
+msgid "(8 - 96)"
+msgstr "(8 - 96)"
+
+#: wp-recentcomments.php:220
+#@ wp-recentcomments
+msgid "The position of avatars: "
+msgstr "Pozicioni i avatarëve:"
+
+#: wp-recentcomments.php:222
+#@ wp-recentcomments
+msgid "Left"
+msgstr "Majtas"
+
+#: wp-recentcomments.php:223
+#@ wp-recentcomments
+msgid "Right"
+msgstr "Djathtas"
+
+#: wp-recentcomments.php:230
+#@ wp-recentcomments
+msgid "The default avatar: "
+msgstr "Avatar default:"
+
+#: wp-recentcomments.php:234
+#@ wp-recentcomments
+msgid "(Filename from '/wp-recentcomments/avatars/' directory or Internet address)"
+msgstr "(Emri i dokumentit nga dosja '/ wp-recentcomments/avatars /' ose nga adresë interneti)"
+
+#: wp-recentcomments.php:240
+#@ wp-recentcomments
+msgid "Show navigator buttons."
+msgstr "Trego butonat e lundrimit."
+
+#: wp-recentcomments.php:247
+#@ wp-recentcomments
+msgid "Show the comments from administrators."
+msgstr "Trego komentet nga administratorët."
+
+#: wp-recentcomments.php:254
+#@ wp-recentcomments
+msgid "Convert emoticons like <code>:-)</code> and <code>:-P</code> to graphics on display."
+msgstr "Shndërro emocione si <code>:-)</code> dhe <code>:-P</code> në grafik."
+
+#: wp-recentcomments.php:270
+#@ wp-recentcomments
+msgid "The most recent comments"
+msgstr "Komentet e fundit"
+
+#: wp-recentcomments.php:271
+#: wp-recentcomments.php:272
+#: wp-recentcomments.php:309
+#@ wp-recentcomments
+msgid "WP-RecentComments"
+msgstr "Wp-RecentComments"
+
+#: wp-recentcomments.php:318
+#@ wp-recentcomments
+msgid "WP-RecentComments Options"
+msgstr "Cilësitë e WP-RecentComments"
+
+#: wp-recentcomments.php:323
+#@ wp-recentcomments
+msgid "JavaScript Library"
+msgstr "Libraria JavaScript"
+
+#: wp-recentcomments.php:327
+#@ wp-recentcomments
+msgid "Use normal JavaScript library that is supported by this plugin."
+msgstr "Përdor librari normale të JavaScript që mbështetet nga ky plugin."
+
+#: wp-recentcomments.php:332
+#@ wp-recentcomments
+msgid "Use jQuery library that is supported by WordPress."
+msgstr "Përdor librari jQuery që mbështetet nga Wordpress."
+
+#: wp-recentcomments.php:337
+#@ wp-recentcomments
+msgid "Custom jQuery."
+msgstr "jQuery personale."
+
+#: wp-recentcomments.php:340
+#@ wp-recentcomments
+msgid "Please input the URL of jQuery:"
+msgstr "Ju lutem vendosni URL-në e jQuery:"
+
+#: wp-recentcomments.php:349
+#@ wp-recentcomments
+msgid "Save Changes"
+msgstr "Ruaj Ndryshimet"
+

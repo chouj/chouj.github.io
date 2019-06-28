@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Thingspeak on 抽筋儿的话语权</title>
+    <link>https://chouj.github.io/tags/thingspeak/</link>
+    <description>Recent content in Thingspeak on 抽筋儿的话语权</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
+    <lastBuildDate>Fri, 19 Jan 2018 09:15:41 +0000</lastBuildDate>
+    
+	<atom:link href="https://chouj.github.io/tags/thingspeak/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>用MATLAB实现便便时间间隔的定期统计分析</title>
+      <link>https://chouj.github.io/2018/01/19/%E7%94%A8matlab%E5%AE%9E%E7%8E%B0%E4%BE%BF%E4%BE%BF%E6%97%B6%E9%97%B4%E9%97%B4%E9%9A%94%E7%9A%84%E5%AE%9A%E6%9C%9F%E7%BB%9F%E8%AE%A1%E5%88%86%E6%9E%90/</link>
+      <pubDate>Fri, 19 Jan 2018 09:15:41 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/2018/01/19/%E7%94%A8matlab%E5%AE%9E%E7%8E%B0%E4%BE%BF%E4%BE%BF%E6%97%B6%E9%97%B4%E9%97%B4%E9%9A%94%E7%9A%84%E5%AE%9A%E6%9C%9F%E7%BB%9F%E8%AE%A1%E5%88%86%E6%9E%90/</guid>
+      <description>&lt;p&gt;为了达成如题的目的，实现方法已经有了早期的两个版本：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;2014年：手机端手动输入便便时间，经Dropbox同步至本地PC；利用Windows计划任务定期执行统计分析的&lt;a href=&#34;http://xuchi.name/tag/matlab/&#34;&gt;MATLAB&lt;/a&gt;脚本；将结果发邮箱，再利用IFTTT发Twitter上。(见&lt;a href=&#34;https://github.com/chouj/PooAnalysis&#34;&gt;Github&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;2017年3月：应对Dropbox被墙，将便便时间记录放到&lt;a href=&#34;http://notepad.live&#34;&gt;Notepad&lt;/a&gt;上；&lt;a href=&#34;http://xuchi.name/tag/matlab/&#34;&gt;MATLAB&lt;/a&gt;里利用正则把页面上的数据读下来，再进行统计分析；同样用Windows计划任务实现定期执行。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;上述两个方案中最难坚持的部分在于：要打开手机浏览器，访问相应记录网页，再按10个数字手动输入便便时间。&lt;/p&gt;
+
+&lt;p&gt;去年10月搞定了&lt;strong&gt;第三版实现方法&lt;/strong&gt;，借助Thingspeak数据上载的timestamp，完美回避手动输入时间数据；同时脚本执行也丢去了Thingspeak；分析结果推送则通过IFTTT的webhooks发至Telegram；Thingspeak还具备利用数据作图的功能。具体如下：&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

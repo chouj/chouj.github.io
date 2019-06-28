@@ -1,0 +1,157 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP-RecentComments 1.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-12-23 21:41+0800\n"
+"PO-Revision-Date: \n"
+"Last-Translator: mg12 <wuzhao.mail@gmail.com>\n"
+"Language-Team: NeoEase <http://www.neoease.com/plugins/>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Turkish\n"
+"X-Poedit-Country: TURKEY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: core.php:43
+#: core.php:189
+msgid "Loading"
+msgstr "Yükleniyor"
+
+#: core.php:100
+msgid "Anonymous"
+msgstr "Anonim"
+
+#: core.php:119
+msgid "Pingback:"
+msgstr ""
+
+#: core.php:121
+msgid "Trackback:"
+msgstr ""
+
+#: core.php:123
+msgid "on"
+msgstr "&raquo;"
+
+#: core.php:142
+msgid "&laquo; Newest"
+msgstr "&laquo; En Yeni"
+
+#: core.php:155
+msgid "&laquo; Newer"
+msgstr "&laquo; Yeni"
+
+#: core.php:161
+msgid "Older &raquo;"
+msgstr "Eski &raquo;"
+
+#: core.php:214
+msgid "Y/m/d"
+msgstr ""
+
+#: core.php:215
+msgid "H:i"
+msgstr ""
+
+#: core.php:216
+#, php-format
+msgid "%1$s - %2$s"
+msgstr ""
+
+#: core.php:229
+msgid "&laquo; Back"
+msgstr "&laquo; Geri"
+
+#: core.php:327
+msgid "&raquo;"
+msgstr ""
+
+#: wp-recentcomments.php:49
+msgid "Recent Comments"
+msgstr "Son Yorumlar"
+
+#: wp-recentcomments.php:160
+msgid "Title: "
+msgstr "Başlık:"
+
+#: wp-recentcomments.php:167
+msgid "Number of comments to show: "
+msgstr "Gösterilecek yorum sayısı:"
+
+#: wp-recentcomments.php:171
+msgid "(at most 20)"
+msgstr "(en fazla 20)"
+
+#: wp-recentcomments.php:176
+msgid "Length of each comment: "
+msgstr "Her yorumun uzunluğu: "
+
+#: wp-recentcomments.php:184
+msgid "Show post titles."
+msgstr "Yazı başlığı gösterilsin mi."
+
+#: wp-recentcomments.php:191
+msgid "Show pingback comments."
+msgstr "Pingback yorumlar gösterilsin mi."
+
+#: wp-recentcomments.php:198
+msgid "Show trackback comments."
+msgstr "Trackback yorumlar gösterilsin mi."
+
+#: wp-recentcomments.php:205
+msgid "Show author avatars."
+msgstr "Yazar avatarı gösterilsin mi."
+
+#: wp-recentcomments.php:211
+msgid "The size of avatars: "
+msgstr "Avatar boyutu: "
+
+#: wp-recentcomments.php:215
+msgid "(8 - 96)"
+msgstr ""
+
+#: wp-recentcomments.php:220
+msgid "The position of avatars: "
+msgstr "Avatar konumu:"
+
+#: wp-recentcomments.php:222
+msgid "Left"
+msgstr "Sol"
+
+#: wp-recentcomments.php:223
+msgid "Right"
+msgstr "Sağ"
+
+#: wp-recentcomments.php:230
+msgid "The default avatar: "
+msgstr "Varsayılan avatar: "
+
+#: wp-recentcomments.php:234
+msgid "(Filename from '/wp-recentcomments/avatars/' directory or Internet address)"
+msgstr "('/wp-recentcomments/avatars/' dizini içindeki dosya adı veya bir internet adresi)"
+
+#: wp-recentcomments.php:240
+msgid "Show navigator buttons."
+msgstr "Gezinti düğmeleri görünsün mü?"
+
+#: wp-recentcomments.php:247
+msgid "Show the comments from administrators."
+msgstr "Yöneticilerin yorumları görünsün mü?"
+
+#: wp-recentcomments.php:254
+msgid "Convert emoticons like <code>:-)</code> and <code>:-P</code> to graphics on display."
+msgstr "<code>:-)</code> ve <code>:-P</code> gibi ifadeleri yayımlarken grafiklere çevir."
+
+#: wp-recentcomments.php:270
+msgid "The most recent comments"
+msgstr "En son yorumları göster"
+
+#: wp-recentcomments.php:271
+#: wp-recentcomments.php:272
+msgid "WP-RecentComments"
+msgstr ""
+
