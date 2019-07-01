@@ -30,19 +30,19 @@
 
   
   <meta name="author" content="Chi Xu">
-  
+  <meta name="description" content="Chi&#39;s Blog">
 
   
   <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="@gohugoio">
   <meta name="twitter:title" content="抽筋儿的话语权">
-  
+  <meta name="twitter:description" content="Chi&#39;s Blog">
   <meta name="twitter:image" content="/images/avatar.png">
 
   
   <meta property="og:type" content="website">
   <meta property="og:title" content="抽筋儿的话语权">
-  
+  <meta property="og:description" content="Chi&#39;s Blog">
   <meta property="og:url" content="https://chouj.github.io/categories/%E6%88%91%E8%AE%B0%E5%BD%95/">
   <meta property="og:image" content="/images/avatar.png">
 
@@ -167,7 +167,11 @@
   </nav>
   <nav class="social-menu collapsed">
     <h2 class="offscreen">Social Networks</h2>
-    <ul class="social-list"></ul>
+    <ul class="social-list"><li class="social-item">
+          <a href="//github.com/chouj" rel="me" title="GitHub" aria-label="GitHub">
+	    <span class="icon icon-github" aria-hidden="true"></span>
+          </a>
+        </li></ul>
   </nav>
 </header>
 
@@ -180,177 +184,98 @@
       
         <article class="post-entry">
   <header class="post-header">
-    <h3 class="post-title"><a href="https://chouj.github.io/2011/07/24/%E6%8A%BD%E7%AD%8B%E5%84%BF%E7%9A%84%E6%89%8B%E6%9C%BA%E7%BC%96%E5%B9%B4%E5%8F%B2/" class="post-link">抽筋儿的手机编年史</a></h3>
-    <p class="post-meta">@Chouj · Jul 24, 2011 · 1 min read</p>
+    <h3 class="post-title"><a href="https://chouj.github.io/2013/07/31/%E4%BB%A5ftp%E4%BD%9C%E4%B8%BA%E5%B0%8F%E5%9B%A2%E9%98%9F%E5%86%85%E9%83%A8%E8%B5%84%E6%96%99%E5%85%B1%E4%BA%AB%E6%96%B9%E6%A1%88%E5%9F%BA%E4%BA%8Epure-ftpd/" class="post-link">Ubuntu下基于Pure-ftpd建FTP记录</a></h3>
+    <p class="post-meta">@Chouj · Jul 31, 2013 · 1 min read</p>
   </header>
   
-  <p class="post-summary">[][1]抽筋儿的手机编年史 </p>
+  <p class="post-summary">一年前就开始寻找课题组内资料共享的解决方案，现在发现，我把事情想复杂了：在内网建外网可访问的FTP的话，以为要在单位出口网关上做映射才行，以为要搞DDNS。其实都不用。以下记录一些关键信息，备查。
+一开始尝试vsftpd，装好后发现21端口都没打开，作罢（查端口命令：#sudo netstat -npltu | grep 21）。
+安装pure-ftpd可参照网上的教程，不过其配置比较奇怪。Ubuntu 12.04下的/etc/pure-ftpd里确实有auth、db、conf三个文件夹，但官方wiki说的在conf里以选项为文件名，以选项值为文件内容进行配置，却不起作用。只好在启动命令里加switch：
+#sudo pure-ftpd -F ~/Message -lpuredb:/etc/pure-ftpd/pureftpd.pdb –fscharset=gbk –clientcharset=gbk -b -A -B -c15 -C5 -E -G -k95 -r -K -H &amp;
+这些switch的控制作用可以在官网查。诡异的是“-l”这个，后面紧跟的虚拟用户数据库路径和“l”间居然不用空格。
+然后，在办公室Buffalo路由做端口映射，开放21端口。另外，在/etc/rsyslog.conf里做了ftp日志的单独输出，输出日志以gedit打开不能正常显示中文字符，但用配置好utf-8的GVIM打开就可以。
+目前运行良好，因为本来访问量就小。最大的问题在于WIN下部分浏览器不能正常显示中文，以致进入不了某些中文名的文件夹，最佳解决方案还是用FlashFXP等FTP工具访问。</p>
   <footer class="post-footer">
-    <a class="read-more" href="https://chouj.github.io/2011/07/24/%E6%8A%BD%E7%AD%8B%E5%84%BF%E7%9A%84%E6%89%8B%E6%9C%BA%E7%BC%96%E5%B9%B4%E5%8F%B2/">Read More →</a>
+    <a class="read-more" href="https://chouj.github.io/2013/07/31/%E4%BB%A5ftp%E4%BD%9C%E4%B8%BA%E5%B0%8F%E5%9B%A2%E9%98%9F%E5%86%85%E9%83%A8%E8%B5%84%E6%96%99%E5%85%B1%E4%BA%AB%E6%96%B9%E6%A1%88%E5%9F%BA%E4%BA%8Epure-ftpd/">Read More →</a>
   </footer>
 </article>
 
       
         <article class="post-entry">
   <header class="post-header">
-    <h3 class="post-title"><a href="https://chouj.github.io/2011/06/13/%E9%98%B5%E7%97%9B%E4%B9%8B%E5%90%8E-%E6%96%B9%E6%98%BE%E7%94%9F%E5%91%BD%E7%92%8B%E5%8D%8E/" class="post-link">阵痛之后 方显生命璋华</a></h3>
-    <p class="post-meta">@Chouj · Jun 13, 2011 · 1 min read</p>
+    <h3 class="post-title"><a href="https://chouj.github.io/2013/07/05/%E7%A7%8D%E7%89%99%E4%B8%80%E6%9C%9F%E6%89%8B%E6%9C%AF%E7%9A%84%E7%97%85%E4%BE%8B%E5%8F%8A%E8%B4%B9%E7%94%A8/" class="post-link">种牙一期手术的病例及费用</a></h3>
+    <p class="post-meta">@Chouj · Jul 5, 2013 · 1 min read</p>
   </header>
   
-  <p class="post-summary">闲来以Project Babel 2建了个社区，实现了GAE域名绑定和反向代理。
-本来很气，因为我吆喝之时，总有人说没人气。那时私以为，没注过id，没发过贴，没对社区内容做出贡献的童鞋，没有资格说人少没人气，没有资格坐享我的劳动成果；没有付出，就想坐享其成——就像没写过一个字就能发文章一样——是不现实的，是我看不惯的，是悖论，觉得是对我劳动成果的不尊重。而我不会也不可能弄无数僵尸马甲在这里打情骂俏来制造虚假繁荣来恶心自己。
-后来释然了，多亏海洋学中的尺度分析。
-社区望能以前人的见识和经验为后人节约生活方面的时间经济成本，这本就是个大尺度的过程。而且我得承认，这在UGC方面，在吸引用户创造和分享内容方面存在难点，不是单单提供一个平台就足够的。就目前知道这里的人数看，这个基数太小，也难为大家在初识的时候不说没人。所以我还要继续吆喝，即便被说没人。到什么时候为止?这个时间尺度就是我说的大尺度了。基数的积累我想需要几代南海人的努力和积淀，只有在若干年后知道这里的人足够的多，“没人气”的 帽子才能摘掉，那时我才能欣慰，并以创建者的身份骄傲。而你们是”生不逢时”的元老：与那时初识社区的人相比，你们是不幸的，因为你们一开始遇到的是刚出生的社区；但你们又是幸运的，因为见证了生命呱呱落地的奇迹。
-没错，相比这么长的周期而言，现在只是阵痛。阵痛之后，方显生命璋华。</p>
+  <p class="post-summary">拖了三四年，我终于躺手术台上了。没种时忐忐忑忑、惴惴不安；一期完事后，发现比洗牙还舒服。现在麻药期已过，也从没疼痛。呈上手术病例和费用明细，供后来者参考。
+注：是一期，这还没完。别以为五千多就搞定了。</p>
   <footer class="post-footer">
-    <a class="read-more" href="https://chouj.github.io/2011/06/13/%E9%98%B5%E7%97%9B%E4%B9%8B%E5%90%8E-%E6%96%B9%E6%98%BE%E7%94%9F%E5%91%BD%E7%92%8B%E5%8D%8E/">Read More →</a>
+    <a class="read-more" href="https://chouj.github.io/2013/07/05/%E7%A7%8D%E7%89%99%E4%B8%80%E6%9C%9F%E6%89%8B%E6%9C%AF%E7%9A%84%E7%97%85%E4%BE%8B%E5%8F%8A%E8%B4%B9%E7%94%A8/">Read More →</a>
   </footer>
 </article>
 
       
         <article class="post-entry">
   <header class="post-header">
-    <h3 class="post-title"><a href="https://chouj.github.io/2011/04/15/%E9%BA%A6%E5%AD%90%E8%AF%AD%E5%BD%95%E4%B8%80/" class="post-link">麦子语录一</a></h3>
-    <p class="post-meta">@Chouj · Apr 15, 2011 · 1 min read</p>
+    <h3 class="post-title"><a href="https://chouj.github.io/2012/08/06/%E5%8F%88%E6%98%AF%E5%87%BA%E6%B5%B7%E6%97%B6/" class="post-link">又是出海时</a></h3>
+    <p class="post-meta">@Chouj · Aug 5, 2012 · 1 min read</p>
   </header>
   
-  <p class="post-summary">发现自己并不仅仅只缺管理自我的勇气和毅力，更缺管理自我的驱动力和自始至终的热情，以至于很多时候一些小计划难以为继。生活应该更hight一些，困难是关卡、通关有奖励！  很多时候，得有些目标，做些努力，多些耐心。你觉得重要的事，那就现在开始做，即便一开始慢些，混乱些，但坚持下去终会清晰，小如读一本难读的书、大如掌握一门吃饭的手艺。  重燃生活之激情。你想到的是乐趣，终将得到乐趣；你想到的是麻烦和悲剧，终将得到的是麻烦和悲剧。想想这么一条路：挣票子、旅游、玩车、挣更多的票子、环球旅游、玩更好的车。得暗示这是一条给你准备的路，以及做好上路的准备。好好玩！要活着！  立足个人之潜能和兴趣才是个体奋斗之方向，即便在这期间需要和各种集体主义（国家、族群或教义）妥协和交易，毕竟这个世界秩序是历经几次大集团的利益斗争后达成，与规则相比，个体势微不足一提。但心底必须清楚前者才是目的，后者只是途径，不要自己傻逼了。  都是能力不足，才会手足无措吧。所以与其单纯安抚脆弱的廉价伤感，不如多理智的学学技能，无论工作、感情或是生活，去享受摆平一件件麻烦事带来的征服感和宁静感。  真能叫醒一个成天萎靡不振的男人的只有理想，只有理想才会真的引起他的野心和乐趣，才会在他心中建立一套他会遵守的规章准则。懦弱、疲惫和分心都会消弱这个家伙践行理想的力量，若你是这个家伙的朋友和伴侣，请在他孱弱是给予勇气、紧张时让他休息。繁杂时助他专注，他即便不说，心底也会感激不尽  畏难、疲惫、分心貌似是我所有半途而废和停滞不前工作前的三座大山。注意技巧、由易入难、平和心态；保持深入的热情，享受预期成果的喜悦，以及规律科学的作息；专注，再专注些，并每天睡前反思回顾来纠正。我只能如此每天念叨自己了。  互联网如此深入自己的生活，可在手中完全沦为享乐工具，放眼望去关注的都是别人的笑话和自己的欲望。难怪人生低迷如此呢。生存恐惧的确是很多中国年轻人当下在意的事，也的确是我们面临的问题，但这又怎能成为自己逃避放逐的理由。得和懦弱打一架。  必须勤奋、必须养成自己独立工作习惯和技巧。强制性达到一种高效率、持久和高执行力的惯性状态。而不是花费时间在这件事上就纠结懊悔。这件事念叨了很多年了，我得很有耐心的逼着自个继续念叨下去。  但一个人独处时，当独立工作生活时，必须控制我的情绪心态和行为、规划我每天的日程和阶段性任务。做到不失控，不随波逐流，不怨天尤人。花一年时间训练自己。我必须要为自己负责。搞不定就去读书。  乐观，积极，行动，缓慢。我操，说起来这么简单的几个字，混了几十年还是不会。  所以不要拖延，不要指望一直不热身，最后一刻就一定会满血满魔的出现神迹，不要太自信所谓潜力。  创新者所遇阻力极大且终所获极少，反复多次，一旦成功便是扎实一步。守旧者自身动力极小且所获颇丰，衰减趋势并非直线，但一旦出局便决无生路。问题是谁能撑过此消彼长那段路。  不能只要忙，更得学会忙里偷闲，学会人生豁达，以及豁达之后的乐观欣欣然。  人事关系的处理都需要提前分析局面、权衡筹码、心里有一个目标之后才开始行动和说话。很多时候我们笨、懒、全凭着性子和惯性来做，惹了麻烦，自己安慰别人推托说就这性格。清晰些、慢些、细致些总是万全的。  给我一件具体琐碎小事一个规定时间，我能完成的很好。大把时间内给一个宽泛的任务，我却没法有任何进展。说白了就是学习习惯和能力的弱智体现，不能改变的话，这辈子只能打小工了。 要相信自己的潜力，坚定执行的意志力。  这个夜晚，小伙子们，有情人的一定要拉出去溜溜，去弥补射手岁月里的苦逼惨淡和惆怅，即便这街上到处人很多，商人更多，那又怎样。这个夜晚，大姑娘们，能失身的就不要只是湿身，若已失了身，就请放纵到失声。人类没有癫狂，世界将会怎样。  2011-02-14 23:42  大师兄说的没错，我们这代人安逸久了，习惯逃避和拖延。在这个成家立业的年纪，越来越意识到这是种病。一一年一季度已过，回想所得，和展望剩下的三个季度，比一零年同期要清楚些。有进步是好事，哪怕不多。时间紧迫，不容彷徨，keep pondering.
-望麦子童鞋容我收藏下他在饭否上对自己励志警世的句子以学习自勉（乱序）：
- 发现自己并不仅仅只缺管理自我的勇气和毅力，更缺管理自我的驱动力和自始至终的热情，以至于很多时候一些小计划难以为继。生活应该更hight一些，困难是关卡、通关有奖励！
-很多时候，得有些目标，做些努力，多些耐心。你觉得重要的事，那就现在开始做，即便一开始慢些，混乱些，但坚持下去终会清晰，小如读一本难读的书、大如掌握一门吃饭的手艺。
-重燃生活之激情。你想到的是乐趣，终将得到乐趣；你想到的是麻烦和悲剧，终将得到的是麻烦和悲剧。想想这么一条路：挣票子、旅游、玩车、挣更多的票子、环球旅游、玩更好的车。得暗示这是一条给你准备的路，以及做好上路的准备。好好玩！要活着！
-立足个人之潜能和兴趣才是个体奋斗之方向，即便在这期间需要和各种集体主义（国家、族群或教义）妥协和交易，毕竟这个世界秩序是历经几次大集团的利益斗争后达成，与规则相比，个体势微不足一提。但心底必须清楚前者才是目的，后者只是途径，不要自己傻逼了。
-都是能力不足，才会手足无措吧。所以与其单纯安抚脆弱的廉价伤感，不如多理智的学学技能，无论工作、感情或是生活，去享受摆平一件件麻烦事带来的征服感和宁静感。
-真能叫醒一个成天萎靡不振的男人的只有理想，只有理想才会真的引起他的野心和乐趣，才会在他心中建立一套他会遵守的规章准则。懦弱、疲惫和分心都会消弱这个家伙践行理想的力量，若你是这个家伙的朋友和伴侣，请在他孱弱是给予勇气、紧张时让他休息。繁杂时助他专注，他即便不说，心底也会感激不尽
-畏难、疲惫、分心貌似是我所有半途而废和停滞不前工作前的三座大山。注意技巧、由易入难、平和心态；保持深入的热情，享受预期成果的喜悦，以及规律科学的作息；专注，再专注些，并每天睡前反思回顾来纠正。我只能如此每天念叨自己了。
-互联网如此深入自己的生活，可在手中完全沦为享乐工具，放眼望去关注的都是别人的笑话和自己的欲望。难怪人生低迷如此呢。生存恐惧的确是很多中国年轻人当下在意的事，也的确是我们面临的问题，但这又怎能成为自己逃避放逐的理由。得和懦弱打一架。
-必须勤奋、必须养成自己独立工作习惯和技巧。强制性达到一种高效率、持久和高执行力的惯性状态。而不是花费时间在这件事上就纠结懊悔。这件事念叨了很多年了，我得很有耐心的逼着自个继续念叨下去。
-但一个人独处时，当独立工作生活时，必须控制我的情绪心态和行为、规划我每天的日程和阶段性任务。做到不失控，不随波逐流，不怨天尤人。花一年时间训练自己。我必须要为自己负责。搞不定就去读书。
-乐观，积极，行动，缓慢。我操，说起来这么简单的几个字，混了几十年还是不会。
-所以不要拖延，不要指望一直不热身，最后一刻就一定会满血满魔的出现神迹，不要太自信所谓潜力。
-创新者所遇阻力极大且终所获极少，反复多次，一旦成功便是扎实一步。守旧者自身动力极小且所获颇丰，衰减趋势并非直线，但一旦出局便决无生路。问题是谁能撑过此消彼长那段路。
-不能只要忙，更得学会忙里偷闲，学会人生豁达，以及豁达之后的乐观欣欣然。
-人事关系的处理都需要提前分析局面、权衡筹码、心里有一个目标之后才开始行动和说话。很多时候我们笨、懒、全凭着性子和惯性来做，惹了麻烦，自己安慰别人推托说就这性格。清晰些、慢些、细致些总是万全的。
-给我一件具体琐碎小事一个规定时间，我能完成的很好。大把时间内给一个宽泛的任务，我却没法有任何进展。说白了就是学习习惯和能力的弱智体现，不能改变的话，这辈子只能打小工了。 要相信自己的潜力，坚定执行的意志力。
-这个夜晚，小伙子们，有情人的一定要拉出去溜溜，去弥补射手岁月里的苦逼惨淡和惆怅，即便这街上到处人很多，商人更多，那又怎样。这个夜晚，大姑娘们，能失身的就不要只是湿身，若已失了身，就请放纵到失声。人类没有癫狂，世界将会怎样。（2011-02-14 23:42）
- </p>
+  <p class="post-summary">又是国际危机组织对南海形势表示悲观，又是美国国务院关于南中国海的声明，我却要在这个当口儿出海了，戏言为视察南海局势。这次预计为期35天，航线最南端将抵南海的北纬六度，和09年那次一样；也有离菲越都很近的站位。也许是基于一线视察的原因，船上还有记者。
+每次出海，都会为了船上的非作业时间做一番准备。我在V2EX有此一问：如果是你，如何安排？我是这样：Kindle Fire上可以看几个航次的书&#43;500G高清资源&#43;若干消遣型PC Games。当然，要是装逼一点的话，我会说还有若干文献、底稿、程序、数据神马的。还有，结识船上各色人等一同思考人生神马的，也是不错的选择。
+望平安。</p>
   <footer class="post-footer">
-    <a class="read-more" href="https://chouj.github.io/2011/04/15/%E9%BA%A6%E5%AD%90%E8%AF%AD%E5%BD%95%E4%B8%80/">Read More →</a>
+    <a class="read-more" href="https://chouj.github.io/2012/08/06/%E5%8F%88%E6%98%AF%E5%87%BA%E6%B5%B7%E6%97%B6/">Read More →</a>
   </footer>
 </article>
 
       
         <article class="post-entry">
   <header class="post-header">
-    <h3 class="post-title"><a href="https://chouj.github.io/2011/01/26/2010-%E5%B9%B4%E5%BA%A6%E6%8A%98%E8%85%BE/" class="post-link">2010 年度折腾</a></h3>
-    <p class="post-meta">@Chouj · Jan 26, 2011 · 1 min read</p>
+    <h3 class="post-title"><a href="https://chouj.github.io/2012/01/15/%E9%A6%99%E6%B8%AF%E6%89%AB%E8%B4%A7%E9%83%A8%E5%88%86%E6%B8%85%E7%82%B9%E5%90%AB%E4%BB%B7%E6%A0%BC/" class="post-link">香港扫货部分清点（含价格）</a></h3>
+    <p class="post-meta">@Chouj · Jan 14, 2012 · 1 min read</p>
   </header>
   
-  <p class="post-summary">看到有人说，每年开篇会写个计划，隐藏不发，等年末再核对公开。我觉得这方法很好，但我自己写博至今，没有写过一次年度总结性质的日志。拿兔年开个头，先写个类总结的东西。
+  <p class="post-summary">虽然这活不该大老爷们做，但7号的这次扫货确实就我一人完成，为了供路人参考，清点如下（单位：港纸）：
+Jenny Bakery 小熊饼干
+4 MIX：110
+8 MIX：150
+龙城大药房
+兰蔻水份缘舒缓日霜（LANCOME HYDRA ZEN） 15ml小样：55
+安娜苏许愿精灵迷你淡香水（ANNA SUI Secret Wish）4ml小样：62
+TIGI BED HEAD Small Talk弹力素 200ml：62
+大力猴星加坡速效千里追风油 45ml：38
+丝塔芙/舒特膚洁面乳（Cetaphil Gentle Skin Clenser） 237 ml：64
+金英化糚药房
+碧欧泉滋润洗面奶（BIOTHERM　BIOSOUCE） 400ML：188
+安娜苏许愿精灵女士淡香水（ANNA SUI Secret Wish） 30ML：195
+碧欧泉男士水动力保湿乳（BIOTHERM HOMME Aquapower） 75ml：208
+雅施化糚品中心
+美源黑发霜/染发膏 881 882：44
+兰蔻清滢柔肤水(粉水) Lancome TONIQUE CONFORT Rehydrating Skincare Toner 200ml：178
+莎莎 Sa Sa
+雅诗兰黛红石榴日霜（Estee Lauder Nutritious Vita-Mineral Moisture Crème）50ml：465
+卡莱美 ColourMix
+安娜苏香水小样套装（Secret Wish/Flight of Fancy/Dolly Girl/Rock Me!</p>
+  <footer class="post-footer">
+    <a class="read-more" href="https://chouj.github.io/2012/01/15/%E9%A6%99%E6%B8%AF%E6%89%AB%E8%B4%A7%E9%83%A8%E5%88%86%E6%B8%85%E7%82%B9%E5%90%AB%E4%BB%B7%E6%A0%BC/">Read More →</a>
+  </footer>
+</article>
+
+      
+        <article class="post-entry">
+  <header class="post-header">
+    <h3 class="post-title"><a href="https://chouj.github.io/2011/12/30/2011%E5%B9%B4%E5%BA%A6%E6%8A%98%E8%85%BE/" class="post-link">2011年度折腾</a></h3>
+    <p class="post-meta">@Chouj · Dec 30, 2011 · 1 min read</p>
+  </header>
+  
+  <p class="post-summary">年末按规矩整一篇。
 年度成就
- 嘿嘿嘿嘿，人人都说她贤惠。  年度电子产品
- iPod Touch 8GB：在官网订，11月17号由同学过关带回。送给老婆的生日礼物。至今未FaceTime过。对于扮演Apps人肉精选器的角色不是很爽。4代的屏真是比三代靓丽多了。 T-mobile G1：10年年初丢了BlackBerry 8310，于是有了这个G1，以1500从@leira 那里买的。是我09年的生日礼物。至今未刷过机。对于这个内存小，短信、通话记录、联系人一多就啥时都卡的机器不是很爽。其他都挺满意，经常拿着上网。现在要不停重播打订票电话的缘故，换成了以前的BlackBerry 7230。如果仅电话、短信的话，还是7230给力啊。 松下洗衣机 XQB60-Q660U、奥马冰箱：该置办的得置办，该享受的得享受，哪怕还没房子。  年度折腾
- 南海海洋所非官方社区：觉得QQ群的内容无法留存，但那些信息——无论是学术技术讨论，还是本地生活信息，若积累下来就可供后来者参考，所以搞了这个社区。无奈目前没人中，还间歇性因appspot被墙而访问不能。 Foursquare（需翻墙）：低碳环保的“本人到此一游”，借助G1本人乐此不疲，以致被老婆痛斥陪她逛街不专心。这东西比GPS轨迹好使，因为往往想查阅的就是什么时候在哪里。目前使用156天，396次Check-in，14个Badges，34个Mayorships。参见题图 Dropbox：云存储势必流行，用Dropbox，不仅省略了优盘携带，附加了文件备份，而且其增容方法众多，特别适合于行政文案类工作。 PT：可惜，这玩意儿貌似要被封杀了，可我已经习惯了在这上面找高清。 15篇：blogging不给力，才15篇。 </p>
-  <footer class="post-footer">
-    <a class="read-more" href="https://chouj.github.io/2011/01/26/2010-%E5%B9%B4%E5%BA%A6%E6%8A%98%E8%85%BE/">Read More →</a>
-  </footer>
-</article>
-
-      
-        <article class="post-entry">
-  <header class="post-header">
-    <h3 class="post-title"><a href="https://chouj.github.io/2010/08/19/macau-2/" class="post-link">二访澳门</a></h3>
-    <p class="post-meta">@Chouj · Aug 19, 2010 · 1 min read</p>
-  </header>
-  
-  <p class="post-summary">半年前写的《澳门小吃游记》俨然成为了这里访问最频繁的日志之一。很荣幸。八月十五，我和挠挠再赴澳门，一举了却了对恒友鱼丸的挂念，当然也有别样的收获：
-
-上次来到板墇堂前地没有进圣玫瑰堂，那么这次就从圣玫瑰堂里开始。上图是刚入教堂所见。
+ 国庆期间办完婚礼，人生进入崭新阶段。累是累点儿，但心里还是挺乐呵。不过木有蜜月心有不甘啊。虽说确实是毕业季，但总归咎于毕业也不是个事儿。 年初一篇OD接收，人生第一篇SCI，来得有点晚，还是去年做的活。 3月参与了个重点基金本子的出炉，没拿上，但听说评得不错。 8月1号完的第一稿的文章现在还没投出去，囧。稿子被批了N多次。  年度电子产品
+ HTC Salsa (G15)：老婆吵吵着联想E520问题越来越多，于是在悠悠通讯拿了这个水货G15。刷了官方微客的ROM，不过我把facebook键从官方ROM的一键微博改成了锁屏键。现在我用这部，因为给老婆换了veer耍。不过G15的内存问题始终没有解决方案，十分坑爹。 HP veer：12月从MAXPDA团购给自己来把玩WebOS的。自RIM、Android、iOS后，我又多接触了一种系统，表示WebOS精致流畅，但比其他都更折腾。WebOS还欠缺很多人性化智能化的东西，不仅补丁打得头大，光联系人同步一项就够能让我把机器弄成交互失能。P.S. 点金石很惊艳。 旭日150：被搬回家养老了，继续过木有笔记本电脑的生活，希望下一台会是MBA或MBP。  **
 </p>
   <footer class="post-footer">
-    <a class="read-more" href="https://chouj.github.io/2010/08/19/macau-2/">Read More →</a>
-  </footer>
-</article>
-
-      
-        <article class="post-entry">
-  <header class="post-header">
-    <h3 class="post-title"><a href="https://chouj.github.io/2010/07/01/wuhan/" class="post-link">“丈母娘说了 婚房要三房”</a></h3>
-    <p class="post-meta">@Chouj · Jul 1, 2010 · 1 min read</p>
-  </header>
-  
-  <p class="post-summary">在光谷步行街看到硕大的如题广告，我心里有些不爽。似乎每个牛逼起来的地方，就一定要弄个牛逼的鸭梨（压力）坐镇。相对而言，我还不够牛逼，看到的还是鸭梨不是蛋糕。
- WHU、HUST  带着挠挠，回到武汉，回到学校，时隔三年。既是挠挠的毕业游，也是我的怀旧日。在华科骑着自行车，穿梭在交通事故视频中出现的各个路口，在武大依旧迷路以致找不到樱顶。兜个大圈子回来，发现人没变，景没变，拍照的器械变牛逼了，于是照片变好看了。挠挠说武大比华科漂亮，我说嗯。
- 又见宗师  宗师这个名号不是瞎给的，我受之独立精神影响相当大。总在Q上说要见面把酒畅谈，却一直未成行。面见之时似乎又总在苦于找话题，曾经班聚也是，这次绿茵阁也是。难道只适合线上交流？隐隐可想像宗师笑而不语，祝丫幸福。
- 户部巷  “有这么一条小吃街真好”，挠挠如是说。诚然啊，有着热干面和豆皮呢，湖北人不可或缺的东东。三年没吃着，一朝吃到爆。中大食堂的热干面绝对不配叫这三个字。PS.最近发掘了一家湖北菜馆“手拉手”，终于可以在广州回味湖北风味了。
-豆皮@户部巷</p>
-  <footer class="post-footer">
-    <a class="read-more" href="https://chouj.github.io/2010/07/01/wuhan/">Read More →</a>
-  </footer>
-</article>
-
-      
-        <article class="post-entry">
-  <header class="post-header">
-    <h3 class="post-title"><a href="https://chouj.github.io/2010/04/23/100-days-at-sea/" class="post-link">将满百天</a></h3>
-    <p class="post-meta">@Chouj · Apr 23, 2010 · 1 min read</p>
-  </header>
-  
-  <p class="post-summary">明日出发，归来之后，我的海上日子将破百。为念。2010基金委航次
-真实路线：10年南海开放航次</p>
-  <footer class="post-footer">
-    <a class="read-more" href="https://chouj.github.io/2010/04/23/100-days-at-sea/">Read More →</a>
-  </footer>
-</article>
-
-      
-        <article class="post-entry">
-  <header class="post-header">
-    <h3 class="post-title"><a href="https://chouj.github.io/2010/01/07/macau-1/" class="post-link">澳门小吃游记</a></h3>
-    <p class="post-meta">@Chouj · Jan 6, 2010 · 1 min read</p>
-  </header>
-  
-  <p class="post-summary">天未亮就起，天已黑方归，才能契合20100102这种回形日子。于是我和挠挠奔去了澳门，记载如下。搜攻略而来的朋友，谨记如下文字仅供参考。
-准备：
-我们事先咨询了常去澳门吃小吃的同学，然后查阅了网上的澳门攻略，将小吃的部分汇总打印，除此外就带一瓶水和通行证。在金马旅行社报名澳门自由行当日往返巴士，花费42元/人。
-6：00 – 6：30 am
-六点起床收拾。自备早餐。出发前记得如厕，毕竟车程还是挺长的，虽然中途可以停车方便。
-6：30 – 7：00 am
-乘地铁至公元前D出口。各旅行社的车都集中于教育路上。
-7：15 – 9：45 am
-说是7：00出发，但我们因为有游客晚到而推迟了大概20分钟。车程大概2个半小时，中途停靠加油站方便一次。
-9：45 – 11：00 am
-
-</p>
-  <footer class="post-footer">
-    <a class="read-more" href="https://chouj.github.io/2010/01/07/macau-1/">Read More →</a>
-  </footer>
-</article>
-
-      
-        <article class="post-entry">
-  <header class="post-header">
-    <h3 class="post-title"><a href="https://chouj.github.io/2009/10/26/tedtochina1025/" class="post-link">我们都是爬上陆地的鱼</a></h3>
-    <p class="post-meta">@Chouj · Oct 26, 2009 · 1 min read</p>
-  </header>
-  
-  <p class="post-summary">又参加了一次线下活动，是TEDtoChina广州站的meetup。临时看到，距离又很近，就去了。没有认识的人，无论线上还是线下。
-缺乏活动场地指引，开场时间的推迟，都注定这不是一个完美的活动。只是麦子说的“韧性和执行力是一个点子成功的所在”，让我对TEDtoChina广州站活动的认识有所改观。我先要承认我的动机不纯——本打算对TED和活动形式了解个大概就溜号去修液晶——所以我只有好奇没有热心，提前离开后也觉得不是那么有趣。但改观的地方在于，看事情需要一种尺度。就像远古第一条爬上陆地的鱼，可能它很丑、很笨拙，而当时间尺度发展到人类纪元的时候，我们有足够的理由为这只鱼欢呼。TED就是那光怪陆离的大地，我们每个参与其中的人，都是登上陆地的鱼。即便活动在组织上有所欠缺，即便真正交流的就那么几头人，但能在TED的中国“远古”时期就融入进来，不是很幸运么？</p>
-  <footer class="post-footer">
-    <a class="read-more" href="https://chouj.github.io/2009/10/26/tedtochina1025/">Read More →</a>
-  </footer>
-</article>
-
-      
-        <article class="post-entry">
-  <header class="post-header">
-    <h3 class="post-title"><a href="https://chouj.github.io/2009/08/31/2009-chuhai/" class="post-link">2009年开放航次站位图</a></h3>
-    <p class="post-meta">@Chouj · Aug 30, 2009 · 1 min read</p>
-  </header>
-  
-  <p class="post-summary">今晨登船起航。</p>
-  <footer class="post-footer">
-    <a class="read-more" href="https://chouj.github.io/2009/08/31/2009-chuhai/">Read More →</a>
+    <a class="read-more" href="https://chouj.github.io/2011/12/30/2011%E5%B9%B4%E5%BA%A6%E6%8A%98%E8%85%BE/">Read More →</a>
   </footer>
 </article>
 
@@ -404,7 +329,7 @@
 var doNotTrack = false;
 if (!doNotTrack) {
 	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-XXXXXXXX-X', 'auto');
+	ga('create', 'UA-559717-4', 'auto');
 	
 	ga('send', 'pageview');
 }

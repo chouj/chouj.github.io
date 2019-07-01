@@ -18,13 +18,11 @@
       <pubDate>Fri, 19 Jan 2018 08:31:50 +0000</pubDate>
       
       <guid>https://chouj.github.io/2018/01/19/call-bitlygoogle-url-shorten-api-in-matlab/</guid>
-      <description>Bitly Bitly API document: /v3/shorten
-Matlab code:
-url = &#39;https://api-ssl.bitly.com/v3/shorten?access_token={your_access_token}&amp;format=txt&amp;longUrl=http://google.com/&#39;; shortened = webread(url)  Escape character is also supported / 支持转义字符:
-url = &#39;https://api-ssl.bitly.com/v3/shorten?access_token={your_access_token}&amp;format=txt&amp;longUrl=http%3A%2F%2Fgoogle.com%2F&#39;; shortened = webread(url)  Google Google API document: URL Shortener
-First, you should have a URL shortener API key. It can be generated in the Credentials page.
-Then, the matlab code:
-url=&#39;https://www.googleapis.com/urlshortener/v1/url?key={yours}&#39;; options = weboptions(&#39;RequestMethod&#39;,&#39;post&#39;, &#39;MediaType&#39;,&#39;application/json&#39;); Body = struct(&#39;longUrl&#39;, &#39;http://www.google.com/&#39;); response = webwrite(url, Body, options);  Note：确保你的MATLAB可以科学上网(Preferences-&amp;gt;Web-&amp;gt;Internet connection里设置use a proxy)。</description>
+      <description>&lt;h1 id=&#34;bitly&#34;&gt;Bitly&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://dev.bitly.com/links.html#v3_shorten&#34;&gt;Bitly API document: &lt;strong&gt;/v3/shorten&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Matlab code:&lt;/p&gt;</description>
     </item>
     
     <item>

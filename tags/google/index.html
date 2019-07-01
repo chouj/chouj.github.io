@@ -30,19 +30,19 @@
 
   
   <meta name="author" content="Chi Xu">
-  
+  <meta name="description" content="Chi&#39;s Blog">
 
   
   <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="@gohugoio">
   <meta name="twitter:title" content="抽筋儿的话语权">
-  
+  <meta name="twitter:description" content="Chi&#39;s Blog">
   <meta name="twitter:image" content="/images/avatar.png">
 
   
   <meta property="og:type" content="website">
   <meta property="og:title" content="抽筋儿的话语权">
-  
+  <meta property="og:description" content="Chi&#39;s Blog">
   <meta property="og:url" content="https://chouj.github.io/tags/google/">
   <meta property="og:image" content="/images/avatar.png">
 
@@ -167,7 +167,11 @@
   </nav>
   <nav class="social-menu collapsed">
     <h2 class="offscreen">Social Networks</h2>
-    <ul class="social-list"></ul>
+    <ul class="social-list"><li class="social-item">
+          <a href="//github.com/chouj" rel="me" title="GitHub" aria-label="GitHub">
+	    <span class="icon icon-github" aria-hidden="true"></span>
+          </a>
+        </li></ul>
   </nav>
 </header>
 
@@ -181,16 +185,12 @@
         <article class="post-entry">
   <header class="post-header">
     <h3 class="post-title"><a href="https://chouj.github.io/2018/01/19/call-bitlygoogle-url-shorten-api-in-matlab/" class="post-link">Call Bitly/Google URL shorten API in MATLAB</a></h3>
-    <p class="post-meta">@Chouj · Jan 19, 2018 · 1 min read</p>
+    <p class="post-meta">@Chi · Jan 19, 2018 · 1 min read</p>
   </header>
   
   <p class="post-summary">Bitly Bitly API document: /v3/shorten
 Matlab code:
-url = &#39;https://api-ssl.bitly.com/v3/shorten?access_token={your_access_token}&amp;format=txt&amp;longUrl=http://google.com/&#39;; shortened = webread(url)  Escape character is also supported / 支持转义字符:
-url = &#39;https://api-ssl.bitly.com/v3/shorten?access_token={your_access_token}&amp;format=txt&amp;longUrl=http%3A%2F%2Fgoogle.com%2F&#39;; shortened = webread(url)  Google Google API document: URL Shortener
-First, you should have a URL shortener API key. It can be generated in the Credentials page.
-Then, the matlab code:
-url=&#39;https://www.googleapis.com/urlshortener/v1/url?key={yours}&#39;; options = weboptions(&#39;RequestMethod&#39;,&#39;post&#39;, &#39;MediaType&#39;,&#39;application/json&#39;); Body = struct(&#39;longUrl&#39;, &#39;http://www.google.com/&#39;); response = webwrite(url, Body, options);  Note：确保你的MATLAB可以科学上网(Preferences-&gt;Web-&gt;Internet connection里设置use a proxy)。</p>
+</p>
   <footer class="post-footer">
     <a class="read-more" href="https://chouj.github.io/2018/01/19/call-bitlygoogle-url-shorten-api-in-matlab/">Read More →</a>
   </footer>
@@ -293,140 +293,6 @@ RSS标志依然受到设计者的追捧，又有漂亮标志现身网络，详�
 </article>
 
       
-        <article class="post-entry">
-  <header class="post-header">
-    <h3 class="post-title"><a href="https://chouj.github.io/2007/06/06/articles-about-rss-in-may/" class="post-link">五月RSS相关文章汇集</a></h3>
-    <p class="post-meta">@Chouj · Jun 6, 2007 · 1 min read</p>
-  </header>
-  
-  <p class="post-summary">火热五月，RSS界也是热闹非凡，Feedburner改姓为G，及其中文版风波，Feedsky话题广告的bloggers大讨论，皆为业界大事件。我很欣喜能看到RSS应用的这些发展历程，很多是必须要经历的，You是最大的受益者。
- Google收购Feedburner将如何影响Feed营销市场——WebLeOn 写在FeedBurner被Google收购之后——SRC  Google收购Feedburner，必然带来Feed发展的突飞猛进和巨大变革。游戏规则的制定，再次落入Google手中。
- 关于话题广告的争论——前博客  老前整理出了相关争论文章的列表，我就不一一列出了。不管怎么说，话题广告肯定要经历这种发展和讨论的，始终是一种进步。
- 国外RSS订阅数最多的100个博客 RSS 订阅数超过10000的中文博客 Feedburner订阅数最多的21个台湾博客  博客联盟的曾英杰做了一些伟大的统计工作，他还打算做出香港博客RSS订阅数top100，数据和排名摆在那里，非常直观，好奇的话不妨去看看。
- Feed托管服务FeedTea试用——月光博客 Feed托管服务商-FeedTea——Yee  FeedTea，国内第二家Feed烧制服务提供商，Feedsky一枝独秀的局面被打破，虽然FeedTea还有一些bug。
- RSS，Feed和抓虾——和菜头 抓虾：算是半个Start-up Review ——花花  和菜头同学的blog订阅数已经突破10K，受益于RSS和抓虾的和菜头借此大力推广RSS和抓虾的应用。花花的分析很深刻，很技术，很全面，都用这么多“很”了，还不值得一看么？
- 7个用Rss Feed赚钱的办法——前博客 两个被忽视的订阅按钮放置地点——前博客 DiggReSS:定制digg的Feed(强烈推荐)——E-Space RSS Feed邮件评测——月光博客 FireFox浏览器上RSS订阅插件——PengBone lllumio：基于RSS-Feed社会化新运用——PengBone Orkut加入Feed订阅功能——E-Space 订阅文献搜索结果——格志 比特海日志14月22日，天气预报RSS订阅——和菜头 Nokia把Rss Feed叫做精灵——老白 Funp(推推王)—来自的宝岛台湾的抓虾?——盗盗  RSS的应用依旧层出不穷，高人写过的，我收集下子，就不再写了，免得话题重复，有兴趣的顺着链接过去就行。我自己其实也收集了些，无奈学校网络差，等我回到家里再整理发布吧。毕业倒计时，我也不想让电脑过多的侵占最后一月的时光，所以更新放慢下。自己的blog，自己作主，嘿嘿。
-Powered by ScribeFire. </p>
-  <footer class="post-footer">
-    <a class="read-more" href="https://chouj.github.io/2007/06/06/articles-about-rss-in-may/">Read More →</a>
-  </footer>
-</article>
-
-      
-        <article class="post-entry">
-  <header class="post-header">
-    <h3 class="post-title"><a href="https://chouj.github.io/2007/05/19/feedburner-chinese-edition/" class="post-link">FeedBurner：中文版现身及被收购传闻</a></h3>
-    <p class="post-meta">@Chouj · May 19, 2007 · 1 min read</p>
-  </header>
-  
-  <p class="post-summary">一早上就看到两则令人激动的消息，一是FeedBurner多语言版中，出现了中文版（Beta）的身影；二是传闻Google将继续花金撒银得进行收购事业，碰巧这次的收购对象有可能是FeedBurner，且收购金额都有所透漏。废话少说，上链接：
-点此将您的FeedBurner页面转化为简体中文 
-点此将您的FeedBurner页面转化为繁体中文
-相关信息来源于：
-Rumour: Google to buy Feedburner
-Feedburner 正式推出简繁中文界面——网谈
-今日最大传闻：Google收购FeedBurner——歪脖狼
-FeedBurner中文版——歪脖狼
-个人认为Feed这个词还不如不翻译，现在已经很少把Windows叫视窗了，Vista也没翻译，何必要把Feed弄成种子。
-还有，如果真的收购成功，那么google更进一步的统一了网络桌面级应用，再如果google作恶的话，比如在RSS上加个GFW之类的墙，您可以继续往下想了吧，这是多么恐怖的事情。
-另，FeedBurner中文版使用教程撰写将启动，敬请期待。
-Update:
-注意到两个很有意思的问题：
-1、我的种子页面里，硕大个My Feed却没有被翻译为“我的种子”，网页的Title也没有翻译为中文。但是My Feed后面的中文却非常有意思，刷新该页面会随机显示一些句子：“照单点菜”，“脚踏弹簧，心似春日”，“内容新颖”，“得寸进尺”，“有心栽花，当然要发”，“已经满溢了”，等等等等，非常之多，截图为证：
-这个就很有意思了，不知道是不是因为Beta版的缘故，还是FeedBurner有意而为。
-2、种子标题还是不适合使用中文。英文版下是不能使用中文命名Feed的，中文版能不能用呢？在FF下测试结果为：还是不可以。用了中文Feed标题（别切换回英文了，因为换为英文版的话您Feed标题上的中文会变成一串问号，再切换成中文也还是一串问号），表面一直没事，各个界面都很正常，那么把浏览器进程关掉呢？再开FF，登入My Feeds界面，问号们又回来了。要是不止我这里是这样的话，那就说明汉化非常不彻底。
-继续附上相关信息，还真是多啊！
-FeedBurner推出中文版与被收购传言——晨钟暮鼓
-Google 即将收购 FeedBurner?——花儿开了
-FeedBurner将被Google收购？——月光博客
-Google收购FeedBurner, Feedsky的天空不再寂寞——动点博客
-我承认：Feedburner是我翻译的——和菜头
-Google一亿美元收购Feedburner？——WEB2.0周刊
-谣言Google即将一亿美元收购Feedburner？——盗盗
-FeedBurner中文翻译真相与Google收购——PengBone
-写在FeedBurner被Google收购之后——Src
-Feedburner 被粗糙汉化——总统
-再度Update ：风波已过，Feedburner把中文版收回了，当然，转成中文版后的用户还是中文版，但那个多语言版名单上已经木有中文版了。原因简单，翻译粗糙引来恶评如潮。详见Riku的FeedBurner中文版消失了？</p>
-  <footer class="post-footer">
-    <a class="read-more" href="https://chouj.github.io/2007/05/19/feedburner-chinese-edition/">Read More →</a>
-  </footer>
-</article>
-
-      
-        <article class="post-entry">
-  <header class="post-header">
-    <h3 class="post-title"><a href="https://chouj.github.io/2007/04/30/recent-articles-about-rss-2/" class="post-link">最近关于RSS的文章集锦</a></h3>
-    <p class="post-meta">@Chouj · Apr 30, 2007 · 1 min read</p>
-  </header>
-  
-  <p class="post-summary">什么是RSS，一个经典的比喻  通过自己的心身经历，把自己运用RSS的过程写的淋漓尽致，通俗易懂。怎么感觉我在总结中心思想？反正很值得看看啦。
- 为什么要输出全文Feed？  Webleon告诉您为什么要全文输出FEED，但这是一家之言。出于商业化考虑，拥护摘要输出的朋友也正在增多中。
- RSS的未来  译言网上一篇关于RSS的探讨性文章，由花花翻译，高度概括，推荐！
- 让博客的RSS订阅用户数量最大化  杨远聘的力作，关于利用RSS对Blog的优化，推荐！
- Klipfolio：RSS播放器  一款新颖的RSS播放器，是不是会吸引您的眼球呢？
- [汇]Showeb2.0中以RSS为标签的文章  盗盗关于RSS和Feed的相关文章，集成了目前最新鲜的RSS运用！
- [Web 2.0]特色服务–Feed阅读器  一篇介绍性的科普，来自IwfWc，也是Blogger圈的名人了。
- blogger:我的blogger深度友链方案  GG派关于RSS应用的深度探讨，值得参详。不见得仅仅局限于Blogger呢。
- 普及篇——RSS和阅读器  又一个有名的blogger hacker 咖啡鱼的教程，通俗讲解RSS和阅读器。
- 通过RSS给Blogger添加评论和最新文章(续)  八个圈的教程，通过RSS和Google Reader给Blogger添加评论和最新文章的方法。
- 通过RSS给Blogger添加侧边栏评论和最新文章  一样是八个圈的教程，告诉您如何通过最简单的方法，给Blogger添加侧栏评论和最新文章。
- Blogger:不通过外部JS文件使RSS供稿超过20的方法  Blogspot上专注Blogger Hack的GG派出品，告诉您如何使Blogger的RSS供稿超过20条。
- Blogger:准确的标签项目RSS地址  GGpi出品，告知您Blogger上各个标签tag的RSS地址。
- 如何通过google reader分享RSS聚合  还是GGpi出品，讲述利用RSS和Google Reader打造个人媒体的方法。
- 各站点RSS新闻聚合服务  收集了大量门户、站点的RSS供稿地址，极具资料收集价值。</p>
-  <footer class="post-footer">
-    <a class="read-more" href="https://chouj.github.io/2007/04/30/recent-articles-about-rss-2/">Read More →</a>
-  </footer>
-</article>
-
-      
-        <article class="post-entry">
-  <header class="post-header">
-    <h3 class="post-title"><a href="https://chouj.github.io/2007/04/13/two-great-ideas/" class="post-link">这俩Idea如何？</a></h3>
-    <p class="post-meta">@Chouj · Apr 13, 2007 · 1 min read</p>
-  </header>
-  
-  <p class="post-summary">你恨他吗？就送他GFW工作人员专用T恤!
-“想说上你不容易……”——Google Blogger 中国官方T恤衫标语
-不能不说，人的创造力是无穷的，以上采自qq群32269107，本人是辉常佩服这俩idea滴。
-其实这两个idea挺有商业价值的，穿出来特个性。说不准能火，嘿嘿。</p>
-  <footer class="post-footer">
-    <a class="read-more" href="https://chouj.github.io/2007/04/13/two-great-ideas/">Read More →</a>
-  </footer>
-</article>
-
-      
-        <article class="post-entry">
-  <header class="post-header">
-    <h3 class="post-title"><a href="https://chouj.github.io/2007/03/20/unnormaly-way-to-view-blogspot/" class="post-link">非常时期非常规访问方法</a></h3>
-    <p class="post-meta">@Chouj · Mar 20, 2007 · 1 min read</p>
-  </header>
-  
-  <p class="post-summary">上一篇是给GFW挠痒痒，结果丫狮子大张口吞了整个blogspot国度，害得本应欣欣向荣、如火如荼的google blogger中国用户群被当头被泼了一盆冷水，煞是凄惨。
-抽丫的筋儿：以下渠道尚可正常访问和交流：
-http://www.inblogs.net/xcchris/
-http://www.pkblogs.com/xcchris/
-这两个地址，可正常访问和评论。将xcchris改为您自己的，亦即可访问您自己的blogger。
-或者更改本地host文件，路径为系统安装盘/windows/system32/drives/etc/hosts，以记事本打开，添加如下类似文本：
-
-72.14.219.190 beta.blogger.com
-72.14.219.190 dugangs.blogspot.com
-72.14.219.190 sz-iris.blogspot.com
-72.14.219.190 liubinjob.blogger.com
-72.14.219.190 mylovegarden.blogspot.com
-72.14.219.190 ggpi.blogspot.com
-72.14.219.190 chenbo.blogspot.com
-72.14.219.190 xcchris.blogspot.com
-72.14.219.190 allofrss.blogspot.com
-保存后，即可访问您所添加的blog。
-抽丫的筋儿的rss feed地址：http://feed.feedsky.com/chrischou,feed保持正常输出，可用订阅工具查看。
-与GFW斗，其乐无穷啊！</p>
-  <footer class="post-footer">
-    <a class="read-more" href="https://chouj.github.io/2007/03/20/unnormaly-way-to-view-blogspot/">Read More →</a>
-  </footer>
-</article>
-
-      
     
     
       <footer class="list-footer">
@@ -474,7 +340,7 @@ http://www.pkblogs.com/xcchris/
 var doNotTrack = false;
 if (!doNotTrack) {
 	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-XXXXXXXX-X', 'auto');
+	ga('create', 'UA-559717-4', 'auto');
 	
 	ga('send', 'pageview');
 }

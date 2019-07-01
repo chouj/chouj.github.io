@@ -7,10 +7,46 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
-    <lastBuildDate>Fri, 19 Jan 2018 09:15:41 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 29 Jun 2019 08:54:42 +0800</lastBuildDate>
     
 	<atom:link href="https://chouj.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Github</title>
+      <link>https://chouj.github.io/tags/github/</link>
+      <pubDate>Sat, 29 Jun 2019 08:54:42 +0800</pubDate>
+      
+      <guid>https://chouj.github.io/tags/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>https://chouj.github.io/tags/hugo/</link>
+      <pubDate>Sat, 29 Jun 2019 08:54:42 +0800</pubDate>
+      
+      <guid>https://chouj.github.io/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>blog</title>
+      <link>https://chouj.github.io/tags/blog/</link>
+      <pubDate>Sat, 29 Jun 2019 08:54:42 +0800</pubDate>
+      
+      <guid>https://chouj.github.io/tags/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>博客搬家</title>
+      <link>https://chouj.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%90%AC%E5%AE%B6/</link>
+      <pubDate>Sat, 29 Jun 2019 08:54:42 +0800</pubDate>
+      
+      <guid>https://chouj.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%90%AC%E5%AE%B6/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>IFTTT</title>
@@ -1062,15 +1098,6 @@
       <pubDate>Sat, 31 Jan 2009 13:57:53 +0000</pubDate>
       
       <guid>https://chouj.github.io/tags/rss%E6%8E%A8%E5%B9%BF/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>blog</title>
-      <link>https://chouj.github.io/tags/blog/</link>
-      <pubDate>Sat, 31 Jan 2009 13:57:53 +0000</pubDate>
-      
-      <guid>https://chouj.github.io/tags/blog/</guid>
       <description></description>
     </item>
     

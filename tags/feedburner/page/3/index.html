@@ -30,19 +30,19 @@
 
   
   <meta name="author" content="Chi Xu">
-  
+  <meta name="description" content="Chi&#39;s Blog">
 
   
   <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="@gohugoio">
   <meta name="twitter:title" content="抽筋儿的话语权">
-  
+  <meta name="twitter:description" content="Chi&#39;s Blog">
   <meta name="twitter:image" content="/images/avatar.png">
 
   
   <meta property="og:type" content="website">
   <meta property="og:title" content="抽筋儿的话语权">
-  
+  <meta property="og:description" content="Chi&#39;s Blog">
   <meta property="og:url" content="https://chouj.github.io/tags/feedburner/">
   <meta property="og:image" content="/images/avatar.png">
 
@@ -167,7 +167,11 @@
   </nav>
   <nav class="social-menu collapsed">
     <h2 class="offscreen">Social Networks</h2>
-    <ul class="social-list"></ul>
+    <ul class="social-list"><li class="social-item">
+          <a href="//github.com/chouj" rel="me" title="GitHub" aria-label="GitHub">
+	    <span class="icon icon-github" aria-hidden="true"></span>
+          </a>
+        </li></ul>
   </nav>
 </header>
 
@@ -180,15 +184,117 @@
       
         <article class="post-entry">
   <header class="post-header">
-    <h3 class="post-title"><a href="https://chouj.github.io/2007/04/27/feedburner-in-chinese/" class="post-link">Feedburner终于要出中文版了</a></h3>
-    <p class="post-meta">@Chouj · Apr 27, 2007 · 1 min read</p>
+    <h3 class="post-title"><a href="https://chouj.github.io/2007/08/18/translation-why-feedburner-subscriber-count-fluctuate/" class="post-link">[翻译]为什么我的FeedBurner订阅数会上下振荡呢？</a></h3>
+    <p class="post-meta">@Chouj · Aug 17, 2007 · 1 min read</p>
   </header>
   
-  <p class="post-summary">最近诸多站点都报道了提供FEED烧制服务的国外知名站点Feedburner要推出中文版了。消息由其官方blog发布，且目前Feedburner已经开放出葡萄牙语、俄语、西班牙语版本的多国语言版，德语、法语、意大利语荷兰语、中文、印度语等语言版本的服务都会陆续上线。值得广大用户期待！
-在译言网上，Richard.Barton声称获得了将Feedburner整站翻译为中文的授权，并称即便一人翻译，也仅需一周时间，故可推知，随着校正、网页制作、调试等步骤过后，不久Feedburner中文版就将正式和用户见面。
-Chou本来想写关于Feedburner的教程的，看来可以推后啦，等中文版发布了再写更好！</p>
+  <p class="post-summary">原文：Why does my Feedburner Subscriber Count Fluctuate?——08.16 
+作者：Darren Rowse
+翻译：抽筋儿
+ 为什么我的订阅量老蹦上蹦下的呢？ Feedburner的订阅量统计告诉我的订阅数增减确实是由读者订阅造成的吗？ 我注意到一天当中我的订阅数都会有上下波动，为什么？ 每周末我的订阅数都会下降，怎么回事啊？  在上一周，如上这些或类似的关于FeedBurner订阅数统计的问题，我总共被问到了七次！每次我都要找个答案应付下提问的朋友，我一度以为我知道真相，可事实并不是这样。
+所以今天一早，当我又有两次从邮箱里看到类似的问题，我觉得我该直接去找Feedburner的智慧之源——主管Feedburner信息发布服务的副主席Rick Klau先生——来问个清楚，他也许会给出订阅数波动的官方解释。
+Rick是这么回答我的： 当我们公布一个feed的订阅量时，它代表着一个总人数，当天所有请求获得feed信息的个体的总数。
+绝大部分订阅者都来自以下两个方面：
+ 使用离线单机阅读器的订阅者 使用浏览器端的线上阅读器的订阅者  就离线阅读来说，订阅者的阅读器基于他们自己的电脑，且一天中重复地抓取feed中的信息。我们可以思考一下这类feed信息请求的特性，区分一下同一个 人的多次请求（指规律性的定期探测，固定的ip地址和统一的客户端环境）和不同请求（指与之前所述一处或多处不同）间的差别。
+就线上阅读来说，比如My Yahoo, Google Reader, Bloglines, Pageflakes, 等等，这些服务也是全天都在读取feed信息，但却是多用户同时进行的。几乎所有的这些服务都会向我们报告他们有多少用户订阅了某个feed。到了一天末 尾，我们结算有多少订阅数来自离线阅读器，然后把这个数目加到来自线上阅读器的订阅数上，这样，最后的数目就是我们对外发布的feed订阅总数。（我抛开 了一些细节，下面是更细致的解答）
+而订阅数的波动几乎所有都是因为使用离线阅读器软件的订阅者在统计的那天没有打开电脑，或者没有启动他们的阅读器。如果他们的阅读器并不要求读取feed 的信息，那么我们就不知道它们的存在，结果就是并不把这些算在订阅数之内。（Darren注，这就是为什么在周末那个数字会掉下来，因为周末还开阅读器的人少嘛。）
+还有个解释就是，当站点的流量陡变之时，至少当一部分访客使用的浏览器版本过低时，我们无法区分到底是浏览器访问feed还是基于浏览器的feed阅读器在读取feed。关于这种情况的细致解释可以看这里——从我对关于站点流量大幅波动问题的解答中可以找到有用的信息。
+最后，为了全面把握订阅量统计数目的各个组成部分，去年我们在TechCrunch上做了一个研究。 这项研究应该能够深层次的说明订阅量是如何计算（且为什么会波动）的。同时，这项研究也着重评论了下“订阅实效量”（译者注：原文此处为Reach，意为真正通过feed在内容上进行了阅读动作或点击动作的数量，译者不才，权且这么丑陋的译一下）。订阅量可能包括了曾对你的内容感兴趣但并没有进行实际阅读 的订阅者数目，而“订阅实效量”与此不同，它统计的对象则是在阅读器中实际被阅读的条目数和将流量带回到发布者的站点的点击量。所以，订阅量单纯的代表所 有对feed内容感兴趣的读者的数目，而订阅实效量则更准确的勾画出了订阅者与feed内容交互的程度。
+【译者按】 博客圈内的总统博客和前博客都有解释订阅数变化的文章，作为本文的补充链接，值得一看：
+Feedburner 跳舞——总而言之，统而言之
+理解Feedburner订阅统计的变化——前～博客</p>
   <footer class="post-footer">
-    <a class="read-more" href="https://chouj.github.io/2007/04/27/feedburner-in-chinese/">Read More →</a>
+    <a class="read-more" href="https://chouj.github.io/2007/08/18/translation-why-feedburner-subscriber-count-fluctuate/">Read More →</a>
+  </footer>
+</article>
+
+      
+        <article class="post-entry">
+  <header class="post-header">
+    <h3 class="post-title"><a href="https://chouj.github.io/2007/07/31/what-happened-in-july/" class="post-link">[草莓版]七月汇集：共享与广告 竞争与生存</a></h3>
+    <p class="post-meta">@Chouj · Jul 31, 2007 · 1 min read</p>
+  </header>
+  
+  <p class="post-summary">火热七月，大事有三：刚入七月的OPML共享活动，紧接着Feedsky首开国内RSS展示广告的先河，再然后大家都能感觉到的：鲜果 VS 抓虾，这样的竞争无处不在。
+[OPML共享]
+7月3日，月光分享了他的Opml订阅Feed，6日Src发起OPML共享运动，一时间订阅数飙升，参与和讨论不断，分外河蟹。活动意义诸多：通告大家在面对信息过载，和未读数斗争的日子里，如何管理你的订阅，如何学会筛选和过滤，以避免RSS阅读焦虑的灾难；同时也可开阔视野，避免坐井观天。忧虑的声音也有，因为信息重叠和喜好有别。
+看来初识RSS的新鲜感已经过去，随之而来的问题是，海量信息（特别是微内容兴起之后）冲刷之下谁能站得更稳。如何找寻个性化阅读，如何学会攀登信息时代的通天塔，和菜头说“资讯的量未必意味着质，披沙沥金这种事情是必须要做的”，故方法一是人主观为之。方法二则是机器为之，目前大家可以运用的有OgOg——dig性质的RSS联合服务，或借助AideRSS来提高RSS Feed的阅读效率，但这些服务都尚在机器过滤的摸索中。要我说，还是自己人肉过滤来的靠谱儿，XD～
+[Feedsky展示广告]
+
+7月2日，盗盗说Feedsky进军RSS广告业，一石激起千层浪（1、2），随着官方正式宣布展示广告开通，广告Banner就旗帜般挂满Feed世界的大街小巷，博客赚钱愈发炙手可热。如何在WP下把默认Feed转向Feedsky，如何实现Feedburner到Feedsky的无缝无痛切换（1、2）， 纷至沓来。真正要能赚到钱，月光在Feedburner的RSS广告收益分析中告诉了我们要点，值得一看；但还需要忍受Athere大叔在实验报告中指出的Feedsky抓取慢的诟病。现状呢？在Google Adsense单价颇低的基本国情下，在博客赚钱甚嚣尘上的初级阶段中，嗷嗷待哺的诸bloggers（包括俺，- -b）都把一线生机寄托于敢啃螃蟹的Feedsky，殊不知Feedsky脚下步履蹒跚、胃里半饥半饱，上游广告商链条的良性与否直接影响了 Feedsky的奶水量，而如狼似虎的bloggers自然因吃不饱或味道不好而发难（1、2、3）。且让我们从竞争与生存的角度分析下：
+VS FeedBurner
+自Feedburner Pro免费之后，WebLeon说：“RSS Feed终究会成为一个主流的媒介，我一直这样坚信。我看到Google也这样认为，在这样努力”；Shawn说：“预计Google接下来会将Adsense集成到Feedburner当中”；长天暮鼓也就吕帅造访Google一事说过：“不管 Google 中国有多么本地化，它始终是其全球战略的组成部分，怎么可能自家的 FeedBurner 不用，而与 Feedsky 合作呢？”在此情形之下，Feedsky若想依赖广告收入而生存，只有抢先开放RSS展示广告，提前摸索道路打造品牌争取用户，要是等到Adsense整合进Feedburner的那天，就没戏了。而用户面对被收购之后十分危险的Feedburner，选择Feedsky与否还得靠你自己定夺。
+VS 博狗 Blogool
+话题广告口碑传播得以发展的需求是，广告商能从该形式的广告中看到收益，能对该新兴的广告模式抱以信心。而上游广告商这种信心的建立需要中游Feedsky和博狗这些平台良好的运作，需要下游Bloggers的配合与传播。目前看来，这一链条能否良性循环尚在摸索之中，要真正达到三方获益还需时日。在不能满足所有bloggers得利的发展前期，我们bloggers如何解决和中游平台之间的矛盾冲突将决定该广告模式的存亡；而Feedsky和博狗谁能更好得解决问题，争得更多的“500强企业”，又将决定两者在该领域的生死。
+[鲜果 PK 抓虾]
+每每在饭否上看见duberry和小虾的轮番上场 ，联想到鲜果日志和抓虾日记的频频更新，再配合长天暮鼓这篇在线RSS阅读器门槛并不低，就愈发能够嗅到RSS在线阅读器市场上浓烈的竞争气息。用户的疑问是，我们需要那么多RSS阅读器吗？不论是否需要，至少可以多些选择，至少我们可以感谢鲜果，让市场一片繁荣。鲜果 VS Fastladder，抓虾 VS Google Reader，是鲜果更嫩还是抓的虾更鲜，比来比去你选好了吗？愚以为，鲜果更加便捷，抓虾更加social，对用户都是好事，他们应该侧重于利用这些吸引刚接触RSS的新用户，毕竟用户习惯成形，有了众多收藏和依赖情感后，不会轻易离开，稳住老用户相对容易。像抽儿就一直忠于Google Reader，嘿嘿（鲜果和抓虾很郁闷~~）。
+为了生存，就得面对竞争，学会竞争，愿鲜果和抓虾好运。
+[RSS杂碎]
+RSS能玩出什么花样，看看盗盗介绍的Bloglive便知。喜欢鲜果的用户可以参照困兽的教程添加FireFox订阅收取点或Feedburner FeedFlare。喜欢Google Reader的朋友可以看看Google Reader高级技巧快速入门，或者给Firefox安装这款插件Google Reader Watcher 0.0.8。想找合烧工具的朋友可以看看RSS Mixer或aFeeda。想把RSS文本转化为声音的话，可以使用Odiogo。Feedburner用户可以参考月光的十二个Feedburner技巧汇总。RSS Feed应用及周边汇总也很全乎。
+正确看待RSS订阅者的价值后，我们也许会全文输出RSS，但这本为方便订阅者的行为，可也方便了聚合网站或滋长了抄袭，解决方法月光这里有介绍。也有人认为全文输出不好，就像阅读裸体信息，缺失了特定网站构架和图形的阅读氛围，觉得还是穿着衣服的更美。
+RSS标志依然受到设计者的追捧，又有漂亮标志现身网络，详见这篇和这篇。
+写草莓体真费劲儿，以后读研了八成没功夫写这玩意儿。</p>
+  <footer class="post-footer">
+    <a class="read-more" href="https://chouj.github.io/2007/07/31/what-happened-in-july/">Read More →</a>
+  </footer>
+</article>
+
+      
+        <article class="post-entry">
+  <header class="post-header">
+    <h3 class="post-title"><a href="https://chouj.github.io/2007/07/24/subscribe-number-from-xianguo/" class="post-link">Feedburner已可统计来自鲜果的订阅数</a></h3>
+    <p class="post-meta">@Chouj · Jul 24, 2007 · 1 min read</p>
+  </header>
+  
+  <p class="post-summary">饭否上，IwfWcf说：
+ 猜得没错，FeedBurner果然可以统计鲜果订阅数了……
+ 查看了下，确实如此，见图：
+这个小新闻所带来的订阅数Dance：</p>
+  <footer class="post-footer">
+    <a class="read-more" href="https://chouj.github.io/2007/07/24/subscribe-number-from-xianguo/">Read More →</a>
+  </footer>
+</article>
+
+      
+        <article class="post-entry">
+  <header class="post-header">
+    <h3 class="post-title"><a href="https://chouj.github.io/2007/07/02/articles-about-rss-in-june/" class="post-link">[草莓版]六月汇集：品完鲜果 再来抓虾</a></h3>
+    <p class="post-meta">@Chouj · Jul 1, 2007 · 1 min read</p>
+  </header>
+  
+  <p class="post-summary">这几个月以来,RSS的消息一直像是沸水里的气泡，喷薄而出，炽炎之热，咄咄逼人。
+[鲜果阅读器]
+既鲜果离线阅读器之后，鲜果在线横空出世，这可引发了RSS阅读器评测比较、阅读器发展模式探讨的浪潮。
+大家公认（1、2、3、4）鲜果具备Google Reader和抓虾的特点，比如支持快捷键，具备社会化元素；抓虾饱受争议的转型和稳定性、Google Reader的撞墙问题，以及狗狗的被收购，又使鲜果拥有了良好的上线时机。但一个阅读器的发展，包括方方面面。作为用户，守望、启羁、WebLeOn都提到，良好的用户体验中重要的是稳定性，包括feed抓取速度和访问速度，用户越多，鲜果的稳定性越值得考验。而阅读器未来发展的模式同样值得大家探讨。曹增辉和吕欣欣都不大看好阅读器市场，因为阅读器市场较低的进入门槛，前者还是支持阅读体验纯粹的Google Reader，后者则为“鲜果在这个领域准备坚持努力的决心，和开放合作的态度”，选择支持他们。狂风则认为鲜果若能先模仿后超越，定可后来居上。WebLeOn在考虑阅读器的走向到底应该纯工具化还是应该伴随服务推送；长天暮鼓给的答案是，看好抓虾的内容分类推送，支持RSS应用的多元化，同时也给出了阅读器盈利模式的建议。
+[抓虾风波]
+抓虾目前事故不少。27号在饭否上看到和菜头说抓虾访问不能，结果是因为光纤断掉；就在写这篇的时候，我又看到Angelived同学在质问：“抓虾怎么不抓了？”。更加严重的貌似是关于抓虾是否盗用bloggers内容的讨论，（1、2、3）。我个人认为值得看看的，还是优比客的用抓虾订阅博客的十大理由。
+[RSS未来之路]
+关于RSS应用现状和未来发展的探讨、诠释从来就没有停止过，六月中魏武挥有两篇非常优秀的文章值得一看：《RSS的兴旺：当它不再是RSS》、《RSS阅读：前景何在？》。文章告诉我们目前RSS应用依然十分小众，受技术门槛和需求的影响，这一现象可能将长久存在，而RSS又在一定程度上阻碍了交互功能而使得其发展局面陷入困顿之中。
+[RSS使用技巧]
+如何在信息爆炸之中摘取有价值信息，而不是被冲击得体无完肤，已经受到较多的关注。旁观者郑钧介绍了三种信息过滤的方法，可供参考；Angelived则告诉大家如何给RSS阅读器减肥。
+84同学定是尝到了RSS阅读的甜头，不遗余力得推广RSS Feed订阅，我们要感谢他；老前则告诉我们如何理解Feed订阅数的小波小动；曾英杰是个好同志，收集了能给你博客带去流量的77个中外RSS目录，想提交Feed地址到收录站点的朋友，看这篇准没错；博客学堂的Rss订阅统计相当帅气，您可以到这一篇《个性化博客RSS订阅统计状态》中学习学习。
+[RSS新应用]
+
+新应用多了去了。xFruits再次发威，发布第11个应用，RSS to My Blog（1，2），能够把RSS Feed内容发布到Blog或CMS系统中去；Feedster发布了2.0版本，可以将blog搜索结果以widget形式挂出来；盗盗这次教我们一个方法，巧用Yahoo Pipes翻译烧制RSS Feed，对订阅英文文章的朋友会有帮助；Geuro介绍了一款服务twitterfeed，可将Feed内容自动发布到twitter； hhalloyy发现了一个简单输出Feed条目标题的服务：FeedMeplz；Adobe air程序渐渐增多，Riku介绍了一款基于此技术的RSS阅读器，名为Fresh；在臭豆的指引下(XD),盗盗发现了提供RSS聚合烧制服务的Feedtwister；RSS和煎蛋也有密切关系啊，煎蛋编辑找到了两个好东东，一是视频网站专用 RSS 阅读器——Democracy Player，一是30 款免费 水晶透明型RSS订阅图标，很实用的哦。
+不知道您是否喜欢这期草莓版文章汇集呢？可以留言告诉我。我阅读范围有限，有好文章也可以告诉我哦！
+Powered by ScribeFire. </p>
+  <footer class="post-footer">
+    <a class="read-more" href="https://chouj.github.io/2007/07/02/articles-about-rss-in-june/">Read More →</a>
+  </footer>
+</article>
+
+      
+        <article class="post-entry">
+  <header class="post-header">
+    <h3 class="post-title"><a href="https://chouj.github.io/2007/06/14/monitorthis/" class="post-link">MonitorThis:实现搜索结果的订阅</a></h3>
+    <p class="post-meta">@Chouj · Jun 13, 2007 · 1 min read</p>
+  </header>
+  
+  <p class="post-summary">每天网络上将产生许多新的页面，而搜索引擎的爬虫们在积极地抓取，努力把所有网络上的内容都纳入其搜索引擎中。如果能让爬虫们为你服务，将你关心的关键字的内容抓取到，再通过RSS推送到你面前，这是不是很激动人心呢？那么MonitorThis就可以帮到你的忙，她能让你订阅到你需要的关键字在22个搜索引擎上的结果。MonitorThis直译的意思是：“监视这个”，对于MonitorThis的功能来说，非常贴切。而22个搜索引擎分别为：
+  Google Blog Search Google News search Technorati tag search del.icio.us tag search furl search Flickr tag search MSN search MSN News search Yahoo search Yahoo News search Icerocket search Feedster rss search Topix.net search Feedsfarm.com search Newspad PRWeb search Search4RSS rss search Blogdigger search Plazoo search NewsNetPlus search Blogmarks tag search Find articles search Wired News search blogg.de tag search   OK，让我们开始，我们需要做的只有三步：
+ 在MonitorThis页面上的“enter search term”中填入你所关心的关键词，比如“Google”之类（对中文支持不佳），点击右侧的“make monitor.</p>
+  <footer class="post-footer">
+    <a class="read-more" href="https://chouj.github.io/2007/06/14/monitorthis/">Read More →</a>
   </footer>
 </article>
 
@@ -201,6 +307,8 @@ Chou本来想写关于Feedburner的教程的，看来可以推后啦，等中文
           
             <a class="pagination-previous" href="https://chouj.github.io/tags/feedburner/page/2/">← Newer Posts</a>
           
+          
+            <a class="pagination-next" href="https://chouj.github.io/tags/feedburner/page/4/">Older Posts →</a>
           
         </nav>
       </footer>
@@ -240,7 +348,7 @@ Chou本来想写关于Feedburner的教程的，看来可以推后啦，等中文
 var doNotTrack = false;
 if (!doNotTrack) {
 	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-XXXXXXXX-X', 'auto');
+	ga('create', 'UA-559717-4', 'auto');
 	
 	ga('send', 'pageview');
 }
