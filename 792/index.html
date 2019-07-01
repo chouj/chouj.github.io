@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8" />
+
+  
+  <title>用MATLAB实现便便时间间隔的定期统计分析</title>
+
+  
+  
+  <link href="//cdn.jsdelivr.net" rel="dns-prefetch">
+  <link href="//cdnjs.cloudflare.com" rel="dns-prefetch">
+  
+  <link href="//at.alicdn.com" rel="dns-prefetch">
+  
+  <link href="//fonts.googleapis.com" rel="dns-prefetch">
+  <link href="//fonts.gstatic.com" rel="dns-prefetch">
+  <link href="///disqus.com" rel="dns-prefetch">
+  <link href="//c.disquscdn.com" rel="dns-prefetch">
+  
+  <link href="//www.google-analytics.com" rel="dns-prefetch">
+  
+
+  
+
+  
+  <meta name="author" content="Chouj">
+  <meta name="description" content="为了达成如题的目的，实现方法已经有了早期的两个版本：
+ 2014年：手机端手动输入便便时间，经Dropbox同步至本地PC；利用Windows计划任务定期执行统计分析的MATLAB脚本；将结果发邮箱，再利用IFTTT发Twitter上。(见Github) 2017年3月：应对Dropbox被墙，将便便时间记录放到Notepad上；MATLAB里利用正则把页面上的数据读下来，再进行统计分析；同样用Windows计划任务实现定期执行。  上述两个方案中最难坚持的部分在于：要打开手机浏览器，访问相应记录网页，再按10个数字手动输入便便时间。
+去年10月搞定了第三版实现方法，借助Thingspeak数据上载的timestamp，完美回避手动输入时间数据；同时脚本执行也丢去了Thingspeak；分析结果推送则通过IFTTT的webhooks发至Telegram；Thingspeak还具备利用数据作图的功能。具体如下：
+">
+
+  
+  
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@geomatlab">
+    <meta name="twitter:title" content="用MATLAB实现便便时间间隔的定期统计分析">
+    <meta name="twitter:description" content="为了达成如题的目的，实现方法已经有了早期的两个版本：
+ 2014年：手机端手动输入便便时间，经Dropbox同步至本地PC；利用Windows计划任务定期执行统计分析的MATLAB脚本；将结果发邮箱，再利用IFTTT发Twitter上。(见Github) 2017年3月：应对Dropbox被墙，将便便时间记录放到Notepad上；MATLAB里利用正则把页面上的数据读下来，再进行统计分析；同样用Windows计划任务实现定期执行。  上述两个方案中最难坚持的部分在于：要打开手机浏览器，访问相应记录网页，再按10个数字手动输入便便时间。
+去年10月搞定了第三版实现方法，借助Thingspeak数据上载的timestamp，完美回避手动输入时间数据；同时脚本执行也丢去了Thingspeak；分析结果推送则通过IFTTT的webhooks发至Telegram；Thingspeak还具备利用数据作图的功能。具体如下：
+">
+    <meta name="twitter:image" content="/images/avatar.png">
+  
+
+  
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="用MATLAB实现便便时间间隔的定期统计分析">
+  <meta property="og:description" content="为了达成如题的目的，实现方法已经有了早期的两个版本：
+ 2014年：手机端手动输入便便时间，经Dropbox同步至本地PC；利用Windows计划任务定期执行统计分析的MATLAB脚本；将结果发邮箱，再利用IFTTT发Twitter上。(见Github) 2017年3月：应对Dropbox被墙，将便便时间记录放到Notepad上；MATLAB里利用正则把页面上的数据读下来，再进行统计分析；同样用Windows计划任务实现定期执行。  上述两个方案中最难坚持的部分在于：要打开手机浏览器，访问相应记录网页，再按10个数字手动输入便便时间。
+去年10月搞定了第三版实现方法，借助Thingspeak数据上载的timestamp，完美回避手动输入时间数据；同时脚本执行也丢去了Thingspeak；分析结果推送则通过IFTTT的webhooks发至Telegram；Thingspeak还具备利用数据作图的功能。具体如下：
+">
+  <meta property="og:url" content="https://chouj.github.io/792/">
+  <meta property="og:image" content="/images/avatar.png">
+
+
+
+
+<meta name="generator" content="Hugo 0.55.6">
+
+
+<link rel="canonical" href="https://chouj.github.io/792/">
+
+<meta name="renderer" content="webkit">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="format-detection" content="telephone=no,email=no,adress=no">
+<meta http-equiv="Cache-Control" content="no-transform">
+
+
+<meta name="robots" content="index,follow">
+<meta name="referrer" content="origin-when-cross-origin">
+
+
+
+
+
+
+
+<meta name="theme-color" content="#02b875">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="抽筋儿的话语权">
+<meta name="msapplication-tooltip" content="抽筋儿的话语权">
+<meta name='msapplication-navbutton-color' content="#02b875">
+<meta name="msapplication-TileColor" content="#02b875">
+<meta name="msapplication-TileImage" content="/icons/icon-144x144.png">
+<link rel="icon" href="https://chouj.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://chouj.github.io/icons/icon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://chouj.github.io/icons/icon-32x32.png">
+<link rel="icon" sizes="192x192" href="https://chouj.github.io/icons/icon-192x192.png">
+<link rel="apple-touch-icon" href="https://chouj.github.io/icons/icon-152x152.png">
+<link rel="manifest" href="https://chouj.github.io/manifest.json">
+
+
+<link rel="preload" href="https://chouj.github.io/styles/main-rendered.min.css" as="style">
+
+
+<link rel="preload" href="https://fonts.googleapis.com/css?family=Lobster" as="style">
+<link rel="preload" href="https://chouj.github.io/images/avatar.png" as="image">
+<link rel="preload" href="https://chouj.github.io/images/grey-prism.svg" as="image">
+
+
+<style>
+  body {
+    background: rgb(244, 243, 241) url('/images/grey-prism.svg') repeat fixed;
+  }
+</style>
+<link rel="stylesheet" href="https://chouj.github.io/styles/main-rendered.min.css">
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.2/dist/medium-zoom.min.js"></script>
+
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/video.js@7.3.0/dist/video-js.min.css">
+
+
+
+  
+  
+<!--[if lte IE 8]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/videojs-ie8@1.1.2/dist/videojs-ie8.min.js"></script>
+<![endif]-->
+
+<!--[if lte IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/eligrey-classlist-js-polyfill@1.2.20180112/classList.min.js"></script>
+<![endif]-->
+
+
+</head>
+  <body>
+    <div class="suspension">
+      <a role="button" aria-label="Go to top" title="Go to top" class="to-top is-hide"><span class="icon icon-up" aria-hidden="true"></span></a>
+      
+        
+	<a role="button" aria-label="Go to comments" title="Go to comments" class="to-comment" href="#disqus_thread"><span class="icon icon-comment" aria-hidden="true"></span></a>
+        
+      
+    </div>
+    
+    
+  <header class="site-header">
+  <a href="https://chouj.github.io/"><img class="avatar" src="https://chouj.github.io/images/avatar.png" alt="Avatar"></a>
+  
+  <h2 class="title"><a href="https://chouj.github.io/">抽筋儿的话语权</a></h2>
+  
+  <p class="subtitle">努力作个有情调的人，“调”字念二声。</p>
+  <button class="menu-toggle" type="button" aria-label="Main Menu" aria-expanded="false" tab-index="0">
+    <span class="icon icon-menu" aria-hidden="true"></span>
+  </button>
+
+  <nav class="site-menu collapsed">
+    <h2 class="offscreen">Main Menu</h2>
+    <ul class="menu-list">
+      
+      
+      
+      
+        <li class="menu-item
+          
+          
+           is-active">
+          <a href="https://chouj.github.io/">Home</a>
+        </li>
+      
+        <li class="menu-item
+          
+          
+          ">
+          <a href="https://chouj.github.io/tags/">Tags</a>
+        </li>
+      
+    </ul>
+  </nav>
+  <nav class="social-menu collapsed">
+    <h2 class="offscreen">Social Networks</h2>
+    <ul class="social-list"><li class="social-item">
+          <a href="//github.com/chouj" rel="me" title="GitHub" aria-label="GitHub">
+	    <span class="icon icon-github" aria-hidden="true"></span>
+          </a>
+        </li><li class="social-item">
+          <a href="//twitter.com/geomatlab" rel="me" title="Twitter" aria-label="Twitter">
+            <span class="icon icon-twitter" aria-hidden="true"></span>
+          </a>
+        </li></ul>
+  </nav>
+</header>
+
+  <section class="main post-detail">
+    <header class="post-header">
+      <h1 class="post-title">用MATLAB实现便便时间间隔的定期统计分析</h1>
+      <p class="post-meta">@Chouj · Jan 19, 2018 · 2 min read</p>
+    </header>
+    <article class="post-content"><p>为了达成如题的目的，实现方法已经有了早期的两个版本：</p>
+
+<ul>
+<li>2014年：手机端手动输入便便时间，经Dropbox同步至本地PC；利用Windows计划任务定期执行统计分析的<a href="http://xuchi.name/tag/matlab/">MATLAB</a>脚本；将结果发邮箱，再利用IFTTT发Twitter上。(见<a href="https://github.com/chouj/PooAnalysis">Github</a>)</li>
+<li>2017年3月：应对Dropbox被墙，将便便时间记录放到<a href="http://notepad.live">Notepad</a>上；<a href="http://xuchi.name/tag/matlab/">MATLAB</a>里利用正则把页面上的数据读下来，再进行统计分析；同样用Windows计划任务实现定期执行。</li>
+</ul>
+
+<p>上述两个方案中最难坚持的部分在于：要打开手机浏览器，访问相应记录网页，再按10个数字手动输入便便时间。</p>
+
+<p>去年10月搞定了<strong>第三版实现方法</strong>，借助Thingspeak数据上载的timestamp，完美回避手动输入时间数据；同时脚本执行也丢去了Thingspeak；分析结果推送则通过IFTTT的webhooks发至Telegram；Thingspeak还具备利用数据作图的功能。具体如下：</p>
+
+<h2 id="便便时间记录">便便时间记录</h2>
+
+<ul>
+<li>在<a href="thingspeak.com">Thingspeak</a>上开1个field的public Channel，取得API_write_key（Note: private Channel的读取需要API_read_key）。</li>
+
+<li><p>方法一：在手机浏览器中收藏以下Thingspeak数据上载链接（API key替换为你自己的）；每次如厕，掏出手机，打开浏览器的收藏夹，点击一下上述收藏链接，即完成一次便便时间记录（Note：每访问一次即在Thingspeak上记录一次数据，故千万别刷新）。
+<code>https://api.thingspeak.com/update.json?api\_key={API\_write\_key}&amp;field1=poo</code></p></li>
+
+<li><p>方法二：iOS设备的话，建立一个workflow，add workflow to home screen，每次如厕点击生成的workflow icon即可。</p></li>
+</ul>
+
+<p><img src="https://ww4.sinaimg.cn/large/a15b4afegy1fnlrskx1lbj20ku0ny0tv" alt="" /></p>
+
+<h2 id="telegram推送准备">Telegram推送准备</h2>
+
+<ul>
+<li>在IFTTT关联Telegram，即TG上有@ifttt这个bot。</li>
+<li>在IFTTT启用webhooks，<a href="https://ifttt.com/services/maker_webhooks/settings">后面需调用的url可在这里看到</a>。</li>
+<li>在IFTTT建立一个if Webhooks then Telegram的Applet，设定一个Event Name。
+<br /></li>
+</ul>
+
+<h2 id="统计分析和推送">统计分析和推送</h2>
+
+<ul>
+<li>Thingspeak上再开一个新app &#8211; MATLAB Analysis，将如下MATLAB代码填入，其中频道ID和Telegram Webhooks部分换成你自己的：
+<br /></li>
+</ul>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-m" data-lang="m"><span style="color:#75715e">% PooAnalysis</span>
+<span style="color:#75715e">%</span>
+<span style="color:#75715e">% thingSpeak Channel ID</span>
+ID={your_ID};
+
+<span style="color:#75715e">%读取最近一周的数据</span>
+[poo1,pooT] = thingSpeakRead(ID,<span style="color:#e6db74">&#39;Fields&#39;</span>,<span style="color:#ae81ff">1</span>,<span style="color:#e6db74">&#39;NumDays&#39;</span>,<span style="color:#ae81ff">7</span>);
+<span style="color:#75715e">%求这一周平均隔多少小时拉一次</span>
+weekresult=hours(mean(diff(pooT)));
+
+clear poo1 pooT
+<span style="color:#75715e">%读取所有数据</span>
+[poo1,pooT] = thingSpeakRead(ID,<span style="color:#e6db74">&#39;Fields&#39;</span>,<span style="color:#ae81ff">1</span>,<span style="color:#e6db74">&#39;NumPoints&#39;</span>,<span style="color:#ae81ff">8000</span>);
+<span style="color:#75715e">%求整个统计期间平均隔多少小时啦一次</span>
+allresult=hours(mean(diff(pooT)));
+
+<span style="color:#75715e">%个性化推送字符串生成</span>
+<span style="color:#66d9ef">if</span> weekresult<span style="color:#f92672">&gt;</span>=<span style="color:#ae81ff">48</span>
+string2=[<span style="color:#e6db74">&#39;X桶啊你!&#39;</span>];
+<span style="color:#66d9ef">elseif</span> weekresult<span style="color:#f92672">&gt;</span>=<span style="color:#ae81ff">24</span> <span style="color:#f92672">&amp;</span> weekresult<span style="color:#f92672">&lt;</span><span style="color:#ae81ff">48</span>
+string2=[<span style="color:#e6db74">&#39;你拉屎还不够勤快!&#39;</span>];
+<span style="color:#66d9ef">else</span>
+string2=[<span style="color:#e6db74">&#39;赏你朵勤快拉屎小红花！&#39;</span>];
+<span style="color:#66d9ef">end</span>
+
+string1=[<span style="color:#e6db74">&#39;#poo 你上周平均隔&#39;</span>,num2str(weekresult),<span style="color:#e6db74">&#39;小时拉一次屎，&#39;</span>,string2,<span style="color:#e6db74">&#39; | 整个统计期间平均隔&#39;</span>,num2str(allresult),<span style="color:#e6db74">&#39;小时拉一次。&#39;</span>];
+
+<span style="color:#75715e">%推送至Telegram</span>
+options = weboptions(<span style="color:#e6db74">&#39;RequestMethod&#39;</span>,<span style="color:#e6db74">&#39;post&#39;</span>);
+response = webwrite(<span style="color:#e6db74">&#39;https://maker.ifttt.com/trigger/{your_event_name}/with/key/{your_token}&#39;</span>, <span style="color:#e6db74">&#39;value1&#39;</span>,string1, options);</code></pre></div>
+
+<p>给这个MATLAB Analysis加一个Time Control，设定每周执行一次。</p>
+
+<p>推送效果如图：</p>
+
+<p><img src="https://ww4.sinaimg.cn/large/a15b4afegy1fnm1809b9cj20ku072js0" alt="" /></p>
+
+<h2 id="锦上添花部分-利用thingspeak-apps-8211-matlab-visualizations绘统计图">锦上添花部分：利用Thingspeak Apps &#8211; MATLAB Visualizations绘统计图</h2>
+
+<ul>
+<li>在Thingspeak添加一个MATLAB Visualization，放入以下代码：
+<br /></li>
+</ul>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-m" data-lang="m">  
+<span style="color:#75715e">% Prior to running this MATLAB code template, assign the channel ID to read</span>
+<span style="color:#75715e">% data from to the &#39;readChannelID&#39; variable. Also, assign the field ID</span>
+<span style="color:#75715e">% within the channel that you want to read data from to plot.</span>
+
+<span style="color:#75715e">% TODO – Replace the [] with channel ID to read data from:</span>
+readChannelID = {your_channel_ID};
+<span style="color:#75715e">% TODO – Replace the [] with the Field ID to read data from:</span>
+fieldID = <span style="color:#ae81ff">1</span>;
+
+<span style="color:#75715e">% Channel Read API Key</span>
+<span style="color:#75715e">% If your channel is private, then enter the read API</span>
+<span style="color:#75715e">% Key between the &#39; &#39; below:</span>
+<span style="color:#75715e">% readAPIKey = &#39; &#39;;</span>
+
+<span style="color:#75715e">%% Read Data %%</span>
+
+[poo1, pooT] = thingSpeakRead(readChannelID, <span style="color:#e6db74">&#39;Field&#39;</span>, fieldID, <span style="color:#e6db74">&#39;NumPoints&#39;</span>, <span style="color:#ae81ff">8000</span>, <span style="color:#e6db74">&#39;ReadKey&#39;</span>, readAPIKey);
+
+<span style="color:#75715e">%% Visualize Data %%</span>
+
+[N,X]=hist(hour(pooT),<span style="color:#ae81ff">0</span>:<span style="color:#ae81ff">23</span>);
+XTickN = <span style="color:#ae81ff">0</span> : <span style="color:#ae81ff">23</span>;
+axes(<span style="color:#e6db74">&#39;Position&#39;</span>,[<span style="color:#ae81ff">0.1</span> <span style="color:#ae81ff">0.3</span> <span style="color:#ae81ff">0.8</span> <span style="color:#ae81ff">0.6</span>],…
+<span style="color:#e6db74">&#39;XLim&#39;</span>,[<span style="color:#ae81ff">0</span> <span style="color:#ae81ff">23</span>],…
+<span style="color:#e6db74">&#39;XTick&#39;</span>,XTickN,…
+<span style="color:#e6db74">&#39;Box&#39;</span>,<span style="color:#e6db74">&#39;On&#39;</span>)
+hold on
+bar(N,<span style="color:#e6db74">&#39;FaceColor&#39;</span>,[<span style="color:#ae81ff">0.9</span> <span style="color:#ae81ff">0.5</span> <span style="color:#ae81ff">0.3</span>]);
+title(<span style="color:#e6db74">&#39;When you poo in a day!&#39;</span>);
+xlabel(<span style="color:#e6db74">&#39;hour&#39;</span>);
+hold off
+  </code></pre></div>
+
+<p>效果如图：</p>
+
+<p><img src="https://s3.amazonaws.com/images.thingspeak.com/plugins/177917/jRc195AMYHS4-psBh8vvSA.png" alt="" /></p>
+
+<p><strong>终</strong>：虽说是便便时间间隔统计，但这个思路一样可以用于记录和统计分析些别的。</p></article>
+    <footer class="post-footer">
+      
+      <ul class="post-tags">
+        
+          <li><a href="https://chouj.github.io/tags/ifttt"><span class="tag">IFTTT</span></a></li>
+        
+          <li><a href="https://chouj.github.io/tags/matlab"><span class="tag">Matlab</span></a></li>
+        
+          <li><a href="https://chouj.github.io/tags/telegram"><span class="tag">Telegram</span></a></li>
+        
+          <li><a href="https://chouj.github.io/tags/thingspeak"><span class="tag">Thingspeak</span></a></li>
+        
+      </ul>
+      
+      <p class="post-copyright">
+        © This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.This post was published <strong>527</strong> days ago, content in the post may be inaccurate, even wrong now, please take risk yourself.
+      </p>
+    </footer>
+    
+      <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "chouj" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      
+    
+  </section>
+  
+<footer class="site-footer">
+  <p>© 2017-2019 抽筋儿的话语权</p>
+  <p>Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> with theme <a href="https://github.com/laozhu/hugo-nuo" target="_blank" rel="noopener">Nuo</a>.</p>
+  
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/smooth-scroll@15.0.0/dist/smooth-scroll.min.js"></script>
+
+
+
+<script async src="https://cdn.jsdelivr.net/npm/video.js@7.3.0/dist/video.min.js"></script>
+
+
+
+
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [['$','$'], ['\\(','\\)']],
+      displayMath: [['$$','$$'], ['\\[','\\]']],
+      processEscapes: true,
+      processEnvironments: true,
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+      TeX: { equationNumbers: { autoNumber: "AMS" },
+      extensions: ["AMSmath.js", "AMSsymbols.js"] }
+    },
+  });
+</script>
+<script type="text/x-mathjax-config">
+  // Fix <code> tags after MathJax finishes running. This is a
+  // hack to overcome a shortcoming of Markdown. Discussion at
+  // https://github.com/mojombo/jekyll/issues/199
+  MathJax.Hub.Queue(() => {
+    MathJax.Hub.getAllJax().map(v => v.SourceElement().parentNode.className += ' has-jax');
+  });
+</script>
+
+
+
+<script src="https://chouj.github.io/scripts/index.min.js"></script>
+
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('\/service-worker.js').then(function() {
+      console.log('[ServiceWorker] Registered');
+    });
+  }
+</script>
+
+
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-559717-4', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+
+
+
+
+
+  </body>
+</html>

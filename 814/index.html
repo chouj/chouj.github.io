@@ -5,7 +5,7 @@
   <meta charset="utf-8" />
 
   
-  <title>mloovi：多国语言版feed生成服务</title>
+  <title>Telegram同城广播频道的建立方法</title>
 
   
   
@@ -25,35 +25,29 @@
   
 
   
-  <meta name="author" content="Chouj">
-  <meta name="description" content="_各位国庆过得可开心？ 🙂
-_
-
-这回介绍一款RSS Feed语言翻译服务：mloovi。只要提交feed地址，该服务即可基于Google Translate生成相应语言的RSS feed，供有中文繁简体24种语言可供互译。虽然Google英汉翻译的质量难以恭维，不过也是一种方便交流的有益尝试；而拿mloovi生成繁简中文feeds，应该对大陆和台湾bloggers很有帮助。
+  <meta name="author" content="Chi">
+  <meta name="description" content="目标：建立一个Telegram频道，自动广播同城文娱活动，如影讯、展览、表演等。
+工具：Feed43、IFTTT。
 ">
 
   
   
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@geomatlab">
-    <meta name="twitter:title" content="mloovi：多国语言版feed生成服务">
-    <meta name="twitter:description" content="_各位国庆过得可开心？ 🙂
-_
-
-这回介绍一款RSS Feed语言翻译服务：mloovi。只要提交feed地址，该服务即可基于Google Translate生成相应语言的RSS feed，供有中文繁简体24种语言可供互译。虽然Google英汉翻译的质量难以恭维，不过也是一种方便交流的有益尝试；而拿mloovi生成繁简中文feeds，应该对大陆和台湾bloggers很有帮助。
+    <meta name="twitter:title" content="Telegram同城广播频道的建立方法">
+    <meta name="twitter:description" content="目标：建立一个Telegram频道，自动广播同城文娱活动，如影讯、展览、表演等。
+工具：Feed43、IFTTT。
 ">
     <meta name="twitter:image" content="/images/avatar.png">
   
 
   
   <meta property="og:type" content="article">
-  <meta property="og:title" content="mloovi：多国语言版feed生成服务">
-  <meta property="og:description" content="_各位国庆过得可开心？ 🙂
-_
-
-这回介绍一款RSS Feed语言翻译服务：mloovi。只要提交feed地址，该服务即可基于Google Translate生成相应语言的RSS feed，供有中文繁简体24种语言可供互译。虽然Google英汉翻译的质量难以恭维，不过也是一种方便交流的有益尝试；而拿mloovi生成繁简中文feeds，应该对大陆和台湾bloggers很有帮助。
+  <meta property="og:title" content="Telegram同城广播频道的建立方法">
+  <meta property="og:description" content="目标：建立一个Telegram频道，自动广播同城文娱活动，如影讯、展览、表演等。
+工具：Feed43、IFTTT。
 ">
-  <meta property="og:url" content="https://chouj.github.io/2008/10/07/mloovi/">
+  <meta property="og:url" content="https://chouj.github.io/814/">
   <meta property="og:image" content="/images/avatar.png">
 
 
@@ -62,7 +56,7 @@ _
 <meta name="generator" content="Hugo 0.55.6">
 
 
-<link rel="canonical" href="https://chouj.github.io/2008/10/07/mloovi/">
+<link rel="canonical" href="https://chouj.github.io/814/">
 
 <meta name="renderer" content="webkit">
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -198,34 +192,59 @@ _
 
   <section class="main post-detail">
     <header class="post-header">
-      <h1 class="post-title">mloovi：多国语言版feed生成服务</h1>
-      <p class="post-meta">@Chouj · Oct 7, 2008 · 1 min read</p>
+      <h1 class="post-title">Telegram同城广播频道的建立方法</h1>
+      <p class="post-meta">@Chi · Sep 15, 2017 · 1 min read</p>
     </header>
-    <article class="post-content"><p>_各位国庆过得可开心？ 🙂</p>
+    <article class="post-content"><p><strong>目标</strong>：建立一个Telegram频道，自动广播同城文娱活动，如影讯、展览、表演等。</p>
 
-<p>_</p>
+<p><strong>工具</strong>：<a href="http://www.feed43.com" target="_blank" rel="noopener">Feed43</a>、<a href="https://ifttt.com" target="_blank" rel="noopener">IFTTT</a>。</p>
 
-<p><a title="Mloovi" href="http://mloovi.com/" target="_blank"><img src="http://mloovi.com/img/logo_orange_296x83.png" alt="mloovi" width="296" height="83" /></a></p>
+<p><strong>方法</strong>：</p>
 
-<p>这回介绍一款RSS Feed语言翻译服务：<strong>mloovi</strong>。只要提交feed地址，该服务即可基于Google Translate生成相应语言的RSS feed，供有中文繁简体24种语言可供互译。虽然Google英汉翻译的质量难以恭维，不过也是一种方便交流的有益尝试；而拿mloovi生成繁简中文feeds，应该对大陆和台湾bloggers很有帮助。</p>
+<p>以为<a href="https://guangzhou.douban.com/events/future-all?orderby=recent" target="_blank" rel="noopener">豆瓣最近发布的同城活动页面</a>生成RSS feed为例：</p>
 
-<p>我用mloovi生成的<a title="RSS相关 (zh-CN - zh-TW) - by mloovi" href="http://mloovi.com/r/88cda00f8cab1dee8388fbe046632334" target="_blank">本blog中文繁体RSS feed地址</a>在<a title="RSS相关 (zh-CN - zh-TW) - by mloovi" href="http://mloovi.com/h/88cda00f8cab1dee8388fbe046632334" target="_blank">这个页面</a>上，大家可以去看看。需要提一下的是，mloovi会在生成的feed中添加banner广告。</p>
+<p>Feed43的用法可<a href="https://www.google.com.hk/search?q=feed43+rss" target="_blank" rel="noopener">问搜索引擎</a>。Item (repeatable) Search Pattern的填入代码如下：</p>
 
-<p>另外，mloovi还可帮助生成一个多国语言feed列表的widget，在<a title="mloovi widget" href="http://mloovi.com/widget" target="_blank">这里</a>填入feed地址，选择需要得到的语种即可。我也作了一个，如下：</p>
+<pre class="line-numbers prism-highlight" data-start="1"><code class="language-html">&lt;img data-lazy="{%}"{*}
+&lt;div class="title"{*}
+&lt;a href="https://www.douban.com/event/{%}/" title="{%}" itemprop="url"&gt;{*}
+&lt;span class="hidden-xs"&gt;时间：&lt;/span&gt;{%}&lt;{*}
+&lt;span class="hidden-xs"&gt;地点：&lt;/span&gt;{%}&lt;{*}
+&lt;span class="hidden-xs"&gt;费用：&lt;/span&gt;{*}
+&lt;strong&gt;{%}&lt;/strong&gt;{*}
+&lt;span class="meta-title"&gt;发起：&lt;/span&gt;{*}
+&lt;a target="db-event-owner" href="{*}"&gt;{%}&lt;/a&gt;
+</code></pre>
 
-<iframe src="http://mloovi.com/widget/view/8e39cf9a80a0921f966287ff5d010a95" border="0" frameborder="0" width="200" scrolling="no"></iframe>
+<p>抓取结果如下：</p>
 
-<p>[ <strong><a href="http://mloovi.com/" target="_blank">点此进入mloovi</a></strong> ]</p></article>
+<p><img src="http://telegra.ph/file/26376c4ee3b6e0d69db6e.png" alt="" /></p>
+
+<p>接着，RSS设置里这么填：</p>
+
+<p><img src="http://telegra.ph/file/e2071529bbfced419d93c.png" alt="" /></p>
+
+<p>如果需要全文feed，可以借助<a href="https://feedex.net/" target="_blank" rel="noopener">Feedex</a>。</p>
+
+<p>然后，添加<a href="https://t.me/IFTTT" target="_blank" rel="noopener">IFTTT bot</a>作频道管理员；在IFTTT网站，If <em>RSS Feed</em>, then _Telegram_就好。</p>
+
+<p><a href="https://t.me/AwesomeGuangzhou" target="_blank" rel="noopener">广州城事频道</a>收录了以下网页，供参考：</p>
+
+<p><a href="https://guangzhou.douban.com/events/future-all?orderby=recent" target="_blank" rel="noopener">广州近期同城活动</a>、<a href="https://movie.douban.com/cinema/later/guangzhou/" target="_blank" rel="noopener">广州影讯</a>、<a href="http://www.gz.gov.cn/gzgov/zxfwu/common_list.shtml" target="_blank" rel="noopener">市民办事最新服务</a>、<a href="http://www.gz.gov.cn/gzgov/s5512/common_list.shtml" target="_blank" rel="noopener">旅游资讯</a>、<a href="http://www.pazhou.net/zhanlanhui.asp" target="_blank" rel="noopener">琶洲展览会</a>、<a href="http://www.gdsc.cn/jyhd_133/hdyg/" target="_blank" rel="noopener">广东科学中心活动</a>、<a href="http://action.gzlib.gov.cn/action/web/index.do#" target="_blank" rel="noopener">广图活动发布</a>、<a href="http://hd.gzst.org.cn/action/web/index.do?offset=0" target="_blank" rel="noopener">广少图活动发布</a>、<a href="http://www.gzast.org.cn/Category_106/Index.aspx" target="_blank" rel="noopener">广州科普自由行</a>、<a href="http://www.gzast.org.cn/Category_99/Index.aspx" target="_blank" rel="noopener">广州科普一日游</a>、<a href="http://www.cantontower.com/news.aspx?code=010301" target="_blank" rel="noopener">广州塔最新活动</a>、<a href="http://www.zs-hall.cn/a/yanchu/time/" target="_blank" rel="noopener">中山纪念堂演出资讯</a>、<a href="http://www.zs-hall.cn/a/yanchu/time/" target="_blank" rel="noopener">长隆缤纷活动</a>。</p></article>
     <footer class="post-footer">
       
       <ul class="post-tags">
         
-          <li><a href="https://chouj.github.io/tags/mloovi"><span class="tag">Mloovi</span></a></li>
+          <li><a href="https://chouj.github.io/tags/feed43"><span class="tag">Feed43</span></a></li>
+        
+          <li><a href="https://chouj.github.io/tags/ifttt"><span class="tag">IFTTT</span></a></li>
+        
+          <li><a href="https://chouj.github.io/tags/telegram"><span class="tag">Telegram</span></a></li>
         
       </ul>
       
       <p class="post-copyright">
-        © This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.This post was published <strong>3919</strong> days ago, content in the post may be inaccurate, even wrong now, please take risk yourself.
+        © This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.This post was published <strong>654</strong> days ago, content in the post may be inaccurate, even wrong now, please take risk yourself.
       </p>
     </footer>
     

@@ -5,7 +5,7 @@
   <meta charset="utf-8" />
 
   
-  <title>mloovi：多国语言版feed生成服务</title>
+  <title>Call Bitly/Google URL shorten API in MATLAB</title>
 
   
   
@@ -25,35 +25,29 @@
   
 
   
-  <meta name="author" content="Chouj">
-  <meta name="description" content="_各位国庆过得可开心？ 🙂
-_
-
-这回介绍一款RSS Feed语言翻译服务：mloovi。只要提交feed地址，该服务即可基于Google Translate生成相应语言的RSS feed，供有中文繁简体24种语言可供互译。虽然Google英汉翻译的质量难以恭维，不过也是一种方便交流的有益尝试；而拿mloovi生成繁简中文feeds，应该对大陆和台湾bloggers很有帮助。
+  <meta name="author" content="Chi">
+  <meta name="description" content="Bitly Bitly API document: /v3/shorten
+Matlab code:
 ">
 
   
   
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@geomatlab">
-    <meta name="twitter:title" content="mloovi：多国语言版feed生成服务">
-    <meta name="twitter:description" content="_各位国庆过得可开心？ 🙂
-_
-
-这回介绍一款RSS Feed语言翻译服务：mloovi。只要提交feed地址，该服务即可基于Google Translate生成相应语言的RSS feed，供有中文繁简体24种语言可供互译。虽然Google英汉翻译的质量难以恭维，不过也是一种方便交流的有益尝试；而拿mloovi生成繁简中文feeds，应该对大陆和台湾bloggers很有帮助。
+    <meta name="twitter:title" content="Call Bitly/Google URL shorten API in MATLAB">
+    <meta name="twitter:description" content="Bitly Bitly API document: /v3/shorten
+Matlab code:
 ">
     <meta name="twitter:image" content="/images/avatar.png">
   
 
   
   <meta property="og:type" content="article">
-  <meta property="og:title" content="mloovi：多国语言版feed生成服务">
-  <meta property="og:description" content="_各位国庆过得可开心？ 🙂
-_
-
-这回介绍一款RSS Feed语言翻译服务：mloovi。只要提交feed地址，该服务即可基于Google Translate生成相应语言的RSS feed，供有中文繁简体24种语言可供互译。虽然Google英汉翻译的质量难以恭维，不过也是一种方便交流的有益尝试；而拿mloovi生成繁简中文feeds，应该对大陆和台湾bloggers很有帮助。
+  <meta property="og:title" content="Call Bitly/Google URL shorten API in MATLAB">
+  <meta property="og:description" content="Bitly Bitly API document: /v3/shorten
+Matlab code:
 ">
-  <meta property="og:url" content="https://chouj.github.io/2008/10/07/mloovi/">
+  <meta property="og:url" content="https://chouj.github.io/824/">
   <meta property="og:image" content="/images/avatar.png">
 
 
@@ -62,7 +56,7 @@ _
 <meta name="generator" content="Hugo 0.55.6">
 
 
-<link rel="canonical" href="https://chouj.github.io/2008/10/07/mloovi/">
+<link rel="canonical" href="https://chouj.github.io/824/">
 
 <meta name="renderer" content="webkit">
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -198,34 +192,51 @@ _
 
   <section class="main post-detail">
     <header class="post-header">
-      <h1 class="post-title">mloovi：多国语言版feed生成服务</h1>
-      <p class="post-meta">@Chouj · Oct 7, 2008 · 1 min read</p>
+      <h1 class="post-title">Call Bitly/Google URL shorten API in MATLAB</h1>
+      <p class="post-meta">@Chi · Jan 19, 2018 · 1 min read</p>
     </header>
-    <article class="post-content"><p>_各位国庆过得可开心？ 🙂</p>
+    <article class="post-content"><h1 id="bitly">Bitly</h1>
 
-<p>_</p>
+<p><a href="https://dev.bitly.com/links.html#v3_shorten">Bitly API document: <strong>/v3/shorten</strong></a></p>
 
-<p><a title="Mloovi" href="http://mloovi.com/" target="_blank"><img src="http://mloovi.com/img/logo_orange_296x83.png" alt="mloovi" width="296" height="83" /></a></p>
+<p>Matlab code:</p>
 
-<p>这回介绍一款RSS Feed语言翻译服务：<strong>mloovi</strong>。只要提交feed地址，该服务即可基于Google Translate生成相应语言的RSS feed，供有中文繁简体24种语言可供互译。虽然Google英汉翻译的质量难以恭维，不过也是一种方便交流的有益尝试；而拿mloovi生成繁简中文feeds，应该对大陆和台湾bloggers很有帮助。</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-m" data-lang="m">url  = <span style="color:#e6db74">&#39;https://api-ssl.bitly.com/v3/shorten?access_token={your_access_token}&amp;format=txt&amp;longUrl=http://google.com/&#39;</span>;
+shortened = webread(url)</code></pre></div>
 
-<p>我用mloovi生成的<a title="RSS相关 (zh-CN - zh-TW) - by mloovi" href="http://mloovi.com/r/88cda00f8cab1dee8388fbe046632334" target="_blank">本blog中文繁体RSS feed地址</a>在<a title="RSS相关 (zh-CN - zh-TW) - by mloovi" href="http://mloovi.com/h/88cda00f8cab1dee8388fbe046632334" target="_blank">这个页面</a>上，大家可以去看看。需要提一下的是，mloovi会在生成的feed中添加banner广告。</p>
+<p>Escape character is also supported / 支持转义字符:</p>
 
-<p>另外，mloovi还可帮助生成一个多国语言feed列表的widget，在<a title="mloovi widget" href="http://mloovi.com/widget" target="_blank">这里</a>填入feed地址，选择需要得到的语种即可。我也作了一个，如下：</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-m" data-lang="m">url  = <span style="color:#e6db74">&#39;https://api-ssl.bitly.com/v3/shorten?access_token={your_access_token}&amp;format=txt&amp;longUrl=http%3A%2F%2Fgoogle.com%2F&#39;</span>;
+shortened = webread(url)</code></pre></div>
 
-<iframe src="http://mloovi.com/widget/view/8e39cf9a80a0921f966287ff5d010a95" border="0" frameborder="0" width="200" scrolling="no"></iframe>
+<h1 id="google">Google</h1>
 
-<p>[ <strong><a href="http://mloovi.com/" target="_blank">点此进入mloovi</a></strong> ]</p></article>
+<p><a href="https://developers.google.com/url-shortener/v1/getting_started">Google API document: <strong>URL Shortener</strong></a></p>
+
+<p>First, you should have a URL shortener API key. It can be generated in the <a href="https://console.developers.google.com/apis/credentials">Credentials page</a>.</p>
+
+<p>Then, the matlab code:</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-m" data-lang="m">url=<span style="color:#e6db74">&#39;https://www.googleapis.com/urlshortener/v1/url?key={yours}&#39;</span>;
+options = weboptions(<span style="color:#e6db74">&#39;RequestMethod&#39;</span>,<span style="color:#e6db74">&#39;post&#39;</span>, <span style="color:#e6db74">&#39;MediaType&#39;</span>,<span style="color:#e6db74">&#39;application/json&#39;</span>);
+Body = struct(<span style="color:#e6db74">&#39;longUrl&#39;</span>, <span style="color:#e6db74">&#39;http://www.google.com/&#39;</span>);
+response = webwrite(url, Body, options);</code></pre></div>
+
+<p>Note：确保你的MATLAB可以科学上网(Preferences-&gt;Web-&gt;Internet connection里设置use a proxy)。</p></article>
     <footer class="post-footer">
       
       <ul class="post-tags">
         
-          <li><a href="https://chouj.github.io/tags/mloovi"><span class="tag">Mloovi</span></a></li>
+          <li><a href="https://chouj.github.io/tags/bitly"><span class="tag">Bitly</span></a></li>
+        
+          <li><a href="https://chouj.github.io/tags/google"><span class="tag">Google</span></a></li>
+        
+          <li><a href="https://chouj.github.io/tags/matlab"><span class="tag">Matlab</span></a></li>
         
       </ul>
       
       <p class="post-copyright">
-        © This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.This post was published <strong>3919</strong> days ago, content in the post may be inaccurate, even wrong now, please take risk yourself.
+        © This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.This post was published <strong>527</strong> days ago, content in the post may be inaccurate, even wrong now, please take risk yourself.
       </p>
     </footer>
     
