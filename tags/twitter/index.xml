@@ -14,10 +14,10 @@
     
     <item>
       <title>一个求解答的推特公共帐号@qna_cn</title>
-      <link>https://chouj.github.io/2013/04/23/%E4%B8%80%E4%B8%AA%E6%B1%82%E8%A7%A3%E7%AD%94%E7%9A%84%E6%8E%A8%E7%89%B9%E5%85%AC%E5%85%B1%E5%B8%90%E5%8F%B7qna_cn/</link>
+      <link>https://chouj.github.io/779/</link>
       <pubDate>Tue, 23 Apr 2013 01:58:53 +0000</pubDate>
       
-      <guid>https://chouj.github.io/2013/04/23/%E4%B8%80%E4%B8%AA%E6%B1%82%E8%A7%A3%E7%AD%94%E7%9A%84%E6%8E%A8%E7%89%B9%E5%85%AC%E5%85%B1%E5%B8%90%E5%8F%B7qna_cn/</guid>
+      <guid>https://chouj.github.io/779/</guid>
       <description>ta是 @qna_cn https://twitter.com/qna_cn 
 用法： fo@qna_cn以获得入群授权，然后发文带上@qna_cn并加上 #问大家 发布； 
 会使用这个id来群发问题的目标用户： 1、在自己推上发问没反馈或反馈不多的 会fo这个id的目标用户： 2、看看大家都问些啥，有闲，愿意帮人解答的 3、看看大家都问些啥，找找有没有自己也想问的 和知乎及V2EX问与答的区别？ 1、以Twitter为平台，不需要登录。 2、问题不需要很高端，很那么回事，你可以问“二手iphone4求估价”之类即时性强的问题 如果这个id有大量活跃的fo，你也许愿意去用，只要ta的fo数大过你自己的；但我想问，你会愿意fo这样一个天天代人发问的帐号么？ 这是个关键。要是这个id不能积攒大量fo，那ta就没法生存；会堕入互动少，进而无人问津的恶性循环。
@@ -27,20 +27,20 @@
     
     <item>
       <title>怎样经由Twitter实现RSS Feed同步到微博</title>
-      <link>https://chouj.github.io/2013/04/12/%E6%80%8E%E6%A0%B7%E7%BB%8F%E7%94%B1twitter%E5%AE%9E%E7%8E%B0rss-feed%E5%90%8C%E6%AD%A5%E5%88%B0%E5%BE%AE%E5%8D%9A/</link>
+      <link>https://chouj.github.io/777/</link>
       <pubDate>Fri, 12 Apr 2013 06:41:49 +0000</pubDate>
       
-      <guid>https://chouj.github.io/2013/04/12/%E6%80%8E%E6%A0%B7%E7%BB%8F%E7%94%B1twitter%E5%AE%9E%E7%8E%B0rss-feed%E5%90%8C%E6%AD%A5%E5%88%B0%E5%BE%AE%E5%8D%9A/</guid>
+      <guid>https://chouj.github.io/777/</guid>
       <description>RSS Feed to Twitter: IFTTT, TwitterFeed, etc. Twitter Tweets to Weibo: twitter-to-weibo-appengine  感谢GAE、github、新浪微博Gtalk机器人。
 警告：一折腾就死星人请绕行。</description>
     </item>
     
     <item>
       <title>在WebQQ 2.0添加推特为WEB OS桌面应用</title>
-      <link>https://chouj.github.io/2010/09/14/insert-twitter-to-webqq20/</link>
+      <link>https://chouj.github.io/650/</link>
       <pubDate>Tue, 14 Sep 2010 11:25:49 +0000</pubDate>
       
-      <guid>https://chouj.github.io/2010/09/14/insert-twitter-to-webqq20/</guid>
+      <guid>https://chouj.github.io/650/</guid>
       <description>疼逊终于又上线了一款华丽丽的产品：Web QQ 2.0，我赶把时髦，体验过后觉得尚佳。
 发现它也可以像Chrome那样，将网站存储成桌面应用，在桌面一点即开。当然WebQQ存出来的是Web OS桌面应用。遂以Twitter网页客户端推操蛋为例，图示如下，点击放大：
 点击浏览网页，打开推操蛋，点击左上红框，即可自定义应用信息：
@@ -52,19 +52,19 @@
     
     <item>
       <title>转至Twitter发布RSS的相关信息</title>
-      <link>https://chouj.github.io/2010/03/22/aboutrss-at-twitter/</link>
+      <link>https://chouj.github.io/528/</link>
       <pubDate>Mon, 22 Mar 2010 14:17:33 +0000</pubDate>
       
-      <guid>https://chouj.github.io/2010/03/22/aboutrss-at-twitter/</guid>
+      <guid>https://chouj.github.io/528/</guid>
       <description>本站职能也无外乎把美味书签（delicious.com）里rss/feed tag下的最新东西罗列至此，目前想来，还不如在Twitter写140字畅快。遂经由TwitterFeed自动发布美味书签（delicious.com）里rss/feed tag下条目于@aboutrss。欢迎发喽，本人id @chouj 亦会不时RT @aboutrss的消息并作简短注解。</description>
     </item>
     
     <item>
       <title>RSS Reader vs Twitter，信息获取方式如何选择</title>
-      <link>https://chouj.github.io/2009/06/27/rss-reader-vs-twitter/</link>
+      <link>https://chouj.github.io/522/</link>
       <pubDate>Sat, 27 Jun 2009 08:31:49 +0000</pubDate>
       
-      <guid>https://chouj.github.io/2009/06/27/rss-reader-vs-twitter/</guid>
+      <guid>https://chouj.github.io/522/</guid>
       <description>即便是这次出海之前，我也很少打开Google Reader了。一方面是因为忙，一方面是因为Twitter。如果QQ弹出新闻算是信息推送的进步的话，那么RSS和微博客的出现则可以称为“革命”。如何与信息同步，阅读器和微博客各自的优势何在，寥寥分析一下：
  阅读器之贮存，微博客之即时  阅读器是信息的湖，新东西收留与此等待主人探索，主人的阅读是对泄洪力度的控制，Mark all as read可称为“决堤”。湖里的水往往停驻许久，不像流动的河水那么新鲜。
 微博客是信息的河，下一刻的水和这一刻迥然不同，看过也罢，没看到也罢，河水依然。每一条，都是汇聚成Stream的溪，当然也不排除有些小溪流进了玩聚RT的湖。
@@ -80,10 +80,10 @@ However，我个人觉得天天开阅读器放水有些累，或是会审美疲�
     
     <item>
       <title>RSSFriends：实现Twitter (un)followers的变化跟踪</title>
-      <link>https://chouj.github.io/2009/04/05/rssfriends-for-twitter/</link>
+      <link>https://chouj.github.io/520/</link>
       <pubDate>Sun, 05 Apr 2009 08:34:05 +0000</pubDate>
       
-      <guid>https://chouj.github.io/2009/04/05/rssfriends-for-twitter/</guid>
+      <guid>https://chouj.github.io/520/</guid>
       <description>&lt;p&gt;&lt;img style=&#34;float: left; margin-left: 10px; margin-right: 10px;&#34; src=&#34;http://s3.amazonaws.com/twitter_production/profile_images/109485517/RSSFriends_Logo_bigger.png&#34; border=&#34;0&#34; alt=&#34;RSSFriends&#34; /&gt;Twitter是微博客的鼻祖，支持输出用户Tweets的RSS Feed，但有三种变化是不输出RSS的：follow我的朋友，我follow的朋友，以及我所喜爱(Favorited)的Tweets。如果想让这三个玩意儿也能被订阅，就得靠&lt;a title=&#34;RSSFriends&#34; href=&#34;http://www.rssfriends.com&#34; target=&#34;_blank&#34;&gt;RSSFriends&lt;/a&gt;啦！&lt;/p&gt;
 
 &lt;p&gt;只要提交你在Twitter的用户名即可：&lt;/p&gt;
@@ -93,10 +93,10 @@ However，我个人觉得天天开阅读器放水有些累，或是会审美疲�
     
     <item>
       <title>微博客播报器Feedlr详解</title>
-      <link>https://chouj.github.io/2008/12/18/feedlr/</link>
+      <link>https://chouj.github.io/511/</link>
       <pubDate>Thu, 18 Dec 2008 15:06:46 +0000</pubDate>
       
-      <guid>https://chouj.github.io/2008/12/18/feedlr/</guid>
+      <guid>https://chouj.github.io/511/</guid>
       <description>&lt;p&gt;&lt;img class=&#34;alignleft&#34; style=&#34;margin: 10px; float: left;&#34; src=&#34;http://feedlr.com/images/logo_dark.jpg&#34; alt=&#34;feedlr logo&#34; width=&#34;162&#34; height=&#34;90&#34; /&gt;Feedlr实际上是今年三月份上线的一款国产Web2.0服务，可以用来“创建你自己的Feed广播机器人”，其实就是推送feed内容到微博客。如果你想在国内的&lt;a href=&#34;http://fanfou.com&#34;&gt;饭否&lt;/a&gt;和&lt;a href=&#34;http://jiwai.de&#34;&gt;叽歪&lt;/a&gt;上自动播报feed内容的话，不妨注册Feedlr一用，当然，Feedlr肯定支持&lt;a href=&#34;http://twitter.com&#34;&gt;twitte&lt;/a&gt;r这个鼻祖。&lt;/p&gt;
 
 &lt;p&gt;Feedlr的UI比较华丽，用户体验也不错，下面是其首页截图，可以看到硕大的feed、twitter bird和扬声器的标志，以及长相邪恶的广播机器人：&lt;/p&gt;
@@ -106,10 +106,10 @@ However，我个人觉得天天开阅读器放水有些累，或是会审美疲�
     
     <item>
       <title>[草莓版]六月汇集：品完鲜果 再来抓虾</title>
-      <link>https://chouj.github.io/2007/07/02/articles-about-rss-in-june/</link>
+      <link>https://chouj.github.io/438/</link>
       <pubDate>Sun, 01 Jul 2007 18:01:08 +0000</pubDate>
       
-      <guid>https://chouj.github.io/2007/07/02/articles-about-rss-in-june/</guid>
+      <guid>https://chouj.github.io/438/</guid>
       <description>这几个月以来,RSS的消息一直像是沸水里的气泡，喷薄而出，炽炎之热，咄咄逼人。
 [鲜果阅读器]
 既鲜果离线阅读器之后，鲜果在线横空出世，这可引发了RSS阅读器评测比较、阅读器发展模式探讨的浪潮。
@@ -130,10 +130,10 @@ Powered by ScribeFire. </description>
     
     <item>
       <title>RSS与Twitter结合的新玩法</title>
-      <link>https://chouj.github.io/2007/03/28/rss-to-twitter/</link>
+      <link>https://chouj.github.io/419/</link>
       <pubDate>Wed, 28 Mar 2007 09:46:48 +0000</pubDate>
       
-      <guid>https://chouj.github.io/2007/03/28/rss-to-twitter/</guid>
+      <guid>https://chouj.github.io/419/</guid>
       <description>从盗盗那里再度发现有关RSS的新鲜服务，这次RSS的伙伴是风靡全球的Twitter。
 只要是Twitter用户，就可在这个站登录。她实现的功能就是：通过RSS，将最新的网志发布到Twitter上去，把Twitter变成了在线RSS阅读器，或者说是最新网志发布平台。而发布哪些RSS，全凭用户登录后在后台的订阅，可订阅多个RSS，也可对已订阅的RSS去订。
 Blogging的Twitter用户还不赶紧去试试？

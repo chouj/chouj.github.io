@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8" />
+
+  
+  <title>HTML/PAGE2RSS线上工具收集</title>
+
+  
+  
+  <link href="//cdn.jsdelivr.net" rel="dns-prefetch">
+  <link href="//cdnjs.cloudflare.com" rel="dns-prefetch">
+  
+  <link href="//at.alicdn.com" rel="dns-prefetch">
+  
+  <link href="//fonts.googleapis.com" rel="dns-prefetch">
+  <link href="//fonts.gstatic.com" rel="dns-prefetch">
+  <link href="///disqus.com" rel="dns-prefetch">
+  <link href="//c.disquscdn.com" rel="dns-prefetch">
+  
+  <link href="//www.google-analytics.com" rel="dns-prefetch">
+  
+
+  
+
+  
+  <meta name="author" content="Chouj">
+  <meta name="description" content="当网页不提供RSS输出，但每一则内容的网页结构相同的话，我们就可以利用HTML2RSS工具生成一个RSS Feed，让这个Feed自动抓取这个网页的新内容，再送到我们面前。
+此类工具是怎么实现信息抓取的呢？熟悉网页代码的朋友都知道，网页布局、样式的相同意味着代码结构的相同，而我们浏览的一些信息站点又往往罗列多个样式一致的信息条目。信息内容是变化的，但装载信息的容器——网页代码有它不变的部分。HTML2RSS工具就是通过针对相同代码结构中的不同信息进行甄别抓取来工作的。仔细说来就是：这些工具将相同架构的网页代码视为常量，将其中不同的部分视为变量——这些变化的部分可能就是用户关注的信息——用户确定所需要的变量部分后，系统将该部分以通配符形式代替，定期检索网页代码，然后把相同代码间符合通配符的那部分抓取出来，再以RSS文件的格式重写输出，我们要的Feed就生成啦。
+">
+
+  
+  
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@geomatlab">
+    <meta name="twitter:title" content="HTML/PAGE2RSS线上工具收集">
+    <meta name="twitter:description" content="当网页不提供RSS输出，但每一则内容的网页结构相同的话，我们就可以利用HTML2RSS工具生成一个RSS Feed，让这个Feed自动抓取这个网页的新内容，再送到我们面前。
+此类工具是怎么实现信息抓取的呢？熟悉网页代码的朋友都知道，网页布局、样式的相同意味着代码结构的相同，而我们浏览的一些信息站点又往往罗列多个样式一致的信息条目。信息内容是变化的，但装载信息的容器——网页代码有它不变的部分。HTML2RSS工具就是通过针对相同代码结构中的不同信息进行甄别抓取来工作的。仔细说来就是：这些工具将相同架构的网页代码视为常量，将其中不同的部分视为变量——这些变化的部分可能就是用户关注的信息——用户确定所需要的变量部分后，系统将该部分以通配符形式代替，定期检索网页代码，然后把相同代码间符合通配符的那部分抓取出来，再以RSS文件的格式重写输出，我们要的Feed就生成啦。
+">
+    <meta name="twitter:image" content="/images/avatar.png">
+  
+
+  
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="HTML/PAGE2RSS线上工具收集">
+  <meta property="og:description" content="当网页不提供RSS输出，但每一则内容的网页结构相同的话，我们就可以利用HTML2RSS工具生成一个RSS Feed，让这个Feed自动抓取这个网页的新内容，再送到我们面前。
+此类工具是怎么实现信息抓取的呢？熟悉网页代码的朋友都知道，网页布局、样式的相同意味着代码结构的相同，而我们浏览的一些信息站点又往往罗列多个样式一致的信息条目。信息内容是变化的，但装载信息的容器——网页代码有它不变的部分。HTML2RSS工具就是通过针对相同代码结构中的不同信息进行甄别抓取来工作的。仔细说来就是：这些工具将相同架构的网页代码视为常量，将其中不同的部分视为变量——这些变化的部分可能就是用户关注的信息——用户确定所需要的变量部分后，系统将该部分以通配符形式代替，定期检索网页代码，然后把相同代码间符合通配符的那部分抓取出来，再以RSS文件的格式重写输出，我们要的Feed就生成啦。
+">
+  <meta property="og:url" content="https://chouj.github.io/62/">
+  <meta property="og:image" content="/images/avatar.png">
+
+
+
+
+<meta name="generator" content="Hugo 0.55.6">
+
+
+<link rel="canonical" href="https://chouj.github.io/62/">
+
+<meta name="renderer" content="webkit">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="format-detection" content="telephone=no,email=no,adress=no">
+<meta http-equiv="Cache-Control" content="no-transform">
+
+
+<meta name="robots" content="index,follow">
+<meta name="referrer" content="origin-when-cross-origin">
+
+
+
+
+
+
+
+<meta name="theme-color" content="#02b875">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="抽筋儿的话语权">
+<meta name="msapplication-tooltip" content="抽筋儿的话语权">
+<meta name='msapplication-navbutton-color' content="#02b875">
+<meta name="msapplication-TileColor" content="#02b875">
+<meta name="msapplication-TileImage" content="/icons/icon-144x144.png">
+<link rel="icon" href="https://chouj.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://chouj.github.io/icons/icon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://chouj.github.io/icons/icon-32x32.png">
+<link rel="icon" sizes="192x192" href="https://chouj.github.io/icons/icon-192x192.png">
+<link rel="apple-touch-icon" href="https://chouj.github.io/icons/icon-152x152.png">
+<link rel="manifest" href="https://chouj.github.io/manifest.json">
+
+
+<link rel="preload" href="https://chouj.github.io/styles/main-rendered.min.css" as="style">
+
+
+<link rel="preload" href="https://fonts.googleapis.com/css?family=Lobster" as="style">
+<link rel="preload" href="https://chouj.github.io/images/avatar.png" as="image">
+<link rel="preload" href="https://chouj.github.io/images/grey-prism.svg" as="image">
+
+
+<style>
+  body {
+    background: rgb(244, 243, 241) url('/images/grey-prism.svg') repeat fixed;
+  }
+</style>
+<link rel="stylesheet" href="https://chouj.github.io/styles/main-rendered.min.css">
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.2/dist/medium-zoom.min.js"></script>
+
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/video.js@7.3.0/dist/video-js.min.css">
+
+
+
+  
+  
+<!--[if lte IE 8]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/videojs-ie8@1.1.2/dist/videojs-ie8.min.js"></script>
+<![endif]-->
+
+<!--[if lte IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/eligrey-classlist-js-polyfill@1.2.20180112/classList.min.js"></script>
+<![endif]-->
+
+
+</head>
+  <body>
+    <div class="suspension">
+      <a role="button" aria-label="Go to top" title="Go to top" class="to-top is-hide"><span class="icon icon-up" aria-hidden="true"></span></a>
+      
+        
+	<a role="button" aria-label="Go to comments" title="Go to comments" class="to-comment" href="#disqus_thread"><span class="icon icon-comment" aria-hidden="true"></span></a>
+        
+      
+    </div>
+    
+    
+  <header class="site-header">
+  <a href="https://chouj.github.io/"><img class="avatar" src="https://chouj.github.io/images/avatar.png" alt="Avatar"></a>
+  
+  <h2 class="title"><a href="https://chouj.github.io/">抽筋儿的话语权</a></h2>
+  
+  <p class="subtitle">努力作个有情调的人，“调”字念二声。</p>
+  <button class="menu-toggle" type="button" aria-label="Main Menu" aria-expanded="false" tab-index="0">
+    <span class="icon icon-menu" aria-hidden="true"></span>
+  </button>
+
+  <nav class="site-menu collapsed">
+    <h2 class="offscreen">Main Menu</h2>
+    <ul class="menu-list">
+      
+      
+      
+      
+        <li class="menu-item
+          
+          
+           is-active">
+          <a href="https://chouj.github.io/">Home</a>
+        </li>
+      
+        <li class="menu-item
+          
+          
+          ">
+          <a href="https://chouj.github.io/tags/">Tags</a>
+        </li>
+      
+    </ul>
+  </nav>
+  <nav class="social-menu collapsed">
+    <h2 class="offscreen">Social Networks</h2>
+    <ul class="social-list"><li class="social-item">
+          <a href="//github.com/chouj" rel="me" title="GitHub" aria-label="GitHub">
+	    <span class="icon icon-github" aria-hidden="true"></span>
+          </a>
+        </li><li class="social-item">
+          <a href="//twitter.com/geomatlab" rel="me" title="Twitter" aria-label="Twitter">
+            <span class="icon icon-twitter" aria-hidden="true"></span>
+          </a>
+        </li></ul>
+  </nav>
+</header>
+
+  <section class="main post-detail">
+    <header class="post-header">
+      <h1 class="post-title">HTML/PAGE2RSS线上工具收集</h1>
+      <p class="post-meta">@Chouj · Sep 5, 2007 · 1 min read</p>
+    </header>
+    <article class="post-content"><p>当网页不提供RSS输出，但每一则内容的网页结构相同的话，我们就可以利用<strong>HTML2RSS</strong>工具生成一个RSS Feed，让这个Feed自动抓取这个网页的新内容，再送到我们面前。</p>
+
+<p><strong>此类工具是怎么实现信息抓取的呢？</strong>熟悉网页代码的朋友都知道，网页布局、样式的相同意味着代码结构的相同，而我们浏览的一些信息站点又往往罗列多个样式一致的信息条目。信息内容是变化的，但装载信息的容器——网页代码有它不变的部分。HTML2RSS工具就是通过针对相同代码结构中的不同信息进行甄别抓取来工作的。仔细说来就是：这些工具将相同架构的网页代码视为常量，将其中不同的部分视为变量——这些变化的部分可能就是用户关注的信息——用户确定所需要的变量部分后，系统将该部分以通配符形式代替，定期检索网页代码，然后把相同代码间符合通配符的那部分抓取出来，再以RSS文件的格式重写输出，我们要的Feed就生成啦。</p>
+
+<p><a href="http://www.xuchi.name/blog/" target="_blank" title="抽筋儿">抽儿</a>收集了一些提供此类服务的线上工具站点，可大致分为两大类别。<font color="#3366ff">一种是<strong>可定制性强</strong>的，需要用户自己找到固定代码，即常量部分，自己确定变量的区域，<strong>使用门槛较高</strong>，比如以下两个站点：</font></p>
+
+<p><img src="http://feed43.com/res/logo.gif" alt="FEED43 (Feed For Free)" border="0" height="45" width="177" /></p>
+
+<p><strong>Feed43.com</strong>在HTML2RSS的应用上很知名了。优点是，可定制性在同类站点里最强，只要懂html，在相同代码间设定若干通配符替代所需信息，就可以实现诸多信息的抓取，用它做出来的feed，内容可以十分丰富，一些简单的服务就只能抓取标题链接。无需注册即可生成，但最好注册，方便管理生成的feed。缺点也有一些：免费服务中，每个网页最多抓取出20个条目，也就是当网页上的信息内容多于20条的时候，其后的就抓不到了（所以不适合抓BT种子发布的那种页面）；只能设置20个不一样的通配符（一般用不了这么多）；每6个小时检索对应网页一次；feed内每条信息下都会有Feed43自己的链接。</p>
+
+<p>All Ajax的Kenny写有<a href="http://ajax.yo2.cn/articles/feed43%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B.html" target="_blank" title="feed43使用教程">feed43使用教程</a>，他还用feed43做了<a href="http://ajax.yo2.cn/articles/%E7%94%A8feed43%E5%81%9A%E7%9A%84feed%E5%88%97%E8%A1%A8.html" target="_blank" title="用feed43做的Feed列表">一些feed</a>，强烈推荐。利用Feed43确实实现一些很有意义的功能，以后<a href="http://www.xuchi.name/blog/" target="_blank" title="抽筋儿">抽儿</a>再另写一文给大家详细介绍。</p>
+
+<p>[ <strong><a href="http://feed43.com/" target="_blank" title="FEED43.com">点此进入FEED43</a></strong> ]</p>
+
+<p><img src="http://www.wotzwot.com/images/wotzwot-4.gif" border="0" height="60" width="120" /></p>
+
+<p>wotzwot.com的<strong>RSSxl</strong>也是这样的一款工具（无需注册），就是界面和功能实在简陋了点儿。首先要自己查看网页源码，然后告诉它：</p>
+
+<ol>
+<li>网页地址、代码检索的开始位置；</li>
+<li>定义一个RSS信息条目的代码开始位置和代码截止位置；</li>
+<li>定义RSS信息条目中内容部分的代码开始位置和代码截止位置；</li>
+<li>RSS信息条目标题的超链选取检索区中的第几号链接；</li>
+<li>然后Generate就会自动生成RSS啦。</li>
+</ol>
+
+<p>另，那个验证码据说每个月会变动一次，也就是说，一个月后如果不管，feed就失效了！唉，写的我都累了，这款不用也罢。</p>
+
+<p>[ <a href="http://www.wotzwot.com/rssxl.php" title="RSSxl" target="_blank"><strong>点此进入RSSxl </strong></a>]</p>
+
+<p><font color="#3366ff">第二类就是<strong>傻瓜式</strong>的啦，点点鼠标，不用碰代码就可以轻松搞定，生成Feed。当然，这个feed包含的信息量就不能控制了，一般都只是给出标题和链接，不过聊胜于无。</font></p>
+
+<p><img src="http://www.ponyfish.com/images/ponyfish.png" alt="Ponyfish" /></p>
+
+<p><strong>Ponyfish</strong>是此类傻瓜式服务的最佳站点，居然动用了Ajax技术，当然输出的东西也只能是一个link而已。无需注册即可生成feed，但同样最好注册以便管理。用法是：</p>
+
+<ol>
+<li>输入网址；</li>
+<li>Ponyfish自动载入网页界面，把你要的那些标题链接挨个点出来；</li>
+<li>continue之后Ponyfish会分析这几个link，统一的留着，不统一的拿星号代表，然后你看看它分析的对不对，不对的话修正下；</li>
+<li>再之后填下Feed名称和描述，预览下内容，点Finish就完事儿啦，超easy。</li>
+<li>还不懂的<font color="#ff0000">翻墙</font>出去看这个<a href="http://briian.com/?p=2680" title="RSS產生器！免寫程式幫網站掛上RSS！ （Ponyfish）" target="_blank">贴图教程</a>！</li>
+</ol>
+
+<p>[ <a href="http://www.ponyfish.com/" title="Ponyfish" target="_blank"><strong>点此进入Ponyfish</strong></a> ]</p>
+
+<p><img src="http://www.feedyes.com/logo.gif" border="0" /></p>
+
+<p><strong>FeedYes</strong>也是专门提供傻瓜式HTML2RSS的一个站点，同样只能识别和输出网页上的链接，但需要注册才能生成和管理Feed。 用法：</p>
+
+<ol>
+<li>分析网页后，FeedYes可按链接标题的长度来筛选链接；</li>
+<li>要求用户点选第一个具备新闻价值的标题链接；</li>
+<li>要求用户点选最后一个具备新闻价值的标题链接；</li>
+<li>用户满意剩下的链接，就save；不满意则可以剔除掉不合适的链接。</li>
+</ol>
+
+<p>如果标题长度有长有短，位置复杂，那么这个工具就不好用喽。</p>
+
+<p>[ <a href="http://www.feedyes.com/" title="FeedYes" target="_blank"><strong>点此进入FeedYes</strong></a> ]</p>
+
+<p><img src="http://www.feedity.com/images/feedity-logo.gif" alt="Feedity - RSS Generator for Web Pages without Syndication, Convert any web page to an RSS document" border="0" /></p>
+
+<p>个人认为<strong>Feedity Beta</strong>提供的服务不大好用，生成的links不能如愿。虽说可以高级定义网页检索的范围，可以选定需要的标题链接，但输出的结果却无法令人满意。</p>
+
+<p>[ <a href="http://www.feedity.com/" title="Feedity" target="_blank"><strong>点此进入Feedity</strong></a> ]</p></article>
+    <footer class="post-footer">
+      
+      <ul class="post-tags">
+        
+          <li><a href="https://chouj.github.io/tags/html"><span class="tag">Html</span></a></li>
+        
+          <li><a href="https://chouj.github.io/tags/html2rss"><span class="tag">Html2rss</span></a></li>
+        
+          <li><a href="https://chouj.github.io/tags/page2rss"><span class="tag">Page2rss</span></a></li>
+        
+      </ul>
+      
+      <p class="post-copyright">
+        © This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.This post was published <strong>4316</strong> days ago, content in the post may be inaccurate, even wrong now, please take risk yourself.
+      </p>
+    </footer>
+    
+      <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "chouj" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      
+    
+  </section>
+  
+<footer class="site-footer">
+  <p>© 2017-2019 抽筋儿的话语权</p>
+  <p>Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> with theme <a href="https://github.com/laozhu/hugo-nuo" target="_blank" rel="noopener">Nuo</a>.</p>
+  
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/smooth-scroll@15.0.0/dist/smooth-scroll.min.js"></script>
+
+
+
+<script async src="https://cdn.jsdelivr.net/npm/video.js@7.3.0/dist/video.min.js"></script>
+
+
+
+
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [['$','$'], ['\\(','\\)']],
+      displayMath: [['$$','$$'], ['\\[','\\]']],
+      processEscapes: true,
+      processEnvironments: true,
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+      TeX: { equationNumbers: { autoNumber: "AMS" },
+      extensions: ["AMSmath.js", "AMSsymbols.js"] }
+    },
+  });
+</script>
+<script type="text/x-mathjax-config">
+  // Fix <code> tags after MathJax finishes running. This is a
+  // hack to overcome a shortcoming of Markdown. Discussion at
+  // https://github.com/mojombo/jekyll/issues/199
+  MathJax.Hub.Queue(() => {
+    MathJax.Hub.getAllJax().map(v => v.SourceElement().parentNode.className += ' has-jax');
+  });
+</script>
+
+
+
+<script src="https://chouj.github.io/scripts/index.min.js"></script>
+
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('\/service-worker.js').then(function() {
+      console.log('[ServiceWorker] Registered');
+    });
+  }
+</script>
+
+
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-559717-4', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+
+
+
+
+
+  </body>
+</html>

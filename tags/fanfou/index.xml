@@ -14,10 +14,10 @@
     
     <item>
       <title>微博客播报器Feedlr详解</title>
-      <link>https://chouj.github.io/2008/12/18/feedlr/</link>
+      <link>https://chouj.github.io/511/</link>
       <pubDate>Thu, 18 Dec 2008 15:06:46 +0000</pubDate>
       
-      <guid>https://chouj.github.io/2008/12/18/feedlr/</guid>
+      <guid>https://chouj.github.io/511/</guid>
       <description>&lt;p&gt;&lt;img class=&#34;alignleft&#34; style=&#34;margin: 10px; float: left;&#34; src=&#34;http://feedlr.com/images/logo_dark.jpg&#34; alt=&#34;feedlr logo&#34; width=&#34;162&#34; height=&#34;90&#34; /&gt;Feedlr实际上是今年三月份上线的一款国产Web2.0服务，可以用来“创建你自己的Feed广播机器人”，其实就是推送feed内容到微博客。如果你想在国内的&lt;a href=&#34;http://fanfou.com&#34;&gt;饭否&lt;/a&gt;和&lt;a href=&#34;http://jiwai.de&#34;&gt;叽歪&lt;/a&gt;上自动播报feed内容的话，不妨注册Feedlr一用，当然，Feedlr肯定支持&lt;a href=&#34;http://twitter.com&#34;&gt;twitte&lt;/a&gt;r这个鼻祖。&lt;/p&gt;
 
 &lt;p&gt;Feedlr的UI比较华丽，用户体验也不错，下面是其首页截图，可以看到硕大的feed、twitter bird和扬声器的标志，以及长相邪恶的广播机器人：&lt;/p&gt;
@@ -27,10 +27,10 @@
     
     <item>
       <title>FanfouFeed将RSS更新推送到饭否</title>
-      <link>https://chouj.github.io/2007/07/24/rss-to-fanfou/</link>
+      <link>https://chouj.github.io/446/</link>
       <pubDate>Tue, 24 Jul 2007 13:32:52 +0000</pubDate>
       
-      <guid>https://chouj.github.io/2007/07/24/rss-to-fanfou/</guid>
+      <guid>https://chouj.github.io/446/</guid>
       <description>RSS2Twitter.com将即时更新的RSS信息发布到Twitter，FanfouFeed.com则可以将Feed内更新的信息标题发布到饭否。
 其主页上介绍的使用需知有三：
  有饭否帐号，即为饭否用户； 只可使用OpenID登录； 登录后台，添加或管理Feed和消息前缀。  发文时此服务用户仅21名，有blog的饭否用户可以尝试下，让信息传播得更远些吧 🙂

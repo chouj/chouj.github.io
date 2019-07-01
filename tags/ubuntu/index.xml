@@ -14,10 +14,10 @@
     
     <item>
       <title>Ubuntu下基于Pure-ftpd建FTP记录</title>
-      <link>https://chouj.github.io/2013/07/31/%E4%BB%A5ftp%E4%BD%9C%E4%B8%BA%E5%B0%8F%E5%9B%A2%E9%98%9F%E5%86%85%E9%83%A8%E8%B5%84%E6%96%99%E5%85%B1%E4%BA%AB%E6%96%B9%E6%A1%88%E5%9F%BA%E4%BA%8Epure-ftpd/</link>
+      <link>https://chouj.github.io/786/</link>
       <pubDate>Wed, 31 Jul 2013 08:43:26 +0000</pubDate>
       
-      <guid>https://chouj.github.io/2013/07/31/%E4%BB%A5ftp%E4%BD%9C%E4%B8%BA%E5%B0%8F%E5%9B%A2%E9%98%9F%E5%86%85%E9%83%A8%E8%B5%84%E6%96%99%E5%85%B1%E4%BA%AB%E6%96%B9%E6%A1%88%E5%9F%BA%E4%BA%8Epure-ftpd/</guid>
+      <guid>https://chouj.github.io/786/</guid>
       <description>一年前就开始寻找课题组内资料共享的解决方案，现在发现，我把事情想复杂了：在内网建外网可访问的FTP的话，以为要在单位出口网关上做映射才行，以为要搞DDNS。其实都不用。以下记录一些关键信息，备查。
 一开始尝试vsftpd，装好后发现21端口都没打开，作罢（查端口命令：#sudo netstat -npltu | grep 21）。
 安装pure-ftpd可参照网上的教程，不过其配置比较奇怪。Ubuntu 12.04下的/etc/pure-ftpd里确实有auth、db、conf三个文件夹，但官方wiki说的在conf里以选项为文件名，以选项值为文件内容进行配置，却不起作用。只好在启动命令里加switch：
@@ -29,10 +29,10 @@
     
     <item>
       <title>乌班兔好好玩</title>
-      <link>https://chouj.github.io/2008/05/22/funny-ubuntu/</link>
+      <link>https://chouj.github.io/89/</link>
       <pubDate>Thu, 22 May 2008 06:19:29 +0000</pubDate>
       
-      <guid>https://chouj.github.io/2008/05/22/funny-ubuntu/</guid>
+      <guid>https://chouj.github.io/89/</guid>
       <description>乌班兔果然比其他兔子好玩多啦，因为这只任人打扮的兔子会杂技和魔术。
 3D Desktop
 
@@ -57,10 +57,10 @@ Compiz Fusion更牛逼效果完整展示(7分10秒)：</description>
     
     <item>
       <title>乌班兔</title>
-      <link>https://chouj.github.io/2008/03/20/only-ubuntu/</link>
+      <link>https://chouj.github.io/65/</link>
       <pubDate>Wed, 19 Mar 2008 17:39:12 +0000</pubDate>
       
-      <guid>https://chouj.github.io/2008/03/20/only-ubuntu/</guid>
+      <guid>https://chouj.github.io/65/</guid>
       <description>刚弄到本儿时，还是有瘟豆子叉屁系统的，所以折腾了几天士兵突击。还没看完，我就把瘟豆子砍了，直接引进了乌班兔，开始折腾这只兔子。
 虽然现在还停留在对着教程在终端里复制粘贴一气的程度， 但折腾这只倒霉兔子也算有趣，因为它长得和瘟豆子比较不一样。之前看一师兄对着黑乎乎的命令行界面一阵high敲，觉得特神秘，现在也吸引不到我了，不就是控制台嘛。
 之前没网，天天从办公室拷deb回来装，真是痛苦死，一气之下买了交换机，即便绑MAC绑IP，还是弄到了室友的网络，所以目前兔子被折腾成了这样：看突击不成问题了，可以QQ啦，还拿微软雅黑美化了下，并且装matlab成功，不容易啊。下一步想给兔子喝点WINE，让丫能吃点儿瘟豆子的程序，比如迅雷啥的。不多说了，上个桌面：

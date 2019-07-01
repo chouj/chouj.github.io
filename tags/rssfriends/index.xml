@@ -14,10 +14,10 @@
     
     <item>
       <title>RSSFriends：实现Twitter (un)followers的变化跟踪</title>
-      <link>https://chouj.github.io/2009/04/05/rssfriends-for-twitter/</link>
+      <link>https://chouj.github.io/520/</link>
       <pubDate>Sun, 05 Apr 2009 08:34:05 +0000</pubDate>
       
-      <guid>https://chouj.github.io/2009/04/05/rssfriends-for-twitter/</guid>
+      <guid>https://chouj.github.io/520/</guid>
       <description>&lt;p&gt;&lt;img style=&#34;float: left; margin-left: 10px; margin-right: 10px;&#34; src=&#34;http://s3.amazonaws.com/twitter_production/profile_images/109485517/RSSFriends_Logo_bigger.png&#34; border=&#34;0&#34; alt=&#34;RSSFriends&#34; /&gt;Twitter是微博客的鼻祖，支持输出用户Tweets的RSS Feed，但有三种变化是不输出RSS的：follow我的朋友，我follow的朋友，以及我所喜爱(Favorited)的Tweets。如果想让这三个玩意儿也能被订阅，就得靠&lt;a title=&#34;RSSFriends&#34; href=&#34;http://www.rssfriends.com&#34; target=&#34;_blank&#34;&gt;RSSFriends&lt;/a&gt;啦！&lt;/p&gt;
 
 &lt;p&gt;只要提交你在Twitter的用户名即可：&lt;/p&gt;

@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8" />
+
+  
+  <title>[WP插件]BetterFeed使用指南</title>
+
+  
+  
+  <link href="//cdn.jsdelivr.net" rel="dns-prefetch">
+  <link href="//cdnjs.cloudflare.com" rel="dns-prefetch">
+  
+  <link href="//at.alicdn.com" rel="dns-prefetch">
+  
+  <link href="//fonts.googleapis.com" rel="dns-prefetch">
+  <link href="//fonts.gstatic.com" rel="dns-prefetch">
+  <link href="///disqus.com" rel="dns-prefetch">
+  <link href="//c.disquscdn.com" rel="dns-prefetch">
+  
+  <link href="//www.google-analytics.com" rel="dns-prefetch">
+  
+
+  
+
+  
+  <meta name="author" content="Chouj">
+  <meta name="description" content="除了上文介绍的WordPress©Feed，BetterFeed也是一款用于更改Feed footer信息的强大插件。两者相比，前者具备Option界面，使用上比较傻瓜，后者则需要自己编辑插件部分代码；但前者不支持php语言调用，后者则可借助php参数调用，为feed添加进更有针对性、更智能的信息。所以说，两个插件各有优劣，不过，切勿同时启用。
+">
+
+  
+  
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@geomatlab">
+    <meta name="twitter:title" content="[WP插件]BetterFeed使用指南">
+    <meta name="twitter:description" content="除了上文介绍的WordPress©Feed，BetterFeed也是一款用于更改Feed footer信息的强大插件。两者相比，前者具备Option界面，使用上比较傻瓜，后者则需要自己编辑插件部分代码；但前者不支持php语言调用，后者则可借助php参数调用，为feed添加进更有针对性、更智能的信息。所以说，两个插件各有优劣，不过，切勿同时启用。
+">
+    <meta name="twitter:image" content="/images/avatar.png">
+  
+
+  
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="[WP插件]BetterFeed使用指南">
+  <meta property="og:description" content="除了上文介绍的WordPress©Feed，BetterFeed也是一款用于更改Feed footer信息的强大插件。两者相比，前者具备Option界面，使用上比较傻瓜，后者则需要自己编辑插件部分代码；但前者不支持php语言调用，后者则可借助php参数调用，为feed添加进更有针对性、更智能的信息。所以说，两个插件各有优劣，不过，切勿同时启用。
+">
+  <meta property="og:url" content="https://chouj.github.io/470/">
+  <meta property="og:image" content="/images/avatar.png">
+
+
+
+
+<meta name="generator" content="Hugo 0.55.6">
+
+
+<link rel="canonical" href="https://chouj.github.io/470/">
+
+<meta name="renderer" content="webkit">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="format-detection" content="telephone=no,email=no,adress=no">
+<meta http-equiv="Cache-Control" content="no-transform">
+
+
+<meta name="robots" content="index,follow">
+<meta name="referrer" content="origin-when-cross-origin">
+
+
+
+
+
+
+
+<meta name="theme-color" content="#02b875">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="抽筋儿的话语权">
+<meta name="msapplication-tooltip" content="抽筋儿的话语权">
+<meta name='msapplication-navbutton-color' content="#02b875">
+<meta name="msapplication-TileColor" content="#02b875">
+<meta name="msapplication-TileImage" content="/icons/icon-144x144.png">
+<link rel="icon" href="https://chouj.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://chouj.github.io/icons/icon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://chouj.github.io/icons/icon-32x32.png">
+<link rel="icon" sizes="192x192" href="https://chouj.github.io/icons/icon-192x192.png">
+<link rel="apple-touch-icon" href="https://chouj.github.io/icons/icon-152x152.png">
+<link rel="manifest" href="https://chouj.github.io/manifest.json">
+
+
+<link rel="preload" href="https://chouj.github.io/styles/main-rendered.min.css" as="style">
+
+
+<link rel="preload" href="https://fonts.googleapis.com/css?family=Lobster" as="style">
+<link rel="preload" href="https://chouj.github.io/images/avatar.png" as="image">
+<link rel="preload" href="https://chouj.github.io/images/grey-prism.svg" as="image">
+
+
+<style>
+  body {
+    background: rgb(244, 243, 241) url('/images/grey-prism.svg') repeat fixed;
+  }
+</style>
+<link rel="stylesheet" href="https://chouj.github.io/styles/main-rendered.min.css">
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.2/dist/medium-zoom.min.js"></script>
+
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/video.js@7.3.0/dist/video-js.min.css">
+
+
+
+  
+  
+<!--[if lte IE 8]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/videojs-ie8@1.1.2/dist/videojs-ie8.min.js"></script>
+<![endif]-->
+
+<!--[if lte IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/eligrey-classlist-js-polyfill@1.2.20180112/classList.min.js"></script>
+<![endif]-->
+
+
+</head>
+  <body>
+    <div class="suspension">
+      <a role="button" aria-label="Go to top" title="Go to top" class="to-top is-hide"><span class="icon icon-up" aria-hidden="true"></span></a>
+      
+        
+	<a role="button" aria-label="Go to comments" title="Go to comments" class="to-comment" href="#disqus_thread"><span class="icon icon-comment" aria-hidden="true"></span></a>
+        
+      
+    </div>
+    
+    
+  <header class="site-header">
+  <a href="https://chouj.github.io/"><img class="avatar" src="https://chouj.github.io/images/avatar.png" alt="Avatar"></a>
+  
+  <h2 class="title"><a href="https://chouj.github.io/">抽筋儿的话语权</a></h2>
+  
+  <p class="subtitle">努力作个有情调的人，“调”字念二声。</p>
+  <button class="menu-toggle" type="button" aria-label="Main Menu" aria-expanded="false" tab-index="0">
+    <span class="icon icon-menu" aria-hidden="true"></span>
+  </button>
+
+  <nav class="site-menu collapsed">
+    <h2 class="offscreen">Main Menu</h2>
+    <ul class="menu-list">
+      
+      
+      
+      
+        <li class="menu-item
+          
+          
+           is-active">
+          <a href="https://chouj.github.io/">Home</a>
+        </li>
+      
+        <li class="menu-item
+          
+          
+          ">
+          <a href="https://chouj.github.io/tags/">Tags</a>
+        </li>
+      
+    </ul>
+  </nav>
+  <nav class="social-menu collapsed">
+    <h2 class="offscreen">Social Networks</h2>
+    <ul class="social-list"><li class="social-item">
+          <a href="//github.com/chouj" rel="me" title="GitHub" aria-label="GitHub">
+	    <span class="icon icon-github" aria-hidden="true"></span>
+          </a>
+        </li><li class="social-item">
+          <a href="//twitter.com/geomatlab" rel="me" title="Twitter" aria-label="Twitter">
+            <span class="icon icon-twitter" aria-hidden="true"></span>
+          </a>
+        </li></ul>
+  </nav>
+</header>
+
+  <section class="main post-detail">
+    <header class="post-header">
+      <h1 class="post-title">[WP插件]BetterFeed使用指南</h1>
+      <p class="post-meta">@Chouj · Oct 25, 2007 · 1 min read</p>
+    </header>
+    <article class="post-content"><p><img src="http://photo5.yupoo.com/20071025/144157_423535404_lmeqxrcy.jpg" title="WordPress" alt="WordPress" height="112" width="112" /></p>
+
+<p>除了<a href="http://aboutrss.cn/2007/10/17/wordpress-plugin-copyfeed/" title="[WP插件]©Feed指南及其汉化版">上文</a>介绍的WordPress<a href="http://wordpress.org/extend/plugins/copyfeed/" title="©Feed">©Feed</a>，<a href="http://planetozh.com/blog/my-projects/wordpress-plugin-better-feed-rss/" title="Wordpress Plugin : Better Feed" target="_blank"><strong>BetterFeed</strong></a>也是一款用于更改Feed footer信息的强大插件。两者相比，前者具备Option界面，使用上比较傻瓜，后者则需要自己编辑插件部分代码；但前者不支持php语言调用，后者则可借助php参数调用，为feed添加进更有针对性、更智能的信息。所以说，两个插件各有优劣，不过，<strong>切勿同时启用</strong>。</p>
+
+<p><strong>BetterFeed</strong>主页上说其能实现的功能有：</p>
+
+<ol>
+<li>在Feed中添加“Read more &#8230;”或“Next Page &#8230;”链接；</li>
+<li>添加版权声明；</li>
+<li>添加分类、评论数；</li>
+<li>添加置底文章链接；</li>
+<li>添加bookmark链接和反向查询链接；</li>
+<li>添加其他你能想的到的信息，比如广告、口号、推广之类。</li>
+</ol>
+
+<p>下图是一张启用<strong>BetterFeed</strong>后的效果图：</p>
+
+<p><img src="http://photo5.yupoo.com/20071024/223308_1250673943_sgbgnxsu.jpg" title="RSS相关 betterfeed 效果" alt="RSS相关 betterfeed 效果" height="225" width="459" /></p>
+
+<p>要想得到这种效果，我们要做的是：<strong>更改插件php文件中的相关代码</strong>：</p>
+
+<p><img src="http://photo11.yupoo.com/20071024/223308_1017096139_mwinjbvh.jpg" title="RSS相关 betterfeed 设定" alt="RSS相关 betterfeed 设定" height="382" width="438" /></p>
+
+<p>wp_ozh_betterfeed.php头部插件注释之后，即有“Edit Here”的字样提示从这里开始插件设定啦。“General Behavior”中需要设定两个参量的值，图中的<strong>split</strong>量用来设定是否在feed中支持wordpress&lt;!&#8211; more &#8211;&gt;标签输出“Read More”，值1表示开启，值0表示停用；第二个参数<strong>multipage</strong>量则用来设定是否在feed中支持wordpress&lt;!&#8211; nextpage &#8211;&gt;标签输出“Read More”，同样值1表示开启，值0表示停用。</p>
+
+<p>再往下，我们可以看到：</p>
+
+<p><img src="http://photo11.yupoo.com/20071024/223309_40671525_nabinmjq.jpg" title="RSS相关 betterfeed 代码" alt="RSS相关 betterfeed 代码" height="402" width="437" /></p>
+
+<p>橙红色区域的注释告诉我们，将写好的html填充到“&lt;&lt;&lt;FEEDFOOT”和“FEEDFOOT;”之间即可。BetterFeed提供了若干变量名供我们调用WordPress信息，注解翻译如下：</p>
+
+<ul>
+<li><strong>%%blogname%%</strong> : 博客名称 (My Weblog)</li>
+<li><strong>%%blogurl%%</strong> : 博客链接 (<a href="http://myblog.com/">http://myblog.com/</a>)</li>
+<li><strong>%%posttitle%%</strong> : 本文题目 (Hello World)</li>
+<li><strong>%%posturl%%</strong> : 本文链接 (<a href="http://myblog.com/archives/2001/02/03/hello-world/或">http://myblog.com/archives/2001/02/03/hello-world/或</a> <a href="http://myblog.com/?p=123">http://myblog.com/?p=123</a>)</li>
+<li><strong>%%id%%</strong> : 本文 ID (文章数字号, 比如上例中的123 )</li>
+<li><strong>%%date[Y]%%</strong> :日期，发文时间, 括号内时间样式遵循PHP <a href="http://planetozh.com/blog/go.php?http://php.net/date">date()</a>语法</li>
+<li><strong>%%categories%%</strong> : 以逗号间隔列出文章归入的分类</li>
+<li><strong>%%categorylinks%%</strong> : 各个以逗号间隔的分类的链接</li>
+<li><strong>%%comments%%</strong> : 评论数量</li>
+<li><strong>%%comments_text%%</strong> :评论文本，0条评论、1条评论或x条评论，默认显示为英文，可更改。</li>
+<li><strong>%%readmore%%</strong> : 若开启，则添加&#8221;Read more&#8221;链接文字，亦可更改。</li>
+<li><strong>%%wordcount%%</strong> : 本文字数</li>
+<li><strong>%%wordcount_remain%%</strong> : 阅读更多中未显示的文本字数</li>
+<li><strong>%%author_first%%</strong> : 作者的名</li>
+<li><strong>%%author_last%%</strong> : 作者的姓</li>
+<li><strong>%%author_nick%%</strong> : 作者昵称</li>
+</ul>
+
+<p>其中，%%readmore%%和%%comments_text%%所显示出的文本可找到相应的默认代码，做更加个性化的更改。这里给出一个<a href="http://aboutrss.cn/">RSS相关</a>原来用的代码：</p>
+
+<p><code>&lt;/p&gt;
+&lt;p&gt;%%readmore%%&lt;/p&gt;
+&lt;hr noshade style=&quot;margin:0;height:1px&quot; /&gt;
+    &lt;small&gt;&lt;/p&gt;
+&lt;p&gt;&amp;copy; %%author_nick%% for &lt;a href=&quot;%%blogurl%%&quot;&gt;%%blogname%%&lt;/a&gt;, 2007. | &lt;a href=&quot;%%posturl%%&quot;&gt;Permalink&lt;/a&gt; | &lt;a href=&quot;%%categorylinks%%&quot;&gt;%%categories%%&lt;/a&gt; | &lt;a href=&quot;%%posturl%%#comments/&quot;&gt;%%comments%%&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Add to &lt;a href=&quot;http://del.icio.us/post?url=%%posturl%%&amp;#038;title=%%posttitle%%&quot;&gt;Del.icio.us&lt;/a&gt; | Who's linking? &lt;a href=&quot;http://www.technorati.com/search/%%posturl%%&quot; title=&quot;Search on Technorati&quot;&gt;Technorati&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/small&gt;&lt;br /&gt;
+</code></p>
+
+<p>您可在utf-8编码下打开插件php文件，自行编辑代码，再上传wp_ozh_betterfeed.php到wordpress/wp-content/plugins/，在后台激活插件即可；或者上传插件后，开启写入属性，在wordpress管理后台的插件页面下编辑该插件相应代码，再激活。</p>
+
+<p>[ <a href="http://planetozh.com/blog/my-projects/wordpress-plugin-better-feed-rss/" target="_blank">点此进入<strong>BetterFeed主页</strong></a> ]</p></article>
+    <footer class="post-footer">
+      
+      <ul class="post-tags">
+        
+          <li><a href="https://chouj.github.io/tags/plugin"><span class="tag">Plugin</span></a></li>
+        
+          <li><a href="https://chouj.github.io/tags/tutorial"><span class="tag">Tutorial</span></a></li>
+        
+          <li><a href="https://chouj.github.io/tags/wordpress"><span class="tag">WordPress</span></a></li>
+        
+      </ul>
+      
+      <p class="post-copyright">
+        © This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.This post was published <strong>4266</strong> days ago, content in the post may be inaccurate, even wrong now, please take risk yourself.
+      </p>
+    </footer>
+    
+      <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "chouj" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      
+    
+  </section>
+  
+<footer class="site-footer">
+  <p>© 2017-2019 抽筋儿的话语权</p>
+  <p>Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> with theme <a href="https://github.com/laozhu/hugo-nuo" target="_blank" rel="noopener">Nuo</a>.</p>
+  
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/smooth-scroll@15.0.0/dist/smooth-scroll.min.js"></script>
+
+
+
+<script async src="https://cdn.jsdelivr.net/npm/video.js@7.3.0/dist/video.min.js"></script>
+
+
+
+
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [['$','$'], ['\\(','\\)']],
+      displayMath: [['$$','$$'], ['\\[','\\]']],
+      processEscapes: true,
+      processEnvironments: true,
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+      TeX: { equationNumbers: { autoNumber: "AMS" },
+      extensions: ["AMSmath.js", "AMSsymbols.js"] }
+    },
+  });
+</script>
+<script type="text/x-mathjax-config">
+  // Fix <code> tags after MathJax finishes running. This is a
+  // hack to overcome a shortcoming of Markdown. Discussion at
+  // https://github.com/mojombo/jekyll/issues/199
+  MathJax.Hub.Queue(() => {
+    MathJax.Hub.getAllJax().map(v => v.SourceElement().parentNode.className += ' has-jax');
+  });
+</script>
+
+
+
+<script src="https://chouj.github.io/scripts/index.min.js"></script>
+
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('\/service-worker.js').then(function() {
+      console.log('[ServiceWorker] Registered');
+    });
+  }
+</script>
+
+
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-559717-4', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+
+
+
+
+
+  </body>
+</html>

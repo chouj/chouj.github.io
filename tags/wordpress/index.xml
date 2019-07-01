@@ -14,10 +14,10 @@
     
     <item>
       <title>[WP插件]RSS includes Pages</title>
-      <link>https://chouj.github.io/2008/11/05/rss-includes-pages-wp-plugin/</link>
+      <link>https://chouj.github.io/506/</link>
       <pubDate>Wed, 05 Nov 2008 01:47:53 +0000</pubDate>
       
-      <guid>https://chouj.github.io/2008/11/05/rss-includes-pages-wp-plugin/</guid>
+      <guid>https://chouj.github.io/506/</guid>
       <description>&lt;p&gt;&lt;img style=&#34;float: left; margin-left: 10px; margin-right: 10px;&#34; title=&#34;WordPress Plugin about RSS&#34; src=&#34;http://pic.yupoo.com/xcchris/309805b2a084/qye3bzys.jpg&#34; alt=&#34;WordPress&#34; /&gt;如果你使用WordPress搭建CMS，那么一定会较多得利用“页面”元素来显示你的内容，但页面内容是不会输出到RSS feed的。怎么解决这个问题，输出页面信息到feed中呢？我们可以使用一个插件：&lt;strong&gt;RSS includes Pages&lt;/strong&gt;。&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;简介&lt;/strong&gt;：&lt;/p&gt;
@@ -37,10 +37,10 @@
     
     <item>
       <title>[WP插件]RSSless：实现feed中的内容隐藏</title>
-      <link>https://chouj.github.io/2008/10/14/plugin-rssless/</link>
+      <link>https://chouj.github.io/505/</link>
       <pubDate>Tue, 14 Oct 2008 03:00:21 +0000</pubDate>
       
-      <guid>https://chouj.github.io/2008/10/14/plugin-rssless/</guid>
+      <guid>https://chouj.github.io/505/</guid>
       <description>&lt;p&gt;&lt;img title=&#34;WordPress Plugin about RSS&#34; src=&#34;http://pic.yupoo.com/xcchris/309805b2a084/qye3bzys.jpg&#34; alt=&#34;WordPress&#34; style=&#34;float: left; margin-left: 10px; margin-right: 10px;&#34; /&gt;如果想在RSS feed中隐藏内容，使得页面内容和RSS feed内容不一样的话，那你也许就需要这款WordPress Plugin：RSSless。打个比方，你想在页面上显示“请看以下视频”，在feed内容中显示“请访问本日志方可看到视频”，RSSless就是解决你这方面需求的利器。&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;简介&lt;/strong&gt;：&lt;/p&gt;
@@ -110,10 +110,10 @@
     
     <item>
       <title>[翻译]如何让WP一分类下的文章不在Feed输出</title>
-      <link>https://chouj.github.io/2008/06/11/translation-how-to-exclude-categories-from-main-feed/</link>
+      <link>https://chouj.github.io/486/</link>
       <pubDate>Tue, 10 Jun 2008 16:11:49 +0000</pubDate>
       
-      <guid>https://chouj.github.io/2008/06/11/translation-how-to-exclude-categories-from-main-feed/</guid>
+      <guid>https://chouj.github.io/486/</guid>
       <description>&lt;p&gt;&lt;a rel=&#34;attachment wp-att-94&#34; href=&#34;http://aboutrss.cn/2008/06/translation-how-to-exclude-categories-from-main-feed/wordpressfeed/&#34;&gt;&lt;img class=&#34;alignleft size-medium wp-image-94&#34; title=&#34;wordpressfeed&#34; src=&#34;http://pic.yupoo.com/xcchris/309805b2a084/qye3bzys.jpg&#34; alt=&#34;wordpressfeed&#34; width=&#34;100&#34; height=&#34;100&#34; /&gt;&lt;/a&gt;原文：&lt;a title=&#34;How to modify your WordPress RSS Feed - Kriesi&#34; href=&#34;http://www.kriesi.at/archives/how-to-modify-your-wordpress-rss-feed&#34; target=&#34;_blank&#34;&gt;How to modify your WordPress RSS Feed&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;作者：Kriesi&lt;/p&gt;
@@ -132,10 +132,10 @@
     
     <item>
       <title>我使用的博客虚拟主机</title>
-      <link>https://chouj.github.io/2008/05/28/my-blog-host/</link>
+      <link>https://chouj.github.io/268/</link>
       <pubDate>Tue, 27 May 2008 18:12:35 +0000</pubDate>
       
-      <guid>https://chouj.github.io/2008/05/28/my-blog-host/</guid>
+      <guid>https://chouj.github.io/268/</guid>
       <description>写这么一篇文章，我就能从总统那里收获拾元人民币，这个数在我整个blog月收入里占到99.99%，所以我写的义无反顾义不容辞，心甘情愿被他收买，为其做病毒式传销。嘿嘿。当然，货肯定是好货，包满意。
 
 侧栏最下的这个标识表征了我目前使用的主机，它也正是本话题广告的主角：总统的WordPress中文站所提供的博客主机。
@@ -148,10 +148,10 @@
     
     <item>
       <title>订阅统计DIY的可行性</title>
-      <link>https://chouj.github.io/2008/05/05/feedcount-diy/</link>
+      <link>https://chouj.github.io/480/</link>
       <pubDate>Sun, 04 May 2008 17:55:01 +0000</pubDate>
       
-      <guid>https://chouj.github.io/2008/05/05/feedcount-diy/</guid>
+      <guid>https://chouj.github.io/480/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;http://wpchina.org/images/w-event-plugin-1.gif&#34; alt=&#34;我为WP中文化做贡献：推荐一款优秀的WP插件&#34; width=&#34;200&#34; height=&#34;80&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;较早前，曾兄曾在博客联盟分析过&lt;a title=&#34;feedburner，feedsky还是原始 feed？&#34; href=&#34;http://blogunion.org/blogging-tips/feedsky-feedburner-or-original-feed.html&#34; target=&#34;_blank&#34;&gt;feed到底要不要托管&lt;/a&gt;，结论是&lt;strong&gt;视订阅量为浮云的稳定独立博客何不使用原始feed&lt;/strong&gt;，这样更新更迅速（无需等托管商的爬虫来采集）。Charlee推出的一款&lt;a title=&#34;Feed统计插件My Feed Stats发布&#34; href=&#34;http://tech.idv2.com/2007/11/12/my-feed-stats/&#34; target=&#34;_blank&#34;&gt;My Feed Stats WordPress Plugin&lt;/a&gt;则让feed不托管的适用范围更加广阔，我们使用原始feed一样能知道订阅量指标，姑且称之为订阅统计DIY。RSS相关曾&lt;a title=&#34;[WP插件]My Feed Stats介绍&#34; href=&#34;http://aboutrss.cn/2008/02/10/my-feed-stats/&#34; target=&#34;_self&#34;&gt;简介过这款插件&lt;/a&gt;，经过我在WP2.5.1下的测试可用后，再次详细推荐一下，没有它我们的讨论就没有意义：&lt;/p&gt;
@@ -173,10 +173,10 @@
     
     <item>
       <title>Cannot modify header information问题的解决方法</title>
-      <link>https://chouj.github.io/2008/04/29/cannot-modify-header-information/</link>
+      <link>https://chouj.github.io/80/</link>
       <pubDate>Tue, 29 Apr 2008 03:26:06 +0000</pubDate>
       
-      <guid>https://chouj.github.io/2008/04/29/cannot-modify-header-information/</guid>
+      <guid>https://chouj.github.io/80/</guid>
       <description>昨晚升级WordPress 2.5.1 ，记事本编辑了wp-config-sample.php为wp-config.php，结果登录管理页面/wp-admin/时遭遇如下问题：
 Warning: Cannot modify header information &amp;#8211; headers already sent by ……
 搜索“Cannot modify header information”得到一票解决方法，简单说就是拿记事本编辑的php文件不是UTF-8（无BOM）编码的，更改php文件还是用Notepad++(这是一款主页上抵制北京奥*运的软件，囧)或UltraEdit靠谱。
@@ -185,10 +185,10 @@ Warning: Cannot modify header information &amp;#8211; headers already sent by �
     
     <item>
       <title>[WP插件]My Feed Stats介绍</title>
-      <link>https://chouj.github.io/2008/02/10/my-feed-stats/</link>
+      <link>https://chouj.github.io/473/</link>
       <pubDate>Sun, 10 Feb 2008 11:46:08 +0000</pubDate>
       
-      <guid>https://chouj.github.io/2008/02/10/my-feed-stats/</guid>
+      <guid>https://chouj.github.io/473/</guid>
       <description>&lt;nav&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -215,10 +215,10 @@ Warning: Cannot modify header information &amp;#8211; headers already sent by �
     
     <item>
       <title>本命年</title>
-      <link>https://chouj.github.io/2008/02/08/chinese-new-year/</link>
+      <link>https://chouj.github.io/61/</link>
       <pubDate>Thu, 07 Feb 2008 18:24:26 +0000</pubDate>
       
-      <guid>https://chouj.github.io/2008/02/08/chinese-new-year/</guid>
+      <guid>https://chouj.github.io/61/</guid>
       <description>            鲜果认领：BANGF5A6BC913C212C10164CA6E5XIANGUO        上一篇说到控制面板进不去，八成是因为插件开多了。光靠人品来解决问题不是办法，趁年闲重装到了WordPress 2.3.2，换主题到Blackish，晚点儿是晚点儿，谁让猪年手懒呢。
 Blog还是要恢复更新，即便以流水帐的姿态。每每看着朋友们的文字，就算与我毫不相干，也能品味到一种鲜活，一抹温暖。换言之，我随便写点东西没准儿就让谁谁的神经产生了电脉冲呢。Blog Boom是否将阅读引向了信息快餐，这不是我想讨论的，我的目的只有一个：让诸懒人在阅读器里就能知道我还鲜活着。
 年是过的异常萧条，缺乏与人交流的欲望，尤其不愿在相机面前挒开嘴角，因为很假。真的感觉看不到希望，感觉所有生龙活虎之物都是敌人，似乎想要摘掉印有“破灭”二字的封印，又似乎颓颓然无所动。本命年是惨大发了。
@@ -228,10 +228,10 @@ Blog还是要恢复更新，即便以流水帐的姿态。每每看着朋友们�
     
     <item>
       <title>[WP插件]BetterFeed使用指南</title>
-      <link>https://chouj.github.io/2007/10/25/wordpress-plugin-betterfeed/</link>
+      <link>https://chouj.github.io/470/</link>
       <pubDate>Thu, 25 Oct 2007 13:04:48 +0000</pubDate>
       
-      <guid>https://chouj.github.io/2007/10/25/wordpress-plugin-betterfeed/</guid>
+      <guid>https://chouj.github.io/470/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;http://photo5.yupoo.com/20071025/144157_423535404_lmeqxrcy.jpg&#34; title=&#34;WordPress&#34; alt=&#34;WordPress&#34; height=&#34;112&#34; width=&#34;112&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;除了&lt;a href=&#34;http://aboutrss.cn/2007/10/17/wordpress-plugin-copyfeed/&#34; title=&#34;[WP插件]©Feed指南及其汉化版&#34;&gt;上文&lt;/a&gt;介绍的WordPress&lt;a href=&#34;http://wordpress.org/extend/plugins/copyfeed/&#34; title=&#34;©Feed&#34;&gt;©Feed&lt;/a&gt;，&lt;a href=&#34;http://planetozh.com/blog/my-projects/wordpress-plugin-better-feed-rss/&#34; title=&#34;Wordpress Plugin : Better Feed&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;BetterFeed&lt;/strong&gt;&lt;/a&gt;也是一款用于更改Feed footer信息的强大插件。两者相比，前者具备Option界面，使用上比较傻瓜，后者则需要自己编辑插件部分代码；但前者不支持php语言调用，后者则可借助php参数调用，为feed添加进更有针对性、更智能的信息。所以说，两个插件各有优劣，不过，&lt;strong&gt;切勿同时启用&lt;/strong&gt;。&lt;/p&gt;</description>
@@ -239,10 +239,10 @@ Blog还是要恢复更新，即便以流水帐的姿态。每每看着朋友们�
     
     <item>
       <title>[WP插件]©Feed指南及其汉化版</title>
-      <link>https://chouj.github.io/2007/10/17/wordpress-plugin-copyfeed/</link>
+      <link>https://chouj.github.io/469/</link>
       <pubDate>Wed, 17 Oct 2007 12:16:45 +0000</pubDate>
       
-      <guid>https://chouj.github.io/2007/10/17/wordpress-plugin-copyfeed/</guid>
+      <guid>https://chouj.github.io/469/</guid>
       <description>&lt;p&gt;适用于WordPress的&lt;strong&gt;&lt;a href=&#34;http://wordpress.org/extend/plugins/copyfeed/&#34; title=&#34;©Feed&#34;&gt;©Feed&lt;/a&gt;&lt;/strong&gt;插件功能强大，可在feed footer添加&lt;strong&gt;版权声明&lt;/strong&gt;、&lt;strong&gt;数字指纹、文章留言&lt;/strong&gt;、&lt;strong&gt;相关文章标题&lt;/strong&gt;，还可以控制feed&lt;strong&gt;是否全文输出&lt;/strong&gt;，因而很多bloggers都安装并启用了这款插件。现在，为方便国内用户，&lt;a href=&#34;http://angryouth.com/&#34; title=&#34;愤青团&#34;&gt;Anthony&lt;/a&gt;汉化了该插件，请有需要的朋友移步至此下载：&lt;/p&gt;
 
 &lt;p align=&#34;center&#34;&gt;
@@ -256,10 +256,10 @@ Blog还是要恢复更新，即便以流水帐的姿态。每每看着朋友们�
     
     <item>
       <title>我最喜欢的五个wordpress插件</title>
-      <link>https://chouj.github.io/2007/10/01/my-favourite-wordpress-plugins/</link>
+      <link>https://chouj.github.io/47/</link>
       <pubDate>Mon, 01 Oct 2007 15:03:52 +0000</pubDate>
       
-      <guid>https://chouj.github.io/2007/10/01/my-favourite-wordpress-plugins/</guid>
+      <guid>https://chouj.github.io/47/</guid>
       <description>在小小的blog圈儿里，不被这种点名游戏波及到还真是难，尤其当大家发现你还没参与进来的时候。上一文说被老帕点了名，想倦怠过去，结果发现更早的时候——9月15号——就被EaSy点了的。一个胳膊拧不过俩大腿（其实一个大腿也拧不过），赶巧十一有空，就给芸芸众生（总统也算芸芸众生，哈哈）一个交代吧。
 桑椹的中文 WordPress 工具箱 ★★★★★
 中文wordpress blog居家旅行必备良药
@@ -276,10 +276,10 @@ ST Add Related Posts to Feed ★★★☆
     
     <item>
       <title>[图文教程]给目录页或标签页添个Feed</title>
-      <link>https://chouj.github.io/2007/09/22/add-feed-to-category-or-tags/</link>
+      <link>https://chouj.github.io/465/</link>
       <pubDate>Sat, 22 Sep 2007 12:35:50 +0000</pubDate>
       
-      <guid>https://chouj.github.io/2007/09/22/add-feed-to-category-or-tags/</guid>
+      <guid>https://chouj.github.io/465/</guid>
       <description>WordPress架构下的目录页和标签页不支持Feed输出。当我们想让自己的目录也支持Feed输出，或者，当我们只对blog某目录下的文章感兴趣的时候，想订阅这个目录，该怎么办呢？我们可以借助HTML2RSS工具来实现！
 以Feed43.com为例，抽儿PS了个教程， 由于图片硕大，就不贴在这里了，只放出LINK。依照教程思路，其他HTML2RSS工具同样能帮你给目录页或标签页添个Feed。
 [ 点此进入图文教程 ]
@@ -290,10 +290,10 @@ Update:
     
     <item>
       <title>我使用的Feed类WordPress插件</title>
-      <link>https://chouj.github.io/2007/09/18/wordpress-plugins-used-for-feed/</link>
+      <link>https://chouj.github.io/464/</link>
       <pubDate>Tue, 18 Sep 2007 03:44:08 +0000</pubDate>
       
-      <guid>https://chouj.github.io/2007/09/18/wordpress-plugins-used-for-feed/</guid>
+      <guid>https://chouj.github.io/464/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;http://photo11.yupoo.com/20070918/101405_1406873759_qmhftysm.jpg&#34; title=&#34;WordPress logo&#34; alt=&#34;WordPress logo&#34; height=&#34;150&#34; width=&#34;150&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;响应总统号召，参与&lt;a href=&#34;http://jiangzhanyong.com/2007/09/blogging-game-my-favorite-wordpress-plugins-541.html&#34; title=&#34;博客串联活动: 我喜欢的 WordPress 插件&#34; target=&#34;_blank&#34;&gt;博客串联&lt;/a&gt;！为和这里的主题相关，特挑几个与Feed有关的WordPress插件说事儿。&lt;/p&gt;
@@ -307,10 +307,10 @@ Update:
     
     <item>
       <title>宽版二栏WP Themes</title>
-      <link>https://chouj.github.io/2007/07/23/wide-2-columns-wp-theme/</link>
+      <link>https://chouj.github.io/30/</link>
       <pubDate>Mon, 23 Jul 2007 12:26:17 +0000</pubDate>
       
-      <guid>https://chouj.github.io/2007/07/23/wide-2-columns-wp-theme/</guid>
+      <guid>https://chouj.github.io/30/</guid>
       <description>主题关键字：宽版 二栏 右边栏 白底 简洁
 特色：大气 简单
  My Gray Time  SH作品，相当简单，Single.php都没有，实用型。
@@ -324,10 +324,10 @@ Update:
     
     <item>
       <title>命令行模式的WP模板</title>
-      <link>https://chouj.github.io/2007/05/08/wp-theme-dos/</link>
+      <link>https://chouj.github.io/16/</link>
       <pubDate>Tue, 08 May 2007 11:08:06 +0000</pubDate>
       
-      <guid>https://chouj.github.io/2007/05/08/wp-theme-dos/</guid>
+      <guid>https://chouj.github.io/16/</guid>
       <description>Site | Demo
 这个太牛逼了！DOS命令行模式的Wordpress模板，不信你可以点上面的Demo进去瞧瞧。输入“dir”可查询当前日志，输入“comment”可添加评论，输入“help”可查询更多可用命令！问题是这种WP模板你敢用否？
 顺便通报下，抓拍城市的白小刺同学在收集毛雕像，不知哪位HUST的同学可以拍几张贡献过去，地址及相关展示见此 。PS.该站域名居然是50mm.cn，汗啊。</description>
@@ -335,10 +335,10 @@ Update:
     
     <item>
       <title>关于独立架站的域名设定</title>
-      <link>https://chouj.github.io/2007/04/10/about-domain/</link>
+      <link>https://chouj.github.io/720/</link>
       <pubDate>Tue, 10 Apr 2007 07:45:33 +0000</pubDate>
       
-      <guid>https://chouj.github.io/2007/04/10/about-domain/</guid>
+      <guid>https://chouj.github.io/720/</guid>
       <description>本文写给第一次架站的朋友，老鸟请无视。
 有感于架这个blog时域名指定时的茫然，写点东西，尝试能有所解答，个人见解肯定有认识不足或出错之处，也请指教。
 先罗列几个我遇到的问题，如果您跟我一样困惑，说不定可以看看我要写的东西。

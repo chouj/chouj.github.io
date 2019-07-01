@@ -14,10 +14,10 @@
     
     <item>
       <title>用IM订阅RSS 实现信息主动推送</title>
-      <link>https://chouj.github.io/2007/03/26/anothr/</link>
+      <link>https://chouj.github.io/418/</link>
       <pubDate>Mon, 26 Mar 2007 11:34:11 +0000</pubDate>
       
-      <guid>https://chouj.github.io/2007/03/26/anothr/</guid>
+      <guid>https://chouj.github.io/418/</guid>
       <description>虽然Anothr提供的服务，对刚刚熟悉RSS的用户来说比较高端，但我还是非常乐意介绍她，因为她有中文网页， 而且她被我视为RSS技术的里程碑式应用。为什么这么讲？即便我们有RSS，有阅读器，但我们要主动去打开，主动去看，才能获知别人是否有更新；但有了 Anothr RSS 机器人，在IM（即时通信软件）中，它会主动将别人的更新信息发送过来，也就是我们在RSS阅读中处于被通知的地位，而订哪个由我们说了算，所以这个机器 人是不会塞进来垃圾广告的。
 闲话少说。先来点小教程，告诉大家怎么用。
 用Skype的中文用户比较有福，因为Anothr中文页面详尽介绍了使用方法。简要复述下：

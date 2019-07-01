@@ -25,20 +25,20 @@
     
     <item>
       <title>ForRSS.com：围绕RSS的又一博</title>
-      <link>https://chouj.github.io/2009/01/31/forrss-com/</link>
+      <link>https://chouj.github.io/517/</link>
       <pubDate>Sat, 31 Jan 2009 13:57:53 +0000</pubDate>
       
-      <guid>https://chouj.github.io/2009/01/31/forrss-com/</guid>
+      <guid>https://chouj.github.io/517/</guid>
       <description>套用下老套台词：”我很欣慰！“，哈哈！我非常高兴又看到一个全面介绍RSS web应用的中文Blog诞生，她就是ForRSS：A Weblog that Covers All Things RSS，由博主火星人执笔。纵观ForRSS这几个月的posts，她均以简短精湛的汉字介绍了当下以RSS为基础的网络应用服务。能有更多介绍RSS应用的中文日志甚至是中文blog涌现，让RSS不再是GEEKer的玩物，正是我所乐见的！
 如果想follow最新最帅的RSS应用，就请跟紧ForRSS！</description>
     </item>
     
     <item>
       <title>Cannot modify header information问题的解决方法</title>
-      <link>https://chouj.github.io/2008/04/29/cannot-modify-header-information/</link>
+      <link>https://chouj.github.io/80/</link>
       <pubDate>Tue, 29 Apr 2008 03:26:06 +0000</pubDate>
       
-      <guid>https://chouj.github.io/2008/04/29/cannot-modify-header-information/</guid>
+      <guid>https://chouj.github.io/80/</guid>
       <description>昨晚升级WordPress 2.5.1 ，记事本编辑了wp-config-sample.php为wp-config.php，结果登录管理页面/wp-admin/时遭遇如下问题：
 Warning: Cannot modify header information &amp;#8211; headers already sent by ……
 搜索“Cannot modify header information”得到一票解决方法，简单说就是拿记事本编辑的php文件不是UTF-8（无BOM）编码的，更改php文件还是用Notepad++(这是一款主页上抵制北京奥*运的软件，囧)或UltraEdit靠谱。
@@ -47,10 +47,10 @@ Warning: Cannot modify header information &amp;#8211; headers already sent by �
     
     <item>
       <title>本命年</title>
-      <link>https://chouj.github.io/2008/02/08/chinese-new-year/</link>
+      <link>https://chouj.github.io/61/</link>
       <pubDate>Thu, 07 Feb 2008 18:24:26 +0000</pubDate>
       
-      <guid>https://chouj.github.io/2008/02/08/chinese-new-year/</guid>
+      <guid>https://chouj.github.io/61/</guid>
       <description>            鲜果认领：BANGF5A6BC913C212C10164CA6E5XIANGUO        上一篇说到控制面板进不去，八成是因为插件开多了。光靠人品来解决问题不是办法，趁年闲重装到了WordPress 2.3.2，换主题到Blackish，晚点儿是晚点儿，谁让猪年手懒呢。
 Blog还是要恢复更新，即便以流水帐的姿态。每每看着朋友们的文字，就算与我毫不相干，也能品味到一种鲜活，一抹温暖。换言之，我随便写点东西没准儿就让谁谁的神经产生了电脉冲呢。Blog Boom是否将阅读引向了信息快餐，这不是我想讨论的，我的目的只有一个：让诸懒人在阅读器里就能知道我还鲜活着。
 年是过的异常萧条，缺乏与人交流的欲望，尤其不愿在相机面前挒开嘴角，因为很假。真的感觉看不到希望，感觉所有生龙活虎之物都是敌人，似乎想要摘掉印有“破灭”二字的封印，又似乎颓颓然无所动。本命年是惨大发了。
@@ -60,10 +60,10 @@ Blog还是要恢复更新，即便以流水帐的姿态。每每看着朋友们�
     
     <item>
       <title>久违</title>
-      <link>https://chouj.github.io/2008/02/01/back-again/</link>
+      <link>https://chouj.github.io/57/</link>
       <pubDate>Fri, 01 Feb 2008 13:41:46 +0000</pubDate>
       
-      <guid>https://chouj.github.io/2008/02/01/back-again/</guid>
+      <guid>https://chouj.github.io/57/</guid>
       <description>终于又打开我的WP后台了，一个月中/wp-admin/控制面板页一直空白一片，加上正事偏事侧事诸事杂多，一时难于将精力聚焦到blog上。就像牙膏的小洞升级到了加农炮的口径，想一点儿不漏得精确制导到牙刷上，已为难事。
 好在奇迹发生，后台又能打开了，落笔记之。赶紧升级重建，免去后患。
 两个月来的停博生活倒也惬意，因为心中少了块儿石头，不用总是揣着掂着。别人的石头能不能蹦出花来是别人的事，我的石头找不见了也是一种境界。不过话说回来，人是有责任感的动物，吆喝了半天，聚了一票人，戏却不演了，是要挨臭鸡蛋的；戏台子也不能荒着，免得生虫。时不时小唱几曲，方能吊足胃口；唱得不好听，再扔臭鸡蛋不迟。
@@ -72,10 +72,10 @@ Blog还是要恢复更新，即便以流水帐的姿态。每每看着朋友们�
     
     <item>
       <title>如何权衡blog与生活</title>
-      <link>https://chouj.github.io/2007/11/06/how-to-balance-blogging-and-life/</link>
+      <link>https://chouj.github.io/55/</link>
       <pubDate>Tue, 06 Nov 2007 13:03:53 +0000</pubDate>
       
-      <guid>https://chouj.github.io/2007/11/06/how-to-balance-blogging-and-life/</guid>
+      <guid>https://chouj.github.io/55/</guid>
       <description>_发个一两月前写的文，偷偷懒。这篇文章是应总统博客之邀而写的，说是特邀博客专栏文章。咱就一普通人，能整几个字够上“专栏”俩字儿不容易，不禁要玩味儿一下。这里我把十条建议补成了十一条，好歹算是有点儿新东西。
 _
 咱Bloggers的理想状态是什么？Blog一上线，大键一敲，访客蜂拥而至，都恨不得剃度加跪拜，一片“很好很强大”——这叫“互联网 李阳现象”；想喝点小酒，旅个小游的时候，纵使网上满坑满谷虔诚的读者翘首期盼悬梁自尽，咱也死活不写——这叫“粉丝是浮云”；日理万机得看奏折去了，你 们作粉丝的少给我吵吵“怎么没更新”，不该烦我的时候别来烦我——这叫“朕忙着呢外带心情不好”。
@@ -99,20 +99,20 @@ _
     
     <item>
       <title>热烈庆祝～</title>
-      <link>https://chouj.github.io/2007/10/14/celebrate/</link>
+      <link>https://chouj.github.io/51/</link>
       <pubDate>Sun, 14 Oct 2007 12:32:40 +0000</pubDate>
       
-      <guid>https://chouj.github.io/2007/10/14/celebrate/</guid>
+      <guid>https://chouj.github.io/51/</guid>
       <description>热烈庆祝个人首页访问量破千～个人blog访问量破五千～RSS相关访问量破万，订阅量破400～
 值此良辰，17大也选择这时召开，偶感到荣幸之至，特转图两张表达下人民大众的心声：</description>
     </item>
     
     <item>
       <title>海</title>
-      <link>https://chouj.github.io/2007/08/31/%E6%B5%B7/</link>
+      <link>https://chouj.github.io/44/</link>
       <pubDate>Fri, 31 Aug 2007 15:28:51 +0000</pubDate>
       
-      <guid>https://chouj.github.io/2007/08/31/%E6%B5%B7/</guid>
+      <guid>https://chouj.github.io/44/</guid>
       <description>昨天去了趟港口，迎接实验三号考察船夏季航次凯旋，看着硕大的船抛锚、进港，不禁开始想像那些海上丰富的景象，猜度师兄们经厉了怎样的冒险：是惊涛骇浪中与命运的抗争，还是娴静得伴着海鸟吹着口琴？是发现食人之鲨的惊惧，还是偶遇美人鱼的惊艳？海与天一样，是值得人们冥想的神秘之物，她留给了人们太多的悬念与畏惧，就像加三里的海神Calypso幻化为成千海蟹（还好不是河蟹）一般，不可琢磨，不可冒犯。
 遥想我与海的亲密接触，似乎很早，已经记不清是五岁还是八岁了。随父母去了江苏连云港，一个地名颇似天边的地方，我在那里见了第一眼海，也只知道这是大人口中说的海，平静而广阔。倒是对海浪记忆深刻，一是照相时涨潮，被拍打在礁石上的浪花吓的掉头就跑；二是玩沙子的时候全然不顾潮水浸湿自己的衣裤。寄居蟹也是好玩儿的，背着尖角的小壳在沙滩上奔走。最痴迷的要数满眼的沙，比工地上的沙堆大的多，有水有沙，盖起防洪大坝，却顶不住海浪的一次冲刷。按成功人士的人生轨迹，我似乎该去研修水利，以继续儿时的趣味，之后去清华，再而转入政界，可我却跑去了物理，看来不是成功人士的料。
 导师说下次出航可能会去印度洋，上来就两个月的远洋航行，心里直哆嗦。但愿以上种种想像实现其一就好，只要别长吐不起。师兄说胖的矮的人比较适合出海，我这样的怕是最惨，唉，长叹息掩涕兮，叹民生之多艰。
@@ -129,10 +129,10 @@ Powered by ScribeFire. </description>
     
     <item>
       <title>我在写博客过程中犯过错误吗？</title>
-      <link>https://chouj.github.io/2007/08/04/do-i-make-mistakes-in-blogging/</link>
+      <link>https://chouj.github.io/35/</link>
       <pubDate>Sat, 04 Aug 2007 08:53:00 +0000</pubDate>
       
-      <guid>https://chouj.github.io/2007/08/04/do-i-make-mistakes-in-blogging/</guid>
+      <guid>https://chouj.github.io/35/</guid>
       <description>关于RSS相关这个blog的事情一直都想说，正巧被曾兄点了名，就写点吧，其实本不打算上火车前再写东西。游戏的名字叫“我在写博客过程中犯过的N个错误”，就我个人而言，我没觉得是什么错误，所以把题目改了下；而且那边的主题是关于RSS应用，所以文字发在这里了，都望曾兄不要介意。
 写博客会犯错误吗？如果就blogging技巧、经验，blog的长远发展和个人品牌的建立这些博客联盟关注的方面来讲，犯错误是肯定会有的。刚接触blog概念的新人，绝不可能想的这么周全完备，有的甚至不觉的个人品牌和自写自话会有什么关系，他们之所以会犯这些方面的错误，就是没看一些blogging指导上的文字；而我在这些方面犯的错误，都要归咎于当时没有博客联盟，XD~Just a JOKE
 具体而言，在blog发展上我犯的错误有：
@@ -152,10 +152,10 @@ OK，游戏任务完成，回到我自己的见解，离开blog经营，就个�
     
     <item>
       <title>摆弄blog也是种幸福</title>
-      <link>https://chouj.github.io/2007/08/01/happiness-with-blogging/</link>
+      <link>https://chouj.github.io/34/</link>
       <pubDate>Wed, 01 Aug 2007 15:06:30 +0000</pubDate>
       
-      <guid>https://chouj.github.io/2007/08/01/happiness-with-blogging/</guid>
+      <guid>https://chouj.github.io/34/</guid>
       <description>老早前就在饭否上说过：有时间折腾Blog的都是幸福的人，结果被IwfWcf反驳，大意是个人对幸福的定义不一样，不见得谁都以为弄blog是幸福的事情。也许我最近的心境比较卑微，我还是觉得能Blogging就是十分幸福的。有电脑，有网络，更有时间，有精力，也有接触blog这种概念的优越条件，即便患上blogging综合症，怎么看也是一种幸福的病。
 这些天来，我似乎又体验到一种幸福，那就是静静得看朋友们blogs上的文字，看到他们的喜怒哀乐，能让我随时意识到他们的存在，知道他们过的好好的。谁要是在blog里消失掉，也许我会真的不安。虽然oneoo说过，大部分人不是在写博客，而是在写日记，这样对blog内容的质量和站点的排名环境不利，但那份为自己而写的真实，那种让我触动的真实，怕也丧失掉了吧。
 还有些幸福的小困扰：
@@ -166,10 +166,10 @@ OK，游戏任务完成，回到我自己的见解，离开blog经营，就个�
     
     <item>
       <title>[翻译]RSS价值高于博客</title>
-      <link>https://chouj.github.io/2007/07/31/rss-higher-value-than-blogs/</link>
+      <link>https://chouj.github.io/449/</link>
       <pubDate>Tue, 31 Jul 2007 08:57:00 +0000</pubDate>
       
-      <guid>https://chouj.github.io/2007/07/31/rss-higher-value-than-blogs/</guid>
+      <guid>https://chouj.github.io/449/</guid>
       <description>于7月25日发表的Forrester研究报告表明，在众多Web 2.0应用中，RSS技术价值最高。四月至六月，有275位IT界的决策者接受了研究报告的调查。
 23%的被调查对象认为RSS具有实质性的商业价值，三分之一的人为营销而使用RSS。排在RSS之后的最具价值Web 2.0应用为播客，有21%的被调查对象认同。
 相对而言，只有11%的人认为写博客有助于实质性商业价值的传播。还有14%的人说他们的企业并不评测Web 2.0应用的商业价值。但即便评测Web 2.0应用价值的公司，还是侧重依赖于传统的商业价值衡量方法，例如投资收益率和总购置成本。
@@ -178,10 +178,10 @@ OK，游戏任务完成，回到我自己的见解，离开blog经营，就个�
     
     <item>
       <title>念及Google Blogger的境遇</title>
-      <link>https://chouj.github.io/2007/07/08/think-of-google-blogger/</link>
+      <link>https://chouj.github.io/257/</link>
       <pubDate>Sun, 08 Jul 2007 09:14:00 +0000</pubDate>
       
-      <guid>https://chouj.github.io/2007/07/08/think-of-google-blogger/</guid>
+      <guid>https://chouj.github.io/257/</guid>
       <description>时光恍惚，GFW作祟之后，我这161篇距160篇就差了一个半月多。饭否上，无意间房房提到要坚持，不然怕是会隔得更加久远。
 GFW依然强势得挺立着，不知道会不会腿毛飘飘。其脚下俨然是整个大陆Blogger圈的残迹，遗址尚且存有保护价值，咱这个圈儿怕是没有这好的命。忽然想起，《九品芝麻官》里的黄一飞演的小县官，都能毒尸灭迹，宁杀勿漏，何况威风凛凛的GFW，怕是即便出一个吵架之王包龙兴也没法奈他怎样。
 非议之下，自有能人志士讨伐之。比如这个尚“健在”的站（已经不健在了。）：
@@ -195,10 +195,10 @@ Www.letusstickupourmiddlefingertothegreatfirewallofchina.org.cn]4
     
     <item>
       <title>珍爱生命，远离网络？？</title>
-      <link>https://chouj.github.io/2007/05/15/stay-away-from-blog/</link>
+      <link>https://chouj.github.io/254/</link>
       <pubDate>Tue, 15 May 2007 12:01:00 +0000</pubDate>
       
-      <guid>https://chouj.github.io/2007/05/15/stay-away-from-blog/</guid>
+      <guid>https://chouj.github.io/254/</guid>
       <description>没有单向收费，我就没有取消来电显示的冲动
 没有能整合MSN的PSI，我就没有挂Gtalk的冲动
 没有译言，我就没有翻译的冲动
@@ -213,10 +213,10 @@ Www.letusstickupourmiddlefingertothegreatfirewallofchina.org.cn]4
     
     <item>
       <title>五一期间</title>
-      <link>https://chouj.github.io/2007/05/04/may-1st/</link>
+      <link>https://chouj.github.io/252/</link>
       <pubDate>Fri, 04 May 2007 06:23:00 +0000</pubDate>
       
-      <guid>https://chouj.github.io/2007/05/04/may-1st/</guid>
+      <guid>https://chouj.github.io/252/</guid>
       <description>老板请客，在广州番禺大排档式的西桥饭店，光门前的车估计就有近百辆。我也终于见识了广东的食文化，遥想当年广东人吃到果子狸头上所带来的危害性，我理解的更为深刻了，嗯。总结了一条：为了和谐社会，切莫乱吃！
 黄金周期间，人潮依旧恐怖，耐不住寂寞的我，跑去越秀公园兜了一圈。除了锻炼下脚力、放松下眼睛，再度见证中国的众多人口外，别无他获，连美女都没瞥见一个。早知道就报名参加中山大学七日游了，嘿嘿。
 无心插柳般把自己的东西diglog了一下，就上了首页，特来矫情一番，截图纪念。上diglog首页24小时内能带来多少点击，大家就心里有数了。
@@ -227,10 +227,10 @@ Www.letusstickupourmiddlefingertothegreatfirewallofchina.org.cn]4
     
     <item>
       <title>Blogging is Earning money</title>
-      <link>https://chouj.github.io/2007/04/29/blogging-is-earning-money/</link>
+      <link>https://chouj.github.io/251/</link>
       <pubDate>Sun, 29 Apr 2007 09:00:00 +0000</pubDate>
       
-      <guid>https://chouj.github.io/2007/04/29/blogging-is-earning-money/</guid>
+      <guid>https://chouj.github.io/251/</guid>
       <description>尊敬的Feedsky用户您好：
 您的广告收入已经支付到您的相应帐户，请注意查收。
 如在使用过程中碰到问题或有意见建议，欢迎您随时与我们的客服联系。
@@ -245,10 +245,10 @@ CBN Forum上在讨论合租意向，如果成行的话，服务器是世纪互�
     
     <item>
       <title>Feeds的翻译 正太们的照片</title>
-      <link>https://chouj.github.io/2007/04/22/translate-of-feed-pictures-of-boys/</link>
+      <link>https://chouj.github.io/247/</link>
       <pubDate>Sun, 22 Apr 2007 08:45:00 +0000</pubDate>
       
-      <guid>https://chouj.github.io/2007/04/22/translate-of-feed-pictures-of-boys/</guid>
+      <guid>https://chouj.github.io/247/</guid>
       <description>译文网是个好去处，blog上没话题可写了，就可以上去淘两篇文章翻译翻译，还可以练练英语。前些天在那里看到一个帖，问Feeds如何翻译比较好，有说翻译为飞子的，有逗乐说翻译为痱子的。我感觉呢，不翻为妙。九几年时，书店里还能见到一个词：“视窗操作系统”,现在你还见的到么？这种势必会变得众人皆知的词，保留原样最好。
 写童声伴我心的时候转了两张图，觉得不大过瘾，还真让我撞见过瘾的啦，放牛班的春天广州音乐会官方博客，放出了一堆小孩儿照片，想看照片的筒子们有福了！！
 给Technorati.com的论坛留了言，原因是搜索能搜出本blog有45个反向链接，但Links Counts中总是显示“0 links from 0 sites”,让我很郁闷，参见侧栏中那个大大的零。要说的是，那个faq论坛里，留言的大部分都是这个问题，唉，Technorati.com也不靠谱啊。</description>
@@ -256,10 +256,10 @@ CBN Forum上在讨论合租意向，如果成行的话，服务器是世纪互�
     
     <item>
       <title>主题blog的几个推荐选题</title>
-      <link>https://chouj.github.io/2007/04/21/blog-topic/</link>
+      <link>https://chouj.github.io/10/</link>
       <pubDate>Sat, 21 Apr 2007 12:21:16 +0000</pubDate>
       
-      <guid>https://chouj.github.io/2007/04/21/blog-topic/</guid>
+      <guid>https://chouj.github.io/10/</guid>
       <description>纯个人非主题blogger的我，这回来掰一掰主题blog的可参考选题，先从blog主题说开去。
 一个blog敲定一个主题，就可以圈定一个读者范围。以软件为主题，就勾引了找软件的读者；以Google为主题，就勾引了Gfans；以WEB 2.0为主题，就勾引了从业人员和热衷2.0的读者；以WP Theme为主题，就勾引了找模板的WP用户。如果一个blogger挣脱不开追求点击率、流量、订阅数的枷锁的话，敲定一个主题当然是不二之选，起码能在一定范围内拥有知名度和追随者。
 主题blog的优势是什么呢？观察现在的中文Blogsophere，为灭有如此诸多的网络相关blog，原因就是门槛低嘛。只要有网络，想写谁都可以写，而且面向范围还很广。选个门槛低的主题很重要，这也是优势。另外，不管什么主题，都面临和BBS、Websites的竞争，Blog的优势在于有RSS嘛，RSS Readers才是fans。不提供RSS支持的BBS、网站长处在于满足短期关注此主题的搜索用户；Blog就比较利于满足长期关注此主题的Fans读者，原因就是有强大的RSS。
@@ -283,10 +283,10 @@ Powered by ScribeFire. </description>
     
     <item>
       <title>Fun for blog</title>
-      <link>https://chouj.github.io/2007/04/21/fun-for-blog/</link>
+      <link>https://chouj.github.io/246/</link>
       <pubDate>Sat, 21 Apr 2007 07:23:00 +0000</pubDate>
       
-      <guid>https://chouj.github.io/2007/04/21/fun-for-blog/</guid>
+      <guid>https://chouj.github.io/246/</guid>
       <description> 
 “我不是博客”的页面貌似抓瞎了：
  Directory Listing Denied This Virtual Directory does not allow contents to be listed.
@@ -310,10 +310,10 @@ Powered by ScribeFire. </description>
     
     <item>
       <title>这俩Idea如何？</title>
-      <link>https://chouj.github.io/2007/04/13/two-great-ideas/</link>
+      <link>https://chouj.github.io/244/</link>
       <pubDate>Fri, 13 Apr 2007 14:06:00 +0000</pubDate>
       
-      <guid>https://chouj.github.io/2007/04/13/two-great-ideas/</guid>
+      <guid>https://chouj.github.io/244/</guid>
       <description>你恨他吗？就送他GFW工作人员专用T恤!
 “想说上你不容易……”——Google Blogger 中国官方T恤衫标语
 不能不说，人的创造力是无穷的，以上采自qq群32269107，本人是辉常佩服这俩idea滴。
@@ -322,10 +322,10 @@ Powered by ScribeFire. </description>
     
     <item>
       <title>Feedsky让我很郁闷</title>
-      <link>https://chouj.github.io/2007/04/12/feedsky/</link>
+      <link>https://chouj.github.io/243/</link>
       <pubDate>Thu, 12 Apr 2007 07:15:00 +0000</pubDate>
       
-      <guid>https://chouj.github.io/2007/04/12/feedsky/</guid>
+      <guid>https://chouj.github.io/243/</guid>
       <description>Ffeedsky让黎旭很棘手的同时，也让我很郁闷。
 黎黎旭还算幸运的，更新后，只是提示feed not exist。我到好，升级一次，feed个数就成5个升级成了4个。而且在我管辖内的feeds中，feed.feedsky.com/chrischou不存在：
  feed feedsky/chrischou is not exists!
@@ -339,10 +339,10 @@ Update:
     
     <item>
       <title>关于独立架站的域名设定</title>
-      <link>https://chouj.github.io/2007/04/10/about-domain/</link>
+      <link>https://chouj.github.io/720/</link>
       <pubDate>Tue, 10 Apr 2007 07:45:33 +0000</pubDate>
       
-      <guid>https://chouj.github.io/2007/04/10/about-domain/</guid>
+      <guid>https://chouj.github.io/720/</guid>
       <description>本文写给第一次架站的朋友，老鸟请无视。
 有感于架这个blog时域名指定时的茫然，写点东西，尝试能有所解答，个人见解肯定有认识不足或出错之处，也请指教。
 先罗列几个我遇到的问题，如果您跟我一样困惑，说不定可以看看我要写的东西。
@@ -365,10 +365,10 @@ Update:
     
     <item>
       <title>不是出路的出路</title>
-      <link>https://chouj.github.io/2007/04/08/not-a-good-way/</link>
+      <link>https://chouj.github.io/242/</link>
       <pubDate>Sun, 08 Apr 2007 15:11:00 +0000</pubDate>
       
-      <guid>https://chouj.github.io/2007/04/08/not-a-good-way/</guid>
+      <guid>https://chouj.github.io/242/</guid>
       <description>望月架了个独立小站，然后赶紧声明最终解释权归自己所有：不会背叛Google Blogger。我是不是也要效仿下？毕竟已经决心自己做老板，架个独立的blog，同时经营几家分店。如果你订阅了这里的RSS的话，就可窥得端倪，我瞄上了盘古的一代理，虽然有流量限制，但对于非主题的个人blog来说已经足够，况且我财不大气也不够粗。
 为什么要如此费时费力费财的折腾？一是看上了dot name域名，不弄一个回来吧，怕自己的被人家注册了；注册了不用的话，又等于浪费，干脆派个用场。二是个人网站是个人的品牌，不管品牌咋样，这网站当然是越早上线越好。三呢，诸多网上人士抱怨自己架站的繁琐，但又有WP架构的新鲜，我欲自己体验一把，偏向虎山行。四是，以现有经济状况尚可维持，真想少花钱，如果弄个cn域名架站，平均下来每月耗费个位数而已。五呢，个人站点不是那么好跟搜索引擎套近乎，估计得在SEO上下点儿功夫，正好研究一下。六，我啃个硬骨头，然后可以见人就告诉他啃硬骨头该怎么下嘴，没准儿可以收点儿学费，哈哈。
 对于blogger来说，Google Blogger已经能给予一切，甚至提供了独立站点所没有的优势，比方与Google搜索友好，比方共同的blogspot平台，和基于此平台上中文blogger间的一见如故。禾草唐楷更是说Google Blogger是企业级的，叫我怎忍放弃。上一段我并没有说独立架站能摆脱Blogger的间歇性封锁，正是基于我对Google Blogger的乐观。我不信广大中国人用不上如此优质的服务一点抗议的声音都没有，不想看到独立架站能促进消费拉动内需外还要带着逃离Google Blogger的中国特色式隐忍，不认为Google Blogger会一直间断性抽筋儿。
@@ -378,10 +378,10 @@ Update:
     
     <item>
       <title>暂时回归</title>
-      <link>https://chouj.github.io/2007/03/28/temporary-back/</link>
+      <link>https://chouj.github.io/239/</link>
       <pubDate>Wed, 28 Mar 2007 08:53:00 +0000</pubDate>
       
-      <guid>https://chouj.github.io/2007/03/28/temporary-back/</guid>
+      <guid>https://chouj.github.io/239/</guid>
       <description>这口G_Blogger(牌号32269107)锅再度小炸之后，我知道blogspot又可正常访问了。加之GSeeker的第一时间报道，更加确信blogspot暂时回归。虽然L.G.Y说仅仅是从上次封锁的IP:72.14.207.190
 换到了现在的IP:72.14.207.191，也不知道是不是Google的公关起了作用，但总算谢天谢地又能访问了。
 无论如何，这里都将继续，如果我要换BSP的话，下一个一定是独立架站。只是非常不爽GFW将俺们这些小民玩弄于股掌之中。最近看《野火集》，觉得改host、加代理、代Tor，都是避，都是绕，而抵抗或者声讨自身权利的一概没发现，比方弄个antiGFW.com，发出点声音，虽然这种站绝对会上GFW的黑名单。就像虚飞说的那样，封了，解了，还得感谢，这难道不是病态么？
@@ -391,10 +391,10 @@ Update：Blog定价：￥ 30.00元，看来我在对“人工干预”这四个�
     
     <item>
       <title>记载</title>
-      <link>https://chouj.github.io/2007/03/27/mark-it/</link>
+      <link>https://chouj.github.io/238/</link>
       <pubDate>Tue, 27 Mar 2007 02:36:00 +0000</pubDate>
       
-      <guid>https://chouj.github.io/2007/03/27/mark-it/</guid>
+      <guid>https://chouj.github.io/238/</guid>
       <description>如若不是Pengbone有意删文，那我再次见到了GFW的杰作，于是和GFW斗，那是乐此不疲。
 昨天下午，Pengbone的RSS输出了一则题为《中^共地方党委换届，是云手平诸侯？还是团^派政治妥协！？》的POST，我尚可查得最后一句为“Powered by ScribeFire”。读过之后，当即用G READER share了，但反查其blog页面 http://www.pengbone.com/?p=118，无此文，若干小时后RSS供稿里也无此文，并且G Reader开始抽疯，直到目前，在G Reader里查看Pengbone的博客，仍显示如下：
  &amp;#8220;Pengbone&amp;#8217;s Weblog|如你所知&amp;#8221; has no items.
@@ -411,10 +411,10 @@ Feedsky广告团队祝您使用愉快
     
     <item>
       <title>倒戈</title>
-      <link>https://chouj.github.io/2007/03/26/change-sides/</link>
+      <link>https://chouj.github.io/237/</link>
       <pubDate>Mon, 26 Mar 2007 02:01:00 +0000</pubDate>
       
-      <guid>https://chouj.github.io/2007/03/26/change-sides/</guid>
+      <guid>https://chouj.github.io/237/</guid>
       <description>即日起，放弃feedsky烧制的feed，进入30天feed删除日程。开始启用feedburner提供的服务，新Feed地址，即转向地址为： http://feeds.feedburner.com/chrischou 。RSS相关的feed地址也开始转向http://feeds.feedburner.com/aboutrss，请重新订阅。
 “怀疑GFW在rss上开了盾”，朋友的一句话，更是加重了我的怀疑。
 Blogspot再度被封以后，G Reader和抓虾都仅仅在输出书签的“昨日关注”，没有新日志；打开feedsky的feed，也没有新日志；再打开原始供稿，却是有最新日志的。疑惑啊疑惑。再比照其他blogspot，feedsky提供的feed也没有输出新日志。结论只可能是，feedsky的rss输出在某种程度上被蔽掉了,而不是订阅工具的问题。
@@ -425,10 +425,10 @@ Blogspot再度被封以后，G Reader和抓虾都仅仅在输出书签的“昨�
     
     <item>
       <title>非常时期非常规访问方法</title>
-      <link>https://chouj.github.io/2007/03/20/unnormaly-way-to-view-blogspot/</link>
+      <link>https://chouj.github.io/235/</link>
       <pubDate>Tue, 20 Mar 2007 14:17:00 +0000</pubDate>
       
-      <guid>https://chouj.github.io/2007/03/20/unnormaly-way-to-view-blogspot/</guid>
+      <guid>https://chouj.github.io/235/</guid>
       <description>上一篇是给GFW挠痒痒，结果丫狮子大张口吞了整个blogspot国度，害得本应欣欣向荣、如火如荼的google blogger中国用户群被当头被泼了一盆冷水，煞是凄惨。
 抽丫的筋儿：以下渠道尚可正常访问和交流：
 http://www.inblogs.net/xcchris/
@@ -452,10 +452,10 @@ http://www.pkblogs.com/xcchris/
     
     <item>
       <title>从keso那里盗流量</title>
-      <link>https://chouj.github.io/2007/03/13/steal-clicks-from-keso/</link>
+      <link>https://chouj.github.io/231/</link>
       <pubDate>Tue, 13 Mar 2007 14:26:00 +0000</pubDate>
       
-      <guid>https://chouj.github.io/2007/03/13/steal-clicks-from-keso/</guid>
+      <guid>https://chouj.github.io/231/</guid>
       <description>最近，借由MyBlogLog的统计发现，基本每天我的两个blog都有从keso那里过来的流量，一时挺惊讶。我没在他那里附链接留言，他也不大可能写个链接指向我的博客。
 一番小小调查，还真发现我和keso攀上了关系，在他的博客上找到了我的链接，虽然这个链接是由机器生成，keso是被动和不知情的。究其原因，一个widget帮了我这个忙，帮keso挂上了我的友情链接。
 
@@ -465,10 +465,10 @@ AutoRoll，我和keso都在博客上加载了这一widget，而其功能就是�
     
     <item>
       <title>RSS应用推广普及专贴</title>
-      <link>https://chouj.github.io/2007/02/27/about-rss-cn/</link>
+      <link>https://chouj.github.io/228/</link>
       <pubDate>Tue, 27 Feb 2007 06:41:00 +0000</pubDate>
       
-      <guid>https://chouj.github.io/2007/02/27/about-rss-cn/</guid>
+      <guid>https://chouj.github.io/228/</guid>
       <description>自打新浪弄出名人博客，这“全民博客”的口号就响亮了好久，博客门坎也被忽悠的越来越低(相信还有不少群众的观点是：只有新浪才叫博客，别人的都不叫博客吧 &amp;#8211; -b)。但放眼四周，还是有诸多“博友”对自己博客上那个RSS小标志不理不睬不闻不问。为什么我总纠结在这个小标志上不撒手呢？因为像我这样写博时间不长的人都觉得，要是忽略了RSS的作用，基本上写在网上和写在纸上没区别，作博客的乐趣也就少了大半。看着大把的快乐您体会不到，我就挺着急，痛心疾首的跟您面前摆着一百块钱您不捡一个感觉。
 于是，干脆单开了一个博客:
 RSS相关
@@ -480,10 +480,10 @@ PS. 马上要去广州搞毕设，这里能否维持更新或能否更新也是�
     
     <item>
       <title>我看过的blogger hack站点</title>
-      <link>https://chouj.github.io/2007/02/22/google-blogger-hack-blogs/</link>
+      <link>https://chouj.github.io/225/</link>
       <pubDate>Thu, 22 Feb 2007 10:16:00 +0000</pubDate>
       
-      <guid>https://chouj.github.io/2007/02/22/google-blogger-hack-blogs/</guid>
+      <guid>https://chouj.github.io/225/</guid>
       <description>Google Blogger的自由度有目共睹，templates、hacks层出不穷。这里摆弄至今，看过不少写blogger代码技巧的站，受益匪浅。赶上最近有朋友问到，罗列几个，都是中文的，想必对以Google Blogger作为BSP开博客的用户有很大帮助。
 简体站点：
  色彩斑斓——http://sunr.blogspot.com/  我最早参考的站点之一，山东咖啡鱼的博客。一开始还看过博之道,但现在没开放了。
@@ -507,10 +507,10 @@ Update：刚看到 博客hack扩展大全wiki by GG派 ，太赞了！
     
     <item>
       <title>博客圈试用报告</title>
-      <link>https://chouj.github.io/2007/02/12/blog-network-try-out/</link>
+      <link>https://chouj.github.io/221/</link>
       <pubDate>Mon, 12 Feb 2007 13:21:00 +0000</pubDate>
       
-      <guid>https://chouj.github.io/2007/02/12/blog-network-try-out/</guid>
+      <guid>https://chouj.github.io/221/</guid>
       <description>心里一直认为，以feed合烧为技术支撑搭建博客圈平台，让每个blogger都可以打造自己的博客群落，是一项很2.0很in的服务。所以当Feedsky博客圈出现的时候，我再次感受到了技术带来的快乐。当然，我这草民没有Feedsky博客圈的划圈儿权，但在网上误打误撞中，发现了这个博客圈，试用报告如下。
 动作
 划了个襄樊四中03届高三六班博客圈儿，这里是合烧feed地址。可以预想，博客圈将成为班级交流的另一崭新阵地。
@@ -530,10 +530,10 @@ Update：纠正下BUG 2。同一feed，加入其他圈子，则不能即时显�
     
     <item>
       <title>挑校内网xiaonei.com的刺儿</title>
-      <link>https://chouj.github.io/2007/02/06/something-about-xiaonei/</link>
+      <link>https://chouj.github.io/218/</link>
       <pubDate>Tue, 06 Feb 2007 06:46:00 +0000</pubDate>
       
-      <guid>https://chouj.github.io/2007/02/06/something-about-xiaonei/</guid>
+      <guid>https://chouj.github.io/218/</guid>
       <description>将如下链接发给朋友,他们不必登录就可看到你的页面 (不要放到其他网站上,否则baidu或google会搜到这个页面)
  哈哈，非常希望校内网能对上面那个粗体句子给我一个合理的解释，不然我就不能克制的要从负面因素来揣测其不良用心。
 我是不喜欢校内网和Qzone这种社区型服务的，却又眼红其聚集的高昂人气。鉴于我这阴暗的心理，我猜想校内网的这个用意是“不可告人”的。每个做网站的ITer都希望自己的站点能为搜索引擎索引到，而且梦想他们能将自己的站名排在首位；每个终端用户也都希望自己的个人页面能被索引到，并置于显要位置，为何校内网要反其道行之呢？莫非，担心自己的服务器无法承担搜索引擎所带来的更大流量？还是想降低知名度来消减其copy facebook.com 所带来的风险？
@@ -549,10 +549,10 @@ update：若干月后再看这文，感觉有些傻逼，明明是保护用户�
     
     <item>
       <title>回顾2006：作为博客的摸爬滚打</title>
-      <link>https://chouj.github.io/2007/02/05/be-a-blogger-in-2006/</link>
+      <link>https://chouj.github.io/217/</link>
       <pubDate>Mon, 05 Feb 2007 07:44:00 +0000</pubDate>
       
-      <guid>https://chouj.github.io/2007/02/05/be-a-blogger-in-2006/</guid>
+      <guid>https://chouj.github.io/217/</guid>
       <description>时近年关，潜心探寻背后的量变，除去为了完成老妈交代的任务，至少可以写给自己看。
 摸爬滚打，用这个词形容我这一年的博客行为再适合不过了。我是个想的多，说的少也写的少的人，缺乏将思维诉诸文字或话语的能力，面对空空的发布后台，脑袋里同样一片空白，之前脑海里的构建都已烟消云散。敲键盘的时候，仍为某些语句的前后顺序犹豫不决，或者落入学理之人写东西提纲挈领的窠臼，再或者否定掉前面敲下的字重新来过，那种所说的码字的畅快，怕是与我绝缘了，虽然写博的初衷之一就是找寻这种快乐。我还是会继续写下去，因为一旦开始就舍弃不掉，这个毛病在我看电影的时候发作的尤为明显：再乏味的电影，都激发不出去点右上角红叉的动力。
 像Google的“不作恶”理念一般，一年多的blog生活对我来说不痛苦，某些时候还能作为一种精神追求，从博客的角度觅得生活的新乐趣，增添情趣的新嗅觉。而写博的理念早就有所更替：从试验html代码而误入blog门下开始；到打造自己的小天地般聊做记录，以求日后回忆；再到尝试以此为阵地传达自己的信念，发表自己的看法，顺便在背地里募得小小的虚荣。每一时期blog都发挥着不一样的作用，暗示着思想的见异思迁。确立思想图腾的尝试，技术性的摸索改良，是我此时对这里的精神嘱托。
@@ -562,10 +562,10 @@ update：若干月后再看这文，感觉有些傻逼，明明是保护用户�
     
     <item>
       <title>New Year New Template</title>
-      <link>https://chouj.github.io/2007/02/04/new-year-new-template/</link>
+      <link>https://chouj.github.io/215/</link>
       <pubDate>Sat, 03 Feb 2007 16:04:00 +0000</pubDate>
       
-      <guid>https://chouj.github.io/2007/02/04/new-year-new-template/</guid>
+      <guid>https://chouj.github.io/215/</guid>
       <description>其实之前的模版挺好的，但为了能适合发一些白底的图，一心想换成白色背景的板子。在家有时间有条件捣腾，就迫不及待的实现了。
 先搜了半天，适合新版blogger的模版还真是不多，给出模版的出处（HUST校园网内估计访问不了）：Blogger Templates (Beta)。里面的5个模版都很不错，经测试都可用。
 为了调这些板子代码，测试显示效果，特意弄了个test blog。最喜欢的要数K2，最先换上的，但在ie下显示不佳，调试失败，只好作罢。Andreas02也很棒，我唯独不喜欢这个板子的侧栏，链接一多就显得乱了。现在的这款Kubrick，和我第一个blog的板子几乎是一样的，我废了点劲PS了一张header banner。担心的就是一旦googlepages服务失效，这里就会面目全非了。
@@ -574,10 +574,10 @@ update：若干月后再看这文，感觉有些傻逼，明明是保护用户�
     
     <item>
       <title>PS了俩豆瓣博客标志</title>
-      <link>https://chouj.github.io/2007/01/09/2-logos-for-blog-at-douban/</link>
+      <link>https://chouj.github.io/210/</link>
       <pubDate>Tue, 09 Jan 2007 02:31:00 +0000</pubDate>
       
-      <guid>https://chouj.github.io/2007/01/09/2-logos-for-blog-at-douban/</guid>
+      <guid>https://chouj.github.io/210/</guid>
       <description>每个收录在豆瓣“我上”里的博客，可以有其自己的logo，配合简介说明，醒目而个性。开动PS画了两个：一是应麦子所托，给他的射手座的箭之所向；一是单纯给自己。
 
 搜到这个图，就知道该怎么处理了：麦子、箭、笔，三元素的交融，付之以热血与坚毅的红黄黑。
@@ -591,10 +591,10 @@ update：若干月后再看这文，感觉有些傻逼，明明是保护用户�
     
     <item>
       <title>统计分析一下你的blog吧</title>
-      <link>https://chouj.github.io/2006/08/29/stats-analyze-tool-for-blog/</link>
+      <link>https://chouj.github.io/164/</link>
       <pubDate>Tue, 29 Aug 2006 10:47:00 +0000</pubDate>
       
-      <guid>https://chouj.github.io/2006/08/29/stats-analyze-tool-for-blog/</guid>
+      <guid>https://chouj.github.io/164/</guid>
       <description>blog的流量想必每个blogger都会或多或少关心下的，单一的计数器也许不能满足我们的需要了。这就需要blogger对自己的领地进行统计分析啦，不外乎申请一个统计服务，然后嵌入其所提供的代码到你的blog里。
 常见的免费统计分析工具有:
 站长统计
@@ -616,10 +616,10 @@ Google analytics 就属于非常权威、非常细致的统计了，也很形象
     
     <item>
       <title>bluefisher－手绘心情</title>
-      <link>https://chouj.github.io/2006/03/18/bluefisher-blog/</link>
+      <link>https://chouj.github.io/122/</link>
       <pubDate>Sat, 18 Mar 2006 02:14:00 +0000</pubDate>
       
-      <guid>https://chouj.github.io/2006/03/18/bluefisher-blog/</guid>
+      <guid>https://chouj.github.io/122/</guid>
       <description>推荐一个blog，→bluefisher的手绘日记←，早就想荐了。
 白云黄鹤上首次见到他的画，很简洁，又很能引起共鸣，所以从第一期一直看到了十几期，期期十大热贴排行第一。
 画的主人叫陈宇，电气大四，虽然偶才大三，可是心境已经和他颇为相似了，只是少了一份大四生的悠闲。陈宇以画的笔触抒写日记，用简洁的文字记录心情，独具匠心。之前还只是每周在白云上登出，最后都收录在他的blog里了，而且，校报、网络杂志都出现了关于他以及他的画的文章。
