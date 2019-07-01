@@ -37,7 +37,7 @@
   
   
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="@gohugoio">
+    <meta name="twitter:site" content="@geomatlab">
     <meta name="twitter:title" content="Ubuntu下基于Pure-ftpd建FTP记录">
     <meta name="twitter:description" content="一年前就开始寻找课题组内资料共享的解决方案，现在发现，我把事情想复杂了：在内网建外网可访问的FTP的话，以为要在单位出口网关上做映射才行，以为要搞DDNS。其实都不用。以下记录一些关键信息，备查。
 一开始尝试vsftpd，装好后发现21端口都没打开，作罢（查端口命令：#sudo netstat -npltu | grep 21）。
@@ -194,6 +194,10 @@
           <a href="//github.com/chouj" rel="me" title="GitHub" aria-label="GitHub">
 	    <span class="icon icon-github" aria-hidden="true"></span>
           </a>
+        </li><li class="social-item">
+          <a href="//twitter.com/geomatlab" rel="me" title="Twitter" aria-label="Twitter">
+            <span class="icon icon-twitter" aria-hidden="true"></span>
+          </a>
         </li></ul>
   </nav>
 </header>
@@ -245,7 +249,7 @@
             return;
         }
         var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "disqus_NF0tyq9F1C" + '.disqus.com/embed.js';
+        s.src = '//' + "chouj" + '.disqus.com/embed.js';
         s.setAttribute('data-timestamp', +new Date());
         (d.head || d.body).appendChild(s);
     })();

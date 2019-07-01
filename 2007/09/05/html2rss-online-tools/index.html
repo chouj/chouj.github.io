@@ -33,7 +33,7 @@
   
   
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="@gohugoio">
+    <meta name="twitter:site" content="@geomatlab">
     <meta name="twitter:title" content="HTML/PAGE2RSS线上工具收集">
     <meta name="twitter:description" content="当网页不提供RSS输出，但每一则内容的网页结构相同的话，我们就可以利用HTML2RSS工具生成一个RSS Feed，让这个Feed自动抓取这个网页的新内容，再送到我们面前。
 此类工具是怎么实现信息抓取的呢？熟悉网页代码的朋友都知道，网页布局、样式的相同意味着代码结构的相同，而我们浏览的一些信息站点又往往罗列多个样式一致的信息条目。信息内容是变化的，但装载信息的容器——网页代码有它不变的部分。HTML2RSS工具就是通过针对相同代码结构中的不同信息进行甄别抓取来工作的。仔细说来就是：这些工具将相同架构的网页代码视为常量，将其中不同的部分视为变量——这些变化的部分可能就是用户关注的信息——用户确定所需要的变量部分后，系统将该部分以通配符形式代替，定期检索网页代码，然后把相同代码间符合通配符的那部分抓取出来，再以RSS文件的格式重写输出，我们要的Feed就生成啦。
@@ -182,6 +182,10 @@
           <a href="//github.com/chouj" rel="me" title="GitHub" aria-label="GitHub">
 	    <span class="icon icon-github" aria-hidden="true"></span>
           </a>
+        </li><li class="social-item">
+          <a href="//twitter.com/geomatlab" rel="me" title="Twitter" aria-label="Twitter">
+            <span class="icon icon-twitter" aria-hidden="true"></span>
+          </a>
         </li></ul>
   </nav>
 </header>
@@ -287,7 +291,7 @@
             return;
         }
         var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "disqus_NF0tyq9F1C" + '.disqus.com/embed.js';
+        s.src = '//' + "chouj" + '.disqus.com/embed.js';
         s.setAttribute('data-timestamp', +new Date());
         (d.head || d.body).appendChild(s);
     })();

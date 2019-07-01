@@ -50,7 +50,7 @@ scatter(lon,lat,3,ssha);
   
   
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="@gohugoio">
+    <meta name="twitter:site" content="@geomatlab">
     <meta name="twitter:title" content="Matlab：如何以线上点的颜色表示强度">
     <meta name="twitter:description" content="Matlab是一款极其好用的数学计算绘图软件。在科研用图绘制功能中，最常见的即为绘制等值线图，这也是一般同学们都掌握的。大家都知道，二维填充等值线图的coutourf(X,Y,Z,n)中，Z=f(X,Y)是一个矩阵，代表X,Y平面上的每一个点对应的值，颜色则表示该值的高低。也就是说，用这个画出来的是一个彩色的面，比如：
 但是，如果Z是一维向量呢？如果我们手上就只有某些X,Y对应的Z值，也不能虚构其他的点值来添进，这时候我们想表示强度怎么办呢？用Plot3吗？没错Plot3确实可以，但3维图并不是很容易识别的。如果想以颜色表示该点某物理量的强度，那又怎么画呢？
@@ -233,6 +233,10 @@ scatter(lon,lat,3,ssha);
           <a href="//github.com/chouj" rel="me" title="GitHub" aria-label="GitHub">
 	    <span class="icon icon-github" aria-hidden="true"></span>
           </a>
+        </li><li class="social-item">
+          <a href="//twitter.com/geomatlab" rel="me" title="Twitter" aria-label="Twitter">
+            <span class="icon icon-twitter" aria-hidden="true"></span>
+          </a>
         </li></ul>
   </nav>
 </header>
@@ -337,7 +341,7 @@ scatter(lon,lat,3,ssha);
             return;
         }
         var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "disqus_NF0tyq9F1C" + '.disqus.com/embed.js';
+        s.src = '//' + "chouj" + '.disqus.com/embed.js';
         s.setAttribute('data-timestamp', +new Date());
         (d.head || d.body).appendChild(s);
     })();

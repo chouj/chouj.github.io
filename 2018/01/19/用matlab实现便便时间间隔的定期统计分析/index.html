@@ -34,7 +34,7 @@
   
   
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="@gohugoio">
+    <meta name="twitter:site" content="@geomatlab">
     <meta name="twitter:title" content="用MATLAB实现便便时间间隔的定期统计分析">
     <meta name="twitter:description" content="为了达成如题的目的，实现方法已经有了早期的两个版本：
  2014年：手机端手动输入便便时间，经Dropbox同步至本地PC；利用Windows计划任务定期执行统计分析的MATLAB脚本；将结果发邮箱，再利用IFTTT发Twitter上。(见Github) 2017年3月：应对Dropbox被墙，将便便时间记录放到Notepad上；MATLAB里利用正则把页面上的数据读下来，再进行统计分析；同样用Windows计划任务实现定期执行。  上述两个方案中最难坚持的部分在于：要打开手机浏览器，访问相应记录网页，再按10个数字手动输入便便时间。
@@ -184,6 +184,10 @@
     <ul class="social-list"><li class="social-item">
           <a href="//github.com/chouj" rel="me" title="GitHub" aria-label="GitHub">
 	    <span class="icon icon-github" aria-hidden="true"></span>
+          </a>
+        </li><li class="social-item">
+          <a href="//twitter.com/geomatlab" rel="me" title="Twitter" aria-label="Twitter">
+            <span class="icon icon-twitter" aria-hidden="true"></span>
           </a>
         </li></ul>
   </nav>
@@ -349,7 +353,7 @@ hold off
             return;
         }
         var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "disqus_NF0tyq9F1C" + '.disqus.com/embed.js';
+        s.src = '//' + "chouj" + '.disqus.com/embed.js';
         s.setAttribute('data-timestamp', +new Date());
         (d.head || d.body).appendChild(s);
     })();

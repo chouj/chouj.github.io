@@ -33,7 +33,7 @@
   
   
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="@gohugoio">
+    <meta name="twitter:site" content="@geomatlab">
     <meta name="twitter:title" content="RSSFriends：实现Twitter (un)followers的变化跟踪">
     <meta name="twitter:description" content="Twitter是微博客的鼻祖，支持输出用户Tweets的RSS Feed，但有三种变化是不输出RSS的：follow我的朋友，我follow的朋友，以及我所喜爱(Favorited)的Tweets。如果想让这三个玩意儿也能被订阅，就得靠RSSFriends啦！
 只要提交你在Twitter的用户名即可：
@@ -182,6 +182,10 @@
           <a href="//github.com/chouj" rel="me" title="GitHub" aria-label="GitHub">
 	    <span class="icon icon-github" aria-hidden="true"></span>
           </a>
+        </li><li class="social-item">
+          <a href="//twitter.com/geomatlab" rel="me" title="Twitter" aria-label="Twitter">
+            <span class="icon icon-twitter" aria-hidden="true"></span>
+          </a>
         </li></ul>
   </nav>
 </header>
@@ -234,7 +238,7 @@
             return;
         }
         var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "disqus_NF0tyq9F1C" + '.disqus.com/embed.js';
+        s.src = '//' + "chouj" + '.disqus.com/embed.js';
         s.setAttribute('data-timestamp', +new Date());
         (d.head || d.body).appendChild(s);
     })();
