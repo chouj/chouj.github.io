@@ -3,6 +3,47 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://chouj.github.io/posts/</loc>
+    <lastmod>2019-07-02T15:50:55+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://chouj.github.io/tags/</loc>
+    <lastmod>2019-07-02T15:50:55+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://chouj.github.io/tags/%E4%B8%AD%E5%B0%BA%E5%BA%A6%E6%B6%A1/</loc>
+    <lastmod>2019-07-02T15:50:55+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://chouj.github.io/</loc>
+    <lastmod>2019-07-02T15:50:55+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://chouj.github.io/tags/%E6%B5%B7%E6%B4%8B%E5%AD%A6/</loc>
+    <lastmod>2019-07-02T15:50:55+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://chouj.github.io/tags/%E7%A7%91%E6%99%AE/</loc>
+    <lastmod>2019-07-02T15:50:55+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://chouj.github.io/posts/mesoscale-eddies/</loc>
+    <lastmod>2019-07-02T15:50:55+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://chouj.github.io/tags/github/</loc>
     <lastmod>2019-06-29T08:54:42+08:00</lastmod>
     <priority>0</priority>
@@ -10,18 +51,6 @@
   
   <url>
     <loc>https://chouj.github.io/tags/hugo/</loc>
-    <lastmod>2019-06-29T08:54:42+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://chouj.github.io/posts/</loc>
-    <lastmod>2019-06-29T08:54:42+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://chouj.github.io/tags/</loc>
     <lastmod>2019-06-29T08:54:42+08:00</lastmod>
     <priority>0</priority>
   </url>
@@ -39,12 +68,6 @@
   
   <url>
     <loc>https://chouj.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%90%AC%E5%AE%B6/</loc>
-    <lastmod>2019-06-29T08:54:42+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://chouj.github.io/</loc>
     <lastmod>2019-06-29T08:54:42+08:00</lastmod>
     <priority>0</priority>
   </url>
