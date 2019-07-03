@@ -183,6 +183,10 @@
           <a href="//twitter.com/geomatlab" rel="me" title="Twitter" aria-label="Twitter">
             <span class="icon icon-twitter" aria-hidden="true"></span>
           </a>
+        </li><li class="social-item">
+          <a rel="alternate" type="application/rss+xml" href="https://feeds.feedburner.com/xuchi" title="RSS" aria-label="RSS">
+            <span class="icon icon-rss" aria-hidden="true"></span>
+          </a>
         </li></ul>
   </nav>
 </header>
@@ -210,6 +214,7 @@
 <ul>
 <li><a href="https://github.com/thomasf/exitwp">ExitWP</a>反而报错失败。自建<a href="https://www.apachefriends.org/">XAMPP</a>装旧博同版<a href="https://wordpress.org">WordPress</a>+插件<a href="https://github.com/SchumacherFM/wordpress-to-hugo-exporter">wordpress-to-hugo-exporter</a>才成功导出。和网上一些搬家经历不一样，毕竟我有700+篇日志。</li>
 <li>暂用<a href="https://github.com/laozhu/hugo-nuo">Hugo nuo</a>主题。因为这个主题支持sass的缘故，必须安装Hugo Extented version。而README和<a href="https://laozhu.me/post/hugo-nuo-theme/">中文教程</a>都没指明这一点。</li>
+<li>该主题的social list里可以点亮RSS icon，但样板<code>config.toml</code>里没有列出。只要在<code># Choose your social networks</code>下面加上<code>RSS = &quot;博客的RSS Feed地址&quot;</code>就好。原始地址就是<code>域名/index.xml/</code>，也可以像我的一样去<a href="http://xuchi.name/tags/feedburner/">FeedBurner</a>烧一个Feed。</li>
 </ul>
 
 <h4 id="感谢前任">感谢前任</h4>
