@@ -3,6 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://chouj.github.io/links/</loc>
+    <lastmod>2019-07-04T10:11:07+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chouj.github.io/</loc>
+    <lastmod>2019-07-04T10:11:07+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://chouj.github.io/posts/</loc>
     <lastmod>2019-07-02T15:50:55+08:00</lastmod>
     <priority>0</priority>
@@ -16,12 +27,6 @@
   
   <url>
     <loc>https://chouj.github.io/tags/%E4%B8%AD%E5%B0%BA%E5%BA%A6%E6%B6%A1/</loc>
-    <lastmod>2019-07-02T15:50:55+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://chouj.github.io/</loc>
     <lastmod>2019-07-02T15:50:55+08:00</lastmod>
     <priority>0</priority>
   </url>
