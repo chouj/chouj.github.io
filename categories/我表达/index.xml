@@ -49,12 +49,7 @@
       <pubDate>Fri, 22 Sep 2017 09:09:31 +0000</pubDate>
       
       <guid>https://chouj.github.io/817/</guid>
-      <description>以这个约每小时更新的GIF格式遥感图片为例：
-在MATLAB当前目录下新建一个.m脚本，本例里起名为wvgifdownload.m：
-%图片存储目录设定： folderpath=[&#39;d:\temp\&#39;]; if length(dir([folderpath,&#39;*.gif&#39;]))==0 %判断目录是否已有GIF文件  urlwrite(&#39;http://www.goes.noaa.gov/dimg/jma/fd/wvblue/10.gif&#39;,[folderpath,&#39;1.gif&#39;],&#39;timeout&#39;,15); %空目录则将下载的图片命名为1.gif else %文件夹已有GIF文件  localinfo=imfinfo([folderpath,num2str(length(dir([folderpath,&#39;*.gif&#39;]))),&#39;.gif&#39;]); %获取目录里最新GIF的文件信息  webinfo=imfinfo(&#39;http://www.goes.noaa.gov/dimg/jma/fd/wvblue/10.gif&#39;);%获取目标网络图片的文件信息  if localinfo.FileSize~=webinfo.FileSize %比较两者文件大小，若不一样，则表示网络图片已更新，可以下载  urlwrite(&#39;http://www.goes.noaa.gov/dimg/jma/fd/wvblue/10.gif&#39;,[&#39;f:\CloudGIF\wv\&#39;,num2str(length(dir([folderpath,&#39;*.gif&#39;]))+1),&#39;.gif&#39;],&#39;timeout&#39;,15); end end  设定Timer对象，这里起名为down：
-down = timer ... ( &#39;Name&#39; , &#39;my_timer&#39; ... , &#39;TimerFcn&#39; , @(varargin)evalin(&#39;base&#39;,&#39;wvgifdownload&#39;) ... , &#39;BusyMode&#39; , &#39;drop&#39; ... , &#39;ExecutionMode&#39; , &#39;fixedRate&#39; ... , &#39;Period&#39; , 1800 ... , &#39;StartDelay&#39; , 0 ... );  注意TimerFcn这里是调用当前目录脚本的写法，如果是函数则按函数调用去写。本例Period这里设定的是半小时执行一次，即每半小时检查网络图片是否更新，如有更新即可下载。
-执行Timer：
-start(down)  </description>
+      <description>&lt;p&gt;利用MATLAB的Timer实现网络图片定时下载的一个个例:&lt;/p&gt;</description>
     </item>
     
     <item>

@@ -206,106 +206,164 @@
       
         <article class="post-entry">
   <header class="post-header">
-    <h3 class="post-title"><a href="https://chouj.github.io/720/" class="post-link">关于独立架站的域名设定</a></h3>
-    <p class="post-meta">@Chouj · Apr 10, 2007 · 1 min read</p>
+    <h3 class="post-title"><a href="https://chouj.github.io/225/" class="post-link">我看过的blogger hack站点</a></h3>
+    <p class="post-meta">@Chouj · Feb 22, 2007 · 1 min read</p>
   </header>
   
-  <p class="post-summary">本文写给第一次架站的朋友，老鸟请无视。
-有感于架这个blog时域名指定时的茫然，写点东西，尝试能有所解答，个人见解肯定有认识不足或出错之处，也请指教。
-先罗列几个我遇到的问题，如果您跟我一样困惑，说不定可以看看我要写的东西。
- 1、你分的清子域名、二级域名吗？比方blog.xuchi.name和xuchi.name/blog？
-2、域名服务商提供解析，空间服务商提供绑定，这些又该如何操作呢？
-3、想指定blog地址为blog.mysite.com该怎么操作？
-4、想指定blog地址为mysite.com/blog又该怎么操作？
- 网上教程很多，单介绍域名知识的有，单介绍虚拟主机的有，至于如上细节问题，很少见。以上几个问题可以算是对于初学者的盲点。
-解答问题一：
-其实二级域名就是子域名，像我这种计算机基础课学的不精的人，就被忽悠了。以前以为xxx.site.com是子域名、site.com/xxx是二级域名来着，但不是这样子的。二级域名（子域名）就是指一级域名（site.com）前面那部分，比如blog.site.com或mail.site.com。很多免费注册二级域名的站，就是拥有一级域名，比如yuming.com，然后开放xxx.yuming.com给用户注册。而site.com/xxx算是指向一级域名绑定目录下的子目录。更多域名知识可参考这里和这里，会很有帮助。
-解答问题二：
-这个问题涉及为什么要有域名，和域名如何工作的问题。简单来讲，只要知道网站服务器的ip，即可接入网站，域名只不过是为了方便记忆，记域名比记一串ip数字要容易的多。所以，解析、绑定，这两个词就是指域名和服务器ip之间的动作关系的。解析，指将域名指向某ip；绑定，指将空间ip和某域名捆绑映射。两者其实是一个意思。你买了域名，域名服务商的解析服务中，将有给域名添加A记录的设置，即添加域名指向的ip。你买了空间，开通空间时，会要求填入所绑定的域名，同时会提示要求您将域名解析到空间服务器的ip地址。不过，一般空间支持将子目录绑定到子域名，这是域名解析做不到的。
-解答问题三、四：
-一起答，因为要视不同情况而定。以xuchi.name和WP程序为例。
-首先想好，你需要的blog地址是什么样的，xuchi.name？www.xuchi.name？blog.xuchi.name？还是xuchi.name/blog/？
-一般都会将WP安装程序放在根目录里的一个文件夹下，比方直接将wordpress文件夹上传到public_htm目录下（很多教程都是这么写的，所以这样做的人肯定不少），即public_htm/wordpress/，装完WP程序，默认blog地址是http://绑定的域名/wordpress/。不要求地址为…/blog/的话，直接从域名解析上设定地址。添加域名A记录时，_____.xuchi.name的空格，不填则地址为http://xuchi.name；填www，则地址为http://www.xuchi.name，此时http://xuchi.name会默认解析到http://www.xuchi.name；填blog则地址为http://blog.xuchi.name。所以，想好了你的blog地址，再提交，免得日后更改麻烦。前文地址中出现的“绑定的域名”，就看你解析到空间ip的域名是什么了，可以是xuchi.name/wordpress/，也可以是www.xuchi.name/wordpress/。然后要将wordpress文件夹下的index.php复制到public_htm目录下，同时在wordpress后台“选项”-&gt;“常规”中将blog网址区别于其安装目录，填写你要的blog地址。此后你通过解析的地址即可访问blog了，而不用在后面挂上/wordpress/。
-如果你需要blog地址为xuchi.name/blog/，这样的好处是xuchi.name可指向一个index.html页面作为个人首页。那么，最好在上传WP程序时，就把wordpress文件夹更名为blog，即上传后为public_htm/blog/。这样建立的WP程序，默认WP安装目录为http://绑定的域名/blog/，Blog默认网址亦为http://绑定的域名/blog/。如果还想启用blog.xuchi.name，则在域名解析时，可以将blog.xuchi.name指向空间ip，然后在空间服务的子域名绑定中，将blog.xuchi.name绑定到public_htm/blog/目录,默认规则是xxx.xuchi.name绑定到public_htm/xxx/目录。
-以上都是我在架站后的一点收获，不知道说清楚没有，对初次架站的朋友能有所帮助，提供点参考价值就行。</p>
+  <p class="post-summary">Google Blogger的自由度有目共睹，templates、hacks层出不穷。这里摆弄至今，看过不少写blogger代码技巧的站，受益匪浅。赶上最近有朋友问到，罗列几个，都是中文的，想必对以Google Blogger作为BSP开博客的用户有很大帮助。
+简体站点：
+ 色彩斑斓——http://sunr.blogspot.com/  我最早参考的站点之一，山东咖啡鱼的博客。一开始还看过博之道,但现在没开放了。
+ GG派——http://ggpi.blogspot.com/  同样不错的站点。GG＝GooGLe。GG和咖啡鱼现在在共同打造中文blogger导航,关于中文blogger推荐。
+ Chinese Blogger 禾草唐楷——http://dugangs.blogspot.com/   这个站太漂亮了，推荐浏览，不过是不久前才经由豆瓣看到的，先感谢博主把我这里加入他的博客亲友团。这里技巧教程贴也很多，值得大家共同学习。
+ 八个圈圈儿的Blogger-Beta——http://bloooooooogger-beta.blogspot.com/  这里的技术贴写的比较通俗，适合初次接触代码hack的朋友。
+繁体站点，博主均来自宝岛台湾：
+ 良人的大秘宝——http://klcintw4.blogspot.com/  国良先生在早些时候写过一些hack贴，现在写的少了，也是我很早参考过的站。该站左侧栏就有beta hacks组项。
+ Josh’s Note——http://joshnote.blogspot.com/  很专业的站，除了常用hacks外，还有Blogger相关技术内容。
+ Ben’s部落不及格——http://ibenjamin.blogspot.com/  这个站非常精美，推荐一看，即便是hack，文章也写的比较逗趣。
+Racklin’s 阿土伯程式大觀園——http://racklin.blogspot.com/ 
+又一个专业级的，看起来比Josh’s Note还专业，别吓着了:)
+Kaie’s Blog——http://chenkaie.blogspot.com/ 
+又一个漂亮的站，技巧也挺实用。高人手下，blogger就可以变得很精美。
+也许有更好的站我没浏览到，但仅仅这些，对于新人修饰blogger已经绰绰有余了，真正的高人，还请参详国外的站点。
+Update：刚看到 博客hack扩展大全wiki by GG派 ，太赞了！
+最后发点儿牢骚，因为不值得再开一贴，见谅。
+又有人把“死亡笔记真人电影版”和“推荐”绑一起传达给我，让我分外不爽。两个帅哥以那么多人的生命为代价争酷斗狠，其中之一起初还算伸张正义，后来变成为了斗智而杀人，这都宣扬的什么价值观念啊？酷和帅就可以遮蔽一切？要我说，这本子的作者属于那种——套用一时髦歇后语，越狱里的手机男Kim——找抽型。还有就是决定把这么一明显适合动画题材的故事翻拍成真人电影的那家伙，就算后来兜里进了不少银子，丫脑袋里估计也进了不少水。还是豆瓣上第一条影评定性的好：反映资本主义腐朽堕落空洞无聊精神世界的片子。
+另外，各位女同胞们，你们爱看帅哥，爱到不论他们是对是错，这样的心情我能理解。但向别人推荐的时候能不能考虑下别人的性别？怎么说要推荐的也得是佳丽三千的后宫动画吧（算了，想想也知道你们不会津津乐道这种题材）？要是以将此片推荐给我，来测试本人的sex取向，那我再套用一句Heroes里的名言，不过得多个单词：I’m NOT special !</p>
   <footer class="post-footer">
-    <a class="read-more" href="https://chouj.github.io/720/">Read More →</a>
+    <a class="read-more" href="https://chouj.github.io/225/">Read More →</a>
   </footer>
 </article>
 
       
         <article class="post-entry">
   <header class="post-header">
-    <h3 class="post-title"><a href="https://chouj.github.io/242/" class="post-link">不是出路的出路</a></h3>
-    <p class="post-meta">@Chouj · Apr 8, 2007 · 1 min read</p>
+    <h3 class="post-title"><a href="https://chouj.github.io/221/" class="post-link">博客圈试用报告</a></h3>
+    <p class="post-meta">@Chouj · Feb 12, 2007 · 1 min read</p>
   </header>
   
-  <p class="post-summary">望月架了个独立小站，然后赶紧声明最终解释权归自己所有：不会背叛Google Blogger。我是不是也要效仿下？毕竟已经决心自己做老板，架个独立的blog，同时经营几家分店。如果你订阅了这里的RSS的话，就可窥得端倪，我瞄上了盘古的一代理，虽然有流量限制，但对于非主题的个人blog来说已经足够，况且我财不大气也不够粗。
-为什么要如此费时费力费财的折腾？一是看上了dot name域名，不弄一个回来吧，怕自己的被人家注册了；注册了不用的话，又等于浪费，干脆派个用场。二是个人网站是个人的品牌，不管品牌咋样，这网站当然是越早上线越好。三呢，诸多网上人士抱怨自己架站的繁琐，但又有WP架构的新鲜，我欲自己体验一把，偏向虎山行。四是，以现有经济状况尚可维持，真想少花钱，如果弄个cn域名架站，平均下来每月耗费个位数而已。五呢，个人站点不是那么好跟搜索引擎套近乎，估计得在SEO上下点儿功夫，正好研究一下。六，我啃个硬骨头，然后可以见人就告诉他啃硬骨头该怎么下嘴，没准儿可以收点儿学费，哈哈。
-对于blogger来说，Google Blogger已经能给予一切，甚至提供了独立站点所没有的优势，比方与Google搜索友好，比方共同的blogspot平台，和基于此平台上中文blogger间的一见如故。禾草唐楷更是说Google Blogger是企业级的，叫我怎忍放弃。上一段我并没有说独立架站能摆脱Blogger的间歇性封锁，正是基于我对Google Blogger的乐观。我不信广大中国人用不上如此优质的服务一点抗议的声音都没有，不想看到独立架站能促进消费拉动内需外还要带着逃离Google Blogger的中国特色式隐忍，不认为Google Blogger会一直间断性抽筋儿。
-回想当时，随便忽悠了个名字,抽丫的筋儿，现在也塞到搜索引擎前几页去了。风光在外，这里则将本着“记录”二字，回归赤裸和琐碎。飙句口号式的话，如果我是大清皇上，这里就是后花园；如果我是周曙光，这里就是自留地。想起麦子那句“我随性的写，您随性的看”，算是和他并轨了，但我要求不高，您看不看都无所谓。而我想表达的，想交流的，想满足告知欲和认同感的东西基本将放在新的地方，就叫抽筋儿的话语权吧。
-一个礼拜没写，因为blogspot尚在封锁期，且为了独立建站，非常有瘾的折腾了好几天。窝棚也见雏形，但除了“Hello World!”，还没内容，就不丢出来了。</p>
+  <p class="post-summary">心里一直认为，以feed合烧为技术支撑搭建博客圈平台，让每个blogger都可以打造自己的博客群落，是一项很2.0很in的服务。所以当Feedsky博客圈出现的时候，我再次感受到了技术带来的快乐。当然，我这草民没有Feedsky博客圈的划圈儿权，但在网上误打误撞中，发现了这个博客圈，试用报告如下。
+动作
+划了个襄樊四中03届高三六班博客圈儿，这里是合烧feed地址。可以预想，博客圈将成为班级交流的另一崭新阵地。
+特点
+每个用户的划圈儿数目不限；支持blog posts、评论、留言审核，即圈主享有posts、评论和留言的生杀大权。所建圈子支持分类，支持tag，支持圈子名称更改和圈子简介，支持圈子头像。莫名的是：有分类有tag，就是没见圈子搜索，没见所有分类页面，没见所有tags页面。
+每个圈子有自己的二线域名，比如高三六班博客圈儿；圈子支持公告，支持圈主随时加入new blogger，支持申请加入（即提交feed，要圈主审核），每篇post支持网友评论（不需注册），支持给圈主留言。
+采取添加feed的方式添加圈子博友。
+每个加入圈子的feed，支持头像，支持blog名称更改，支持博主名称更改，支持单blog独立页面（比如这里）。
+另外，既然feed合烧了，那么就不用将所有博客挨个订阅，仅订此一个feed即可。在当今feed蒲公英满天飞的年代，这个优点还是很实在的。
+BUG报告
+1、添加feed后，编辑博客网址的输入框中，可输入字符长度不够，看过源代码，maxlength=”20″，20完全不够。直接后果即输入不全，导致此页右侧blog链接为“http://xcchris.blogs”。
+2、同一feed，加入不同圈子，则在后加的圈子中，显示不出post。比如我后建的物理0301圈子，加入我自己的feed后，没有posts显示。这个伤很致命，但愿不是试用时我这里出的什么问题。
+看的出，这里才诞生不久，博客圈论坛里没有一个帖子。不过，这仍是前途无量的web service，至少我看好。我把我的试用报告mail给对方了，期待完善，期待搭配圈子搜索，继续关注之。
+同时YY一下，Feedsky的博客圈什么时候下放用户创建的功能呢？
+Update：纠正下BUG 2。同一feed，加入其他圈子，则不能即时显示出post，一定反应时间（时间还挺长）后才能显示出来。这样就还好，不算致命，但还是改之为妙。</p>
   <footer class="post-footer">
-    <a class="read-more" href="https://chouj.github.io/242/">Read More →</a>
+    <a class="read-more" href="https://chouj.github.io/221/">Read More →</a>
   </footer>
 </article>
 
       
         <article class="post-entry">
   <header class="post-header">
-    <h3 class="post-title"><a href="https://chouj.github.io/239/" class="post-link">暂时回归</a></h3>
-    <p class="post-meta">@Chouj · Mar 28, 2007 · 1 min read</p>
+    <h3 class="post-title"><a href="https://chouj.github.io/218/" class="post-link">挑校内网xiaonei.com的刺儿</a></h3>
+    <p class="post-meta">@Chouj · Feb 6, 2007 · 1 min read</p>
   </header>
   
-  <p class="post-summary">这口G_Blogger(牌号32269107)锅再度小炸之后，我知道blogspot又可正常访问了。加之GSeeker的第一时间报道，更加确信blogspot暂时回归。虽然L.G.Y说仅仅是从上次封锁的IP:72.14.207.190
-换到了现在的IP:72.14.207.191，也不知道是不是Google的公关起了作用，但总算谢天谢地又能访问了。
-无论如何，这里都将继续，如果我要换BSP的话，下一个一定是独立架站。只是非常不爽GFW将俺们这些小民玩弄于股掌之中。最近看《野火集》，觉得改host、加代理、代Tor，都是避，都是绕，而抵抗或者声讨自身权利的一概没发现，比方弄个antiGFW.com，发出点声音，虽然这种站绝对会上GFW的黑名单。就像虚飞说的那样，封了，解了，还得感谢，这难道不是病态么？
-Blogspot暂时可访问，加之一点不闲的吕帅的“闲话”，回归Feedsky的理由足够了，虽然肯定是和Feedburner烧的Feed并存。各位到底订哪个，看自己的立场，顺便检验下两家受欢迎的程度，有竞争才有生存。回归的另一个主要原因就是，实在想知道自己这块儿地值多少钱，有没有发展为钉子户的价值，很俗的欲念。这么写让我挺惭愧，捣腾了一遍结果有自己抽疯之嫌，只能怨GFW闹的，而且一下给我闹出两个激活的话题广告Feed，不好收场。不知道吕帅能否给话题广告开个删号的功能。最后奉上激活码：efa22884，要说的是，当然不会仅仅估个价就完事，有时间我肯定会就邀请话题写点什么的。
-Update：Blog定价：￥ 30.00元，看来我在对“人工干预”这四个字的估计上严重失误。</p>
+  <p class="post-summary">将如下链接发给朋友,他们不必登录就可看到你的页面 (不要放到其他网站上,否则baidu或google会搜到这个页面)
+ 哈哈，非常希望校内网能对上面那个粗体句子给我一个合理的解释，不然我就不能克制的要从负面因素来揣测其不良用心。
+我是不喜欢校内网和Qzone这种社区型服务的，却又眼红其聚集的高昂人气。鉴于我这阴暗的心理，我猜想校内网的这个用意是“不可告人”的。每个做网站的ITer都希望自己的站点能为搜索引擎索引到，而且梦想他们能将自己的站名排在首位；每个终端用户也都希望自己的个人页面能被索引到，并置于显要位置，为何校内网要反其道行之呢？莫非，担心自己的服务器无法承担搜索引擎所带来的更大流量？还是想降低知名度来消减其copy facebook.com 所带来的风险？
+昨天还和麦子聊到过校内网，因为周围玩校内和Qzone的人远多于博客圈的人，而我俩又对博客抱有同样的信仰，似乎有那么点无奈和悲凉。记得有同学跟我说他也有博客了，我问他地址，然后他给了我一个他校内网的链接，我当时就觉得哭笑不得。在我眼里，这种社区型站点所提供的日志发布服务，纯粹就是玩具，根本配不上博客的理念，最起码，连RSS输出都不具备。而我所抱有的博客的信仰，确是建立在这“侠义”的博客的基础上的（用到“‘侠义’的博客”让我觉的很不幸）。“全民博客”的口号响了很久，效果显著（比如这位老奶奶）。但我泡在网上这么久，所见到的理解博客理念的人仍以ITers和高知识水平的资深网民居多，很多的blogger根本不理解有什么用，或者压根儿没注意到它。而按长尾理论，千千万万的草根博客才是其价值所在，但在我看来，这价值得以体现的基础之一，就是博客理念的深入人心。
+ 诚挚的说，这种浮华和斗秀的地方，不适合放心路历程。
+ 我记得我曾在某Qzone留下这样的话，“浮华”和“斗秀”即是我对国内SNS社区的基本感觉，而这正式我对这些地方厌恶的原因。不过，存在即合理，昨天还见到了这句话。我所承认的SNS社区，是其社会化网络的交流功能，它的兴盛在于满足了人的群体性，正是这个为网站带来了人气和金钱。但现阶段BLOG≠SNS，BLOG通过RSS和抓虾这类聚合内容服务站，构建了无限空间，但SNS用户间的交流却只能局限于各自的SNS，我自私得不愿看到把校内网当作博客这样的笑话发生。未来是否会发展到将两者聚合到一起，我觉得很有可能，不过还是那句，要让所有人把“是什么”理解了再说。愿这不是一个长期而曲折的过程。
+再扯回到那张校内网的图。我不是搞网站的，可能理解有些偏颇，但愿别让我的言语成为了知名社区光环下的阴影。
+PS. 想借用RSS在校内网上即时输出Recent Posts，宣告失败，原因如下：
+ “script”是在涂鸦板里面禁用的字符串
+ 只好去手动借人气了。。校内破网。。
+update：若干月后再看这文，感觉有些傻逼，明明是保护用户隐私嘛。。</p>
   <footer class="post-footer">
-    <a class="read-more" href="https://chouj.github.io/239/">Read More →</a>
+    <a class="read-more" href="https://chouj.github.io/218/">Read More →</a>
   </footer>
 </article>
 
       
         <article class="post-entry">
   <header class="post-header">
-    <h3 class="post-title"><a href="https://chouj.github.io/238/" class="post-link">记载</a></h3>
-    <p class="post-meta">@Chouj · Mar 27, 2007 · 1 min read</p>
+    <h3 class="post-title"><a href="https://chouj.github.io/217/" class="post-link">回顾2006：作为博客的摸爬滚打</a></h3>
+    <p class="post-meta">@Chouj · Feb 5, 2007 · 1 min read</p>
   </header>
   
-  <p class="post-summary">如若不是Pengbone有意删文，那我再次见到了GFW的杰作，于是和GFW斗，那是乐此不疲。
-昨天下午，Pengbone的RSS输出了一则题为《中^共地方党委换届，是云手平诸侯？还是团^派政治妥协！？》的POST，我尚可查得最后一句为“Powered by ScribeFire”。读过之后，当即用G READER share了，但反查其blog页面 http://www.pengbone.com/?p=118，无此文，若干小时后RSS供稿里也无此文，并且G Reader开始抽疯，直到目前，在G Reader里查看Pengbone的博客，仍显示如下：
- “Pengbone’s Weblog|如你所知” has no items.
- 记得我共享的资料一定会落入G Reader共享页面，查之，结果是页面被重置。但功夫不负有心人，在页面完全载入之前，停止载入，然后我截得了下面这张图：
-
-记录此事，纯为和GFW逗逗乐子，也许Pengbone不愿看到我把这个记录在案，如若有表示，可即刻删贴。
-再扯个比较造化弄人的，在我表示了要在blogspot放弃Feedsky后，不幸紧接着收到话题广告的激活邀请。只好给广告另觅新东家，安在了我的备份blog上，估价如下：
- 尊敬的Feedsky用户您好：
-恭喜您，您的Blog定价已经成功，定价为人民币30元整。此定价为广告主为您的广告活动支付的费用，Feedsky将在其中收取一定比例的手续费用。
-如在使用过程中碰到问题或有意见建议，欢迎您随时与我们的客服联系。
-Feedsky广告团队祝您使用愉快
- 看完后就冒出个邪恶的念头：按Feedsky的算法，我主站的各项指标全优于备份站点，应该价值更高，但现在封禁期，如若投放广告，无异于在国内宣传力度为零；这样一来，以基本为零的广告宣传，说不定可以从Feedsky换来收益。可见GFW涉嫌RSS屏蔽后，再度把Feedsky推到了一个问题边缘，两者冲突不可小视。不过，激活过程中Feedsky要对Feed进行认证，即在blog里发布一段代码，若GFW的封锁下，此代码不能被Feedsky检索到，即无法成功激活，那么以上念头就纯属扯淡。我懒得试，不想再恢复进入30天删除日程内的Feed。但基本结果就是，要么可以从Feedsky“骗”财，要么中文blogspot只能远离Feedsky话题广告。</p>
+  <p class="post-summary">时近年关，潜心探寻背后的量变，除去为了完成老妈交代的任务，至少可以写给自己看。
+摸爬滚打，用这个词形容我这一年的博客行为再适合不过了。我是个想的多，说的少也写的少的人，缺乏将思维诉诸文字或话语的能力，面对空空的发布后台，脑袋里同样一片空白，之前脑海里的构建都已烟消云散。敲键盘的时候，仍为某些语句的前后顺序犹豫不决，或者落入学理之人写东西提纲挈领的窠臼，再或者否定掉前面敲下的字重新来过，那种所说的码字的畅快，怕是与我绝缘了，虽然写博的初衷之一就是找寻这种快乐。我还是会继续写下去，因为一旦开始就舍弃不掉，这个毛病在我看电影的时候发作的尤为明显：再乏味的电影，都激发不出去点右上角红叉的动力。
+像Google的“不作恶”理念一般，一年多的blog生活对我来说不痛苦，某些时候还能作为一种精神追求，从博客的角度觅得生活的新乐趣，增添情趣的新嗅觉。而写博的理念早就有所更替：从试验html代码而误入blog门下开始；到打造自己的小天地般聊做记录，以求日后回忆；再到尝试以此为阵地传达自己的信念，发表自己的看法，顺便在背地里募得小小的虚荣。每一时期blog都发挥着不一样的作用，暗示着思想的见异思迁。确立思想图腾的尝试，技术性的摸索改良，是我此时对这里的精神嘱托。
+嘱托过后，即是具体的实现，写了这么久，我仍找不到行文的风格。文字是载体，如何在表达的同时让文字具备诱惑的力量，是我一年来一直尝试解答的问题。无论横向的比对，自己的个人要求，还是冲着我妈那句“写的不错，句子都还挺通顺的”的“褒奖”，我都愿能在一篇篇文字的写作中谋求那一点点的量变。是口语式的白话讲述，还是凝练的文学玩味？是选取一种文风专攻之，还是帅性而为，无所拘泥？自问到底，又觉得有些东西绝非解答几个问题即可搞定的，而为了让码字变得有趣，却只有依靠不断尝试中量变的力量。
+抱有写博信仰的人，都会乐观的看待博客的前途，我也一样。摸爬滚打之后，期待有能站起来的一天。</p>
   <footer class="post-footer">
-    <a class="read-more" href="https://chouj.github.io/238/">Read More →</a>
+    <a class="read-more" href="https://chouj.github.io/217/">Read More →</a>
   </footer>
 </article>
 
       
         <article class="post-entry">
   <header class="post-header">
-    <h3 class="post-title"><a href="https://chouj.github.io/237/" class="post-link">倒戈</a></h3>
-    <p class="post-meta">@Chouj · Mar 26, 2007 · 1 min read</p>
+    <h3 class="post-title"><a href="https://chouj.github.io/215/" class="post-link">New Year New Template</a></h3>
+    <p class="post-meta">@Chouj · Feb 3, 2007 · 1 min read</p>
   </header>
   
-  <p class="post-summary">即日起，放弃feedsky烧制的feed，进入30天feed删除日程。开始启用feedburner提供的服务，新Feed地址，即转向地址为： http://feeds.feedburner.com/chrischou 。RSS相关的feed地址也开始转向http://feeds.feedburner.com/aboutrss，请重新订阅。
-“怀疑GFW在rss上开了盾”，朋友的一句话，更是加重了我的怀疑。
-Blogspot再度被封以后，G Reader和抓虾都仅仅在输出书签的“昨日关注”，没有新日志；打开feedsky的feed，也没有新日志；再打开原始供稿，却是有最新日志的。疑惑啊疑惑。再比照其他blogspot，feedsky提供的feed也没有输出新日志。结论只可能是，feedsky的rss输出在某种程度上被蔽掉了,而不是订阅工具的问题。
-实在抱歉，在blogspot的国度里，我要抛弃feedsky了。我还记得当初，毅然选择了国内的这款服务作为主打，因为那亲切的界面和便捷的服务，也因为中文的Feed烧制服务更需要国人的支持。我也记得现在，依然对feedsky倾心不已，关注博客圈的试探，关注话题广告的开拓。在如此情形之下，我更希望是feedsky单方面出了差错，而不是和GFW有半点瓜葛。
-无论feedsky是遭GFW毒手还是事先屈服于GFW淫威，也无论805大字报是否有所解释，我都更希望能在吕欣欣的日志里看到这么一句话：
-操他妈的GFW！</p>
+  <p class="post-summary">其实之前的模版挺好的，但为了能适合发一些白底的图，一心想换成白色背景的板子。在家有时间有条件捣腾，就迫不及待的实现了。
+先搜了半天，适合新版blogger的模版还真是不多，给出模版的出处（HUST校园网内估计访问不了）：Blogger Templates (Beta)。里面的5个模版都很不错，经测试都可用。
+为了调这些板子代码，测试显示效果，特意弄了个test blog。最喜欢的要数K2，最先换上的，但在ie下显示不佳，调试失败，只好作罢。Andreas02也很棒，我唯独不喜欢这个板子的侧栏，链接一多就显得乱了。现在的这款Kubrick，和我第一个blog的板子几乎是一样的，我废了点劲PS了一张header banner。担心的就是一旦googlepages服务失效，这里就会面目全非了。
+在学校，每天同学热情的拉人DotA，面子上磨不开，自由失去了纯色般，境地尴尬。住家几天，在时间的支配上就简单了许多。新年新模版，之后就是要好好想想，写点东西了。</p>
   <footer class="post-footer">
-    <a class="read-more" href="https://chouj.github.io/237/">Read More →</a>
+    <a class="read-more" href="https://chouj.github.io/215/">Read More →</a>
+  </footer>
+</article>
+
+      
+        <article class="post-entry">
+  <header class="post-header">
+    <h3 class="post-title"><a href="https://chouj.github.io/210/" class="post-link">PS了俩豆瓣博客标志</a></h3>
+    <p class="post-meta">@Chouj · Jan 9, 2007 · 1 min read</p>
+  </header>
+  
+  <p class="post-summary">每个收录在豆瓣“我上”里的博客，可以有其自己的logo，配合简介说明，醒目而个性。开动PS画了两个：一是应麦子所托，给他的射手座的箭之所向；一是单纯给自己。
+
+搜到这个图，就知道该怎么处理了：麦子、箭、笔，三元素的交融，付之以热血与坚毅的红黄黑。
+
+听取麦子的建议，舍弃对称，再度雕琢至：笔自有其角度与力度，箭自有其昂扬与凌厉。
+
+话说到这份儿上，自不用掩饰我的愉悦：07年开篇即有得意之作，虽然技术上没什么含量，诚然贵在创意。
+
+这个标志更没什么技术含量，玩了一把汉字与字母结合的小把戏，而且结合的生硬了。</p>
+  <footer class="post-footer">
+    <a class="read-more" href="https://chouj.github.io/210/">Read More →</a>
+  </footer>
+</article>
+
+      
+        <article class="post-entry">
+  <header class="post-header">
+    <h3 class="post-title"><a href="https://chouj.github.io/164/" class="post-link">统计分析一下你的blog吧</a></h3>
+    <p class="post-meta">@Chouj · Aug 29, 2006 · 1 min read</p>
+  </header>
+  
+  <p class="post-summary">blog的流量想必每个blogger都会或多或少关心下的，单一的计数器也许不能满足我们的需要了。这就需要blogger对自己的领地进行统计分析啦，不外乎申请一个统计服务，然后嵌入其所提供的代码到你的blog里。
+常见的免费统计分析工具有:
+站长统计
+ITSUN网站流量统计
+我要啦 免费统计 51.LA
+http://count.51yes.com
+
+
+这些都是相当不错的免费统计工具。大致功能均为访客ip记录，访问量统计分析，访客地域统计，访客浏览器统计，访客系统统计之类。就以上统计服务，据我所知评述如下：
+前两个我只用过一段时间，但最后放弃了，因为比较中规中矩，缺乏图形分析，形象化元素太少。只不过站长统计站长统计有个优点就是可以显示当前页面在线的人数。
+中间两个其实是不错的统计工具，我没选用的原因是在教育网下要开代理才行。就51.LA首页上的介绍，功能还是很强大的，而且很形象。Statcounter是国外的统计服务，没用过，想必不错。
+最后两个是我现在还在用的统计服务。网界是donews合作的统计平台，因为我的备份blog的缘故，接触到了这里。php编写的站点，动态生成flash，操作傻瓜，图形丰富。给几个图例如下：
+8月份访问量柱状图，很不错吧。
+访客明细，逃不过我的眼睛，所以丫们看到这里的就小心了，你们在此的行踪尽在掌握哟。
+Google analytics 就属于非常权威、非常细致的统计了，也很形象，先给个图。
+很细致吧，以上是google提供的最基本的分析，都非常实用非常不错，只是并没有像网界那样提供ip地址分析。
+所以，bloggers各取所需吧，不过写blog就是不能在意这些比较没有意义的东西，否则陷入追逐流量虚荣之中，blogging的动机就不纯了。blog就是要做到有感而发，无感不发，勿被其他所累。</p>
+  <footer class="post-footer">
+    <a class="read-more" href="https://chouj.github.io/164/">Read More →</a>
   </footer>
 </article>
 
