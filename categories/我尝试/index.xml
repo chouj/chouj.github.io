@@ -69,13 +69,7 @@
       <pubDate>Wed, 31 Jul 2013 08:43:26 +0000</pubDate>
       
       <guid>https://chouj.github.io/786/</guid>
-      <description>一年前就开始寻找课题组内资料共享的解决方案，现在发现，我把事情想复杂了：在内网建外网可访问的FTP的话，以为要在单位出口网关上做映射才行，以为要搞DDNS。其实都不用。以下记录一些关键信息，备查。
-一开始尝试vsftpd，装好后发现21端口都没打开，作罢（查端口命令：#sudo netstat -npltu | grep 21）。
-安装pure-ftpd可参照网上的教程，不过其配置比较奇怪。Ubuntu 12.04下的/etc/pure-ftpd里确实有auth、db、conf三个文件夹，但官方wiki说的在conf里以选项为文件名，以选项值为文件内容进行配置，却不起作用。只好在启动命令里加switch：
-#sudo pure-ftpd -F ~/Message -lpuredb:/etc/pure-ftpd/pureftpd.pdb &amp;#8211;fscharset=gbk &amp;#8211;clientcharset=gbk -b -A -B -c15 -C5 -E -G -k95 -r -K -H &amp;amp;
-这些switch的控制作用可以在官网查。诡异的是“-l”这个，后面紧跟的虚拟用户数据库路径和“l”间居然不用空格。
-然后，在办公室Buffalo路由做端口映射，开放21端口。另外，在/etc/rsyslog.conf里做了ftp日志的单独输出，输出日志以gedit打开不能正常显示中文字符，但用配置好utf-8的GVIM打开就可以。
-目前运行良好，因为本来访问量就小。最大的问题在于WIN下部分浏览器不能正常显示中文，以致进入不了某些中文名的文件夹，最佳解决方案还是用FlashFXP等FTP工具访问。</description>
+      <description>&lt;p&gt;&lt;a title=&#34;小团队的内部资料共享协作是怎样的？&#34; href=&#34;https://www.v2ex.com/t/30716&#34; target=&#34;_blank&#34;&gt;一年前就开始寻找课题组内资料共享的解决方案&lt;/a&gt;，现在发现，我把事情想复杂了：在内网建外网可访问的FTP的话，以为要在单位出口网关上做映射才行，以为要搞DDNS。其实都不用。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -84,11 +78,7 @@
       <pubDate>Tue, 23 Apr 2013 01:58:53 +0000</pubDate>
       
       <guid>https://chouj.github.io/779/</guid>
-      <description>ta是 @qna_cn https://twitter.com/qna_cn 
-用法： fo@qna_cn以获得入群授权，然后发文带上@qna_cn并加上 #问大家 发布； 
-会使用这个id来群发问题的目标用户： 1、在自己推上发问没反馈或反馈不多的 会fo这个id的目标用户： 2、看看大家都问些啥，有闲，愿意帮人解答的 3、看看大家都问些啥，找找有没有自己也想问的 和知乎及V2EX问与答的区别？ 1、以Twitter为平台，不需要登录。 2、问题不需要很高端，很那么回事，你可以问“二手iphone4求估价”之类即时性强的问题 如果这个id有大量活跃的fo，你也许愿意去用，只要ta的fo数大过你自己的；但我想问，你会愿意fo这样一个天天代人发问的帐号么？ 这是个关键。要是这个id不能积攒大量fo，那ta就没法生存；会堕入互动少，进而无人问津的恶性循环。
-虽然不知能否解决这个问题，但起码得有内容。所以我冒昧地用ifttt将V2EX问答区和知乎精选的内容输出到这个帐号上，算是原始积累吧。
-其实我对ta不抱太大希望，因为我搞出来的东西经常没人气，泪奔。</description>
+      <description>&lt;p&gt;&lt;del&gt;&lt;span style=&#34;color: #111111; font-family: Helvetica, Arial, sans-serif; line-height: 21px;&#34;&gt;ta是 &lt;a title=&#34;Q&amp;A_cn&#34; href=&#34;https://twitter.com/qna_cn&#34; target=&#34;_blank&#34;&gt;@qna_cn&lt;/a&gt; &lt;/span&gt;&lt;a style=&#34;cursor: pointer; color: #666699; text-decoration: none; font-family: Helvetica, Arial, sans-serif; line-height: 21px;&#34; rel=&#34;nofollow&#34; href=&#34;http://www.douban.com/link2?url=https%3A//twitter.com/qna_cn&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;https://twitter.com/qna_cn&#34;&gt;https://twitter.com/qna_cn&lt;/a&gt;&lt;/a&gt; &lt;span style=&#34;color: #111111; font-family: Helvetica, Arial, sans-serif; line-height: 21px;&#34;&gt;&lt;/span&gt;&lt;/del&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -97,8 +87,7 @@
       <pubDate>Fri, 12 Apr 2013 06:41:49 +0000</pubDate>
       
       <guid>https://chouj.github.io/777/</guid>
-      <description>RSS Feed to Twitter: IFTTT, TwitterFeed, etc. Twitter Tweets to Weibo: twitter-to-weibo-appengine  感谢GAE、github、新浪微博Gtalk机器人。
-警告：一折腾就死星人请绕行。</description>
+      <description>&lt;p&gt;警告：一折腾就死星人请绕行。&lt;/p&gt;</description>
     </item>
     
     <item>
