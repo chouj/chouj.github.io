@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8" />
+
+  
+  <title>中尺度涡可以占掉全球水域表面的1/3？那把它们都塞去大西洋吧！</title>
+
+  
+  
+  <link href="//cdn.jsdelivr.net" rel="dns-prefetch">
+  <link href="//cdnjs.cloudflare.com" rel="dns-prefetch">
+  
+  <link href="//at.alicdn.com" rel="dns-prefetch">
+  
+  <link href="//fonts.googleapis.com" rel="dns-prefetch">
+  <link href="//fonts.gstatic.com" rel="dns-prefetch">
+  <link href="///disqus.com" rel="dns-prefetch">
+  <link href="//c.disquscdn.com" rel="dns-prefetch">
+  
+  <link href="//www.google-analytics.com" rel="dns-prefetch">
+  
+
+  
+
+  
+  <meta name="author" content="Chi">
+  <meta name="description" content="　海洋中尺度涡（百公里尺度）基本遍布各大洋。把同一时刻所有涡的面积加起来，接近全球水域面积的三分之一。这当然是算出来的。怎么形象地理解这回事呢？我们不妨玩一把数据可视化，把中尺度涡都挪去大西洋，看看能不能塞满它。为什么选大西洋？因为Wikipedia记载它覆盖了全球水域面积的29%，正好适合以涡填海。
+">
+
+  
+  
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@geomatlab">
+    <meta name="twitter:title" content="中尺度涡可以占掉全球水域表面的1/3？那把它们都塞去大西洋吧！">
+    <meta name="twitter:description" content="　海洋中尺度涡（百公里尺度）基本遍布各大洋。把同一时刻所有涡的面积加起来，接近全球水域面积的三分之一。这当然是算出来的。怎么形象地理解这回事呢？我们不妨玩一把数据可视化，把中尺度涡都挪去大西洋，看看能不能塞满它。为什么选大西洋？因为Wikipedia记载它覆盖了全球水域面积的29%，正好适合以涡填海。
+">
+    <meta name="twitter:image" content="/images/avatar.png">
+  
+
+  
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="中尺度涡可以占掉全球水域表面的1/3？那把它们都塞去大西洋吧！">
+  <meta property="og:description" content="　海洋中尺度涡（百公里尺度）基本遍布各大洋。把同一时刻所有涡的面积加起来，接近全球水域面积的三分之一。这当然是算出来的。怎么形象地理解这回事呢？我们不妨玩一把数据可视化，把中尺度涡都挪去大西洋，看看能不能塞满它。为什么选大西洋？因为Wikipedia记载它覆盖了全球水域面积的29%，正好适合以涡填海。
+">
+  <meta property="og:url" content="https://chouj.github.io/999/">
+  <meta property="og:image" content="/images/avatar.png">
+
+
+
+
+<meta name="generator" content="Hugo 0.55.6">
+
+
+<link rel="canonical" href="https://chouj.github.io/999/">
+
+<meta name="renderer" content="webkit">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="format-detection" content="telephone=no,email=no,adress=no">
+<meta http-equiv="Cache-Control" content="no-transform">
+
+
+<meta name="robots" content="index,follow">
+<meta name="referrer" content="origin-when-cross-origin">
+
+
+
+
+
+
+
+<meta name="theme-color" content="#02b875">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="抽筋儿的话语权">
+<meta name="msapplication-tooltip" content="抽筋儿的话语权">
+<meta name='msapplication-navbutton-color' content="#02b875">
+<meta name="msapplication-TileColor" content="#02b875">
+<meta name="msapplication-TileImage" content="/icons/icon-144x144.png">
+<link rel="icon" href="https://chouj.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://chouj.github.io/icons/icon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://chouj.github.io/icons/icon-32x32.png">
+<link rel="icon" sizes="192x192" href="https://chouj.github.io/icons/icon-192x192.png">
+<link rel="apple-touch-icon" href="https://chouj.github.io/icons/icon-152x152.png">
+<link rel="manifest" href="https://chouj.github.io/manifest.json">
+
+
+<link rel="preload" href="https://chouj.github.io/styles/main-rendered.min.css" as="style">
+
+
+<link rel="preload" href="https://fonts.googleapis.com/css?family=Lobster" as="style">
+<link rel="preload" href="https://chouj.github.io/images/avatar.png" as="image">
+<link rel="preload" href="https://chouj.github.io/images/grey-prism.svg" as="image">
+
+
+<style>
+  body {
+    background: rgb(244, 243, 241) url('/images/grey-prism.svg') repeat fixed;
+  }
+</style>
+<link rel="stylesheet" href="https://chouj.github.io/styles/main-rendered.min.css">
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.2/dist/medium-zoom.min.js"></script>
+
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/video.js@7.3.0/dist/video-js.min.css">
+
+
+
+  
+  
+<!--[if lte IE 8]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/videojs-ie8@1.1.2/dist/videojs-ie8.min.js"></script>
+<![endif]-->
+
+<!--[if lte IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/eligrey-classlist-js-polyfill@1.2.20180112/classList.min.js"></script>
+<![endif]-->
+
+
+</head>
+  <body>
+    <div class="suspension">
+      <a role="button" aria-label="Go to top" title="Go to top" class="to-top is-hide"><span class="icon icon-up" aria-hidden="true"></span></a>
+      
+        
+	<a role="button" aria-label="Go to comments" title="Go to comments" class="to-comment" href="#disqus_thread"><span class="icon icon-comment" aria-hidden="true"></span></a>
+        
+      
+    </div>
+    
+    
+  <header class="site-header">
+  <a href="https://chouj.github.io/"><img class="avatar" src="https://chouj.github.io/images/avatar.png" alt="Avatar"></a>
+  
+  <h2 class="title"><a href="https://chouj.github.io/">抽筋儿的话语权</a></h2>
+  
+  <p class="subtitle">努力作个有情调的人，“调”字念二声。</p>
+  <button class="menu-toggle" type="button" aria-label="Main Menu" aria-expanded="false" tab-index="0">
+    <span class="icon icon-menu" aria-hidden="true"></span>
+  </button>
+
+  <nav class="site-menu collapsed">
+    <h2 class="offscreen">Main Menu</h2>
+    <ul class="menu-list">
+      
+      
+      
+      
+        <li class="menu-item
+          
+          
+           is-active">
+          <a href="https://chouj.github.io/">首页</a>
+        </li>
+      
+        <li class="menu-item
+          
+          
+          ">
+          <a href="https://chouj.github.io/links/">友链</a>
+        </li>
+      
+        <li class="menu-item
+          
+          
+          ">
+          <a href="https://chouj.github.io/tags/">标签</a>
+        </li>
+      
+        <li class="menu-item
+          
+          
+          ">
+          <a href="https://chouj.github.io/410/">留言板</a>
+        </li>
+      
+    </ul>
+  </nav>
+  <nav class="social-menu collapsed">
+    <h2 class="offscreen">Social Networks</h2>
+    <ul class="social-list"><li class="social-item">
+          <a href="//github.com/chouj" rel="me" title="GitHub" aria-label="GitHub">
+	    <span class="icon icon-github" aria-hidden="true"></span>
+          </a>
+        </li><li class="social-item">
+          <a href="//twitter.com/geomatlab" rel="me" title="Twitter" aria-label="Twitter">
+            <span class="icon icon-twitter" aria-hidden="true"></span>
+          </a>
+        </li><li class="social-item">
+          <a rel="alternate" type="application/rss+xml" href="https://feeds.feedburner.com/xuchi" title="RSS" aria-label="RSS">
+            <span class="icon icon-rss" aria-hidden="true"></span>
+          </a>
+        </li></ul>
+  </nav>
+</header>
+
+  <section class="main post-detail">
+    <header class="post-header">
+      <h1 class="post-title">中尺度涡可以占掉全球水域表面的1/3？那把它们都塞去大西洋吧！</h1>
+      <p class="post-meta">@Chi · Jul 7, 2019 · 3 min read</p>
+    </header>
+    <article class="post-content"><p>　　海洋中尺度涡（百公里尺度）基本遍布各大洋。把同一时刻所有涡的面积加起来，接近全球水域面积的三分之一。这当然是算出来的。怎么形象地理解这回事呢？我们不妨玩一把数据可视化，把中尺度涡都挪去大西洋，看看能不能塞满它。为什么选大西洋？因为<a href="https://www.wikiwand.com/en/Atlantic_Ocean">Wikipedia</a>记载它覆盖了全球水域面积的29%，正好适合以涡填海。</p>
+
+<hr />
+
+<h2 id="资料记载">资料记载</h2>
+
+<p>　　在挪涡之前，先看看哪些论文记载了中尺度涡覆盖面积在水域面积中的占比。</p>
+
+<p>　　当提到涡覆盖了近三分之一水域面积这一数据时，大家多引用的是Alexis Chaigneau关于四个主要东边界上升流区内的中尺度涡的文章<sup>1</sup>：</p>
+
+<blockquote>
+<p><strong>The four major eastern boundary upwelling systems</strong>: &ldquo;The total area covered by CE and AE represents <strong>25–30%</strong> of the considered oceanic region (Table 1).&rdquo;</p>
+</blockquote>
+
+<p><center><img src="https://i.loli.net/2019/07/01/5d1a28dff00d461126.png" alt="Table 1" />
+Table 1 Chaigneau, et al. (2009)<sup>1</sup></center></p>
+
+<p>Alexis还有一篇更早的08年的文章<sup>2</sup>，关注的是秘鲁沿岸的中尺度涡，也计算了涡在其研究海区的日常覆盖面积：</p>
+
+<blockquote>
+<p>Mesoscale eddies <strong>off Peru</strong>: &ldquo;The mesoscale structures cover an average total area of around 6.5105 km<sup>2</sup>, representing <strong>25%</strong> of the study region.&rdquo;</p>
+</blockquote>
+
+<p>其它海域关于涡盖面积比例的文章就出现得比较晚。比如Haussman et al. (2017)<sup>3</sup>：</p>
+
+<blockquote>
+<p><strong>The Southern Ocean</strong>: &ldquo;With a fraction of time and space of the SO covered by eddy cores of approximately <strong>20%</strong>, this study suggests a small impact of eddies on deepening the climatological mean SO winter mixed layer. &ldquo;</p>
+</blockquote>
+
+<p>和Czeschel et al. (2018)<sup>4</sup>：</p>
+
+<blockquote>
+<p><strong>The eastern tropical South Pacific</strong>: &ldquo;Both types of eddies have an average radius of about 70 km and on average <strong>15 %</strong> of the ETSP are covered everyday with eddies (Fig. 1a)&rdquo;</p>
+</blockquote>
+
+<p>　　在我们南海，计算了涡覆盖比例的文献算是较多的。较早时，有修鹏研究员的文章<sup>5</sup>，统计水深1000m以上区域的南海中尺度涡平均覆盖了<strong>9.8%</strong>的南海面积。18年，有两篇文章重新提及了这个百分比。一篇是詹海刚研究员团队何庆友老师的文章<sup>6</sup>，从涡内Argo数量在总数量中等占比，推知南海涡覆盖面积占比大概在<strong>25%</strong>：</p>
+
+<blockquote>
+<p>A total number of 970 and 924 Argo proﬁles are located within 1R of the compositecyclonic and anticyclonic eddies, respectively. They account for 27% and 23% of the total number of proﬁles that are associated with cyclonic and anticyclonic eddies, respectively. These proportions support that eddies occupy <strong>∼25%</strong> of the oceanic surface in the SCS.</p>
+</blockquote>
+
+<p>另一篇是董昌明教授团队的文章<sup>7</sup>，他们计算了涡覆盖占比的月变化（如下图）：</p>
+
+<blockquote>
+<p>Xiu et al. <sup>5</sup> suggested the mean area covered by eddies with depths greater than 1000 m was around <strong>9.8%</strong> of the SCS area each year. Figure 3 illustrates the monthly variation of the percentage of eddy covered area occupying the whole size in the SCS. The mean area covered by eddies is <strong>16.0–20.7%</strong> in the SCS, where the highest (lowest) percentage appears in March (January).</p>
+</blockquote>
+
+<p><center> <img src="https://upload.cc/i1/2019/07/07/W4XmIy.png" alt="=300" />
+Figure 3 in Sun et al. (2018)<sup>7</sup>. Monthly variation of the percentage of the eddy surface size compared to the whole size of the South China Sea (blue line) and the percentage of eddy number occupying all the eddies (black line). The standard errors are also shown in the figure.
+</center></p>
+
+<p>　　可能还有文献有相关记载，欢迎补充。</p>
+
+<hr />
+
+<h2 id="开始挪涡">开始挪涡</h2>
+
+<h3 id="所用数据">所用数据</h3>
+
+<ul>
+<li><a href="https://www.aviso.altimetry.fr/en/data/products/value-added-products/global-mesoscale-eddy-trajectory-product.html">Global Mesoscale Eddy Track Atlas Product released by AVISO</a></li>
+</ul>
+
+<p>　　这套资料并未有中尺度涡边缘的位置数据，所以每个涡均以其等效半径所画的圆来表示。</p>
+
+<h3 id="挪涡方法">挪涡方法</h3>
+
+<h4 id="概括">概括</h4>
+
+<p>　　随机生成一个大西洋里的经纬位置放被挪涡，找到能塞进这个位置的最大的涡，确保这个涡的圆形不与岸界，大西洋边界和其它涡圆形重叠。</p>
+
+<h4 id="具体步骤">具体步骤</h4>
+
+<ul>
+<li>先把大西洋的涡列个list，这些涡不需要挪。每挪一个涡进大西洋，就把这个涡的新位置依序放进这个list；</li>
+<li>把要挪的不在大西洋的涡也建立一个list，这个list就是待挪涡的list。每挪走一个涡，这个list就短一点，直到list里所有涡都被挪走；</li>
+<li>随机生成一个经纬度，作为可能的放涡的地方；诊断这个随机生成的经纬度是否在大西洋里；</li>
+<li>如果在大西洋里，就计算该经纬度与大西洋边界、岸界和所有已在大西洋内的涡（包括本来就在的和此前挪进去的）的圆形边缘的距离；</li>
+<li>上述距离的最小值代表了能塞进该位置的涡的最大半径。如果塞进一个半径大于该最小值的涡，则该涡可能与大西洋边界或岸界或已存在的涡发生重叠。</li>
+<li>在待挪涡list里搜寻是否有涡可以满足半径小于上述距离最小值；</li>
+<li>如果有，就把这个涡挪走；如果没有，就重新生成新经纬度，重复上述过程，直到所有涡都被挪进大西洋。</li>
+<li>能否都挪完看人品。有可能会塞不下。</li>
+</ul>
+
+<h3 id="所需依赖">所需依赖</h3>
+
+<ul>
+<li><p><a href="https://www.marineregions.org/gazetteer.php?p=details&amp;id=1902">大西洋边界的数据</a>，包括岛屿边界。我生成了一个<a href="https://github.com/chouj/MoveEddiesIntoAtlantic/raw/master/AtlanticOceanBoundary.mat">.mat格式的</a>。</p></li>
+
+<li><p><strong><a href="https://www.eoas.ubc.ca/~rich/map.html">The M_Map toolbox</a></strong>  和它的  <strong>m_coasts.mat</strong>。</p></li>
+
+<li><p><a href="https://ww2.mathworks.cn/matlabcentral/fileexchange/45268-land_or_ocean-m">land_or_ocean.m</a></p></li>
+</ul>
+
+<h3 id="所用matlab版本">所用MATLAB版本</h3>
+
+<ul>
+<li>R2015a</li>
+</ul>
+
+<h3 id="致谢">致谢</h3>
+
+<ul>
+<li><a href="https://www.zhihu.com/question/53012468">如何生成多个互不重叠的不同半径圆？</a></li>
+</ul>
+
+<hr />
+
+<h2 id="最终效果图">最终效果图</h2>
+
+<h5 id="以1993年1月1日数据为例">以1993年1月1日数据为例：</h5>
+
+<p><img src="https://github.com/chouj/MoveEddiesIntoAtlantic/blob/master/MovingAllEddiesIntoAtlantic_19930101.gif?raw=true" alt="# What If moving all oceanic mesoscale eddies into the vast domain of the Atlantic Ocean ?" /></p>
+
+<p><img src="https://upload.cc/i1/2019/07/07/QOzr6F.png" alt="[https://github.com/chouj/MoveEddiesIntoAtlantic](https://github.com/chouj/MoveEddiesIntoAtlantic)" /></p>
+
+<p>　　效果还是挺赞的，大西洋被塞得满满当当。比直接拿数据去算涡覆盖占比要费事多了，但是实现动画的过程和结果都很有趣，成功把科研升华为科普。</p>
+
+<hr />
+
+<h2 id="代码开源">代码开源</h2>
+
+<p><a href="https://github.com/chouj/MoveEddiesIntoAtlantic">https://github.com/chouj/MoveEddiesIntoAtlantic</a></p>
+
+<hr />
+
+<h4 id="参考文献">参考文献</h4>
+
+<ol>
+<li>Alexis Chaigneau, Gérard Eldin, Boris Dewitte (<strong>2009</strong>), Eddy activity in the four major upwelling systems from satellite altimetry (1992–2007), Progress in Oceanography, Volume 83, Issues 1–4, Pages 117-123, ISSN 0079-6611,<br />
+<a href="https://doi.org/10.1016/j.pocean.2009.07.012">https://doi.org/10.1016/j.pocean.2009.07.012</a>.</li>
+<li>Alexis Chaigneau, Arnaud Gizolme, Carmen Grados (<strong>2008</strong>), Mesoscale eddies off Peru in altimeter records: Identification algorithms and eddy spatio-temporal patterns, Progress in Oceanography, Volume 79, Issues 2–4, Pages 106-119,<br />
+ISSN 0079-6611, <a href="https://doi.org/10.1016/j.pocean.2008.10.013">https://doi.org/10.1016/j.pocean.2008.10.013</a>.</li>
+<li>Hausmann, U., McGillicuddy, D. J., and Marshall, J. (<strong>2017</strong>), Observed mesoscale eddy signatures in Southern Ocean surface mixed‐layer depth, J. Geophys. Res. Oceans, 122, 617– 635</li>
+<li>Czeschel, R., Schütte, F., Weller, R. A., and Stramma, L. (<strong>2018</strong>): Transport, properties, and life cycles of mesoscale eddies in the eastern tropical South Pacific, Ocean Sci., 14, 731-750, <a href="https://doi.org/10.5194/os-14-731-2018">https://doi.org/10.5194/os-14-731-2018</a>.</li>
+<li>Xiu, P.; Chai, F.; Shi, L.; Xue, H.; Chao, Y (<strong>2010</strong>). A census of eddy activities in the South China Sea during 1993–2007.  J. Geophys. Res., 115.</li>
+<li>He, Qingyou &amp; Zhan, Haigang &amp; Cai, Shuqun &amp; He, Yinghui &amp; Huang, Gaolong &amp; Zhan, Weikang. (<strong>2018</strong>). A New Assessment of Mesoscale Eddies in the South China Sea: Surface Features, Three-Dimensional Structures, and Thermohaline Transports. Journal of Geophysical Research: Oceans. 10.1029/2018JC014054.<br /></li>
+<li>Sun, W.; Dong, C.; Tan, W.; Liu, Y.; He, Y. ; Wang, J. (<strong>2018</strong>), Vertical Structure Anomalies of Oceanic Eddies and Eddy-Induced Transports in the South China Sea. Remote Sens. 10, 795.</li>
+</ol></article>
+    <footer class="post-footer">
+      
+      <ul class="post-tags">
+        
+          <li><a href="https://chouj.github.io/tags/%E4%B8%AD%E5%B0%BA%E5%BA%A6%E6%B6%A1"><span class="tag">中尺度涡</span></a></li>
+        
+          <li><a href="https://chouj.github.io/tags/%E5%A4%A7%E8%A5%BF%E6%B4%8B"><span class="tag">大西洋</span></a></li>
+        
+          <li><a href="https://chouj.github.io/tags/%E5%8F%AF%E8%A7%86%E5%8C%96"><span class="tag">可视化</span></a></li>
+        
+          <li><a href="https://chouj.github.io/tags/%E6%B5%B7%E6%B4%8B%E5%AD%A6"><span class="tag">海洋学</span></a></li>
+        
+          <li><a href="https://chouj.github.io/tags/%E7%A7%91%E6%99%AE"><span class="tag">科普</span></a></li>
+        
+          <li><a href="https://chouj.github.io/tags/%E7%A7%91%E7%A0%94"><span class="tag">科研</span></a></li>
+        
+      </ul>
+      
+      <p class="post-copyright">
+        © This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.
+      </p>
+    </footer>
+    
+      <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "chouj" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      
+    
+  </section>
+  
+<footer class="site-footer">
+  <p>© 2017-2019 抽筋儿的话语权</p>
+  <p>Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> with theme <a href="https://github.com/laozhu/hugo-nuo" target="_blank" rel="noopener">Nuo</a>.</p>
+  
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/smooth-scroll@15.0.0/dist/smooth-scroll.min.js"></script>
+
+
+
+<script async src="https://cdn.jsdelivr.net/npm/video.js@7.3.0/dist/video.min.js"></script>
+
+
+
+
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [['$','$'], ['\\(','\\)']],
+      displayMath: [['$$','$$'], ['\\[','\\]']],
+      processEscapes: true,
+      processEnvironments: true,
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+      TeX: { equationNumbers: { autoNumber: "AMS" },
+      extensions: ["AMSmath.js", "AMSsymbols.js"] }
+    },
+  });
+</script>
+<script type="text/x-mathjax-config">
+  // Fix <code> tags after MathJax finishes running. This is a
+  // hack to overcome a shortcoming of Markdown. Discussion at
+  // https://github.com/mojombo/jekyll/issues/199
+  MathJax.Hub.Queue(() => {
+    MathJax.Hub.getAllJax().map(v => v.SourceElement().parentNode.className += ' has-jax');
+  });
+</script>
+
+
+
+<script src="https://chouj.github.io/scripts/index.min.js"></script>
+
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('\/service-worker.js').then(function() {
+      console.log('[ServiceWorker] Registered');
+    });
+  }
+</script>
+
+
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-559717-4', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+
+
+
+
+
+  </body>
+</html>
