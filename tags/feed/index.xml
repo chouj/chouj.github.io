@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Feed on 抽筋儿的话语权</title>
-    <link>https://chouj.github.io/tags/feed/</link>
+    <link>//chouj.github.io/tags/feed/</link>
     <description>Recent content in Feed on 抽筋儿的话语权</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
     <lastBuildDate>Tue, 06 Jul 2010 08:58:39 +0000</lastBuildDate>
     
-	<atom:link href="https://chouj.github.io/tags/feed/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//chouj.github.io/tags/feed/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>[翻译]给Twitter Favorites添加一个Feed</title>
-      <link>https://chouj.github.io/566/</link>
+      <link>//chouj.github.io/566/</link>
       <pubDate>Tue, 06 Jul 2010 08:58:39 +0000</pubDate>
       
-      <guid>https://chouj.github.io/566/</guid>
+      <guid>//chouj.github.io/566/</guid>
       <description>原文：Create an RSS Feed for Twitter Favorites
 作者：MARK EVANS
 推特的神奇之处在于，在这条信息长流之中，汇集了好玩的点子、稀奇的思绪、纷杂的内容和用户的观点。当然推特也有让人不爽的地方，那就是难以将这些存留下来。
@@ -29,10 +29,10 @@ http://twitter.com/favorites/[**insert_your_ID_here**].rss就是你的收藏的R
     
     <item>
       <title>“枪版”全文RSS Feed的是与非</title>
-      <link>https://chouj.github.io/526/</link>
+      <link>//chouj.github.io/526/</link>
       <pubDate>Tue, 18 Aug 2009 16:56:04 +0000</pubDate>
       
-      <guid>https://chouj.github.io/526/</guid>
+      <guid>//chouj.github.io/526/</guid>
       <description>&lt;p&gt;&lt;img title=&#34;“枪版”全文RSS Feed的是与非&#34; src=&#34;http://pic.yupoo.com/xcchris/188367ee3952/am5ayc5h.jpg&#34; alt=&#34;“枪版”全文RSS Feed的是与非&#34; width=&#34;630&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;欣欣然想在这里发布一些推友制作的全文RSS Feeds的时候，我想到了版权问题，于是有了这个名字：&lt;strong&gt;“枪版”全文RSS Feed&lt;/strong&gt;。&lt;/p&gt;
@@ -44,10 +44,10 @@ http://twitter.com/favorites/[**insert_your_ID_here**].rss就是你的收藏的R
     
     <item>
       <title>[翻译]10个用于合并RSS Feeds的工具</title>
-      <link>https://chouj.github.io/475/</link>
+      <link>//chouj.github.io/475/</link>
       <pubDate>Fri, 15 Feb 2008 17:17:46 +0000</pubDate>
       
-      <guid>https://chouj.github.io/475/</guid>
+      <guid>//chouj.github.io/475/</guid>
       <description>&lt;p&gt;原文：&lt;a href=&#34;http://www.tothepc.com/archives/10-tools-to-combine-mix-blend-multiple-rss-feeds&#34; target=&#34;_blank&#34;&gt;10 Tools to Combine, Mix, Blend Multiple RSS Feeds&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;作者：Davinde&lt;/p&gt;
@@ -65,10 +65,10 @@ http://twitter.com/favorites/[**insert_your_ID_here**].rss就是你的收藏的R
     
     <item>
       <title>RSS资源：国家地理新闻</title>
-      <link>https://chouj.github.io/448/</link>
+      <link>//chouj.github.io/448/</link>
       <pubDate>Mon, 30 Jul 2007 15:39:20 +0000</pubDate>
       
-      <guid>https://chouj.github.io/448/</guid>
+      <guid>//chouj.github.io/448/</guid>
       <description>国家地理新闻频道的头条和新闻概要已经可以通过RSS Feed实现订阅啦！虽然只能看到小图和简介，想见到精美图片和新闻还是要访问网站，但聊胜于无。RSS地址如下：
   http://news.nationalgeographic.com/index.rss
 [via 1 2]</description>
@@ -76,10 +76,10 @@ http://twitter.com/favorites/[**insert_your_ID_here**].rss就是你的收藏的R
     
     <item>
       <title>RSS资源：绿色和平组织</title>
-      <link>https://chouj.github.io/447/</link>
+      <link>//chouj.github.io/447/</link>
       <pubDate>Mon, 30 Jul 2007 15:15:08 +0000</pubDate>
       
-      <guid>https://chouj.github.io/447/</guid>
+      <guid>//chouj.github.io/447/</guid>
       <description>[]1绿色和平(中国)的最新消息{.xml}
 绿色和平(中国)的新闻发布{.xml}
 绿色和平组织一直致力于环保事业，很多新闻和事项都值得我们大家关注！英语优秀的朋友也可以订阅绿色和平组织的国际新闻Feed。另，
@@ -93,10 +93,10 @@ http://www.greenpeace.org/rss/china/zh/press/releases
     
     <item>
       <title>Feeds的翻译 正太们的照片</title>
-      <link>https://chouj.github.io/247/</link>
+      <link>//chouj.github.io/247/</link>
       <pubDate>Sun, 22 Apr 2007 08:45:00 +0000</pubDate>
       
-      <guid>https://chouj.github.io/247/</guid>
+      <guid>//chouj.github.io/247/</guid>
       <description>译文网是个好去处，blog上没话题可写了，就可以上去淘两篇文章翻译翻译，还可以练练英语。前些天在那里看到一个帖，问Feeds如何翻译比较好，有说翻译为飞子的，有逗乐说翻译为痱子的。我感觉呢，不翻为妙。九几年时，书店里还能见到一个词：“视窗操作系统”,现在你还见的到么？这种势必会变得众人皆知的词，保留原样最好。
 写童声伴我心的时候转了两张图，觉得不大过瘾，还真让我撞见过瘾的啦，放牛班的春天广州音乐会官方博客，放出了一堆小孩儿照片，想看照片的筒子们有福了！！
 给Technorati.com的论坛留了言，原因是搜索能搜出本blog有45个反向链接，但Links Counts中总是显示“0 links from 0 sites”,让我很郁闷，参见侧栏中那个大大的零。要说的是，那个faq论坛里，留言的大部分都是这个问题，唉，Technorati.com也不靠谱啊。</description>

@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo on 抽筋儿的话语权</title>
-    <link>https://chouj.github.io/tags/hugo/</link>
+    <link>//chouj.github.io/tags/hugo/</link>
     <description>Recent content in Hugo on 抽筋儿的话语权</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
     <lastBuildDate>Sat, 29 Jun 2019 08:54:42 +0800</lastBuildDate>
     
-	<atom:link href="https://chouj.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//chouj.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>以Github Pages为家 以Hugo为架</title>
-      <link>https://chouj.github.io/moved-to-hugo/</link>
+      <link>//chouj.github.io/moved-to-hugo/</link>
       <pubDate>Sat, 29 Jun 2019 08:54:42 +0800</pubDate>
       
-      <guid>https://chouj.github.io/moved-to-hugo/</guid>
+      <guid>//chouj.github.io/moved-to-hugo/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://d33wubrfki0l68.cloudfront.net/30790d6888bd8af863fb2b5c33a7f337cdbda243/4e867/images/hugo-logo-wide.svg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;　　本博客的第四个家：&lt;a href=&#34;https://pages.github.com/&#34;&gt;Github Pages&lt;/a&gt; + &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;，终于初步搭建完成了。考虑到静态化的速度，选择了Hugo，特此记录。&lt;/p&gt;</description>

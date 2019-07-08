@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>buttonr on 抽筋儿的话语权</title>
-    <link>https://chouj.github.io/tags/buttonr/</link>
+    <link>//chouj.github.io/tags/buttonr/</link>
     <description>Recent content in buttonr on 抽筋儿的话语权</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
     <lastBuildDate>Wed, 25 Apr 2007 09:44:35 +0000</lastBuildDate>
     
-	<atom:link href="https://chouj.github.io/tags/buttonr/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//chouj.github.io/tags/buttonr/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>buttonr.com已推出Feed按钮定制</title>
-      <link>https://chouj.github.io/421/</link>
+      <link>//chouj.github.io/421/</link>
       <pubDate>Wed, 25 Apr 2007 09:44:35 +0000</pubDate>
       
-      <guid>https://chouj.github.io/421/</guid>
+      <guid>//chouj.github.io/421/</guid>
       <description>本站每篇文章下面的Bookmark this的按钮，就是在buttonr.com生成的。之前该站只提供网摘收录按钮的生成，而且只有一种样式，现在不仅放出了多款样式，而且同时提供Rss按钮的定制。其方式和FeedButton提供的按钮功能一样，鼠标移动到按钮上，即弹出下拉窗口，提供多种订阅工具的选择。如下图：
 
 同时提供不同的按钮式样供用户选择：

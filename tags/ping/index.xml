@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ping on 抽筋儿的话语权</title>
-    <link>https://chouj.github.io/tags/ping/</link>
+    <link>//chouj.github.io/tags/ping/</link>
     <description>Recent content in ping on 抽筋儿的话语权</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
     <lastBuildDate>Fri, 11 May 2007 00:51:45 +0000</lastBuildDate>
     
-	<atom:link href="https://chouj.github.io/tags/ping/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//chouj.github.io/tags/ping/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>嗨!我更新了，你要抓取哟！</title>
-      <link>https://chouj.github.io/430/</link>
+      <link>//chouj.github.io/430/</link>
       <pubDate>Fri, 11 May 2007 00:51:45 +0000</pubDate>
       
-      <guid>https://chouj.github.io/430/</guid>
+      <guid>//chouj.github.io/430/</guid>
       <description>本文写给以WordPress搭建blog的bloggers
 当您更新了blog，一定希望订阅您blog的读者能第一时间看到您的文字。但一次次前去通知页面手动更新是非常麻烦的事情，那么怎么样能让Feed服务商的爬虫自动前来抓取您更新了的内容呢？借用WP后台的“更新服务”，我们就可以做到。
 上图即为WP后台&amp;#8211;选项&amp;#8211;撰写标签下的“更新服务”，可自动通知的站点包括各大搜索引擎，RSS聚合站和Feed服务商。Wordpress.org官方站提供了一个可选的网址列表，如下：

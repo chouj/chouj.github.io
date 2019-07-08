@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>RSS广告 on 抽筋儿的话语权</title>
-    <link>https://chouj.github.io/tags/rss%E5%B9%BF%E5%91%8A/</link>
+    <link>//chouj.github.io/tags/rss%E5%B9%BF%E5%91%8A/</link>
     <description>Recent content in RSS广告 on 抽筋儿的话语权</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
     <lastBuildDate>Mon, 02 Jul 2007 16:47:24 +0000</lastBuildDate>
     
-	<atom:link href="https://chouj.github.io/tags/rss%E5%B9%BF%E5%91%8A/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//chouj.github.io/tags/rss%E5%B9%BF%E5%91%8A/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Feedsky:国内首推RSS广告业务！？</title>
-      <link>https://chouj.github.io/439/</link>
+      <link>//chouj.github.io/439/</link>
       <pubDate>Mon, 02 Jul 2007 16:47:24 +0000</pubDate>
       
-      <guid>https://chouj.github.io/439/</guid>
+      <guid>//chouj.github.io/439/</guid>
       <description>老早前，keso就多次提到RSS广告问题（1、2、3、4），RSS具备广告投放价值已经成为一种事实。国外的RSS内嵌广告早就有所发展，比较成熟的是Feedburner Ads项目和Pheedo(可参考 7个用Rss Feed赚钱的办法——前博客)。
 &amp;nbsp;  &amp;nbsp; 刚从盗盗那里获悉，国内知名Feed烧制托管服务商Feedsky也将尝试RSS展示广告，虽然目前尚处在小范围测试阶段，但这足以视为国内RSS应用上的大事件。有兴趣的朋友可参考盗盗的介绍——Feedsky进军RSS广告行业!和Feedsky RSS展示广告帮助文档。
 有朋友第一反应是：收入来啦！ XD ..

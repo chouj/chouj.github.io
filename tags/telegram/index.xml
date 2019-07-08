@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Telegram on 抽筋儿的话语权</title>
-    <link>https://chouj.github.io/tags/telegram/</link>
+    <link>//chouj.github.io/tags/telegram/</link>
     <description>Recent content in Telegram on 抽筋儿的话语权</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
     <lastBuildDate>Fri, 19 Jan 2018 09:15:41 +0000</lastBuildDate>
     
-	<atom:link href="https://chouj.github.io/tags/telegram/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//chouj.github.io/tags/telegram/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>用MATLAB实现便便时间间隔的定期统计分析</title>
-      <link>https://chouj.github.io/792/</link>
+      <link>//chouj.github.io/792/</link>
       <pubDate>Fri, 19 Jan 2018 09:15:41 +0000</pubDate>
       
-      <guid>https://chouj.github.io/792/</guid>
+      <guid>//chouj.github.io/792/</guid>
       <description>&lt;p&gt;为了达成如题的目的，实现方法已经有了早期的两个版本：&lt;/p&gt;
 
 &lt;ul&gt;
@@ -32,10 +32,10 @@
     
     <item>
       <title>Telegram同城广播频道的建立方法</title>
-      <link>https://chouj.github.io/814/</link>
+      <link>//chouj.github.io/814/</link>
       <pubDate>Fri, 15 Sep 2017 02:24:40 +0000</pubDate>
       
-      <guid>https://chouj.github.io/814/</guid>
+      <guid>//chouj.github.io/814/</guid>
       <description>&lt;p&gt;&lt;strong&gt;目标&lt;/strong&gt;：建立一个Telegram频道，自动广播同城文娱活动，如影讯、展览、表演等。&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;工具&lt;/strong&gt;：&lt;a href=&#34;https://www.feed43.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Feed43&lt;/a&gt;、&lt;a href=&#34;https://ifttt.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IFTTT&lt;/a&gt;。&lt;/p&gt;</description>
@@ -43,10 +43,10 @@
     
     <item>
       <title>如何推广Telegram频道</title>
-      <link>https://chouj.github.io/798/</link>
+      <link>//chouj.github.io/798/</link>
       <pubDate>Tue, 12 Sep 2017 03:41:44 +0000</pubDate>
       
-      <guid>https://chouj.github.io/798/</guid>
+      <guid>//chouj.github.io/798/</guid>
       <description>&lt;p&gt;新建立了一个&lt;strong&gt;&lt;a href=&#34;https://t.me/matlab_tips&#34; target=&#34;_blank&#34;&gt;MATLAB TIPS的Telegram频道&lt;/a&gt;&lt;/strong&gt;，欢迎加入。&lt;/p&gt;</description>
     </item>
     

@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>教程 on 抽筋儿的话语权</title>
-    <link>https://chouj.github.io/tags/%E6%95%99%E7%A8%8B/</link>
+    <link>//chouj.github.io/tags/%E6%95%99%E7%A8%8B/</link>
     <description>Recent content in 教程 on 抽筋儿的话语权</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
     <lastBuildDate>Sun, 07 Sep 2008 09:03:45 +0000</lastBuildDate>
     
-	<atom:link href="https://chouj.github.io/tags/%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//chouj.github.io/tags/%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Matlab：如何以线上点的颜色表示强度</title>
-      <link>https://chouj.github.io/307/</link>
+      <link>//chouj.github.io/307/</link>
       <pubDate>Sun, 07 Sep 2008 09:03:45 +0000</pubDate>
       
-      <guid>https://chouj.github.io/307/</guid>
+      <guid>//chouj.github.io/307/</guid>
       <description>Matlab是一款极其好用的数学计算绘图软件。在科研用图绘制功能中，最常见的即为绘制等值线图，这也是一般同学们都掌握的。大家都知道，二维填充等值线图的coutourf(X,Y,Z,n)中，Z=f(X,Y)是一个矩阵，代表X,Y平面上的每一个点对应的值，颜色则表示该值的高低。也就是说，用这个画出来的是一个彩色的面，比如：
 但是，如果Z是一维向量呢？如果我们手上就只有某些X,Y对应的Z值，也不能虚构其他的点值来添进，这时候我们想表示强度怎么办呢？用Plot3吗？没错Plot3确实可以，但3维图并不是很容易识别的。如果想以颜色表示该点某物理量的强度，那又怎么画呢？
 本文就来告诉你，怎么实现点线中用点的颜色表示强度。科研中是会出现这种需要的，比方画卫星轨道、走航轨迹上一些诸如海表面高度、气溶胶浓度之类参量的时候。.

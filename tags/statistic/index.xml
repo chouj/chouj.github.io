@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Statistic on 抽筋儿的话语权</title>
-    <link>https://chouj.github.io/tags/statistic/</link>
+    <link>//chouj.github.io/tags/statistic/</link>
     <description>Recent content in Statistic on 抽筋儿的话语权</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
     <lastBuildDate>Sun, 04 May 2008 17:55:01 +0000</lastBuildDate>
     
-	<atom:link href="https://chouj.github.io/tags/statistic/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//chouj.github.io/tags/statistic/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>订阅统计DIY的可行性</title>
-      <link>https://chouj.github.io/480/</link>
+      <link>//chouj.github.io/480/</link>
       <pubDate>Sun, 04 May 2008 17:55:01 +0000</pubDate>
       
-      <guid>https://chouj.github.io/480/</guid>
+      <guid>//chouj.github.io/480/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;http://wpchina.org/images/w-event-plugin-1.gif&#34; alt=&#34;我为WP中文化做贡献：推荐一款优秀的WP插件&#34; width=&#34;200&#34; height=&#34;80&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;较早前，曾兄曾在博客联盟分析过&lt;a title=&#34;feedburner，feedsky还是原始 feed？&#34; href=&#34;http://blogunion.org/blogging-tips/feedsky-feedburner-or-original-feed.html&#34; target=&#34;_blank&#34;&gt;feed到底要不要托管&lt;/a&gt;，结论是&lt;strong&gt;视订阅量为浮云的稳定独立博客何不使用原始feed&lt;/strong&gt;，这样更新更迅速（无需等托管商的爬虫来采集）。Charlee推出的一款&lt;a title=&#34;Feed统计插件My Feed Stats发布&#34; href=&#34;http://tech.idv2.com/2007/11/12/my-feed-stats/&#34; target=&#34;_blank&#34;&gt;My Feed Stats WordPress Plugin&lt;/a&gt;则让feed不托管的适用范围更加广阔，我们使用原始feed一样能知道订阅量指标，姑且称之为订阅统计DIY。RSS相关曾&lt;a title=&#34;[WP插件]My Feed Stats介绍&#34; href=&#34;http://aboutrss.cn/2008/02/10/my-feed-stats/&#34; target=&#34;_self&#34;&gt;简介过这款插件&lt;/a&gt;，经过我在WP2.5.1下的测试可用后，再次详细推荐一下，没有它我们的讨论就没有意义：&lt;/p&gt;
@@ -39,10 +39,10 @@
     
     <item>
       <title>RSS相关一周年数据统计</title>
-      <link>https://chouj.github.io/83/</link>
+      <link>//chouj.github.io/83/</link>
       <pubDate>Fri, 18 Apr 2008 03:39:03 +0000</pubDate>
       
-      <guid>https://chouj.github.io/83/</guid>
+      <guid>//chouj.github.io/83/</guid>
       <description>RSS相关一周年矣。这一年数据统计：
 **日志68 篇
 评论320 条

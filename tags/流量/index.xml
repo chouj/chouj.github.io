@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>流量 on 抽筋儿的话语权</title>
-    <link>https://chouj.github.io/tags/%E6%B5%81%E9%87%8F/</link>
+    <link>//chouj.github.io/tags/%E6%B5%81%E9%87%8F/</link>
     <description>Recent content in 流量 on 抽筋儿的话语权</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
     <lastBuildDate>Tue, 15 Jul 2008 09:31:06 +0000</lastBuildDate>
     
-	<atom:link href="https://chouj.github.io/tags/%E6%B5%81%E9%87%8F/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//chouj.github.io/tags/%E6%B5%81%E9%87%8F/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>为什么订阅量不是每日累加的？</title>
-      <link>https://chouj.github.io/492/</link>
+      <link>//chouj.github.io/492/</link>
       <pubDate>Tue, 15 Jul 2008 09:31:06 +0000</pubDate>
       
-      <guid>https://chouj.github.io/492/</guid>
+      <guid>//chouj.github.io/492/</guid>
       <description>&lt;p&gt;&lt;strong&gt;为什么订阅量只显示当天的，不是把每天的读者数目加起来？&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;最近被频繁问到这个问题，想必值得作答。先科普下，区分一下Bloggers都关心的几个量。&lt;/p&gt;

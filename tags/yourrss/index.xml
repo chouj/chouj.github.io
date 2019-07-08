@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>yourrss on 抽筋儿的话语权</title>
-    <link>https://chouj.github.io/tags/yourrss/</link>
+    <link>//chouj.github.io/tags/yourrss/</link>
     <description>Recent content in yourrss on 抽筋儿的话语权</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
     <lastBuildDate>Fri, 02 Mar 2007 13:14:12 +0000</lastBuildDate>
     
-	<atom:link href="https://chouj.github.io/tags/yourrss/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//chouj.github.io/tags/yourrss/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Yourrss.jp:用RSS打造Flash滚动标题榜</title>
-      <link>https://chouj.github.io/415/</link>
+      <link>//chouj.github.io/415/</link>
       <pubDate>Fri, 02 Mar 2007 13:14:12 +0000</pubDate>
       
-      <guid>https://chouj.github.io/415/</guid>
+      <guid>//chouj.github.io/415/</guid>
       <description>该站YourRSS.jp提供一款很炫的服务，即打造blog的Flash滚动标题榜，效果如下：
 是不是很棒？想拥有她很简单，只要你有自己blog的RSS地址，不用惧怕其日文界面，这里有Chou截屏给出的步骤：先进入这里。
 按上图操作，即可生成代码，然后将代码贴在您blog的相应地方即可，推荐侧栏sidebar处。只是该站位于日本，可能要稍微loading一下。

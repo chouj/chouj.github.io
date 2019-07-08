@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>激活上网 on 抽筋儿的话语权</title>
-    <link>https://chouj.github.io/tags/%E6%BF%80%E6%B4%BB%E4%B8%8A%E7%BD%91/</link>
+    <link>//chouj.github.io/tags/%E6%BF%80%E6%B4%BB%E4%B8%8A%E7%BD%91/</link>
     <description>Recent content in 激活上网 on 抽筋儿的话语权</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
     <lastBuildDate>Wed, 11 Mar 2009 08:10:45 +0000</lastBuildDate>
     
-	<atom:link href="https://chouj.github.io/tags/%E6%BF%80%E6%B4%BB%E4%B8%8A%E7%BD%91/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//chouj.github.io/tags/%E6%BF%80%E6%B4%BB%E4%B8%8A%E7%BD%91/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>黑莓7230死机重启后再激活上网的技巧</title>
-      <link>https://chouj.github.io/334/</link>
+      <link>//chouj.github.io/334/</link>
       <pubDate>Wed, 11 Mar 2009 08:10:45 +0000</pubDate>
       
-      <guid>https://chouj.github.io/334/</guid>
+      <guid>//chouj.github.io/334/</guid>
       <description>生命不息，折腾不止，黑莓完好的符合了这一精神，尤其是在我把7230折腾上cmwap之后。
 似乎因为软件稳定性问题，我的BB总是会遭遇jvm 523 error系统进程严重错误，然后要求reset。再想上网就成了大问题，坛子里都说要重新导入Service Book云云，这要是在外面没电脑可咋办。综合网上资料摸索了番，发现如下方法可行：
  黑莓死机或其他原因重启后，按shift(键位上A下面那坨)-alt(黑莓上cap这坨)-del三键再重启，重启过程挺快； 然后到Options里的Service Book，把internet[IPPP]undelete恢复回来； 再到TCP里置为空； 打开QQ(肯定有QQ的吧)，登录，进度走到10直到说网络不好连接中断； 回到Options里Service Book，把IPPP这个再删掉，TCP里填上cmwap（我是用的cmwap）； 再开QQ登录，就可以登上啦～～（至少我的这样可以成功）  解决jvm 523 error还是得靠软件，我换成BerryMail的QQ05就好了，没再error reset。现在可以上空中OperaMini、QQ、MSN了，就是Xrose连接不上，放弃之。</description>

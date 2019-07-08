@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>dapper on 抽筋儿的话语权</title>
-    <link>https://chouj.github.io/tags/dapper/</link>
+    <link>//chouj.github.io/tags/dapper/</link>
     <description>Recent content in dapper on 抽筋儿的话语权</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
     <lastBuildDate>Sat, 13 Dec 2008 14:04:41 +0000</lastBuildDate>
     
-	<atom:link href="https://chouj.github.io/tags/dapper/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//chouj.github.io/tags/dapper/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>ReadWriteWeb：08年度十个顶级RSS应用</title>
-      <link>https://chouj.github.io/510/</link>
+      <link>//chouj.github.io/510/</link>
       <pubDate>Sat, 13 Dec 2008 14:04:41 +0000</pubDate>
       
-      <guid>https://chouj.github.io/510/</guid>
+      <guid>//chouj.github.io/510/</guid>
       <description>ReadWriteWeb于11日发布了一篇题为“Top 10 RSS and Syndication Products of 2008”的日志，评选出了08年度十个顶级的RSS应用类产品。他们的评价翻译过来就是：“这些都是我们日夜使用的feed工具，我们喜爱他们的优点，讨厌他们的缺陷，却绝对不想失去他们。”
 越有用，影响越大，越能进入这个榜单；也就是说并不是评选08年RSS应用类的新产品。当然，这个榜单里的服务比较合适母语为英语的人群；对于国人来说，就不是那么适用了。
 08年度十个顶级RSS应用 by ReadWriteWeb

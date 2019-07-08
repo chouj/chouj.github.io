@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>RSS应用 on 抽筋儿的话语权</title>
-    <link>https://chouj.github.io/tags/rss%E5%BA%94%E7%94%A8/</link>
+    <link>//chouj.github.io/tags/rss%E5%BA%94%E7%94%A8/</link>
     <description>Recent content in RSS应用 on 抽筋儿的话语权</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
     <lastBuildDate>Fri, 16 May 2008 06:00:06 +0000</lastBuildDate>
     
-	<atom:link href="https://chouj.github.io/tags/rss%E5%BA%94%E7%94%A8/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//chouj.github.io/tags/rss%E5%BA%94%E7%94%A8/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>图书馆的RSS应用之路</title>
-      <link>https://chouj.github.io/482/</link>
+      <link>//chouj.github.io/482/</link>
       <pubDate>Fri, 16 May 2008 06:00:06 +0000</pubDate>
       
-      <guid>https://chouj.github.io/482/</guid>
+      <guid>//chouj.github.io/482/</guid>
       <description>&lt;p&gt;&lt;img class=&#34;alignleft&#34; style=&#34;float: left;&#34; src=&#34;http://pic.yupoo.com/xcchris/7155059095ff/qdvxbe62.jpg&#34; alt=&#34;图书馆的RSS应用之路&#34; /&gt;近年来，RSS在图书馆学上的应用似乎成为图书馆学界的热点，网络上有两篇代表性的文献值得浏览：&lt;/p&gt;
 
 &lt;p&gt;[pdf]2006年7月——&lt;a href=&#34;http://www.lac.org.tw/epaper/200607/RSS20060716.pdf&#34; target=&#34;_blank&#34;&gt;&lt;span style=&#34;color: #cc0033;&#34;&gt;RSS&lt;/span&gt; 介绍及其在&lt;span style=&#34;color: #cc0033;&#34;&gt;图书馆&lt;/span&gt;的应用&lt;/a&gt;&lt;span&gt;&amp;#8211; &lt;span class=&#34;a&#34;&gt;繁&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
@@ -38,10 +38,10 @@
     
     <item>
       <title>学术领域的RSS应用</title>
-      <link>https://chouj.github.io/477/</link>
+      <link>//chouj.github.io/477/</link>
       <pubDate>Wed, 05 Mar 2008 12:26:41 +0000</pubDate>
       
-      <guid>https://chouj.github.io/477/</guid>
+      <guid>//chouj.github.io/477/</guid>
       <description>&lt;p&gt;&lt;big&gt;&lt;big&gt;搞&lt;/big&gt;&lt;/big&gt;研究的同志们都很关心最新的期刊杂志又发表了哪些文章，似乎和RSS的作用很对路，所以，不妨利用RSS为研究人员的信息获取带来点便利。&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.xuchi.name&#34; title=&#34;抽筋儿&#34; target=&#34;_blank&#34;&gt;&lt;big&gt;&lt;big&gt;抽&lt;/big&gt;&lt;/big&gt;筋儿&lt;/a&gt;注意到，很多学术性网站都提供了RSS输出功能，何不利用之。下面以&lt;a href=&#34;http://www.cnki.net/index.htm&#34; title=&#34;中国期刊全文数据库&#34; target=&#34;_blank&#34;&gt;中国期刊全文数据库&lt;/a&gt;为例，纯属抛砖。&lt;/p&gt;</description>

@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gregarius on 抽筋儿的话语权</title>
-    <link>https://chouj.github.io/tags/gregarius/</link>
+    <link>//chouj.github.io/tags/gregarius/</link>
     <description>Recent content in Gregarius on 抽筋儿的话语权</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
     <lastBuildDate>Sat, 14 Jul 2007 14:42:32 +0000</lastBuildDate>
     
-	<atom:link href="https://chouj.github.io/tags/gregarius/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//chouj.github.io/tags/gregarius/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>RSS聚合器 之 Gregarius</title>
-      <link>https://chouj.github.io/442/</link>
+      <link>//chouj.github.io/442/</link>
       <pubDate>Sat, 14 Jul 2007 14:42:32 +0000</pubDate>
       
-      <guid>https://chouj.github.io/442/</guid>
+      <guid>//chouj.github.io/442/</guid>
       <description> 什么是RSS聚合器？  RSS聚合器是一种以用户被动更新模式更新，可读取RSS Feed / XML并显示新闻项的程序，可以方便地在线获取、阅读和管理RSS/XML格式的信息。
  Gregarius  个人认为Gregarius已经是一款相当成熟的RSS feed聚合器程序了，具备不错的用户体验，易于操作和管理。抽儿就是拿这款程序架设的RSS阅读器。特性如下：
  支持 RDF, RSS, ATOM feeds 支持智能识别； 基于浏览器Web端的前台浏览和后台管理； 支持目录分类，支持标签系统，并运用了ajax技术； 支持搜索； 支持OPML； 可显示favicon； 支持已读未读分类和条目数量显示； 具有多种主题样式，支持插件；  前台样式：
@@ -33,10 +33,10 @@ Powered by ScribeFire. </description>
     
     <item>
       <title>小试Gregarius</title>
-      <link>https://chouj.github.io/253/</link>
+      <link>//chouj.github.io/253/</link>
       <pubDate>Mon, 07 May 2007 12:55:00 +0000</pubDate>
       
-      <guid>https://chouj.github.io/253/</guid>
+      <guid>//chouj.github.io/253/</guid>
       <description>眼红于武大的博客聚合，在网络上苦搜RSS聚合程序。发现武大的是通过基于ASP的SXNA构架的，OK，PHP下一定也有一样的程序，果不其然被我搞到手，呵呵。捣腾这些东西貌似有一种蹂躏的快感，嗯，名曰天生BT。
  先入眼的就是这个Lilina，辉常好听的名字,需要 php4.3 + mbstring iconv支持，这里就是拿这玩意儿架的。试装一遍，木成功，估计是支持不够。后来发现其发育不良，主题插件都不完善，技术支持也基本没有。八成是日落西山，门前冷落了。再度寻觅ing。
 Gregarius

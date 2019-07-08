@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>黑莓 on 抽筋儿的话语权</title>
-    <link>https://chouj.github.io/tags/%E9%BB%91%E8%8E%93/</link>
+    <link>//chouj.github.io/tags/%E9%BB%91%E8%8E%93/</link>
     <description>Recent content in 黑莓 on 抽筋儿的话语权</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
     <lastBuildDate>Tue, 04 Aug 2009 15:04:02 +0000</lastBuildDate>
     
-	<atom:link href="https://chouj.github.io/tags/%E9%BB%91%E8%8E%93/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//chouj.github.io/tags/%E9%BB%91%E8%8E%93/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>东莞足迹</title>
-      <link>https://chouj.github.io/355/</link>
+      <link>//chouj.github.io/355/</link>
       <pubDate>Tue, 04 Aug 2009 15:04:02 +0000</pubDate>
       
-      <guid>https://chouj.github.io/355/</guid>
+      <guid>//chouj.github.io/355/</guid>
       <description>探访大学同学，去了趟东莞。这是第二次到东莞，第一次从东莞回去后就诞生了这个，那么这次要讲点新玩意儿。
 南沙航次归来，入了BB8310，受教于fisio，所以借东莞之机依葫芦画瓢：东莞足迹@GPSed
 路线和照片详见http://gpsed.com/track/13111726959591668
@@ -26,10 +26,10 @@
     
     <item>
       <title>黑莓7230死机重启后再激活上网的技巧</title>
-      <link>https://chouj.github.io/334/</link>
+      <link>//chouj.github.io/334/</link>
       <pubDate>Wed, 11 Mar 2009 08:10:45 +0000</pubDate>
       
-      <guid>https://chouj.github.io/334/</guid>
+      <guid>//chouj.github.io/334/</guid>
       <description>生命不息，折腾不止，黑莓完好的符合了这一精神，尤其是在我把7230折腾上cmwap之后。
 似乎因为软件稳定性问题，我的BB总是会遭遇jvm 523 error系统进程严重错误，然后要求reset。再想上网就成了大问题，坛子里都说要重新导入Service Book云云，这要是在外面没电脑可咋办。综合网上资料摸索了番，发现如下方法可行：
  黑莓死机或其他原因重启后，按shift(键位上A下面那坨)-alt(黑莓上cap这坨)-del三键再重启，重启过程挺快； 然后到Options里的Service Book，把internet[IPPP]undelete恢复回来； 再到TCP里置为空； 打开QQ(肯定有QQ的吧)，登录，进度走到10直到说网络不好连接中断； 回到Options里Service Book，把IPPP这个再删掉，TCP里填上cmwap（我是用的cmwap）； 再开QQ登录，就可以登上啦～～（至少我的这样可以成功）  解决jvm 523 error还是得靠软件，我换成BerryMail的QQ05就好了，没再error reset。现在可以上空中OperaMini、QQ、MSN了，就是Xrose连接不上，放弃之。</description>
@@ -37,10 +37,10 @@
     
     <item>
       <title>3款黑莓用全屏时钟屏保</title>
-      <link>https://chouj.github.io/49/</link>
+      <link>//chouj.github.io/49/</link>
       <pubDate>Thu, 11 Oct 2007 14:38:58 +0000</pubDate>
       
-      <guid>https://chouj.github.io/49/</guid>
+      <guid>//chouj.github.io/49/</guid>
       <description>For BlackBerry 72XX
 又找到了好东东，共享出来。这次是三款各有特色的全屏时钟屏保，有截图和个人体验介绍哦～
 1st. 动态背景时钟屏保：Spruce
@@ -59,10 +59,10 @@ SpruceRain对应屏保截图如下：
     
     <item>
       <title>BlackBerry的另一些小东东</title>
-      <link>https://chouj.github.io/46/</link>
+      <link>//chouj.github.io/46/</link>
       <pubDate>Sat, 22 Sep 2007 14:43:54 +0000</pubDate>
       
-      <guid>https://chouj.github.io/46/</guid>
+      <guid>//chouj.github.io/46/</guid>
       <description>最近有点儿倦怠，有话题写也会发呆。而且遭遇河蟹，管网络的头头儿说，现在又17big又奥运，上头盯的紧，为了河蟹，为了科研保密工作，没正式申请的入网ip还是8要上网吧，否则非法上网被侦测出来，或者你的机器给别人作了路由或代理服务器，就以网络间_谍论处，顶丫个肺～
 还是借博士后的ip，发点儿BlackBerry7230 用的东东比较安全。
  Ascendo Photos Blackberry Manager  如果不爽IPDmanager.exe管理图片的繁琐，可以试试这个。分BB端软件和PC端管理器：BB端支持图片浏览，SlideShow，屏保；管理器支持图片预览，图片直接导入BB，图片尺寸更改。
@@ -81,10 +81,10 @@ SpruceRain对应屏保截图如下：
     
     <item>
       <title>如何使用BlackBerry阅读RSS Feeds</title>
-      <link>https://chouj.github.io/460/</link>
+      <link>//chouj.github.io/460/</link>
       <pubDate>Sun, 09 Sep 2007 12:22:38 +0000</pubDate>
       
-      <guid>https://chouj.github.io/460/</guid>
+      <guid>//chouj.github.io/460/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;http://blogs.feedburner.com/feedburner/archives/handango_r2_c1.gif&#34; title=&#34;rss reader for blackberry&#34; alt=&#34;rss reader for blackberry&#34; height=&#34;169&#34; width=&#34;259&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;最近在&lt;a href=&#34;http://www.xuchi.name/blog/2007/09/08/blackberry7230/&#34; title=&#34;“计算器”入手&#34; target=&#34;_blank&#34;&gt;把玩黑莓7230&lt;/a&gt;，听说可以拿黑莓读RSS，于是找了些资源，共享出来，但&lt;strong&gt;我并没有试过&lt;/strong&gt;，仅供参考。&lt;/p&gt;
@@ -108,10 +108,10 @@ SpruceRain对应屏保截图如下：
     
     <item>
       <title>“计算器”入手</title>
-      <link>https://chouj.github.io/45/</link>
+      <link>//chouj.github.io/45/</link>
       <pubDate>Sat, 08 Sep 2007 09:58:52 +0000</pubDate>
       
-      <guid>https://chouj.github.io/45/</guid>
+      <guid>//chouj.github.io/45/</guid>
       <description>“咦，你不是去买手机吗？怎么买了个大号计算器？！……还七百块？你没发烧吧？？”
  这话是我在今年六月听到的。刚陪Mars（一火星哥们）从Computown某店扫荡归来，正当他抓着机器跨进寝室，这悲剧的一幕就上演了，那时，他手上抓着的是BB7730。
 好在是2v1，一顿“不懂行情”、“木有眼界”之类的海批之后，Mars脑袋后面那斗大的汗珠，被我俩成功嫁接到说那一段话的仁兄头上。
