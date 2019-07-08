@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>教程 on 抽筋儿的话语权</title>
-    <link>//chouj.github.io/categories/%E6%95%99%E7%A8%8B/</link>
+    <link>https://chouj.github.io/categories/%E6%95%99%E7%A8%8B/</link>
     <description>Recent content in 教程 on 抽筋儿的话语权</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
     <lastBuildDate>Fri, 15 Sep 2017 02:24:40 +0000</lastBuildDate>
     
-	<atom:link href="//chouj.github.io/categories/%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://chouj.github.io/categories/%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Telegram同城广播频道的建立方法</title>
-      <link>//chouj.github.io/814/</link>
+      <link>https://chouj.github.io/814/</link>
       <pubDate>Fri, 15 Sep 2017 02:24:40 +0000</pubDate>
       
-      <guid>//chouj.github.io/814/</guid>
+      <guid>https://chouj.github.io/814/</guid>
       <description>&lt;p&gt;&lt;strong&gt;目标&lt;/strong&gt;：建立一个Telegram频道，自动广播同城文娱活动，如影讯、展览、表演等。&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;工具&lt;/strong&gt;：&lt;a href=&#34;https://www.feed43.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Feed43&lt;/a&gt;、&lt;a href=&#34;https://ifttt.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IFTTT&lt;/a&gt;。&lt;/p&gt;</description>
@@ -25,19 +25,19 @@
     
     <item>
       <title>怎样经由Twitter实现RSS Feed同步到微博</title>
-      <link>//chouj.github.io/777/</link>
+      <link>https://chouj.github.io/777/</link>
       <pubDate>Fri, 12 Apr 2013 06:41:49 +0000</pubDate>
       
-      <guid>//chouj.github.io/777/</guid>
+      <guid>https://chouj.github.io/777/</guid>
       <description>&lt;p&gt;警告：一折腾就死星人请绕行。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>[翻译]给Twitter Favorites添加一个Feed</title>
-      <link>//chouj.github.io/566/</link>
+      <link>https://chouj.github.io/566/</link>
       <pubDate>Tue, 06 Jul 2010 08:58:39 +0000</pubDate>
       
-      <guid>//chouj.github.io/566/</guid>
+      <guid>https://chouj.github.io/566/</guid>
       <description>原文：Create an RSS Feed for Twitter Favorites
 作者：MARK EVANS
 推特的神奇之处在于，在这条信息长流之中，汇集了好玩的点子、稀奇的思绪、纷杂的内容和用户的观点。当然推特也有让人不爽的地方，那就是难以将这些存留下来。
@@ -49,10 +49,10 @@ http://twitter.com/favorites/[**insert_your_ID_here**].rss就是你的收藏的R
     
     <item>
       <title>使用FeedzShare实现信息过滤</title>
-      <link>//chouj.github.io/514/</link>
+      <link>https://chouj.github.io/514/</link>
       <pubDate>Sat, 17 Jan 2009 11:04:56 +0000</pubDate>
       
-      <guid>//chouj.github.io/514/</guid>
+      <guid>https://chouj.github.io/514/</guid>
       <description>&lt;p&gt;&lt;img style=&#34;float: left; margin-left: 10px; margin-right: 10px;&#34; src=&#34;http://pic.yupoo.com/xcchris/214316d1520a/pxsblws4.jpg&#34; alt=&#34;FeedzShare：“中文版”的ReadBurner&#34; width=&#34;224&#34; height=&#34;50&#34; align=&#34;left&#34; /&gt;经&lt;a href=&#34;http://aboutrss.cn/2009/01/feedzshare/#comment-790&#34; target=&#34;_self&#34;&gt;Kuber的回复&lt;/a&gt;获知，FeedzShare还有一个&lt;a title=&#34;FeedzShare：“中文版”的ReadBurner&#34; href=&#34;http://aboutrss.cn/2009/01/feedzshare/&#34; target=&#34;_self&#34;&gt;尚未提到&lt;/a&gt;的有趣功能：我们现在可以利用FeedzShare以推荐数的多寡为门限来进行信息过滤。所以，像cnBeta和译言这类更新较快的站点，我们就可以挑选受众人推荐的信息来进行阅读，从而节省时间，免去信息过载之忧。&lt;/p&gt;
 
 &lt;p&gt;方法如下：&lt;/p&gt;
@@ -64,10 +64,10 @@ http://twitter.com/favorites/[**insert_your_ID_here**].rss就是你的收藏的R
     
     <item>
       <title>微博客播报器Feedlr详解</title>
-      <link>//chouj.github.io/511/</link>
+      <link>https://chouj.github.io/511/</link>
       <pubDate>Thu, 18 Dec 2008 15:06:46 +0000</pubDate>
       
-      <guid>//chouj.github.io/511/</guid>
+      <guid>https://chouj.github.io/511/</guid>
       <description>&lt;p&gt;&lt;img class=&#34;alignleft&#34; style=&#34;margin: 10px; float: left;&#34; src=&#34;http://feedlr.com/images/logo_dark.jpg&#34; alt=&#34;feedlr logo&#34; width=&#34;162&#34; height=&#34;90&#34; /&gt;Feedlr实际上是今年三月份上线的一款国产Web2.0服务，可以用来“创建你自己的Feed广播机器人”，其实就是推送feed内容到微博客。如果你想在国内的&lt;a href=&#34;http://fanfou.com&#34;&gt;饭否&lt;/a&gt;和&lt;a href=&#34;http://jiwai.de&#34;&gt;叽歪&lt;/a&gt;上自动播报feed内容的话，不妨注册Feedlr一用，当然，Feedlr肯定支持&lt;a href=&#34;http://twitter.com&#34;&gt;twitte&lt;/a&gt;r这个鼻祖。&lt;/p&gt;
 
 &lt;p&gt;Feedlr的UI比较华丽，用户体验也不错，下面是其首页截图，可以看到硕大的feed、twitter bird和扬声器的标志，以及长相邪恶的广播机器人：&lt;/p&gt;
@@ -77,10 +77,10 @@ http://twitter.com/favorites/[**insert_your_ID_here**].rss就是你的收藏的R
     
     <item>
       <title>[视频]Google Reader in plain English</title>
-      <link>//chouj.github.io/498/</link>
+      <link>https://chouj.github.io/498/</link>
       <pubDate>Fri, 29 Aug 2008 01:43:34 +0000</pubDate>
       
-      <guid>//chouj.github.io/498/</guid>
+      <guid>https://chouj.github.io/498/</guid>
       <description>我在侧栏顶部放置的一个视频叫“RSS in plain English”，形象介绍RSS功用的，不知道在我这里收视率如何。
 26日，CommonCraft又推出了一个新的视频：Google Reader in plain English，顾名思义，就是讲Google Reader能帮助用户做什么，非常棒，非常易懂（会英语的话）。一睹为快吧：
 这里有一个英文字幕版的：
@@ -89,10 +89,10 @@ http://twitter.com/favorites/[**insert_your_ID_here**].rss就是你的收藏的R
     
     <item>
       <title>Feed助推新贵FeedCat.net图解</title>
-      <link>//chouj.github.io/494/</link>
+      <link>https://chouj.github.io/494/</link>
       <pubDate>Wed, 30 Jul 2008 17:42:48 +0000</pubDate>
       
-      <guid>//chouj.github.io/494/</guid>
+      <guid>https://chouj.github.io/494/</guid>
       <description>&lt;p&gt;_&lt;a href=&#34;http://dupola.com/post/235#comment-6189&#34; target=&#34;_blank&#34;&gt;吕老大的留言&lt;/a&gt;让我觉得有种“FeedBurner残废、FeedSky下跪”的意味，国情如此，不好苛求。&lt;a title=&#34;FEEDCAT.NET RSS和Atom Feed 助推引擎&#34; href=&#34;http://www.feedcat.net/zh-cn/&#34; target=&#34;_blank&#34;&gt;FeedCat&lt;/a&gt;恰巧来了，救市与否尚不可知，但，很珍贵。_&lt;/p&gt;
 
 &lt;p&gt;&lt;a title=&#34;FEEDCAT.NET RSS和Atom Feed 助推引擎&#34; href=&#34;http://www.feedcat.net/zh-cn/&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://www.feedcat.net/i/logo.gif&#34; alt=&#34;FeedCat.NET RSS 和 Atom Feed助推系统&#34; width=&#34;340&#34; height=&#34;43&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -112,10 +112,10 @@ http://twitter.com/favorites/[**insert_your_ID_here**].rss就是你的收藏的R
     
     <item>
       <title>如何使用鲜果订阅博客</title>
-      <link>//chouj.github.io/493/</link>
+      <link>https://chouj.github.io/493/</link>
       <pubDate>Wed, 23 Jul 2008 05:46:56 +0000</pubDate>
       
-      <guid>//chouj.github.io/493/</guid>
+      <guid>https://chouj.github.io/493/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://www.xianguo.com/index.php?rurl=index&#34;&gt;&lt;img style=&#34;margin-left: 20px;&#34; src=&#34;http://www.xianguo.com/img/logo3.gif&#34; alt=&#34;鲜果&#34; width=&#34;290&#34; height=&#34;52&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p style=&#34;text-align: right;&#34;&gt;
@@ -127,10 +127,10 @@ http://twitter.com/favorites/[**insert_your_ID_here**].rss就是你的收藏的R
     
     <item>
       <title>[翻译]如何让WP一分类下的文章不在Feed输出</title>
-      <link>//chouj.github.io/486/</link>
+      <link>https://chouj.github.io/486/</link>
       <pubDate>Tue, 10 Jun 2008 16:11:49 +0000</pubDate>
       
-      <guid>//chouj.github.io/486/</guid>
+      <guid>https://chouj.github.io/486/</guid>
       <description>&lt;p&gt;&lt;a rel=&#34;attachment wp-att-94&#34; href=&#34;http://aboutrss.cn/2008/06/translation-how-to-exclude-categories-from-main-feed/wordpressfeed/&#34;&gt;&lt;img class=&#34;alignleft size-medium wp-image-94&#34; title=&#34;wordpressfeed&#34; src=&#34;http://pic.yupoo.com/xcchris/309805b2a084/qye3bzys.jpg&#34; alt=&#34;wordpressfeed&#34; width=&#34;100&#34; height=&#34;100&#34; /&gt;&lt;/a&gt;原文：&lt;a title=&#34;How to modify your WordPress RSS Feed - Kriesi&#34; href=&#34;http://www.kriesi.at/archives/how-to-modify-your-wordpress-rss-feed&#34; target=&#34;_blank&#34;&gt;How to modify your WordPress RSS Feed&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;作者：Kriesi&lt;/p&gt;
@@ -149,10 +149,10 @@ http://twitter.com/favorites/[**insert_your_ID_here**].rss就是你的收藏的R
     
     <item>
       <title>显示FeedBurner订阅数图标的唯一方法</title>
-      <link>//chouj.github.io/483/</link>
+      <link>https://chouj.github.io/483/</link>
       <pubDate>Fri, 23 May 2008 05:46:32 +0000</pubDate>
       
-      <guid>//chouj.github.io/483/</guid>
+      <guid>https://chouj.github.io/483/</guid>
       <description>佳佑的显示FeedBurner订阅数终极大法中介绍了很多方法，可是大部分支持订阅数实时更新的方法没有经住时间的考验。
 Web2proxy.net方法失效
 FeedM8方法失效
@@ -167,10 +167,10 @@ update:可惜，这个站也撞墙了，此方法失效。</description>
     
     <item>
       <title>[ppt下载]如何利用”RSS”定制相关的学术资源</title>
-      <link>//chouj.github.io/481/</link>
+      <link>https://chouj.github.io/481/</link>
       <pubDate>Thu, 08 May 2008 07:03:16 +0000</pubDate>
       
-      <guid>//chouj.github.io/481/</guid>
+      <guid>https://chouj.github.io/481/</guid>
       <description>早些时候我在以“RSS 图书馆”为关键字搜索时，看到了南开大学图书馆信息部邓克武老师的一个讲座，题为“如何利用&amp;#8217;RSS&amp;#8217;定制相关的学术资源”，深感惊奇。因为我之前有浅显得讨论学术领域的RSS应用，且最近也在思考高校在RSS普及上的作用，而高校开展这类性质的宣讲还真是我第一次见到，但愿是我孤陋寡闻或这类信息没有上网。
 我立即联系上了邓老师，邓老师给了我讲座的课件ppt，并允许我发布出来。在这里我要感谢热心的邓老师，这类ppt材料是少有而可贵的。
 该PPT面向RSS的初识者，以文字和图示结合的形式涵盖了RSS的概念、用途、价值和优势、订阅的方法以及学术资源信息的获取渠道。
@@ -180,10 +180,10 @@ ppt版权归作者——南开大学图书馆信息部邓克武老师所有！</
     
     <item>
       <title>学术领域的RSS应用</title>
-      <link>//chouj.github.io/477/</link>
+      <link>https://chouj.github.io/477/</link>
       <pubDate>Wed, 05 Mar 2008 12:26:41 +0000</pubDate>
       
-      <guid>//chouj.github.io/477/</guid>
+      <guid>https://chouj.github.io/477/</guid>
       <description>&lt;p&gt;&lt;big&gt;&lt;big&gt;搞&lt;/big&gt;&lt;/big&gt;研究的同志们都很关心最新的期刊杂志又发表了哪些文章，似乎和RSS的作用很对路，所以，不妨利用RSS为研究人员的信息获取带来点便利。&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.xuchi.name&#34; title=&#34;抽筋儿&#34; target=&#34;_blank&#34;&gt;&lt;big&gt;&lt;big&gt;抽&lt;/big&gt;&lt;/big&gt;筋儿&lt;/a&gt;注意到，很多学术性网站都提供了RSS输出功能，何不利用之。下面以&lt;a href=&#34;http://www.cnki.net/index.htm&#34; title=&#34;中国期刊全文数据库&#34; target=&#34;_blank&#34;&gt;中国期刊全文数据库&lt;/a&gt;为例，纯属抛砖。&lt;/p&gt;</description>
@@ -191,10 +191,10 @@ ppt版权归作者——南开大学图书馆信息部邓克武老师所有！</
     
     <item>
       <title>[WP插件]BetterFeed使用指南</title>
-      <link>//chouj.github.io/470/</link>
+      <link>https://chouj.github.io/470/</link>
       <pubDate>Thu, 25 Oct 2007 13:04:48 +0000</pubDate>
       
-      <guid>//chouj.github.io/470/</guid>
+      <guid>https://chouj.github.io/470/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;http://photo5.yupoo.com/20071025/144157_423535404_lmeqxrcy.jpg&#34; title=&#34;WordPress&#34; alt=&#34;WordPress&#34; height=&#34;112&#34; width=&#34;112&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;除了&lt;a href=&#34;http://aboutrss.cn/2007/10/17/wordpress-plugin-copyfeed/&#34; title=&#34;[WP插件]©Feed指南及其汉化版&#34;&gt;上文&lt;/a&gt;介绍的WordPress&lt;a href=&#34;http://wordpress.org/extend/plugins/copyfeed/&#34; title=&#34;©Feed&#34;&gt;©Feed&lt;/a&gt;，&lt;a href=&#34;http://planetozh.com/blog/my-projects/wordpress-plugin-better-feed-rss/&#34; title=&#34;Wordpress Plugin : Better Feed&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;BetterFeed&lt;/strong&gt;&lt;/a&gt;也是一款用于更改Feed footer信息的强大插件。两者相比，前者具备Option界面，使用上比较傻瓜，后者则需要自己编辑插件部分代码；但前者不支持php语言调用，后者则可借助php参数调用，为feed添加进更有针对性、更智能的信息。所以说，两个插件各有优劣，不过，&lt;strong&gt;切勿同时启用&lt;/strong&gt;。&lt;/p&gt;</description>
@@ -202,10 +202,10 @@ ppt版权归作者——南开大学图书馆信息部邓克武老师所有！</
     
     <item>
       <title>[WP插件]©Feed指南及其汉化版</title>
-      <link>//chouj.github.io/469/</link>
+      <link>https://chouj.github.io/469/</link>
       <pubDate>Wed, 17 Oct 2007 12:16:45 +0000</pubDate>
       
-      <guid>//chouj.github.io/469/</guid>
+      <guid>https://chouj.github.io/469/</guid>
       <description>&lt;p&gt;适用于WordPress的&lt;strong&gt;&lt;a href=&#34;http://wordpress.org/extend/plugins/copyfeed/&#34; title=&#34;©Feed&#34;&gt;©Feed&lt;/a&gt;&lt;/strong&gt;插件功能强大，可在feed footer添加&lt;strong&gt;版权声明&lt;/strong&gt;、&lt;strong&gt;数字指纹、文章留言&lt;/strong&gt;、&lt;strong&gt;相关文章标题&lt;/strong&gt;，还可以控制feed&lt;strong&gt;是否全文输出&lt;/strong&gt;，因而很多bloggers都安装并启用了这款插件。现在，为方便国内用户，&lt;a href=&#34;http://angryouth.com/&#34; title=&#34;愤青团&#34;&gt;Anthony&lt;/a&gt;汉化了该插件，请有需要的朋友移步至此下载：&lt;/p&gt;
 
 &lt;p align=&#34;center&#34;&gt;
@@ -219,10 +219,10 @@ ppt版权归作者——南开大学图书馆信息部邓克武老师所有！</
     
     <item>
       <title>[图文教程]给目录页或标签页添个Feed</title>
-      <link>//chouj.github.io/465/</link>
+      <link>https://chouj.github.io/465/</link>
       <pubDate>Sat, 22 Sep 2007 12:35:50 +0000</pubDate>
       
-      <guid>//chouj.github.io/465/</guid>
+      <guid>https://chouj.github.io/465/</guid>
       <description>WordPress架构下的目录页和标签页不支持Feed输出。当我们想让自己的目录也支持Feed输出，或者，当我们只对blog某目录下的文章感兴趣的时候，想订阅这个目录，该怎么办呢？我们可以借助HTML2RSS工具来实现！
 以Feed43.com为例，抽儿PS了个教程， 由于图片硕大，就不贴在这里了，只放出LINK。依照教程思路，其他HTML2RSS工具同样能帮你给目录页或标签页添个Feed。
 [ 点此进入图文教程 ]
@@ -233,10 +233,10 @@ Update:
     
     <item>
       <title>嗨!我更新了，你要抓取哟！</title>
-      <link>//chouj.github.io/430/</link>
+      <link>https://chouj.github.io/430/</link>
       <pubDate>Fri, 11 May 2007 00:51:45 +0000</pubDate>
       
-      <guid>//chouj.github.io/430/</guid>
+      <guid>https://chouj.github.io/430/</guid>
       <description>本文写给以WordPress搭建blog的bloggers
 当您更新了blog，一定希望订阅您blog的读者能第一时间看到您的文字。但一次次前去通知页面手动更新是非常麻烦的事情，那么怎么样能让Feed服务商的爬虫自动前来抓取您更新了的内容呢？借用WP后台的“更新服务”，我们就可以做到。
 上图即为WP后台&amp;#8211;选项&amp;#8211;撰写标签下的“更新服务”，可自动通知的站点包括各大搜索引擎，RSS聚合站和Feed服务商。Wordpress.org官方站提供了一个可选的网址列表，如下：
@@ -287,10 +287,10 @@ http://ping.feedburner.com
     
     <item>
       <title>Feedburner发布WP插件Feed Smith</title>
-      <link>//chouj.github.io/24/</link>
+      <link>https://chouj.github.io/24/</link>
       <pubDate>Fri, 04 May 2007 13:31:30 +0000</pubDate>
       
-      <guid>//chouj.github.io/24/</guid>
+      <guid>https://chouj.github.io/24/</guid>
       <description>5月3日，Feedburner官方blog发布消息，称Feedburner采用了原作者为 Steve Smith的Wordpress插件FeedBurner Plugin v2.2，并发布Feedburner官方版本WP插件Feedburner Feed Smith。
 Feedburner Feed Smith与原版插件，并没有代码上的差别，原版插件用户无需升级或替换。该插件适用于由Wordpress 1.5-2.x搭建的blog，功能上可以不通过修改.htaccess文件，将blog中的所有原始feed地址（例如格式为http: //www.yoursite.com/feed/ 或 http://www.yoursite.com/wp-rss2.php，等等）转向到blogger自定义由Feedburner烧制的Feed。文 章Feed和评论Feed均可通过此插件实现全面转向，以使blogger可以通过Feedburner追踪潜在的订阅读者。
 如果你使用WP搭建blog，就可以选用此款插件。安装起来也很便捷：
@@ -306,10 +306,10 @@ Technorati Tags: Feedburner, WordPress, plugins</description>
     
     <item>
       <title>Angelived的18套博客订阅图标汇总</title>
-      <link>//chouj.github.io/427/</link>
+      <link>https://chouj.github.io/427/</link>
       <pubDate>Thu, 03 May 2007 11:21:54 +0000</pubDate>
       
-      <guid>//chouj.github.io/427/</guid>
+      <guid>https://chouj.github.io/427/</guid>
       <description>强烈推荐Angelived同学的
 18套博客订阅图标汇总 | Angelived
 18套之多，收集起来真是不容易啊，Chou本来想做的事情都让Angelived给做完了，呵呵，可以少奋斗几个时辰。这里给个示意截屏，想查看更多订阅图标，就直接点链接过去看吧。
@@ -327,10 +327,10 @@ Technorati Tags: subscribe, Icon, Graphic</description>
     
     <item>
       <title>用IM订阅RSS 实现信息主动推送</title>
-      <link>//chouj.github.io/418/</link>
+      <link>https://chouj.github.io/418/</link>
       <pubDate>Mon, 26 Mar 2007 11:34:11 +0000</pubDate>
       
-      <guid>//chouj.github.io/418/</guid>
+      <guid>https://chouj.github.io/418/</guid>
       <description>虽然Anothr提供的服务，对刚刚熟悉RSS的用户来说比较高端，但我还是非常乐意介绍她，因为她有中文网页， 而且她被我视为RSS技术的里程碑式应用。为什么这么讲？即便我们有RSS，有阅读器，但我们要主动去打开，主动去看，才能获知别人是否有更新；但有了 Anothr RSS 机器人，在IM（即时通信软件）中，它会主动将别人的更新信息发送过来，也就是我们在RSS阅读中处于被通知的地位，而订哪个由我们说了算，所以这个机器 人是不会塞进来垃圾广告的。
 闲话少说。先来点小教程，告诉大家怎么用。
 用Skype的中文用户比较有福，因为Anothr中文页面详尽介绍了使用方法。简要复述下：
@@ -348,10 +348,10 @@ Anothr.com带来革命性的RSS阅读体验
     
     <item>
       <title>中文BSP中寻找RSS地址</title>
-      <link>//chouj.github.io/416/</link>
+      <link>https://chouj.github.io/416/</link>
       <pubDate>Sat, 03 Mar 2007 11:46:07 +0000</pubDate>
       
-      <guid>//chouj.github.io/416/</guid>
+      <guid>https://chouj.github.io/416/</guid>
       <description>具有哪些标志的页面、站点可以被订阅？这是首要问题，也就是要找到RSS源，或者称为FEED。左图就是当今最常见的FEED标志，表征此站可通过RSS订阅。
 常见字样为：RSSXML ATOM 
 常见图样为：
@@ -375,10 +375,10 @@ Blog.Donews——侧栏有“日志 RSS” 
     
     <item>
       <title>Feed烧制教程贴 via Feedsky</title>
-      <link>//chouj.github.io/414/</link>
+      <link>https://chouj.github.io/414/</link>
       <pubDate>Tue, 27 Feb 2007 12:23:52 +0000</pubDate>
       
-      <guid>//chouj.github.io/414/</guid>
+      <guid>https://chouj.github.io/414/</guid>
       <description>为什么很多博客上有花里胡哨的订阅按钮呢？那是因为博主为他的博客RSS烧制了一个Feed，提供Feed烧制服务的网站，一般都支持在线生成订阅按钮的服务。除此之外，我们能获得的好处还包括：对订阅数、订阅源进行一定的跟踪；Feed url页面更加美观，等等。
 Feedsky/Feedburner是国内外两家最常见的提供烧制服务的网站，既然本博客面向中文用户，就以Feedsky为例，图解Feed烧制过程。
 下图为您登录后的Feedsky首页图：
@@ -389,10 +389,10 @@ Feedsky首页
     
     <item>
       <title>如何利用抓虾订阅blog</title>
-      <link>//chouj.github.io/413/</link>
+      <link>https://chouj.github.io/413/</link>
       <pubDate>Sat, 24 Feb 2007 12:26:55 +0000</pubDate>
       
-      <guid>//chouj.github.io/413/</guid>
+      <guid>https://chouj.github.io/413/</guid>
       <description>抓虾，国内最为知名的基于RSS阅读的信息收藏和共享站点，特专门截几张图，写个教程。若仍未明白，可配合抓虾帮助来看。
 
 1.进入抓虾用户界面后，最上五个标签即“我的频道”、“我的收藏”、“我的小组”、“频道大全”、“热文排行”。左边有一溜侧栏，最上就是“添加频道”按钮，给出抓虾对频道的解释：
@@ -413,10 +413,10 @@ RSS(Really Simple Syndication)是站点用来和其他站点之间共享内容�
     
     <item>
       <title>RSS &amp; Google打造个性主页</title>
-      <link>//chouj.github.io/412/</link>
+      <link>https://chouj.github.io/412/</link>
       <pubDate>Wed, 21 Feb 2007 12:39:43 +0000</pubDate>
       
-      <guid>//chouj.github.io/412/</guid>
+      <guid>https://chouj.github.io/412/</guid>
       <description>看看下面这幅图，点击放大&amp;#8230;
 
 Chouj同学好早以前的google个性主页，我所关注的项目都在这里有所罗列，注意右边的blog标题排列了吗？&amp;#8230;不论新闻还是blog，只用打开这一个主页，就可以掌握所有我关注网页的更新情况。目前提供个性主页服务的网站有很多，比如飞鸽，Google只是其中之一。
@@ -435,10 +435,10 @@ http://www.donews.net/sogoo/archive/2005/03/16/303272.aspx
     
     <item>
       <title>如何利用Google Reader订阅blog</title>
-      <link>//chouj.github.io/411/</link>
+      <link>https://chouj.github.io/411/</link>
       <pubDate>Wed, 21 Feb 2007 12:35:53 +0000</pubDate>
       
-      <guid>//chouj.github.io/411/</guid>
+      <guid>https://chouj.github.io/411/</guid>
       <description>IE 7发布，亮点之一就是集成了RSS订阅功能，评论谓之“迎合‘高端’用户的胃口”，“为推广RSS订阅作出了贡献”。既然RSS订阅都高端了，那我也来推 广推广。平日深感众多开博人士尚不知RSS订阅为何物，仍停留在把博客加入收藏夹的“原始”阶段。要知道，订阅RSS即可实现对方更新的及时获知，省去挨 个打开收藏夹里链接的繁琐，故希望看了此教程后，各位也能接触“高端”，体验一把技术浪潮尖儿上的浪花。会用的还是请无视吧。
 此教程仅仅告诉丫RSS怎么用，至于RSS是虾米东东，丫在技术上又是怎么实现的，本教程一概不论。
 Step 1 找RSS

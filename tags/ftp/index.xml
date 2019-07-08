@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>FTP on 抽筋儿的话语权</title>
-    <link>//chouj.github.io/tags/ftp/</link>
+    <link>https://chouj.github.io/tags/ftp/</link>
     <description>Recent content in FTP on 抽筋儿的话语权</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
     <lastBuildDate>Wed, 31 Jul 2013 08:43:26 +0000</lastBuildDate>
     
-	<atom:link href="//chouj.github.io/tags/ftp/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://chouj.github.io/tags/ftp/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Ubuntu下基于Pure-ftpd建FTP记录</title>
-      <link>//chouj.github.io/786/</link>
+      <link>https://chouj.github.io/786/</link>
       <pubDate>Wed, 31 Jul 2013 08:43:26 +0000</pubDate>
       
-      <guid>//chouj.github.io/786/</guid>
+      <guid>https://chouj.github.io/786/</guid>
       <description>&lt;p&gt;&lt;a title=&#34;小团队的内部资料共享协作是怎样的？&#34; href=&#34;https://www.v2ex.com/t/30716&#34; target=&#34;_blank&#34;&gt;一年前就开始寻找课题组内资料共享的解决方案&lt;/a&gt;，现在发现，我把事情想复杂了：在内网建外网可访问的FTP的话，以为要在单位出口网关上做映射才行，以为要搞DDNS。其实都不用。&lt;/p&gt;</description>
     </item>
     

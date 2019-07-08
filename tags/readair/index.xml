@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ReadAir on 抽筋儿的话语权</title>
-    <link>//chouj.github.io/tags/readair/</link>
+    <link>https://chouj.github.io/tags/readair/</link>
     <description>Recent content in ReadAir on 抽筋儿的话语权</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
     <lastBuildDate>Mon, 18 Aug 2008 16:47:19 +0000</lastBuildDate>
     
-	<atom:link href="//chouj.github.io/tags/readair/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://chouj.github.io/tags/readair/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>三款基于Adobe AIR的RSS阅读器</title>
-      <link>//chouj.github.io/497/</link>
+      <link>https://chouj.github.io/497/</link>
       <pubDate>Mon, 18 Aug 2008 16:47:19 +0000</pubDate>
       
-      <guid>//chouj.github.io/497/</guid>
+      <guid>https://chouj.github.io/497/</guid>
       <description>&lt;p&gt;_以下软件均基于Adobe AIR技术，请确保已安装&lt;a title=&#34;Get Adobe AIR&#34; href=&#34;http://www.adobe.com/products/air/&#34; target=&#34;_blank&#34;&gt;AIR支持&lt;/a&gt;。_&lt;/p&gt;
 
 &lt;ul&gt;

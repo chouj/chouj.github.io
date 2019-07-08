@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>我尝试 on 抽筋儿的话语权</title>
-    <link>//chouj.github.io/categories/%E6%88%91%E5%B0%9D%E8%AF%95/</link>
+    <link>https://chouj.github.io/categories/%E6%88%91%E5%B0%9D%E8%AF%95/</link>
     <description>Recent content in 我尝试 on 抽筋儿的话语权</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
     <lastBuildDate>Fri, 19 Jan 2018 09:15:41 +0000</lastBuildDate>
     
-	<atom:link href="//chouj.github.io/categories/%E6%88%91%E5%B0%9D%E8%AF%95/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://chouj.github.io/categories/%E6%88%91%E5%B0%9D%E8%AF%95/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>用MATLAB实现便便时间间隔的定期统计分析</title>
-      <link>//chouj.github.io/792/</link>
+      <link>https://chouj.github.io/792/</link>
       <pubDate>Fri, 19 Jan 2018 09:15:41 +0000</pubDate>
       
-      <guid>//chouj.github.io/792/</guid>
+      <guid>https://chouj.github.io/792/</guid>
       <description>&lt;p&gt;为了达成如题的目的，实现方法已经有了早期的两个版本：&lt;/p&gt;
 
 &lt;ul&gt;
@@ -32,10 +32,10 @@
     
     <item>
       <title>Call Bitly/Google URL shorten API in MATLAB</title>
-      <link>//chouj.github.io/824/</link>
+      <link>https://chouj.github.io/824/</link>
       <pubDate>Fri, 19 Jan 2018 08:31:50 +0000</pubDate>
       
-      <guid>//chouj.github.io/824/</guid>
+      <guid>https://chouj.github.io/824/</guid>
       <description>&lt;h1 id=&#34;bitly&#34;&gt;Bitly&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://dev.bitly.com/links.html#v3_shorten&#34;&gt;Bitly API document: &lt;strong&gt;/v3/shorten&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
@@ -45,10 +45,10 @@
     
     <item>
       <title>Telegram同城广播频道的建立方法</title>
-      <link>//chouj.github.io/814/</link>
+      <link>https://chouj.github.io/814/</link>
       <pubDate>Fri, 15 Sep 2017 02:24:40 +0000</pubDate>
       
-      <guid>//chouj.github.io/814/</guid>
+      <guid>https://chouj.github.io/814/</guid>
       <description>&lt;p&gt;&lt;strong&gt;目标&lt;/strong&gt;：建立一个Telegram频道，自动广播同城文娱活动，如影讯、展览、表演等。&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;工具&lt;/strong&gt;：&lt;a href=&#34;https://www.feed43.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Feed43&lt;/a&gt;、&lt;a href=&#34;https://ifttt.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IFTTT&lt;/a&gt;。&lt;/p&gt;</description>
@@ -56,55 +56,55 @@
     
     <item>
       <title>如何推广Telegram频道</title>
-      <link>//chouj.github.io/798/</link>
+      <link>https://chouj.github.io/798/</link>
       <pubDate>Tue, 12 Sep 2017 03:41:44 +0000</pubDate>
       
-      <guid>//chouj.github.io/798/</guid>
+      <guid>https://chouj.github.io/798/</guid>
       <description>&lt;p&gt;新建立了一个&lt;strong&gt;&lt;a href=&#34;https://t.me/matlab_tips&#34; target=&#34;_blank&#34;&gt;MATLAB TIPS的Telegram频道&lt;/a&gt;&lt;/strong&gt;，欢迎加入。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Ubuntu下基于Pure-ftpd建FTP记录</title>
-      <link>//chouj.github.io/786/</link>
+      <link>https://chouj.github.io/786/</link>
       <pubDate>Wed, 31 Jul 2013 08:43:26 +0000</pubDate>
       
-      <guid>//chouj.github.io/786/</guid>
+      <guid>https://chouj.github.io/786/</guid>
       <description>&lt;p&gt;&lt;a title=&#34;小团队的内部资料共享协作是怎样的？&#34; href=&#34;https://www.v2ex.com/t/30716&#34; target=&#34;_blank&#34;&gt;一年前就开始寻找课题组内资料共享的解决方案&lt;/a&gt;，现在发现，我把事情想复杂了：在内网建外网可访问的FTP的话，以为要在单位出口网关上做映射才行，以为要搞DDNS。其实都不用。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>一个求解答的推特公共帐号@qna_cn</title>
-      <link>//chouj.github.io/779/</link>
+      <link>https://chouj.github.io/779/</link>
       <pubDate>Tue, 23 Apr 2013 01:58:53 +0000</pubDate>
       
-      <guid>//chouj.github.io/779/</guid>
+      <guid>https://chouj.github.io/779/</guid>
       <description>&lt;p&gt;&lt;del&gt;&lt;span style=&#34;color: #111111; font-family: Helvetica, Arial, sans-serif; line-height: 21px;&#34;&gt;ta是 &lt;a title=&#34;Q&amp;A_cn&#34; href=&#34;https://twitter.com/qna_cn&#34; target=&#34;_blank&#34;&gt;@qna_cn&lt;/a&gt; &lt;/span&gt;&lt;a style=&#34;cursor: pointer; color: #666699; text-decoration: none; font-family: Helvetica, Arial, sans-serif; line-height: 21px;&#34; rel=&#34;nofollow&#34; href=&#34;http://www.douban.com/link2?url=https%3A//twitter.com/qna_cn&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;https://twitter.com/qna_cn&#34;&gt;https://twitter.com/qna_cn&lt;/a&gt;&lt;/a&gt; &lt;span style=&#34;color: #111111; font-family: Helvetica, Arial, sans-serif; line-height: 21px;&#34;&gt;&lt;/span&gt;&lt;/del&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>怎样经由Twitter实现RSS Feed同步到微博</title>
-      <link>//chouj.github.io/777/</link>
+      <link>https://chouj.github.io/777/</link>
       <pubDate>Fri, 12 Apr 2013 06:41:49 +0000</pubDate>
       
-      <guid>//chouj.github.io/777/</guid>
+      <guid>https://chouj.github.io/777/</guid>
       <description>&lt;p&gt;警告：一折腾就死星人请绕行。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>阵痛之后 方显生命璋华</title>
-      <link>//chouj.github.io/726/</link>
+      <link>https://chouj.github.io/726/</link>
       <pubDate>Mon, 13 Jun 2011 02:19:19 +0000</pubDate>
       
-      <guid>//chouj.github.io/726/</guid>
+      <guid>https://chouj.github.io/726/</guid>
       <description>&lt;p&gt;闲来以&lt;a title=&#34;Project Babel 2&#34; href=&#34;https://www.v2ex.com/cn/index.html&#34; target=&#34;_blank&#34;&gt;Project Babel 2&lt;/a&gt;建了个&lt;a title=&#34;南海所非官方社区&#34; href=&#34;https://www.scsio.us&#34; target=&#34;_blank&#34;&gt;社区&lt;/a&gt;，实现了GAE域名绑定和反向代理。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>表示缺钱，所以要千人挑战一把</title>
-      <link>//chouj.github.io/724/</link>
+      <link>https://chouj.github.io/724/</link>
       <pubDate>Thu, 02 Jun 2011 09:19:29 +0000</pubDate>
       
-      <guid>//chouj.github.io/724/</guid>
+      <guid>https://chouj.github.io/724/</guid>
       <description>&lt;p style=&#34;text-align: center;&#34;&gt;
   &lt;a title=&#34;拿福能千人挑战&#34; href=&#34;https://www.nuffnang.com.cn/blog/2011/05/23/challenge-1000/&#34;&gt;&lt;img class=&#34;aligncenter&#34; src=&#34;https://www.nuffnang.com.cn/wp-content/uploads/2011/05/C1000.jpg&#34; alt=&#34;拿福能 千人挑战&#34; /&gt;&lt;/a&gt;
 &lt;/p&gt;
@@ -114,10 +114,10 @@
     
     <item>
       <title>摆摆书架:让闲置书有用武之地</title>
-      <link>//chouj.github.io/658/</link>
+      <link>https://chouj.github.io/658/</link>
       <pubDate>Wed, 01 Dec 2010 09:41:40 +0000</pubDate>
       
-      <guid>//chouj.github.io/658/</guid>
+      <guid>https://chouj.github.io/658/</guid>
       <description>处置闲书的好地方啊，新加入的用户还可以免费借一本书。
 之后有闲书，不留的书，就放到摆摆书架来。每借出一本，就再可以免费借入一本。
 我放上去两本，借出了一本《名博是怎样炼成的》，借入了一本《长尾理论》。操作流程顺畅，UI很漂亮，每本书都有豆瓣链接可以看详细信息。我的id：抽筋儿
@@ -130,10 +130,10 @@
     
     <item>
       <title>在WebQQ 2.0添加推特为WEB OS桌面应用</title>
-      <link>//chouj.github.io/650/</link>
+      <link>https://chouj.github.io/650/</link>
       <pubDate>Tue, 14 Sep 2010 11:25:49 +0000</pubDate>
       
-      <guid>//chouj.github.io/650/</guid>
+      <guid>https://chouj.github.io/650/</guid>
       <description>疼逊终于又上线了一款华丽丽的产品：Web QQ 2.0，我赶把时髦，体验过后觉得尚佳。
 发现它也可以像Chrome那样，将网站存储成桌面应用，在桌面一点即开。当然WebQQ存出来的是Web OS桌面应用。遂以Twitter网页客户端推操蛋为例，图示如下，点击放大：
 点击浏览网页，打开推操蛋，点击左上红框，即可自定义应用信息：
@@ -145,10 +145,10 @@
     
     <item>
       <title>我所用的10&#43;Chrome扩展</title>
-      <link>//chouj.github.io/617/</link>
+      <link>https://chouj.github.io/617/</link>
       <pubDate>Sat, 31 Jul 2010 09:41:34 +0000</pubDate>
       
-      <guid>//chouj.github.io/617/</guid>
+      <guid>https://chouj.github.io/617/</guid>
       <description>&lt;p&gt;&lt;a title=&#34;Google Chrome Extensions&#34; href=&#34;https://chrome.google.com/extensions&#34; target=&#34;_self&#34;&gt;&lt;img src=&#34;https://www.google.com/intl/en/images/logos/chrome_extensions_logo.gif&#34; border=&#34;0&#34; alt=&#34;Chrome Extensions&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;点击图片链接进入扩展页面（若图片无法显示，请进入扩展页面后再刷新本页）：&lt;/p&gt;
@@ -168,10 +168,10 @@
     
     <item>
       <title>自制笔记本小贴纸</title>
-      <link>//chouj.github.io/384/</link>
+      <link>https://chouj.github.io/384/</link>
       <pubDate>Wed, 23 Dec 2009 09:28:00 +0000</pubDate>
       
-      <guid>//chouj.github.io/384/</guid>
+      <guid>https://chouj.github.io/384/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;http://farm4.static.flickr.com/3071/3037182759_b7afbdf499.jpg&#34; border=&#34;0&#34; alt=&#34;@shizhao老师的笔记本儿&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;( &lt;a title=&#34;cool notebook at CNBloggerCon 2008&#34; href=&#34;http://www.flickr.com/photos/elliottng/3037182759/&#34; target=&#34;_blank&#34;&gt;via&lt;/a&gt; )&lt;/p&gt;
@@ -181,10 +181,10 @@
     
     <item>
       <title>东莞足迹</title>
-      <link>//chouj.github.io/355/</link>
+      <link>https://chouj.github.io/355/</link>
       <pubDate>Tue, 04 Aug 2009 15:04:02 +0000</pubDate>
       
-      <guid>//chouj.github.io/355/</guid>
+      <guid>https://chouj.github.io/355/</guid>
       <description>探访大学同学，去了趟东莞。这是第二次到东莞，第一次从东莞回去后就诞生了这个，那么这次要讲点新玩意儿。
 南沙航次归来，入了BB8310，受教于fisio，所以借东莞之机依葫芦画瓢：东莞足迹@GPSed
 路线和照片详见http://gpsed.com/track/13111726959591668
@@ -193,10 +193,10 @@
     
     <item>
       <title>黑莓7230死机重启后再激活上网的技巧</title>
-      <link>//chouj.github.io/334/</link>
+      <link>https://chouj.github.io/334/</link>
       <pubDate>Wed, 11 Mar 2009 08:10:45 +0000</pubDate>
       
-      <guid>//chouj.github.io/334/</guid>
+      <guid>https://chouj.github.io/334/</guid>
       <description>生命不息，折腾不止，黑莓完好的符合了这一精神，尤其是在我把7230折腾上cmwap之后。
 似乎因为软件稳定性问题，我的BB总是会遭遇jvm 523 error系统进程严重错误，然后要求reset。再想上网就成了大问题，坛子里都说要重新导入Service Book云云，这要是在外面没电脑可咋办。综合网上资料摸索了番，发现如下方法可行：
  黑莓死机或其他原因重启后，按shift(键位上A下面那坨)-alt(黑莓上cap这坨)-del三键再重启，重启过程挺快； 然后到Options里的Service Book，把internet[IPPP]undelete恢复回来； 再到TCP里置为空； 打开QQ(肯定有QQ的吧)，登录，进度走到10直到说网络不好连接中断； 回到Options里Service Book，把IPPP这个再删掉，TCP里填上cmwap（我是用的cmwap）； 再开QQ登录，就可以登上啦～～（至少我的这样可以成功）  解决jvm 523 error还是得靠软件，我换成BerryMail的QQ05就好了，没再error reset。现在可以上空中OperaMini、QQ、MSN了，就是Xrose连接不上，放弃之。</description>
@@ -204,10 +204,10 @@
     
     <item>
       <title>Matlab：如何以线上点的颜色表示强度</title>
-      <link>//chouj.github.io/307/</link>
+      <link>https://chouj.github.io/307/</link>
       <pubDate>Sun, 07 Sep 2008 09:03:45 +0000</pubDate>
       
-      <guid>//chouj.github.io/307/</guid>
+      <guid>https://chouj.github.io/307/</guid>
       <description>Matlab是一款极其好用的数学计算绘图软件。在科研用图绘制功能中，最常见的即为绘制等值线图，这也是一般同学们都掌握的。大家都知道，二维填充等值线图的coutourf(X,Y,Z,n)中，Z=f(X,Y)是一个矩阵，代表X,Y平面上的每一个点对应的值，颜色则表示该值的高低。也就是说，用这个画出来的是一个彩色的面，比如：
 但是，如果Z是一维向量呢？如果我们手上就只有某些X,Y对应的Z值，也不能虚构其他的点值来添进，这时候我们想表示强度怎么办呢？用Plot3吗？没错Plot3确实可以，但3维图并不是很容易识别的。如果想以颜色表示该点某物理量的强度，那又怎么画呢？
 本文就来告诉你，怎么实现点线中用点的颜色表示强度。科研中是会出现这种需要的，比方画卫星轨道、走航轨迹上一些诸如海表面高度、气溶胶浓度之类参量的时候。.
@@ -232,10 +232,10 @@ scatter(lon,lat,3,ssha);
     
     <item>
       <title>QQ群小秘密</title>
-      <link>//chouj.github.io/282/</link>
+      <link>https://chouj.github.io/282/</link>
       <pubDate>Mon, 30 Jun 2008 17:15:25 +0000</pubDate>
       
-      <guid>//chouj.github.io/282/</guid>
+      <guid>https://chouj.github.io/282/</guid>
       <description>vs
 *****\** 测试分割线 one ********
 vs
@@ -246,10 +246,10 @@ vs
     
     <item>
       <title>我使用的博客虚拟主机</title>
-      <link>//chouj.github.io/268/</link>
+      <link>https://chouj.github.io/268/</link>
       <pubDate>Tue, 27 May 2008 18:12:35 +0000</pubDate>
       
-      <guid>//chouj.github.io/268/</guid>
+      <guid>https://chouj.github.io/268/</guid>
       <description>写这么一篇文章，我就能从总统那里收获拾元人民币，这个数在我整个blog月收入里占到99.99%，所以我写的义无反顾义不容辞，心甘情愿被他收买，为其做病毒式传销。嘿嘿。当然，货肯定是好货，包满意。
 
 侧栏最下的这个标识表征了我目前使用的主机，它也正是本话题广告的主角：总统的WordPress中文站所提供的博客主机。
@@ -262,10 +262,10 @@ vs
     
     <item>
       <title>乌班兔好好玩</title>
-      <link>//chouj.github.io/89/</link>
+      <link>https://chouj.github.io/89/</link>
       <pubDate>Thu, 22 May 2008 06:19:29 +0000</pubDate>
       
-      <guid>//chouj.github.io/89/</guid>
+      <guid>https://chouj.github.io/89/</guid>
       <description>乌班兔果然比其他兔子好玩多啦，因为这只任人打扮的兔子会杂技和魔术。
 3D Desktop
 
@@ -290,10 +290,10 @@ Compiz Fusion更牛逼效果完整展示(7分10秒)：</description>
     
     <item>
       <title>Cannot modify header information问题的解决方法</title>
-      <link>//chouj.github.io/80/</link>
+      <link>https://chouj.github.io/80/</link>
       <pubDate>Tue, 29 Apr 2008 03:26:06 +0000</pubDate>
       
-      <guid>//chouj.github.io/80/</guid>
+      <guid>https://chouj.github.io/80/</guid>
       <description>昨晚升级WordPress 2.5.1 ，记事本编辑了wp-config-sample.php为wp-config.php，结果登录管理页面/wp-admin/时遭遇如下问题：
 Warning: Cannot modify header information &amp;#8211; headers already sent by ……
 搜索“Cannot modify header information”得到一票解决方法，简单说就是拿记事本编辑的php文件不是UTF-8（无BOM）编码的，更改php文件还是用Notepad++(这是一款主页上抵制北京奥*运的软件，囧)或UltraEdit靠谱。
@@ -302,10 +302,10 @@ Warning: Cannot modify header information &amp;#8211; headers already sent by �
     
     <item>
       <title>乌班兔</title>
-      <link>//chouj.github.io/65/</link>
+      <link>https://chouj.github.io/65/</link>
       <pubDate>Wed, 19 Mar 2008 17:39:12 +0000</pubDate>
       
-      <guid>//chouj.github.io/65/</guid>
+      <guid>https://chouj.github.io/65/</guid>
       <description>刚弄到本儿时，还是有瘟豆子叉屁系统的，所以折腾了几天士兵突击。还没看完，我就把瘟豆子砍了，直接引进了乌班兔，开始折腾这只兔子。
 虽然现在还停留在对着教程在终端里复制粘贴一气的程度， 但折腾这只倒霉兔子也算有趣，因为它长得和瘟豆子比较不一样。之前看一师兄对着黑乎乎的命令行界面一阵high敲，觉得特神秘，现在也吸引不到我了，不就是控制台嘛。
 之前没网，天天从办公室拷deb回来装，真是痛苦死，一气之下买了交换机，即便绑MAC绑IP，还是弄到了室友的网络，所以目前兔子被折腾成了这样：看突击不成问题了，可以QQ啦，还拿微软雅黑美化了下，并且装matlab成功，不容易啊。下一步想给兔子喝点WINE，让丫能吃点儿瘟豆子的程序，比如迅雷啥的。不多说了，上个桌面：
@@ -314,10 +314,10 @@ PS. 全面更换各应用和服务的头像，好像有很多要换哦。</descr
     
     <item>
       <title>小试Gregarius</title>
-      <link>//chouj.github.io/253/</link>
+      <link>https://chouj.github.io/253/</link>
       <pubDate>Mon, 07 May 2007 12:55:00 +0000</pubDate>
       
-      <guid>//chouj.github.io/253/</guid>
+      <guid>https://chouj.github.io/253/</guid>
       <description>眼红于武大的博客聚合，在网络上苦搜RSS聚合程序。发现武大的是通过基于ASP的SXNA构架的，OK，PHP下一定也有一样的程序，果不其然被我搞到手，呵呵。捣腾这些东西貌似有一种蹂躏的快感，嗯，名曰天生BT。
  先入眼的就是这个Lilina，辉常好听的名字,需要 php4.3 + mbstring iconv支持，这里就是拿这玩意儿架的。试装一遍，木成功，估计是支持不够。后来发现其发育不良，主题插件都不完善，技术支持也基本没有。八成是日落西山，门前冷落了。再度寻觅ing。
 Gregarius
@@ -327,10 +327,10 @@ Gregarius
     
     <item>
       <title>Blogging is Earning money</title>
-      <link>//chouj.github.io/251/</link>
+      <link>https://chouj.github.io/251/</link>
       <pubDate>Sun, 29 Apr 2007 09:00:00 +0000</pubDate>
       
-      <guid>//chouj.github.io/251/</guid>
+      <guid>https://chouj.github.io/251/</guid>
       <description>尊敬的Feedsky用户您好：
 您的广告收入已经支付到您的相应帐户，请注意查收。
 如在使用过程中碰到问题或有意见建议，欢迎您随时与我们的客服联系。
@@ -345,10 +345,10 @@ CBN Forum上在讨论合租意向，如果成行的话，服务器是世纪互�
     
     <item>
       <title>关于独立架站的域名设定</title>
-      <link>//chouj.github.io/720/</link>
+      <link>https://chouj.github.io/720/</link>
       <pubDate>Tue, 10 Apr 2007 07:45:33 +0000</pubDate>
       
-      <guid>//chouj.github.io/720/</guid>
+      <guid>https://chouj.github.io/720/</guid>
       <description>本文写给第一次架站的朋友，老鸟请无视。
 有感于架这个blog时域名指定时的茫然，写点东西，尝试能有所解答，个人见解肯定有认识不足或出错之处，也请指教。
 先罗列几个我遇到的问题，如果您跟我一样困惑，说不定可以看看我要写的东西。
@@ -371,10 +371,10 @@ CBN Forum上在讨论合租意向，如果成行的话，服务器是世纪互�
     
     <item>
       <title>非常时期非常规访问方法</title>
-      <link>//chouj.github.io/235/</link>
+      <link>https://chouj.github.io/235/</link>
       <pubDate>Tue, 20 Mar 2007 14:17:00 +0000</pubDate>
       
-      <guid>//chouj.github.io/235/</guid>
+      <guid>https://chouj.github.io/235/</guid>
       <description>上一篇是给GFW挠痒痒，结果丫狮子大张口吞了整个blogspot国度，害得本应欣欣向荣、如火如荼的google blogger中国用户群被当头被泼了一盆冷水，煞是凄惨。
 抽丫的筋儿：以下渠道尚可正常访问和交流：
 http://www.inblogs.net/xcchris/
@@ -398,10 +398,10 @@ http://www.pkblogs.com/xcchris/
     
     <item>
       <title>从keso那里盗流量</title>
-      <link>//chouj.github.io/231/</link>
+      <link>https://chouj.github.io/231/</link>
       <pubDate>Tue, 13 Mar 2007 14:26:00 +0000</pubDate>
       
-      <guid>//chouj.github.io/231/</guid>
+      <guid>https://chouj.github.io/231/</guid>
       <description>最近，借由MyBlogLog的统计发现，基本每天我的两个blog都有从keso那里过来的流量，一时挺惊讶。我没在他那里附链接留言，他也不大可能写个链接指向我的博客。
 一番小小调查，还真发现我和keso攀上了关系，在他的博客上找到了我的链接，虽然这个链接是由机器生成，keso是被动和不知情的。究其原因，一个widget帮了我这个忙，帮keso挂上了我的友情链接。
 
@@ -411,10 +411,10 @@ AutoRoll，我和keso都在博客上加载了这一widget，而其功能就是�
     
     <item>
       <title>OpenID &amp; .name 试用报告（续前篇）</title>
-      <link>//chouj.github.io/227/</link>
+      <link>https://chouj.github.io/227/</link>
       <pubDate>Mon, 26 Feb 2007 07:54:00 +0000</pubDate>
       
-      <guid>//chouj.github.io/227/</guid>
+      <guid>https://chouj.github.io/227/</guid>
       <description>伴随网络上一大票儿标榜2.0网站的兴起，咱要是像Daodao一样挨个尝鲜的话，估计光注册填表格就得耗去大把的时间，而OpenID就是为了解决这种“超负荷注册”现象应运而生的。虽然目前支持OpenID的站点还不多，但随着巨人微软开始一点点支持OpenID，OpenID也许将成为潮流趋势。我也是听着这个词儿挺新鲜的，就去弄了个ID玩玩，顺便抢个好记的用户名，:-P
 到底OpenID怎么作用？上段那链接的新闻里写的好：
  一旦你建立起你的用户信息后，当你需要登陆一个新的站点时，它能将其指向你存放信息的站点。这个存放注册信息站点将会把你的用户资料发送给你要注册的新站点，从而使其知道你是谁并让你顺利登陆。
@@ -434,19 +434,19 @@ Update:刚收到一封自动email，来自freeyourid.com,署名Hakon Haugnes，G
     
     <item>
       <title>春节快乐！猪事吉祥！</title>
-      <link>//chouj.github.io/223/</link>
+      <link>https://chouj.github.io/223/</link>
       <pubDate>Fri, 16 Feb 2007 09:21:00 +0000</pubDate>
       
-      <guid>//chouj.github.io/223/</guid>
+      <guid>https://chouj.github.io/223/</guid>
       <description>刚刚PS出炉  Happy Spring Festival !</description>
     </item>
     
     <item>
       <title>博客圈试用报告</title>
-      <link>//chouj.github.io/221/</link>
+      <link>https://chouj.github.io/221/</link>
       <pubDate>Mon, 12 Feb 2007 13:21:00 +0000</pubDate>
       
-      <guid>//chouj.github.io/221/</guid>
+      <guid>https://chouj.github.io/221/</guid>
       <description>心里一直认为，以feed合烧为技术支撑搭建博客圈平台，让每个blogger都可以打造自己的博客群落，是一项很2.0很in的服务。所以当Feedsky博客圈出现的时候，我再次感受到了技术带来的快乐。当然，我这草民没有Feedsky博客圈的划圈儿权，但在网上误打误撞中，发现了这个博客圈，试用报告如下。
 动作
 划了个襄樊四中03届高三六班博客圈儿，这里是合烧feed地址。可以预想，博客圈将成为班级交流的另一崭新阵地。
@@ -466,10 +466,10 @@ Update：纠正下BUG 2。同一feed，加入其他圈子，则不能即时显�
     
     <item>
       <title>[个人经验]毕业包裹托运流程</title>
-      <link>//chouj.github.io/219/</link>
+      <link>https://chouj.github.io/219/</link>
       <pubDate>Thu, 08 Feb 2007 15:24:00 +0000</pubDate>
       
-      <guid>//chouj.github.io/219/</guid>
+      <guid>https://chouj.github.io/219/</guid>
       <description>算是提前一学期离校，自己把铺盖衣物打包寄回家，昨天收到了，也提醒我写点经验总结以备他人查用。最好的希望是，毕业时学校和运输部门把托运统一包办了，那基本就用不着我废劲敲字，多好。
 在网上搜罗了一阵，严重参考了这个贴，获知托运包括两种方式，一种是包裹寄送，一种是行李托运。我采用了第一种，不过对第二种还是有发贴（帖1贴2）调查，先把我所知的写出来：
 行李托运注意事项
@@ -491,10 +491,10 @@ Update：纠正下BUG 2。同一feed，加入其他圈子，则不能即时显�
     
     <item>
       <title>Logo for MARS</title>
-      <link>//chouj.github.io/216/</link>
+      <link>https://chouj.github.io/216/</link>
       <pubDate>Sun, 04 Feb 2007 13:13:00 +0000</pubDate>
       
-      <guid>//chouj.github.io/216/</guid>
+      <guid>https://chouj.github.io/216/</guid>
       <description>Logo for MARS，还是放假前的作业。想不到什么可指代喻示的物件，就拿字母和圆球（来拍我吧，我把这个蓝色球当火星）敷衍了，仿web 2.0 logo的，因为参照了以下两篇东西：2007年标志设计趋势代码，Web2.0 Logo聚合及相关字体下载。
 二元色，反射效果（最好模仿），Balcony Angels字体（郁闷的是，上述第二篇文字介绍的字体要付费下载 &amp;#8211; -||），本想以暖色系寓意火星的，但为配合blog技术流的风格，还是冷色居多了。最后要说，这个gif可能不符合当初的大小要求，要更改的话，Mars同学直接交代就是了。
 **** **** {.ContentTitle}</description>
@@ -502,10 +502,10 @@ Update：纠正下BUG 2。同一feed，加入其他圈子，则不能即时显�
     
     <item>
       <title>PS了俩豆瓣博客标志</title>
-      <link>//chouj.github.io/210/</link>
+      <link>https://chouj.github.io/210/</link>
       <pubDate>Tue, 09 Jan 2007 02:31:00 +0000</pubDate>
       
-      <guid>//chouj.github.io/210/</guid>
+      <guid>https://chouj.github.io/210/</guid>
       <description>每个收录在豆瓣“我上”里的博客，可以有其自己的logo，配合简介说明，醒目而个性。开动PS画了两个：一是应麦子所托，给他的射手座的箭之所向；一是单纯给自己。
 
 搜到这个图，就知道该怎么处理了：麦子、箭、笔，三元素的交融，付之以热血与坚毅的红黄黑。
@@ -519,10 +519,10 @@ Update：纠正下BUG 2。同一feed，加入其他圈子，则不能即时显�
     
     <item>
       <title>2006年度“我最喜欢的软件”评选结果</title>
-      <link>//chouj.github.io/203/</link>
+      <link>https://chouj.github.io/203/</link>
       <pubDate>Sat, 09 Dec 2006 02:20:00 +0000</pubDate>
       
-      <guid>//chouj.github.io/203/</guid>
+      <guid>https://chouj.github.io/203/</guid>
       <description>IT.com.cn发起的2006年度“我最喜欢的软件”评选结果公布.软件方面,分了十类进行投票评选,这其中有老面孔的IM软件、杀毒软件以及浏览器软件等,也有新面孔反流氓软件和在线视频直播软件等.总体来说排名变化不大,老牌软件依旧强势,但其中也不乏有新势力涌现,比如音频播放方面的千千静听、安全软件中的360安全卫士等.
 我最喜欢的中文输入法 获奖者：紫光拼音
 我最喜欢的聊天软件 获奖者：腾讯QQ
@@ -542,10 +542,10 @@ Update：纠正下BUG 2。同一feed，加入其他圈子，则不能即时显�
     
     <item>
       <title>肆意的晃悠</title>
-      <link>//chouj.github.io/201/</link>
+      <link>https://chouj.github.io/201/</link>
       <pubDate>Mon, 04 Dec 2006 10:32:00 +0000</pubDate>
       
-      <guid>//chouj.github.io/201/</guid>
+      <guid>https://chouj.github.io/201/</guid>
       <description>在家几天，借助电信的优势，很是在网上晃悠了下子。与学校的教育网比起来，我算是享受到了宝贵的网络自由。
 小记几笔。
 Digg 还是不大明白丫是提供什么服务的，准确说是不明白其与美味书签有什么区别。国内的diglog貌似是仿照digg的，提供网摘收录，收录榜推荐服务。
@@ -563,10 +563,10 @@ Beta.Blogger终于中文化本地化了，念在Google和中国GOV的交情，�
     
     <item>
       <title>网上买本书</title>
-      <link>//chouj.github.io/199/</link>
+      <link>https://chouj.github.io/199/</link>
       <pubDate>Tue, 21 Nov 2006 13:11:00 +0000</pubDate>
       
-      <guid>//chouj.github.io/199/</guid>
+      <guid>https://chouj.github.io/199/</guid>
       <description>第一次网购书籍，要是没有发送费还是挺划的来的。《搜》，挑了本价格不算太高，市面上又没找到过，然后又算是想看想收藏的书。
 与上一次网购相隔甚久，所以这次的体验留下了明晰的记忆之痕，第一次的印象早就模糊了。还好操作不算繁琐，只是担心送货上门时我不在，或者我在但钱不够罢了。
 第一次网上购物，还是因为贪小便宜。那还是大一的时候，手头上有那种代金券似的优惠小帐号，可抵五元，于是乎班上一票人簇拥在机房屏幕前，在卓越网上东挑西拣。记得我挑了张8元的S.H.E的专辑，那盘《Super Star》。当时货到的时候一脸莫名，之后才顿悟，到处翻钱。不过那碟子没听两次就塞到屉子里“珍藏”起来了。其他人有买塑料饭盒的，有买磁带的，只是有些人因为恰逢搬寝室，没收到东西罢了。那次也没留意几天内到货，这次可以留心下了，今天下的订单，估计考试周的时候可以到。
@@ -575,10 +575,10 @@ Beta.Blogger终于中文化本地化了，念在Google和中国GOV的交情，�
     
     <item>
       <title>社会实践展示KT板样片</title>
-      <link>//chouj.github.io/179/</link>
+      <link>https://chouj.github.io/179/</link>
       <pubDate>Fri, 22 Sep 2006 10:22:00 +0000</pubDate>
       
-      <guid>//chouj.github.io/179/</guid>
+      <guid>https://chouj.github.io/179/</guid>
       <description>前天中午PS出来的，辅导员那里一遍PASS，期待下做出来的成品先。这个要和其他一堆KT板摆在一起，效果如何就不好说了，货比三家之后能否出彩，心存疑问，本来就是胡乱找了个背景模糊一下，然后胡乱罗列了下照片。至于文字，主题那个我就不说了，反正这种宣传性的东西少不了8R8C，下面那段倒是我亲口吹出来的，准确说是亲键盘敲出来的，再拜一下人的思维创造性。
 能看出背景图下方那黑乎乎的是什么吗？我会在这篇末尾贴出清晰的来，先让各位猜哈子，^_^ 这里转载 白云 一篇文章，关于系统清理。
  你是否注意到你的电脑系统磁盘的可用空间正在一天天在减少呢？是不是像老去的猴王一样动作一天比一天迟缓呢？
@@ -601,20 +601,20 @@ rd /s /q %windir%\temp &amp;amp; md %windir%\temp</description>
     
     <item>
       <title>社会实践光盘Autorun界面</title>
-      <link>//chouj.github.io/177/</link>
+      <link>https://chouj.github.io/177/</link>
       <pubDate>Tue, 19 Sep 2006 02:35:00 +0000</pubDate>
       
-      <guid>//chouj.github.io/177/</guid>
+      <guid>https://chouj.github.io/177/</guid>
       <description>那4行斗4俺们活动主题！！最后一句斗4俺想出来滴！！被逼无奈要向第一行押韵呐。。俺们那队伍叫“水乡行”社会实践队…俺们那总结居然有100多pages…最近还要俺给团队评优做一KT版…NND~~做出来鸟就贴出来～～
 PS.为照顾俺blog布局&amp;#8230;不符合规格的pictures都加了width=&amp;#8221;450&amp;#8243;标签，不是原始大小…可以自行查其网络地址再打开鸟看 ^_^</description>
     </item>
     
     <item>
       <title>About MMORPGs</title>
-      <link>//chouj.github.io/157/</link>
+      <link>https://chouj.github.io/157/</link>
       <pubDate>Tue, 15 Aug 2006 02:56:00 +0000</pubDate>
       
-      <guid>//chouj.github.io/157/</guid>
+      <guid>https://chouj.github.io/157/</guid>
       <description>MMORPG——Massively Multiplayer Online Role Playing Games，翻译过来就是大型在线角色扮演类游戏，也就是网游。
 今儿个中午看央视12套，就又在讲网游害人，沉迷网游导致犯罪的青少年比比皆是。顿时想，天天听到看到的这些全是国内的，不晓得国外是否也是如此。遂借助搜索引擎的power，上网一搜，还真小有所获。
 ＝＝＝＝＝＝＝＝＝＝＝国外主流媒体一例＝＝＝＝＝＝＝＝＝

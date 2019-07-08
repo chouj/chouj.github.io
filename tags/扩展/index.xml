@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>扩展 on 抽筋儿的话语权</title>
-    <link>//chouj.github.io/tags/%E6%89%A9%E5%B1%95/</link>
+    <link>https://chouj.github.io/tags/%E6%89%A9%E5%B1%95/</link>
     <description>Recent content in 扩展 on 抽筋儿的话语权</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
     <lastBuildDate>Sat, 31 Jul 2010 09:41:34 +0000</lastBuildDate>
     
-	<atom:link href="//chouj.github.io/tags/%E6%89%A9%E5%B1%95/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://chouj.github.io/tags/%E6%89%A9%E5%B1%95/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>我所用的10&#43;Chrome扩展</title>
-      <link>//chouj.github.io/617/</link>
+      <link>https://chouj.github.io/617/</link>
       <pubDate>Sat, 31 Jul 2010 09:41:34 +0000</pubDate>
       
-      <guid>//chouj.github.io/617/</guid>
+      <guid>https://chouj.github.io/617/</guid>
       <description>&lt;p&gt;&lt;a title=&#34;Google Chrome Extensions&#34; href=&#34;https://chrome.google.com/extensions&#34; target=&#34;_self&#34;&gt;&lt;img src=&#34;https://www.google.com/intl/en/images/logos/chrome_extensions_logo.gif&#34; border=&#34;0&#34; alt=&#34;Chrome Extensions&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;点击图片链接进入扩展页面（若图片无法显示，请进入扩展页面后再刷新本页）：&lt;/p&gt;
@@ -37,10 +37,10 @@
     
     <item>
       <title>FeedSquare：打造Feed墙的Chrome扩展</title>
-      <link>//chouj.github.io/576/</link>
+      <link>https://chouj.github.io/576/</link>
       <pubDate>Mon, 19 Jul 2010 11:48:50 +0000</pubDate>
       
-      <guid>//chouj.github.io/576/</guid>
+      <guid>https://chouj.github.io/576/</guid>
       <description>&lt;p&gt;除了借助油猴脚本来更改&lt;a title=&#34;Google Reader&#34; href=&#34;https://www.google.com/reader&#34; target=&#34;_blank&#34;&gt;Google Reader&lt;/a&gt;的界面外观之外，现在在&lt;a title=&#34;Google Chrome&#34; href=&#34;http://www.google.com/chrome&#34; target=&#34;_blank&#34;&gt;Chrome&lt;/a&gt;下，可以通过&lt;a title=&#34;FeedSquare&#34; href=&#34;https://chrome.google.com/extensions/detail/ddkahgkblobiogkkeedfnjkldecloidi&#34; target=&#34;_blank&#34;&gt;FeedSquare&lt;/a&gt;这个扩展来实现Feed墙的效果，很炫。&lt;/p&gt;
 
 &lt;p&gt;特性：&lt;/p&gt;

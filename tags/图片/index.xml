@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>图片 on 抽筋儿的话语权</title>
-    <link>//chouj.github.io/tags/%E5%9B%BE%E7%89%87/</link>
+    <link>https://chouj.github.io/tags/%E5%9B%BE%E7%89%87/</link>
     <description>Recent content in 图片 on 抽筋儿的话语权</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
     <lastBuildDate>Sun, 24 Jul 2011 06:25:06 +0000</lastBuildDate>
     
-	<atom:link href="//chouj.github.io/tags/%E5%9B%BE%E7%89%87/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://chouj.github.io/tags/%E5%9B%BE%E7%89%87/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>抽筋儿的手机编年史</title>
-      <link>//chouj.github.io/728/</link>
+      <link>https://chouj.github.io/728/</link>
       <pubDate>Sun, 24 Jul 2011 06:25:06 +0000</pubDate>
       
-      <guid>//chouj.github.io/728/</guid>
+      <guid>https://chouj.github.io/728/</guid>
       <description>抽筋儿的手机编年史 </description>
     </item>
     
     <item>
       <title>[照片]羽泉广州歌友会</title>
-      <link>//chouj.github.io/318/</link>
+      <link>https://chouj.github.io/318/</link>
       <pubDate>Tue, 23 Dec 2008 09:07:59 +0000</pubDate>
       
-      <guid>//chouj.github.io/318/</guid>
+      <guid>https://chouj.github.io/318/</guid>
       <description>羽你联通 泉心泉意 羽泉广州歌友会@暨大 12.21
 我和挠挠亲拍的照片：
 
@@ -36,10 +36,10 @@
     
     <item>
       <title>Matlab：如何以线上点的颜色表示强度</title>
-      <link>//chouj.github.io/307/</link>
+      <link>https://chouj.github.io/307/</link>
       <pubDate>Sun, 07 Sep 2008 09:03:45 +0000</pubDate>
       
-      <guid>//chouj.github.io/307/</guid>
+      <guid>https://chouj.github.io/307/</guid>
       <description>Matlab是一款极其好用的数学计算绘图软件。在科研用图绘制功能中，最常见的即为绘制等值线图，这也是一般同学们都掌握的。大家都知道，二维填充等值线图的coutourf(X,Y,Z,n)中，Z=f(X,Y)是一个矩阵，代表X,Y平面上的每一个点对应的值，颜色则表示该值的高低。也就是说，用这个画出来的是一个彩色的面，比如：
 但是，如果Z是一维向量呢？如果我们手上就只有某些X,Y对应的Z值，也不能虚构其他的点值来添进，这时候我们想表示强度怎么办呢？用Plot3吗？没错Plot3确实可以，但3维图并不是很容易识别的。如果想以颜色表示该点某物理量的强度，那又怎么画呢？
 本文就来告诉你，怎么实现点线中用点的颜色表示强度。科研中是会出现这种需要的，比方画卫星轨道、走航轨迹上一些诸如海表面高度、气溶胶浓度之类参量的时候。.
@@ -64,38 +64,38 @@ scatter(lon,lat,3,ssha);
     
     <item>
       <title>艾薇儿经典手势三张</title>
-      <link>//chouj.github.io/303/</link>
+      <link>https://chouj.github.io/303/</link>
       <pubDate>Fri, 05 Sep 2008 07:38:05 +0000</pubDate>
       
-      <guid>//chouj.github.io/303/</guid>
+      <guid>https://chouj.github.io/303/</guid>
       <description></description>
     </item>
     
     <item>
       <title>我用到的校内应用程序</title>
-      <link>//chouj.github.io/295/</link>
+      <link>https://chouj.github.io/295/</link>
       <pubDate>Sun, 20 Jul 2008 17:05:13 +0000</pubDate>
       
-      <guid>//chouj.github.io/295/</guid>
+      <guid>https://chouj.github.io/295/</guid>
       <description>先囧一下开发校内应用程序-是男人系列游戏的aw。
  好友买卖：所有怪黍熟嫩阿姨都来满足自己的怪趣味吧。 是男人系列游戏：煽动高校男人火拼的无良游戏。 鲜果阅读器：在校内吃鲜果，享受Web 2.0的阅读体验。 好友照片墙：照片墙一直是我觉得很有趣的东东，不管她出现在哪里。 历史的今天：历史不容忘却，不知道这个app能不能活到我有资格看“我历史上的今天”。 秀show！：改了多次名字，还待完善，算是校内上的LifeStream，追踪尚不算及时。 饭否3D：widget饭片的校内版，饭友&amp;amp;校友必备。 阿瓦的闲话周末：通过安装这个给aw压力，让丫把闲话写得色香味俱全点儿。  </description>
     </item>
     
     <item>
       <title>证书</title>
-      <link>//chouj.github.io/290/</link>
+      <link>https://chouj.github.io/290/</link>
       <pubDate>Thu, 03 Jul 2008 07:44:38 +0000</pubDate>
       
-      <guid>//chouj.github.io/290/</guid>
+      <guid>https://chouj.github.io/290/</guid>
       <description></description>
     </item>
     
     <item>
       <title>讨说法</title>
-      <link>//chouj.github.io/270/</link>
+      <link>https://chouj.github.io/270/</link>
       <pubDate>Thu, 05 Jun 2008 14:11:37 +0000</pubDate>
       
-      <guid>//chouj.github.io/270/</guid>
+      <guid>https://chouj.github.io/270/</guid>
       <description>照片来源：华尔街日报 遇难学生家长讨说法 又见“家长讨说法”，政府会给一个什么样的说法呢？
 有些说法母亲们讨了19年，似乎依然没讨到。
 换个header image纪念八平方吧。</description>
@@ -103,10 +103,10 @@ scatter(lon,lat,3,ssha);
     
     <item>
       <title>乌班兔好好玩</title>
-      <link>//chouj.github.io/89/</link>
+      <link>https://chouj.github.io/89/</link>
       <pubDate>Thu, 22 May 2008 06:19:29 +0000</pubDate>
       
-      <guid>//chouj.github.io/89/</guid>
+      <guid>https://chouj.github.io/89/</guid>
       <description>乌班兔果然比其他兔子好玩多啦，因为这只任人打扮的兔子会杂技和魔术。
 3D Desktop
 
@@ -131,10 +131,10 @@ Compiz Fusion更牛逼效果完整展示(7分10秒)：</description>
     
     <item>
       <title>圣火传递广州站照片幻灯展示</title>
-      <link>//chouj.github.io/87/</link>
+      <link>https://chouj.github.io/87/</link>
       <pubDate>Wed, 07 May 2008 17:23:24 +0000</pubDate>
       
-      <guid>//chouj.github.io/87/</guid>
+      <guid>https://chouj.github.io/87/</guid>
       <description>广州 海珠区 滨江东路 新珠江大酒店 2008.05.07
 幻灯播放，RSS阅读器里怕是看不到
 同学拍摄，已获授权，谢绝商业性转载</description>
@@ -142,10 +142,10 @@ Compiz Fusion更牛逼效果完整展示(7分10秒)：</description>
     
     <item>
       <title>襄樊也出“钉子户”</title>
-      <link>//chouj.github.io/69/</link>
+      <link>https://chouj.github.io/69/</link>
       <pubDate>Sat, 26 Apr 2008 19:00:14 +0000</pubDate>
       
-      <guid>//chouj.github.io/69/</guid>
+      <guid>https://chouj.github.io/69/</guid>
       <description>&lt;p&gt;家里又出事情被曝光了，&lt;strong&gt;史上最牛悬赏广告&lt;/strong&gt;，&lt;strong&gt;史上最牛的市长&lt;/strong&gt;（天涯社区&lt;a href=&#34;http://cache.tianya.cn/pub/c/no04/1/696030.205.shtml&#34; title=&#34;[新闻]襄樊的天，黑帮的地，老百姓的血，开发商的利&#34; target=&#34;_blank&#34;&gt;1&lt;/a&gt;／&lt;a href=&#34;http://cache.tianya.cn/pub/c/no04/1/696216.107.shtml&#34; title=&#34;[新闻]史上最牛的市长(襄樊)&#34; target=&#34;_blank&#34;&gt;2&lt;/a&gt;／&lt;a href=&#34;http://cache.tianya.cn/pub/c/no04/1/695775.10.shtml&#34; title=&#34;[新闻]史上最牛的市长(襄樊)&#34; target=&#34;_blank&#34;&gt;3&lt;/a&gt;／&lt;a href=&#34;http://cache.tianya.cn/pub/c/no04/1/696010.93.shtml&#34; title=&#34;[新闻]史上最牛的市长;襄樊.&#34; target=&#34;_blank&#34;&gt;4&lt;/a&gt;）（照片转自&lt;a href=&#34;http://pic.tianya.cn/myalbum/ShowPersonPic.asp?idWriter=0&amp;Key=0&amp;UserID=15745549&#34; title=&#34;证据&#34; target=&#34;_blank&#34;&gt;天涯相册&lt;/a&gt;）横空出世：&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://www.xuchi.name/blog/wp-content/uploads/2008/04/7648865_15745549.jpg&#34; alt=&#34;点击放大&#34; border=&#34;0&#34; width=&#34;500&#34; /&gt;&lt;/p&gt;</description>
@@ -153,10 +153,10 @@ Compiz Fusion更牛逼效果完整展示(7分10秒)：</description>
     
     <item>
       <title>本命年</title>
-      <link>//chouj.github.io/61/</link>
+      <link>https://chouj.github.io/61/</link>
       <pubDate>Thu, 07 Feb 2008 18:24:26 +0000</pubDate>
       
-      <guid>//chouj.github.io/61/</guid>
+      <guid>https://chouj.github.io/61/</guid>
       <description>            鲜果认领：BANGF5A6BC913C212C10164CA6E5XIANGUO        上一篇说到控制面板进不去，八成是因为插件开多了。光靠人品来解决问题不是办法，趁年闲重装到了WordPress 2.3.2，换主题到Blackish，晚点儿是晚点儿，谁让猪年手懒呢。
 Blog还是要恢复更新，即便以流水帐的姿态。每每看着朋友们的文字，就算与我毫不相干，也能品味到一种鲜活，一抹温暖。换言之，我随便写点东西没准儿就让谁谁的神经产生了电脉冲呢。Blog Boom是否将阅读引向了信息快餐，这不是我想讨论的，我的目的只有一个：让诸懒人在阅读器里就能知道我还鲜活着。
 年是过的异常萧条，缺乏与人交流的欲望，尤其不愿在相机面前挒开嘴角，因为很假。真的感觉看不到希望，感觉所有生龙活虎之物都是敌人，似乎想要摘掉印有“破灭”二字的封印，又似乎颓颓然无所动。本命年是惨大发了。
@@ -166,30 +166,30 @@ Blog还是要恢复更新，即便以流水帐的姿态。每每看着朋友们�
     
     <item>
       <title>热烈庆祝～</title>
-      <link>//chouj.github.io/51/</link>
+      <link>https://chouj.github.io/51/</link>
       <pubDate>Sun, 14 Oct 2007 12:32:40 +0000</pubDate>
       
-      <guid>//chouj.github.io/51/</guid>
+      <guid>https://chouj.github.io/51/</guid>
       <description>热烈庆祝个人首页访问量破千～个人blog访问量破五千～RSS相关访问量破万，订阅量破400～
 值此良辰，17大也选择这时召开，偶感到荣幸之至，特转图两张表达下人民大众的心声：</description>
     </item>
     
     <item>
       <title>河蟹长啥样？</title>
-      <link>//chouj.github.io/43/</link>
+      <link>https://chouj.github.io/43/</link>
       <pubDate>Wed, 29 Aug 2007 03:30:26 +0000</pubDate>
       
-      <guid>//chouj.github.io/43/</guid>
+      <guid>https://chouj.github.io/43/</guid>
       <description> 河蟹长啥样   河蟹舌会会旗   河蟹舌会会员必备   河蟹舌会会员专项健身运动   河蟹舌会的电脑长啥样   河蟹舌会的猪都是怎么死的   河蟹的宠物   该宠物的口头禅   该宠物的窝   该宠物的癖好  
 ××××××××××××××××××分割线×××××××××××××××× &amp;nbsp; 声援大猫，友情贴图 </description>
     </item>
     
     <item>
       <title>贴图不说话</title>
-      <link>//chouj.github.io/14/</link>
+      <link>https://chouj.github.io/14/</link>
       <pubDate>Thu, 03 May 2007 12:58:25 +0000</pubDate>
       
-      <guid>//chouj.github.io/14/</guid>
+      <guid>https://chouj.github.io/14/</guid>
       <description>报道见此
 Technorati Tags: 五一, 旅游, 黄金周, 故宫, 图片
 Powered by ScribeFire. </description>
@@ -197,10 +197,10 @@ Powered by ScribeFire. </description>
     
     <item>
       <title>毕业衫貌似敲定了</title>
-      <link>//chouj.github.io/250/</link>
+      <link>https://chouj.github.io/250/</link>
       <pubDate>Fri, 27 Apr 2007 11:46:00 +0000</pubDate>
       
-      <guid>//chouj.github.io/250/</guid>
+      <guid>https://chouj.github.io/250/</guid>
       <description>Department of PHYSICS , HUST , 2003 &amp;#8211; 2007
 点击上图见大图  袖标比较差，背后那个标语不错，就是字体我不喜欢，不协调，要我画，一定整个彪悍的字体！整体而言还是比较令人满意的。
 之前为应付差事也胡画了个，从bbs上搜出来丢到现现眼，哈哈！这标志要是暖色系的，当袖标还可以。
@@ -210,10 +210,10 @@ Powered by ScribeFire. </description>
     
     <item>
       <title>Feeds的翻译 正太们的照片</title>
-      <link>//chouj.github.io/247/</link>
+      <link>https://chouj.github.io/247/</link>
       <pubDate>Sun, 22 Apr 2007 08:45:00 +0000</pubDate>
       
-      <guid>//chouj.github.io/247/</guid>
+      <guid>https://chouj.github.io/247/</guid>
       <description>译文网是个好去处，blog上没话题可写了，就可以上去淘两篇文章翻译翻译，还可以练练英语。前些天在那里看到一个帖，问Feeds如何翻译比较好，有说翻译为飞子的，有逗乐说翻译为痱子的。我感觉呢，不翻为妙。九几年时，书店里还能见到一个词：“视窗操作系统”,现在你还见的到么？这种势必会变得众人皆知的词，保留原样最好。
 写童声伴我心的时候转了两张图，觉得不大过瘾，还真让我撞见过瘾的啦，放牛班的春天广州音乐会官方博客，放出了一堆小孩儿照片，想看照片的筒子们有福了！！
 给Technorati.com的论坛留了言，原因是搜索能搜出本blog有45个反向链接，但Links Counts中总是显示“0 links from 0 sites”,让我很郁闷，参见侧栏中那个大大的零。要说的是，那个faq论坛里，留言的大部分都是这个问题，唉，Technorati.com也不靠谱啊。</description>
@@ -221,19 +221,19 @@ Powered by ScribeFire. </description>
     
     <item>
       <title>春节快乐！猪事吉祥！</title>
-      <link>//chouj.github.io/223/</link>
+      <link>https://chouj.github.io/223/</link>
       <pubDate>Fri, 16 Feb 2007 09:21:00 +0000</pubDate>
       
-      <guid>//chouj.github.io/223/</guid>
+      <guid>https://chouj.github.io/223/</guid>
       <description>刚刚PS出炉  Happy Spring Festival !</description>
     </item>
     
     <item>
       <title>不可承受的生活之轻</title>
-      <link>//chouj.github.io/222/</link>
+      <link>https://chouj.github.io/222/</link>
       <pubDate>Wed, 14 Feb 2007 15:41:00 +0000</pubDate>
       
-      <guid>//chouj.github.io/222/</guid>
+      <guid>https://chouj.github.io/222/</guid>
       <description>不知道你是否发过这样的感慨：谁谁16岁就奥运冠军啦，谁谁18岁就唱TROY主题曲啦，谁谁谁21就赚了大笔钱啦！我是有的。想想人一生下来一无所有，之后就开始在生活的一夯一击中，走出迥异的方向，这真是个奇迹。而且，生活总是能让人无比惊愕。初中同学聚会，居然传出某某都离婚了的消息，被打趣为：看！人家都离婚了！愣是让我哑然陪笑。二十来年的时光，就将人与人修饰的这般不同。
 从大学里出来，经过两次同学聚会的高潮，伴随周遭空气成分的巨变，忽然百感陈杂了起来。单单一个研究生头衔，即可从大学寝室里的“不值钱”，摇身一变成为高中同学逃避聚会的借口（暂且不论这借口的真假），再瞬间套上光环成为初中同学眼中一生都不可企及的幻像，我只能说这氛围的转变，魔术般的，将漫不经心、蝴蝶效应似的生活塑造力突然暴露在我面前。
  我们就这样依靠着父母，年少张狂，意气风发，过着随心所欲的日子，偶尔无病呻吟，把碌碌无为这四个字诠释到淋漓尽致。
@@ -244,10 +244,10 @@ Powered by ScribeFire. </description>
     
     <item>
       <title>Logo for MARS</title>
-      <link>//chouj.github.io/216/</link>
+      <link>https://chouj.github.io/216/</link>
       <pubDate>Sun, 04 Feb 2007 13:13:00 +0000</pubDate>
       
-      <guid>//chouj.github.io/216/</guid>
+      <guid>https://chouj.github.io/216/</guid>
       <description>Logo for MARS，还是放假前的作业。想不到什么可指代喻示的物件，就拿字母和圆球（来拍我吧，我把这个蓝色球当火星）敷衍了，仿web 2.0 logo的，因为参照了以下两篇东西：2007年标志设计趋势代码，Web2.0 Logo聚合及相关字体下载。
 二元色，反射效果（最好模仿），Balcony Angels字体（郁闷的是，上述第二篇文字介绍的字体要付费下载 &amp;#8211; -||），本想以暖色系寓意火星的，但为配合blog技术流的风格，还是冷色居多了。最后要说，这个gif可能不符合当初的大小要求，要更改的话，Mars同学直接交代就是了。
 **** **** {.ContentTitle}</description>
@@ -255,10 +255,10 @@ Powered by ScribeFire. </description>
     
     <item>
       <title>入法眼了，夏普812SH</title>
-      <link>//chouj.github.io/214/</link>
+      <link>https://chouj.github.io/214/</link>
       <pubDate>Thu, 01 Feb 2007 13:44:00 +0000</pubDate>
       
-      <guid>//chouj.github.io/214/</guid>
+      <guid>https://chouj.github.io/214/</guid>
       <description>先扯点闲话。回家后用电信上网，虽然是稍微比教育网健全点的网络，但我的备份博客还是存在发布极端困难的问题，终于理解了keso为什么要离开donews。^_^
 手机这种东西，自打进入人类社会，就一直层出不穷的进化着，而且变成了绝不可少的样子。高考结束后，家里以1199元给我配备了这款手机，一直用到了现在。虽然有一行液晶花了，也曾经不幸摔成了两半，但它一直顽强地履行着能打电话，能发短信的使命（虽然丫的文字输入反应迟钝），对我尽死效忠，我也就和它不离不弃。每每看到各样的机子过门到了不同的人手里，主人婆娑其一段时间之后，就开始推销“手机只要能发短信能打电话就行啦”的言论，我就抱着我的古董乐呵。不过，更多的时候我还是抱着丫郁闷，用麦子的话说，就是用户体验实属糟糕。
 不对手机这种商品存在需求，基本上就别想赚到我的眼球。只要它不坏不丢，我是没理由去关注手机业的，只是我的订阅主动塞给我了一则消息，让我发现了这款夏普812SH，图片及基本性能见这里。
@@ -268,10 +268,10 @@ Powered by ScribeFire. </description>
     
     <item>
       <title>宿舍楼下惊现雪地表白 和谐校园初见建设成效</title>
-      <link>//chouj.github.io/213/</link>
+      <link>https://chouj.github.io/213/</link>
       <pubDate>Thu, 18 Jan 2007 01:55:00 +0000</pubDate>
       
-      <guid>//chouj.github.io/213/</guid>
+      <guid>https://chouj.github.io/213/</guid>
       <description>日前，于本不老歌刊发一文《创意表白 雪之源》吸引诸多学子注目，本报社予以高度关注，特刊发社论如下：
 据记者实地采访调查，该照片拍摄于某高校女生宿舍湖滨×舍，留下脚印表白的当事人为该高校××级MM。MM告诉记者，时遇大雪，即在雪地上踩出此番字样，用相机拍下，发给男友，以用此特别的方式寄语情意；脚印在宿舍楼的内部，既不会引起广泛的注意，也不易遭到破坏。
 本报认为，当事人MM的表白方式，彰显了当代女大学生追求幸福的决心，聪颖别致又不显招摇媚俗，实属上乘之作。party中央认为，大学生是时代的精英，要实现构建和谐社会的构想，必先实现和谐校园。MM正是以其实际行动表明：当代校园内，女性地位得到普遍提高，女性意识逐渐唤醒，女性追求自身权利和幸福的能力普遍增强。众所周知，男女平等是社会团结稳定和谐进步的基石，可见，和谐校园和谐社会的建设已经收到了成效。
@@ -284,10 +284,10 @@ Powered by ScribeFire. </description>
     
     <item>
       <title>创意表白 雪之缘</title>
-      <link>//chouj.github.io/212/</link>
+      <link>https://chouj.github.io/212/</link>
       <pubDate>Tue, 16 Jan 2007 05:55:00 +0000</pubDate>
       
-      <guid>//chouj.github.io/212/</guid>
+      <guid>https://chouj.github.io/212/</guid>
       <description>时遇大雪，本少教宁丫一表白高招。
 大雪天，银妆素裹，白雪似鹅毛。两人同行，最好周围人烟稀少，还有，不要撑伞。
 宁丫先问MM：
@@ -312,10 +312,10 @@ Powered by ScribeFire. </description>
     
     <item>
       <title>PS了俩豆瓣博客标志</title>
-      <link>//chouj.github.io/210/</link>
+      <link>https://chouj.github.io/210/</link>
       <pubDate>Tue, 09 Jan 2007 02:31:00 +0000</pubDate>
       
-      <guid>//chouj.github.io/210/</guid>
+      <guid>https://chouj.github.io/210/</guid>
       <description>每个收录在豆瓣“我上”里的博客，可以有其自己的logo，配合简介说明，醒目而个性。开动PS画了两个：一是应麦子所托，给他的射手座的箭之所向；一是单纯给自己。
 
 搜到这个图，就知道该怎么处理了：麦子、箭、笔，三元素的交融，付之以热血与坚毅的红黄黑。
@@ -329,10 +329,10 @@ Powered by ScribeFire. </description>
     
     <item>
       <title>植物们</title>
-      <link>//chouj.github.io/197/</link>
+      <link>https://chouj.github.io/197/</link>
       <pubDate>Sat, 11 Nov 2006 14:36:00 +0000</pubDate>
       
-      <guid>//chouj.github.io/197/</guid>
+      <guid>https://chouj.github.io/197/</guid>
       <description>前些日子到武汉中科院植物园晃了一下，陶冶情趣，顺手拍了几张，虽然不甚满意，但还是PS出来聊以纪念。
 今年光棍节实在没什么好写，想想自己写blog都一年了，因为去年写过。“群光”广场，果真是一群光棍过节的好地方。
 某群在闪：
@@ -342,28 +342,28 @@ Powered by ScribeFire. </description>
     
     <item>
       <title>目的地啊，忐忑</title>
-      <link>//chouj.github.io/188/</link>
+      <link>https://chouj.github.io/188/</link>
       <pubDate>Thu, 12 Oct 2006 14:30:00 +0000</pubDate>
       
-      <guid>//chouj.github.io/188/</guid>
+      <guid>https://chouj.github.io/188/</guid>
       <description>         点击上图看大图  </description>
     </item>
     
     <item>
       <title>怒赞改版后的HUSTonline</title>
-      <link>//chouj.github.io/187/</link>
+      <link>https://chouj.github.io/187/</link>
       <pubDate>Thu, 12 Oct 2006 05:24:00 +0000</pubDate>
       
-      <guid>//chouj.github.io/187/</guid>
+      <guid>https://chouj.github.io/187/</guid>
       <description>点击上图看大图 该站点地址：华中大在线 HUSTonline  也许大学的遗憾之一就是没能提早发现Bingyan Studio ，然后join in &amp;#8230;</description>
     </item>
     
     <item>
       <title>Google一统江湖</title>
-      <link>//chouj.github.io/186/</link>
+      <link>https://chouj.github.io/186/</link>
       <pubDate>Wed, 11 Oct 2006 02:56:00 +0000</pubDate>
       
-      <guid>//chouj.github.io/186/</guid>
+      <guid>https://chouj.github.io/186/</guid>
       <description>随便瞟一眼我的Google Account，就知道我被那个叫“谷歌”的家伙给统治成了什么样子（破输入法还没与时俱进，害我差点敲成“骨骼”）。虽然我并没有完全享用以上的服务，但还是必须承认：凡我用到的，都是相当不错和专业的。
 不过，丫对我的统治还不彻底，至少未来还会增加俩服务，一个flickr，一个video。前者是因为教育网内访问不了，否则丫早就该出现了；后者可以访问，我也试用了下，自打Google宣布收购YouTube，前景可谓一片光明。另外丫少列了个google earth。也许，不久的将来，google将占领我们的屏幕！
 技术领域的日新月异跟洪水下山似的，把我们这些草根儿冲得哪还有根儿啊，结果丫们还是拼命挤占我们脚底下的沃土。为了不被冲走，我就这么牢实的踩在google这片地儿上，然后丫再拼命施肥，再然后你说我是营养过剩，还是营养单一？忽然不知道这种现象是该赞还是该叹，咱有可能享受技术领先带来的优秀服务，也贡献出眼球让丫们服务提供商来你争我夺肆意践踏。这字敲着敲着就又被践踏了一遭：AMD有可能收购ATi，看来丫们笃信“海纳百川，有容乃大”，而对“水不在深，有龙则灵”视而不见。
@@ -372,19 +372,19 @@ Powered by ScribeFire. </description>
     
     <item>
       <title>[转]可怜的中国动漫</title>
-      <link>//chouj.github.io/184/</link>
+      <link>https://chouj.github.io/184/</link>
       <pubDate>Tue, 03 Oct 2006 05:06:00 +0000</pubDate>
       
-      <guid>//chouj.github.io/184/</guid>
+      <guid>https://chouj.github.io/184/</guid>
       <description>转自 白云黄鹤 10.02 十大热贴</description>
     </item>
     
     <item>
       <title>我收藏的 google earth 地标文件 提供下载</title>
-      <link>//chouj.github.io/181/</link>
+      <link>https://chouj.github.io/181/</link>
       <pubDate>Mon, 25 Sep 2006 05:41:00 +0000</pubDate>
       
-      <guid>//chouj.github.io/181/</guid>
+      <guid>https://chouj.github.io/181/</guid>
       <description>最近在玩google earth,辛辛苦苦从google earth 观察下载了一大堆地标文件，存到我的地标库里，满世界乱转。实在要拜一下开发这一软件的兄弟姐妹男女老少，太赞了，鼠标一划不是出国就是出洲，比坐飞机还快，还不需要护照。愿其继续更新完善无极限吧，直到能看清我寝室厕所窗户为止。。哈哈。。
 继续发扬贴图作风！
 武汉的截图，曾和武大的小草同学异常Crazy的到过图中标记的那个点，下公汽的地方貌似叫船厂村……武汉本地的估计都不会去那里。。除非是live there。。
@@ -394,10 +394,10 @@ Powered by ScribeFire. </description>
     
     <item>
       <title>社会实践展示KT板样片</title>
-      <link>//chouj.github.io/179/</link>
+      <link>https://chouj.github.io/179/</link>
       <pubDate>Fri, 22 Sep 2006 10:22:00 +0000</pubDate>
       
-      <guid>//chouj.github.io/179/</guid>
+      <guid>https://chouj.github.io/179/</guid>
       <description>前天中午PS出来的，辅导员那里一遍PASS，期待下做出来的成品先。这个要和其他一堆KT板摆在一起，效果如何就不好说了，货比三家之后能否出彩，心存疑问，本来就是胡乱找了个背景模糊一下，然后胡乱罗列了下照片。至于文字，主题那个我就不说了，反正这种宣传性的东西少不了8R8C，下面那段倒是我亲口吹出来的，准确说是亲键盘敲出来的，再拜一下人的思维创造性。
 能看出背景图下方那黑乎乎的是什么吗？我会在这篇末尾贴出清晰的来，先让各位猜哈子，^_^ 这里转载 白云 一篇文章，关于系统清理。
  你是否注意到你的电脑系统磁盘的可用空间正在一天天在减少呢？是不是像老去的猴王一样动作一天比一天迟缓呢？
@@ -420,20 +420,20 @@ rd /s /q %windir%\temp &amp;amp; md %windir%\temp</description>
     
     <item>
       <title>社会实践光盘Autorun界面</title>
-      <link>//chouj.github.io/177/</link>
+      <link>https://chouj.github.io/177/</link>
       <pubDate>Tue, 19 Sep 2006 02:35:00 +0000</pubDate>
       
-      <guid>//chouj.github.io/177/</guid>
+      <guid>https://chouj.github.io/177/</guid>
       <description>那4行斗4俺们活动主题！！最后一句斗4俺想出来滴！！被逼无奈要向第一行押韵呐。。俺们那队伍叫“水乡行”社会实践队…俺们那总结居然有100多pages…最近还要俺给团队评优做一KT版…NND~~做出来鸟就贴出来～～
 PS.为照顾俺blog布局&amp;#8230;不符合规格的pictures都加了width=&amp;#8221;450&amp;#8243;标签，不是原始大小…可以自行查其网络地址再打开鸟看 ^_^</description>
     </item>
     
     <item>
       <title>还是暑假的photo</title>
-      <link>//chouj.github.io/175/</link>
+      <link>https://chouj.github.io/175/</link>
       <pubDate>Sun, 17 Sep 2006 00:00:00 +0000</pubDate>
       
-      <guid>//chouj.github.io/175/</guid>
+      <guid>https://chouj.github.io/175/</guid>
       <description>焰火 常熟
 东方之珠
 金茂大厦 实在是高
@@ -447,29 +447,29 @@ PS.相片空间首次用了google的picasaweb，上传速度还相当的快，25
     
     <item>
       <title>8荣8耻英文版</title>
-      <link>//chouj.github.io/173/</link>
+      <link>https://chouj.github.io/173/</link>
       <pubDate>Thu, 14 Sep 2006 00:48:00 +0000</pubDate>
       
-      <guid>//chouj.github.io/173/</guid>
+      <guid>https://chouj.github.io/173/</guid>
       <description>点击上图看大图</description>
     </item>
     
     <item>
       <title>贴图不说话</title>
-      <link>//chouj.github.io/169/</link>
+      <link>https://chouj.github.io/169/</link>
       <pubDate>Mon, 04 Sep 2006 05:30:00 +0000</pubDate>
       
-      <guid>//chouj.github.io/169/</guid>
+      <guid>https://chouj.github.io/169/</guid>
       <description>
     直接搜 中国最强悍的  </description>
     </item>
     
     <item>
       <title>《满城尽带黄金甲》预告片精彩截图</title>
-      <link>//chouj.github.io/167/</link>
+      <link>https://chouj.github.io/167/</link>
       <pubDate>Fri, 01 Sep 2006 11:52:00 +0000</pubDate>
       
-      <guid>//chouj.github.io/167/</guid>
+      <guid>https://chouj.github.io/167/</guid>
       <description>丫鬟？
        
   &amp;lt;div&amp;gt; &amp;lt;strong&amp;gt;&amp;lt;span style=&amp;quot;font-size:180%;&amp;quot;&amp;gt;巩&amp;lt;/span&amp;gt;&amp;lt;/strong&amp;gt;俐(Gong li) &amp;lt;/div&amp;gt; &amp;lt;div&amp;gt; &amp;lt;span style=&amp;quot;color: #ff6600;&amp;quot;&amp;gt;&amp;lt;strong&amp;gt;&amp;lt;span style=&amp;quot;font-size:180%;&amp;quot;&amp;gt;频&amp;lt;/span&amp;gt;&amp;lt;/strong&amp;gt;出的这些镜头，莫非我找到了卖点？？&amp;lt;/span&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div&amp;gt; &amp;lt;span style=&amp;quot;color: #000000;&amp;quot;&amp;gt;&amp;lt;strong&amp;gt;&amp;lt;span style=&amp;quot;font-size:180%;&amp;quot;&amp;gt;还&amp;lt;/span&amp;gt;&amp;lt;/strong&amp;gt;是给点正常的&amp;amp;#8230;&amp;lt;/span&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div&amp;gt; &amp;lt;a href=&amp;quot;http://blog.donews.com/images/blog_donews_com/xcchris/107822/r_未标题-1.jpg&amp;quot;&amp;gt;&amp;lt;img src=&amp;quot;http://blog.donews.com/images/blog_donews_com/xcchris/107822/r_未标题-1.jpg&amp;quot; border=&amp;quot;0&amp;quot; alt=&amp;quot;&amp;quot; /&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt; &amp;lt;a href=&amp;quot;http://blog.donews.com/images/blog_donews_com/xcchris/107822/r_未标题-8.jpg&amp;quot;&amp;gt;&amp;lt;img src=&amp;quot;http://blog.donews.com/images/blog_donews_com/xcchris/107822/r_未标题-8.jpg&amp;quot; border=&amp;quot;0&amp;quot; alt=&amp;quot;&amp;quot; /&amp;gt;&amp;lt;/a&amp;gt; &amp;lt;/p&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div&amp;gt; &amp;lt;strong&amp;gt;&amp;lt;span style=&amp;quot;font-size:180%;&amp;quot;&amp;gt;发&amp;lt;/span&amp;gt;&amp;lt;/strong&amp;gt;哥 （Chow Yun-fat） &amp;lt;/div&amp;gt; &amp;lt;div&amp;gt; &amp;lt;a href=&amp;quot;http://blog.donews.com/images/blog_donews_com/xcchris/107822/r_未标题-5.jpg&amp;quot;&amp;gt;&amp;lt;img src=&amp;quot;http://blog.donews.com/images/blog_donews_com/xcchris/107822/r_未标题-5.jpg&amp;quot; border=&amp;quot;0&amp;quot; alt=&amp;quot;&amp;quot; /&amp;gt;&amp;lt;/a&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div&amp;gt; &amp;lt;a href=&amp;quot;http://blog.donews.com/images/blog_donews_com/xcchris/107822/r_未标题-7.jpg&amp;quot;&amp;gt;&amp;lt;img src=&amp;quot;http://blog.donews.com/images/blog_donews_com/xcchris/107822/r_未标题-7.jpg&amp;quot; border=&amp;quot;0&amp;quot; alt=&amp;quot;&amp;quot; /&amp;gt;&amp;lt;/a&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div&amp;gt; &amp;lt;strong&amp;gt;&amp;lt;span style=&amp;quot;font-size:180%;&amp;quot;&amp;gt;JAY&amp;lt;/span&amp;gt;&amp;lt;/strong&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div&amp;gt; &amp;lt;a href=&amp;quot;http://blog.</description>
@@ -477,10 +477,10 @@ PS.相片空间首次用了google的picasaweb，上传速度还相当的快，25
     
     <item>
       <title>锦绣苏州</title>
-      <link>//chouj.github.io/158/</link>
+      <link>https://chouj.github.io/158/</link>
       <pubDate>Wed, 16 Aug 2006 03:02:00 +0000</pubDate>
       
-      <guid>//chouj.github.io/158/</guid>
+      <guid>https://chouj.github.io/158/</guid>
       <description>网师园 四大名园之一 可惜我没去 5555  寒山寺里的一个塔 沧浪亭外 &amp;lt;p align=&amp;quot;center&amp;quot;&amp;gt; 寒山寺上 &amp;lt;/p&amp;gt; &amp;lt;p align=&amp;quot;center&amp;quot;&amp;gt; &amp;lt;p align=&amp;quot;center&amp;quot;&amp;gt; &amp;lt;img style=&amp;quot;BORDER-LEFT-COLOR: #000000; BORDER-BOTTOM-COLOR: #000000; BORDER-TOP-COLOR: #000000; BORDER-RIGHT-COLOR: #000000&amp;quot; src=&amp;quot;http://blog.donews.com/images/blog_donews_com/xcchris/107822/r_照片-477.jpg&amp;quot; border=&amp;quot;0&amp;quot; alt=&amp;quot;&amp;quot; /&amp;gt; &amp;lt;/p&amp;gt; &amp;lt;p align=&amp;quot;center&amp;quot;&amp;gt; 梦兰苑 梦兰集团下的别墅区 &amp;lt;/p&amp;gt; &amp;lt;p align=&amp;quot;center&amp;quot;&amp;gt; &amp;lt;p align=&amp;quot;center&amp;quot;&amp;gt; &amp;lt;img style=&amp;quot;BORDER-LEFT-COLOR: #000000; BORDER-BOTTOM-COLOR: #000000; BORDER-TOP-COLOR: #000000; BORDER-RIGHT-COLOR: #000000&amp;quot; src=&amp;quot;http://blog.donews.com/images/blog_donews_com/xcchris/107822/r_照片-479.jpg&amp;quot; border=&amp;quot;0&amp;quot; alt=&amp;quot;&amp;quot; /&amp;gt; &amp;lt;/p&amp;gt; &amp;lt;p align=&amp;quot;center&amp;quot;&amp;gt; 波司登下的别墅区 &amp;lt;/p&amp;gt; &amp;lt;p align=&amp;quot;center&amp;quot;&amp;gt; &amp;lt;p align=&amp;quot;center&amp;quot;&amp;gt; &amp;lt;img style=&amp;quot;BORDER-LEFT-COLOR: #000000; BORDER-BOTTOM-COLOR: #000000; BORDER-TOP-COLOR: #000000; BORDER-RIGHT-COLOR: #000000&amp;quot; src=&amp;quot;http://blog.donews.com/images/blog_donews_com/xcchris/107822/r_照片-438.jpg&amp;quot; border=&amp;quot;0&amp;quot; alt=&amp;quot;&amp;quot; /&amp;gt; &amp;lt;/p&amp;gt; &amp;lt;p align=&amp;quot;center&amp;quot;&amp;gt; 常熟 苏州 &amp;lt;/p&amp;gt; &amp;lt;p align=&amp;quot;center&amp;quot;&amp;gt; &amp;lt;p align=&amp;quot;center&amp;quot;&amp;gt; &amp;lt;img style=&amp;quot;BORDER-LEFT-COLOR: #000000; BORDER-BOTTOM-COLOR: #000000; BORDER-TOP-COLOR: #000000; BORDER-RIGHT-COLOR: #000000&amp;quot; src=&amp;quot;http://blog.</description>
     </item>
     

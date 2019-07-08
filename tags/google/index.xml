@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Google on 抽筋儿的话语权</title>
-    <link>//chouj.github.io/tags/google/</link>
+    <link>https://chouj.github.io/tags/google/</link>
     <description>Recent content in Google on 抽筋儿的话语权</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
     <lastBuildDate>Fri, 19 Jan 2018 08:31:50 +0000</lastBuildDate>
     
-	<atom:link href="//chouj.github.io/tags/google/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://chouj.github.io/tags/google/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Call Bitly/Google URL shorten API in MATLAB</title>
-      <link>//chouj.github.io/824/</link>
+      <link>https://chouj.github.io/824/</link>
       <pubDate>Fri, 19 Jan 2018 08:31:50 +0000</pubDate>
       
-      <guid>//chouj.github.io/824/</guid>
+      <guid>https://chouj.github.io/824/</guid>
       <description>&lt;h1 id=&#34;bitly&#34;&gt;Bitly&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://dev.bitly.com/links.html#v3_shorten&#34;&gt;Bitly API document: &lt;strong&gt;/v3/shorten&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
@@ -27,10 +27,10 @@
     
     <item>
       <title>Feedburner:Adsense for feeds下周试运行</title>
-      <link>//chouj.github.io/485/</link>
+      <link>https://chouj.github.io/485/</link>
       <pubDate>Sat, 31 May 2008 08:10:48 +0000</pubDate>
       
-      <guid>//chouj.github.io/485/</guid>
+      <guid>https://chouj.github.io/485/</guid>
       <description>30日，FeedBurner官方blog发布了一篇日志：Into the wild:Adsense for feeds，宣称Feedburner将于下周在部分用户中试行Adsense for feeds！
 Google购入FeedBurner后，这最重要的整合终于到来了，意味着同时发布GGAD并使用FeedBurner烧制Feed的博客主将可直接利用Google Adsense将广告投放于feed中。
 文中也强调，目前只是该服务的测试阶段，相应详细操作和要求等等事宜都还只能等到正式发布时获知。不过，这仍然值得广大bloggers翘首期待，毕竟Google &amp;amp; Feedburner强强联合所推出的Adsense for feeds将成为RSS Feed广告营销中重要的一环。广告主们多了一个新的发布平台，博客主则多了一个新的获利渠道。
@@ -42,10 +42,10 @@ Google购入FeedBurner后，这最重要的整合终于到来了，意味着同�
     
     <item>
       <title>[草莓版]十月汇集：订阅数风波迭起，挑战赛拼搏到底</title>
-      <link>//chouj.github.io/471/</link>
+      <link>https://chouj.github.io/471/</link>
       <pubDate>Mon, 05 Nov 2007 05:53:47 +0000</pubDate>
       
-      <guid>//chouj.github.io/471/</guid>
+      <guid>https://chouj.github.io/471/</guid>
       <description>&lt;p&gt;&lt;font color=&#34;#999999&#34;&gt;在&lt;a href=&#34;http://www.yeeyan.com/articles/view/7683/2294&#34; target=&#34;_blank&#34;&gt;世界顶级赚钱博客Rss订阅挑战赛&lt;/a&gt;中，十月开始了，不过我不知道结果，囧～最近忙的像条狗（狗们好像挺悠闲的，都可以按点儿睡觉），所以此文迟到5天，顺道热烈祝贺&lt;a href=&#34;http://www.cnbloggercon.org/&#34; target=&#34;_blank&#34;&gt;2007中文网志年会&lt;/a&gt;结束！圆不圆满不好说，因为我看到了&lt;a href=&#34;http://www.kenengba.com/post/285.html&#34; title=&#34;有点失败的网志年会&#34; target=&#34;_blank&#34;&gt;不满&lt;/a&gt;。&lt;/font&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;small&gt;&lt;/small&gt;&lt;/p&gt;
@@ -65,10 +65,10 @@ Google购入FeedBurner后，这最重要的整合终于到来了，意味着同�
     
     <item>
       <title>我在写博客过程中犯过错误吗？</title>
-      <link>//chouj.github.io/35/</link>
+      <link>https://chouj.github.io/35/</link>
       <pubDate>Sat, 04 Aug 2007 08:53:00 +0000</pubDate>
       
-      <guid>//chouj.github.io/35/</guid>
+      <guid>https://chouj.github.io/35/</guid>
       <description>关于RSS相关这个blog的事情一直都想说，正巧被曾兄点了名，就写点吧，其实本不打算上火车前再写东西。游戏的名字叫“我在写博客过程中犯过的N个错误”，就我个人而言，我没觉得是什么错误，所以把题目改了下；而且那边的主题是关于RSS应用，所以文字发在这里了，都望曾兄不要介意。
 写博客会犯错误吗？如果就blogging技巧、经验，blog的长远发展和个人品牌的建立这些博客联盟关注的方面来讲，犯错误是肯定会有的。刚接触blog概念的新人，绝不可能想的这么周全完备，有的甚至不觉的个人品牌和自写自话会有什么关系，他们之所以会犯这些方面的错误，就是没看一些blogging指导上的文字；而我在这些方面犯的错误，都要归咎于当时没有博客联盟，XD~Just a JOKE
 具体而言，在blog发展上我犯的错误有：
@@ -88,10 +88,10 @@ OK，游戏任务完成，回到我自己的见解，离开blog经营，就个�
     
     <item>
       <title>[草莓版]七月汇集：共享与广告 竞争与生存</title>
-      <link>//chouj.github.io/450/</link>
+      <link>https://chouj.github.io/450/</link>
       <pubDate>Tue, 31 Jul 2007 15:00:04 +0000</pubDate>
       
-      <guid>//chouj.github.io/450/</guid>
+      <guid>https://chouj.github.io/450/</guid>
       <description>火热七月，大事有三：刚入七月的OPML共享活动，紧接着Feedsky首开国内RSS展示广告的先河，再然后大家都能感觉到的：鲜果 VS 抓虾，这样的竞争无处不在。
 [OPML共享]
 7月3日，月光分享了他的Opml订阅Feed，6日Src发起OPML共享运动，一时间订阅数飙升，参与和讨论不断，分外河蟹。活动意义诸多：通告大家在面对信息过载，和未读数斗争的日子里，如何管理你的订阅，如何学会筛选和过滤，以避免RSS阅读焦虑的灾难；同时也可开阔视野，避免坐井观天。忧虑的声音也有，因为信息重叠和喜好有别。
@@ -115,10 +115,10 @@ RSS标志依然受到设计者的追捧，又有漂亮标志现身网络，详�
     
     <item>
       <title>五月RSS相关文章汇集</title>
-      <link>//chouj.github.io/436/</link>
+      <link>https://chouj.github.io/436/</link>
       <pubDate>Wed, 06 Jun 2007 13:46:27 +0000</pubDate>
       
-      <guid>//chouj.github.io/436/</guid>
+      <guid>https://chouj.github.io/436/</guid>
       <description>火热五月，RSS界也是热闹非凡，Feedburner改姓为G，及其中文版风波，Feedsky话题广告的bloggers大讨论，皆为业界大事件。我很欣喜能看到RSS应用的这些发展历程，很多是必须要经历的，You是最大的受益者。
  Google收购Feedburner将如何影响Feed营销市场——WebLeOn 写在FeedBurner被Google收购之后——SRC  Google收购Feedburner，必然带来Feed发展的突飞猛进和巨大变革。游戏规则的制定，再次落入Google手中。
  关于话题广告的争论——前博客  老前整理出了相关争论文章的列表，我就不一一列出了。不管怎么说，话题广告肯定要经历这种发展和讨论的，始终是一种进步。
@@ -131,10 +131,10 @@ Powered by ScribeFire. </description>
     
     <item>
       <title>FeedBurner：中文版现身及被收购传闻</title>
-      <link>//chouj.github.io/434/</link>
+      <link>https://chouj.github.io/434/</link>
       <pubDate>Sat, 19 May 2007 04:06:00 +0000</pubDate>
       
-      <guid>//chouj.github.io/434/</guid>
+      <guid>https://chouj.github.io/434/</guid>
       <description>一早上就看到两则令人激动的消息，一是FeedBurner多语言版中，出现了中文版（Beta）的身影；二是传闻Google将继续花金撒银得进行收购事业，碰巧这次的收购对象有可能是FeedBurner，且收购金额都有所透漏。废话少说，上链接：
 点此将您的FeedBurner页面转化为简体中文 
 点此将您的FeedBurner页面转化为繁体中文
@@ -167,10 +167,10 @@ Feedburner 被粗糙汉化——总统
     
     <item>
       <title>最近关于RSS的文章集锦</title>
-      <link>//chouj.github.io/425/</link>
+      <link>https://chouj.github.io/425/</link>
       <pubDate>Mon, 30 Apr 2007 14:22:38 +0000</pubDate>
       
-      <guid>//chouj.github.io/425/</guid>
+      <guid>https://chouj.github.io/425/</guid>
       <description>什么是RSS，一个经典的比喻  通过自己的心身经历，把自己运用RSS的过程写的淋漓尽致，通俗易懂。怎么感觉我在总结中心思想？反正很值得看看啦。
  为什么要输出全文Feed？  Webleon告诉您为什么要全文输出FEED，但这是一家之言。出于商业化考虑，拥护摘要输出的朋友也正在增多中。
  RSS的未来  译言网上一篇关于RSS的探讨性文章，由花花翻译，高度概括，推荐！
@@ -190,10 +190,10 @@ Feedburner 被粗糙汉化——总统
     
     <item>
       <title>这俩Idea如何？</title>
-      <link>//chouj.github.io/244/</link>
+      <link>https://chouj.github.io/244/</link>
       <pubDate>Fri, 13 Apr 2007 14:06:00 +0000</pubDate>
       
-      <guid>//chouj.github.io/244/</guid>
+      <guid>https://chouj.github.io/244/</guid>
       <description>你恨他吗？就送他GFW工作人员专用T恤!
 “想说上你不容易……”——Google Blogger 中国官方T恤衫标语
 不能不说，人的创造力是无穷的，以上采自qq群32269107，本人是辉常佩服这俩idea滴。
@@ -202,10 +202,10 @@ Feedburner 被粗糙汉化——总统
     
     <item>
       <title>非常时期非常规访问方法</title>
-      <link>//chouj.github.io/235/</link>
+      <link>https://chouj.github.io/235/</link>
       <pubDate>Tue, 20 Mar 2007 14:17:00 +0000</pubDate>
       
-      <guid>//chouj.github.io/235/</guid>
+      <guid>https://chouj.github.io/235/</guid>
       <description>上一篇是给GFW挠痒痒，结果丫狮子大张口吞了整个blogspot国度，害得本应欣欣向荣、如火如荼的google blogger中国用户群被当头被泼了一盆冷水，煞是凄惨。
 抽丫的筋儿：以下渠道尚可正常访问和交流：
 http://www.inblogs.net/xcchris/
@@ -229,10 +229,10 @@ http://www.pkblogs.com/xcchris/
     
     <item>
       <title>我看过的blogger hack站点</title>
-      <link>//chouj.github.io/225/</link>
+      <link>https://chouj.github.io/225/</link>
       <pubDate>Thu, 22 Feb 2007 10:16:00 +0000</pubDate>
       
-      <guid>//chouj.github.io/225/</guid>
+      <guid>https://chouj.github.io/225/</guid>
       <description>Google Blogger的自由度有目共睹，templates、hacks层出不穷。这里摆弄至今，看过不少写blogger代码技巧的站，受益匪浅。赶上最近有朋友问到，罗列几个，都是中文的，想必对以Google Blogger作为BSP开博客的用户有很大帮助。
 简体站点：
  色彩斑斓——http://sunr.blogspot.com/  我最早参考的站点之一，山东咖啡鱼的博客。一开始还看过博之道,但现在没开放了。
@@ -256,10 +256,10 @@ Update：刚看到 博客hack扩展大全wiki by GG派 ，太赞了！
     
     <item>
       <title>RSS &amp; Google打造个性主页</title>
-      <link>//chouj.github.io/412/</link>
+      <link>https://chouj.github.io/412/</link>
       <pubDate>Wed, 21 Feb 2007 12:39:43 +0000</pubDate>
       
-      <guid>//chouj.github.io/412/</guid>
+      <guid>https://chouj.github.io/412/</guid>
       <description>看看下面这幅图，点击放大&amp;#8230;
 
 Chouj同学好早以前的google个性主页，我所关注的项目都在这里有所罗列，注意右边的blog标题排列了吗？&amp;#8230;不论新闻还是blog，只用打开这一个主页，就可以掌握所有我关注网页的更新情况。目前提供个性主页服务的网站有很多，比如飞鸽，Google只是其中之一。
@@ -278,10 +278,10 @@ http://www.donews.net/sogoo/archive/2005/03/16/303272.aspx
     
     <item>
       <title>Google一统江湖</title>
-      <link>//chouj.github.io/186/</link>
+      <link>https://chouj.github.io/186/</link>
       <pubDate>Wed, 11 Oct 2006 02:56:00 +0000</pubDate>
       
-      <guid>//chouj.github.io/186/</guid>
+      <guid>https://chouj.github.io/186/</guid>
       <description>随便瞟一眼我的Google Account，就知道我被那个叫“谷歌”的家伙给统治成了什么样子（破输入法还没与时俱进，害我差点敲成“骨骼”）。虽然我并没有完全享用以上的服务，但还是必须承认：凡我用到的，都是相当不错和专业的。
 不过，丫对我的统治还不彻底，至少未来还会增加俩服务，一个flickr，一个video。前者是因为教育网内访问不了，否则丫早就该出现了；后者可以访问，我也试用了下，自打Google宣布收购YouTube，前景可谓一片光明。另外丫少列了个google earth。也许，不久的将来，google将占领我们的屏幕！
 技术领域的日新月异跟洪水下山似的，把我们这些草根儿冲得哪还有根儿啊，结果丫们还是拼命挤占我们脚底下的沃土。为了不被冲走，我就这么牢实的踩在google这片地儿上，然后丫再拼命施肥，再然后你说我是营养过剩，还是营养单一？忽然不知道这种现象是该赞还是该叹，咱有可能享受技术领先带来的优秀服务，也贡献出眼球让丫们服务提供商来你争我夺肆意践踏。这字敲着敲着就又被践踏了一遭：AMD有可能收购ATi，看来丫们笃信“海纳百川，有容乃大”，而对“水不在深，有龙则灵”视而不见。

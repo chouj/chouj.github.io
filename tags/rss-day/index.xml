@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>RSS Day on 抽筋儿的话语权</title>
-    <link>//chouj.github.io/tags/rss-day/</link>
+    <link>https://chouj.github.io/tags/rss-day/</link>
     <description>Recent content in RSS Day on 抽筋儿的话语权</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
     <lastBuildDate>Tue, 22 Apr 2008 08:51:06 +0000</lastBuildDate>
     
-	<atom:link href="//chouj.github.io/tags/rss-day/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://chouj.github.io/tags/rss-day/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>五一RSS节，hoho~</title>
-      <link>//chouj.github.io/479/</link>
+      <link>https://chouj.github.io/479/</link>
       <pubDate>Tue, 22 Apr 2008 08:51:06 +0000</pubDate>
       
-      <guid>//chouj.github.io/479/</guid>
+      <guid>https://chouj.github.io/479/</guid>
       <description>哈，RSS(Really Simple Syndication)都有节了，毫不忧郁义不容辞排山倒海得在这里庆贺下，别管啥家乐福了，来为RSS欢呼吧！
 May 1st RSS Awareness Day是由DailyBlogTips的Daniel Scocco发起的活动，而且他还为这个日子建了官方网站RSSDay.org以便宣传。这个网站主页扼要得介绍了使用RSS的好处和使用方法，并且提供了各规格的标识供bloggers挂在blogs上（就像文中这个和侧栏那个）。当然，参与这个活动是有奖励的哦，具体见Daniel Scocco的原文（中文翻译在此），不过，如果你像抽筋儿一样觉得RSS应用值得推广的话，就加入到活动中来吧！
 之前写过《为什么要用线上RSS阅读器》，这里还是再小科普一下：
