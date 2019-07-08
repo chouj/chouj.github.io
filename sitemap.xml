@@ -458,7 +458,7 @@
   
   <url>
     <loc>https://chouj.github.io/719/</loc>
-    <lastmod>2011-05-07T00:00:00+00:00</lastmod>
+    <lastmod>2011-05-07T00:00:00+08:00</lastmod>
   </url>
   
   <url>
@@ -1530,13 +1530,13 @@
   </url>
   
   <url>
-    <loc>https://chouj.github.io/tags/wordpress/</loc>
+    <loc>https://chouj.github.io/categories/wordpress/</loc>
     <lastmod>2008-11-05T01:47:53+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://chouj.github.io/categories/wordpress/</loc>
+    <loc>https://chouj.github.io/tags/wordpress/</loc>
     <lastmod>2008-11-05T01:47:53+00:00</lastmod>
     <priority>0</priority>
   </url>
