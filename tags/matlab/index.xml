@@ -21,8 +21,8 @@
       <description>&lt;p&gt;为了达成如题的目的，实现方法已经有了早期的两个版本：&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;2014年：手机端手动输入便便时间，经Dropbox同步至本地PC；利用Windows计划任务定期执行统计分析的&lt;a href=&#34;http://xuchi.name/tag/matlab/&#34;&gt;MATLAB&lt;/a&gt;脚本；将结果发邮箱，再利用IFTTT发Twitter上。(见&lt;a href=&#34;https://github.com/chouj/PooAnalysis&#34;&gt;Github&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;2017年3月：应对Dropbox被墙，将便便时间记录放到&lt;a href=&#34;http://notepad.live&#34;&gt;Notepad&lt;/a&gt;上；&lt;a href=&#34;http://xuchi.name/tag/matlab/&#34;&gt;MATLAB&lt;/a&gt;里利用正则把页面上的数据读下来，再进行统计分析；同样用Windows计划任务实现定期执行。&lt;/li&gt;
+&lt;li&gt;2014年：手机端手动输入便便时间，经Dropbox同步至本地PC；利用Windows计划任务定期执行统计分析的&lt;a href=&#34;https://xuchi.name/tag/matlab/&#34;&gt;MATLAB&lt;/a&gt;脚本；将结果发邮箱，再利用IFTTT发Twitter上。(见&lt;a href=&#34;https://github.com/chouj/PooAnalysis&#34;&gt;Github&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;2017年3月：应对Dropbox被墙，将便便时间记录放到&lt;a href=&#34;http://notepad.live&#34;&gt;Notepad&lt;/a&gt;上；&lt;a href=&#34;https://xuchi.name/tag/matlab/&#34;&gt;MATLAB&lt;/a&gt;里利用正则把页面上的数据读下来，再进行统计分析；同样用Windows计划任务实现定期执行。&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;上述两个方案中最难坚持的部分在于：要打开手机浏览器，访问相应记录网页，再按10个数字手动输入便便时间。&lt;/p&gt;

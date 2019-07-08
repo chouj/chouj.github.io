@@ -21,8 +21,8 @@
       <description>&lt;p&gt;为了达成如题的目的，实现方法已经有了早期的两个版本：&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;2014年：手机端手动输入便便时间，经Dropbox同步至本地PC；利用Windows计划任务定期执行统计分析的&lt;a href=&#34;http://xuchi.name/tag/matlab/&#34;&gt;MATLAB&lt;/a&gt;脚本；将结果发邮箱，再利用IFTTT发Twitter上。(见&lt;a href=&#34;https://github.com/chouj/PooAnalysis&#34;&gt;Github&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;2017年3月：应对Dropbox被墙，将便便时间记录放到&lt;a href=&#34;http://notepad.live&#34;&gt;Notepad&lt;/a&gt;上；&lt;a href=&#34;http://xuchi.name/tag/matlab/&#34;&gt;MATLAB&lt;/a&gt;里利用正则把页面上的数据读下来，再进行统计分析；同样用Windows计划任务实现定期执行。&lt;/li&gt;
+&lt;li&gt;2014年：手机端手动输入便便时间，经Dropbox同步至本地PC；利用Windows计划任务定期执行统计分析的&lt;a href=&#34;https://xuchi.name/tag/matlab/&#34;&gt;MATLAB&lt;/a&gt;脚本；将结果发邮箱，再利用IFTTT发Twitter上。(见&lt;a href=&#34;https://github.com/chouj/PooAnalysis&#34;&gt;Github&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;2017年3月：应对Dropbox被墙，将便便时间记录放到&lt;a href=&#34;http://notepad.live&#34;&gt;Notepad&lt;/a&gt;上；&lt;a href=&#34;https://xuchi.name/tag/matlab/&#34;&gt;MATLAB&lt;/a&gt;里利用正则把页面上的数据读下来，再进行统计分析；同样用Windows计划任务实现定期执行。&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;上述两个方案中最难坚持的部分在于：要打开手机浏览器，访问相应记录网页，再按10个数字手动输入便便时间。&lt;/p&gt;
@@ -105,9 +105,11 @@
       <pubDate>Thu, 02 Jun 2011 09:19:29 +0000</pubDate>
       
       <guid>//chouj.github.io/724/</guid>
-      <description>四月五月是缴域名费和主机费的时间段。这比开支需要找些收益填掉，毕竟卖链接的日子和写Feedsky软文的日子一去不返了（虽然也没捞到多少）。如果这个活动成功的话，加入的前1000名博主可以每人分到50块RMB（其实分Bitcoin也行）。填一点儿是一点儿，坑浅些，摔得轻。
-拿福能是从东南亚发迹的博客广告社区，面对亚太地区。和一般的博客广告商不同的是，他们有些线下和博主互动的活动（不过目前只有北京和香港，且活动列表的最新条目显示是2009年，囧）。我在豆瓣上收到拿福能客服的豆邮介绍和邀请，感觉挺亲和，便以尝试的心态加入了，毕竟小博客盈利的方法很少。加入之后，拿福能一直没什么动作，中国这一块儿似乎还在招兵买马的宣传阶段，希望以后能快马加鞭步入正轨。
-如果也想挣50外加拿福能中国版徽章，参照“千人挑战”的说明页面，注册发文提交日志链接即可。</description>
+      <description>&lt;p style=&#34;text-align: center;&#34;&gt;
+  &lt;a title=&#34;拿福能千人挑战&#34; href=&#34;https://www.nuffnang.com.cn/blog/2011/05/23/challenge-1000/&#34;&gt;&lt;img class=&#34;aligncenter&#34; src=&#34;https://www.nuffnang.com.cn/wp-content/uploads/2011/05/C1000.jpg&#34; alt=&#34;拿福能 千人挑战&#34; /&gt;&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p&gt;四月五月是缴域名费和主机费的时间段。这比开支需要找些收益填掉，毕竟卖链接的日子和写Feedsky软文的日子一去不返了（虽然也没捞到多少）。如果这个活动成功的话，加入的前1000名博主可以每人分到50块RMB（其实分Bitcoin也行）。填一点儿是一点儿，坑浅些，摔得轻。&lt;/p&gt;</description>
     </item>
     
     <item>
