@@ -765,12 +765,6 @@
   </url>
   
   <url>
-    <loc>https://xuchi.name/tags/feed/</loc>
-    <lastmod>2010-07-06T08:58:39+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://xuchi.name/566/</loc>
     <lastmod>2010-07-06T08:58:39+00:00</lastmod>
   </url>
@@ -919,6 +913,12 @@
   <url>
     <loc>https://xuchi.name/tags/%E6%B5%B7%E6%99%AF/</loc>
     <lastmod>2009-08-25T17:49:36+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://xuchi.name/tags/feed/</loc>
+    <lastmod>2009-08-18T16:56:04+00:00</lastmod>
     <priority>0</priority>
   </url>
   

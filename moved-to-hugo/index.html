@@ -5,7 +5,7 @@
   <meta charset="utf-8" />
 
   
-  <title>以Github Pages为家 以Hugo为架</title>
+  <title>以Github Pages为家 以Hugo为骨 以nuo为皮</title>
 
   
   
@@ -33,7 +33,7 @@
   
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@geomatlab">
-    <meta name="twitter:title" content="以Github Pages为家 以Hugo为架">
+    <meta name="twitter:title" content="以Github Pages为家 以Hugo为骨 以nuo为皮">
     <meta name="twitter:description" content="　本博客的第四个家：Github Pages &#43; Hugo，终于初步搭建完成了。考虑到静态化的速度，选择了Hugo，特此记录。
 ">
     <meta name="twitter:image" content="/images/avatar.png">
@@ -41,7 +41,7 @@
 
   
   <meta property="og:type" content="article">
-  <meta property="og:title" content="以Github Pages为家 以Hugo为架">
+  <meta property="og:title" content="以Github Pages为家 以Hugo为骨 以nuo为皮">
   <meta property="og:description" content="　本博客的第四个家：Github Pages &#43; Hugo，终于初步搭建完成了。考虑到静态化的速度，选择了Hugo，特此记录。
 ">
   <meta property="og:url" content="https://chouj.github.io/moved-to-hugo/">
@@ -209,7 +209,7 @@
 
   <section class="main post-detail">
     <header class="post-header">
-      <h1 class="post-title">以Github Pages为家 以Hugo为架</h1>
+      <h1 class="post-title">以Github Pages为家 以Hugo为骨 以nuo为皮</h1>
       <p class="post-meta">@Chi · Jun 29, 2019 · 1 min read</p>
     </header>
     <article class="post-content"><p><img src="https://d33wubrfki0l68.cloudfront.net/30790d6888bd8af863fb2b5c33a7f337cdbda243/4e867/images/hugo-logo-wide.svg" alt="" /></p>
@@ -229,8 +229,12 @@
 
 <ul>
 <li><a href="https://github.com/thomasf/exitwp">ExitWP</a>反而报错失败。自建<a href="https://www.apachefriends.org/">XAMPP</a>装旧博同版<a href="https://wordpress.org">WordPress</a>+插件<a href="https://github.com/SchumacherFM/wordpress-to-hugo-exporter">wordpress-to-hugo-exporter</a>才成功导出。和网上一些搬家经历不一样，毕竟我有700+篇日志。</li>
-<li>暂用<a href="https://github.com/laozhu/hugo-nuo">Hugo nuo</a>主题。因为这个主题支持sass的缘故，必须安装Hugo Extented version。而README和<a href="https://laozhu.me/post/hugo-nuo-theme/">中文教程</a>都没指明这一点。</li>
+<li>用了<a href="https://github.com/laozhu/hugo-nuo">Hugo nuo</a>主题。因为这个主题支持sass的缘故，必须安装Hugo Extented version。而README和<a href="https://laozhu.me/post/hugo-nuo-theme/">中文教程</a>都没指明这一点。</li>
 <li>该主题的social list里可以点亮RSS icon，但样板<code>config.toml</code>里没有列出。只要在<code># Choose your social networks</code>下面加上<code>RSS = &quot;博客的RSS Feed地址&quot;</code>就好。原始地址就是<code>域名/index.xml/</code>，也可以像我的一样去<a href="http://xuchi.name/tags/feedburner/">FeedBurner</a>烧一个Feed。</li>
+<li><code>footer</code>里默认copyright的时间范围是从<code>2017</code>年开始。想改掉这个“<code>2017</code>”的话，需要找到<code>yoursite\themes\hugo-nuo\layouts\partials\footer.html</code>，然后把里面的<code>2017</code>替换为你想要的年份。</li>
+<li>我在Github Pages启用HTTPS enforcement后，遭遇了.css加载不能的问题。只好在<code>yoursite\themes\hugo-nuo\layouts\partials\head.html</code>里把<code>&lt;link rel=&quot;stylesheet&quot; href=&quot;{{ $style.RelPermalink }}&quot;&gt;</code>替换为<code>&lt;link rel=&quot;stylesheet&quot; href=&quot;https://yourdomain.com/styles/main-rendered.min.css&quot;&gt;</code>。好在全站所有页面都是用的这一个.css。这招是误打误撞，不一定对。</li>
+<li><code>sitemap.xml</code>的生成依赖于<code>config.toml</code>里的<code>baseURL</code>。而由于在Github Pages托管的缘故，这个<code>baseURL</code>只能填<code>https://YourID.github.io/</code>。所以<code>sitemap.xml</code>里全是这个链接，而不是自己的域名。所以在每次<code>Git push</code>前要手动替换一下。</li>
+<li><code>yoursite\themes\hugo-nuo\layouts\partials\head.html</code>里类似<code>{{ with .Site.Params.sositeverification }}&lt;meta name=&quot;360-site-verification&quot; content=&quot;{{ . }}&quot;&gt;{{ end }}</code>的几行代码都是站长工具做网站验证用的，可以照葫芦画瓢仿造新的验证添加方式，这样就可以在<code>config.toml</code>里添加。</li>
 </ul>
 
 <h4 id="感谢前任">感谢前任</h4>

@@ -18,13 +18,7 @@
       <pubDate>Tue, 06 Jul 2010 08:58:39 +0000</pubDate>
       
       <guid>https://chouj.github.io/566/</guid>
-      <description>原文：Create an RSS Feed for Twitter Favorites
-作者：MARK EVANS
-推特的神奇之处在于，在这条信息长流之中，汇集了好玩的点子、稀奇的思绪、纷杂的内容和用户的观点。当然推特也有让人不爽的地方，那就是难以将这些存留下来。
-一个解决办法是，运用推特的“favorite（收藏）”功能将tweets标记下来，过后再看。
-但其中有个问题是，推特并未提供方便的管理和检索“收藏”的功能。特别是当我们想定期查阅和检索“收藏”时，此类功能的缺失让我们觉得比较不方便。那么我们该怎么做呢？
-其实我们可以为这些“收藏”生成一个RSS Feed。这是推特所支持的，且很便捷。
-http://twitter.com/favorites/[**insert_your_ID_here**].rss就是你的收藏的RSS Feed地址，以你的推特用户名替换掉方括号的部分。如果你用Google Reader的话，就可以把这个URL添加进你的订阅了。</description>
+      <description>&lt;p&gt;原文：&lt;del&gt;&lt;a title=&#34;Create an RSS Feed for Twitter Favorites&#34; href=&#34;http://www.twitterrati.com/2010/05/17/create-an-rss-feed-for-twitter-favorites&#34; target=&#34;_blank&#34;&gt;Create an RSS Feed for Twitter Favorites&lt;/a&gt;&lt;/del&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

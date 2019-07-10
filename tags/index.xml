@@ -715,15 +715,6 @@
     </item>
     
     <item>
-      <title>Feed</title>
-      <link>https://chouj.github.io/tags/feed/</link>
-      <pubDate>Tue, 06 Jul 2010 08:58:39 +0000</pubDate>
-      
-      <guid>https://chouj.github.io/tags/feed/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>twitter favorites</title>
       <link>https://chouj.github.io/tags/twitter-favorites/</link>
       <pubDate>Tue, 06 Jul 2010 08:58:39 +0000</pubDate>
@@ -855,6 +846,15 @@
       <pubDate>Tue, 25 Aug 2009 17:49:36 +0000</pubDate>
       
       <guid>https://chouj.github.io/tags/%E6%B5%B7%E6%99%AF/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Feed</title>
+      <link>https://chouj.github.io/tags/feed/</link>
+      <pubDate>Tue, 18 Aug 2009 16:56:04 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/tags/feed/</guid>
       <description></description>
     </item>
     
