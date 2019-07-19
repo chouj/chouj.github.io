@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
-    <lastBuildDate>Sun, 07 Jul 2019 16:30:31 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 19 Jul 2019 10:30:04 +0800</lastBuildDate>
     
 	<atom:link href="https://chouj.github.io/tags/%E6%B5%B7%E6%B4%8B%E5%AD%A6/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>今日南海中尺度涡 (South China Sea Mesoscale Eddies Today)</title>
+      <link>https://chouj.github.io/scs-eddies-today/</link>
+      <pubDate>Fri, 19 Jul 2019 10:30:04 +0800</pubDate>
+      
+      <guid>https://chouj.github.io/scs-eddies-today/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://git.code.tencent.com/Eddy/Auto_Eddy_Detection_and_Visualization/raw/5b11a5400ba42f09bf01898c378707006406c363/Bathmetry_SSHA_latest.png&#34; alt=&#34;&#34; /&gt;
+&lt;center&gt;南海地形（颜色）叠加SSHA等值线（黑实为正，黑虚为负，间隔为2 cm）。洋红色闭合等值线标示反气旋涡，翠绿色闭合等值线标示气旋涡。&lt;/center&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>中尺度涡可以占掉全球水域表面的1/3？那把它们都塞去大西洋吧！</title>
