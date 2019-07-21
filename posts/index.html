@@ -212,7 +212,9 @@
   </header>
   
   <p class="post-summary">南海地形（颜色）叠加SSHA等值线（黑实为正，黑虚为负，间隔为2 cm）。洋红色闭合等值线标示反气旋涡，翠绿色闭合等值线标示气旋涡。
-</p>
+SSHA分布（颜色，间隔为1 cm）叠加绝对地转流矢量箭头。灰色细线标识南海等深线（同上图）。粗黑实线标示反气旋涡，粗黑虚线标示气旋涡。
+项目功能 当天卫星资料自动下载至本地； 中尺度涡识别（基于SSHA闭合等值线，输出形心坐标、极值点坐标、涡振幅、涡边缘坐标、涡极性、涡等效半径）； 制图（目前如上两种）； 基于Git作线上更新发布（码云）； 自动每日定期执行（大概8:20发）； SSTA图、CHL图等（CMEMS能自动下载的都可以画）； 代码开源； 基于码云的webhook when push和pushbear，实现项目更新通知并推送至微信。  数据来源 GLOBAL OCEAN GRIDDED L4 SEA SURFACE HEIGHTS AND DERIVED VARIABLES NRT
+数据手册 涡识别判据 最大SSHA闭合等值线 圈定范围内SSHA极值与该最大SSHA闭合等值线上值的差不小于3 cm 圈定范围经向纬向跨度至少0.5度 最大SSHA闭合等值线上的点与线上其它所有点的距离不超过400 Km  注意事项  涡识别前SLA数据未做任何处理：比如，未空间滤波。 SLA原始数据所去除的多年平均是1993-2012年。  致谢  上海海洋气象台 杨棋 （涡识别核心code） CMEMS MOTU Client for handling, extracting and transforming oceanographic huge volumes of data 地形：Sandwell and Smith Bathymetry 岸界：GSHHS M_MAP、export_fig 码云   项目动机 近期有一个利用水下滑翔机观测中尺度涡的应用型海试，我一直在帮忙做观测方案设计。这期间每天必做的就是下载当天的准实时海表面高度异常资料，进行初步涡识别，然后成图 ，发给执行方供参考。为了节省这部分重复劳动占用的时间，我把整个过程在本地自动化（借助timer function），然后在码云代码仓库作自动线上发布与更新。</p>
   <footer class="post-footer">
     <a class="read-more" href="https://chouj.github.io/scs-eddies-today/">Read More →</a>
   </footer>

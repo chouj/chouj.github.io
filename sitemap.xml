@@ -209,6 +209,12 @@
   </url>
   
   <url>
+    <loc>https://chouj.github.io/tags/rss/</loc>
+    <lastmod>2017-09-15T02:24:40+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://chouj.github.io/categories/rss%E7%9B%B8%E5%85%B3/</loc>
     <lastmod>2017-09-15T02:24:40+00:00</lastmod>
     <priority>0</priority>
@@ -284,12 +290,6 @@
   <url>
     <loc>https://chouj.github.io/779/</loc>
     <lastmod>2013-04-23T01:58:53+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chouj.github.io/tags/rss/</loc>
-    <lastmod>2013-04-12T06:41:49+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
