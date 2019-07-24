@@ -26,30 +26,24 @@
 
   
   <meta name="author" content="Chi">
-  <meta name="description" content="南海地形（颜色）叠加SSHA等值线（黑实为正，黑虚为负，间隔为2 cm）。洋红色闭合等值线标示反气旋涡，翠绿色闭合等值线标示气旋涡。
-SSHA分布（颜色，间隔为1 cm）叠加绝对地转流矢量箭头。灰色细线标识南海等深线（同上图）。粗黑实线标示反气旋涡，粗黑虚线标示气旋涡。
-项目功能 当天卫星资料自动下载至本地； 中尺度涡识别（基于SSHA闭合等值线，输出形心坐标、极值点坐标、涡振幅、涡边缘坐标、涡极性、涡等效半径）； 制图（目前如上两种）； 基于Git作线上更新发布（码云）； 自动每日定期执行（大概8:20发）； SSTA图、CHL图等（CMEMS能自动下载的都可以画）； 代码开源； 基于码云的webhook when push和pushbear，实现项目更新通知并推送至微信。  数据来源 GLOBAL OCEAN GRIDDED L4 SEA SURFACE HEIGHTS AND DERIVED VARIABLES NRT
-数据手册 涡识别判据 最大SSHA闭合等值线 圈定范围内SSHA极值与该最大SSHA闭合等值线上值的差不小于3 cm 圈定范围经向纬向跨度至少0.5度 最大SSHA闭合等值线上的点与线上其它所有点的距离不超过400 Km  注意事项  涡识别前SLA数据未做任何处理：比如，未空间滤波。 SLA原始数据所去除的多年平均是1993-2012年。  致谢  上海海洋气象台 杨棋 （涡识别核心code） CMEMS MOTU Client for handling, extracting and transforming oceanographic huge volumes of data 地形：Sandwell and Smith Bathymetry 岸界：GSHHS M_MAP、export_fig 码云   项目动机 近期有一个利用水下滑翔机观测中尺度涡的应用型海试，我一直在帮忙做观测方案设计。这期间每天必做的就是下载当天的准实时海表面高度异常资料，进行初步涡识别，然后成图 ，发给执行方供参考。为了节省这部分重复劳动占用的时间，我把整个过程在本地自动化（借助timer function），然后在码云代码仓库作自动线上发布与更新。">
+  <meta name="description" content="项目动机 近期有一个利用水下滑翔机观测中尺度涡的应用型海试，我一直在帮忙做观测方案设计。这期间每天必做的就是下载当天的准实时海表面高度异常资料，进行初步涡识别，然后成图 ，发给执行方供参考。为了节省这部分重复劳动占用的时间，我把整个过程在本地自动化（借助timer function），然后在码云代码仓库作自动线上发布与更新。
+">
 
   
   
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@geomatlab">
     <meta name="twitter:title" content="今日南海中尺度涡 (South China Sea Mesoscale Eddies Today)">
-    <meta name="twitter:description" content="南海地形（颜色）叠加SSHA等值线（黑实为正，黑虚为负，间隔为2 cm）。洋红色闭合等值线标示反气旋涡，翠绿色闭合等值线标示气旋涡。
-SSHA分布（颜色，间隔为1 cm）叠加绝对地转流矢量箭头。灰色细线标识南海等深线（同上图）。粗黑实线标示反气旋涡，粗黑虚线标示气旋涡。
-项目功能 当天卫星资料自动下载至本地； 中尺度涡识别（基于SSHA闭合等值线，输出形心坐标、极值点坐标、涡振幅、涡边缘坐标、涡极性、涡等效半径）； 制图（目前如上两种）； 基于Git作线上更新发布（码云）； 自动每日定期执行（大概8:20发）； SSTA图、CHL图等（CMEMS能自动下载的都可以画）； 代码开源； 基于码云的webhook when push和pushbear，实现项目更新通知并推送至微信。  数据来源 GLOBAL OCEAN GRIDDED L4 SEA SURFACE HEIGHTS AND DERIVED VARIABLES NRT
-数据手册 涡识别判据 最大SSHA闭合等值线 圈定范围内SSHA极值与该最大SSHA闭合等值线上值的差不小于3 cm 圈定范围经向纬向跨度至少0.5度 最大SSHA闭合等值线上的点与线上其它所有点的距离不超过400 Km  注意事项  涡识别前SLA数据未做任何处理：比如，未空间滤波。 SLA原始数据所去除的多年平均是1993-2012年。  致谢  上海海洋气象台 杨棋 （涡识别核心code） CMEMS MOTU Client for handling, extracting and transforming oceanographic huge volumes of data 地形：Sandwell and Smith Bathymetry 岸界：GSHHS M_MAP、export_fig 码云   项目动机 近期有一个利用水下滑翔机观测中尺度涡的应用型海试，我一直在帮忙做观测方案设计。这期间每天必做的就是下载当天的准实时海表面高度异常资料，进行初步涡识别，然后成图 ，发给执行方供参考。为了节省这部分重复劳动占用的时间，我把整个过程在本地自动化（借助timer function），然后在码云代码仓库作自动线上发布与更新。">
+    <meta name="twitter:description" content="项目动机 近期有一个利用水下滑翔机观测中尺度涡的应用型海试，我一直在帮忙做观测方案设计。这期间每天必做的就是下载当天的准实时海表面高度异常资料，进行初步涡识别，然后成图 ，发给执行方供参考。为了节省这部分重复劳动占用的时间，我把整个过程在本地自动化（借助timer function），然后在码云代码仓库作自动线上发布与更新。
+">
     <meta name="twitter:image" content="/images/avatar.png">
   
 
   
   <meta property="og:type" content="article">
   <meta property="og:title" content="今日南海中尺度涡 (South China Sea Mesoscale Eddies Today)">
-  <meta property="og:description" content="南海地形（颜色）叠加SSHA等值线（黑实为正，黑虚为负，间隔为2 cm）。洋红色闭合等值线标示反气旋涡，翠绿色闭合等值线标示气旋涡。
-SSHA分布（颜色，间隔为1 cm）叠加绝对地转流矢量箭头。灰色细线标识南海等深线（同上图）。粗黑实线标示反气旋涡，粗黑虚线标示气旋涡。
-项目功能 当天卫星资料自动下载至本地； 中尺度涡识别（基于SSHA闭合等值线，输出形心坐标、极值点坐标、涡振幅、涡边缘坐标、涡极性、涡等效半径）； 制图（目前如上两种）； 基于Git作线上更新发布（码云）； 自动每日定期执行（大概8:20发）； SSTA图、CHL图等（CMEMS能自动下载的都可以画）； 代码开源； 基于码云的webhook when push和pushbear，实现项目更新通知并推送至微信。  数据来源 GLOBAL OCEAN GRIDDED L4 SEA SURFACE HEIGHTS AND DERIVED VARIABLES NRT
-数据手册 涡识别判据 最大SSHA闭合等值线 圈定范围内SSHA极值与该最大SSHA闭合等值线上值的差不小于3 cm 圈定范围经向纬向跨度至少0.5度 最大SSHA闭合等值线上的点与线上其它所有点的距离不超过400 Km  注意事项  涡识别前SLA数据未做任何处理：比如，未空间滤波。 SLA原始数据所去除的多年平均是1993-2012年。  致谢  上海海洋气象台 杨棋 （涡识别核心code） CMEMS MOTU Client for handling, extracting and transforming oceanographic huge volumes of data 地形：Sandwell and Smith Bathymetry 岸界：GSHHS M_MAP、export_fig 码云   项目动机 近期有一个利用水下滑翔机观测中尺度涡的应用型海试，我一直在帮忙做观测方案设计。这期间每天必做的就是下载当天的准实时海表面高度异常资料，进行初步涡识别，然后成图 ，发给执行方供参考。为了节省这部分重复劳动占用的时间，我把整个过程在本地自动化（借助timer function），然后在码云代码仓库作自动线上发布与更新。">
+  <meta property="og:description" content="项目动机 近期有一个利用水下滑翔机观测中尺度涡的应用型海试，我一直在帮忙做观测方案设计。这期间每天必做的就是下载当天的准实时海表面高度异常资料，进行初步涡识别，然后成图 ，发给执行方供参考。为了节省这部分重复劳动占用的时间，我把整个过程在本地自动化（借助timer function），然后在码云代码仓库作自动线上发布与更新。
+">
   <meta property="og:url" content="https://chouj.github.io/scs-eddies-today/">
   <meta property="og:image" content="/images/avatar.png">
 
@@ -218,7 +212,13 @@ SSHA分布（颜色，间隔为1 cm）叠加绝对地转流矢量箭头。灰色
       <h1 class="post-title">今日南海中尺度涡 (South China Sea Mesoscale Eddies Today)</h1>
       <p class="post-meta">@Chi · Jul 19, 2019 · 1 min read</p>
     </header>
-    <article class="post-content">
+    <article class="post-content"><h2 id="项目动机">项目动机</h2>
+
+<p>近期有一个利用水下滑翔机观测中尺度涡的应用型海试，我一直在帮忙做观测方案设计。这期间每天必做的就是下载当天的准实时海表面高度异常资料，进行初步涡识别，然后成图 ，发给执行方供参考。为了节省这部分重复劳动占用的时间，我把整个过程在本地自动化（借助<a href="https://www.mathworks.com/help/matlab/matlab_prog/use-a-matlab-timer-object.html">timer function</a>），然后在码云代码仓库作自动线上发布与更新。</p>
+
+<p>这样一来，图片每日更新，但项目地址和图片链接保持固定不变。因此，海洋学等各专业科研人员、针对中尺度涡的观测规划设计者等有需要可以随时查看。敬请惠存<a href="https://gitee.com/oceanography/South-China-Sea-Mesoscale-Eddies-Today">本项目地址</a>。</p>
+
+<hr />
 
 <p><img src="https://gitee.com/oceanography/South-China-Sea-Mesoscale-Eddies-Today/raw/master/Bathmetry_SSHA_latest-L4nrt-allsat.png" alt="" />
 <center>南海地形（颜色）叠加SSHA等值线（黑实为正，黑虚为负，间隔为2 cm）。洋红色闭合等值线标示反气旋涡，翠绿色闭合等值线标示气旋涡。</center></p>
@@ -230,24 +230,40 @@ SSHA分布（颜色，间隔为1 cm）叠加绝对地转流矢量箭头。灰色
 
 <hr />
 
+<p><img src="https://gitee.com/oceanography/South-China-Sea-Mesoscale-Eddies-Today/raw/master/EKE_GVA_latest-L4nrt-allsat.png" alt="" />
+<center>取对数的地转涡动能（颜色）叠加地转流异常矢量箭头。灰色细线标识南海等深线（同上图）。粗黑实线标示反气旋涡，粗黑虚线标示气旋涡。</center></p>
+
+<hr />
+
+<p><img src="https://gitee.com/oceanography/South-China-Sea-Mesoscale-Eddies-Today/raw/master/SSTA_SSHA_latest-L4nrt.png" alt="" />
+<center>SSTA（颜色，间隔为0.1摄氏度）叠加SSHA等值线（黑实为正，黑虚为负，间隔为2 cm）。洋红色闭合等值线标示反气旋涡，翠绿色闭合等值线标示气旋涡。</center></p>
+
+<hr />
+
+<p><img src="https://gitee.com/oceanography/South-China-Sea-Mesoscale-Eddies-Today/raw/master/SSTgm_SSHA_latest-L4nrt.png" alt="" />
+<center>SST梯度幅值（颜色）叠加SSHA等值线（黑实为正，黑虚为负，间隔为2 cm）。洋红色闭合等值线标示反气旋涡，翠绿色闭合等值线标示气旋涡。</center></p>
+
+<hr />
+
 <h2 id="项目功能">项目功能</h2>
 
 <ul class="task-list">
-<li><label><input type="checkbox" checked disabled class="task-list-item"> 当天卫星资料自动下载至本地；</label></li>
-<li><label><input type="checkbox" checked disabled class="task-list-item"> 中尺度涡识别（基于SSHA闭合等值线，输出形心坐标、极值点坐标、涡振幅、涡边缘坐标、涡极性、涡等效半径）；</label></li>
-<li><label><input type="checkbox" checked disabled class="task-list-item"> 制图（目前如上两种）；</label></li>
-<li><label><input type="checkbox" checked disabled class="task-list-item"> 基于Git作线上更新发布（码云）；</label></li>
-<li><label><input type="checkbox" checked disabled class="task-list-item"> 自动每日定期执行（大概8:20发）；</label></li>
-<li><label><input type="checkbox" disabled class="task-list-item"> SSTA图、CHL图等（CMEMS能自动下载的都可以画）；</label></li>
-<li><label><input type="checkbox" disabled class="task-list-item"> 代码开源；</label></li>
-<li><label><input type="checkbox" disabled class="task-list-item"> 基于码云的<a href="https://gitee.com/help/articles/4183">webhook when push</a>和<a href="http://pushbear.ftqq.com">pushbear</a>，实现项目更新通知并推送至微信。</label></li>
+<li><label><input type="checkbox" checked disabled class="task-list-item"> 当天卫星资料自动下载至本地</label></li>
+<li><label><input type="checkbox" checked disabled class="task-list-item"> 中尺度涡识别（基于SSHA闭合等值线，输出形心坐标、极值点坐标、涡振幅、涡边缘坐标、涡极性、涡等效半径）</label></li>
+<li><label><input type="checkbox" checked disabled class="task-list-item"> 制图（SSHA叠加AGV矢量、地形深度叠加SSHA等值线、EKE叠加SSHA等值线、SSTA叠加SSHA等值线、SST梯度幅值叠加SSHA等值线）</label></li>
+<li><label><input type="checkbox" checked disabled class="task-list-item"> 基于Git作线上更新发布（码云）</label></li>
+<li><label><input type="checkbox" checked disabled class="task-list-item"> 自动每日定期执行（SSHA图大概8:20发，SSTA图下午发）</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> 代码开源</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> 实现项目更新通知并推送至微信。</label></li>
 </ul>
 
 <h2 id="数据来源">数据来源</h2>
 
-<p><a href="[http://marine.copernicus.eu/services-portfolio/access-to-products/?option=com_csw&amp;view=details&amp;product_id=SEALEVEL_GLO_PHY_L4_NRT_OBSERVATIONS_008_046](http://marine.copernicus.eu/services-portfolio/access-to-products/?option=com_csw&amp;view=details&amp;product_id=SEALEVEL_GLO_PHY_L4_NRT_OBSERVATIONS_008_046)">GLOBAL OCEAN GRIDDED L4 SEA SURFACE HEIGHTS AND DERIVED VARIABLES NRT</a></p>
+<ul>
+<li><p><a href="[http://marine.copernicus.eu/services-portfolio/access-to-products/?option=com_csw&amp;view=details&amp;product_id=SEALEVEL_GLO_PHY_L4_NRT_OBSERVATIONS_008_046](http://marine.copernicus.eu/services-portfolio/access-to-products/?option=com_csw&amp;view=details&amp;product_id=SEALEVEL_GLO_PHY_L4_NRT_OBSERVATIONS_008_046)">GLOBAL OCEAN GRIDDED L4 SEA SURFACE HEIGHTS AND DERIVED VARIABLES NRT</a> (<a href="http://resources.marine.copernicus.eu/documents/PUM/CMEMS-SL-PUM-008-032-062.pdf">数据手册</a>)</p></li>
 
-<h4 id="数据手册-http-resources-marine-copernicus-eu-documents-pum-cmems-sl-pum-008-032-062-pdf"><a href="http://resources.marine.copernicus.eu/documents/PUM/CMEMS-SL-PUM-008-032-062.pdf">数据手册</a></h4>
+<li><p><a href="http://marine.copernicus.eu/services-portfolio/access-to-products/?option=com_csw&amp;view=details&amp;product_id=SST_GLO_SST_L4_NRT_OBSERVATIONS_010_001">GLOBAL OCEAN OSTIA SEA SURFACE TEMPERATURE AND SEA ICE ANALYSIS: METOFFICE-GLO-SST-L4-NRT-OBS-SST-V2</a> (<a href="http://marine.copernicus.eu/documents/PUM/CMEMS-SST-PUM-010-001.pdf">数据手册</a>)</p></li>
+</ul>
 
 <h2 id="涡识别判据">涡识别判据</h2>
 
@@ -263,6 +279,7 @@ SSHA分布（颜色，间隔为1 cm）叠加绝对地转流矢量箭头。灰色
 <ul>
 <li>涡识别前SLA数据未做任何处理：比如，未空间滤波。</li>
 <li>SLA原始数据所去除的多年平均是1993-2012年。</li>
+<li>SSTA定义：南海OSTIA SST snapshot扣减其空间平均值。</li>
 </ul>
 
 <h2 id="致谢">致谢</h2>
@@ -278,16 +295,9 @@ SSHA分布（颜色，间隔为1 cm）叠加绝对地转流矢量箭头。灰色
 <li><img src="https://img.shields.io/badge/Powered%20by-MATLAB-yellow.svg?&amp;logo=mathworks" alt="" /> <img src="https://img.shields.io/badge/Powered%20by-Python-blue.svg?&amp;logo=Python" alt="https://img.shields.io/badge/Powered%20by-Python-blue.svg?&amp;logo=Python" /> <img src="https://img.shields.io/badge/Powered%20by-Git%20Windows-red.svg?&amp;logo=Git" alt="https://img.shields.io/badge/Powered%20by-Python-red.svg?&amp;logo=Git%20Windows" /></li>
 </ul>
 
-<h2 id="项目动机">项目动机</h2>
-
-<p>近期有一个利用水下滑翔机观测中尺度涡的应用型海试，我一直在帮忙做观测方案设计。这期间每天必做的就是下载当天的准实时海表面高度异常资料，进行初步涡识别，然后成图 ，发给执行方供参考。为了节省这部分重复劳动占用的时间，我把整个过程在本地自动化（借助<a href="https://www.mathworks.com/help/matlab/matlab_prog/use-a-matlab-timer-object.html">timer function</a>），然后在码云代码仓库作自动线上发布与更新。</p>
-
-<p>这样一来，图片每日更新，但项目地址和图片链接保持固定不变。因此，海洋学等各专业科研人员、针对中尺度涡的观测规划设计者等有需要可以随时查看。敬请惠存<a href="https://gitee.com/oceanography/South-China-Sea-Mesoscale-Eddies-Today">本项目地址</a>。</p>
-
 <h2 id="吐槽">吐槽</h2>
 
-<p>本来一开始是丢在腾讯工蜂的，但腾讯工蜂需要登录了才能看见项目页，这也太不科学了。当然，码云也有个限制，即图片要小于1MB才能直接公开可见，不然也要登录才能看图。</p>
-</article>
+<p>本来一开始是丢在腾讯工蜂的，但腾讯工蜂需要登录了才能看见项目页，这也太不科学了。当然，码云也有个限制，即图片要小于1MB才能直接公开可见，不然也要登录才能看图。</p></article>
     <footer class="post-footer">
       
       <ul class="post-tags">
