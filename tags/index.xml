@@ -7,17 +7,53 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
-    <lastBuildDate>Fri, 19 Jul 2019 10:30:04 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jul 2019 11:09:24 +0800</lastBuildDate>
     
 	<atom:link href="https://chouj.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Dynamic Badge</title>
+      <link>https://chouj.github.io/tags/dynamic-badge/</link>
+      <pubDate>Wed, 24 Jul 2019 11:09:24 +0800</pubDate>
+      
+      <guid>https://chouj.github.io/tags/dynamic-badge/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Telegram</title>
+      <link>https://chouj.github.io/tags/telegram/</link>
+      <pubDate>Wed, 24 Jul 2019 11:09:24 +0800</pubDate>
+      
+      <guid>https://chouj.github.io/tags/telegram/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Thingspeak</title>
+      <link>https://chouj.github.io/tags/thingspeak/</link>
+      <pubDate>Wed, 24 Jul 2019 11:09:24 +0800</pubDate>
+      
+      <guid>https://chouj.github.io/tags/thingspeak/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>matlab</title>
       <link>https://chouj.github.io/tags/matlab/</link>
-      <pubDate>Fri, 19 Jul 2019 10:30:04 +0800</pubDate>
+      <pubDate>Wed, 24 Jul 2019 11:09:24 +0800</pubDate>
       
       <guid>https://chouj.github.io/tags/matlab/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>shields.io</title>
+      <link>https://chouj.github.io/tags/shields.io/</link>
+      <pubDate>Wed, 24 Jul 2019 11:09:24 +0800</pubDate>
+      
+      <guid>https://chouj.github.io/tags/shields.io/</guid>
       <description></description>
     </item>
     
@@ -126,24 +162,6 @@
       <pubDate>Fri, 19 Jan 2018 09:15:41 +0000</pubDate>
       
       <guid>https://chouj.github.io/tags/ifttt/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Telegram</title>
-      <link>https://chouj.github.io/tags/telegram/</link>
-      <pubDate>Fri, 19 Jan 2018 09:15:41 +0000</pubDate>
-      
-      <guid>https://chouj.github.io/tags/telegram/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Thingspeak</title>
-      <link>https://chouj.github.io/tags/thingspeak/</link>
-      <pubDate>Fri, 19 Jan 2018 09:15:41 +0000</pubDate>
-      
-      <guid>https://chouj.github.io/tags/thingspeak/</guid>
       <description></description>
     </item>
     

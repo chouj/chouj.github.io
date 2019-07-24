@@ -8,20 +8,55 @@
   </url>
   
   <url>
+    <loc>https://xuchi.name/tags/dynamic-badge/</loc>
+    <lastmod>2019-07-24T11:09:24+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://xuchi.name/posts/</loc>
-    <lastmod>2019-07-19T10:30:04+08:00</lastmod>
+    <lastmod>2019-07-24T11:09:24+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://xuchi.name/tags/</loc>
-    <lastmod>2019-07-19T10:30:04+08:00</lastmod>
+    <lastmod>2019-07-24T11:09:24+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://xuchi.name/tags/telegram/</loc>
+    <lastmod>2019-07-24T11:09:24+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://xuchi.name/tags/thingspeak/</loc>
+    <lastmod>2019-07-24T11:09:24+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://xuchi.name/tags/matlab/</loc>
-    <lastmod>2019-07-19T10:30:04+08:00</lastmod>
+    <lastmod>2019-07-24T11:09:24+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://xuchi.name/tags/shields.io/</loc>
+    <lastmod>2019-07-24T11:09:24+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://xuchi.name/posts/dynamic-shieldsio-badge/</loc>
+    <lastmod>2019-07-24T11:09:24+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xuchi.name/</loc>
+    <lastmod>2019-07-24T11:09:24+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -44,12 +79,6 @@
   
   <url>
     <loc>https://xuchi.name/tags/%E5%8F%AF%E8%A7%86%E5%8C%96/</loc>
-    <lastmod>2019-07-19T10:30:04+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://xuchi.name/</loc>
     <lastmod>2019-07-19T10:30:04+08:00</lastmod>
     <priority>0</priority>
   </url>
@@ -135,18 +164,6 @@
   
   <url>
     <loc>https://xuchi.name/tags/ifttt/</loc>
-    <lastmod>2018-01-19T09:15:41+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://xuchi.name/tags/telegram/</loc>
-    <lastmod>2018-01-19T09:15:41+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://xuchi.name/tags/thingspeak/</loc>
     <lastmod>2018-01-19T09:15:41+00:00</lastmod>
     <priority>0</priority>
   </url>
