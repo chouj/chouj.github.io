@@ -950,12 +950,6 @@
   </url>
   
   <url>
-    <loc>https://xuchi.name/categories/%E7%9B%B8%E5%85%B3/</loc>
-    <lastmod>2009-08-18T16:56:04+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://xuchi.name/tags/gps/</loc>
     <lastmod>2009-08-14T08:04:29+00:00</lastmod>
     <priority>0</priority>
@@ -1079,6 +1073,12 @@
   <url>
     <loc>https://xuchi.name/524/</loc>
     <lastmod>2009-07-27T13:34:38+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xuchi.name/categories/%E7%9B%B8%E5%85%B3/</loc>
+    <lastmod>2009-07-27T13:34:38+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -1546,13 +1546,13 @@
   </url>
   
   <url>
-    <loc>https://xuchi.name/categories/wordpress/</loc>
+    <loc>https://xuchi.name/tags/wordpress/</loc>
     <lastmod>2008-11-05T01:47:53+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://xuchi.name/tags/wordpress/</loc>
+    <loc>https://xuchi.name/categories/wordpress/</loc>
     <lastmod>2008-11-05T01:47:53+00:00</lastmod>
     <priority>0</priority>
   </url>

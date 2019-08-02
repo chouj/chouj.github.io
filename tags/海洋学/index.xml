@@ -18,9 +18,7 @@
       <pubDate>Fri, 19 Jul 2019 10:30:04 +0800</pubDate>
       
       <guid>https://chouj.github.io/scs-eddies-today/</guid>
-      <description>&lt;h2 id=&#34;项目动机&#34;&gt;项目动机&lt;/h2&gt;
-
-&lt;p&gt;近期有一个利用水下滑翔机观测中尺度涡的应用型海试，我一直在帮忙做观测方案设计。这期间每天必做的就是下载当天的准实时海表面高度异常资料，进行初步涡识别，然后成图 ，发给执行方供参考。为了节省这部分重复劳动占用的时间，我把整个过程在本地自动化（借助&lt;a href=&#34;https://www.mathworks.com/help/matlab/matlab_prog/use-a-matlab-timer-object.html&#34;&gt;timer function&lt;/a&gt;），然后在码云代码仓库作自动线上发布与更新。&lt;/p&gt;</description>
+      <description>&lt;p&gt;近期有一个利用水下滑翔机观测中尺度涡的应用型海试，我一直在帮忙做观测方案设计。这期间每天必做的就是下载当天的准实时海表面高度异常资料，进行初步涡识别，然后成图 ，发给执行方供参考。为了节省这部分重复劳动占用的时间，我把整个过程在本地自动化（借助&lt;a href=&#34;https://www.mathworks.com/help/matlab/matlab_prog/use-a-matlab-timer-object.html&#34;&gt;timer function&lt;/a&gt;），然后在码云代码仓库作自动线上发布与更新。&lt;/p&gt;</description>
     </item>
     
     <item>
