@@ -32,10 +32,10 @@
     
     <item>
       <title>基于ThingSpeak生成Shields.io Dynamic Badge</title>
-      <link>https://chouj.github.io/posts/dynamic-shieldsio-badge/</link>
+      <link>https://chouj.github.io/dynamic-shieldsio-badge/</link>
       <pubDate>Wed, 24 Jul 2019 11:09:24 +0800</pubDate>
       
-      <guid>https://chouj.github.io/posts/dynamic-shieldsio-badge/</guid>
+      <guid>https://chouj.github.io/dynamic-shieldsio-badge/</guid>
       <description>&lt;p&gt;公开的&lt;a href=&#34;https://thingspeak.com/channels/343156&#34;&gt;ThingSpeak Channel&lt;/a&gt;可以将频道的数据以&lt;code&gt;xml&lt;/code&gt;或&lt;code&gt;json&lt;/code&gt;格式输出，所以可以用其生成Shields.io Dynamic Badge。我丢了段读取我Telegram频道订阅数的&lt;code&gt;MATLAB&lt;/code&gt;脚本到ThingSpeak，挂上TimeControl每隔20分钟跑一次，订阅数写进&lt;a href=&#34;https://thingspeak.com/channels/343156&#34;&gt;ThingSpeak Public Channel&lt;/a&gt;，就可以作一个动态展示Telegram频道订阅数的Shields.io Badge啦。&lt;/p&gt;</description>
     </item>
     

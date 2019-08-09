@@ -5,7 +5,7 @@
   <meta charset="utf-8" />
 
   
-  <title>倒戈</title>
+  <title>基于ThingSpeak生成Shields.io Dynamic Badge</title>
 
   
   
@@ -25,38 +25,26 @@
   
 
   
-  <meta name="author" content="Chouj">
-  <meta name="description" content="即日起，放弃feedsky烧制的feed，进入30天feed删除日程。开始启用feedburner提供的服务，新Feed地址，即转向地址为： http://feeds.feedburner.com/chrischou 。RSS相关的feed地址也开始转向http://feeds.feedburner.com/aboutrss，请重新订阅。
-“怀疑GFW在rss上开了盾”，朋友的一句话，更是加重了我的怀疑。
-Blogspot再度被封以后，G Reader和抓虾都仅仅在输出书签的“昨日关注”，没有新日志；打开feedsky的feed，也没有新日志；再打开原始供稿，却是有最新日志的。疑惑啊疑惑。再比照其他blogspot，feedsky提供的feed也没有输出新日志。结论只可能是，feedsky的rss输出在某种程度上被蔽掉了,而不是订阅工具的问题。
-实在抱歉，在blogspot的国度里，我要抛弃feedsky了。我还记得当初，毅然选择了国内的这款服务作为主打，因为那亲切的界面和便捷的服务，也因为中文的Feed烧制服务更需要国人的支持。我也记得现在，依然对feedsky倾心不已，关注博客圈的试探，关注话题广告的开拓。在如此情形之下，我更希望是feedsky单方面出了差错，而不是和GFW有半点瓜葛。
-无论feedsky是遭GFW毒手还是事先屈服于GFW淫威，也无论805大字报是否有所解释，我都更希望能在吕欣欣的日志里看到这么一句话：
-操他妈的GFW！">
+  <meta name="author" content="Chi">
+  <meta name="description" content="公开的ThingSpeak Channel可以将频道的数据以xml或json格式输出，所以可以用其生成Shields.io Dynamic Badge。我丢了段读取我Telegram频道订阅数的MATLAB脚本到ThingSpeak，挂上TimeControl每隔20分钟跑一次，订阅数写进ThingSpeak Public Channel，就可以作一个动态展示Telegram频道订阅数的Shields.io Badge啦。
+">
 
   
   
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@geomatlab">
-    <meta name="twitter:title" content="倒戈">
-    <meta name="twitter:description" content="即日起，放弃feedsky烧制的feed，进入30天feed删除日程。开始启用feedburner提供的服务，新Feed地址，即转向地址为： http://feeds.feedburner.com/chrischou 。RSS相关的feed地址也开始转向http://feeds.feedburner.com/aboutrss，请重新订阅。
-“怀疑GFW在rss上开了盾”，朋友的一句话，更是加重了我的怀疑。
-Blogspot再度被封以后，G Reader和抓虾都仅仅在输出书签的“昨日关注”，没有新日志；打开feedsky的feed，也没有新日志；再打开原始供稿，却是有最新日志的。疑惑啊疑惑。再比照其他blogspot，feedsky提供的feed也没有输出新日志。结论只可能是，feedsky的rss输出在某种程度上被蔽掉了,而不是订阅工具的问题。
-实在抱歉，在blogspot的国度里，我要抛弃feedsky了。我还记得当初，毅然选择了国内的这款服务作为主打，因为那亲切的界面和便捷的服务，也因为中文的Feed烧制服务更需要国人的支持。我也记得现在，依然对feedsky倾心不已，关注博客圈的试探，关注话题广告的开拓。在如此情形之下，我更希望是feedsky单方面出了差错，而不是和GFW有半点瓜葛。
-无论feedsky是遭GFW毒手还是事先屈服于GFW淫威，也无论805大字报是否有所解释，我都更希望能在吕欣欣的日志里看到这么一句话：
-操他妈的GFW！">
+    <meta name="twitter:title" content="基于ThingSpeak生成Shields.io Dynamic Badge">
+    <meta name="twitter:description" content="公开的ThingSpeak Channel可以将频道的数据以xml或json格式输出，所以可以用其生成Shields.io Dynamic Badge。我丢了段读取我Telegram频道订阅数的MATLAB脚本到ThingSpeak，挂上TimeControl每隔20分钟跑一次，订阅数写进ThingSpeak Public Channel，就可以作一个动态展示Telegram频道订阅数的Shields.io Badge啦。
+">
     <meta name="twitter:image" content="/images/avatar.png">
   
 
   
   <meta property="og:type" content="article">
-  <meta property="og:title" content="倒戈">
-  <meta property="og:description" content="即日起，放弃feedsky烧制的feed，进入30天feed删除日程。开始启用feedburner提供的服务，新Feed地址，即转向地址为： http://feeds.feedburner.com/chrischou 。RSS相关的feed地址也开始转向http://feeds.feedburner.com/aboutrss，请重新订阅。
-“怀疑GFW在rss上开了盾”，朋友的一句话，更是加重了我的怀疑。
-Blogspot再度被封以后，G Reader和抓虾都仅仅在输出书签的“昨日关注”，没有新日志；打开feedsky的feed，也没有新日志；再打开原始供稿，却是有最新日志的。疑惑啊疑惑。再比照其他blogspot，feedsky提供的feed也没有输出新日志。结论只可能是，feedsky的rss输出在某种程度上被蔽掉了,而不是订阅工具的问题。
-实在抱歉，在blogspot的国度里，我要抛弃feedsky了。我还记得当初，毅然选择了国内的这款服务作为主打，因为那亲切的界面和便捷的服务，也因为中文的Feed烧制服务更需要国人的支持。我也记得现在，依然对feedsky倾心不已，关注博客圈的试探，关注话题广告的开拓。在如此情形之下，我更希望是feedsky单方面出了差错，而不是和GFW有半点瓜葛。
-无论feedsky是遭GFW毒手还是事先屈服于GFW淫威，也无论805大字报是否有所解释，我都更希望能在吕欣欣的日志里看到这么一句话：
-操他妈的GFW！">
-  <meta property="og:url" content="https://chouj.github.io/237/">
+  <meta property="og:title" content="基于ThingSpeak生成Shields.io Dynamic Badge">
+  <meta property="og:description" content="公开的ThingSpeak Channel可以将频道的数据以xml或json格式输出，所以可以用其生成Shields.io Dynamic Badge。我丢了段读取我Telegram频道订阅数的MATLAB脚本到ThingSpeak，挂上TimeControl每隔20分钟跑一次，订阅数写进ThingSpeak Public Channel，就可以作一个动态展示Telegram频道订阅数的Shields.io Badge啦。
+">
+  <meta property="og:url" content="https://chouj.github.io/dynamic-shieldsio-badge/">
   <meta property="og:image" content="/images/avatar.png">
 
 
@@ -65,7 +53,7 @@ Blogspot再度被封以后，G Reader和抓虾都仅仅在输出书签的“昨�
 <meta name="generator" content="Hugo 0.55.6">
 
 
-<link rel="canonical" href="https://chouj.github.io/237/">
+<link rel="canonical" href="https://chouj.github.io/dynamic-shieldsio-badge/">
 
 <meta name="renderer" content="webkit">
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -221,35 +209,76 @@ Blogspot再度被封以后，G Reader和抓虾都仅仅在输出书签的“昨�
 
   <section class="main post-detail">
     <header class="post-header">
-      <h1 class="post-title">倒戈</h1>
-      <p class="post-meta">@Chouj · Mar 26, 2007 · 1 min read</p>
+      <h1 class="post-title">基于ThingSpeak生成Shields.io Dynamic Badge</h1>
+      <p class="post-meta">@Chi · Jul 24, 2019 · 1 min read</p>
     </header>
-    <article class="post-content"><p><span style="text-decoration: line-through;"><span style="color: #ff0000;">即日起，</span><span style="font-weight: bold;"><span style="color: #ff0000;">放弃</span><a href="http://www.feedksy.com/" target="_blank">feedsky</a><span style="color: #ff0000;">烧制的</span><a href="http://feed.feedsky.com/chrischou" target="_blank">feed</a></span><span style="color: #ff0000;">，进入30天feed删除日程。开始启用</span><a href="http://www.feedburner.com/" target="_blank">feedburner</a><span style="color: #ff0000;">提供的服务，新Feed地址，即转向地址为： </span><a href="http://feeds.feedburner.com/chrischou" target="_blank"><a href="http://feeds.feedburner.com/chrischou">http://feeds.feedburner.com/chrischou</a></a> <span style="color: #ff0000;">。<a href="http://allofrss.blogspot.com/" target="_blank">RSS相关</a>的feed地址也开始转向<a href="http://feeds.feedburner.com/aboutrss" target="_blank"><a href="http://feeds.feedburner.com/aboutrss">http://feeds.feedburner.com/aboutrss</a></a></span><span style="font-weight: bold; color: #ff0000;">，请重新订阅</span><span style="color: #ff0000;">。</span></span></p>
+    <article class="post-content"><p>公开的<a href="https://thingspeak.com/channels/343156">ThingSpeak Channel</a>可以将频道的数据以<code>xml</code>或<code>json</code>格式输出，所以可以用其生成Shields.io Dynamic Badge。我丢了段读取我Telegram频道订阅数的<code>MATLAB</code>脚本到ThingSpeak，挂上TimeControl每隔20分钟跑一次，订阅数写进<a href="https://thingspeak.com/channels/343156">ThingSpeak Public Channel</a>，就可以作一个动态展示Telegram频道订阅数的Shields.io Badge啦。</p>
 
-<p>“<span style="font-size:180%;"><span style="font-weight: bold;">怀</span></span>疑GFW在rss上开了盾”，朋友的一句话，更是加重了我的怀疑。</p>
+<h3 id="用正则表达式去读telegram频道订阅数">用正则表达式去读Telegram频道订阅数</h3>
 
-<p><span style="font-size:180%;"><span style="font-weight: bold;">B</span></span>logspot再度被封以后，G Reader和抓虾都仅仅在输出书签的“昨日关注”，没有新日志；打开<a href="http://www.feedsky.com/" target="_blank">feedsky</a>的<a href="http://feed.feedsky.com/chrischou" target="_blank">feed</a>，也没有新日志；再打开<a href="http://xcchris.blogspot.com/feeds/posts/default" target="_blank">原始供稿</a>，却是有最新日志的。疑惑啊疑惑。再比照其他blogspot，feedsky提供的feed也没有输出新日志。结论只可能是，<a style="font-weight: bold;" href="http://www.feedsky.com/" target="_blank">feedsky</a><span style="font-weight: bold;">的rss输出在某种程度上被蔽掉了</span>,而不是订阅工具的问题。</p>
+<p>代码是这样的：
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-m" data-lang="m">ChannelID1=<span style="color:#ae81ff">343156</span>;
+wAPIkey1=<span style="color:#e6db74">&#39;YourWriteAPIKey&#39;</span>;
 
-<p><img src="http://www.feedsky.com/images/feedsky_logo.gif" border="0" alt="" /></p>
+clear cmc tele
+<span style="color:#75715e">% 读网页源码</span>
+<span style="color:#66d9ef">try</span>
+    tele=urlread(<span style="color:#e6db74">&#39;https://t.me/matlab_tips&#39;</span>);
+<span style="color:#66d9ef">catch</span>
+    pause(<span style="color:#ae81ff">300</span>);
+    tele=urlread(<span style="color:#e6db74">&#39;https://t.me/matlab_tips&#39;</span>);
+<span style="color:#66d9ef">end</span>
+cmc=regexp(tele,<span style="color:#e6db74">&#39;&lt;div class=&#34;tgme_page_extra&#34;&gt;(\d*) members&lt;/div&gt;&#39;</span>,<span style="color:#e6db74">&#39;tokens&#39;</span>);
 
-<p><span style="font-size:180%;"><span style="font-weight: bold;">实</span></span>在抱歉，在blogspot的国度里，我要抛弃<a href="http://www.feedsky.com/" target="_blank">feedsky</a>了。我还记得当初，毅然选择了国内的这款服务作为主打，因为那亲切的界面和便捷的服务，也因为中文的Feed烧制服务更需要国人的支持。我也记得现在，依然对<a href="http://www.feedsky.com/" target="_blank">feedsky</a>倾心不已，关注<a href="http://beta.feedsky.com/fn_class.html" target="_blank">博客圈</a>的试探，关注<a href="http://blogs.feedsky.com/?p=125" target="_blank">话题广告</a>的开拓。在如此情形之下，我更希望是<a href="http://www.feedsky.com/" target="_blank">feedsky</a>单方面出了差错，而不是和GFW有半点瓜葛。</p>
+<span style="color:#66d9ef">if</span> length(cmc)<span style="color:#f92672">==</span><span style="color:#ae81ff">1</span>
+    count1(<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">1</span>)=str2num(cell2mat(cmc{<span style="color:#ae81ff">1</span>}));
+<span style="color:#66d9ef">else</span>
+<span style="color:#75715e">% 这一行是因为如果订阅数超过1K，源码数字中间会有个空格。</span>
+    cmc=regexp(tele,<span style="color:#e6db74">&#39;&lt;div class=&#34;tgme_page_extra&#34;&gt;(\d*) (\d*) members&lt;/div&gt;&#39;</span>,<span style="color:#e6db74">&#39;tokens&#39;</span>);
+    count1(<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">1</span>)=str2num([cell2mat(cmc{<span style="color:#ae81ff">1</span>}(<span style="color:#ae81ff">1</span>)),cell2mat(cmc{<span style="color:#ae81ff">1</span>}(<span style="color:#ae81ff">2</span>))]);
+<span style="color:#66d9ef">end</span>
 
-<p><span style="font-size:180%;"><span style="font-weight: bold;">无</span></span>论<a href="http://www.feedsky.com/" target="_blank">feedsky</a>是遭GFW毒手还是事先屈服于GFW淫威，也无论<a href="http://blogs.feedsky.com/" target="_blank">805大字报</a>是否有所解释，我都更希望能在<a href="http://www.lvxinxin.com/" target="_blank">吕欣欣的日志</a>里看到这么一句话：</p>
+<span style="color:#75715e">% 写去ThingSpeak频道</span>
+<span style="color:#66d9ef">try</span>
+    r1=thingSpeakWrite(ChannelID1, count1, <span style="color:#e6db74">&#39;WriteKey&#39;</span>, wAPIkey1);
+<span style="color:#66d9ef">catch</span>
+    pause(<span style="color:#ae81ff">300</span>);
+    r1=thingSpeakWrite(ChannelID1, count1, <span style="color:#e6db74">&#39;WriteKey&#39;</span>, wAPIkey1);
+<span style="color:#66d9ef">end</span></code></pre></div></p>
 
-<p><span style="font-weight: bold;">操他妈的GFW！</span></p>
-</article>
+<h3 id="thingspeak-public-channel数据输出">ThingSpeak Public Channel数据输出</h3>
+
+<p>ThingSpeak Public Channel支持输出<code>xml</code>、<code>json</code>、<code>CSV</code>三种格式的数据，我选择的是<code>xml</code>，因为在浏览器里打开时其结构和层级比较清晰。下图是一个全部field输出最近一次数据的示例，链接是<a href="https://thingspeak.com/channels/343156/feed.xml?results=1">https://thingspeak.com/channels/343156/feed.xml?results=1</a>，也可以输出单个field数据，也可以输出最近的多次数据，语法参见<a href="https://www.mathworks.com/help/thingspeak/read-data-from-channel.html">这个文档</a>。<img src="https://upload.cc/i1/2019/07/19/RjcpEN.png" alt="img" /></p>
+
+<p>需要注意的是Shields.io需要<code>json</code>或<code>xml</code>同层级下不能出现同名的item，所以就输出最近一次的就好。</p>
+
+<h3 id="shields-io-dynamic-badge-url写法">Shields.io Dynamic Badge url写法</h3>
+
+<p>Shields.io主页上写基于<code>xml</code>数据的url规则是<code>https://img.shields.io/badge/dynamic/xml.svg?url=&lt;URL&gt;&amp;label=&lt;LABEL&gt;&amp;query=&lt;[//data/subdata](http://xpather.com/ &quot;XPath syntax&quot;)&gt;&amp;color=&lt;COLOR&gt;&amp;prefix=&lt;PREFIX&gt;&amp;suffix=&lt;SUFFIX&gt;</code>，我们照着写就好：
+<code>https://img.shields.io/badge/dynamic/xml.svg?color=yellow&amp;label=t.me/matlab_tips&amp;query=%2F%2Fchannel%2Ffeeds%2Ffeed%2Ffield2&amp;url=https%3A%2F%2Fapi.thingspeak.com%2Fchannels%2F343156%2Ffeeds.xml%3Fresults%3D1&amp;suffix=%20subscribers</code></p>
+
+<p>生成的Badge如下：
+<img src="https://img.shields.io/badge/dynamic/xml.svg?color=yellow&amp;label=t.me/matlab_tips&amp;query=%2F%2Fchannel%2Ffeeds%2Ffeed%2Ffield2&amp;url=https%3A%2F%2Fapi.thingspeak.com%2Fchannels%2F343156%2Ffeeds.xml%3Fresults%3D1&amp;suffix=%20subscribers" alt="" />
+因为我这主题css的问题，图片都单独居中显示，所以只好以截图的形式展示这一堆。所以这图不是动态更新的。动态更新的请到<a href="https://github.com/chouj/Shields.io_Dynamic_Badge_based_on_ThingSpeak">Github页</a>来看。
+<img src="https://upload.cc/i1/2019/07/19/nZPJsU.png" alt="" /></p></article>
     <footer class="post-footer">
       
       <ul class="post-tags">
         
-          <li><a href="https://chouj.github.io/tags/blog"><span class="tag">Blog</span></a></li>
+          <li><a href="https://chouj.github.io/tags/shields.io"><span class="tag">Shields.io</span></a></li>
         
-          <li><a href="https://chouj.github.io/tags/feedsky"><span class="tag">Feedsky</span></a></li>
+          <li><a href="https://chouj.github.io/tags/dynamic-badge"><span class="tag">Dynamic Badge</span></a></li>
+        
+          <li><a href="https://chouj.github.io/tags/thingspeak"><span class="tag">ThingSpeak</span></a></li>
+        
+          <li><a href="https://chouj.github.io/tags/matlab"><span class="tag">MATLAB</span></a></li>
+        
+          <li><a href="https://chouj.github.io/tags/telegram"><span class="tag">Telegram</span></a></li>
         
       </ul>
       
       <p class="post-copyright">
-        © This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.This post was published <strong>4519</strong> days ago, content in the post may be inaccurate, even wrong now, please take risk yourself.
+        © This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.
       </p>
     </footer>
     
