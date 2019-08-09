@@ -1138,11 +1138,20 @@
     </item>
     
     <item>
-      <title>Taiwan</title>
-      <link>https://chouj.github.io/tags/taiwan/</link>
+      <title>台湾</title>
+      <link>https://chouj.github.io/tags/%E5%8F%B0%E6%B9%BE/</link>
       <pubDate>Fri, 20 Feb 2009 03:21:50 +0000</pubDate>
       
-      <guid>https://chouj.github.io/tags/taiwan/</guid>
+      <guid>https://chouj.github.io/tags/%E5%8F%B0%E6%B9%BE/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>标志</title>
+      <link>https://chouj.github.io/tags/%E6%A0%87%E5%BF%97/</link>
+      <pubDate>Fri, 20 Feb 2009 03:21:50 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/tags/%E6%A0%87%E5%BF%97/</guid>
       <description></description>
     </item>
     
@@ -1165,11 +1174,11 @@
     </item>
     
     <item>
-      <title>RSS推广</title>
-      <link>https://chouj.github.io/tags/rss%E6%8E%A8%E5%B9%BF/</link>
+      <title>博客</title>
+      <link>https://chouj.github.io/tags/%E5%8D%9A%E5%AE%A2/</link>
       <pubDate>Sat, 31 Jan 2009 13:57:53 +0000</pubDate>
       
-      <guid>https://chouj.github.io/tags/rss%E6%8E%A8%E5%B9%BF/</guid>
+      <guid>https://chouj.github.io/tags/%E5%8D%9A%E5%AE%A2/</guid>
       <description></description>
     </item>
     
@@ -1521,6 +1530,15 @@
       <pubDate>Wed, 29 Oct 2008 12:13:35 +0000</pubDate>
       
       <guid>https://chouj.github.io/tags/download/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RSS推广</title>
+      <link>https://chouj.github.io/tags/rss%E6%8E%A8%E5%B9%BF/</link>
+      <pubDate>Wed, 22 Oct 2008 19:53:31 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/tags/rss%E6%8E%A8%E5%B9%BF/</guid>
       <description></description>
     </item>
     

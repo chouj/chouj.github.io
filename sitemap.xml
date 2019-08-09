@@ -1188,14 +1188,20 @@
   </url>
   
   <url>
-    <loc>https://xuchi.name/tags/taiwan/</loc>
+    <loc>https://xuchi.name/519/</loc>
+    <lastmod>2009-02-20T03:21:50+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xuchi.name/tags/%E5%8F%B0%E6%B9%BE/</loc>
     <lastmod>2009-02-20T03:21:50+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://xuchi.name/519/</loc>
+    <loc>https://xuchi.name/tags/%E6%A0%87%E5%BF%97/</loc>
     <lastmod>2009-02-20T03:21:50+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -1226,13 +1232,7 @@
   </url>
   
   <url>
-    <loc>https://xuchi.name/tags/rss%E6%8E%A8%E5%B9%BF/</loc>
-    <lastmod>2009-01-31T13:57:53+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://xuchi.name/categories/%E7%9B%B8%E5%85%B3/</loc>
+    <loc>https://xuchi.name/tags/%E5%8D%9A%E5%AE%A2/</loc>
     <lastmod>2009-01-31T13:57:53+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -1274,12 +1274,6 @@
   <url>
     <loc>https://xuchi.name/516/</loc>
     <lastmod>2009-01-26T12:35:41+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://xuchi.name/categories/%E5%B9%BF%E5%91%8A/</loc>
-    <lastmod>2009-01-26T12:35:41+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -1518,6 +1512,12 @@
   </url>
   
   <url>
+    <loc>https://xuchi.name/categories/%E7%9B%B8%E5%85%B3/</loc>
+    <lastmod>2008-11-25T18:13:44+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://xuchi.name/tags/grazr/</loc>
     <lastmod>2008-11-25T02:48:03+00:00</lastmod>
     <priority>0</priority>
@@ -1557,13 +1557,13 @@
   </url>
   
   <url>
-    <loc>https://xuchi.name/tags/wordpress/</loc>
+    <loc>https://xuchi.name/categories/wordpress/</loc>
     <lastmod>2008-11-05T01:47:53+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://xuchi.name/categories/wordpress/</loc>
+    <loc>https://xuchi.name/tags/wordpress/</loc>
     <lastmod>2008-11-05T01:47:53+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -1586,6 +1586,12 @@
   
   <url>
     <loc>https://xuchi.name/categories/featured/</loc>
+    <lastmod>2008-10-22T19:53:31+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://xuchi.name/tags/rss%E6%8E%A8%E5%B9%BF/</loc>
     <lastmod>2008-10-22T19:53:31+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -1792,6 +1798,12 @@
   
   <url>
     <loc>https://xuchi.name/tags/%E5%AE%89%E5%85%A8%E4%BA%91/</loc>
+    <lastmod>2008-08-15T02:54:25+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://xuchi.name/categories/%E5%B9%BF%E5%91%8A/</loc>
     <lastmod>2008-08-15T02:54:25+00:00</lastmod>
     <priority>0</priority>
   </url>
