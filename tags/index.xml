@@ -7,10 +7,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
-    <lastBuildDate>Wed, 24 Jul 2019 11:09:24 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 09 Aug 2019 09:21:01 +0800</lastBuildDate>
     
 	<atom:link href="https://chouj.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>学术</title>
+      <link>https://chouj.github.io/tags/%E5%AD%A6%E6%9C%AF/</link>
+      <pubDate>Fri, 09 Aug 2019 09:21:01 +0800</pubDate>
+      
+      <guid>https://chouj.github.io/tags/%E5%AD%A6%E6%9C%AF/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>科研</title>
+      <link>https://chouj.github.io/tags/%E7%A7%91%E7%A0%94/</link>
+      <pubDate>Fri, 09 Aug 2019 09:21:01 +0800</pubDate>
+      
+      <guid>https://chouj.github.io/tags/%E7%A7%91%E7%A0%94/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>论坛</title>
+      <link>https://chouj.github.io/tags/%E8%AE%BA%E5%9D%9B/</link>
+      <pubDate>Fri, 09 Aug 2019 09:21:01 +0800</pubDate>
+      
+      <guid>https://chouj.github.io/tags/%E8%AE%BA%E5%9D%9B/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Dynamic Badge</title>
@@ -31,7 +58,7 @@
     </item>
     
     <item>
-      <title>ThingSpeak</title>
+      <title>Thingspeak</title>
       <link>https://chouj.github.io/tags/thingspeak/</link>
       <pubDate>Wed, 24 Jul 2019 11:09:24 +0800</pubDate>
       
@@ -90,15 +117,6 @@
       <pubDate>Fri, 19 Jul 2019 10:30:04 +0800</pubDate>
       
       <guid>https://chouj.github.io/tags/%E6%B5%B7%E6%B4%8B%E5%AD%A6/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>科研</title>
-      <link>https://chouj.github.io/tags/%E7%A7%91%E7%A0%94/</link>
-      <pubDate>Fri, 19 Jul 2019 10:30:04 +0800</pubDate>
-      
-      <guid>https://chouj.github.io/tags/%E7%A7%91%E7%A0%94/</guid>
       <description></description>
     </item>
     
@@ -432,15 +450,6 @@
       <pubDate>Thu, 02 Jun 2011 09:19:29 +0000</pubDate>
       
       <guid>https://chouj.github.io/tags/%E6%8B%BF%E7%A6%8F%E8%83%BD/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>学术</title>
-      <link>https://chouj.github.io/tags/%E5%AD%A6%E6%9C%AF/</link>
-      <pubDate>Tue, 26 Apr 2011 15:05:34 +0000</pubDate>
-      
-      <guid>https://chouj.github.io/tags/%E5%AD%A6%E6%9C%AF/</guid>
       <description></description>
     </item>
     
