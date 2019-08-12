@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
-    <lastBuildDate>Wed, 05 Sep 2007 13:18:22 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 22 Sep 2007 12:35:50 +0000</lastBuildDate>
     
 	<atom:link href="https://chouj.github.io/tags/html2rss/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[图文教程]用Feed43给目录页或标签页添个Feed</title>
+      <link>https://chouj.github.io/465/</link>
+      <pubDate>Sat, 22 Sep 2007 12:35:50 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/465/</guid>
+      <description>&lt;p&gt;&lt;span style=&#34;text-decoration: line-through;&#34;&gt;WordPress架构下的目录页和标签页不支持Feed输出。&lt;/span&gt;当我们想&lt;strong&gt;让自己的目录也支持Feed输出&lt;/strong&gt;，或者，当我们只对blog某目录下的文章感兴趣的时候，&lt;strong&gt;想订阅这个目录&lt;/strong&gt;，该怎么办呢？我们可以借助&lt;a title=&#34;HTML2RSS线上工具收集&#34; href=&#34;https://xuchi.name/62/&#34; target=&#34;_blank&#34;&gt;HTML2RSS工具&lt;/a&gt;来实现！&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>HTML/PAGE2RSS线上工具收集</title>
