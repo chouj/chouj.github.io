@@ -1288,12 +1288,6 @@
   </url>
   
   <url>
-    <loc>https://xuchi.name/tags/subscribe/</loc>
-    <lastmod>2009-01-22T14:31:36+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://xuchi.name/tags/feedzshare/</loc>
     <lastmod>2009-01-17T11:04:56+00:00</lastmod>
     <priority>0</priority>
@@ -1355,26 +1349,14 @@
   </url>
   
   <url>
-    <loc>https://xuchi.name/tags/xianguo/</loc>
-    <lastmod>2008-12-20T07:58:18+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://xuchi.name/categories/%E6%96%B0%E9%97%BB/</loc>
-    <lastmod>2008-12-20T07:58:18+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://xuchi.name/tags/%E8%AE%A2%E9%98%85%E9%87%8F/</loc>
     <lastmod>2008-12-20T07:58:18+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://xuchi.name/tags/fanfou/</loc>
-    <lastmod>2008-12-18T15:06:46+00:00</lastmod>
+    <loc>https://xuchi.name/tags/%E9%B2%9C%E6%9E%9C/</loc>
+    <lastmod>2008-12-20T07:58:18+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1385,13 +1367,13 @@
   </url>
   
   <url>
-    <loc>https://xuchi.name/tags/microblog/</loc>
+    <loc>https://xuchi.name/tags/feedlr/</loc>
     <lastmod>2008-12-18T15:06:46+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://xuchi.name/tags/feedlr/</loc>
+    <loc>https://xuchi.name/tags/%E5%BE%AE%E5%8D%9A/</loc>
     <lastmod>2008-12-18T15:06:46+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -1500,19 +1482,7 @@
   </url>
   
   <url>
-    <loc>https://xuchi.name/tags/rss%E5%91%A8%E8%BE%B9/</loc>
-    <lastmod>2008-11-25T18:13:44+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://xuchi.name/tags/rss%E6%A3%92%E7%90%83%E5%B8%BD/</loc>
-    <lastmod>2008-11-25T18:13:44+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://xuchi.name/categories/%E7%9B%B8%E5%85%B3/</loc>
+    <loc>https://xuchi.name/tags/%E6%A3%92%E7%90%83%E5%B8%BD/</loc>
     <lastmod>2008-11-25T18:13:44+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -1548,6 +1518,12 @@
   <url>
     <loc>https://xuchi.name/507/</loc>
     <lastmod>2008-11-14T01:11:20+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xuchi.name/tags/subscribe/</loc>
+    <lastmod>2008-11-14T01:11:20+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -1643,6 +1619,12 @@
   </url>
   
   <url>
+    <loc>https://xuchi.name/categories/%E7%9B%B8%E5%85%B3/</loc>
+    <lastmod>2008-10-20T15:22:43+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://xuchi.name/tags/rssless/</loc>
     <lastmod>2008-10-14T03:00:21+00:00</lastmod>
     <priority>0</priority>
@@ -1678,6 +1660,12 @@
   <url>
     <loc>https://xuchi.name/503/</loc>
     <lastmod>2008-10-08T03:26:14+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xuchi.name/categories/%E6%96%B0%E9%97%BB/</loc>
+    <lastmod>2008-10-08T03:26:14+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -1850,6 +1838,12 @@
   <url>
     <loc>https://xuchi.name/494/</loc>
     <lastmod>2008-07-30T17:42:48+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xuchi.name/tags/xianguo/</loc>
+    <lastmod>2008-07-23T05:46:56+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -3005,6 +2999,12 @@
   <url>
     <loc>https://xuchi.name/tags/%E7%81%AB%E8%BD%A6/</loc>
     <lastmod>2007-07-25T18:17:18+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://xuchi.name/tags/fanfou/</loc>
+    <lastmod>2007-07-24T13:32:52+00:00</lastmod>
     <priority>0</priority>
   </url>
   
