@@ -18,21 +18,7 @@
       <pubDate>Wed, 05 Nov 2008 01:47:53 +0000</pubDate>
       
       <guid>https://chouj.github.io/506/</guid>
-      <description>&lt;p&gt;&lt;img style=&#34;float: left; margin-left: 10px; margin-right: 10px;&#34; title=&#34;WordPress Plugin about RSS&#34; src=&#34;http://pic.yupoo.com/xcchris/309805b2a084/qye3bzys.jpg&#34; alt=&#34;WordPress&#34; /&gt;如果你使用WordPress搭建CMS，那么一定会较多得利用“页面”元素来显示你的内容，但页面内容是不会输出到RSS feed的。怎么解决这个问题，输出页面信息到feed中呢？我们可以使用一个插件：&lt;strong&gt;RSS includes Pages&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;简介&lt;/strong&gt;：&lt;/p&gt;
-
-&lt;p&gt;作者：&lt;a title=&#34;Author Homepage&#34; href=&#34;http://www.mariosalexandrou.com/&#34; target=&#34;_blank&#34;&gt;marios-alexandrou&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;版本：1.0.2&lt;/p&gt;
-
-&lt;p&gt;适用：WordPress 2.5+&lt;/p&gt;
-
-&lt;p&gt;功能：不仅是日志内容，也让页面内容输出到RSS feed&lt;/p&gt;
-
-&lt;p&gt;最后更新：2008.09.04&lt;/p&gt;
-
-&lt;p&gt;WP-Extend: &lt;a href=&#34;http://wordpress.org/extend/plugins/rss-includes-pages/&#34;&gt;http://wordpress.org/extend/plugins/rss-includes-pages/&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;img style=&#34;float: left; margin-left: 10px; margin-right: 10px;&#34; title=&#34;WordPress Plugin about RSS&#34; src=&#34;https://ps.w.org/rss-includes-pages/assets/screenshot-1.jpg?rev=1313779&#34; alt=&#34;WordPress&#34; /&gt;如果你使用WordPress搭建CMS，那么一定会较多得利用“页面”元素来显示你的内容，但页面内容是不会输出到RSS feed的。怎么解决这个问题，输出页面信息到feed中呢？我们可以使用一个插件：&lt;strong&gt;RSS includes Pages&lt;/strong&gt;。&lt;/p&gt;</description>
     </item>
     
     <item>

@@ -1521,19 +1521,13 @@
   </url>
   
   <url>
-    <loc>https://xuchi.name/tags/subscribe/</loc>
+    <loc>https://xuchi.name/tags/%E8%AE%A2%E9%98%85/</loc>
     <lastmod>2008-11-14T01:11:20+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://xuchi.name/tags/plugin/</loc>
-    <lastmod>2008-11-05T01:47:53+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://xuchi.name/categories/wordpress/</loc>
     <lastmod>2008-11-05T01:47:53+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -1550,12 +1544,6 @@
   </url>
   
   <url>
-    <loc>https://xuchi.name/tags/download/</loc>
-    <lastmod>2008-10-29T12:13:35+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://xuchi.name/119/</loc>
     <lastmod>2008-10-29T12:13:35+00:00</lastmod>
   </url>
@@ -1567,44 +1555,8 @@
   </url>
   
   <url>
-    <loc>https://xuchi.name/tags/rss%E6%8E%A8%E5%B9%BF/</loc>
-    <lastmod>2008-10-22T19:53:31+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://xuchi.name/tags/rss%E6%98%AF%E5%B9%B2%E4%BB%80%E4%B9%88%E7%9A%84/</loc>
-    <lastmod>2008-10-22T19:53:31+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://xuchi.name/117/</loc>
     <lastmod>2008-10-22T19:53:31+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://xuchi.name/tags/rss%E8%AE%A2%E9%98%85/</loc>
-    <lastmod>2008-10-22T19:53:31+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://xuchi.name/tags/%E4%BB%80%E4%B9%88%E6%98%AFrss/</loc>
-    <lastmod>2008-10-22T19:53:31+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://xuchi.name/tags/bookmark/</loc>
-    <lastmod>2008-10-20T15:22:43+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://xuchi.name/tags/share/</loc>
-    <lastmod>2008-10-20T15:22:43+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -1619,13 +1571,19 @@
   </url>
   
   <url>
-    <loc>https://xuchi.name/categories/%E7%9B%B8%E5%85%B3/</loc>
+    <loc>https://xuchi.name/tags/%E7%BD%91%E6%91%98/</loc>
     <lastmod>2008-10-20T15:22:43+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://xuchi.name/tags/rssless/</loc>
+    <lastmod>2008-10-14T03:00:21+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://xuchi.name/categories/wordpress/</loc>
     <lastmod>2008-10-14T03:00:21+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -1702,6 +1660,12 @@
   </url>
   
   <url>
+    <loc>https://xuchi.name/tags/subscribe/</loc>
+    <lastmod>2008-09-08T14:39:18+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://xuchi.name/307/</loc>
     <lastmod>2008-09-07T09:03:45+00:00</lastmod>
   </url>
@@ -1721,6 +1685,12 @@
   <url>
     <loc>https://xuchi.name/303/</loc>
     <lastmod>2008-09-05T07:38:05+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xuchi.name/tags/download/</loc>
+    <lastmod>2008-09-03T03:06:23+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -1926,7 +1896,19 @@
   </url>
   
   <url>
+    <loc>https://xuchi.name/tags/rss%E6%8E%A8%E5%B9%BF/</loc>
+    <lastmod>2008-07-06T15:55:05+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://xuchi.name/tags/university/</loc>
+    <lastmod>2008-07-06T15:55:05+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://xuchi.name/categories/%E7%9B%B8%E5%85%B3/</loc>
     <lastmod>2008-07-06T15:55:05+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -3925,6 +3907,12 @@
   <url>
     <loc>https://xuchi.name/238/</loc>
     <lastmod>2007-03-27T02:36:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xuchi.name/tags/rss%E8%AE%A2%E9%98%85/</loc>
+    <lastmod>2007-03-26T11:34:11+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>

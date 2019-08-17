@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>网摘 on 抽筋儿的话语权</title>
+    <link>https://chouj.github.io/tags/%E7%BD%91%E6%91%98/</link>
+    <description>Recent content in 网摘 on 抽筋儿的话语权</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
+    <lastBuildDate>Mon, 20 Oct 2008 15:22:43 +0000</lastBuildDate>
+    
+	<atom:link href="https://chouj.github.io/tags/%E7%BD%91%E6%91%98/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>与RSS有关的网摘</title>
+      <link>https://chouj.github.io/116/</link>
+      <pubDate>Mon, 20 Oct 2008 15:22:43 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/116/</guid>
+      <description>&lt;p&gt;Update: 20190817&lt;/p&gt;
+
+&lt;p&gt;现在我在Telegram开了个频道来发RSS相关的内容。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://img.shields.io/badge/dynamic/xml.svg?color=orange&amp;amp;label=t.me/aboutrss&amp;amp;query=%2F%2Fchannel%2Ffeeds%2Ffeed%2Ffield1&amp;amp;url=https%3A%2F%2Fapi.thingspeak.com%2Fchannels%2F343156%2Ffeeds.xml%3Fresults%3D1&amp;amp;suffix=%20subscribers&#34; alt=&#34;&#34; /&gt; &lt;img src=&#34;https://img.shields.io/badge/Powered%20by-RSS-orange.svg?logo=rss&#34; alt=&#34;https://img.shields.io/badge/Powered%20by-RSS-orange.svg?style=plastic&amp;amp;logo=rss&#34; /&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

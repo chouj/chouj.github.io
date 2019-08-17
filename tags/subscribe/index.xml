@@ -7,27 +7,10 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
-    <lastBuildDate>Fri, 14 Nov 2008 01:11:20 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 08 Sep 2008 14:39:18 +0000</lastBuildDate>
     
 	<atom:link href="https://chouj.github.io/tags/subscribe/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Feed Icon 2.0：简单订阅按钮生成器</title>
-      <link>https://chouj.github.io/507/</link>
-      <pubDate>Fri, 14 Nov 2008 01:11:20 +0000</pubDate>
-      
-      <guid>https://chouj.github.io/507/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://feedicon20.com/?hl=en&#34; title=&#34;feed icon&#34;&gt;&lt;img src=&#34;http://feedicon20.com/img/en_logo.jpg&#34; alt=&#34;feedicon20&#34; width=&#34;468&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;“Feed Icon 2.0 &amp;#8211; a simplest way to add a feed icon to your website !”正如&lt;a title=&#34;Feedicon20.com&#34; href=&#34;http://feedicon20.com/&#34; target=&#34;_blank&#34;&gt;Feed Icon 2.0&lt;/a&gt;网页的title所述，这是一款可生成简易订阅按钮的服务。提交blog地址，点击&amp;#8221;Generate Icon&amp;#8221;即可得到两种简单的按钮样式：&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://feedicon20.com/rss.php?u=http%3A%2F%2Faboutrss.cn%2F&amp;amp;s=1&amp;amp;hl=en&#34;&gt;&lt;img style=&#34;margin-right: 2px;&#34; title=&#34;RSS feed&#34; src=&#34;http://feedicon20.com/img/feed.gif&#34; border=&#34;0&#34; alt=&#34;RSS feed&#34; width=&#34;68&#34; height=&#34;22&#34; align=&#34;absmiddle&#34; /&gt;（含阅读器的订阅按钮）&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://feedicon20.com/rss.php?u=http%3A%2F%2Faboutrss.cn%2F&amp;amp;s=1&amp;amp;hl=en&#34;&gt;&lt;img style=&#34;margin-right: 2px;&#34; title=&#34;RSS feed&#34; src=&#34;http://feedicon20.com/img/feedicon16.gif&#34; border=&#34;0&#34; alt=&#34;RSS feed&#34; width=&#34;16&#34; height=&#34;16&#34; align=&#34;absmiddle&#34; /&gt;aboutrss Feed&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
     
     <item>
       <title>IMFeeds.com:RSS信息的IM订阅</title>

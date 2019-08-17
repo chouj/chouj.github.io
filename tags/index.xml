@@ -1480,11 +1480,11 @@
     </item>
     
     <item>
-      <title>Subscribe</title>
-      <link>https://chouj.github.io/tags/subscribe/</link>
+      <title>订阅</title>
+      <link>https://chouj.github.io/tags/%E8%AE%A2%E9%98%85/</link>
       <pubDate>Fri, 14 Nov 2008 01:11:20 +0000</pubDate>
       
-      <guid>https://chouj.github.io/tags/subscribe/</guid>
+      <guid>https://chouj.github.io/tags/%E8%AE%A2%E9%98%85/</guid>
       <description></description>
     </item>
     
@@ -1507,74 +1507,20 @@
     </item>
     
     <item>
-      <title>Download</title>
-      <link>https://chouj.github.io/tags/download/</link>
-      <pubDate>Wed, 29 Oct 2008 12:13:35 +0000</pubDate>
-      
-      <guid>https://chouj.github.io/tags/download/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>RSS推广</title>
-      <link>https://chouj.github.io/tags/rss%E6%8E%A8%E5%B9%BF/</link>
-      <pubDate>Wed, 22 Oct 2008 19:53:31 +0000</pubDate>
-      
-      <guid>https://chouj.github.io/tags/rss%E6%8E%A8%E5%B9%BF/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>RSS是干什么的</title>
-      <link>https://chouj.github.io/tags/rss%E6%98%AF%E5%B9%B2%E4%BB%80%E4%B9%88%E7%9A%84/</link>
-      <pubDate>Wed, 22 Oct 2008 19:53:31 +0000</pubDate>
-      
-      <guid>https://chouj.github.io/tags/rss%E6%98%AF%E5%B9%B2%E4%BB%80%E4%B9%88%E7%9A%84/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>RSS订阅</title>
-      <link>https://chouj.github.io/tags/rss%E8%AE%A2%E9%98%85/</link>
-      <pubDate>Wed, 22 Oct 2008 19:53:31 +0000</pubDate>
-      
-      <guid>https://chouj.github.io/tags/rss%E8%AE%A2%E9%98%85/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>什么是RSS</title>
-      <link>https://chouj.github.io/tags/%E4%BB%80%E4%B9%88%E6%98%AFrss/</link>
-      <pubDate>Wed, 22 Oct 2008 19:53:31 +0000</pubDate>
-      
-      <guid>https://chouj.github.io/tags/%E4%BB%80%E4%B9%88%E6%98%AFrss/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Bookmark</title>
-      <link>https://chouj.github.io/tags/bookmark/</link>
-      <pubDate>Mon, 20 Oct 2008 15:22:43 +0000</pubDate>
-      
-      <guid>https://chouj.github.io/tags/bookmark/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Share</title>
-      <link>https://chouj.github.io/tags/share/</link>
-      <pubDate>Mon, 20 Oct 2008 15:22:43 +0000</pubDate>
-      
-      <guid>https://chouj.github.io/tags/share/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>搜集</title>
       <link>https://chouj.github.io/tags/%E6%90%9C%E9%9B%86/</link>
       <pubDate>Mon, 20 Oct 2008 15:22:43 +0000</pubDate>
       
       <guid>https://chouj.github.io/tags/%E6%90%9C%E9%9B%86/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>网摘</title>
+      <link>https://chouj.github.io/tags/%E7%BD%91%E6%91%98/</link>
+      <pubDate>Mon, 20 Oct 2008 15:22:43 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/tags/%E7%BD%91%E6%91%98/</guid>
       <description></description>
     </item>
     
@@ -1633,6 +1579,15 @@
     </item>
     
     <item>
+      <title>Subscribe</title>
+      <link>https://chouj.github.io/tags/subscribe/</link>
+      <pubDate>Mon, 08 Sep 2008 14:39:18 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/tags/subscribe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>教程</title>
       <link>https://chouj.github.io/tags/%E6%95%99%E7%A8%8B/</link>
       <pubDate>Sun, 07 Sep 2008 09:03:45 +0000</pubDate>
@@ -1647,6 +1602,15 @@
       <pubDate>Fri, 05 Sep 2008 07:38:05 +0000</pubDate>
       
       <guid>https://chouj.github.io/tags/%E8%89%BE%E8%96%87%E5%84%BF/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Download</title>
+      <link>https://chouj.github.io/tags/download/</link>
+      <pubDate>Wed, 03 Sep 2008 03:06:23 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/tags/download/</guid>
       <description></description>
     </item>
     
@@ -1836,6 +1800,15 @@
       <pubDate>Sun, 06 Jul 2008 15:55:05 +0000</pubDate>
       
       <guid>https://chouj.github.io/tags/library/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RSS推广</title>
+      <link>https://chouj.github.io/tags/rss%E6%8E%A8%E5%B9%BF/</link>
+      <pubDate>Sun, 06 Jul 2008 15:55:05 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/tags/rss%E6%8E%A8%E5%B9%BF/</guid>
       <description></description>
     </item>
     
@@ -3609,6 +3582,15 @@
       <pubDate>Thu, 29 Mar 2007 03:05:00 +0000</pubDate>
       
       <guid>https://chouj.github.io/tags/%E5%B0%8F%E7%8E%8B%E8%B6%8A/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RSS订阅</title>
+      <link>https://chouj.github.io/tags/rss%E8%AE%A2%E9%98%85/</link>
+      <pubDate>Mon, 26 Mar 2007 11:34:11 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/tags/rss%E8%AE%A2%E9%98%85/</guid>
       <description></description>
     </item>
     
