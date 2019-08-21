@@ -346,7 +346,7 @@ JUL 24 2019 updated:
       <pubDate>Wed, 22 Oct 2008 19:53:31 +0000</pubDate>
       
       <guid>https://chouj.github.io/117/</guid>
-      <description>&lt;p&gt;&lt;img style=&#34;float: left; margin-left: 0px; margin-right: 10px;&#34; src=&#34;http://pic.yupoo.com/xcchris/6394858412e5/medium.jpg&#34; border=&#34;0&#34; alt=&#34;RSS是拿来干什么的？&#34; width=&#34;111&#34; height=&#34;114&#34; /&gt;&lt;em&gt;“RSS相关”的第100篇，不知道有没有资格企及这个艰难的题目。但，既然叫“RSS相关”，没有对RSS的解释，是不行的。下面开始正文，我会尽最大努力描述得浅显易懂。&lt;/em&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;img style=&#34;float: left; margin-left: 0px; margin-right: 10px;&#34; src=&#34;https://pic.yupoo.com/xcchris_v/AqJDZFCO/D9qIc.jpg&#34; border=&#34;0&#34; alt=&#34;RSS是拿来干什么的？&#34; width=&#34;111&#34; /&gt;&lt;em&gt;“RSS相关”的第100篇，不知道有没有资格企及这个艰难的题目。但，既然叫“RSS相关”，没有对RSS的解释，是不行的。下面开始正文，我会尽最大努力描述得浅显易懂。&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -360,6 +360,64 @@ JUL 24 2019 updated:
 &lt;p&gt;现在我在Telegram开了个频道来发RSS相关的内容。&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://img.shields.io/badge/dynamic/xml.svg?color=orange&amp;amp;label=t.me/aboutrss&amp;amp;query=%2F%2Fchannel%2Ffeeds%2Ffeed%2Ffield1&amp;amp;url=https%3A%2F%2Fapi.thingspeak.com%2Fchannels%2F343156%2Ffeeds.xml%3Fresults%3D1&amp;amp;suffix=%20subscribers&#34; alt=&#34;&#34; /&gt; &lt;img src=&#34;https://img.shields.io/badge/Powered%20by-RSS-orange.svg?logo=rss&#34; alt=&#34;https://img.shields.io/badge/Powered%20by-RSS-orange.svg?style=plastic&amp;amp;logo=rss&#34; /&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[WP插件]RSSless：实现feed中的内容隐藏</title>
+      <link>https://chouj.github.io/505/</link>
+      <pubDate>Tue, 14 Oct 2008 03:00:21 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/505/</guid>
+      <description>&lt;p&gt;如果想在RSS feed中隐藏内容，使得页面内容和RSS feed内容不一样的话，那你也许就需要这款WordPress Plugin：RSSless。打个比方，你想在页面上显示“请看以下视频”，在feed内容中显示“请访问本日志方可看到视频”，RSSless就是解决你这方面需求的利器。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>DoYouFeed:iPhone家的feed裁缝</title>
+      <link>https://chouj.github.io/504/</link>
+      <pubDate>Fri, 10 Oct 2008 00:31:37 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/504/</guid>
+      <description>&lt;p&gt;&lt;a title=&#34;DoYouFeed.com&#34; href=&#34;http://www.doyoufeed.com/&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://technofriends.files.wordpress.com/2008/10/doyoufeed.png&#34; alt=&#34;DoYouFeed.com logo&#34; width=&#34;261&#34; height=&#34;85&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;DoYouFeed.com: Turn any RSS feed into an iPhone friendly site.&lt;/p&gt;
+
+&lt;p&gt;theAppleBlog写过一篇&lt;a href=&#34;https://gigaom.com/2008/08/04/tutorial-build-a-simple-rss-reader-for-iphone/&#34; target=&#34;_blank&#34;&gt;文章&lt;/a&gt;，教iPhone用户打造一个简易的iPhone RSS Reader。现在有了DoYouFeed，似乎会更加方便，该站可以将RSS Feed改造成适合在iPhone阅读的页面，所以我叫它iPhone家的Feed裁缝。只是俺买不起iPhone，不知道能提升多少阅读体验；其实对这个站有需求的人估计也挺少，呵呵。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>RSS.com即将拍卖</title>
+      <link>https://chouj.github.io/503/</link>
+      <pubDate>Wed, 08 Oct 2008 03:26:14 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/503/</guid>
+      <description>根据RSS blog的消息，RSS.com域名将在10月16日拍卖，且拍卖最低价格为750,000USD，GreatDomains.com和Sedo上都已有拍卖日程。该域名下没有内容，PR为4，alexa排名63万+。
+想必大家都跟我一样想知道该域名花落谁家，会孕育出一个什么样的站，那就让我们拭目以待吧。</description>
+    </item>
+    
+    <item>
+      <title>mloovi：多国语言版feed生成服务</title>
+      <link>https://chouj.github.io/502/</link>
+      <pubDate>Tue, 07 Oct 2008 03:24:21 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/502/</guid>
+      <description>&lt;p&gt;_各位国庆过得可开心？ 🙂&lt;/p&gt;
+
+&lt;p&gt;_&lt;/p&gt;
+
+&lt;p&gt;&lt;a title=&#34;Mloovi&#34; href=&#34;http://mloovi.com/&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwdQCCB740h2kaZGadcywFPmgA4WOmEHroyyupi1gVjdlEJUsPAg&#34; alt=&#34;mloovi&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;这回介绍一款RSS Feed语言翻译服务：&lt;strong&gt;mloovi&lt;/strong&gt;。只要提交feed地址，该服务即可基于Google Translate生成相应语言的RSS feed，供有中文繁简体24种语言可供互译。虽然Google英汉翻译的质量难以恭维，不过也是一种方便交流的有益尝试；而拿mloovi生成繁简中文feeds，应该对大陆和台湾bloggers很有帮助。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>IMFeeds.com:RSS信息的IM订阅</title>
+      <link>https://chouj.github.io/500/</link>
+      <pubDate>Mon, 08 Sep 2008 14:39:18 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/500/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://i1.wp.com/geeksroom.com/wp-content/uploads/2008/06/imfeeds.gif?resize=490%2C277&#34; alt=&#34;imfeeds.com 首页&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;很早前，我介绍过&lt;a href=&#34;https://xuchi.name/418/&#34; title=&#34;用IM订阅RSS 实现信息主动推送&#34;&gt;实现信息推送至IM的Anothr&lt;/a&gt;，这次介绍下功能一样的&lt;a title=&#34;IM Feeds Beta - RSS feeds delivered via IM &#34; href=&#34;http://imfeeds.com/&#34; target=&#34;_blank&#34;&gt;IMFeeds&lt;/a&gt;。借助&lt;a title=&#34;IM Feeds Beta - RSS feeds delivered via IM &#34; href=&#34;http://imfeeds.com/&#34; target=&#34;_blank&#34;&gt;IMFeeds&lt;/a&gt;，我们可以将RSS信息实时推送到AIM、MSN、Gtalk和Yahoo!四种IM上，将IM转化为订阅工具和阅读器，即时跟踪您关心的信息。&lt;/p&gt;</description>
     </item>
     
     <item>

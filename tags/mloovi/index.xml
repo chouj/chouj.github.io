@@ -22,7 +22,7 @@
 
 &lt;p&gt;_&lt;/p&gt;
 
-&lt;p&gt;&lt;a title=&#34;Mloovi&#34; href=&#34;http://mloovi.com/&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://mloovi.com/img/logo_orange_296x83.png&#34; alt=&#34;mloovi&#34; width=&#34;296&#34; height=&#34;83&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a title=&#34;Mloovi&#34; href=&#34;http://mloovi.com/&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwdQCCB740h2kaZGadcywFPmgA4WOmEHroyyupi1gVjdlEJUsPAg&#34; alt=&#34;mloovi&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;这回介绍一款RSS Feed语言翻译服务：&lt;strong&gt;mloovi&lt;/strong&gt;。只要提交feed地址，该服务即可基于Google Translate生成相应语言的RSS feed，供有中文繁简体24种语言可供互译。虽然Google英汉翻译的质量难以恭维，不过也是一种方便交流的有益尝试；而拿mloovi生成繁简中文feeds，应该对大陆和台湾bloggers很有帮助。&lt;/p&gt;</description>
     </item>

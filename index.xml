@@ -990,7 +990,7 @@ JUL 24 2019 updated:
       <pubDate>Wed, 22 Oct 2008 19:53:31 +0000</pubDate>
       
       <guid>https://chouj.github.io/117/</guid>
-      <description>&lt;p&gt;&lt;img style=&#34;float: left; margin-left: 0px; margin-right: 10px;&#34; src=&#34;http://pic.yupoo.com/xcchris/6394858412e5/medium.jpg&#34; border=&#34;0&#34; alt=&#34;RSS是拿来干什么的？&#34; width=&#34;111&#34; height=&#34;114&#34; /&gt;&lt;em&gt;“RSS相关”的第100篇，不知道有没有资格企及这个艰难的题目。但，既然叫“RSS相关”，没有对RSS的解释，是不行的。下面开始正文，我会尽最大努力描述得浅显易懂。&lt;/em&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;img style=&#34;float: left; margin-left: 0px; margin-right: 10px;&#34; src=&#34;https://pic.yupoo.com/xcchris_v/AqJDZFCO/D9qIc.jpg&#34; border=&#34;0&#34; alt=&#34;RSS是拿来干什么的？&#34; width=&#34;111&#34; /&gt;&lt;em&gt;“RSS相关”的第100篇，不知道有没有资格企及这个艰难的题目。但，既然叫“RSS相关”，没有对RSS的解释，是不行的。下面开始正文，我会尽最大努力描述得浅显易懂。&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -1012,71 +1012,7 @@ JUL 24 2019 updated:
       <pubDate>Tue, 14 Oct 2008 03:00:21 +0000</pubDate>
       
       <guid>https://chouj.github.io/505/</guid>
-      <description>&lt;p&gt;&lt;img title=&#34;WordPress Plugin about RSS&#34; src=&#34;http://pic.yupoo.com/xcchris/309805b2a084/qye3bzys.jpg&#34; alt=&#34;WordPress&#34; style=&#34;float: left; margin-left: 10px; margin-right: 10px;&#34; /&gt;如果想在RSS feed中隐藏内容，使得页面内容和RSS feed内容不一样的话，那你也许就需要这款WordPress Plugin：RSSless。打个比方，你想在页面上显示“请看以下视频”，在feed内容中显示“请访问本日志方可看到视频”，RSSless就是解决你这方面需求的利器。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;简介&lt;/strong&gt;：&lt;/p&gt;
-
-&lt;table style=&#34;padding: 2px; text-align: left;&#34; border=&#34;0&#34; cellspacing=&#34;4&#34;&gt;
-  &lt;tr valign=&#34;top&#34;&gt;
-    &lt;td&gt;
-      作者:
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      John Kolbert
-    &lt;/td&gt;
-  &lt;/tr&gt;
-  
-  &lt;tr valign=&#34;top&#34;&gt;
-    &lt;td&gt;
-      版本:
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      1.0
-    &lt;/td&gt;
-  &lt;/tr&gt;
-  
-  &lt;tr valign=&#34;top&#34;&gt;
-    &lt;td&gt;
-      最后更新:
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      8 9, 2008
-    &lt;/td&gt;
-  &lt;/tr&gt;
-  
-  &lt;tr valign=&#34;top&#34;&gt;
-    &lt;td&gt;
-      适用于:
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      WordPress 2.5+, 2.6+
-    &lt;/td&gt;
-  &lt;/tr&gt;
-  
-  &lt;tr valign=&#34;top&#34;&gt;
-    &lt;td&gt;
-      功能:
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      使用简单代码隐藏或更改RSS feed中的内容，特别针对在RSS阅读器中显示异常的视屏或flash嵌入。
-    &lt;/td&gt;
-  &lt;/tr&gt;
-  
-  &lt;tr valign=&#34;top&#34;&gt;
-    &lt;td&gt;
-      WP-Extend:
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      &lt;a href=&#34;http://wordpress.org/extend/plugins/rssless/&#34;&gt;http://wordpress.org/extend/plugins/rssless/&lt;/a&gt;
-    &lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;</description>
+      <description>&lt;p&gt;如果想在RSS feed中隐藏内容，使得页面内容和RSS feed内容不一样的话，那你也许就需要这款WordPress Plugin：RSSless。打个比方，你想在页面上显示“请看以下视频”，在feed内容中显示“请访问本日志方可看到视频”，RSSless就是解决你这方面需求的利器。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -1085,11 +1021,11 @@ JUL 24 2019 updated:
       <pubDate>Fri, 10 Oct 2008 00:31:37 +0000</pubDate>
       
       <guid>https://chouj.github.io/504/</guid>
-      <description>&lt;p&gt;&lt;a title=&#34;DoYouFeed.com&#34; href=&#34;http://www.doyoufeed.com/&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://www.doyoufeed.com/i/logo.png&#34; alt=&#34;DoYouFeed.com logo&#34; width=&#34;261&#34; height=&#34;85&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a title=&#34;DoYouFeed.com&#34; href=&#34;http://www.doyoufeed.com/&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://technofriends.files.wordpress.com/2008/10/doyoufeed.png&#34; alt=&#34;DoYouFeed.com logo&#34; width=&#34;261&#34; height=&#34;85&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;DoYouFeed.com: Turn any RSS feed into an iPhone friendly site.&lt;/p&gt;
 
-&lt;p&gt;theAppleBlog写过一篇&lt;a href=&#34;http://theappleblog.com/2008/08/04/tutorial-build-a-simple-rss-reader-for-iphone/&#34; target=&#34;_blank&#34;&gt;文章&lt;/a&gt;，教iPhone用户打造一个简易的iPhone RSS Reader。现在有了DoYouFeed，似乎会更加方便，该站可以将RSS Feed改造成适合在iPhone阅读的页面，所以我叫它iPhone家的Feed裁缝。只是俺买不起iPhone，不知道能提升多少阅读体验；其实对这个站有需求的人估计也挺少，呵呵。&lt;/p&gt;</description>
+&lt;p&gt;theAppleBlog写过一篇&lt;a href=&#34;https://gigaom.com/2008/08/04/tutorial-build-a-simple-rss-reader-for-iphone/&#34; target=&#34;_blank&#34;&gt;文章&lt;/a&gt;，教iPhone用户打造一个简易的iPhone RSS Reader。现在有了DoYouFeed，似乎会更加方便，该站可以将RSS Feed改造成适合在iPhone阅读的页面，所以我叫它iPhone家的Feed裁缝。只是俺买不起iPhone，不知道能提升多少阅读体验；其实对这个站有需求的人估计也挺少，呵呵。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -1121,11 +1057,11 @@ JUL 24 2019 updated:
       <pubDate>Wed, 08 Oct 2008 02:42:54 +0000</pubDate>
       
       <guid>https://chouj.github.io/311/</guid>
-      <description>“大海啊，全是水～骏马啊，四条腿～”——观海有感（盗用）。
-小时候我见过大海，5岁或是8岁。在连云港的海滩，还没旅游开发，荒芜人际，只有海浪孤独的声音。那时的我，似乎还是对沙子比较感兴趣，玩到涨潮浸湿了裤子。
-长大了，出海科考，我随船跑到台湾和菲律宾间的吕宋海峡，日夜以海为伴。方感到大海的壮阔与美：那是一种海天之间的美，和沙滩椰林的热带美完全不一样的。
-晨光下，一片柔和，云如棉絮。日光下，海水蔚蓝透彻。黄昏时，滚滚火烧云如在手边，海面灿金点点。月升之时，寥寥数星点缀，海上银光泛泛。即便台风黑格比迫近之时，海雄伟的自然力也是美的。
-作文写到这个地步发现不会收尾，算了就不给这儿花痴了，待续待续，囧。</description>
+      <description>&lt;p&gt;&lt;img class=&#34;alignnone size-medium wp-image-312&#34; title=&#34;sea-www.xuchi.name&#34; src=&#34;https://xuchi.name/wp-content/uploads/2008/10/sea-chris.png&#34; alt=&#34;sea-www.xuchi.name&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;“大海啊，全是水～骏马啊，四条腿～”——观海有感（盗用）。&lt;/p&gt;
+
+&lt;p&gt;小时候我见过大海，5岁或是8岁。在连云港的海滩，还没旅游开发，荒芜人际，只有海浪孤独的声音。那时的我，似乎还是对沙子比较感兴趣，玩到涨潮浸湿了裤子。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -1138,7 +1074,7 @@ JUL 24 2019 updated:
 
 &lt;p&gt;_&lt;/p&gt;
 
-&lt;p&gt;&lt;a title=&#34;Mloovi&#34; href=&#34;http://mloovi.com/&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://mloovi.com/img/logo_orange_296x83.png&#34; alt=&#34;mloovi&#34; width=&#34;296&#34; height=&#34;83&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a title=&#34;Mloovi&#34; href=&#34;http://mloovi.com/&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwdQCCB740h2kaZGadcywFPmgA4WOmEHroyyupi1gVjdlEJUsPAg&#34; alt=&#34;mloovi&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;这回介绍一款RSS Feed语言翻译服务：&lt;strong&gt;mloovi&lt;/strong&gt;。只要提交feed地址，该服务即可基于Google Translate生成相应语言的RSS feed，供有中文繁简体24种语言可供互译。虽然Google英汉翻译的质量难以恭维，不过也是一种方便交流的有益尝试；而拿mloovi生成繁简中文feeds，应该对大陆和台湾bloggers很有帮助。&lt;/p&gt;</description>
     </item>
@@ -1149,9 +1085,9 @@ JUL 24 2019 updated:
       <pubDate>Mon, 08 Sep 2008 14:39:18 +0000</pubDate>
       
       <guid>https://chouj.github.io/500/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://pic.yupoo.com/xcchris/66071628a4c0/hqhkxea7.jpg&#34; alt=&#34;imfeeds.com 首页&#34; width=&#34;468&#34; height=&#34;270&#34; /&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;https://i1.wp.com/geeksroom.com/wp-content/uploads/2008/06/imfeeds.gif?resize=490%2C277&#34; alt=&#34;imfeeds.com 首页&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;很早前，我介绍过&lt;a href=&#34;http://aboutrss.cn/2007/03/anothr/&#34; title=&#34;用IM订阅RSS 实现信息主动推送&#34;&gt;实现信息推送至IM的Anothr&lt;/a&gt;，这次介绍下功能一样的&lt;a title=&#34;IM Feeds Beta - RSS feeds delivered via IM &#34; href=&#34;http://imfeeds.com/&#34; target=&#34;_blank&#34;&gt;IMFeeds&lt;/a&gt;。借助&lt;a title=&#34;IM Feeds Beta - RSS feeds delivered via IM &#34; href=&#34;http://imfeeds.com/&#34; target=&#34;_blank&#34;&gt;IMFeeds&lt;/a&gt;，我们可以将RSS信息实时推送到AIM、MSN、Gtalk和Yahoo!四种IM上，将IM转化为订阅工具和阅读器，即时跟踪您关心的信息。&lt;/p&gt;</description>
+&lt;p&gt;很早前，我介绍过&lt;a href=&#34;https://xuchi.name/418/&#34; title=&#34;用IM订阅RSS 实现信息主动推送&#34;&gt;实现信息推送至IM的Anothr&lt;/a&gt;，这次介绍下功能一样的&lt;a title=&#34;IM Feeds Beta - RSS feeds delivered via IM &#34; href=&#34;http://imfeeds.com/&#34; target=&#34;_blank&#34;&gt;IMFeeds&lt;/a&gt;。借助&lt;a title=&#34;IM Feeds Beta - RSS feeds delivered via IM &#34; href=&#34;http://imfeeds.com/&#34; target=&#34;_blank&#34;&gt;IMFeeds&lt;/a&gt;，我们可以将RSS信息实时推送到AIM、MSN、Gtalk和Yahoo!四种IM上，将IM转化为订阅工具和阅读器，即时跟踪您关心的信息。&lt;/p&gt;</description>
     </item>
     
     <item>
