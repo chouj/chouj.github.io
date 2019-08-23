@@ -58,7 +58,7 @@
     </item>
     
     <item>
-      <title>ThingSpeak</title>
+      <title>Thingspeak</title>
       <link>https://chouj.github.io/tags/thingspeak/</link>
       <pubDate>Wed, 24 Jul 2019 11:09:24 +0800</pubDate>
       
@@ -1588,20 +1588,11 @@
     </item>
     
     <item>
-      <title>Download</title>
-      <link>https://chouj.github.io/tags/download/</link>
-      <pubDate>Wed, 03 Sep 2008 03:06:23 +0000</pubDate>
-      
-      <guid>https://chouj.github.io/tags/download/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Video</title>
-      <link>https://chouj.github.io/tags/video/</link>
+      <title>视频</title>
+      <link>https://chouj.github.io/tags/%E8%A7%86%E9%A2%91/</link>
       <pubDate>Fri, 29 Aug 2008 01:43:34 +0000</pubDate>
       
-      <guid>https://chouj.github.io/tags/video/</guid>
+      <guid>https://chouj.github.io/tags/%E8%A7%86%E9%A2%91/</guid>
       <description></description>
     </item>
     
@@ -1665,6 +1656,15 @@
       <pubDate>Fri, 15 Aug 2008 02:54:25 +0000</pubDate>
       
       <guid>https://chouj.github.io/tags/%E8%B6%8B%E5%8A%BF%E7%A7%91%E6%8A%80/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Download</title>
+      <link>https://chouj.github.io/tags/download/</link>
+      <pubDate>Wed, 13 Aug 2008 02:31:09 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/tags/download/</guid>
       <description></description>
     </item>
     
@@ -3816,15 +3816,6 @@
       <pubDate>Sat, 11 Nov 2006 14:36:00 +0000</pubDate>
       
       <guid>https://chouj.github.io/tags/%E6%A4%8D%E7%89%A9%E5%9B%AD/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>视频</title>
-      <link>https://chouj.github.io/tags/%E8%A7%86%E9%A2%91/</link>
-      <pubDate>Wed, 25 Oct 2006 05:09:00 +0000</pubDate>
-      
-      <guid>https://chouj.github.io/tags/%E8%A7%86%E9%A2%91/</guid>
       <description></description>
     </item>
     

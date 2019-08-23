@@ -1664,25 +1664,19 @@
   </url>
   
   <url>
-    <loc>https://xuchi.name/tags/download/</loc>
-    <lastmod>2008-09-03T03:06:23+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://xuchi.name/499/</loc>
     <lastmod>2008-09-03T03:06:23+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://xuchi.name/tags/video/</loc>
+    <loc>https://xuchi.name/498/</loc>
     <lastmod>2008-08-29T01:43:34+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://xuchi.name/498/</loc>
+    <loc>https://xuchi.name/tags/%E8%A7%86%E9%A2%91/</loc>
     <lastmod>2008-08-29T01:43:34+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -1756,6 +1750,12 @@
   <url>
     <loc>https://xuchi.name/496/</loc>
     <lastmod>2008-08-13T02:31:09+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xuchi.name/tags/download/</loc>
+    <lastmod>2008-08-13T02:31:09+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -4334,12 +4334,6 @@
   <url>
     <loc>https://xuchi.name/192/</loc>
     <lastmod>2006-10-25T05:09:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://xuchi.name/tags/%E8%A7%86%E9%A2%91/</loc>
-    <lastmod>2006-10-25T05:09:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
