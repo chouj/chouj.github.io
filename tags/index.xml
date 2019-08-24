@@ -1660,29 +1660,20 @@
     </item>
     
     <item>
-      <title>Download</title>
-      <link>https://chouj.github.io/tags/download/</link>
-      <pubDate>Wed, 13 Aug 2008 02:31:09 +0000</pubDate>
+      <title>阅读器</title>
+      <link>https://chouj.github.io/tags/%E9%98%85%E8%AF%BB%E5%99%A8/</link>
+      <pubDate>Tue, 05 Aug 2008 14:21:59 +0000</pubDate>
       
-      <guid>https://chouj.github.io/tags/download/</guid>
+      <guid>https://chouj.github.io/tags/%E9%98%85%E8%AF%BB%E5%99%A8/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Feidou</title>
-      <link>https://chouj.github.io/tags/feidou/</link>
+      <title>飞豆</title>
+      <link>https://chouj.github.io/tags/%E9%A3%9E%E8%B1%86/</link>
       <pubDate>Tue, 05 Aug 2008 14:21:59 +0000</pubDate>
       
-      <guid>https://chouj.github.io/tags/feidou/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Reader</title>
-      <link>https://chouj.github.io/tags/reader/</link>
-      <pubDate>Tue, 05 Aug 2008 14:21:59 +0000</pubDate>
-      
-      <guid>https://chouj.github.io/tags/reader/</guid>
+      <guid>https://chouj.github.io/tags/%E9%A3%9E%E8%B1%86/</guid>
       <description></description>
     </item>
     
@@ -1692,24 +1683,6 @@
       <pubDate>Wed, 30 Jul 2008 17:42:48 +0000</pubDate>
       
       <guid>https://chouj.github.io/tags/feedcat/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Subscribe</title>
-      <link>https://chouj.github.io/tags/subscribe/</link>
-      <pubDate>Wed, 23 Jul 2008 05:46:56 +0000</pubDate>
-      
-      <guid>https://chouj.github.io/tags/subscribe/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Xianguo</title>
-      <link>https://chouj.github.io/tags/xianguo/</link>
-      <pubDate>Wed, 23 Jul 2008 05:46:56 +0000</pubDate>
-      
-      <guid>https://chouj.github.io/tags/xianguo/</guid>
       <description></description>
     </item>
     
@@ -1746,6 +1719,15 @@
       <pubDate>Sun, 20 Jul 2008 17:05:13 +0000</pubDate>
       
       <guid>https://chouj.github.io/tags/%E6%A0%A1%E5%86%85%E7%BD%91/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Subscribe</title>
+      <link>https://chouj.github.io/tags/subscribe/</link>
+      <pubDate>Tue, 15 Jul 2008 09:31:06 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/tags/subscribe/</guid>
       <description></description>
     </item>
     
@@ -1827,6 +1809,15 @@
       <pubDate>Thu, 03 Jul 2008 07:44:38 +0000</pubDate>
       
       <guid>https://chouj.github.io/tags/firefox/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Download</title>
+      <link>https://chouj.github.io/tags/download/</link>
+      <pubDate>Tue, 01 Jul 2008 05:31:35 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/tags/download/</guid>
       <description></description>
     </item>
     
@@ -2209,6 +2200,15 @@
     </item>
     
     <item>
+      <title>Reader</title>
+      <link>https://chouj.github.io/tags/reader/</link>
+      <pubDate>Sat, 05 Apr 2008 17:23:02 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/tags/reader/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Aggregation</title>
       <link>https://chouj.github.io/tags/aggregation/</link>
       <pubDate>Fri, 15 Feb 2008 17:17:46 +0000</pubDate>
@@ -2295,6 +2295,15 @@
       <pubDate>Tue, 06 Nov 2007 13:03:53 +0000</pubDate>
       
       <guid>https://chouj.github.io/tags/%E6%9D%83%E8%A1%A1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Xianguo</title>
+      <link>https://chouj.github.io/tags/xianguo/</link>
+      <pubDate>Mon, 05 Nov 2007 05:53:47 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/tags/xianguo/</guid>
       <description></description>
     </item>
     

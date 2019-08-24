@@ -45,5 +45,20 @@
 &lt;p&gt;很早前，我介绍过&lt;a href=&#34;https://xuchi.name/418/&#34; title=&#34;用IM订阅RSS 实现信息主动推送&#34;&gt;实现信息推送至IM的Anothr&lt;/a&gt;，这次介绍下功能一样的&lt;a title=&#34;IM Feeds Beta - RSS feeds delivered via IM &#34; href=&#34;http://imfeeds.com/&#34; target=&#34;_blank&#34;&gt;IMFeeds&lt;/a&gt;。借助&lt;a title=&#34;IM Feeds Beta - RSS feeds delivered via IM &#34; href=&#34;http://imfeeds.com/&#34; target=&#34;_blank&#34;&gt;IMFeeds&lt;/a&gt;，我们可以将RSS信息实时推送到AIM、MSN、Gtalk和Yahoo!四种IM上，将IM转化为订阅工具和阅读器，即时跟踪您关心的信息。&lt;/p&gt;</description>
     </item>
     
+    <item>
+      <title>如何使用鲜果订阅博客</title>
+      <link>https://chouj.github.io/493/</link>
+      <pubDate>Wed, 23 Jul 2008 05:46:56 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/493/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.xianguo.com/index.php?rurl=index&#34;&gt;&lt;img style=&#34;margin-left: 20px;&#34; src=&#34;http://a3.att.hudong.com/28/96/01300534044265134275964903806.png&#34; alt=&#34;鲜果&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p style=&#34;text-align: right;&#34;&gt;
+  &lt;em&gt;&lt;small&gt;按：写给搜索引擎。如果一开始，我没有遇见Google Reader，我会爱上鲜果。&lt;/small&gt;&lt;/em&gt;
+&lt;/p&gt;
+
+&lt;p&gt;很高兴能在&lt;a title=&#34;校内网&#34; href=&#34;https://xiaonei.com&#34; target=&#34;_blank&#34;&gt;校内&lt;/a&gt;吃上&lt;a title=&#34;校内鲜果app&#34; href=&#34;https://apps.xiaonei.com/xianguo/&#34; target=&#34;_blank&#34;&gt;鲜果&lt;/a&gt;，虽说是增加了用户对校内网的粘度，但鲜果RSS阅读器的优秀是毋庸置疑的。特送上一个简略的订阅图解。&lt;/p&gt;</description>
+    </item>
+    
   </channel>
 </rss>
