@@ -8,14 +8,49 @@
   </url>
   
   <url>
+    <loc>https://xuchi.name/categories/</loc>
+    <lastmod>2019-08-25T16:21:59+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://xuchi.name/posts/</loc>
-    <lastmod>2019-08-09T09:21:01+08:00</lastmod>
+    <lastmod>2019-08-25T16:21:59+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://xuchi.name/tags/rss/</loc>
+    <lastmod>2019-08-25T16:21:59+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://xuchi.name/rss_com/</loc>
+    <lastmod>2019-08-25T16:21:59+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xuchi.name/categories/rss%E7%9B%B8%E5%85%B3/</loc>
+    <lastmod>2019-08-25T16:21:59+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://xuchi.name/tags/</loc>
-    <lastmod>2019-08-09T09:21:01+08:00</lastmod>
+    <lastmod>2019-08-25T16:21:59+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://xuchi.name/</loc>
+    <lastmod>2019-08-25T16:21:59+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://xuchi.name/tags/%E7%BD%91%E7%AB%99/</loc>
+    <lastmod>2019-08-25T16:21:59+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -28,12 +63,6 @@
   <url>
     <loc>https://xuchi.name/825/</loc>
     <lastmod>2019-08-09T09:21:01+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://xuchi.name/</loc>
-    <lastmod>2019-08-09T09:21:01+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -174,12 +203,6 @@
   </url>
   
   <url>
-    <loc>https://xuchi.name/categories/</loc>
-    <lastmod>2018-01-19T09:15:41+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://xuchi.name/tags/ifttt/</loc>
     <lastmod>2018-01-19T09:15:41+00:00</lastmod>
     <priority>0</priority>
@@ -238,18 +261,6 @@
   
   <url>
     <loc>https://xuchi.name/tags/feed43/</loc>
-    <lastmod>2017-09-15T02:24:40+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://xuchi.name/tags/rss/</loc>
-    <lastmod>2017-09-15T02:24:40+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://xuchi.name/categories/rss%E7%9B%B8%E5%85%B3/</loc>
     <lastmod>2017-09-15T02:24:40+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -477,12 +488,6 @@
   <url>
     <loc>https://xuchi.name/728/</loc>
     <lastmod>2011-07-24T06:25:06+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://xuchi.name/tags/%E7%BD%91%E7%AB%99/</loc>
-    <lastmod>2011-06-13T02:19:19+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>

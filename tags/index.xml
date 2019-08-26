@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
-    <lastBuildDate>Fri, 09 Aug 2019 09:21:01 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 25 Aug 2019 16:21:59 +0800</lastBuildDate>
     
 	<atom:link href="https://chouj.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>RSS</title>
+      <link>https://chouj.github.io/tags/rss/</link>
+      <pubDate>Sun, 25 Aug 2019 16:21:59 +0800</pubDate>
+      
+      <guid>https://chouj.github.io/tags/rss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>网站</title>
+      <link>https://chouj.github.io/tags/%E7%BD%91%E7%AB%99/</link>
+      <pubDate>Sun, 25 Aug 2019 16:21:59 +0800</pubDate>
+      
+      <guid>https://chouj.github.io/tags/%E7%BD%91%E7%AB%99/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>学术</title>
@@ -207,15 +225,6 @@
       <pubDate>Fri, 15 Sep 2017 02:24:40 +0000</pubDate>
       
       <guid>https://chouj.github.io/tags/feed43/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>RSS</title>
-      <link>https://chouj.github.io/tags/rss/</link>
-      <pubDate>Fri, 15 Sep 2017 02:24:40 +0000</pubDate>
-      
-      <guid>https://chouj.github.io/tags/rss/</guid>
       <description></description>
     </item>
     
@@ -432,15 +441,6 @@
       <pubDate>Sun, 24 Jul 2011 06:25:06 +0000</pubDate>
       
       <guid>https://chouj.github.io/tags/%E6%89%8B%E6%9C%BA/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>网站</title>
-      <link>https://chouj.github.io/tags/%E7%BD%91%E7%AB%99/</link>
-      <pubDate>Mon, 13 Jun 2011 02:19:19 +0000</pubDate>
-      
-      <guid>https://chouj.github.io/tags/%E7%BD%91%E7%AB%99/</guid>
       <description></description>
     </item>
     
