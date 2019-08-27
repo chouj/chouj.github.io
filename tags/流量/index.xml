@@ -20,22 +20,7 @@
       <guid>https://chouj.github.io/492/</guid>
       <description>&lt;p&gt;&lt;strong&gt;为什么订阅量只显示当天的，不是把每天的读者数目加起来？&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;最近被频繁问到这个问题，想必值得作答。先科普下，区分一下Bloggers都关心的几个量。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;订阅量，Subscribers Count&lt;/strong&gt;
-订阅量表征&lt;strong&gt;订阅某feed的读者的数量，针对的是阅读器背后的人&lt;/strong&gt;，技术上讲，是&lt;strong&gt;当天所有请求获得feed信息的个体的总数&lt;/strong&gt;。&lt;a href=&#34;http://aboutrss.cn/2007/08/translation-why-feedburner-subscriber-count-fluctuate/&#34; title=&#34;[翻译]为什么我的FeedBurner订阅数会上下振荡呢？&#34;&gt;具体参考此文&lt;/a&gt;。&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;流量，Traffic&lt;/strong&gt;
-狭义的流量指网站带宽使用量，即浏览网页时，终端从服务器下载了多少字节页面文件到本地，比如日流量，月流量。&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;广义的流量“指网站的访问量，是用来描述访问一个网站的用户数量以及用户所浏览的网页数量等指标，常用的统计指标包括网站的独立用户数量、总用户数量（含重复访问者）、网页浏览数量、每个用户的页面浏览数量、用户在网站的平均停留时间等。（&lt;a title=&#34;流量_百度百科&#34; href=&#34;http://baike.baidu.com/view/66422.htm&#34; target=&#34;_blank&#34;&gt;百度百科&lt;/a&gt;）”&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;访问量，Visits&lt;/strong&gt;
-“网站访问量的衡量标准一个是IP，另一个是PV，常以日为标准，即日独立IP和PV来计算。一台电脑上网即为一个独立IP，PV即Page View的缩写，即页面浏览量，一个独立IP可以产生多个PV，所以PV个数&amp;gt;=IP个数。&amp;#8221;(&lt;a title=&#34;访问量_百度百科&#34; href=&#34;http://baike.baidu.com/view/20241.htm&#34; target=&#34;_blank&#34;&gt;百度百科&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;p&gt;最近被频繁问到这个问题，想必值得作答。先科普下，区分一下Bloggers都关心的几个量。&lt;/p&gt;</description>
     </item>
     
   </channel>

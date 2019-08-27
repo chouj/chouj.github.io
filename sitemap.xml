@@ -1825,18 +1825,6 @@
   </url>
   
   <url>
-    <loc>https://xuchi.name/tags/subscribe/</loc>
-    <lastmod>2008-07-15T09:31:06+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://xuchi.name/tags/visits/</loc>
-    <lastmod>2008-07-15T09:31:06+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://xuchi.name/492/</loc>
     <lastmod>2008-07-15T09:31:06+00:00</lastmod>
   </url>
@@ -1859,31 +1847,13 @@
   </url>
   
   <url>
-    <loc>https://xuchi.name/tags/academic/</loc>
+    <loc>https://xuchi.name/tags/%E5%9B%BE%E4%B9%A6%E9%A6%86/</loc>
     <lastmod>2008-07-06T15:55:05+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://xuchi.name/tags/library/</loc>
-    <lastmod>2008-07-06T15:55:05+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://xuchi.name/tags/rss%E6%8E%A8%E5%B9%BF/</loc>
-    <lastmod>2008-07-06T15:55:05+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://xuchi.name/tags/university/</loc>
-    <lastmod>2008-07-06T15:55:05+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://xuchi.name/categories/%E7%9B%B8%E5%85%B3/</loc>
+    <loc>https://xuchi.name/tags/%E5%A4%A7%E5%AD%A6/</loc>
     <lastmod>2008-07-06T15:55:05+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -1900,31 +1870,19 @@
   </url>
   
   <url>
+    <loc>https://xuchi.name/290/</loc>
+    <lastmod>2008-07-03T07:44:38+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://xuchi.name/tags/firefox/</loc>
     <lastmod>2008-07-03T07:44:38+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://xuchi.name/290/</loc>
-    <lastmod>2008-07-03T07:44:38+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://xuchi.name/100/</loc>
     <lastmod>2008-07-01T05:31:35+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://xuchi.name/tags/download/</loc>
-    <lastmod>2008-07-01T05:31:35+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://xuchi.name/tags/vote/</loc>
-    <lastmod>2008-07-01T05:31:35+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -1941,6 +1899,24 @@
   <url>
     <loc>https://xuchi.name/490/</loc>
     <lastmod>2008-06-27T05:53:11+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xuchi.name/tags/download/</loc>
+    <lastmod>2008-06-27T05:53:11+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://xuchi.name/tags/subscribe/</loc>
+    <lastmod>2008-06-27T05:53:11+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://xuchi.name/tags/vote/</loc>
+    <lastmod>2008-06-27T05:53:11+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -2122,6 +2098,12 @@
   </url>
   
   <url>
+    <loc>https://xuchi.name/tags/library/</loc>
+    <lastmod>2008-05-16T06:00:06+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://xuchi.name/tags/rss%E5%BA%94%E7%94%A8/</loc>
     <lastmod>2008-05-16T06:00:06+00:00</lastmod>
     <priority>0</priority>
@@ -2130,6 +2112,12 @@
   <url>
     <loc>https://xuchi.name/482/</loc>
     <lastmod>2008-05-16T06:00:06+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xuchi.name/categories/%E7%9B%B8%E5%85%B3/</loc>
+    <lastmod>2008-05-16T06:00:06+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -2158,6 +2146,12 @@
   <url>
     <loc>https://xuchi.name/tags/%E7%A5%88%E7%A5%B7/</loc>
     <lastmod>2008-05-13T11:56:36+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://xuchi.name/tags/academic/</loc>
+    <lastmod>2008-05-08T07:03:16+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -4104,12 +4098,6 @@
   <url>
     <loc>https://xuchi.name/222/</loc>
     <lastmod>2007-02-14T15:41:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://xuchi.name/tags/%E5%A4%A7%E5%AD%A6/</loc>
-    <lastmod>2007-02-14T15:41:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>

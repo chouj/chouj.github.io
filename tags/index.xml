@@ -1723,24 +1723,6 @@
     </item>
     
     <item>
-      <title>Subscribe</title>
-      <link>https://chouj.github.io/tags/subscribe/</link>
-      <pubDate>Tue, 15 Jul 2008 09:31:06 +0000</pubDate>
-      
-      <guid>https://chouj.github.io/tags/subscribe/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Visits</title>
-      <link>https://chouj.github.io/tags/visits/</link>
-      <pubDate>Tue, 15 Jul 2008 09:31:06 +0000</pubDate>
-      
-      <guid>https://chouj.github.io/tags/visits/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>流量</title>
       <link>https://chouj.github.io/tags/%E6%B5%81%E9%87%8F/</link>
       <pubDate>Tue, 15 Jul 2008 09:31:06 +0000</pubDate>
@@ -1759,38 +1741,20 @@
     </item>
     
     <item>
-      <title>Academic</title>
-      <link>https://chouj.github.io/tags/academic/</link>
+      <title>图书馆</title>
+      <link>https://chouj.github.io/tags/%E5%9B%BE%E4%B9%A6%E9%A6%86/</link>
       <pubDate>Sun, 06 Jul 2008 15:55:05 +0000</pubDate>
       
-      <guid>https://chouj.github.io/tags/academic/</guid>
+      <guid>https://chouj.github.io/tags/%E5%9B%BE%E4%B9%A6%E9%A6%86/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Library</title>
-      <link>https://chouj.github.io/tags/library/</link>
+      <title>大学</title>
+      <link>https://chouj.github.io/tags/%E5%A4%A7%E5%AD%A6/</link>
       <pubDate>Sun, 06 Jul 2008 15:55:05 +0000</pubDate>
       
-      <guid>https://chouj.github.io/tags/library/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>RSS推广</title>
-      <link>https://chouj.github.io/tags/rss%E6%8E%A8%E5%B9%BF/</link>
-      <pubDate>Sun, 06 Jul 2008 15:55:05 +0000</pubDate>
-      
-      <guid>https://chouj.github.io/tags/rss%E6%8E%A8%E5%B9%BF/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>University</title>
-      <link>https://chouj.github.io/tags/university/</link>
-      <pubDate>Sun, 06 Jul 2008 15:55:05 +0000</pubDate>
-      
-      <guid>https://chouj.github.io/tags/university/</guid>
+      <guid>https://chouj.github.io/tags/%E5%A4%A7%E5%AD%A6/</guid>
       <description></description>
     </item>
     
@@ -1813,29 +1777,38 @@
     </item>
     
     <item>
+      <title>MSN</title>
+      <link>https://chouj.github.io/tags/msn/</link>
+      <pubDate>Mon, 30 Jun 2008 17:15:25 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/tags/msn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Download</title>
       <link>https://chouj.github.io/tags/download/</link>
-      <pubDate>Tue, 01 Jul 2008 05:31:35 +0000</pubDate>
+      <pubDate>Fri, 27 Jun 2008 05:53:11 +0000</pubDate>
       
       <guid>https://chouj.github.io/tags/download/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Vote</title>
-      <link>https://chouj.github.io/tags/vote/</link>
-      <pubDate>Tue, 01 Jul 2008 05:31:35 +0000</pubDate>
+      <title>Subscribe</title>
+      <link>https://chouj.github.io/tags/subscribe/</link>
+      <pubDate>Fri, 27 Jun 2008 05:53:11 +0000</pubDate>
       
-      <guid>https://chouj.github.io/tags/vote/</guid>
+      <guid>https://chouj.github.io/tags/subscribe/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>MSN</title>
-      <link>https://chouj.github.io/tags/msn/</link>
-      <pubDate>Mon, 30 Jun 2008 17:15:25 +0000</pubDate>
+      <title>Vote</title>
+      <link>https://chouj.github.io/tags/vote/</link>
+      <pubDate>Fri, 27 Jun 2008 05:53:11 +0000</pubDate>
       
-      <guid>https://chouj.github.io/tags/msn/</guid>
+      <guid>https://chouj.github.io/tags/vote/</guid>
       <description></description>
     </item>
     
@@ -1984,6 +1957,15 @@
     </item>
     
     <item>
+      <title>Library</title>
+      <link>https://chouj.github.io/tags/library/</link>
+      <pubDate>Fri, 16 May 2008 06:00:06 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/tags/library/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>RSS应用</title>
       <link>https://chouj.github.io/tags/rss%E5%BA%94%E7%94%A8/</link>
       <pubDate>Fri, 16 May 2008 06:00:06 +0000</pubDate>
@@ -2025,6 +2007,15 @@
       <pubDate>Tue, 13 May 2008 11:56:36 +0000</pubDate>
       
       <guid>https://chouj.github.io/tags/%E7%A5%88%E7%A5%B7/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Academic</title>
+      <link>https://chouj.github.io/tags/academic/</link>
+      <pubDate>Thu, 08 May 2008 07:03:16 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/tags/academic/</guid>
       <description></description>
     </item>
     
@@ -3690,15 +3681,6 @@
       <pubDate>Fri, 16 Feb 2007 09:21:00 +0000</pubDate>
       
       <guid>https://chouj.github.io/tags/%E6%96%B0%E5%B9%B4/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>大学</title>
-      <link>https://chouj.github.io/tags/%E5%A4%A7%E5%AD%A6/</link>
-      <pubDate>Wed, 14 Feb 2007 15:41:00 +0000</pubDate>
-      
-      <guid>https://chouj.github.io/tags/%E5%A4%A7%E5%AD%A6/</guid>
       <description></description>
     </item>
     

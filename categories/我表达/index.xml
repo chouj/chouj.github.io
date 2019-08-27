@@ -302,11 +302,11 @@
       
       <guid>https://chouj.github.io/282/</guid>
       <description>vs
-*****\** 测试分割线 one ********
+````````
 vs
-*****\** 测试分割线 two ********
+`````
 vs
-*****\** Post Script ********</description>
+``````</description>
     </item>
     
     <item>
