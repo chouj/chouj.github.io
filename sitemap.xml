@@ -8,13 +8,42 @@
   </url>
   
   <url>
-    <loc>https://xuchi.name/categories/</loc>
-    <lastmod>2019-08-25T16:21:59+08:00</lastmod>
+    <loc>https://xuchi.name/posts/</loc>
+    <lastmod>2019-08-27T21:43:35+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://xuchi.name/posts/</loc>
+    <loc>https://xuchi.name/tags/</loc>
+    <lastmod>2019-08-27T21:43:35+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://xuchi.name/tags/matlab/</loc>
+    <lastmod>2019-08-27T21:43:35+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://xuchi.name/tags/%E5%B7%A5%E5%85%B7%E5%8C%85/</loc>
+    <lastmod>2019-08-27T21:43:35+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://xuchi.name/827/</loc>
+    <lastmod>2019-08-27T21:43:35+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xuchi.name/</loc>
+    <lastmod>2019-08-27T21:43:35+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://xuchi.name/categories/</loc>
     <lastmod>2019-08-25T16:21:59+08:00</lastmod>
     <priority>0</priority>
   </url>
@@ -32,18 +61,6 @@
   
   <url>
     <loc>https://xuchi.name/categories/rss%E7%9B%B8%E5%85%B3/</loc>
-    <lastmod>2019-08-25T16:21:59+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://xuchi.name/tags/</loc>
-    <lastmod>2019-08-25T16:21:59+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://xuchi.name/</loc>
     <lastmod>2019-08-25T16:21:59+08:00</lastmod>
     <priority>0</priority>
   </url>
@@ -91,12 +108,6 @@
   
   <url>
     <loc>https://xuchi.name/tags/thingspeak/</loc>
-    <lastmod>2019-07-24T11:09:24+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://xuchi.name/tags/matlab/</loc>
     <lastmod>2019-07-24T11:09:24+08:00</lastmod>
     <priority>0</priority>
   </url>

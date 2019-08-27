@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>工具包 on 抽筋儿的话语权</title>
+    <link>https://chouj.github.io/tags/%E5%B7%A5%E5%85%B7%E5%8C%85/</link>
+    <description>Recent content in 工具包 on 抽筋儿的话语权</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
+    <lastBuildDate>Tue, 27 Aug 2019 21:43:35 +0800</lastBuildDate>
+    
+	<atom:link href="https://chouj.github.io/tags/%E5%B7%A5%E5%85%B7%E5%8C%85/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>我用到的MATLAB FileExchange工具们</title>
+      <link>https://chouj.github.io/827/</link>
+      <pubDate>Tue, 27 Aug 2019 21:43:35 +0800</pubDate>
+      
+      <guid>https://chouj.github.io/827/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://ww2.mathworks.cn/matlabcentral/mlc-downloads/downloads/6ee315b7-6bf6-4d55-b3ed-5d790decaa2a/b0d5640e-2429-4b8e-9aec-60c0df667a3e/images/screenshot.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;罗列一下从&lt;code&gt;FileExchange&lt;/code&gt;下载回来的好东西，常更新以备查。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
