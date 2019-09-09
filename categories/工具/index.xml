@@ -39,35 +39,6 @@
     </item>
     
     <item>
-      <title>Anonymouse.org代理显示FB订阅图标失效</title>
-      <link>https://chouj.github.io/488/</link>
-      <pubDate>Tue, 17 Jun 2008 08:19:28 +0000</pubDate>
-      
-      <guid>https://chouj.github.io/488/</guid>
-      <description>因为Anonymouse.org撞墙被屏蔽，所以，之前介绍的Anonymouse.org代理以显示FeedBurner订阅数图标的方法失效。
-主机在国外的朋友，可以参考江东的这篇Feedburner订阅数图标显示解决办法，通过上传一php文件来解决问题。
-Fuck G.F.W</description>
-    </item>
-    
-    <item>
-      <title>显示FeedBurner订阅数图标的唯一方法</title>
-      <link>https://chouj.github.io/483/</link>
-      <pubDate>Fri, 23 May 2008 05:46:32 +0000</pubDate>
-      
-      <guid>https://chouj.github.io/483/</guid>
-      <description>佳佑的显示FeedBurner订阅数终极大法中介绍了很多方法，可是大部分支持订阅数实时更新的方法没有经住时间的考验。
-Web2proxy.net方法失效
-FeedM8方法失效
-江东大哥的订阅统计烧录，申请起来似乎不大灵光。
-这里还是推荐一下佳佑补充的新方法，目前管用，也是我在用的方法。能够实时显示每天的订阅数。
-通过anonymouse.org网页代理显示Feedburner订阅数图标，编辑网页html代码，在合适位置加入以下代码：
-
-请调整其中feed地址中相应部分，共两处；也可更改颜色代码，自行DIY出喜欢的配色。点此检阅能否显示。
-强烈希望这个方法能用得越久越好。:)
-update:可惜，这个站也撞墙了，此方法失效。</description>
-    </item>
-    
-    <item>
       <title>Linux下三款离线RSS阅读器简介</title>
       <link>https://chouj.github.io/478/</link>
       <pubDate>Sat, 05 Apr 2008 17:23:02 +0000</pubDate>

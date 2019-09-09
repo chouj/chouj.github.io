@@ -7,28 +7,10 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
-    <lastBuildDate>Fri, 23 May 2008 05:46:32 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 03 Mar 2007 11:46:07 +0000</lastBuildDate>
     
 	<atom:link href="https://chouj.github.io/tags/url/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>显示FeedBurner订阅数图标的唯一方法</title>
-      <link>https://chouj.github.io/483/</link>
-      <pubDate>Fri, 23 May 2008 05:46:32 +0000</pubDate>
-      
-      <guid>https://chouj.github.io/483/</guid>
-      <description>佳佑的显示FeedBurner订阅数终极大法中介绍了很多方法，可是大部分支持订阅数实时更新的方法没有经住时间的考验。
-Web2proxy.net方法失效
-FeedM8方法失效
-江东大哥的订阅统计烧录，申请起来似乎不大灵光。
-这里还是推荐一下佳佑补充的新方法，目前管用，也是我在用的方法。能够实时显示每天的订阅数。
-通过anonymouse.org网页代理显示Feedburner订阅数图标，编辑网页html代码，在合适位置加入以下代码：
-
-请调整其中feed地址中相应部分，共两处；也可更改颜色代码，自行DIY出喜欢的配色。点此检阅能否显示。
-强烈希望这个方法能用得越久越好。:)
-update:可惜，这个站也撞墙了，此方法失效。</description>
-    </item>
     
     <item>
       <title>中文BSP中寻找RSS地址</title>

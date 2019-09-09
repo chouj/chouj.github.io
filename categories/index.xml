@@ -130,20 +130,20 @@
     </item>
     
     <item>
-      <title>新闻</title>
-      <link>https://chouj.github.io/categories/%E6%96%B0%E9%97%BB/</link>
-      <pubDate>Tue, 17 Jun 2008 08:19:28 +0000</pubDate>
-      
-      <guid>https://chouj.github.io/categories/%E6%96%B0%E9%97%BB/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>WordPress</title>
       <link>https://chouj.github.io/categories/wordpress/</link>
       <pubDate>Tue, 10 Jun 2008 16:11:49 +0000</pubDate>
       
       <guid>https://chouj.github.io/categories/wordpress/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>新闻</title>
+      <link>https://chouj.github.io/categories/%E6%96%B0%E9%97%BB/</link>
+      <pubDate>Sat, 31 May 2008 08:10:48 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/categories/%E6%96%B0%E9%97%BB/</guid>
       <description></description>
     </item>
     

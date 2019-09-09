@@ -8,14 +8,43 @@
   </url>
   
   <url>
+    <loc>https://xuchi.name/calendar-for-oceanographyers/</loc>
+    <lastmod>2019-09-09T22:44:53+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://xuchi.name/posts/</loc>
-    <lastmod>2019-08-27T21:43:35+08:00</lastmod>
+    <lastmod>2019-09-09T22:44:53+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://xuchi.name/tags/</loc>
-    <lastmod>2019-08-27T21:43:35+08:00</lastmod>
+    <lastmod>2019-09-09T22:44:53+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://xuchi.name/tags/%E5%85%B1%E4%BA%AB/</loc>
+    <lastmod>2019-09-09T22:44:53+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://xuchi.name/</loc>
+    <lastmod>2019-09-09T22:44:53+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://xuchi.name/tags/%E6%97%A5%E5%8E%86/</loc>
+    <lastmod>2019-09-09T22:44:53+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://xuchi.name/tags/%E6%B5%B7%E6%B4%8B%E5%AD%A6/</loc>
+    <lastmod>2019-09-09T22:44:53+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -34,12 +63,6 @@
   <url>
     <loc>https://xuchi.name/827/</loc>
     <lastmod>2019-08-27T21:43:35+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://xuchi.name/</loc>
-    <lastmod>2019-08-27T21:43:35+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -142,12 +165,6 @@
   
   <url>
     <loc>https://xuchi.name/tags/%E5%8F%AF%E8%A7%86%E5%8C%96/</loc>
-    <lastmod>2019-07-19T10:30:04+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://xuchi.name/tags/%E6%B5%B7%E6%B4%8B%E5%AD%A6/</loc>
     <lastmod>2019-07-19T10:30:04+08:00</lastmod>
     <priority>0</priority>
   </url>
@@ -1913,24 +1930,6 @@
   </url>
   
   <url>
-    <loc>https://xuchi.name/tags/download/</loc>
-    <lastmod>2008-06-27T05:53:11+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://xuchi.name/tags/subscribe/</loc>
-    <lastmod>2008-06-27T05:53:11+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://xuchi.name/tags/vote/</loc>
-    <lastmod>2008-06-27T05:53:11+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://xuchi.name/tags/%E6%97%B7%E5%B7%A5/</loc>
     <lastmod>2008-06-26T05:22:05+00:00</lastmod>
     <priority>0</priority>
@@ -1966,12 +1965,6 @@
   <url>
     <loc>https://xuchi.name/488/</loc>
     <lastmod>2008-06-17T08:19:28+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://xuchi.name/categories/%E6%96%B0%E9%97%BB/</loc>
-    <lastmod>2008-06-17T08:19:28+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -2071,6 +2064,12 @@
   </url>
   
   <url>
+    <loc>https://xuchi.name/categories/%E6%96%B0%E9%97%BB/</loc>
+    <lastmod>2008-05-31T08:10:48+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://xuchi.name/tags/%E5%8D%9A%E5%AE%A2%E4%B8%BB%E6%9C%BA/</loc>
     <lastmod>2008-05-27T18:12:35+00:00</lastmod>
     <priority>0</priority>
@@ -2082,14 +2081,14 @@
   </url>
   
   <url>
-    <loc>https://xuchi.name/484/</loc>
+    <loc>https://xuchi.name/tags/download/</loc>
     <lastmod>2008-05-24T08:02:44+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://xuchi.name/tags/url/</loc>
-    <lastmod>2008-05-23T05:46:32+00:00</lastmod>
-    <priority>0</priority>
+    <loc>https://xuchi.name/484/</loc>
+    <lastmod>2008-05-24T08:02:44+00:00</lastmod>
   </url>
   
   <url>
@@ -2202,6 +2201,12 @@
   
   <url>
     <loc>https://xuchi.name/tags/statistic/</loc>
+    <lastmod>2008-05-04T17:55:01+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://xuchi.name/tags/subscribe/</loc>
     <lastmod>2008-05-04T17:55:01+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -4006,6 +4011,12 @@
   
   <url>
     <loc>https://xuchi.name/tags/address/</loc>
+    <lastmod>2007-03-03T11:46:07+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://xuchi.name/tags/url/</loc>
     <lastmod>2007-03-03T11:46:07+00:00</lastmod>
     <priority>0</priority>
   </url>

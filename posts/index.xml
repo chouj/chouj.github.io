@@ -7,10 +7,33 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
-    <lastBuildDate>Tue, 27 Aug 2019 21:43:35 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 09 Sep 2019 22:44:53 +0800</lastBuildDate>
     
 	<atom:link href="https://chouj.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Calendar for (Physical) Oceanographers (UTC&#43;08:00)</title>
+      <link>https://chouj.github.io/calendar-for-oceanographyers/</link>
+      <pubDate>Mon, 09 Sep 2019 22:44:53 +0800</pubDate>
+      
+      <guid>https://chouj.github.io/calendar-for-oceanographyers/</guid>
+      <description>&lt;h2 id=&#34;东八区物理海洋领域日历&#34;&gt;东八区物理海洋领域日历&lt;/h2&gt;
+
+&lt;iframe src=&#34;https://calendar.zoho.com/embed/3e1d37f5228113b492ccc13c8180566456fc4b973ed4fc1f3431d33935b84374e88bb8731bdca7d38cabcad57cbbb1a0?title=Calendar%20for%20Oceanographers%20(Physical)&amp;type=1&amp;l=en&amp;tz=Asia%2FShanghai&amp;shtitle=1&amp;shtz=1&amp;shdv=1&amp;v=2&#34; width=&#34;950&#34; height=&#34;600&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;　　我用Zoho Calendar做了一个共享日历（如上）。它可以理解为是日历版的“&lt;a href=&#34;https://mp.sohu.com/profile?xpt=c29odW1wOGh2a2NnQHNvaHUuY29t&amp;amp;_f=index_pagemp_1&amp;amp;spm=smpc.content.author.2.15680372448367pEIA27&#34;&gt;海洋知圈&lt;/a&gt;”。&lt;/p&gt;
+
+&lt;p&gt;　　&lt;strong&gt;它的链接在此&lt;/strong&gt;：&lt;/p&gt;
+
+&lt;p&gt;iCal地址：&lt;a href=&#34;https://calendar.zoho.com/ical/3e1d37f5228113b492ccc13c8180566456fc4b973ed4fc1f3431d33935b84374e88bb8731bdca7d38cabcad57cbbb1a0&#34;&gt;https://calendar.zoho.com/ical/3e1d37f5228113b492ccc13c8180566456fc4b973ed4fc1f3431d33935b84374e88bb8731bdca7d38cabcad57cbbb1a0&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;HTML地址：&lt;a href=&#34;https://calendar.zoho.com/embed/3e1d37f5228113b492ccc13c8180566456fc4b973ed4fc1f3431d33935b84374e88bb8731bdca7d38cabcad57cbbb1a0&#34;&gt;https://calendar.zoho.com/embed/3e1d37f5228113b492ccc13c8180566456fc4b973ed4fc1f3431d33935b84374e88bb8731bdca7d38cabcad57cbbb1a0&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;　　如果你想在这个日历上发布活动或会议通知，请填下表：&lt;/p&gt;
+
+&lt;iframe src=&#34;https://calendar.zoho.com/eventreqForm/3e1d37f5228113b492ccc13c8180566456fc4b973ed4fc1f3431d33935b84374e88bb8731bdca7d38cabcad57cbbb1a0?theme=0&amp;tz=Asia%2FShanghai&amp;l=en&#34;  frameborder=&#34;0&#34; scrolling=&#34;no&#34; marginWidth=&#34;0&#34; border=&#34;0px&#34; marginHeight=&#34;0&#34; height=&#34;550px&#34; width=&#34;950px&#34; allowTransparency=&#34;true&#34; align=&#34;center&#34;&gt;&lt;/iframe&gt;</description>
+    </item>
     
     <item>
       <title>我用到的MATLAB FileExchange工具们</title>
@@ -1321,21 +1344,7 @@ vs
       <pubDate>Fri, 27 Jun 2008 05:53:11 +0000</pubDate>
       
       <guid>https://chouj.github.io/490/</guid>
-      <description>&lt;p&gt;&lt;em&gt;来选出你最喜欢的RSS标志吧～&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;[poll id=&amp;#8221;4&amp;#8243;]&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;2008.03.29 &lt;a title=&#34;RSS earth icon v 2. by ~FreakDr&#34; href=&#34;http://freakdr.deviantart.com/art/RSS-earth-icon-v-2-81336211&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;RSS earth icon v 2.&lt;/strong&gt; by ~FreakDr&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://pic.yupoo.com/xcchris/201375c7f1d6/x0sb0oh8.jpg&#34; alt=&#34;RSS earth icon v 2. by ~FreakDr&#34; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;2008.03.22 &lt;a title=&#34;Hat RSS Icon by ~LoafNinja&#34; href=&#34;http://loafninja.deviantart.com/art/Hat-RSS-Icon-80717627&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Hat RSS Icon&lt;/strong&gt; by ~LoafNinja&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://pic.yupoo.com/xcchris/309905c7f1d6/w4jt7v1u.jpg&#34; alt=&#34;Hat RSS Icon by ~LoafNinja&#34; width=&#34;468&#34; height=&#34;327&#34; /&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;em&gt;来选出你最喜欢的RSS标志吧～&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -1359,11 +1368,9 @@ vs
       <pubDate>Sun, 22 Jun 2008 13:43:20 +0000</pubDate>
       
       <guid>https://chouj.github.io/277/</guid>
-      <description>最近，趋势科技携手网络百名博主，共同倡导互联网安全环境引起了广泛的注意，让人们不得不把目光再次转移到杀毒软件上来。
-话说每位和电脑打交道的人都免不了要挑选杀毒软件，就我个人而言，由于网络上国产杀软均口碑不佳，我一开始就瞄准了国外的杀毒软件，而说来也巧，用的第一款杀软就是趋势科技的PC-cillin。这款随华硕主板附赠的正版杀软，陪伴我度过了刚拥有电脑时，尚不知病毒厉害的懵懂时期，算是那时的电脑保护神。这次，趋势科技转而使用博客口碑营销的方式，杀回国内，打算掀起趋势红色风暴，我这里也算风暴一角，因为下面我想简单介绍下趋势科技针对个人用户推出的趋势科技杀毒专家2008。这里可免费下载试用
-现在这个时代，电脑不上网就是摆设，上了网又有中病毒的风险，趋势科技的这款杀毒专家正是为保障网络和电脑安全而来。官网上用安全、快捷、强劲三个词来形容她，自然因为该杀软在病毒防治、资源占用效率和用户体验上表现出色，老牌公司的产品，质量上必然有诚信为保证。稍微试用一下即知，趋势科技杀毒专家2008能够为入网电脑提供全方位的安全保护，使用简单，界面友好，有下图为证：
-特别想提一下的就是，bloggers即作为网民中更需要杀软保障密码、信息、交易安全的群体，，同时又是网络上拥有话语权的民众，被趋势科技选为产品宣传的先锋队，实为各取所需，出奇制胜。我觉得这是非常不错的方式，趋势公司的新闻页上更是热心的给出了博客信息安全防范的若干提示。
-闲话少说，无论怎样，网络上多了趋势科技杀毒专家，即多了把保障网络安全的武器，对大众来说，肯定是有利无弊的。</description>
+      <description>&lt;p&gt;&lt;img class=&#34;alignnone size-full wp-image-276&#34; title=&#34;趋势科技携手网络百名博主，共同倡导互联网安全环境&#34; src=&#34;https://xuchi.name/wp-content/uploads/2008/06/trend-news.gif&#34; alt=&#34;趋势科技携手网络百名博主，共同倡导互联网安全环境&#34; width=&#34;495&#34; height=&#34;398&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;最近，&lt;strong&gt;&lt;a href=&#34;http://cn.trendmicro.com/cn/about/news/pr/article/20080604032206.html&#34;&gt;趋势科技携手网络百名博主，共同倡导互联网安全环境&lt;/a&gt;&lt;/strong&gt;引起了广泛的注意，让人们不得不把目光再次转移到杀毒软件上来。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -1372,15 +1379,7 @@ vs
       <pubDate>Fri, 20 Jun 2008 18:34:43 +0000</pubDate>
       
       <guid>https://chouj.github.io/489/</guid>
-      <description>&lt;p&gt;_08上半年精选RSS图标系列继续登场，特开辟出投票环节，选出每期你最喜欢的RSS标志设计吧，期待08上半年最受欢迎RSS标志十强的出炉。&lt;a title=&#34;08上半年出炉的RSS图标精选（一）&#34; href=&#34;http://aboutrss.cn/2008/06/rss-icons-2008-first-half-1/&#34; target=&#34;_self&#34;&gt;上一期&lt;/a&gt;已经添加投票系统啦，赶紧补选哈～光看预览图是不行滴，下载下来看原图才是正道！_&lt;/p&gt;
-
-&lt;p&gt;[poll id=&amp;#8221;3&amp;#8243;]&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;2008.05.04 &lt;a title=&#34;RSS feed 17 icons-sign v1.0&#34; href=&#34;http://coroud.deviantart.com/art/RSS-feed-17-icons-sign-v1-0-84684288&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;RSS feed 17 icons-sign v1.0&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://pic.yupoo.com/xcchris/087045bf55ba/tb9151ia.jpg&#34; alt=&#34;RSS feed 17 icons-sign v1.0&#34; width=&#34;400&#34; height=&#34;800&#34; /&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;_08上半年精选RSS图标系列继续登场，特开辟出投票环节，选出每期你最喜欢的RSS标志设计吧，期待08上半年最受欢迎RSS标志十强的出炉。&lt;a title=&#34;08上半年出炉的RSS图标精选（一）&#34; href=&#34;https://xuchi.name/487/&#34; target=&#34;_self&#34;&gt;上一期&lt;/a&gt;已经添加投票系统啦，赶紧补选哈～光看预览图是不行滴，下载下来看原图才是正道！_&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -1389,9 +1388,7 @@ vs
       <pubDate>Tue, 17 Jun 2008 08:19:28 +0000</pubDate>
       
       <guid>https://chouj.github.io/488/</guid>
-      <description>因为Anonymouse.org撞墙被屏蔽，所以，之前介绍的Anonymouse.org代理以显示FeedBurner订阅数图标的方法失效。
-主机在国外的朋友，可以参考江东的这篇Feedburner订阅数图标显示解决办法，通过上传一php文件来解决问题。
-Fuck G.F.W</description>
+      <description>&lt;p&gt;因为Anonymouse.org撞墙被屏蔽，所以，之前介绍的&lt;a title=&#34;显示FeedBurner订阅数图标的唯一方法&#34; href=&#34;https://xuchi.name/483/&#34; target=&#34;_self&#34;&gt;Anonymouse.org代理以显示FeedBurner订阅数图标的方法&lt;/a&gt;&lt;strong&gt;失效&lt;/strong&gt;。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -1400,15 +1397,7 @@ Fuck G.F.W</description>
       <pubDate>Tue, 17 Jun 2008 05:15:20 +0000</pubDate>
       
       <guid>https://chouj.github.io/487/</guid>
-      <description>&lt;p&gt;&lt;em&gt;精选deviantART.com中08年新出炉的RSS Feed图标设计，陆续发布到这里。&lt;/em&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;2008.06.06 &lt;a title=&#34;RSS feed button pack by ~deviantdark&#34; href=&#34;http://deviantdark.deviantart.com/art/RSS-feed-button-pack-87852077&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;RSS feed button pack by ~deviantdark&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://pic.yupoo.com/xcchris/207305babcf6/kptyjh9y.jpg&#34; alt=&#34;Aboutrss RSS 图标展示&#34; width=&#34;300&#34; height=&#34;237&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;18 个白色背景 PNGs 190&amp;#215;190 pixels&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;em&gt;精选deviantART.com中08年新出炉的RSS Feed图标设计，陆续发布到这里。&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -1516,16 +1505,7 @@ Google购入FeedBurner后，这最重要的整合终于到来了，意味着同�
       <pubDate>Fri, 23 May 2008 05:46:32 +0000</pubDate>
       
       <guid>https://chouj.github.io/483/</guid>
-      <description>佳佑的显示FeedBurner订阅数终极大法中介绍了很多方法，可是大部分支持订阅数实时更新的方法没有经住时间的考验。
-Web2proxy.net方法失效
-FeedM8方法失效
-江东大哥的订阅统计烧录，申请起来似乎不大灵光。
-这里还是推荐一下佳佑补充的新方法，目前管用，也是我在用的方法。能够实时显示每天的订阅数。
-通过anonymouse.org网页代理显示Feedburner订阅数图标，编辑网页html代码，在合适位置加入以下代码：
-
-请调整其中feed地址中相应部分，共两处；也可更改颜色代码，自行DIY出喜欢的配色。点此检阅能否显示。
-强烈希望这个方法能用得越久越好。:)
-update:可惜，这个站也撞墙了，此方法失效。</description>
+      <description>&lt;p&gt;佳佑的&lt;a title=&#34;显示FeedBurner订阅数终极大法&#34; href=&#34;https://www.charlespeng.com/feedburner-feedcount-image-final-solution/&#34; target=&#34;_blank&#34;&gt;显示FeedBurner订阅数终极大法&lt;/a&gt;中介绍了很多方法，可是大部分支持订阅数实时更新的方法没有经住时间的考验。&lt;/p&gt;</description>
     </item>
     
     <item>
