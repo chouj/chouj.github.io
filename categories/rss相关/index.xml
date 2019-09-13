@@ -597,6 +597,37 @@ JUL 24 2019 updated:
     </item>
     
     <item>
+      <title>[翻译]如何让WP一分类下的文章不在Feed输出</title>
+      <link>https://chouj.github.io/486/</link>
+      <pubDate>Tue, 10 Jun 2008 16:11:49 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/486/</guid>
+      <description>&lt;p&gt;原文：&lt;a title=&#34;How to modify your WordPress RSS Feed - Kriesi&#34; href=&#34;http://www.kriesi.at/archives/how-to-modify-your-wordpress-rss-feed&#34; target=&#34;_blank&#34;&gt;How to modify your WordPress RSS Feed&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;作者：Kriesi&lt;/p&gt;
+
+&lt;p&gt;译者：&lt;a href=&#34;http://www.xuchi.name/blog&#34; target=&#34;_blank&#34;&gt;抽筋儿&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;WordPress自动生成的RSS Feed是默认输出每个目录分类下的每一篇日志的，但有时，&lt;strong&gt;我们想唠叨下又不想打扰到关注有意义信息的订阅者&lt;/strong&gt;，怎么办呢？只需要把唠叨的日志归类到一个分类，然后在Feed里让该分类下日志不显示就OK咯！&lt;/p&gt;
+
+&lt;p&gt;如何实现呢？方法有二：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;通过URL除掉分类下日志的Feed显示；&lt;/li&gt;
+&lt;li&gt;通过一个小函数除掉分类下日志的Feed显示。&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    
+    <item>
+      <title>Feedburner:Adsense for feeds下周试运行</title>
+      <link>https://chouj.github.io/485/</link>
+      <pubDate>Sat, 31 May 2008 08:10:48 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/485/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://bp1.blogger.com/_S_50sh4glvU/RrU0GQep7fI/AAAAAAAAAJA/kIITPv2Vz6o/s1600-h/FB.gif&#34;&gt;&lt;img style=&#34;margin: 0pt 0pt 10px 10px; float: right;&#34; src=&#34;http://bp1.blogger.com/_S_50sh4glvU/RrU0GQep7fI/AAAAAAAAAJA/kIITPv2Vz6o/s320/FB.gif&#34; border=&#34;0&#34; alt=&#34;Feedburner logo&#34; /&gt;&lt;/a&gt;30日，FeedBurner官方blog发布了一篇日志：&lt;a title=&#34;Into the wild:Adsense for feeds-FeedBurner&#34; href=&#34;http://blogs.feedburner.com/feedburner/archives/2008/05/into_the_wild_adsense_for_feed_1.php&#34; target=&#34;_blank&#34;&gt;Into the wild:Adsense for feeds&lt;/a&gt;，宣称Feedburner将于下周在部分用户中试行Adsense for feeds！&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>显示FeedBurner订阅数图标的唯一方法</title>
       <link>https://chouj.github.io/483/</link>
       <pubDate>Fri, 23 May 2008 05:46:32 +0000</pubDate>

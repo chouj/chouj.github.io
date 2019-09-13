@@ -23,10 +23,10 @@
     
     <item>
       <title>Calendar for (Physical) Oceanographers (UTC&#43;08:00)</title>
-      <link>https://chouj.github.io/calendar-for-oceanographyers/</link>
+      <link>https://chouj.github.io/calendar-for-oceanographers/</link>
       <pubDate>Mon, 09 Sep 2019 22:44:53 +0800</pubDate>
       
-      <guid>https://chouj.github.io/calendar-for-oceanographyers/</guid>
+      <guid>https://chouj.github.io/calendar-for-oceanographers/</guid>
       <description>&lt;h2 id=&#34;东八区物理海洋领域日历&#34;&gt;东八区物理海洋领域日历&lt;/h2&gt;
 
 &lt;iframe src=&#34;https://calendar.zoho.com/embed/3e1d37f5228113b492ccc13c8180566456fc4b973ed4fc1f3431d33935b84374e88bb8731bdca7d38cabcad57cbbb1a0?title=Calendar%20for%20Oceanographers%20(Physical)&amp;type=1&amp;l=en&amp;tz=Asia%2FShanghai&amp;shtitle=1&amp;shtz=1&amp;shdv=1&amp;v=2&#34; width=&#34;950&#34; height=&#34;600&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
@@ -1441,7 +1441,7 @@ vs
       <pubDate>Tue, 10 Jun 2008 16:11:49 +0000</pubDate>
       
       <guid>https://chouj.github.io/486/</guid>
-      <description>&lt;p&gt;&lt;a rel=&#34;attachment wp-att-94&#34; href=&#34;http://aboutrss.cn/2008/06/translation-how-to-exclude-categories-from-main-feed/wordpressfeed/&#34;&gt;&lt;img class=&#34;alignleft size-medium wp-image-94&#34; title=&#34;wordpressfeed&#34; src=&#34;http://pic.yupoo.com/xcchris/309805b2a084/qye3bzys.jpg&#34; alt=&#34;wordpressfeed&#34; width=&#34;100&#34; height=&#34;100&#34; /&gt;&lt;/a&gt;原文：&lt;a title=&#34;How to modify your WordPress RSS Feed - Kriesi&#34; href=&#34;http://www.kriesi.at/archives/how-to-modify-your-wordpress-rss-feed&#34; target=&#34;_blank&#34;&gt;How to modify your WordPress RSS Feed&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;原文：&lt;a title=&#34;How to modify your WordPress RSS Feed - Kriesi&#34; href=&#34;http://www.kriesi.at/archives/how-to-modify-your-wordpress-rss-feed&#34; target=&#34;_blank&#34;&gt;How to modify your WordPress RSS Feed&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;作者：Kriesi&lt;/p&gt;
 
@@ -1463,10 +1463,9 @@ vs
       <pubDate>Fri, 06 Jun 2008 09:33:31 +0000</pubDate>
       
       <guid>https://chouj.github.io/274/</guid>
-      <description>据搜索结果说，可以找招行申请邮寄用卡指南。可是问了丫们在线客服，说木有，具体参见网站。怒了，我就是想弄份完整的观瞻下加备忘嘛。- -#
-自己动手。招行Young卡的指南页也够操蛋的，table+切片，愣是copy不出一个字儿。继续怒，网页截图之，现整理好了发布：
-[pdf]招商银行Young卡用卡指南 整理 by Chris Box.net下载 [download id=&amp;#8221;3&amp;#8243;]
-不知道我这种非官方的二手打理行为有木有触犯啥条条款款，心怯怯然。不管了，造福于民再说。</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://xuchi.name/wp-content/uploads/2008/06/cmb-youngcard-pdf.jpg&#34; alt=&#34;招商银行Young卡用卡指南pdf&#34; width=&#34;429&#34; height=&#34;373&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;据搜索结果说，可以找招行申请邮寄用卡指南。可是问了丫们在线客服，说木有，具体参见网站。怒了，我就是想弄份完整的观瞻下加备忘嘛。- -#&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -1498,13 +1497,7 @@ vs
       <pubDate>Sat, 31 May 2008 08:10:48 +0000</pubDate>
       
       <guid>https://chouj.github.io/485/</guid>
-      <description>30日，FeedBurner官方blog发布了一篇日志：Into the wild:Adsense for feeds，宣称Feedburner将于下周在部分用户中试行Adsense for feeds！
-Google购入FeedBurner后，这最重要的整合终于到来了，意味着同时发布GGAD并使用FeedBurner烧制Feed的博客主将可直接利用Google Adsense将广告投放于feed中。
-文中也强调，目前只是该服务的测试阶段，相应详细操作和要求等等事宜都还只能等到正式发布时获知。不过，这仍然值得广大bloggers翘首期待，毕竟Google &amp;amp; Feedburner强强联合所推出的Adsense for feeds将成为RSS Feed广告营销中重要的一环。广告主们多了一个新的发布平台，博客主则多了一个新的获利渠道。
-此举一出，我比较关心两个问题：
-一是，Feedsky会如何应对。Feedsky话题广告和展示广告运营尚不足一年，但已经成为bloggers网赚的一大途径。细看之下，Feedsky话题广告更加受宠，每每被一抢而空，而feed展示广告似乎营养不良。在本地化方面，Feedsky和谷歌似乎拉不开差距；而在广告精准投放方面，借助blog分类的Feedsky肯定无法和Google Adsense相抗衡。此类局面下，Feedsky是否会走与Google不同的路，避Google之锋芒，即主营话题广告，以bloggers间的口碑效应为广告价值所在，值得拭目以待。
-二是，Feed广告是会造成阅读体验的下降，还是会成为readers喜见的广告形式。RSS Feed搭载广告的模式势必如洪流般不可阻挡，再加上，如果FeedBurner和Feedsky的广告可在一个feed内共存，那么可以想象feed中广告面积将增大不少。这会不会造成读者为提高阅读体验而倾向于订阅无广告feed呢？
-暂时想到这么多，欢迎探讨。要是阿里妈妈和淘宝也摻乎进来，针对blog post关键字在feed里挂店铺链接的话，是不是效果更好呢？XD&amp;#8230;</description>
+      <description>&lt;p&gt;&lt;a href=&#34;http://bp1.blogger.com/_S_50sh4glvU/RrU0GQep7fI/AAAAAAAAAJA/kIITPv2Vz6o/s1600-h/FB.gif&#34;&gt;&lt;img style=&#34;margin: 0pt 0pt 10px 10px; float: right;&#34; src=&#34;http://bp1.blogger.com/_S_50sh4glvU/RrU0GQep7fI/AAAAAAAAAJA/kIITPv2Vz6o/s320/FB.gif&#34; border=&#34;0&#34; alt=&#34;Feedburner logo&#34; /&gt;&lt;/a&gt;30日，FeedBurner官方blog发布了一篇日志：&lt;a title=&#34;Into the wild:Adsense for feeds-FeedBurner&#34; href=&#34;http://blogs.feedburner.com/feedburner/archives/2008/05/into_the_wild_adsense_for_feed_1.php&#34; target=&#34;_blank&#34;&gt;Into the wild:Adsense for feeds&lt;/a&gt;，宣称Feedburner将于下周在部分用户中试行Adsense for feeds！&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -1513,14 +1506,7 @@ Google购入FeedBurner后，这最重要的整合终于到来了，意味着同�
       <pubDate>Tue, 27 May 2008 18:12:35 +0000</pubDate>
       
       <guid>https://chouj.github.io/268/</guid>
-      <description>写这么一篇文章，我就能从总统那里收获拾元人民币，这个数在我整个blog月收入里占到99.99%，所以我写的义无反顾义不容辞，心甘情愿被他收买，为其做病毒式传销。嘿嘿。当然，货肯定是好货，包满意。
-
-侧栏最下的这个标识表征了我目前使用的主机，它也正是本话题广告的主角：总统的WordPress中文站所提供的博客主机。
-和总统认识挺久的了，那还是在他代理盘古主机的时候，我从他手上买入了第一款虚拟空间来架设独立blog。但盘古服务不大稳定，诟病较多，总统弃而自谋美国主机HostGator，开始组织主机合租。我在盘古空间到期之后，就立即扑入了总统WordPress专业主机的怀抱（麻死人不偿命）。
-二号主机上线运行以来，一直表现良好，总统的服务也是尽心尽力，热心到位，此次抽奖活动反映出总统是一位善良的商人（囧，hoho），得到了二号主机用户的普遍爱戴。
-现在总统组织的四号主机合租正在进行中，四号主机和二号主机具备同样的规格，大体是：
- 磁盘空间：500M； 每月流量：5G； 可绑定顶级域名：3个； 可绑定子域名：10个； 可用数据库：3个； 独立的Cpanel帐户：1个，中英文可切换；  具体参数和细节问题可前去博客主机页面查看，欢迎垂询。
-写完咯，开始惦记钱钱&amp;#8230;</description>
+      <description>&lt;p&gt;&lt;span style=&#34;color: #888888;&#34;&gt;写这么一篇文章，我就能从&lt;a title=&#34;2号博客主机举办抽奖活动&#34; href=&#34;http://jiangzhanyong.com/2008/05/blog-hosting-contest-2rd-hosting-843.html&#34; target=&#34;_blank&#34;&gt;总统&lt;/a&gt;那里收获拾元人民币，这个数在我整个blog月收入里占到99.99%，所以我写的义无反顾义不容辞，心甘情愿被他收买，为其做病毒式传销。嘿嘿。当然，货肯定是好货，包满意。&lt;/span&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
