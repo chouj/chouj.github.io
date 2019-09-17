@@ -1930,38 +1930,11 @@
     </item>
     
     <item>
-      <title>Download</title>
-      <link>https://chouj.github.io/tags/download/</link>
-      <pubDate>Sat, 24 May 2008 08:02:44 +0000</pubDate>
-      
-      <guid>https://chouj.github.io/tags/download/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Linux</title>
       <link>https://chouj.github.io/tags/linux/</link>
       <pubDate>Thu, 22 May 2008 06:19:29 +0000</pubDate>
       
       <guid>https://chouj.github.io/tags/linux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Library</title>
-      <link>https://chouj.github.io/tags/library/</link>
-      <pubDate>Fri, 16 May 2008 06:00:06 +0000</pubDate>
-      
-      <guid>https://chouj.github.io/tags/library/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>RSS应用</title>
-      <link>https://chouj.github.io/tags/rss%E5%BA%94%E7%94%A8/</link>
-      <pubDate>Fri, 16 May 2008 06:00:06 +0000</pubDate>
-      
-      <guid>https://chouj.github.io/tags/rss%E5%BA%94%E7%94%A8/</guid>
       <description></description>
     </item>
     
@@ -2002,29 +1975,11 @@
     </item>
     
     <item>
-      <title>Academic</title>
-      <link>https://chouj.github.io/tags/academic/</link>
-      <pubDate>Thu, 08 May 2008 07:03:16 +0000</pubDate>
-      
-      <guid>https://chouj.github.io/tags/academic/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>PPT</title>
       <link>https://chouj.github.io/tags/ppt/</link>
       <pubDate>Thu, 08 May 2008 07:03:16 +0000</pubDate>
       
       <guid>https://chouj.github.io/tags/ppt/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tutorial</title>
-      <link>https://chouj.github.io/tags/tutorial/</link>
-      <pubDate>Thu, 08 May 2008 07:03:16 +0000</pubDate>
-      
-      <guid>https://chouj.github.io/tags/tutorial/</guid>
       <description></description>
     </item>
     
@@ -2047,20 +2002,11 @@
     </item>
     
     <item>
-      <title>Statistic</title>
-      <link>https://chouj.github.io/tags/statistic/</link>
+      <title>统计</title>
+      <link>https://chouj.github.io/tags/%E7%BB%9F%E8%AE%A1/</link>
       <pubDate>Sun, 04 May 2008 17:55:01 +0000</pubDate>
       
-      <guid>https://chouj.github.io/tags/statistic/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Subscribe</title>
-      <link>https://chouj.github.io/tags/subscribe/</link>
-      <pubDate>Sun, 04 May 2008 17:55:01 +0000</pubDate>
-      
-      <guid>https://chouj.github.io/tags/subscribe/</guid>
+      <guid>https://chouj.github.io/tags/%E7%BB%9F%E8%AE%A1/</guid>
       <description></description>
     </item>
     
@@ -2191,11 +2137,47 @@
     </item>
     
     <item>
+      <title>Statistic</title>
+      <link>https://chouj.github.io/tags/statistic/</link>
+      <pubDate>Fri, 18 Apr 2008 03:39:03 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/tags/statistic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Reader</title>
       <link>https://chouj.github.io/tags/reader/</link>
       <pubDate>Sat, 05 Apr 2008 17:23:02 +0000</pubDate>
       
       <guid>https://chouj.github.io/tags/reader/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Academic</title>
+      <link>https://chouj.github.io/tags/academic/</link>
+      <pubDate>Wed, 05 Mar 2008 12:26:41 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/tags/academic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RSS应用</title>
+      <link>https://chouj.github.io/tags/rss%E5%BA%94%E7%94%A8/</link>
+      <pubDate>Wed, 05 Mar 2008 12:26:41 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/tags/rss%E5%BA%94%E7%94%A8/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tutorial</title>
+      <link>https://chouj.github.io/tags/tutorial/</link>
+      <pubDate>Wed, 05 Mar 2008 12:26:41 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/tags/tutorial/</guid>
       <description></description>
     </item>
     
@@ -2745,6 +2727,15 @@
       <pubDate>Tue, 24 Jul 2007 13:12:14 +0000</pubDate>
       
       <guid>https://chouj.github.io/tags/feed-dance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Subscribe</title>
+      <link>https://chouj.github.io/tags/subscribe/</link>
+      <pubDate>Tue, 24 Jul 2007 13:12:14 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/tags/subscribe/</guid>
       <description></description>
     </item>
     
