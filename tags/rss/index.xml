@@ -663,9 +663,50 @@ JUL 24 2019 updated:
       <pubDate>Sun, 04 May 2008 17:55:01 +0000</pubDate>
       
       <guid>https://chouj.github.io/480/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://wpchina.org/images/w-event-plugin-1.gif&#34; alt=&#34;我为WP中文化做贡献：推荐一款优秀的WP插件&#34; width=&#34;200&#34; height=&#34;80&#34; /&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;http://pic.wpchina.org/w-event-plugin-1.gif&#34; alt=&#34;我为WP中文化做贡献：推荐一款优秀的WP插件&#34; width=&#34;200&#34; height=&#34;80&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;较早前，曾兄曾在博客联盟分析过&lt;a title=&#34;feedburner，feedsky还是原始 feed？&#34; href=&#34;http://blogunion.org/blogging-tips/feedsky-feedburner-or-original-feed.html&#34; target=&#34;_blank&#34;&gt;feed到底要不要托管&lt;/a&gt;，结论是&lt;strong&gt;视订阅量为浮云的稳定独立博客何不使用原始feed&lt;/strong&gt;，这样更新更迅速（无需等托管商的爬虫来采集）。Charlee推出的一款&lt;a title=&#34;Feed统计插件My Feed Stats发布&#34; href=&#34;http://tech.idv2.com/2007/11/12/my-feed-stats/&#34; target=&#34;_blank&#34;&gt;My Feed Stats WordPress Plugin&lt;/a&gt;则让feed不托管的适用范围更加广阔，我们使用原始feed一样能知道订阅量指标，姑且称之为订阅统计DIY。RSS相关曾&lt;a title=&#34;[WP插件]My Feed Stats介绍&#34; href=&#34;http://aboutrss.cn/2008/02/10/my-feed-stats/&#34; target=&#34;_self&#34;&gt;简介过这款插件&lt;/a&gt;，经过我在WP2.5.1下的测试可用后，再次详细推荐一下，没有它我们的讨论就没有意义：&lt;/p&gt;</description>
+&lt;p&gt;较早前，曾兄曾在博客联盟分析过&lt;a title=&#34;feedburner，feedsky还是原始 feed？&#34; href=&#34;http://blogunion.org/blogging-tips/feedsky-feedburner-or-original-feed.html&#34; target=&#34;_blank&#34;&gt;feed到底要不要托管&lt;/a&gt;，结论是&lt;strong&gt;视订阅量为浮云的稳定独立博客何不使用原始feed&lt;/strong&gt;，这样更新更迅速（无需等托管商的爬虫来采集）。Charlee推出的一款&lt;a title=&#34;Feed统计插件My Feed Stats发布&#34; href=&#34;http://tech.idv2.com/2007/11/12/my-feed-stats/&#34; target=&#34;_blank&#34;&gt;My Feed Stats WordPress Plugin&lt;/a&gt;则让feed不托管的适用范围更加广阔，我们使用原始feed一样能知道订阅量指标，姑且称之为订阅统计DIY。RSS相关曾&lt;a title=&#34;[WP插件]My Feed Stats介绍&#34; href=&#34;https://xuchi.name/473/&#34; target=&#34;_self&#34;&gt;简介过这款插件&lt;/a&gt;，经过我在WP2.5.1下的测试可用后，再次详细推荐一下，没有它我们的讨论就没有意义：&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>五一RSS节，hoho~</title>
+      <link>https://chouj.github.io/479/</link>
+      <pubDate>Tue, 22 Apr 2008 08:51:06 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/479/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://rssday.org/&#34;&gt;&lt;img src=&#34;https://justcreative.com/wp-content/uploads/2008/04/rssday.gif&#34; border=&#34;0&#34; alt=&#34;RSS Awareness Day&#34; align=&#34;right&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;哈，RSS(Really Simple Syndication)都有节了，毫不忧郁义不容辞排山倒海得在这里庆贺下，别管啥家乐福了，来为RSS欢呼吧！&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[WP插件]My Feed Stats介绍</title>
+      <link>https://chouj.github.io/473/</link>
+      <pubDate>Sun, 10 Feb 2008 11:46:08 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/473/</guid>
+      <description>&lt;nav&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#font-color-999999-鲜果认领-bang9476c6bf5186d3c824ee4c47xianguo-bang32df4a83a2a407f1d1756ef2xianguo-bangb9ba9e5b4fc30531e510609dxianguo-font&#34;&gt;&lt;font color=&#34;#999999&#34;&gt;鲜果认领：BANG9476C6BF5186D3C824EE4C47XIANGUO BANG32DF4A83A2A407F1D1756EF2XIANGUO BANGB9BA9E5B4FC30531E510609DXIANGUO&lt;/font&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/nav&gt;
+
+&lt;p&gt;这回要介绍的是国人——&lt;a target=&#34;_blank&#34; href=&#34;http://tech.idv2.com/&#34; title=&#34;idv2&#34;&gt;Charlee&lt;/a&gt;——自行开发的一款Feed订阅统计插件：&lt;strong&gt;My Feed Stats&lt;/strong&gt;，发布于去年11月12日，厌倦了Feed烧制服务的朋友可以试试这款能够提供Feed统计状态和显示的插件，其功能是：&lt;/p&gt;</description>
     </item>
     
     <item>

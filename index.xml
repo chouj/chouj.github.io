@@ -33,7 +33,7 @@
 
 &lt;iframe class=&#34;airtable-embed&#34; src=&#34;https://airtable.com/embed/shrW68CzYP3ez04I8?backgroundColor=blue&amp;viewControls=on&#34; frameborder=&#34;0&#34; onmousewheel=&#34;&#34; width=&#34;100%&#34; height=&#34;533&#34; style=&#34;background: transparent; border: 1px solid #ccc;&#34;&gt;&lt;/iframe&gt;
 
-&lt;p&gt;　　我用&lt;del&gt;Zoho&lt;/del&gt; Airtable Calendar做了一个共享日历（如上）。它可以理解为是日历版的“&lt;a href=&#34;https://mp.sohu.com/profile?xpt=c29odW1wOGh2a2NnQHNvaHUuY29t&amp;amp;_f=index_pagemp_1&amp;amp;spm=smpc.content.author.2.15680372448367pEIA27&#34;&gt;海洋知圈&lt;/a&gt;”。&lt;/p&gt;
+&lt;p&gt;　　我用&lt;del&gt;Zoho&lt;/del&gt; &lt;a href=&#34;https://airtable.com/invite/r/YrVlbTah&#34;&gt;Airtable&lt;/a&gt;做了一个共享日历（如上）。它可以理解为是日历版的“&lt;a href=&#34;https://mp.sohu.com/profile?xpt=c29odW1wOGh2a2NnQHNvaHUuY29t&amp;amp;_f=index_pagemp_1&amp;amp;spm=smpc.content.author.2.15680372448367pEIA27&#34;&gt;海洋知圈&lt;/a&gt;”。&lt;/p&gt;
 
 &lt;p&gt;　　&lt;strong&gt;它的链接在此&lt;/strong&gt;：&lt;/p&gt;
 
@@ -1587,9 +1587,9 @@ vs
       <pubDate>Sun, 04 May 2008 17:55:01 +0000</pubDate>
       
       <guid>https://chouj.github.io/480/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://wpchina.org/images/w-event-plugin-1.gif&#34; alt=&#34;我为WP中文化做贡献：推荐一款优秀的WP插件&#34; width=&#34;200&#34; height=&#34;80&#34; /&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;http://pic.wpchina.org/w-event-plugin-1.gif&#34; alt=&#34;我为WP中文化做贡献：推荐一款优秀的WP插件&#34; width=&#34;200&#34; height=&#34;80&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;较早前，曾兄曾在博客联盟分析过&lt;a title=&#34;feedburner，feedsky还是原始 feed？&#34; href=&#34;http://blogunion.org/blogging-tips/feedsky-feedburner-or-original-feed.html&#34; target=&#34;_blank&#34;&gt;feed到底要不要托管&lt;/a&gt;，结论是&lt;strong&gt;视订阅量为浮云的稳定独立博客何不使用原始feed&lt;/strong&gt;，这样更新更迅速（无需等托管商的爬虫来采集）。Charlee推出的一款&lt;a title=&#34;Feed统计插件My Feed Stats发布&#34; href=&#34;http://tech.idv2.com/2007/11/12/my-feed-stats/&#34; target=&#34;_blank&#34;&gt;My Feed Stats WordPress Plugin&lt;/a&gt;则让feed不托管的适用范围更加广阔，我们使用原始feed一样能知道订阅量指标，姑且称之为订阅统计DIY。RSS相关曾&lt;a title=&#34;[WP插件]My Feed Stats介绍&#34; href=&#34;http://aboutrss.cn/2008/02/10/my-feed-stats/&#34; target=&#34;_self&#34;&gt;简介过这款插件&lt;/a&gt;，经过我在WP2.5.1下的测试可用后，再次详细推荐一下，没有它我们的讨论就没有意义：&lt;/p&gt;</description>
+&lt;p&gt;较早前，曾兄曾在博客联盟分析过&lt;a title=&#34;feedburner，feedsky还是原始 feed？&#34; href=&#34;http://blogunion.org/blogging-tips/feedsky-feedburner-or-original-feed.html&#34; target=&#34;_blank&#34;&gt;feed到底要不要托管&lt;/a&gt;，结论是&lt;strong&gt;视订阅量为浮云的稳定独立博客何不使用原始feed&lt;/strong&gt;，这样更新更迅速（无需等托管商的爬虫来采集）。Charlee推出的一款&lt;a title=&#34;Feed统计插件My Feed Stats发布&#34; href=&#34;http://tech.idv2.com/2007/11/12/my-feed-stats/&#34; target=&#34;_blank&#34;&gt;My Feed Stats WordPress Plugin&lt;/a&gt;则让feed不托管的适用范围更加广阔，我们使用原始feed一样能知道订阅量指标，姑且称之为订阅统计DIY。RSS相关曾&lt;a title=&#34;[WP插件]My Feed Stats介绍&#34; href=&#34;https://xuchi.name/473/&#34; target=&#34;_self&#34;&gt;简介过这款插件&lt;/a&gt;，经过我在WP2.5.1下的测试可用后，再次详细推荐一下，没有它我们的讨论就没有意义：&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -1621,9 +1621,7 @@ vs
 
 &lt;p&gt;华中科技大学物理系04级毕业衫火热出炉，04级同学自行设计的哦：&lt;/p&gt;
 
-&lt;p&gt;[&lt;/p&gt;
-
-&lt;p&gt;]&lt;a href=&#34;http://www.xuchi.name/blog/wp-content/uploads/2008/04/large_14687m172.jpg&#34; title=&#34;点击放大&#34;&gt;1&lt;/a&gt; &lt;img class=&#34;alignnone size-full wp-image-84&#34; title=&#34;华中科技大学物理系04级毕业衫设计图&#34; src=&#34;http://www.xuchi.name/blog/wp-content/uploads/2008/04/tshirt04a.jpg&#34; alt=&#34;华中科技大学物理系04级毕业衫设计图&#34; width=&#34;500&#34; height=&#34;913&#34; /&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;img class=&#34;alignnone size-full wp-image-84&#34; title=&#34;华中科技大学物理系04级毕业衫设计图&#34; src=&#34;https://xuchi.name/wp-content/uploads/2008/04/tshirt04a.jpg&#34; alt=&#34;华中科技大学物理系04级毕业衫设计图&#34; width=&#34;500&#34; height=&#34;913&#34; /&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -1644,8 +1642,7 @@ Warning: Cannot modify header information &amp;#8211; headers already sent by �
       <pubDate>Tue, 29 Apr 2008 02:49:09 +0000</pubDate>
       
       <guid>https://chouj.github.io/78/</guid>
-      <description>挂在RSS相关侧栏的doll——萝丽，已经400天了（该萝丽估计无法显示于RSS阅读器），但我要说的到不是这个。今天是林*昭遇难四十周年纪念日，一个爱国者就这么莫无声息几近忘却得走过了40年。
-纪念林*昭 | 林*昭年表 </description>
+      <description>&lt;p&gt;挂在RSS相关侧栏的doll——萝丽，已经400天了（该萝丽估计无法显示于RSS阅读器），但我要说的到不是这个。今天是&lt;a title=&#34;百度百科：林×昭&#34; href=&#34;http://baike.baidu.com/view/31342.htm&#34; target=&#34;_blank&#34;&gt;林*昭&lt;/a&gt;遇难四十周年纪念日，&lt;a title=&#34;林*昭，一个爱国者的40年&#34; href=&#34;http://www.sohoxiaobao.com/chinese/bbs/blog_view.php?id=984068&#34; target=&#34;_blank&#34;&gt;一个爱国者就这么莫无声息几近忘却得走过了40年&lt;/a&gt;。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -1656,7 +1653,7 @@ Warning: Cannot modify header information &amp;#8211; headers already sent by �
       <guid>https://chouj.github.io/69/</guid>
       <description>&lt;p&gt;家里又出事情被曝光了，&lt;strong&gt;史上最牛悬赏广告&lt;/strong&gt;，&lt;strong&gt;史上最牛的市长&lt;/strong&gt;（天涯社区&lt;a href=&#34;http://cache.tianya.cn/pub/c/no04/1/696030.205.shtml&#34; title=&#34;[新闻]襄樊的天，黑帮的地，老百姓的血，开发商的利&#34; target=&#34;_blank&#34;&gt;1&lt;/a&gt;／&lt;a href=&#34;http://cache.tianya.cn/pub/c/no04/1/696216.107.shtml&#34; title=&#34;[新闻]史上最牛的市长(襄樊)&#34; target=&#34;_blank&#34;&gt;2&lt;/a&gt;／&lt;a href=&#34;http://cache.tianya.cn/pub/c/no04/1/695775.10.shtml&#34; title=&#34;[新闻]史上最牛的市长(襄樊)&#34; target=&#34;_blank&#34;&gt;3&lt;/a&gt;／&lt;a href=&#34;http://cache.tianya.cn/pub/c/no04/1/696010.93.shtml&#34; title=&#34;[新闻]史上最牛的市长;襄樊.&#34; target=&#34;_blank&#34;&gt;4&lt;/a&gt;）（照片转自&lt;a href=&#34;http://pic.tianya.cn/myalbum/ShowPersonPic.asp?idWriter=0&amp;Key=0&amp;UserID=15745549&#34; title=&#34;证据&#34; target=&#34;_blank&#34;&gt;天涯相册&lt;/a&gt;）横空出世：&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www.xuchi.name/blog/wp-content/uploads/2008/04/7648865_15745549.jpg&#34; alt=&#34;点击放大&#34; border=&#34;0&#34; width=&#34;500&#34; /&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;img src=&#34;https://xuchi.name/wp-content/uploads/2008/04/7648865_15745549.jpg&#34; alt=&#34;点击放大&#34; border=&#34;0&#34; width=&#34;500&#34; /&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -1679,12 +1676,9 @@ Warning: Cannot modify header information &amp;#8211; headers already sent by �
       <pubDate>Tue, 22 Apr 2008 08:51:06 +0000</pubDate>
       
       <guid>https://chouj.github.io/479/</guid>
-      <description>哈，RSS(Really Simple Syndication)都有节了，毫不忧郁义不容辞排山倒海得在这里庆贺下，别管啥家乐福了，来为RSS欢呼吧！
-May 1st RSS Awareness Day是由DailyBlogTips的Daniel Scocco发起的活动，而且他还为这个日子建了官方网站RSSDay.org以便宣传。这个网站主页扼要得介绍了使用RSS的好处和使用方法，并且提供了各规格的标识供bloggers挂在blogs上（就像文中这个和侧栏那个）。当然，参与这个活动是有奖励的哦，具体见Daniel Scocco的原文（中文翻译在此），不过，如果你像抽筋儿一样觉得RSS应用值得推广的话，就加入到活动中来吧！
-之前写过《为什么要用线上RSS阅读器》，这里还是再小科普一下：
-使用RSS的最大好处就是，你能及时获知站点的更新而无须频繁访问站点。
-再把这个非常著名的RSS介绍视频（多国语言字幕版、Youtube英文版）搬来压阵，怎么说这片儿也该在我的文里出现次，要不然就太不地道了，对不起RSS相关的名儿啊。RSS阅读器里看不到的话，就不用看了，都会用了，还看个毛。
-[http://dotsub.com/api/player.php?filmid=444&amp;amp;filminstance=446&amp;amp;language=zh]</description>
+      <description>&lt;p&gt;&lt;a href=&#34;http://rssday.org/&#34;&gt;&lt;img src=&#34;https://justcreative.com/wp-content/uploads/2008/04/rssday.gif&#34; border=&#34;0&#34; alt=&#34;RSS Awareness Day&#34; align=&#34;right&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;哈，RSS(Really Simple Syndication)都有节了，毫不忧郁义不容辞排山倒海得在这里庆贺下，别管啥家乐福了，来为RSS欢呼吧！&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -1858,7 +1852,7 @@ CD-ROM
 &lt;/ul&gt;
 &lt;/nav&gt;
 
-&lt;p&gt;&lt;img border=&#34;0&#34; width=&#34;348&#34; src=&#34;http://pic.yupoo.com/xcchris/7994550fbabe/medium.jpg&#34; alt=&#34;Happy new year ~&#34; height=&#34;500&#34; /&gt;&lt;/p&gt;</description>
+&lt;p&gt;这回要介绍的是国人——&lt;a target=&#34;_blank&#34; href=&#34;http://tech.idv2.com/&#34; title=&#34;idv2&#34;&gt;Charlee&lt;/a&gt;——自行开发的一款Feed订阅统计插件：&lt;strong&gt;My Feed Stats&lt;/strong&gt;，发布于去年11月12日，厌倦了Feed烧制服务的朋友可以试试这款能够提供Feed统计状态和显示的插件，其功能是：&lt;/p&gt;</description>
     </item>
     
     <item>
