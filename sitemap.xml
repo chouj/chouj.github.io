@@ -9,24 +9,47 @@
   
   <url>
     <loc>https://chouj.github.io/posts/</loc>
-    <lastmod>2019-10-02T22:01:17+08:00</lastmod>
+    <lastmod>2020-02-13T17:05:56+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://chouj.github.io/tags/</loc>
-    <lastmod>2019-10-02T22:01:17+08:00</lastmod>
+    <lastmod>2020-02-13T17:05:56+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://chouj.github.io/tags/%E5%84%BF%E6%AD%8C/</loc>
-    <lastmod>2019-10-02T22:01:17+08:00</lastmod>
+    <loc>https://chouj.github.io/manual-for-academic-conference-volunteers/</loc>
+    <lastmod>2020-02-13T17:05:56+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chouj.github.io/tags/%E5%AD%A6%E6%9C%AF%E4%BC%9A%E8%AE%AE/</loc>
+    <lastmod>2020-02-13T17:05:56+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://chouj.github.io/tags/%E5%BF%97%E6%84%BF%E8%80%85/</loc>
+    <lastmod>2020-02-13T17:05:56+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://chouj.github.io/</loc>
+    <lastmod>2020-02-13T17:05:56+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://chouj.github.io/tags/%E6%8C%87%E5%8D%97/</loc>
+    <lastmod>2020-02-13T17:05:56+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://chouj.github.io/tags/%E5%84%BF%E6%AD%8C/</loc>
     <lastmod>2019-10-02T22:01:17+08:00</lastmod>
     <priority>0</priority>
   </url>
