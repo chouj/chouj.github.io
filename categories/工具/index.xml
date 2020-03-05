@@ -39,59 +39,6 @@
     </item>
     
     <item>
-      <title>Linux下三款离线RSS阅读器简介</title>
-      <link>https://chouj.github.io/478/</link>
-      <pubDate>Sat, 05 Apr 2008 17:23:02 +0000</pubDate>
-      
-      <guid>https://chouj.github.io/478/</guid>
-      <description>&lt;p&gt;&lt;img SRC=&#34;http://pic.yupoo.com/xcchris/9269555b1fcd/hmje19zh.jpg&#34; ALT=&#34;liferea&#34; BORDER=&#34;0&#34; WIDTH=&#34;214&#34; HEIGHT=&#34;43&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;主页 &lt;a HREF=&#34;http://http://liferea.sourceforge.net/&#34; TARGET=&#34;_blank&#34; TITLE=&#34;Liferea&#34;&gt;&lt;a href=&#34;http://liferea.sourceforge.net/&#34;&gt;http://liferea.sourceforge.net/&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;截图&lt;/p&gt;
-
-&lt;p&gt;&lt;a HREF=&#34;http://pic.yupoo.com/xcchris/2262455b1fcd/nj46tnji.jpg&#34; TARGET=&#34;_blank&#34; TITLE=&#34;Liferea&#34;&gt;&lt;img SRC=&#34;http://pic.yupoo.com/xcchris/2262455b1fcd/small.jpg&#34; ALT=&#34;Liferea&#34; BORDER=&#34;0&#34; WIDTH=&#34;240&#34; HEIGHT=&#34;159&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p ALIGN=&#34;center&#34;&gt;
-   ============================
-&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[翻译]10个用于合并RSS Feeds的工具</title>
-      <link>https://chouj.github.io/475/</link>
-      <pubDate>Fri, 15 Feb 2008 17:17:46 +0000</pubDate>
-      
-      <guid>https://chouj.github.io/475/</guid>
-      <description>&lt;p&gt;原文：&lt;a href=&#34;http://www.tothepc.com/archives/10-tools-to-combine-mix-blend-multiple-rss-feeds&#34; target=&#34;_blank&#34;&gt;10 Tools to Combine, Mix, Blend Multiple RSS Feeds&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;作者：Davinde&lt;/p&gt;
-
-&lt;p&gt;译者：&lt;a href=&#34;http://www.xuchi.name/blog&#34; target=&#34;_blank&#34;&gt;抽筋儿&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;big&gt;越&lt;/big&gt;来越多的网民开始接触RSS feed及其应用，以致涌现出一批优良的线上或线下RSS feed管理工具，其中Feedburner和Feeblitz是行业领袖。&lt;/p&gt;
-
-&lt;p&gt;&lt;big&gt;每&lt;/big&gt;当你想从不同的渠道获取信息时，使用工具对RSS Feeds的内容进行过滤是必要的，同时将同类RSS Feeds合并，消灭内容重复的RSS Feeds，似乎更加重要。这有助于你整合Feeds内容，打造统一的RSS Feeds。十个能完成此类任务的工具值得介绍一哈：&lt;/p&gt;
-
-&lt;p style=&#34;text-align: center&#34;&gt;
-  &lt;img src=&#34;http://pic.yupoo.com/xcchris/3326051923f3/gii3ddzu.jpg&#34; alt=&#34;RSS mix&#34; /&gt;
-&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>TagMindr：Remember the future</title>
-      <link>https://chouj.github.io/468/</link>
-      <pubDate>Fri, 12 Oct 2007 12:54:08 +0000</pubDate>
-      
-      <guid>https://chouj.github.io/468/</guid>
-      <description>&lt;p&gt;&lt;img width=&#34;400&#34; src=&#34;http://media.tagmindr.com/2.0/img/ui-logo.jpg&#34; alt=&#34;TagMindr&#34; height=&#34;144&#34; title=&#34;TagMindr&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://aboutrss.cn&#34; title=&#34;RSS相关&#34;&gt;RSS相关&lt;/a&gt;较少追一些最新应用的，但最近在&lt;a target=&#34;_blank&#34; href=&#34;http://del.icio.us/popular/rss&#34; title=&#34;美味书签&#34;&gt;del.icio.us&lt;/a&gt;上出现的&lt;strong&gt;TagMindr&lt;/strong&gt;挺有意思，口号是“Remember the future&amp;#8230;”。TagMindr仅利用&lt;a target=&#34;_blank&#34; href=&#34;http://del.icio.us/&#34; title=&#34;美味书签&#34;&gt;del.icio.us&lt;/a&gt;书签、Tags标记、RSS Feed，却似乎增加了一种面向海量信息的淘金方式，为信息的有效利用建立了一种提醒机制，避免信息价值的快速淹没。其实反过来说，也加强了信息冲击波的杀伤力，- -#&lt;/p&gt;
-
-&lt;p&gt;吹完牛，这个TagMindr到底是怎么让你Remember the future的呢？&lt;/p&gt;</description>
-    </item>
-    
-    <item>
       <title>Rss网页Widget: 泥狗狗 ieooo</title>
       <link>https://chouj.github.io/461/</link>
       <pubDate>Fri, 14 Sep 2007 12:05:25 +0000</pubDate>
@@ -198,25 +145,6 @@ TT-RSS是目前很新的一款RSS聚合器程序，基于浏览器端，但可�
 其主页上介绍的使用需知有三：
  有饭否帐号，即为饭否用户； 只可使用OpenID登录； 登录后台，添加或管理Feed和消息前缀。  发文时此服务用户仅21名，有blog的饭否用户可以尝试下，让信息传播得更远些吧 🙂
 [点此进入（该站目前关闭中）]</description>
-    </item>
-    
-    <item>
-      <title>RSS聚合器 之 Gregarius</title>
-      <link>https://chouj.github.io/442/</link>
-      <pubDate>Sat, 14 Jul 2007 14:42:32 +0000</pubDate>
-      
-      <guid>https://chouj.github.io/442/</guid>
-      <description> 什么是RSS聚合器？  RSS聚合器是一种以用户被动更新模式更新，可读取RSS Feed / XML并显示新闻项的程序，可以方便地在线获取、阅读和管理RSS/XML格式的信息。
- Gregarius  个人认为Gregarius已经是一款相当成熟的RSS feed聚合器程序了，具备不错的用户体验，易于操作和管理。抽儿就是拿这款程序架设的RSS阅读器。特性如下：
- 支持 RDF, RSS, ATOM feeds 支持智能识别； 基于浏览器Web端的前台浏览和后台管理； 支持目录分类，支持标签系统，并运用了ajax技术； 支持搜索； 支持OPML； 可显示favicon； 支持已读未读分类和条目数量显示； 具有多种主题样式，支持插件；  前台样式：
-后台含八个管理标签，分别为“控制面板”、“Feed管理”、“条目管理”、“设置”、“插件”、“主题”和“分类目录”，操作简单。
-Demo站点：
-OpenRSS
-话语权
-Gregarius运行环境要求：
- Apache服务器（推荐） PHP (PHP 4.x 或 PHP 5.x, 4.3+ 推荐) 数据库 MySQL 和 SQLite  Gregarius主页 | Gregarius 0.5.4 原版下载页面 | Gregarius 0.5.3 的安装说明
-最后提一下抽儿在使用中的一些感受。首先，空间的访问速度和php的版本会直接影响feed添加以及OPML导入的成败，某些时候可能feed添加成功，但没有成功读取到内容，或抓取后不能实时更新，这在话语权中表现比较明显。其次，Gregarius有经过汉化的版本，搜索可得（比如这里），但汉化的不彻底，更新时间显示为乱码，可能涉及编码UTF-8/GB2312的支持和时间日期代码格式的问题。还有就是Gregarius对Feedsky的Feed不友好。
-Powered by ScribeFire. </description>
     </item>
     
     <item>

@@ -2200,6 +2200,15 @@
     </item>
     
     <item>
+      <title>RSS阅读器</title>
+      <link>https://chouj.github.io/tags/rss%E9%98%85%E8%AF%BB%E5%99%A8/</link>
+      <pubDate>Sat, 05 Apr 2008 17:23:02 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/tags/rss%E9%98%85%E8%AF%BB%E5%99%A8/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Reader</title>
       <link>https://chouj.github.io/tags/reader/</link>
       <pubDate>Sat, 05 Apr 2008 17:23:02 +0000</pubDate>
@@ -2281,15 +2290,6 @@
     </item>
     
     <item>
-      <title>Reader，RSS阅读器</title>
-      <link>https://chouj.github.io/tags/readerrss%E9%98%85%E8%AF%BB%E5%99%A8/</link>
-      <pubDate>Sat, 10 Nov 2007 14:26:59 +0000</pubDate>
-      
-      <guid>https://chouj.github.io/tags/readerrss%E9%98%85%E8%AF%BB%E5%99%A8/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>权衡</title>
       <link>https://chouj.github.io/tags/%E6%9D%83%E8%A1%A1/</link>
       <pubDate>Tue, 06 Nov 2007 13:03:53 +0000</pubDate>
@@ -2331,15 +2331,6 @@
       <pubDate>Sun, 28 Oct 2007 10:02:42 +0000</pubDate>
       
       <guid>https://chouj.github.io/tags/pagerank/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>pr</title>
-      <link>https://chouj.github.io/tags/pr/</link>
-      <pubDate>Sun, 28 Oct 2007 10:02:42 +0000</pubDate>
-      
-      <guid>https://chouj.github.io/tags/pr/</guid>
       <description></description>
     </item>
     
@@ -2547,6 +2538,15 @@
       <pubDate>Fri, 31 Aug 2007 09:20:25 +0000</pubDate>
       
       <guid>https://chouj.github.io/tags/%E4%BF%A1%E6%81%AF%E8%BF%87%E8%BD%BD/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>广告</title>
+      <link>https://chouj.github.io/tags/%E5%B9%BF%E5%91%8A/</link>
+      <pubDate>Fri, 31 Aug 2007 09:20:25 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/tags/%E5%B9%BF%E5%91%8A/</guid>
       <description></description>
     </item>
     
@@ -3118,15 +3118,6 @@
     </item>
     
     <item>
-      <title>广告</title>
-      <link>https://chouj.github.io/tags/%E5%B9%BF%E5%91%8A/</link>
-      <pubDate>Sun, 13 May 2007 03:41:54 +0000</pubDate>
-      
-      <guid>https://chouj.github.io/tags/%E5%B9%BF%E5%91%8A/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>校内</title>
       <link>https://chouj.github.io/tags/%E6%A0%A1%E5%86%85/</link>
       <pubDate>Sun, 13 May 2007 03:41:54 +0000</pubDate>
@@ -3258,6 +3249,15 @@
       <pubDate>Thu, 03 May 2007 12:58:25 +0000</pubDate>
       
       <guid>https://chouj.github.io/tags/%E9%BB%84%E9%87%91%E5%91%A8/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pr</title>
+      <link>https://chouj.github.io/tags/pr/</link>
+      <pubDate>Wed, 02 May 2007 15:38:27 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/tags/pr/</guid>
       <description></description>
     </item>
     

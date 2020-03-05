@@ -226,9 +226,9 @@
       <h1 class="post-title">[WP插件]BetterFeed使用指南</h1>
       <p class="post-meta">@Chouj · Oct 25, 2007 · 1 min read</p>
     </header>
-    <article class="post-content"><p><img src="http://photo5.yupoo.com/20071025/144157_423535404_lmeqxrcy.jpg" title="WordPress" alt="WordPress" height="112" width="112" /></p>
+    <article class="post-content"><p><img src="https://s.w.org/style/images/about/WordPress-logotype-alternative.png" title="WordPress" alt="WordPress" height="112" /></p>
 
-<p>除了<a href="http://aboutrss.cn/2007/10/17/wordpress-plugin-copyfeed/" title="[WP插件]©Feed指南及其汉化版">上文</a>介绍的WordPress<a href="http://wordpress.org/extend/plugins/copyfeed/" title="©Feed">©Feed</a>，<a href="http://planetozh.com/blog/my-projects/wordpress-plugin-better-feed-rss/" title="Wordpress Plugin : Better Feed" target="_blank"><strong>BetterFeed</strong></a>也是一款用于更改Feed footer信息的强大插件。两者相比，前者具备Option界面，使用上比较傻瓜，后者则需要自己编辑插件部分代码；但前者不支持php语言调用，后者则可借助php参数调用，为feed添加进更有针对性、更智能的信息。所以说，两个插件各有优劣，不过，<strong>切勿同时启用</strong>。</p>
+<p>除了<a href="https://xuchi.name/469/" title="[WP插件]©Feed指南及其汉化版">上文</a>介绍的WordPress<a href="https://wordpress.org/extend/plugins/copyfeed/" title="©Feed">©Feed</a>，<a href="https://planetozh.com/blog/my-projects/wordpress-plugin-better-feed-rss/" title="Wordpress Plugin : Better Feed" target="_blank"><strong>BetterFeed</strong></a>也是一款用于更改Feed footer信息的强大插件。两者相比，前者具备Option界面，使用上比较傻瓜，后者则需要自己编辑插件部分代码；但前者不支持php语言调用，后者则可借助php参数调用，为feed添加进更有针对性、更智能的信息。所以说，两个插件各有优劣，不过，<strong>切勿同时启用</strong>。</p>
 
 <p><strong>BetterFeed</strong>主页上说其能实现的功能有：</p>
 
@@ -243,17 +243,17 @@
 
 <p>下图是一张启用<strong>BetterFeed</strong>后的效果图：</p>
 
-<p><img src="http://photo5.yupoo.com/20071024/223308_1250673943_sgbgnxsu.jpg" title="RSS相关 betterfeed 效果" alt="RSS相关 betterfeed 效果" height="225" width="459" /></p>
+<p><img src="https://photo5.yupoo.com/20071024/223308_1250673943_sgbgnxsu.jpg" title="RSS相关 betterfeed 效果" alt="RSS相关 betterfeed 效果" height="225" width="459" /></p>
 
 <p>要想得到这种效果，我们要做的是：<strong>更改插件php文件中的相关代码</strong>：</p>
 
-<p><img src="http://photo11.yupoo.com/20071024/223308_1017096139_mwinjbvh.jpg" title="RSS相关 betterfeed 设定" alt="RSS相关 betterfeed 设定" height="382" width="438" /></p>
+<p><img src="https://photo11.yupoo.com/20071024/223308_1017096139_mwinjbvh.jpg" title="RSS相关 betterfeed 设定" alt="RSS相关 betterfeed 设定" height="382" width="438" /></p>
 
 <p>wp_ozh_betterfeed.php头部插件注释之后，即有“Edit Here”的字样提示从这里开始插件设定啦。“General Behavior”中需要设定两个参量的值，图中的<strong>split</strong>量用来设定是否在feed中支持wordpress&lt;!&#8211; more &#8211;&gt;标签输出“Read More”，值1表示开启，值0表示停用；第二个参数<strong>multipage</strong>量则用来设定是否在feed中支持wordpress&lt;!&#8211; nextpage &#8211;&gt;标签输出“Read More”，同样值1表示开启，值0表示停用。</p>
 
 <p>再往下，我们可以看到：</p>
 
-<p><img src="http://photo11.yupoo.com/20071024/223309_40671525_nabinmjq.jpg" title="RSS相关 betterfeed 代码" alt="RSS相关 betterfeed 代码" height="402" width="437" /></p>
+<p><img src="https://photo11.yupoo.com/20071024/223309_40671525_nabinmjq.jpg" title="RSS相关 betterfeed 代码" alt="RSS相关 betterfeed 代码" height="402" width="437" /></p>
 
 <p>橙红色区域的注释告诉我们，将写好的html填充到“&lt;&lt;&lt;FEEDFOOT”和“FEEDFOOT;”之间即可。BetterFeed提供了若干变量名供我们调用WordPress信息，注解翻译如下：</p>
 
@@ -263,7 +263,7 @@
 <li><strong>%%posttitle%%</strong> : 本文题目 (Hello World)</li>
 <li><strong>%%posturl%%</strong> : 本文链接 (<a href="http://myblog.com/archives/2001/02/03/hello-world/或">http://myblog.com/archives/2001/02/03/hello-world/或</a> <a href="http://myblog.com/?p=123">http://myblog.com/?p=123</a>)</li>
 <li><strong>%%id%%</strong> : 本文 ID (文章数字号, 比如上例中的123 )</li>
-<li><strong>%%date[Y]%%</strong> :日期，发文时间, 括号内时间样式遵循PHP <a href="http://planetozh.com/blog/go.php?http://php.net/date">date()</a>语法</li>
+<li><strong>%%date[Y]%%</strong> :日期，发文时间, 括号内时间样式遵循PHP <a href="https://planetozh.com/blog/go.php?http://php.net/date">date()</a>语法</li>
 <li><strong>%%categories%%</strong> : 以逗号间隔列出文章归入的分类</li>
 <li><strong>%%categorylinks%%</strong> : 各个以逗号间隔的分类的链接</li>
 <li><strong>%%comments%%</strong> : 评论数量</li>
@@ -276,20 +276,20 @@
 <li><strong>%%author_nick%%</strong> : 作者昵称</li>
 </ul>
 
-<p>其中，%%readmore%%和%%comments_text%%所显示出的文本可找到相应的默认代码，做更加个性化的更改。这里给出一个<a href="http://aboutrss.cn/">RSS相关</a>原来用的代码：</p>
+<p>其中，%%readmore%%和%%comments_text%%所显示出的文本可找到相应的默认代码，做更加个性化的更改。这里给出一个<a href="https://xuchi.name/categories/rss%E7%9B%B8%E5%85%B3/">RSS相关</a>原来用的代码：</p>
 
 <p><code>&lt;/p&gt;
 &lt;p&gt;%%readmore%%&lt;/p&gt;
 &lt;hr noshade style=&quot;margin:0;height:1px&quot; /&gt;
     &lt;small&gt;&lt;/p&gt;
 &lt;p&gt;&amp;copy; %%author_nick%% for &lt;a href=&quot;%%blogurl%%&quot;&gt;%%blogname%%&lt;/a&gt;, 2007. | &lt;a href=&quot;%%posturl%%&quot;&gt;Permalink&lt;/a&gt; | &lt;a href=&quot;%%categorylinks%%&quot;&gt;%%categories%%&lt;/a&gt; | &lt;a href=&quot;%%posturl%%#comments/&quot;&gt;%%comments%%&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Add to &lt;a href=&quot;http://del.icio.us/post?url=%%posturl%%&amp;#038;title=%%posttitle%%&quot;&gt;Del.icio.us&lt;/a&gt; | Who's linking? &lt;a href=&quot;http://www.technorati.com/search/%%posturl%%&quot; title=&quot;Search on Technorati&quot;&gt;Technorati&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Add to &lt;a href=&quot;https://del.icio.us/post?url=%%posturl%%&amp;#038;title=%%posttitle%%&quot;&gt;Del.icio.us&lt;/a&gt; | Who's linking? &lt;a href=&quot;https://www.technorati.com/search/%%posturl%%&quot; title=&quot;Search on Technorati&quot;&gt;Technorati&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;/small&gt;&lt;br /&gt;
 </code></p>
 
 <p>您可在utf-8编码下打开插件php文件，自行编辑代码，再上传wp_ozh_betterfeed.php到wordpress/wp-content/plugins/，在后台激活插件即可；或者上传插件后，开启写入属性，在wordpress管理后台的插件页面下编辑该插件相应代码，再激活。</p>
 
-<p>[ <a href="http://planetozh.com/blog/my-projects/wordpress-plugin-better-feed-rss/" target="_blank">点此进入<strong>BetterFeed主页</strong></a> ]</p></article>
+<p>[ <a href="https://planetozh.com/blog/my-projects/wordpress-plugin-better-feed-rss/" target="_blank">点此进入<strong>BetterFeed主页</strong></a> ]</p></article>
     <footer class="post-footer">
       
       <ul class="post-tags">
@@ -300,10 +300,12 @@
         
           <li><a href="https://chouj.github.io/tags/wordpress"><span class="tag">WordPress</span></a></li>
         
+          <li><a href="https://chouj.github.io/tags/%E6%95%99%E7%A8%8B"><span class="tag">教程</span></a></li>
+        
       </ul>
       
       <p class="post-copyright">
-        © This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.This post was published <strong>4493</strong> days ago, content in the post may be inaccurate, even wrong now, please take risk yourself.
+        © This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.This post was published <strong>4515</strong> days ago, content in the post may be inaccurate, even wrong now, please take risk yourself.
       </p>
     </footer>
     

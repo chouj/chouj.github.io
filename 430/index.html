@@ -28,50 +28,7 @@
   <meta name="author" content="Chouj">
   <meta name="description" content="本文写给以WordPress搭建blog的bloggers
 当您更新了blog，一定希望订阅您blog的读者能第一时间看到您的文字。但一次次前去通知页面手动更新是非常麻烦的事情，那么怎么样能让Feed服务商的爬虫自动前来抓取您更新了的内容呢？借用WP后台的“更新服务”，我们就可以做到。
-上图即为WP后台&amp;#8211;选项&amp;#8211;撰写标签下的“更新服务”，可自动通知的站点包括各大搜索引擎，RSS聚合站和Feed服务商。Wordpress.org官方站提供了一个可选的网址列表，如下：
- http://rpc.blogrolling.com/pinger/
-http://www.blogdigger.com/RPC2
-http://www.bitacoles.net/ping.php
-http://rpc.wpkeys.com
-http://rpc.technorati.com/rpc/ping
-http://rpc.britblog.com
-http://pingoat.com/goat/RPC2
-http://bulkfeeds.net/rpc
-http://rpc.weblogs.com/RPC2
-http://api.my.yahoo.com/RPC2
-http://services.newsgator.com/ngws/xmlrpcping.aspx
-http://api.moreover.com/ping
-http://api.moreover.com/RPC2
-http://www.blogpeople.net/servlet/weblogUpdates
-http://ping.fakapster.com/rpc
-http://www.blogoon.net/ping/
-http://ping.bloggers.jp/rpc/
-http://bblog.com/ping.php
-http://rpc.tailrank.com/feedburner/RPC2
-http://ping.bitacoras.com
- http://ping.feedburner.com
-http://ping.myblog.jp
-http://ping.syndic8.com/xmlrpc.php
-http://ping.weblogalot.com/rpc.php
-http://pinger.blogflux.com/rpc
-http://blogsearch.google.com/ping/RPC2
-http://blog.goo.ne.jp/XMLRPC
-http://rpc.icerocket.com:10080
-http://rpc.pingomatic.com
-http://api.feedster.com/ping.php
- 注意其上的标注：蓝色部分为三个主要的搜索引擎站的ping地址，分别为Techonrati、Yahoo!和Google的blogsearch；红色粗体即为Feedburner服务的ping地址。
-这些ping地址都是国外的各大站点，如果您选用了国内Feedsky的Feed烧制服务，那么务必再添加如下地址进去：
-http://www.feedsky.com/api/RPC2
-这样即可在您发文的同时，第一时间自动向Feed服务商喊出：“嗨!我更新了，你要抓取哟！”
-PS. RSS相关不推荐您将以上所有地址全部添加进去，一是有很多用不到，二是会延缓文章发布的速度。 RSS相关发布一个推荐列表，您直接复制进去即可：
- http://rpc.pingomatic.com/
-http://api.my.yahoo.com/RPC2
-http://blogsearch.google.com/ping/RPC2
-http://rpc.newsgator.com/
-http://rpc.weblogs.com/RPC2
-http://www.feedsky.com/api/RPC2
-http://ping.feedburner.com
- ">
+">
 
   
   
@@ -80,50 +37,7 @@ http://ping.feedburner.com
     <meta name="twitter:title" content="嗨!我更新了，你要抓取哟！">
     <meta name="twitter:description" content="本文写给以WordPress搭建blog的bloggers
 当您更新了blog，一定希望订阅您blog的读者能第一时间看到您的文字。但一次次前去通知页面手动更新是非常麻烦的事情，那么怎么样能让Feed服务商的爬虫自动前来抓取您更新了的内容呢？借用WP后台的“更新服务”，我们就可以做到。
-上图即为WP后台&amp;#8211;选项&amp;#8211;撰写标签下的“更新服务”，可自动通知的站点包括各大搜索引擎，RSS聚合站和Feed服务商。Wordpress.org官方站提供了一个可选的网址列表，如下：
- http://rpc.blogrolling.com/pinger/
-http://www.blogdigger.com/RPC2
-http://www.bitacoles.net/ping.php
-http://rpc.wpkeys.com
-http://rpc.technorati.com/rpc/ping
-http://rpc.britblog.com
-http://pingoat.com/goat/RPC2
-http://bulkfeeds.net/rpc
-http://rpc.weblogs.com/RPC2
-http://api.my.yahoo.com/RPC2
-http://services.newsgator.com/ngws/xmlrpcping.aspx
-http://api.moreover.com/ping
-http://api.moreover.com/RPC2
-http://www.blogpeople.net/servlet/weblogUpdates
-http://ping.fakapster.com/rpc
-http://www.blogoon.net/ping/
-http://ping.bloggers.jp/rpc/
-http://bblog.com/ping.php
-http://rpc.tailrank.com/feedburner/RPC2
-http://ping.bitacoras.com
- http://ping.feedburner.com
-http://ping.myblog.jp
-http://ping.syndic8.com/xmlrpc.php
-http://ping.weblogalot.com/rpc.php
-http://pinger.blogflux.com/rpc
-http://blogsearch.google.com/ping/RPC2
-http://blog.goo.ne.jp/XMLRPC
-http://rpc.icerocket.com:10080
-http://rpc.pingomatic.com
-http://api.feedster.com/ping.php
- 注意其上的标注：蓝色部分为三个主要的搜索引擎站的ping地址，分别为Techonrati、Yahoo!和Google的blogsearch；红色粗体即为Feedburner服务的ping地址。
-这些ping地址都是国外的各大站点，如果您选用了国内Feedsky的Feed烧制服务，那么务必再添加如下地址进去：
-http://www.feedsky.com/api/RPC2
-这样即可在您发文的同时，第一时间自动向Feed服务商喊出：“嗨!我更新了，你要抓取哟！”
-PS. RSS相关不推荐您将以上所有地址全部添加进去，一是有很多用不到，二是会延缓文章发布的速度。 RSS相关发布一个推荐列表，您直接复制进去即可：
- http://rpc.pingomatic.com/
-http://api.my.yahoo.com/RPC2
-http://blogsearch.google.com/ping/RPC2
-http://rpc.newsgator.com/
-http://rpc.weblogs.com/RPC2
-http://www.feedsky.com/api/RPC2
-http://ping.feedburner.com
- ">
+">
     <meta name="twitter:image" content="/images/avatar.png">
   
 
@@ -132,50 +46,7 @@ http://ping.feedburner.com
   <meta property="og:title" content="嗨!我更新了，你要抓取哟！">
   <meta property="og:description" content="本文写给以WordPress搭建blog的bloggers
 当您更新了blog，一定希望订阅您blog的读者能第一时间看到您的文字。但一次次前去通知页面手动更新是非常麻烦的事情，那么怎么样能让Feed服务商的爬虫自动前来抓取您更新了的内容呢？借用WP后台的“更新服务”，我们就可以做到。
-上图即为WP后台&amp;#8211;选项&amp;#8211;撰写标签下的“更新服务”，可自动通知的站点包括各大搜索引擎，RSS聚合站和Feed服务商。Wordpress.org官方站提供了一个可选的网址列表，如下：
- http://rpc.blogrolling.com/pinger/
-http://www.blogdigger.com/RPC2
-http://www.bitacoles.net/ping.php
-http://rpc.wpkeys.com
-http://rpc.technorati.com/rpc/ping
-http://rpc.britblog.com
-http://pingoat.com/goat/RPC2
-http://bulkfeeds.net/rpc
-http://rpc.weblogs.com/RPC2
-http://api.my.yahoo.com/RPC2
-http://services.newsgator.com/ngws/xmlrpcping.aspx
-http://api.moreover.com/ping
-http://api.moreover.com/RPC2
-http://www.blogpeople.net/servlet/weblogUpdates
-http://ping.fakapster.com/rpc
-http://www.blogoon.net/ping/
-http://ping.bloggers.jp/rpc/
-http://bblog.com/ping.php
-http://rpc.tailrank.com/feedburner/RPC2
-http://ping.bitacoras.com
- http://ping.feedburner.com
-http://ping.myblog.jp
-http://ping.syndic8.com/xmlrpc.php
-http://ping.weblogalot.com/rpc.php
-http://pinger.blogflux.com/rpc
-http://blogsearch.google.com/ping/RPC2
-http://blog.goo.ne.jp/XMLRPC
-http://rpc.icerocket.com:10080
-http://rpc.pingomatic.com
-http://api.feedster.com/ping.php
- 注意其上的标注：蓝色部分为三个主要的搜索引擎站的ping地址，分别为Techonrati、Yahoo!和Google的blogsearch；红色粗体即为Feedburner服务的ping地址。
-这些ping地址都是国外的各大站点，如果您选用了国内Feedsky的Feed烧制服务，那么务必再添加如下地址进去：
-http://www.feedsky.com/api/RPC2
-这样即可在您发文的同时，第一时间自动向Feed服务商喊出：“嗨!我更新了，你要抓取哟！”
-PS. RSS相关不推荐您将以上所有地址全部添加进去，一是有很多用不到，二是会延缓文章发布的速度。 RSS相关发布一个推荐列表，您直接复制进去即可：
- http://rpc.pingomatic.com/
-http://api.my.yahoo.com/RPC2
-http://blogsearch.google.com/ping/RPC2
-http://rpc.newsgator.com/
-http://rpc.weblogs.com/RPC2
-http://www.feedsky.com/api/RPC2
-http://ping.feedburner.com
- ">
+">
   <meta property="og:url" content="https://chouj.github.io/430/">
   <meta property="og:image" content="/images/avatar.png">
 
@@ -358,107 +229,110 @@ http://ping.feedburner.com
       <h1 class="post-title">嗨!我更新了，你要抓取哟！</h1>
       <p class="post-meta">@Chouj · May 11, 2007 · 1 min read</p>
     </header>
-    <article class="post-content"><p><font color="#0000ff">本文写给以<strong><a href="http://wordpress.org/" target="_blank">WordPress</a>搭建blog</strong>的bloggers</font></p>
+    <article class="post-content"><p><font color="#0000ff">本文写给以<strong><a href="https://wordpress.org/" target="_blank">WordPress</a>搭建blog</strong>的bloggers</font></p>
 
-<p>当您更新了blog，一定希望订阅您blog的读者能第一时间看到您的文字。但一次次前去<a href="http://www.feedsky.com/ping.html" target="_blank">通知页面</a>手动更新是非常麻烦的事情，那么怎么样能让Feed服务商的爬虫自动前来抓取您更新了的内容呢？借用WP后台的“更新服务”，我们就可以做到。</p>
+<p>当您更新了blog，一定希望订阅您blog的读者能第一时间看到您的文字。但一次次前去<a href="https://www.feedsky.com/ping.html" target="_blank">通知页面</a>手动更新是非常麻烦的事情，那么怎么样能让Feed服务商的爬虫自动前来抓取您更新了的内容呢？借用WP后台的“更新服务”，我们就可以做到。</p>
 
-<p><img src="http://photo7.yupoo.com/20070508/202834_1113329269_abjehcja.jpg" title="WP更新服务-RSS相关" alt="WP更新服务-RSS相关" height="207" width="378" /></p>
+<p><img src="https://photo7.yupoo.com/20070508/202834_1113329269_abjehcja.jpg" title="WP更新服务-RSS相关" alt="WP更新服务-RSS相关" height="207" width="378" /></p>
 
-<p>上图即为WP<strong>后台</strong>&#8211;<strong>选项</strong>&#8211;<strong>撰写</strong>标签下的“更新服务”，可自动通知的站点包括各大搜索引擎，RSS聚合站和Feed服务商。Wordpress.org官方站提供了一个可选的<a href="http://codex.wordpress.org/Update_Services" target="_blank">网址列表</a>，如下：</p>
+<p>上图即为WP<strong>后台</strong>&#8211;<strong>选项</strong>&#8211;<strong>撰写</strong>标签下的“更新服务”，可自动通知的站点包括各大搜索引擎，RSS聚合站和Feed服务商。Wordpress.org官方站提供了一个可选的<a href="https://codex.wordpress.org/Update_Services" target="_blank">网址列表</a>，如下：</p>
 
 <blockquote>
-<p><a href="http://rpc.blogrolling.com/pinger/">http://rpc.blogrolling.com/pinger/</a></p>
+<p><a href="https://rpc.blogrolling.com/pinger/">https://rpc.blogrolling.com/pinger/</a></p>
 
-<p><a href="http://www.blogdigger.com/RPC2">http://www.blogdigger.com/RPC2</a></p>
+<p><a href="https://www.blogdigger.com/RPC2">https://www.blogdigger.com/RPC2</a></p>
 
-<p><a href="http://www.bitacoles.net/ping.php">http://www.bitacoles.net/ping.php</a></p>
+<p><a href="https://www.bitacoles.net/ping.php">https://www.bitacoles.net/ping.php</a></p>
 
-<p><a href="http://rpc.wpkeys.com">http://rpc.wpkeys.com</a></p>
+<p><a href="https://rpc.wpkeys.com">https://rpc.wpkeys.com</a></p>
 
-<p><font color="#3366ff"><a href="http://rpc.technorati.com/rpc/ping">http://rpc.technorati.com/rpc/ping</a></font></p>
+<p><font color="#3366ff"><a href="https://rpc.technorati.com/rpc/ping">https://rpc.technorati.com/rpc/ping</a></font></p>
 
-<p><a href="http://rpc.britblog.com">http://rpc.britblog.com</a></p>
+<p><a href="https://rpc.britblog.com">https://rpc.britblog.com</a></p>
 
-<p><a href="http://pingoat.com/goat/RPC2">http://pingoat.com/goat/RPC2</a></p>
+<p><a href="https://pingoat.com/goat/RPC2">https://pingoat.com/goat/RPC2</a></p>
 
-<p><a href="http://bulkfeeds.net/rpc">http://bulkfeeds.net/rpc</a></p>
+<p><a href="https://bulkfeeds.net/rpc">https://bulkfeeds.net/rpc</a></p>
 
-<p><a href="http://rpc.weblogs.com/RPC2">http://rpc.weblogs.com/RPC2</a></p>
+<p><a href="https://rpc.weblogs.com/RPC2">https://rpc.weblogs.com/RPC2</a></p>
 
-<p><font color="#3366ff"><a href="http://api.my.yahoo.com/RPC2">http://api.my.yahoo.com/RPC2</a></font></p>
+<p><font color="#3366ff"><a href="https://api.my.yahoo.com/RPC2">https://api.my.yahoo.com/RPC2</a></font></p>
 
-<p><a href="http://services.newsgator.com/ngws/xmlrpcping.aspx">http://services.newsgator.com/ngws/xmlrpcping.aspx</a></p>
+<p><a href="https://services.newsgator.com/ngws/xmlrpcping.aspx">https://services.newsgator.com/ngws/xmlrpcping.aspx</a></p>
 
-<p><a href="http://api.moreover.com/ping">http://api.moreover.com/ping</a></p>
+<p><a href="https://api.moreover.com/ping">https://api.moreover.com/ping</a></p>
 
-<p><a href="http://api.moreover.com/RPC2">http://api.moreover.com/RPC2</a></p>
+<p><a href="https://api.moreover.com/RPC2">https://api.moreover.com/RPC2</a></p>
 
-<p><a href="http://www.blogpeople.net/servlet/weblogUpdates">http://www.blogpeople.net/servlet/weblogUpdates</a></p>
+<p><a href="https://www.blogpeople.net/servlet/weblogUpdates">https://www.blogpeople.net/servlet/weblogUpdates</a></p>
 
-<p><a href="http://ping.fakapster.com/rpc">http://ping.fakapster.com/rpc</a></p>
+<p><a href="https://ping.fakapster.com/rpc">https://ping.fakapster.com/rpc</a></p>
 
-<p><a href="http://www.blogoon.net/ping/">http://www.blogoon.net/ping/</a></p>
+<p><a href="https://www.blogoon.net/ping/">https://www.blogoon.net/ping/</a></p>
 
-<p><a href="http://ping.bloggers.jp/rpc/">http://ping.bloggers.jp/rpc/</a></p>
+<p><a href="https://ping.bloggers.jp/rpc/">https://ping.bloggers.jp/rpc/</a></p>
 
-<p><a href="http://bblog.com/ping.php">http://bblog.com/ping.php</a></p>
+<p><a href="https://bblog.com/ping.php">https://bblog.com/ping.php</a></p>
 
-<p><a href="http://rpc.tailrank.com/feedburner/RPC2">http://rpc.tailrank.com/feedburner/RPC2</a></p>
+<p><a href="https://rpc.tailrank.com/feedburner/RPC2">https://rpc.tailrank.com/feedburner/RPC2</a></p>
 
-<p><a href="http://ping.bitacoras.com">http://ping.bitacoras.com</a></p>
+<p><a href="https://ping.bitacoras.com">https://ping.bitacoras.com</a></p>
 
-<p><font color="#ff0000"><strong> <a href="http://ping.feedburner.com">http://ping.feedburner.com</a></strong></font></p>
+<p><font color="#ff0000"><strong> <a href="https://ping.feedburner.com">https://ping.feedburner.com</a></strong></font></p>
 
-<p><a href="http://ping.myblog.jp">http://ping.myblog.jp</a></p>
+<p><a href="https://ping.myblog.jp">https://ping.myblog.jp</a></p>
 
-<p><a href="http://ping.syndic8.com/xmlrpc.php">http://ping.syndic8.com/xmlrpc.php</a></p>
+<p><a href="https://ping.syndic8.com/xmlrpc.php">https://ping.syndic8.com/xmlrpc.php</a></p>
 
-<p><a href="http://ping.weblogalot.com/rpc.php">http://ping.weblogalot.com/rpc.php</a></p>
+<p><a href="https://ping.weblogalot.com/rpc.php">https://ping.weblogalot.com/rpc.php</a></p>
 
-<p><a href="http://pinger.blogflux.com/rpc">http://pinger.blogflux.com/rpc</a></p>
+<p><a href="https://pinger.blogflux.com/rpc">https://pinger.blogflux.com/rpc</a></p>
 
-<p><font color="#3366ff"><a href="http://blogsearch.google.com/ping/RPC2">http://blogsearch.google.com/ping/RPC2</a></font></p>
+<p><font color="#3366ff"><a href="https://blogsearch.google.com/ping/RPC2">https://blogsearch.google.com/ping/RPC2</a></font></p>
 
-<p><a href="http://blog.goo.ne.jp/XMLRPC">http://blog.goo.ne.jp/XMLRPC</a></p>
+<p><a href="https://blog.goo.ne.jp/XMLRPC">https://blog.goo.ne.jp/XMLRPC</a></p>
 
-<p><a href="http://rpc.icerocket.com:10080">http://rpc.icerocket.com:10080</a></p>
+<p><a href="https://rpc.icerocket.com:10080">https://rpc.icerocket.com:10080</a></p>
 
-<p><a href="http://rpc.pingomatic.com">http://rpc.pingomatic.com</a></p>
+<p><a href="https://rpc.pingomatic.com">https://rpc.pingomatic.com</a></p>
 
-<p><a href="http://api.feedster.com/ping.php">http://api.feedster.com/ping.php</a></p>
+<p><a href="https://api.feedster.com/ping.php">https://api.feedster.com/ping.php</a></p>
 </blockquote>
 
-<p>注意其上的标注：蓝色部分为三个主要的搜索引擎站的ping地址，分别为<a href="http://Technorati.com" target="_blank">Techonrati</a>、<a href="http://www.yahoo.com" target="_blank">Yahoo!</a>和<a href="http://blogsearch.google.com" target="_blank">Google的blogsearch</a>；红色粗体即为<a href="http://www.feedburner.com" target="_blank">Feedburner</a>服务的ping地址。</p>
+<p>注意其上的标注：蓝色部分为三个主要的搜索引擎站的ping地址，分别为<a href="https://Technorati.com" target="_blank">Techonrati</a>、<a href="https://www.yahoo.com" target="_blank">Yahoo!</a>和<a href="https://blogsearch.google.com" target="_blank">Google的blogsearch</a>；红色粗体即为<a href="https://www.feedburner.com" target="_blank">Feedburner</a>服务的ping地址。</p>
 
-<p>这些ping地址都是国外的各大站点，如果您选用了国内<a href="http://www.feedsky.com" target="_blank">Feedsky</a>的Feed烧制服务，那么务必再<strong>添加</strong>如下地址进去：</p>
+<p>这些ping地址都是国外的各大站点，如果您选用了国内<a href="https://www.feedsky.com" target="_blank">Feedsky</a>的Feed烧制服务，那么务必再<strong>添加</strong>如下地址进去：</p>
 
-<p><strong><font color="#ff0000"><a href="http://www.feedsky.com/api/RPC2">http://www.feedsky.com/api/RPC2</a></font></strong></p>
+<p><strong><font color="#ff0000"><a href="https://www.feedsky.com/api/RPC2">https://www.feedsky.com/api/RPC2</a></font></strong></p>
 
 <p>这样即可在您发文的同时，第一时间自动向Feed服务商喊出：“<font color="#ff0000">嗨!我更新了，你要抓取哟！</font>”</p>
 
-<p>PS. <a href="http://aboutrss.cn">RSS相关</a><font color="#3366ff"><strong>不推荐</strong></font>您将以上所有地址全部添加进去，一是<font color="#3366ff">有很多用不到</font>，二是<font color="#3366ff">会延缓文章发布的速度</font>。 <a href="http://aboutrss.cn">RSS相关</a>发布一个推荐列表，您直接复制进去即可：</p>
+<p>PS. <a href="https://xuchi.name/categories/rss%E7%9B%B8%E5%85%B3/">RSS相关</a><font color="#3366ff"><strong>不推荐</strong></font>您将以上所有地址全部添加进去，一是<font color="#3366ff">有很多用不到</font>，二是<font color="#3366ff">会延缓文章发布的速度</font>。 <a href="https://xuchi.name/categories/rss%E7%9B%B8%E5%85%B3/">RSS相关</a>发布一个推荐列表，您直接复制进去即可：</p>
 
 <blockquote>
-<p><a href="http://rpc.pingomatic.com/">http://rpc.pingomatic.com/</a></p>
+<p><a href="https://rpc.pingomatic.com/">https://rpc.pingomatic.com/</a></p>
 
-<p><a href="http://api.my.yahoo.com/RPC2">http://api.my.yahoo.com/RPC2</a></p>
+<p><a href="https://api.my.yahoo.com/RPC2">https://api.my.yahoo.com/RPC2</a></p>
 
-<p><a href="http://blogsearch.google.com/ping/RPC2">http://blogsearch.google.com/ping/RPC2</a></p>
+<p><a href="https://blogsearch.google.com/ping/RPC2">https://blogsearch.google.com/ping/RPC2</a></p>
 
-<p><a href="http://rpc.newsgator.com/">http://rpc.newsgator.com/</a></p>
+<p><a href="https://rpc.newsgator.com/">https://rpc.newsgator.com/</a></p>
 
-<p><a href="http://rpc.weblogs.com/RPC2">http://rpc.weblogs.com/RPC2</a></p>
+<p><a href="https://rpc.weblogs.com/RPC2">https://rpc.weblogs.com/RPC2</a></p>
 
-<p><a href="http://www.feedsky.com/api/RPC2">http://www.feedsky.com/api/RPC2</a></p>
+<p><a href="https://www.feedsky.com/api/RPC2">https://www.feedsky.com/api/RPC2</a></p>
 
-<p><a href="http://ping.feedburner.com">http://ping.feedburner.com</a></p>
-</blockquote>
-</article>
+<p><a href="https://ping.feedburner.com">https://ping.feedburner.com</a></p>
+</blockquote></article>
     <footer class="post-footer">
       
       <ul class="post-tags">
         
           <li><a href="https://chouj.github.io/tags/feedburner"><span class="tag">Feedburner</span></a></li>
+        
+          <li><a href="https://chouj.github.io/tags/wordpress"><span class="tag">WordPress</span></a></li>
+        
+          <li><a href="https://chouj.github.io/tags/%E6%95%99%E7%A8%8B"><span class="tag">教程</span></a></li>
         
           <li><a href="https://chouj.github.io/tags/feedsky"><span class="tag">Feedsky</span></a></li>
         
@@ -467,7 +341,7 @@ http://ping.feedburner.com
       </ul>
       
       <p class="post-copyright">
-        © This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.This post was published <strong>4661</strong> days ago, content in the post may be inaccurate, even wrong now, please take risk yourself.
+        © This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.This post was published <strong>4682</strong> days ago, content in the post may be inaccurate, even wrong now, please take risk yourself.
       </p>
     </footer>
     

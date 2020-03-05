@@ -37,12 +37,51 @@
     </item>
     
     <item>
+      <title>[WP插件]BetterFeed使用指南</title>
+      <link>https://chouj.github.io/470/</link>
+      <pubDate>Thu, 25 Oct 2007 13:04:48 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/470/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://s.w.org/style/images/about/WordPress-logotype-alternative.png&#34; title=&#34;WordPress&#34; alt=&#34;WordPress&#34; height=&#34;112&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;除了&lt;a href=&#34;https://xuchi.name/469/&#34; title=&#34;[WP插件]©Feed指南及其汉化版&#34;&gt;上文&lt;/a&gt;介绍的WordPress&lt;a href=&#34;https://wordpress.org/extend/plugins/copyfeed/&#34; title=&#34;©Feed&#34;&gt;©Feed&lt;/a&gt;，&lt;a href=&#34;https://planetozh.com/blog/my-projects/wordpress-plugin-better-feed-rss/&#34; title=&#34;Wordpress Plugin : Better Feed&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;BetterFeed&lt;/strong&gt;&lt;/a&gt;也是一款用于更改Feed footer信息的强大插件。两者相比，前者具备Option界面，使用上比较傻瓜，后者则需要自己编辑插件部分代码；但前者不支持php语言调用，后者则可借助php参数调用，为feed添加进更有针对性、更智能的信息。所以说，两个插件各有优劣，不过，&lt;strong&gt;切勿同时启用&lt;/strong&gt;。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[WP插件]©Feed指南及其汉化版</title>
+      <link>https://chouj.github.io/469/</link>
+      <pubDate>Wed, 17 Oct 2007 12:16:45 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/469/</guid>
+      <description>&lt;p&gt;适用于WordPress的&lt;strong&gt;&lt;a href=&#34;https://wordpress.org/extend/plugins/copyfeed/&#34; title=&#34;©Feed&#34;&gt;©Feed&lt;/a&gt;&lt;/strong&gt;插件功能强大，可在feed footer添加&lt;strong&gt;版权声明&lt;/strong&gt;、&lt;strong&gt;数字指纹、文章留言&lt;/strong&gt;、&lt;strong&gt;相关文章标题&lt;/strong&gt;，还可以控制feed&lt;strong&gt;是否全文输出&lt;/strong&gt;，因而很多bloggers都安装并启用了这款插件。现在，为方便国内用户，&lt;a href=&#34;https://angryouth.com/&#34; title=&#34;愤青团&#34;&gt;Anthony&lt;/a&gt;汉化了该插件，请有需要的朋友移步至此下载：&lt;/p&gt;
+
+&lt;p align=&#34;center&#34;&gt;
+  [ &lt;a href=&#34;https://www.angryouth.com/2007/10/15/copyrightfeed-chinese/&#34; title=&#34;CopyRightFeed 汉化版&#34; target=&#34;_blank&#34;&gt;点此进入&lt;strong&gt;©Feed汉化版&lt;/strong&gt;下载页&lt;/a&gt; ]
+&lt;/p&gt;
+
+&lt;p align=&#34;center&#34;&gt;
+  &amp;nbsp;
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>[图文教程]用Feed43给目录页或标签页添个Feed</title>
       <link>https://chouj.github.io/465/</link>
       <pubDate>Sat, 22 Sep 2007 12:35:50 +0000</pubDate>
       
       <guid>https://chouj.github.io/465/</guid>
       <description>&lt;p&gt;&lt;span style=&#34;text-decoration: line-through;&#34;&gt;WordPress架构下的目录页和标签页不支持Feed输出。&lt;/span&gt;当我们想&lt;strong&gt;让自己的目录也支持Feed输出&lt;/strong&gt;，或者，当我们只对blog某目录下的文章感兴趣的时候，&lt;strong&gt;想订阅这个目录&lt;/strong&gt;，该怎么办呢？我们可以借助&lt;a title=&#34;HTML2RSS线上工具收集&#34; href=&#34;https://xuchi.name/62/&#34; target=&#34;_blank&#34;&gt;HTML2RSS工具&lt;/a&gt;来实现！&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>嗨!我更新了，你要抓取哟！</title>
+      <link>https://chouj.github.io/430/</link>
+      <pubDate>Fri, 11 May 2007 00:51:45 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/430/</guid>
+      <description>&lt;p&gt;&lt;font color=&#34;#0000ff&#34;&gt;本文写给以&lt;strong&gt;&lt;a href=&#34;https://wordpress.org/&#34; target=&#34;_blank&#34;&gt;WordPress&lt;/a&gt;搭建blog&lt;/strong&gt;的bloggers&lt;/font&gt;&lt;/p&gt;
+
+&lt;p&gt;当您更新了blog，一定希望订阅您blog的读者能第一时间看到您的文字。但一次次前去&lt;a href=&#34;https://www.feedsky.com/ping.html&#34; target=&#34;_blank&#34;&gt;通知页面&lt;/a&gt;手动更新是非常麻烦的事情，那么怎么样能让Feed服务商的爬虫自动前来抓取您更新了的内容呢？借用WP后台的“更新服务”，我们就可以做到。&lt;/p&gt;</description>
     </item>
     
   </channel>
