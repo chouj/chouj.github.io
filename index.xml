@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
-    <lastBuildDate>Thu, 13 Feb 2020 17:05:56 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 08 Mar 2020 21:36:32 +0800</lastBuildDate>
     
 	<atom:link href="https://chouj.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -19,6 +19,15 @@
       
       <guid>https://chouj.github.io/links/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>用MATLAB生成RSS Feed文件（.XML格式）的.m脚本</title>
+      <link>https://chouj.github.io/generate-rss-feed-by-matlab/</link>
+      <pubDate>Sun, 08 Mar 2020 21:36:32 +0800</pubDate>
+      
+      <guid>https://chouj.github.io/generate-rss-feed-by-matlab/</guid>
+      <description>&lt;p&gt;因为&lt;a href=&#34;https://xuchi.name/scs-eddies-today/&#34;&gt;“今日南海中尺度涡”&lt;/a&gt;是一个每日更新的项目，所以希望能在它自动更新后获得即时推送。觉得有两条路：要么直接在项目的执行脚本里加上一段，输出一个&lt;code&gt;XML&lt;/code&gt;后缀的&lt;a href=&#34;https://xuchi.name/categories/rss%E7%9B%B8%E5%85%B3/&#34;&gt;RSS&lt;/a&gt; Feed文件，这样直接用RSS阅读器订阅这个Feed就好了；要么想办法通过&lt;code&gt;Webhook&lt;/code&gt;激活企业版微信机器人，实现在企业版微信群的推送。不过，第二条路的可行性未知。先搞定第一条路再说。&lt;/p&gt;</description>
     </item>
     
     <item>
