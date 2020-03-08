@@ -124,10 +124,13 @@ Powered by ScribeFire. </description>
       <pubDate>Wed, 28 Mar 2007 09:46:48 +0000</pubDate>
       
       <guid>https://chouj.github.io/419/</guid>
-      <description>从盗盗那里再度发现有关RSS的新鲜服务，这次RSS的伙伴是风靡全球的Twitter。
-只要是Twitter用户，就可在这个站登录。她实现的功能就是：通过RSS，将最新的网志发布到Twitter上去，把Twitter变成了在线RSS阅读器，或者说是最新网志发布平台。而发布哪些RSS，全凭用户登录后在后台的订阅，可订阅多个RSS，也可对已订阅的RSS去订。
-Blogging的Twitter用户还不赶紧去试试？
-点击进入</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.rss2twitter.com/&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://pbs.twimg.com/profile_images/259261385/rss2twitter_square_400x400.png&#34; border=&#34;0&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;font size=&#34;5&#34;&gt;&lt;font style=&#34;font-weight: bold&#34;&gt;从&lt;/font&gt;&lt;/font&gt;&lt;a href=&#34;https://www.showeb20.com/&#34; target=&#34;_blank&#34;&gt;盗盗&lt;/a&gt;那里再度发现有关RSS的新鲜服务，这次RSS的伙伴是风靡全球的&lt;a href=&#34;https://twitter.com/&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;font size=&#34;5&#34;&gt;&lt;font style=&#34;font-weight: bold&#34;&gt;只&lt;/font&gt;&lt;/font&gt;要是&lt;a href=&#34;https://twitter.com/&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt;用户，就可在这个站登录。她实现的功能就是：通过RSS，将最新的网志发布到&lt;a href=&#34;https://twitter.com/&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt;上去，把&lt;a href=&#34;https://twitter.com/&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt;变成了在线RSS阅读器，或者说是最新网志发布平台。而发布哪些RSS，全凭用户登录后在后台的订阅，可订阅多个RSS，也可对已订阅的RSS去订。&lt;/p&gt;
+
+&lt;p&gt;Blogging的Twitter用户还不赶紧去试试？&lt;/p&gt;</description>
     </item>
     
   </channel>

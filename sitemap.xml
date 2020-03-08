@@ -8,6 +8,12 @@
   </url>
   
   <url>
+    <loc>https://xuchi.name/categories/</loc>
+    <lastmod>2020-03-08T21:36:32+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://xuchi.name/posts/</loc>
     <lastmod>2020-03-08T21:36:32+08:00</lastmod>
     <priority>0</priority>
@@ -15,6 +21,12 @@
   
   <url>
     <loc>https://xuchi.name/tags/rss/</loc>
+    <lastmod>2020-03-08T21:36:32+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://xuchi.name/categories/rss%E7%9B%B8%E5%85%B3/</loc>
     <lastmod>2020-03-08T21:36:32+08:00</lastmod>
     <priority>0</priority>
   </url>
@@ -141,20 +153,8 @@
   </url>
   
   <url>
-    <loc>https://xuchi.name/categories/</loc>
-    <lastmod>2019-08-25T16:21:59+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://xuchi.name/rss_com/</loc>
     <lastmod>2019-08-25T16:21:59+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://xuchi.name/categories/rss%E7%9B%B8%E5%85%B3/</loc>
-    <lastmod>2019-08-25T16:21:59+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -3032,12 +3032,6 @@
   </url>
   
   <url>
-    <loc>https://xuchi.name/categories/%E6%96%B0%E9%97%BB/</loc>
-    <lastmod>2007-07-24T13:32:52+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://xuchi.name/tags/feed-dance/</loc>
     <lastmod>2007-07-24T13:12:14+00:00</lastmod>
     <priority>0</priority>
@@ -3190,6 +3184,12 @@
   
   <url>
     <loc>https://xuchi.name/tags/xna/</loc>
+    <lastmod>2007-07-05T16:46:28+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://xuchi.name/categories/%E6%96%B0%E9%97%BB/</loc>
     <lastmod>2007-07-05T16:46:28+00:00</lastmod>
     <priority>0</priority>
   </url>
