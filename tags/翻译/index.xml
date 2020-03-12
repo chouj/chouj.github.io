@@ -82,15 +82,29 @@
     </item>
     
     <item>
+      <title>[翻译]为什么要用Feedburner的十大理由</title>
+      <link>https://chouj.github.io/458/</link>
+      <pubDate>Sun, 02 Sep 2007 13:29:27 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/458/</guid>
+      <description>&lt;p&gt;原文：&lt;a href=&#34;https://moblogsmoproblems.blogspot.com/2007/08/10-ways-you-can-use-feedburner-to.html&#34;&gt;10 Ways You Can Use Feedburner to Improve Your Blog&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;作者：&lt;em&gt;Mack Collier&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;翻译：&lt;a href=&#34;https://xuchi.name/&#34; title=&#34;抽筋儿&#34; target=&#34;_blank&#34;&gt;抽筋儿 &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://bp1.blogger.com/_S_50sh4glvU/RrU0GQep7fI/AAAAAAAAAJA/kIITPv2Vz6o/s1600-h/FB.gif&#34;&gt;&lt;img src=&#34;https://bp1.blogger.com/_S_50sh4glvU/RrU0GQep7fI/AAAAAAAAAJA/kIITPv2Vz6o/s320/FB.gif&#34; style=&#34;margin: 0pt 0pt 10px 10px; float: right&#34; border=&#34;0&#34; /&gt;&lt;/a&gt;还在今年二月的时候，我就注意到一个有趣的现象：我的Feed读者赶上了我的日访者数。这值得我注意，我开始花费更多的时间来分析Feed统计数据，我也花掉大量的时间来研究&lt;a href=&#34;https://www.feedburner.com/&#34;&gt;Feedburner&lt;/a&gt;，我很快就发现Feedburner拥有一大堆丰富的功能来让bloggers传播、优化和追踪他们发布的内容。&lt;/p&gt;
+
+&lt;p&gt;1 &amp;#8211; &lt;span style=&#34;font-weight: bold&#34;&gt;烧制一个Feed。&lt;/span&gt;只要免费注册一个帐号，给Feed想一个好名字，(&lt;a href=&#34;https://feeds.feedburner.com/你的blog名)就可以烧制啦。一旦你拥有了一个烧制的feed……&#34;&gt;https://feeds.feedburner.com/你的blog名)就可以烧制啦。一旦你拥有了一个烧制的feed……&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>[翻译]RSS价值高于博客</title>
       <link>https://chouj.github.io/449/</link>
       <pubDate>Tue, 31 Jul 2007 08:57:00 +0000</pubDate>
       
       <guid>https://chouj.github.io/449/</guid>
-      <description>于7月25日发表的Forrester研究报告表明，在众多Web 2.0应用中，RSS技术价值最高。四月至六月，有275位IT界的决策者接受了研究报告的调查。
-23%的被调查对象认为RSS具有实质性的商业价值，三分之一的人为营销而使用RSS。排在RSS之后的最具价值Web 2.0应用为播客，有21%的被调查对象认同。
-相对而言，只有11%的人认为写博客有助于实质性商业价值的传播。还有14%的人说他们的企业并不评测Web 2.0应用的商业价值。但即便评测Web 2.0应用价值的公司，还是侧重依赖于传统的商业价值衡量方法，例如投资收益率和总购置成本。
-[via] 不知道翻译的对不对，- -#</description>
+      <description>&lt;p&gt;于7月25日发表的&lt;a href=&#34;https://www.forrester.com/Research/Document/Excerpt/0,7211,42814,00.html&#34; target=&#34;_blank&#34;&gt;Forrester研究报告&lt;/a&gt;表明，在众多Web 2.0应用中，RSS技术价值最高。四月至六月，有275位IT界的决策者接受了研究报告的调查。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -99,21 +113,11 @@
       <pubDate>Sun, 25 Feb 2007 07:24:00 +0000</pubDate>
       
       <guid>https://chouj.github.io/226/</guid>
-      <description>Welcome to YourID.name
-线下，每个人都会有出生证明；在这里，您将享受线上的身份证明服务。
-您获取了什么信息，这些信息的用途，怎么能联系到您……我们将把您的这些网上信息捆绑起来加以个人化，并协助您管理您的网上身份。我们能让友善的人更加容易的找到您，而让坏蛋难于非法获取、使用您的个人信息。
-为了更好的建立网上的身份数据和享用个人服务，我们将为您激活您的网上私人地址，这一地址包括一个.name域名和可伴随一生的建立在您自己域名上的电子邮箱。并且，配送一个Openid以进行个人身份管理，您也可以选择Pageflakes提供的个人网页服务。
-试用服务为90天，您会喜欢上这项服务的。
-什么是OpenID ?
-您可将您的OpenID视为您的线上身份管理库。有了OpenID, 您就可以对提交给各个站点的个人信息加以控制。对于不同的网络服务，您再也不需记住不同的个人密码，而且，当你注册新的站点新的服务时，再也不用一次一次的输入繁琐的个人信息。
-可进行提交和分享的个人信息都存储在您的Openid中，而您有权对向谁提交什么信息进行控制。您的密码不会透露给任何人或单位，只有您知道它，即使您使用OpenID登录的站点都不会获知您的密码。
-有了OpenID，您的所有线上身份都将受您掌控。现在就利用OpenID来进行管理吧！
-.name &amp;#8211; 您一生的个人地址
-对于个人一生享用的网上身份来说，获得一个个人的点name域名和基于此域名的电子信箱是每个人梦寐以求的。为了方便录入和记忆，以您的姓名构建的点name域名地址同时也是您的OpenID。
-以基于个人点name域名的信箱作为您一生的电子信箱地址，既彰显个性，又极具魅力和纪念意义。对于您的朋友和家人来说，这表明您再也不会更改邮箱地址了。同时无论您使用Hotmail、Yahoo、Gmail还是其他网络服务商、邮箱服务商，他们都能在这一统一的，个人的地址联系到您。
-如何使用?  您的Open ID是基于您所申请的点name域名的, 比方说,您申请到的点name域名为peter.morgan.name，则您的OpenID即peter.morgan.name。当您需要登入支持OpenID的站点，只需提交您的个人点name域名地址，然后该站点会自动联入OpenID服务器以寻求您的认证。如果您需要，服务器将要求您决定哪些信息可提交给站点，而您仅仅需要登录OpenID一次。
-&amp;lt;p&amp;gt; 如果您的点name域名为peter.morgan.name，您的个人信箱即为peter@morgan.name。如果您仍使用其他信箱，您可设定将其他信箱的信件转交给此地址，或者反之。&amp;lt;span style=&amp;quot;color: #666666;&amp;quot;&amp;gt;（此段为抽筋儿添加，:-P）&amp;lt;/span&amp;gt; &amp;lt;/p&amp;gt;   
-对FreeYourID.com进行的翻译，算是免费打广告了。橙色部分最为诱人，可惜只能适用三个月。（待续）</description>
+      <description>&lt;p&gt;线下，每个人都会有出生证明；在这里，您将享受线上的身份证明服务。&lt;/p&gt;
+
+&lt;p&gt;您获取了什么信息，这些信息的用途，怎么能联系到您……我们将把您的这些网上信息捆绑起来加以个人化，并协助您管理您的网上身份。我们能让友善的人更加容易的找到您，而让坏蛋难于非法获取、使用您的个人信息。&lt;/p&gt;
+
+&lt;p&gt;为了更好的建立网上的身份数据和享用个人服务，我们将为您激活您的网上私人地址，这一地址&lt;span style=&#34;color: #ff6600;&#34;&gt;包括一个.name域名和可伴随一生的建立在您自己域名上的电子邮箱&lt;/span&gt;。并且，&lt;span style=&#34;color: #ff6600;&#34;&gt;配送一个Openid&lt;/span&gt;以进行个人身份管理，您也可以选择Pageflakes提供的个人网页服务。&lt;/p&gt;</description>
     </item>
     
   </channel>

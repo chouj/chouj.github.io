@@ -31,11 +31,7 @@
       <pubDate>Mon, 07 May 2007 12:55:00 +0000</pubDate>
       
       <guid>https://chouj.github.io/253/</guid>
-      <description>眼红于武大的博客聚合，在网络上苦搜RSS聚合程序。发现武大的是通过基于ASP的SXNA构架的，OK，PHP下一定也有一样的程序，果不其然被我搞到手，呵呵。捣腾这些东西貌似有一种蹂躏的快感，嗯，名曰天生BT。
- 先入眼的就是这个Lilina，辉常好听的名字,需要 php4.3 + mbstring iconv支持，这里就是拿这玩意儿架的。试装一遍，木成功，估计是支持不够。后来发现其发育不良，主题插件都不完善，技术支持也基本没有。八成是日落西山，门前冷落了。再度寻觅ing。
-Gregarius
-马上，这玩意儿入眼了。随便介绍一下哈，Gregarius基本可以当作是自己架的抓虾，想看例子的到这里。主要缺陷是对中文的支持不大好，即便是汉化版，目前我正在四处求教中，拟解决一些中文显示的问题。
-最后倒是又听说还有个Feedonfeeds的聚合程序，不知道咋样，貌似Riku用过。先记这么多。</description>
+      <description>&lt;p&gt;&lt;span style=&#34;font-size:180%;&#34;&gt;眼&lt;/span&gt;红于武大的&lt;a href=&#34;https://www.whublog.com/&#34;&gt;&lt;span style=&#34;font-weight: bold;&#34;&gt;博客聚合&lt;/span&gt;&lt;/a&gt;，在网络上苦搜RSS聚合程序。发现武大的是通过基于ASP的&lt;a href=&#34;https://www.sxna.cn/&#34;&gt;SXNA&lt;/a&gt;构架的，OK，PHP下一定也有一样的程序，果不其然被我搞到手，呵呵。捣腾这些东西貌似有一种蹂躏的快感，嗯，名曰天生BT。&lt;/p&gt;</description>
     </item>
     
   </channel>

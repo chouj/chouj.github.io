@@ -72,6 +72,16 @@ JUL 24 2019 updated:
     </item>
     
     <item>
+      <title>FeedNest：让Twitter播报feed的又一工具</title>
+      <link>https://chouj.github.io/155/</link>
+      <pubDate>Sat, 27 Jun 2009 07:25:55 +0000</pubDate>
+      
+      <guid>https://chouj.github.io/155/</guid>
+      <description>FeedNest是一款非常简单的即时同步RSS更新条目到微博客鼻祖Twitter的服务，只要提交RSS Feed地址和用于播报的Twitter账号密码就好。具体功能比方说，为你刚写的博文自动在你的twitter账号上进行播报，打造天气预报、新闻等的Twitter自动播送账号以供follow，将饭否的消息同步到Twitter，etc. 来个界面截图先：
+提交后滴提示：</description>
+    </item>
+    
+    <item>
       <title>RSSFriends：实现Twitter (un)followers的变化跟踪</title>
       <link>https://chouj.github.io/520/</link>
       <pubDate>Sun, 05 Apr 2009 08:34:05 +0000</pubDate>
@@ -100,22 +110,13 @@ JUL 24 2019 updated:
       <pubDate>Sun, 01 Jul 2007 18:01:08 +0000</pubDate>
       
       <guid>https://chouj.github.io/438/</guid>
-      <description>这几个月以来,RSS的消息一直像是沸水里的气泡，喷薄而出，炽炎之热，咄咄逼人。
-[鲜果阅读器]
-既鲜果离线阅读器之后，鲜果在线横空出世，这可引发了RSS阅读器评测比较、阅读器发展模式探讨的浪潮。
-大家公认（1、2、3、4）鲜果具备Google Reader和抓虾的特点，比如支持快捷键，具备社会化元素；抓虾饱受争议的转型和稳定性、Google Reader的撞墙问题，以及狗狗的被收购，又使鲜果拥有了良好的上线时机。但一个阅读器的发展，包括方方面面。作为用户，守望、启羁、WebLeOn都提到，良好的用户体验中重要的是稳定性，包括feed抓取速度和访问速度，用户越多，鲜果的稳定性越值得考验。而阅读器未来发展的模式同样值得大家探讨。曹增辉和吕欣欣都不大看好阅读器市场，因为阅读器市场较低的进入门槛，前者还是支持阅读体验纯粹的Google Reader，后者则为“鲜果在这个领域准备坚持努力的决心，和开放合作的态度”，选择支持他们。狂风则认为鲜果若能先模仿后超越，定可后来居上。WebLeOn在考虑阅读器的走向到底应该纯工具化还是应该伴随服务推送；长天暮鼓给的答案是，看好抓虾的内容分类推送，支持RSS应用的多元化，同时也给出了阅读器盈利模式的建议。
-[抓虾风波]
-抓虾目前事故不少。27号在饭否上看到和菜头说抓虾访问不能，结果是因为光纤断掉；就在写这篇的时候，我又看到Angelived同学在质问：“抓虾怎么不抓了？”。更加严重的貌似是关于抓虾是否盗用bloggers内容的讨论，（1、2、3）。我个人认为值得看看的，还是优比客的用抓虾订阅博客的十大理由。
-[RSS未来之路]
-关于RSS应用现状和未来发展的探讨、诠释从来就没有停止过，六月中魏武挥有两篇非常优秀的文章值得一看：《RSS的兴旺：当它不再是RSS》、《RSS阅读：前景何在？》。文章告诉我们目前RSS应用依然十分小众，受技术门槛和需求的影响，这一现象可能将长久存在，而RSS又在一定程度上阻碍了交互功能而使得其发展局面陷入困顿之中。
-[RSS使用技巧]
-如何在信息爆炸之中摘取有价值信息，而不是被冲击得体无完肤，已经受到较多的关注。旁观者郑钧介绍了三种信息过滤的方法，可供参考；Angelived则告诉大家如何给RSS阅读器减肥。
-84同学定是尝到了RSS阅读的甜头，不遗余力得推广RSS Feed订阅，我们要感谢他；老前则告诉我们如何理解Feed订阅数的小波小动；曾英杰是个好同志，收集了能给你博客带去流量的77个中外RSS目录，想提交Feed地址到收录站点的朋友，看这篇准没错；博客学堂的Rss订阅统计相当帅气，您可以到这一篇《个性化博客RSS订阅统计状态》中学习学习。
-[RSS新应用]
+      <description>&lt;p&gt;&lt;big&gt;&lt;big&gt;这&lt;/big&gt;&lt;/big&gt;几个月以来,&lt;strong&gt;RSS&lt;/strong&gt;的消息一直像是沸水里的气泡，喷薄而出，炽炎之热，咄咄逼人。&lt;/p&gt;
 
-新应用多了去了。xFruits再次发威，发布第11个应用，RSS to My Blog（1，2），能够把RSS Feed内容发布到Blog或CMS系统中去；Feedster发布了2.0版本，可以将blog搜索结果以widget形式挂出来；盗盗这次教我们一个方法，巧用Yahoo Pipes翻译烧制RSS Feed，对订阅英文文章的朋友会有帮助；Geuro介绍了一款服务twitterfeed，可将Feed内容自动发布到twitter； hhalloyy发现了一个简单输出Feed条目标题的服务：FeedMeplz；Adobe air程序渐渐增多，Riku介绍了一款基于此技术的RSS阅读器，名为Fresh；在臭豆的指引下(XD),盗盗发现了提供RSS聚合烧制服务的Feedtwister；RSS和煎蛋也有密切关系啊，煎蛋编辑找到了两个好东东，一是视频网站专用 RSS 阅读器——Democracy Player，一是30 款免费 水晶透明型RSS订阅图标，很实用的哦。
-不知道您是否喜欢这期草莓版文章汇集呢？可以留言告诉我。我阅读范围有限，有好文章也可以告诉我哦！
-Powered by ScribeFire. </description>
+&lt;p&gt;[&lt;strong&gt;鲜果阅读器&lt;/strong&gt;]&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://a4.att.hudong.com/28/01/50200009239445155571010790400_s.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;big&gt;&lt;big&gt;既&lt;/big&gt;&lt;/big&gt;&lt;a href=&#34;https://www.myholo.com/tools/berryreader/index.html&#34;&gt;鲜果离线阅读器&lt;/a&gt;之后，&lt;strong&gt;&lt;a href=&#34;https://www.xianguo.com/&#34;&gt;鲜果在线&lt;/a&gt;&lt;/strong&gt;横空出世，这可引发了RSS阅读器评测比较、阅读器发展模式探讨的浪潮。&lt;/p&gt;</description>
     </item>
     
     <item>

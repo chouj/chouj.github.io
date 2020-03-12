@@ -266,11 +266,7 @@ Warning: Cannot modify header information &amp;#8211; headers already sent by �
       <pubDate>Mon, 07 May 2007 12:55:00 +0000</pubDate>
       
       <guid>https://chouj.github.io/253/</guid>
-      <description>眼红于武大的博客聚合，在网络上苦搜RSS聚合程序。发现武大的是通过基于ASP的SXNA构架的，OK，PHP下一定也有一样的程序，果不其然被我搞到手，呵呵。捣腾这些东西貌似有一种蹂躏的快感，嗯，名曰天生BT。
- 先入眼的就是这个Lilina，辉常好听的名字,需要 php4.3 + mbstring iconv支持，这里就是拿这玩意儿架的。试装一遍，木成功，估计是支持不够。后来发现其发育不良，主题插件都不完善，技术支持也基本没有。八成是日落西山，门前冷落了。再度寻觅ing。
-Gregarius
-马上，这玩意儿入眼了。随便介绍一下哈，Gregarius基本可以当作是自己架的抓虾，想看例子的到这里。主要缺陷是对中文的支持不大好，即便是汉化版，目前我正在四处求教中，拟解决一些中文显示的问题。
-最后倒是又听说还有个Feedonfeeds的聚合程序，不知道咋样，貌似Riku用过。先记这么多。</description>
+      <description>&lt;p&gt;&lt;span style=&#34;font-size:180%;&#34;&gt;眼&lt;/span&gt;红于武大的&lt;a href=&#34;https://www.whublog.com/&#34;&gt;&lt;span style=&#34;font-weight: bold;&#34;&gt;博客聚合&lt;/span&gt;&lt;/a&gt;，在网络上苦搜RSS聚合程序。发现武大的是通过基于ASP的&lt;a href=&#34;https://www.sxna.cn/&#34;&gt;SXNA&lt;/a&gt;构架的，OK，PHP下一定也有一样的程序，果不其然被我搞到手，呵呵。捣腾这些东西貌似有一种蹂躏的快感，嗯，名曰天生BT。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -279,16 +275,21 @@ Gregarius
       <pubDate>Sun, 29 Apr 2007 09:00:00 +0000</pubDate>
       
       <guid>https://chouj.github.io/251/</guid>
-      <description>尊敬的Feedsky用户您好：
-您的广告收入已经支付到您的相应帐户，请注意查收。
-如在使用过程中碰到问题或有意见建议，欢迎您随时与我们的客服联系。
-Feedsky广告团队祝您使用愉快
-Feedsky团队敬上
-Feedsky.com ©2007 All Rights Reserved  不是我不明白，是时代变化快！写几百个字就能拿到相当一件廉价T恤的收入，看来我可以充分实现T恤的自给自足：线上收钱，线上订货，线上付账。这玩意儿要是告诉我妈，不知道她是该把我当疯子呢，还是会眼冒绿光杀进Blog圈？唉，其实，估计我告诉我身边的同学，都会有人把我当疯子呢。
-Pagerank最近又有所调整，我那没怎么打理的RSS相关居然从0窜到了3，着实让人匪夷所思，是不是说明主题Blog更有生命力？该有所侧重？
-Donews Blog的后台还是进不去，真是服了千橡门下这个超级2的站。
-帮导师改他们写的英语论文，头大，终于知道看不地道的英语是多么痛苦，估计积累下的语感怕是在这几天之内玩儿完了。残念～～
-CBN Forum上在讨论合租意向，如果成行的话，服务器是世纪互联的，和抓虾的服务器摆一个机房里，大概300米一年，凑不凑这个热闹呢？</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;尊敬的Feedsky用户您好：&lt;/p&gt;
+
+&lt;p&gt;您的广告收入已经支付到您的相应帐户，请注意查收。&lt;/p&gt;
+
+&lt;p&gt;如在使用过程中碰到问题或有意见建议，欢迎您随时与我们的&lt;a onclick=&#34;return top.js.OpenExtLink(window,event,this)&#34; href=&#34;https://faq.feedsky.com/&#34; target=&#34;_blank&#34;&gt;客服联系&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;Feedsky广告团队祝您使用愉快&lt;/p&gt;
+
+&lt;p&gt;Feedsky团队敬上&lt;/p&gt;
+
+&lt;p style=&#34;margin: 5px 25px 0px 30px; font-size: 11px;&#34;&gt;
+  &lt;a onclick=&#34;return top.js.OpenExtLink(window,event,this)&#34; href=&#34;https://www.feedsky.com/&#34; target=&#34;_blank&#34;&gt;Feedsky.com&lt;/a&gt; ©2007 All Rights Reserved
+&lt;/p&gt;
+&lt;/blockquote&gt;</description>
     </item>
     
     <item>
@@ -297,24 +298,23 @@ CBN Forum上在讨论合租意向，如果成行的话，服务器是世纪互�
       <pubDate>Tue, 10 Apr 2007 07:45:33 +0000</pubDate>
       
       <guid>https://chouj.github.io/720/</guid>
-      <description>本文写给第一次架站的朋友，老鸟请无视。
-有感于架这个blog时域名指定时的茫然，写点东西，尝试能有所解答，个人见解肯定有认识不足或出错之处，也请指教。
-先罗列几个我遇到的问题，如果您跟我一样困惑，说不定可以看看我要写的东西。
- 1、你分的清子域名、二级域名吗？比方blog.xuchi.name和xuchi.name/blog？
-2、域名服务商提供解析，空间服务商提供绑定，这些又该如何操作呢？
-3、想指定blog地址为blog.mysite.com该怎么操作？
-4、想指定blog地址为mysite.com/blog又该怎么操作？
- 网上教程很多，单介绍域名知识的有，单介绍虚拟主机的有，至于如上细节问题，很少见。以上几个问题可以算是对于初学者的盲点。
-解答问题一：
-其实二级域名就是子域名，像我这种计算机基础课学的不精的人，就被忽悠了。以前以为xxx.site.com是子域名、site.com/xxx是二级域名来着，但不是这样子的。二级域名（子域名）就是指一级域名（site.com）前面那部分，比如blog.site.com或mail.site.com。很多免费注册二级域名的站，就是拥有一级域名，比如yuming.com，然后开放xxx.yuming.com给用户注册。而site.com/xxx算是指向一级域名绑定目录下的子目录。更多域名知识可参考这里和这里，会很有帮助。
-解答问题二：
-这个问题涉及为什么要有域名，和域名如何工作的问题。简单来讲，只要知道网站服务器的ip，即可接入网站，域名只不过是为了方便记忆，记域名比记一串ip数字要容易的多。所以，解析、绑定，这两个词就是指域名和服务器ip之间的动作关系的。解析，指将域名指向某ip；绑定，指将空间ip和某域名捆绑映射。两者其实是一个意思。你买了域名，域名服务商的解析服务中，将有给域名添加A记录的设置，即添加域名指向的ip。你买了空间，开通空间时，会要求填入所绑定的域名，同时会提示要求您将域名解析到空间服务器的ip地址。不过，一般空间支持将子目录绑定到子域名，这是域名解析做不到的。
-解答问题三、四：
-一起答，因为要视不同情况而定。以xuchi.name和WP程序为例。
-首先想好，你需要的blog地址是什么样的，xuchi.name？www.xuchi.name？blog.xuchi.name？还是xuchi.name/blog/？
-一般都会将WP安装程序放在根目录里的一个文件夹下，比方直接将wordpress文件夹上传到public_htm目录下（很多教程都是这么写的，所以这样做的人肯定不少），即public_htm/wordpress/，装完WP程序，默认blog地址是http://绑定的域名/wordpress/。不要求地址为&amp;#8230;/blog/的话，直接从域名解析上设定地址。添加域名A记录时，_____.xuchi.name的空格，不填则地址为http://xuchi.name；填www，则地址为http://www.xuchi.name，此时http://xuchi.name会默认解析到http://www.xuchi.name；填blog则地址为http://blog.xuchi.name。所以，想好了你的blog地址，再提交，免得日后更改麻烦。前文地址中出现的“绑定的域名”，就看你解析到空间ip的域名是什么了，可以是xuchi.name/wordpress/，也可以是www.xuchi.name/wordpress/。然后要将wordpress文件夹下的index.php复制到public_htm目录下，同时在wordpress后台“选项”-&amp;gt;“常规”中将blog网址区别于其安装目录，填写你要的blog地址。此后你通过解析的地址即可访问blog了，而不用在后面挂上/wordpress/。
-如果你需要blog地址为xuchi.name/blog/，这样的好处是xuchi.name可指向一个index.html页面作为个人首页。那么，最好在上传WP程序时，就把wordpress文件夹更名为blog，即上传后为public_htm/blog/。这样建立的WP程序，默认WP安装目录为http://绑定的域名/blog/，Blog默认网址亦为http://绑定的域名/blog/。如果还想启用blog.xuchi.name，则在域名解析时，可以将blog.xuchi.name指向空间ip，然后在空间服务的子域名绑定中，将blog.xuchi.name绑定到public_htm/blog/目录,默认规则是xxx.xuchi.name绑定到public_htm/xxx/目录。
-以上都是我在架站后的一点收获，不知道说清楚没有，对初次架站的朋友能有所帮助，提供点参考价值就行。</description>
+      <description>&lt;p&gt;本文写给第一次架站的朋友，老鸟请无视。&lt;/p&gt;
+
+&lt;p&gt;有感于架这个blog时域名指定时的茫然，写点东西，尝试能有所解答，个人见解肯定有认识不足或出错之处，也请指教。&lt;/p&gt;
+
+&lt;p&gt;先罗列几个我遇到的问题，如果您跟我一样困惑，说不定可以看看我要写的东西。&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;1、你分的清子域名、二级域名吗？比方blog.xuchi.name和xuchi.name/blog？&lt;/p&gt;
+
+&lt;p&gt;2、域名服务商提供解析，空间服务商提供绑定，这些又该如何操作呢？&lt;/p&gt;
+
+&lt;p&gt;3、想指定blog地址为blog.mysite.com该怎么操作？&lt;/p&gt;
+
+&lt;p&gt;4、想指定blog地址为mysite.com/blog又该怎么操作？&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;网上教程很多，单介绍域名知识的有，单介绍虚拟主机的有，至于如上细节问题，很少见。以上几个问题可以算是对于初学者的盲点。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -323,25 +323,7 @@ CBN Forum上在讨论合租意向，如果成行的话，服务器是世纪互�
       <pubDate>Tue, 20 Mar 2007 14:17:00 +0000</pubDate>
       
       <guid>https://chouj.github.io/235/</guid>
-      <description>上一篇是给GFW挠痒痒，结果丫狮子大张口吞了整个blogspot国度，害得本应欣欣向荣、如火如荼的google blogger中国用户群被当头被泼了一盆冷水，煞是凄惨。
-抽丫的筋儿：以下渠道尚可正常访问和交流：
-http://www.inblogs.net/xcchris/
-http://www.pkblogs.com/xcchris/
-这两个地址，可正常访问和评论。将xcchris改为您自己的，亦即可访问您自己的blogger。
-或者更改本地host文件，路径为系统安装盘/windows/system32/drives/etc/hosts，以记事本打开，添加如下类似文本：
-
-72.14.219.190 beta.blogger.com
-72.14.219.190 dugangs.blogspot.com
-72.14.219.190 sz-iris.blogspot.com
-72.14.219.190 liubinjob.blogger.com
-72.14.219.190 mylovegarden.blogspot.com
-72.14.219.190 ggpi.blogspot.com
-72.14.219.190 chenbo.blogspot.com
-72.14.219.190 xcchris.blogspot.com
-72.14.219.190 allofrss.blogspot.com
-保存后，即可访问您所添加的blog。
-抽丫的筋儿的rss feed地址：http://feed.feedsky.com/chrischou,feed保持正常输出，可用订阅工具查看。
-与GFW斗，其乐无穷啊！</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://xcchris.blogspot.com/2007/03/blog-post_19.html&#34;&gt;&lt;span style=&#34;font-size:180%;&#34;&gt;&lt;span style=&#34;font-weight: bold;&#34;&gt;上&lt;/span&gt;&lt;/span&gt;一篇&lt;/a&gt;是给GFW挠痒痒，结果丫狮子大张口吞了整个blogspot国度，害得本应欣欣向荣、如火如荼的google blogger中国用户群被当头被泼了一盆冷水，煞是凄惨。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -350,11 +332,7 @@ http://www.pkblogs.com/xcchris/
       <pubDate>Tue, 13 Mar 2007 14:26:00 +0000</pubDate>
       
       <guid>https://chouj.github.io/231/</guid>
-      <description>最近，借由MyBlogLog的统计发现，基本每天我的两个blog都有从keso那里过来的流量，一时挺惊讶。我没在他那里附链接留言，他也不大可能写个链接指向我的博客。
-一番小小调查，还真发现我和keso攀上了关系，在他的博客上找到了我的链接，虽然这个链接是由机器生成，keso是被动和不知情的。究其原因，一个widget帮了我这个忙，帮keso挂上了我的友情链接。
-
-AutoRoll，我和keso都在博客上加载了这一widget，而其功能就是自动搭建blog的链接桥梁，跟MyBlogLog差不多，机器帮你做互动。条件很简单：都使用此widget，blog内容相关。但我的内容和keso的一点都不相似嘛，为什么可以在Autoroll上互链了呢？这是因为目前使用这一widget的中文blog还不够多，只要拿中文写的blog基本都被机器认为是相关的了。我就这么堂而皇之的骗到了keso的一点点流量。
-如果有朋友跟我一样，被芝麻利益冲昏了头，想攀龙附凤，鸡犬升天的话，不妨尽快一试。时机过了，恐怕只能在AutoRoll上和我互链了，呵呵，可惜我这里日流量才两位数。对于keso，不好意思拿你这杆大旗说事啦。</description>
+      <description>&lt;p&gt;&lt;span style=&#34;font-size:180%;&#34;&gt;&lt;span style=&#34;font-weight: bold;&#34;&gt;最&lt;/span&gt;&lt;/span&gt;近，借由&lt;a href=&#34;https://www.mybloglog.com/&#34; target=&#34;_blank&#34;&gt;MyBlogLog&lt;/a&gt;的统计发现，基本每天我的两个blog都有从&lt;a href=&#34;https://blog.donews.com/keso&#34; target=&#34;_blank&#34;&gt;keso&lt;/a&gt;那里过来的流量，一时挺惊讶。我没在他那里附链接留言，他也不大可能写个链接指向我的博客。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -363,21 +341,7 @@ AutoRoll，我和keso都在博客上加载了这一widget，而其功能就是�
       <pubDate>Mon, 26 Feb 2007 07:54:00 +0000</pubDate>
       
       <guid>https://chouj.github.io/227/</guid>
-      <description>伴随网络上一大票儿标榜2.0网站的兴起，咱要是像Daodao一样挨个尝鲜的话，估计光注册填表格就得耗去大把的时间，而OpenID就是为了解决这种“超负荷注册”现象应运而生的。虽然目前支持OpenID的站点还不多，但随着巨人微软开始一点点支持OpenID，OpenID也许将成为潮流趋势。我也是听着这个词儿挺新鲜的，就去弄了个ID玩玩，顺便抢个好记的用户名，:-P
-到底OpenID怎么作用？上段那链接的新闻里写的好：
- 一旦你建立起你的用户信息后，当你需要登陆一个新的站点时，它能将其指向你存放信息的站点。这个存放注册信息站点将会把你的用户资料发送给你要注册的新站点，从而使其知道你是谁并让你顺利登陆。
- 打个比方，如果说Internet是个游乐场，一个一个的站点就是这游乐场里的景区。有了OpenID，就像有了通票，一张票，您可以逛遍各个景区；没有的话，您就只有挨个景区买通行证了。其实只要您是Google的用户，应该对这个方法并不陌生。Google这个大景区里，有Reader、Pages、Picasa、Docs、Orkut等等诸多小游戏，只要您是Google的注册用户，凭借Gmail地址，您就可以玩遍小游戏，这其实跟OpenID的用途是一样的。
-您要是还不懂OpenID，可以参看前文和这张wiki页。
-那到哪里弄个OpenID呢？给出以下两个发布站点：MyOpenID 、。前者注册到的OpenID形式为username.myopenid.com，后者则为getopenid.com/username。
-另外，ClaimID.com，也提供OpenID申请，只要普通申请的用户，即给出一个claimid.com/username的url，这个url可作为您的OpenID。但该站主要功能是，其给出的url页面是个可编辑页面，在这个页面里，您可以加载一切与您有关的链接，比方blog、QQzone、digg之类。并可生成一个链接logo添加到您的博客中去，比如我的。前文提到的FreeYourID.com不是专门发放OpenID的站点，而且配送的ID只能3个月试用，其给出的OpenID形式则为firstname.lastname.name。
-有了OpenID，到哪里去试试呢？这里有个OpenID Site Directory，但平常可用的，支持OpenID的站点不多（YY下，要是Yahoo和Google也开始支持OpenID就爽歪歪了），第一次试用，就用OpenID登录ClaimID.com好了。奇怪的是，Directory里有,但在该站的Claim Blog服务里，只见到了Quick Claim、Post Claim 、Embedded Claim ，却没有OpenID Claim（见其blog post：Blog Claiming with OpenId）。还是不过分纠缠了，如此伟大的站点已经被GFW挡在外面，顺带宣传下keso的广告语：操GFW记得带Tor。
-OK，关于OpenID的科普普及完毕，换点name域名上场。
-.name可是目前18个顶级域名之一，wiki上写的是“.name &amp;#8211; for families and individuals”，是架设个人博客的首选域名啊。不过，世界上同名同姓之人如此之多，想抢得一个如意的个人域名，必将又是一场腥风血雨，动心的赶紧动手吧。
-FreeYourID.com就给了大家一个享用.name域名的机会，虽然只有90天免费期，但我还是申请了一个尝尝鲜。大家输入这个地址http://www.xu.chi.name，现在它指向本博客；大家发邮件到xu在chi.name，就将转交到我的Gmail邮箱。90天内，这两个地址就属于我了，您要是也叫Xu Chi，就只能屈就www.x.chi.name或www.xu.c.name之类的域名了。
-偷偷告诉您，没准儿90天后，我再把这个域名注回来，:-P
-Update:刚收到一封自动email，来自freeyourid.com,署名Hakon Haugnes，Global Name Registry，部分内容如下：
- If you are unsure about how OpenID works, Simon Willison has a great introductory video on OpenID on his blog http://simonwillison.net/2006/openid-screencast/
- 这个链接里的视频相当的赞，非常详细的讲解了OpenID的使用方法，相信看过都能懂！</description>
+      <description>&lt;p&gt;&lt;span style=&#34;font-size:180%;&#34;&gt;&lt;span style=&#34;font-weight: bold;&#34;&gt;伴&lt;/span&gt;&lt;/span&gt;随网络上一大票儿标榜2.0网站的兴起，咱要是像&lt;a href=&#34;https://daodao.org/&#34; target=&#34;_blank&#34;&gt;Daodao&lt;/a&gt;一样挨个尝鲜的话，估计光注册填表格就得耗去大把的时间，而OpenID就是为了解决这种“超负荷注册”现象应运而生的。虽然目前支持OpenID的站点还不多，但随着&lt;a href=&#34;https://news.mydrivers.com/pages/20070207102608_53905.htm&#34; target=&#34;_blank&#34;&gt;巨人微软开始一点点支持OpenID&lt;/a&gt;，OpenID也许将成为潮流趋势。我也是听着这个词儿挺新鲜的，就去弄了个ID玩玩，顺便抢个好记的用户名，:-P&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -395,21 +359,9 @@ Update:刚收到一封自动email，来自freeyourid.com,署名Hakon Haugnes，G
       <pubDate>Mon, 12 Feb 2007 13:21:00 +0000</pubDate>
       
       <guid>https://chouj.github.io/221/</guid>
-      <description>心里一直认为，以feed合烧为技术支撑搭建博客圈平台，让每个blogger都可以打造自己的博客群落，是一项很2.0很in的服务。所以当Feedsky博客圈出现的时候，我再次感受到了技术带来的快乐。当然，我这草民没有Feedsky博客圈的划圈儿权，但在网上误打误撞中，发现了这个博客圈，试用报告如下。
-动作
-划了个襄樊四中03届高三六班博客圈儿，这里是合烧feed地址。可以预想，博客圈将成为班级交流的另一崭新阵地。
-特点
-每个用户的划圈儿数目不限；支持blog posts、评论、留言审核，即圈主享有posts、评论和留言的生杀大权。所建圈子支持分类，支持tag，支持圈子名称更改和圈子简介，支持圈子头像。莫名的是：有分类有tag，就是没见圈子搜索，没见所有分类页面，没见所有tags页面。
-每个圈子有自己的二线域名，比如高三六班博客圈儿；圈子支持公告，支持圈主随时加入new blogger，支持申请加入（即提交feed，要圈主审核），每篇post支持网友评论（不需注册），支持给圈主留言。
-采取添加feed的方式添加圈子博友。
-每个加入圈子的feed，支持头像，支持blog名称更改，支持博主名称更改，支持单blog独立页面（比如这里）。
-另外，既然feed合烧了，那么就不用将所有博客挨个订阅，仅订此一个feed即可。在当今feed蒲公英满天飞的年代，这个优点还是很实在的。
-BUG报告
-1、添加feed后，编辑博客网址的输入框中，可输入字符长度不够，看过源代码，maxlength=&amp;#8221;20&amp;#8243;，20完全不够。直接后果即输入不全，导致此页右侧blog链接为“http://xcchris.blogs”。
-2、同一feed，加入不同圈子，则在后加的圈子中，显示不出post。比如我后建的物理0301圈子，加入我自己的feed后，没有posts显示。这个伤很致命，但愿不是试用时我这里出的什么问题。
-看的出，这里才诞生不久，博客圈论坛里没有一个帖子。不过，这仍是前途无量的web service，至少我看好。我把我的试用报告mail给对方了，期待完善，期待搭配圈子搜索，继续关注之。
-同时YY一下，Feedsky的博客圈什么时候下放用户创建的功能呢？
-Update：纠正下BUG 2。同一feed，加入其他圈子，则不能即时显示出post，一定反应时间（时间还挺长）后才能显示出来。这样就还好，不算致命，但还是改之为妙。</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.blop.cn/&#34; target=&#34;_blank&#34; onblur=&#34;try {parent.deselectBloggerImageGracefully();} catch(e) {}&#34;&gt;&lt;img style=&#34;cursor: pointer; width: 200px;&#34; src=&#34;https://www.blop.cn/images/logo.gif&#34; border=&#34;0&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&#34;font-size:180%;&#34;&gt;&lt;span style=&#34;font-weight: bold;&#34;&gt;心&lt;/span&gt;&lt;/span&gt;里一直认为，以feed合烧为技术支撑搭建博客圈平台，让每个blogger都可以打造自己的博客群落，是一项很2.0很in的服务。所以当&lt;a href=&#34;https://beta.feedsky.com/fn_class.html&#34; target=&#34;_blank&#34;&gt;Feedsky博客圈&lt;/a&gt;出现的时候，我再次感受到了技术带来的快乐。当然，我这草民没有&lt;a href=&#34;https://beta.feedsky.com/fn_class.html&#34; target=&#34;_blank&#34;&gt;Feedsky博客圈&lt;/a&gt;的划圈儿权，但在网上误打误撞中，发现了这个&lt;a href=&#34;https://www.blop.cn/&#34; target=&#34;_blank&#34;&gt;博客圈&lt;/a&gt;，试用报告如下。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -418,23 +370,9 @@ Update：纠正下BUG 2。同一feed，加入其他圈子，则不能即时显�
       <pubDate>Thu, 08 Feb 2007 15:24:00 +0000</pubDate>
       
       <guid>https://chouj.github.io/219/</guid>
-      <description>算是提前一学期离校，自己把铺盖衣物打包寄回家，昨天收到了，也提醒我写点经验总结以备他人查用。最好的希望是，毕业时学校和运输部门把托运统一包办了，那基本就用不着我废劲敲字，多好。
-在网上搜罗了一阵，严重参考了这个贴，获知托运包括两种方式，一种是包裹寄送，一种是行李托运。我采用了第一种，不过对第二种还是有发贴（帖1贴2）调查，先把我所知的写出来：
-行李托运注意事项
-1、在火车站托运处办理；
-2、要车票，若没有，会加价；
-3、可提前几天办理，可办理随车托运；
-4、计费标准：重量和行程距离；
-5、可托运电脑，但无附带泡沫的外包装，将要求打箱，并收取额外费用。
-因为我没有采用行李托运这一操作，所以像费用的清算细节，与包裹寄送相比孰贵孰便宜，我就无从告知了。而我选用第一种的首要原因，即是我所在的学校和火车站距离太远，但包裹托运可以到最近的邮局办理。以下是我在邮局办理包裹寄送的详细流程。
-1、由于是衣物被褥，所以我买了编织袋，打包放入袋中。考虑到邮政部门可能会清验包裹，所以我没有在编织袋外捆绑打包，或者密封，仅仅拉紧了编织袋拉链，运到邮局。
-2、邮局工作人员并没有如我所料清验包裹，只是询问了包内物件的种类，比如，是否全是衣物，是否有夹带书籍。可能与校内邮局办事积于对学生的信任有关，他们才没检查，但制度上确实要求这步骤，为了好订价（书籍的话，会贵些）。所以我建议运至邮局前，最好不要把包裹密封。不同地方的邮政部门应该有不一样的办事标准，提醒大家要灵活应对。
-3、交了1元钱，买了一块膏药样的贴布（以前医院固定点滴针头贴手上的那种，现在绝迹了）和缝编织袋的线，贼贵啊。贴布上写好收件人和寄件人的地址邮编姓名，贴在包裹一侧；拿针线再把编织袋的拉链条缝上一道，很粗的那种针线，比较好缝，简易密封。
-4、买包裹单，填好收件人寄件人的那些信息和是否保价之类。
-5、过秤，我的包裹重27公斤。
-6、选择邮寄方式，有慢件、快件、特快专递三种。慢件最多两周，快件一个礼拜之内，特快的两天寄到；价钱自然由低到高。我选了慢件，由武汉寄往襄樊，计价28元，基本上一公斤一元。计费标准跟物品易损程度、重量、邮寄方式、寄送距离有关。
-7、2月9日才去领取的包裹，因为包裹单到的晚，要携带身份证，至少要填领取人身份证号码。一看邮戳，1月29日办理的，2月1日寄到的，说明慢件不算慢。当然，不同地点不同的邮政服务，慢件的邮寄时间也肯定不同，切莫一概而论。
-纯属我个人的经验，不同地方会有所出入，但希望能有用。</description>
+      <description>&lt;p&gt;&lt;span style=&#34;font-size: 180%; color: #666666;&#34;&gt;&lt;span style=&#34;font-weight: bold;&#34;&gt;算&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;color: #666666;&#34;&gt;是提前一学期离校，自己把铺盖衣物打包寄回家，昨天收到了，也提醒我写点经验总结以备他人查用。最好的希望是，毕业时学校和运输部门把托运统一包办了，那基本就用不着我废劲敲字，多好。&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&#34;font-size:180%;&#34;&gt;&lt;br /&gt; &lt;span style=&#34;font-weight: bold;&#34;&gt;在&lt;/span&gt;&lt;/span&gt;网上搜罗了一阵，严重参考了&lt;a href=&#34;https://bbs.ly321.com/dispbbs.asp?BoardID=2&amp;id=532&#34; target=&#34;_blank&#34;&gt;这个贴&lt;/a&gt;，获知托运包括两种方式，一种是&lt;span style=&#34;font-weight: bold;&#34;&gt;包裹寄送&lt;/span&gt;，一种是&lt;span style=&#34;font-weight: bold;&#34;&gt;行李托运&lt;/span&gt;。我采用了第一种，不过对第二种还是有发贴（&lt;a href=&#34;https://www.douban.com/group/topic/1413175/&#34; target=&#34;_blank&#34;&gt;帖1&lt;/a&gt;&lt;a href=&#34;https://www.douban.com/group/topic/1413181/&#34; target=&#34;_blank&#34;&gt;贴2&lt;/a&gt;）调查，先把我所知的写出来：&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -443,9 +381,7 @@ Update：纠正下BUG 2。同一feed，加入其他圈子，则不能即时显�
       <pubDate>Sun, 04 Feb 2007 13:13:00 +0000</pubDate>
       
       <guid>https://chouj.github.io/216/</guid>
-      <description>Logo for MARS，还是放假前的作业。想不到什么可指代喻示的物件，就拿字母和圆球（来拍我吧，我把这个蓝色球当火星）敷衍了，仿web 2.0 logo的，因为参照了以下两篇东西：2007年标志设计趋势代码，Web2.0 Logo聚合及相关字体下载。
-二元色，反射效果（最好模仿），Balcony Angels字体（郁闷的是，上述第二篇文字介绍的字体要付费下载 &amp;#8211; -||），本想以暖色系寓意火星的，但为配合blog技术流的风格，还是冷色居多了。最后要说，这个gif可能不符合当初的大小要求，要更改的话，Mars同学直接交代就是了。
-**** **** {.ContentTitle}</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://bp3.blogger.com/_2MqU1LfBbeM/RcXc1so2PeI/AAAAAAAAACE/KmwoY7y2YVc/s1600-h/mars-logo.gif&#34; onblur=&#34;try {parent.deselectBloggerImageGracefully();} catch(e) {}&#34;&gt;&lt;img id=&#34;BLOGGER_PHOTO_ID_5027667374102691298&#34; style=&#34;cursor: pointer;&#34; src=&#34;https://bp3.blogger.com/_2MqU1LfBbeM/RcXc1so2PeI/AAAAAAAAACE/KmwoY7y2YVc/s320/mars-logo.gif&#34; border=&#34;0&#34; alt=&#34;&#34; align=&#34;left&#34; /&gt;&lt;/a&gt;&lt;span style=&#34;font-size:180%;&#34;&gt;&lt;span style=&#34;font-weight: bold;&#34;&gt;L&lt;/span&gt;&lt;/span&gt;ogo for &lt;a href=&#34;https://marsyan.yculblog.com/&#34; target=&#34;_blank&#34;&gt;MARS&lt;/a&gt;，还是放假前的作业。想不到什么可指代喻示的物件，就拿字母和圆球（来拍我吧，我把这个蓝色球当火星）敷衍了，仿web 2.0 logo的，因为参照了以下两篇东西：&lt;a href=&#34;https://www.chinaui.com/news/newsInfo.aspx?ARTICLE_ID=1860&#34; target=&#34;_blank&#34;&gt;2007年标志设计趋势代码&lt;/a&gt;，&lt;a href=&#34;https://daodao.org/article.asp?id=119&#34; target=&#34;_blank&#34;&gt;Web2.0 Logo聚合及相关字体下载&lt;/a&gt;。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -454,15 +390,15 @@ Update：纠正下BUG 2。同一feed，加入其他圈子，则不能即时显�
       <pubDate>Tue, 09 Jan 2007 02:31:00 +0000</pubDate>
       
       <guid>https://chouj.github.io/210/</guid>
-      <description>每个收录在豆瓣“我上”里的博客，可以有其自己的logo，配合简介说明，醒目而个性。开动PS画了两个：一是应麦子所托，给他的射手座的箭之所向；一是单纯给自己。
+      <description>&lt;p&gt;&lt;span style=&#34;font-size:180%;&#34;&gt;&lt;span style=&#34;font-weight: bold;&#34;&gt;每&lt;/span&gt;&lt;/span&gt;个收录在&lt;a href=&#34;https://www.douban.com/&#34; target=&#34;_blank&#34;&gt;豆瓣&lt;/a&gt;“我上”里的博客，可以有其自己的logo，配合简介说明，醒目而个性。开动PS画了两个：一是应麦子所托，给他的&lt;a href=&#34;https://manonfire.yculblog.com/&#34; target=&#34;_blank&#34;&gt;射手座的箭之所向&lt;/a&gt;；一是单纯给自己。&lt;/p&gt;
 
-搜到这个图，就知道该怎么处理了：麦子、箭、笔，三元素的交融，付之以热血与坚毅的红黄黑。
+&lt;p&gt;&lt;a href=&#34;https://bp3.blogger.com/_2MqU1LfBbeM/RaMF2zf33QI/AAAAAAAAABI/LBeV2wyse1M/s1600-h/u%3D2467558835,331480980%26gp%3D0.jpg&#34; onblur=&#34;try {parent.deselectBloggerImageGracefully();} catch(e) {}&#34;&gt;&lt;img id=&#34;BLOGGER_PHOTO_ID_5017860848915832066&#34; style=&#34;margin: 0pt 10px 10px 0pt; cursor: pointer;&#34; src=&#34;https://bp3.blogger.com/_2MqU1LfBbeM/RaMF2zf33QI/AAAAAAAAABI/LBeV2wyse1M/s400/u%3D2467558835,331480980%26gp%3D0.jpg&#34; border=&#34;0&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-听取麦子的建议，舍弃对称，再度雕琢至：笔自有其角度与力度，箭自有其昂扬与凌厉。
+&lt;p&gt;&lt;span style=&#34;font-size:180%;&#34;&gt;&lt;span style=&#34;font-weight: bold;&#34;&gt;搜&lt;/span&gt;&lt;/span&gt;到这个图，就知道该怎么处理了：麦子、箭、笔，三元素的交融，付之以热血与坚毅的红黄黑。&lt;/p&gt;
 
-话说到这份儿上，自不用掩饰我的愉悦：07年开篇即有得意之作，虽然技术上没什么含量，诚然贵在创意。
+&lt;p&gt;&lt;a href=&#34;https://bp0.blogger.com/_2MqU1LfBbeM/RaMTuDf33RI/AAAAAAAAABU/8WmF59FNxLA/s1600-h/%E5%B0%84%E6%89%8B.gif&#34; onblur=&#34;try {parent.deselectBloggerImageGracefully();} catch(e) {}&#34;&gt;&lt;img id=&#34;BLOGGER_PHOTO_ID_5017876091754765586&#34; style=&#34;margin: 0pt 10px 10px 0pt; cursor: pointer;&#34; src=&#34;https://bp0.blogger.com/_2MqU1LfBbeM/RaMTuDf33RI/AAAAAAAAABU/8WmF59FNxLA/s320/%E5%B0%84%E6%89%8B.gif&#34; border=&#34;0&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-这个标志更没什么技术含量，玩了一把汉字与字母结合的小把戏，而且结合的生硬了。</description>
+&lt;p&gt;&lt;span style=&#34;font-size:180%;&#34;&gt;&lt;span style=&#34;font-weight: bold;&#34;&gt;听&lt;/span&gt;&lt;/span&gt;取麦子的建议，舍弃对称，再度雕琢至：笔自有其角度与力度，箭自有其昂扬与凌厉。&lt;/p&gt;</description>
     </item>
     
     <item>
