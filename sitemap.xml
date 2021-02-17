@@ -8,13 +8,54 @@
   </url>
   
   <url>
-    <loc>https://xuchi.name/categories/</loc>
-    <lastmod>2020-03-08T21:36:32+08:00</lastmod>
+    <loc>https://xuchi.name/posts/</loc>
+    <lastmod>2021-02-17T10:07:43+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://xuchi.name/posts/</loc>
+    <loc>https://xuchi.name/tags/</loc>
+    <lastmod>2021-02-17T10:07:43+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://xuchi.name/tags/%E5%9C%A8%E7%BA%BF/</loc>
+    <lastmod>2021-02-17T10:07:43+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://xuchi.name/tags/%E5%AD%A6%E6%9C%AF%E6%8A%A5%E5%91%8A/</loc>
+    <lastmod>2021-02-17T10:07:43+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://xuchi.name/</loc>
+    <lastmod>2021-02-17T10:07:43+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://xuchi.name/tags/%E6%B5%B7%E6%B4%8B%E5%AD%A6/</loc>
+    <lastmod>2021-02-17T10:07:43+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://xuchi.name/tags/%E8%81%9A%E5%90%88/</loc>
+    <lastmod>2021-02-17T10:07:43+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://xuchi.name/posts/oceanography-webinar-aggregator/</loc>
+    <lastmod>2021-02-17T10:07:43+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xuchi.name/categories/</loc>
     <lastmod>2020-03-08T21:36:32+08:00</lastmod>
     <priority>0</priority>
   </url>
@@ -32,12 +73,6 @@
   </url>
   
   <url>
-    <loc>https://xuchi.name/tags/</loc>
-    <lastmod>2020-03-08T21:36:32+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://xuchi.name/tags/xml/</loc>
     <lastmod>2020-03-08T21:36:32+08:00</lastmod>
     <priority>0</priority>
@@ -45,12 +80,6 @@
   
   <url>
     <loc>https://xuchi.name/tags/matlab/</loc>
-    <lastmod>2020-03-08T21:36:32+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://xuchi.name/</loc>
     <lastmod>2020-03-08T21:36:32+08:00</lastmod>
     <priority>0</priority>
   </url>
@@ -126,12 +155,6 @@
   
   <url>
     <loc>https://xuchi.name/tags/%E6%97%A5%E5%8E%86/</loc>
-    <lastmod>2019-09-09T22:44:53+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://xuchi.name/tags/%E6%B5%B7%E6%B4%8B%E5%AD%A6/</loc>
     <lastmod>2019-09-09T22:44:53+08:00</lastmod>
     <priority>0</priority>
   </url>
