@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
-    <lastBuildDate>Mon, 29 Aug 2022 15:32:45 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 31 Aug 2022 15:32:45 +0800</lastBuildDate>
     
 	<atom:link href="https://chouj.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>南海-西太各深度层涡旋边界识别和三维可视化示例</title>
+      <link>https://chouj.github.io/posts/3d-eddy-detection-and-visualization/</link>
+      <pubDate>Wed, 31 Aug 2022 15:32:45 +0800</pubDate>
+      
+      <guid>https://chouj.github.io/posts/3d-eddy-detection-and-visualization/</guid>
+      <description>&lt;p&gt;最近尝试了基于三维海洋温盐和海表高度数据，进行各深度上涡旋边界的识别和可视化。套路和基于卫星遥感海表资料的识别方法一样，无非海表高度换成水压（分巴）。垂直方向同一个涡旋的判据也按最简单的来，即相邻深度层上闭合水压等值线圈起来的面积有重叠即可。识别不新鲜也不费劲，新鲜且费劲的其实是可视化的部分。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>今日南海涡旋播报的最近更新</title>
