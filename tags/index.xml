@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
-    <lastBuildDate>Wed, 31 Aug 2022 15:32:45 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 03 Jun 2023 15:32:45 +0800</lastBuildDate>
     
 	<atom:link href="https://chouj.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,9 +15,63 @@
     <item>
       <title>matlab</title>
       <link>https://chouj.github.io/tags/matlab/</link>
-      <pubDate>Wed, 31 Aug 2022 15:32:45 +0800</pubDate>
+      <pubDate>Sat, 03 Jun 2023 15:32:45 +0800</pubDate>
       
       <guid>https://chouj.github.io/tags/matlab/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>中尺度涡</title>
+      <link>https://chouj.github.io/tags/%E4%B8%AD%E5%B0%BA%E5%BA%A6%E6%B6%A1/</link>
+      <pubDate>Sat, 03 Jun 2023 15:32:45 +0800</pubDate>
+      
+      <guid>https://chouj.github.io/tags/%E4%B8%AD%E5%B0%BA%E5%BA%A6%E6%B6%A1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>信息提取</title>
+      <link>https://chouj.github.io/tags/%E4%BF%A1%E6%81%AF%E6%8F%90%E5%8F%96/</link>
+      <pubDate>Sat, 03 Jun 2023 15:32:45 +0800</pubDate>
+      
+      <guid>https://chouj.github.io/tags/%E4%BF%A1%E6%81%AF%E6%8F%90%E5%8F%96/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>南海</title>
+      <link>https://chouj.github.io/tags/%E5%8D%97%E6%B5%B7/</link>
+      <pubDate>Sat, 03 Jun 2023 15:32:45 +0800</pubDate>
+      
+      <guid>https://chouj.github.io/tags/%E5%8D%97%E6%B5%B7/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>数据挖掘</title>
+      <link>https://chouj.github.io/tags/%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98/</link>
+      <pubDate>Sat, 03 Jun 2023 15:32:45 +0800</pubDate>
+      
+      <guid>https://chouj.github.io/tags/%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>海洋学</title>
+      <link>https://chouj.github.io/tags/%E6%B5%B7%E6%B4%8B%E5%AD%A6/</link>
+      <pubDate>Sat, 03 Jun 2023 15:32:45 +0800</pubDate>
+      
+      <guid>https://chouj.github.io/tags/%E6%B5%B7%E6%B4%8B%E5%AD%A6/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>科研</title>
+      <link>https://chouj.github.io/tags/%E7%A7%91%E7%A0%94/</link>
+      <pubDate>Sat, 03 Jun 2023 15:32:45 +0800</pubDate>
+      
+      <guid>https://chouj.github.io/tags/%E7%A7%91%E7%A0%94/</guid>
       <description></description>
     </item>
     
@@ -31,47 +85,11 @@
     </item>
     
     <item>
-      <title>中尺度涡</title>
-      <link>https://chouj.github.io/tags/%E4%B8%AD%E5%B0%BA%E5%BA%A6%E6%B6%A1/</link>
-      <pubDate>Wed, 31 Aug 2022 15:32:45 +0800</pubDate>
-      
-      <guid>https://chouj.github.io/tags/%E4%B8%AD%E5%B0%BA%E5%BA%A6%E6%B6%A1/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>南海</title>
-      <link>https://chouj.github.io/tags/%E5%8D%97%E6%B5%B7/</link>
-      <pubDate>Wed, 31 Aug 2022 15:32:45 +0800</pubDate>
-      
-      <guid>https://chouj.github.io/tags/%E5%8D%97%E6%B5%B7/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>可视化</title>
       <link>https://chouj.github.io/tags/%E5%8F%AF%E8%A7%86%E5%8C%96/</link>
       <pubDate>Wed, 31 Aug 2022 15:32:45 +0800</pubDate>
       
       <guid>https://chouj.github.io/tags/%E5%8F%AF%E8%A7%86%E5%8C%96/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>海洋学</title>
-      <link>https://chouj.github.io/tags/%E6%B5%B7%E6%B4%8B%E5%AD%A6/</link>
-      <pubDate>Wed, 31 Aug 2022 15:32:45 +0800</pubDate>
-      
-      <guid>https://chouj.github.io/tags/%E6%B5%B7%E6%B4%8B%E5%AD%A6/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>科研</title>
-      <link>https://chouj.github.io/tags/%E7%A7%91%E7%A0%94/</link>
-      <pubDate>Wed, 31 Aug 2022 15:32:45 +0800</pubDate>
-      
-      <guid>https://chouj.github.io/tags/%E7%A7%91%E7%A0%94/</guid>
       <description></description>
     </item>
     
@@ -265,7 +283,7 @@
     </item>
     
     <item>
-      <title>Thingspeak</title>
+      <title>ThingSpeak</title>
       <link>https://chouj.github.io/tags/thingspeak/</link>
       <pubDate>Wed, 24 Jul 2019 11:09:24 +0800</pubDate>
       

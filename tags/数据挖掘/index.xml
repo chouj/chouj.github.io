@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>数据挖掘 on 抽筋儿的话语权</title>
+    <link>https://chouj.github.io/tags/%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98/</link>
+    <description>Recent content in 数据挖掘 on 抽筋儿的话语权</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
+    <lastBuildDate>Sat, 03 Jun 2023 15:32:45 +0800</lastBuildDate>
+    
+	<atom:link href="https://chouj.github.io/tags/%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>就像台风有编号、强度、轨迹一样，涡旋也可以</title>
+      <link>https://chouj.github.io/oceanic-eddy-trajectory-intensity-and-lifetime/</link>
+      <pubDate>Sat, 03 Jun 2023 15:32:45 +0800</pubDate>
+      
+      <guid>https://chouj.github.io/oceanic-eddy-trajectory-intensity-and-lifetime/</guid>
+      <description>&lt;p&gt;&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;中尺度涡的编号、强度定级可以仿照台风来实现。今年4月份至今，「&lt;a href=&#34;http://data.scsio.ac.cn/characteristic/zhongchiduwo&#34;&gt;今日南海涡旋播报&lt;/a&gt;」做了这一项新的尝试，开始测试&lt;strong&gt;涡旋编号、强度级别、生命期和轨迹&lt;/strong&gt;标示。也许不久的将来，强涡也可以得到命名，试想“强涡‘榴莲’正在影响南海北部：该暖涡生成于吕宋海峡以西，于昨日加强为强涡获得命名，成为今年第12号强涡，同时也是该海域海洋热浪的主推手……”见诸报端的那一刻多么有趣。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
