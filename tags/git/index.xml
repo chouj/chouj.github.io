@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Git on 抽筋儿的话语权</title>
+    <link>https://chouj.github.io/tags/git/</link>
+    <description>Recent content in Git on 抽筋儿的话语权</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
+    <lastBuildDate>Tue, 12 Sep 2023 10:32:45 +0800</lastBuildDate>
+    
+	<atom:link href="https://chouj.github.io/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Gitee 仓库容量超限后的偷懒处理办法</title>
+      <link>https://chouj.github.io/when-run-into-exceeding-git-repo-size-limit/</link>
+      <pubDate>Tue, 12 Sep 2023 10:32:45 +0800</pubDate>
+      
+      <guid>https://chouj.github.io/when-run-into-exceeding-git-repo-size-limit/</guid>
+      <description>&lt;p&gt;因为“&lt;a href=&#34;https://chouj.github.io/scs-eddies-today/&#34;&gt;今日南海涡旋播报&lt;/a&gt;”使用 Gitee 作为&lt;a href=&#34;https://gitee.com/oceanography/South-China-Sea-Mesoscale-Eddies-Today&#34;&gt;备用页面&lt;/a&gt;的缘故，加上 Git 本身作为版本管理工具会保留每次提交的内容，所以经常在一段时日之后，Gitee Repo 的容量就超过&lt;a href=&#34;https://help.gitee.com/repository/base/%E4%BB%93%E5%BA%93%E4%BD%93%E7%A7%AF%E8%BF%87%E5%A4%A7%EF%BC%8C%E5%A6%82%E4%BD%95%E5%87%8F%E5%B0%8F&#34;&gt;免费版本的限额&lt;/a&gt;了，造成自动提交失败。要解决这个问题，对这个项目来说可以“偷懒”。这是因为这个项目本身并不需要版本管理，所以&lt;strong&gt;“偷懒”&lt;/strong&gt;表示不需要留存历史版本，直接清库，然后重新生成 &lt;code&gt;.git&lt;/code&gt; ，重新提交完事。&lt;strong&gt;请看到本文的朋友们一定要留意这个前提！&lt;/strong&gt;以下记录一下，备查。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

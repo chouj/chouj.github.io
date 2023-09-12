@@ -7,10 +7,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
-    <lastBuildDate>Sat, 03 Jun 2023 15:32:45 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 12 Sep 2023 10:32:45 +0800</lastBuildDate>
     
 	<atom:link href="https://chouj.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Git</title>
+      <link>https://chouj.github.io/tags/git/</link>
+      <pubDate>Tue, 12 Sep 2023 10:32:45 +0800</pubDate>
+      
+      <guid>https://chouj.github.io/tags/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gitee</title>
+      <link>https://chouj.github.io/tags/gitee/</link>
+      <pubDate>Tue, 12 Sep 2023 10:32:45 +0800</pubDate>
+      
+      <guid>https://chouj.github.io/tags/gitee/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Repository</title>
+      <link>https://chouj.github.io/tags/repository/</link>
+      <pubDate>Tue, 12 Sep 2023 10:32:45 +0800</pubDate>
+      
+      <guid>https://chouj.github.io/tags/repository/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>matlab</title>
